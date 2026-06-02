@@ -186,7 +186,9 @@ async function main() {
 
     // Extract split times for long-distance races
     console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
-    await extractSplits(page, races, { log: () => {} });
+    await extractSplits(page, races, {
+      log: (msg) => console.log(`    ${msg}`),
+    });
 
     // Drop unwanted CSV columns, and null-valued ranking fields
     for (const r of races) {
