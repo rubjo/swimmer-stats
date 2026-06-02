@@ -134,16 +134,23 @@ async function main() {
   async function thisSwimmer(sw, selIdx) {
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
-    // Poll for grid rows to appear — adapts to actual response time
+    // Poll for grid rows to appear — adapts to actual response time.
+    // Checks both that the grid is NOT in a callback (InCallback = false)
+    // AND that it has rendered rows (data or empty).
     const gridReady = await pollFor(
       page,
       () => {
-        const table = document.getElementById("grdRanking_DXMainTable");
-        if (!table) return false;
-        return (
-          table.querySelector(".dxgvDataRow_PlasticBlue") !== null ||
-          table.querySelector(".dxgvEmptyDataRow") !== null
-        );
+        try {
+          if (grdRanking.InCallback()) return false;
+          const table = document.getElementById("grdRanking_DXMainTable");
+          if (!table) return false;
+          return (
+            table.querySelector(".dxgvDataRow_PlasticBlue") !== null ||
+            table.querySelector(".dxgvEmptyDataRow") !== null
+          );
+        } catch {
+          return false;
+        }
       },
       { interval: 200, timeout: 10_000 },
     );
