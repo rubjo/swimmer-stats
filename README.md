@@ -10,7 +10,7 @@ Designed to run daily via **GitHub Actions**, with the resulting data served on 
 1. Navigates to the swimmer page in a headless browser
 2. Configures filters:
    - ✅ **Kun lisensiert 2026** — only 2026-licensed swimmers
-   - **Fra dato** → `01.01.2000` — get complete history
+   - **Fra dato** → `01.01.2010` — races from 2010 onward
    - ❌ **Vis kun første resultat pr distanse** — show all attempts
    - ✅ **Ikke vis deldistanser (D)** — hides split-distance rows
    - ✅ **Ikke vis førsteetapper (F)** — hides first-leg relay rows
