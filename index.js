@@ -16,6 +16,7 @@ import {
   loadNextBatch,
   navigateAndFilter,
   extractSplits,
+  pollFor,
 } from "./lib/browser.js";
 
 /* ─── Config ─────────────────────────────────────────────────────── */
@@ -133,7 +134,19 @@ async function main() {
   async function thisSwimmer(sw, selIdx) {
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
-    await sleep(DELAY_SWIMMER + Math.random() * JITTER);
+    // Poll for grid rows to appear — much faster than a fixed sleep
+    await pollFor(
+      page,
+      () => {
+        const table = document.getElementById("grdRanking_DXMainTable");
+        if (!table) return false;
+        return (
+          table.querySelector(".dxgvDataRow_PlasticBlue") !== null ||
+          table.querySelector(".dxgvEmptyDataRow") !== null
+        );
+      },
+      { interval: 200, timeout: DELAY_SWIMMER + JITTER },
+    );
 
     // Export and parse CSV
     const csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
