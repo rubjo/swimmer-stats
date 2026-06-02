@@ -2,8 +2,6 @@ import puppeteer from "puppeteer";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import cliProgress from "cli-progress";
-
 import { parseCSV } from "./lib/csv.js";
 import {
   loadExistingSwimmers,
@@ -78,23 +76,11 @@ async function main() {
   /* ── Load existing data ───────────────────────────────────────── */
   const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
 
-  /* ── Progress bar ─────────────────────────────────────────────── */
-  const bar = new cliProgress.SingleBar({
-    clearOnComplete: true,
-    hideCursor: true,
-    format:
-      " {bar} | {percentage}% | {value}/{total} swimmers | ETA: {eta_formatted} | {current}",
-    barCompleteChar: "█",
-    barIncompleteChar: "░",
-  });
-
   /* ── Main loop ────────────────────────────────────────────────── */
   let cbIdx = 1; // 0 = placeholder
   let loadedCount = totalSwimmers + 1; // +1 for placeholder
   let processedInSession = 0;
   let totalRaces = 0;
-
-  bar.start(loadedCount - 1, 0, { current: "Starting…" });
 
   while (true) {
     // Safety net: load next batch if needed (shouldn't trigger after pre-scan)
@@ -102,7 +88,6 @@ async function main() {
       const newCount = await loadNextBatch(page);
       if (newCount <= loadedCount) break;
       loadedCount = newCount;
-      bar.setTotal(loadedCount - 1);
     }
 
     // Read swimmer info from combo box
@@ -120,7 +105,7 @@ async function main() {
     const selIdx = cbIdx;
     cbIdx++;
     processedInSession++;
-    bar.update(processedInSession, { current: sw.text });
+    console.log(`  ${processedInSession}/${loadedCount - 1} — ${sw.text}`);
 
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
@@ -129,14 +114,14 @@ async function main() {
     // Export and parse CSV
     const csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
     if (!csvText) {
-      bar.update(processedInSession, { current: "⚠ No CSV — " + sw.text });
+      console.log(`  ⚠ No CSV — ${sw.text}`);
       await sleep(DELAY_BETWEEN);
       continue;
     }
 
     const races = parseCSV(csvText);
     if (races.length === 0) {
-      bar.update(processedInSession, { current: "⚠ No data — " + sw.text });
+      console.log(`  ⚠ No data — ${sw.text}`);
       await sleep(DELAY_BETWEEN);
       continue;
     }
@@ -146,7 +131,7 @@ async function main() {
     if (existing && existing.timestamp) {
       const age = Date.now() - new Date(existing.timestamp).getTime();
       if (age < 24 * 60 * 60 * 1000) {
-        bar.update(processedInSession, { current: "✓ " + sw.text });
+        console.log(`  ✓ ${sw.text}`);
         existing.timestamp = new Date().toISOString();
         writeSwimmerFile(existing, SWIMMERS_DIR);
         await sleep(DELAY_BETWEEN);
@@ -155,9 +140,7 @@ async function main() {
     }
 
     // Expand every row to extract detail fields and split times
-    bar.update(processedInSession, {
-      current: sw.text + ` → expanding details (${races.length} races)`,
-    });
+    console.log(`  ${sw.text} → expanding details (${races.length} races)`);
     await extractSplits(page, races, { log: () => {} });
 
     // Drop unwanted CSV columns, and null-valued ranking fields
@@ -200,12 +183,9 @@ async function main() {
     totalRaces += races.length;
 
     const splitsCount = races.filter((r) => r.splits).length;
-    bar.update(processedInSession, {
-      current:
-        sw.text +
-        ` → ${races.length} races` +
-        (splitsCount ? `, ${splitsCount} with splits` : ""),
-    });
+    console.log(
+      `  ${sw.text} → ${races.length} races${splitsCount ? `, ${splitsCount} with splits` : ""}`,
+    );
 
     // Rebuild index as checkpoint
     if (processedInSession % 25 === 0) {
@@ -228,9 +208,8 @@ async function main() {
     baseUrl: BASE_URL,
   });
 
-  bar.stop();
   console.log(
-    `\n✓ Done! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
+    `✓ Done! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
   );
   await browser.close();
 }
