@@ -145,7 +145,9 @@ async function main() {
           sr.Dato === cr.Dato &&
           sr.Tid === cr.Tid,
       );
-      if (!saved || !saved.splits || saved.splits.length === 0) {
+      // Only retry if splits was never set (undefined).
+      // Empty array = confirmed no splits available, skip.
+      if (!saved || saved.splits === undefined) {
         indices.push(i);
       }
     }
