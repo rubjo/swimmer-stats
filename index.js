@@ -27,10 +27,10 @@ const DL_DIR = path.resolve(
   "_dl",
 );
 
-const DELAY_SWIMMER = 1_500;
-const DELAY_EXPORT = 1_500;
-const DELAY_BETWEEN = 200;
-const JITTER = 300;
+const DELAY_SWIMMER = 3_000;
+const DELAY_EXPORT = 2_000;
+const DELAY_BETWEEN = 500;
+const JITTER = 500;
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -139,8 +139,8 @@ async function main() {
       }
     }
 
-    // Expand every row to extract detail fields and split times
-    console.log(`  ${sw.text} → expanding details (${races.length} races)`);
+    // Extract split times for long-distance races
+    console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
     await extractSplits(page, races, { log: () => {} });
 
     // Drop unwanted CSV columns, and null-valued ranking fields

@@ -17,7 +17,7 @@ Designed to run daily via **GitHub Actions**, with the resulting data served on 
 3. Discovers all licensed swimmers via the dropdown
 4. For each swimmer:
    - Selects them, exports CSV, parses the data
-   - Expands each grid row's detail panel to extract meet name (`Stevne`) and split times
+   - Extracts split times for long-distance races (> 2× pool length)
    - Groups races by discipline
 5. Writes each swimmer to `data/swimmers/<club>/<name>.json`
 6. Builds `data/index.json` — a searchable index of all swimmers
@@ -44,7 +44,6 @@ Designed to run daily via **GitHub Actions**, with the resulting data served on 
           "Basseng": "25m",
           "RK": "13",
           "RA": "89",
-          "Stevne": "Agdermesterskapet 2026",
           "splits": ["29,26", "34,97", "37,73", "38,83"]
         }
       ]
