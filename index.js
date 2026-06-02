@@ -11,6 +11,7 @@ import {
 } from "./lib/fs-utils.js";
 import {
   exportCSV,
+  parseGridFromDOM,
   getSwimmerInfo,
   selectSwimmer,
   loadNextBatch,
@@ -120,7 +121,19 @@ async function main() {
     await sleep(DELAY_BETWEEN);
   }
 
+  function elapsed(start) {
+    const secs = Math.round((Date.now() - start) / 1000);
+    if (secs >= 60) {
+      const m = Math.floor(secs / 60);
+      const s = secs % 60;
+      return s > 0 ? `${m}m ${s}s` : `${m}m`;
+    }
+    return `${secs}s`;
+  }
+
   async function thisSwimmer(sw, selIdx) {
+    const swStart = Date.now();
+
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
     // Poll for grid rows to appear — adapts to actual response time.
@@ -148,17 +161,29 @@ async function main() {
       return;
     }
 
-    // Export and parse CSV
-    const csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
-    if (!csvText) {
-      console.log(`  ⚠ No CSV — ${sw.text}`);
-      return;
+    // Export and parse CSV; fall back to parsing the grid from DOM
+    let csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
+    let races;
+    let fromGrid = false;
+
+    if (csvText) {
+      races = parseCSV(csvText);
     }
 
-    const races = parseCSV(csvText);
-    if (races.length === 0) {
-      console.log(`  ⚠ No data — ${sw.text}`);
-      return;
+    if (!races || races.length === 0) {
+      // CSV failed — try reading the grid content directly from the DOM
+      const gridRaces = await parseGridFromDOM(page);
+      if (gridRaces && gridRaces.length > 0) {
+        races = gridRaces;
+        fromGrid = true;
+        console.log(`  ⚡ Grid fallback — ${sw.text}`);
+      } else if (!csvText) {
+        console.log(`  ⚠ No CSV — ${sw.text}`);
+        return;
+      } else {
+        console.log(`  ⚠ No data — ${sw.text}`);
+        return;
+      }
     }
 
     // Skip if scraped within the last 24 hours, but still bump the timestamp
@@ -166,7 +191,7 @@ async function main() {
     if (existing && existing.timestamp) {
       const age = Date.now() - new Date(existing.timestamp).getTime();
       if (age < 24 * 60 * 60 * 1000) {
-        console.log(`  ✓ ${sw.text}`);
+        console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
         existing.timestamp = new Date().toISOString();
         writeSwimmerFile(existing, SWIMMERS_DIR);
         return;
@@ -220,7 +245,7 @@ async function main() {
 
     const splitsCount = races.filter((r) => r.splits).length;
     console.log(
-      `  ${sw.text} → ${races.length} races${splitsCount ? `, ${splitsCount} with splits` : ""}`,
+      `  ${sw.text} → ${races.length} races${splitsCount ? `, ${splitsCount} with splits` : ""} (${elapsed(swStart)})`,
     );
 
     // Checkpoint: rebuild index and push data to repo every 25 swimmers
