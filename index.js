@@ -1,3 +1,4 @@
+import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import fs from "fs";
 import path from "path";
@@ -34,6 +35,19 @@ const JITTER = 500;
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Commit and push data/ to the repo so progress survives a crash. */
+function gitCheckpoint(label) {
+  try {
+    execSync(`git add data/`, { stdio: "ignore", timeout: 30_000 });
+    const out = execSync(
+      `git diff --cached --quiet || git commit -m "checkpoint: ${label} [skip ci]"`,
+      { stdio: "pipe", timeout: 30_000 },
+    );
+    if (out.includes("nothing to commit")) return;
+    execSync(`git push`, { stdio: "ignore", timeout: 60_000 });
+  } catch {}
+}
 
 /* ─── Main ───────────────────────────────────────────────────────── */
 async function main() {
@@ -194,7 +208,7 @@ async function main() {
       `  ${sw.text} → ${races.length} races${splitsCount ? `, ${splitsCount} with splits` : ""}`,
     );
 
-    // Rebuild index as checkpoint
+    // Checkpoint: rebuild index and push data to repo every 25 swimmers
     if (processedInSession % 25 === 0) {
       rebuildIndex({
         swimmersDir: SWIMMERS_DIR,
@@ -202,16 +216,18 @@ async function main() {
         indexFile: INDEX_FILE,
         baseUrl: BASE_URL,
       });
+      gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
     }
   }
 
-  // Final index write
+  // Final index write and git push
   rebuildIndex({
     swimmersDir: SWIMMERS_DIR,
     dataDir: DATA_DIR,
     indexFile: INDEX_FILE,
     baseUrl: BASE_URL,
   });
+  gitCheckpoint(`done — ${processedInSession} swimmers`);
 
   console.log(
     `✓ Done! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,

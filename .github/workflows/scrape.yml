@@ -41,14 +41,19 @@ jobs:
             libnss3 libatk-bridge2.0-0 libxkbcommon0 \
             libxdamage1 libgbm1 libasound2t64
 
-      - name: Run scraper
-        run: node index.js
-
-      # Commit updated data back to the repo (if anything changed)
-      - name: Commit data
+      # Configure git for in-script checkpoints and the commit step below
+      - name: Configure git
         run: |
           git config user.name "medley-bot"
           git config user.email "bot@users.noreply.github.com"
+
+      - name: Run scraper
+        run: node index.js
+
+      # Commit any leftover data not yet pushed by in-script checkpoints
+      - name: Commit data
+        if: always()
+        run: |
           git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
