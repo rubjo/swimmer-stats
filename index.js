@@ -12,6 +12,7 @@ import {
 } from "./lib/fs-utils.js";
 import {
   exportCSV,
+  hasPotentialSplits,
   parseGridFromDOM,
   getSwimmerInfo,
   selectSwimmer,
