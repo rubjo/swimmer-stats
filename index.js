@@ -78,23 +78,12 @@ async function main() {
   console.log("Navigating …");
   await navigateAndFilter(page, BASE_URL);
 
-  /* ── Pre-scan: discover total swimmer count ──────────────────── */
-  console.log("Discovering swimmers …");
-  while (true) {
-    const prev = await page.evaluate(() => cmbUtover.GetItemCount());
-    const next = await loadNextBatch(page);
-    if (next <= prev) break;
-  }
-  const totalSwimmers =
-    (await page.evaluate(() => cmbUtover.GetItemCount())) - 1;
-  console.log("Found " + totalSwimmers + " licensed swimmers\n");
-
   /* ── Load existing data ───────────────────────────────────────── */
   const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
 
   /* ── Main loop ────────────────────────────────────────────────── */
   let cbIdx = 1; // 0 = placeholder
-  let loadedCount = totalSwimmers + 1; // +1 for placeholder
+  let loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
   let processedInSession = 0;
   let totalRaces = 0;
 
@@ -121,7 +110,7 @@ async function main() {
     const selIdx = cbIdx;
     cbIdx++;
     processedInSession++;
-    console.log(`  ${processedInSession}/${loadedCount - 1} — ${sw.text}`);
+    console.log(`  ${processedInSession} — ${sw.text}`);
 
     try {
       await thisSwimmer(sw, selIdx);
