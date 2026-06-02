@@ -1,9 +1,6 @@
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
-import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
-import { parseCSV } from "./lib/csv.js";
 import {
   flattenRaces,
   loadExistingSwimmers,
@@ -11,7 +8,6 @@ import {
   rebuildIndex,
 } from "./lib/fs-utils.js";
 import {
-  exportCSV,
   hasPotentialSplits,
   parseGridFromDOM,
   getSwimmerInfo,
@@ -27,15 +23,8 @@ const BASE_URL = "https://www.medley.no/svommer.aspx";
 const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
-const DL_DIR = path.resolve(
-  path.dirname(fileURLToPath(import.meta.url)),
-  "_dl",
-);
 
-const DELAY_SWIMMER = 3_000;
-const DELAY_EXPORT = 2_000;
 const DELAY_BETWEEN = 500;
-const JITTER = 500;
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -55,8 +44,6 @@ function gitCheckpoint(label) {
 
 /* ─── Main ───────────────────────────────────────────────────────── */
 async function main() {
-  if (!fs.existsSync(DL_DIR)) fs.mkdirSync(DL_DIR, { recursive: true });
-
   /* ── Browser setup ────────────────────────────────────────────── */
   console.log("Launching browser …");
   const browser = await puppeteer.launch({
@@ -70,13 +57,6 @@ async function main() {
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   );
   await page.setViewport({ width: 1400, height: 900 });
-
-  const cdp = await page.createCDPSession();
-  await cdp.send("Browser.setDownloadBehavior", {
-    behavior: "allow",
-    downloadPath: DL_DIR,
-    eventsEnabled: true,
-  });
 
   console.log("Navigating …");
   await navigateAndFilter(page, BASE_URL);
@@ -182,28 +162,14 @@ async function main() {
       return;
     }
 
-    // Export and parse CSV; fall back to parsing the grid from DOM
-    let csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
-    let races;
-    let fromGrid = false;
-
-    if (csvText) {
-      races = parseCSV(csvText);
-    }
-
+    // Parse the grid table directly from the DOM.
+    // The array indices are the grid's visible indices, which is what
+    // GVShowDetailRow expects. CSV export would include filtered-out
+    // rows (D/F) and cause index mismatches.
+    const races = await parseGridFromDOM(page);
     if (!races || races.length === 0) {
-      const gridRaces = await parseGridFromDOM(page);
-      if (gridRaces && gridRaces.length > 0) {
-        races = gridRaces;
-        fromGrid = true;
-        console.log(`  ⚡ Grid fallback — ${sw.text}`);
-      } else if (!csvText) {
-        console.log(`  ⚠ No CSV — ${sw.text}`);
-        return;
-      } else {
-        console.log(`  ⚠ No data — ${sw.text}`);
-        return;
-      }
+      console.log(`  ⚠ No data — ${sw.text}`);
+      return;
     }
 
     // How many races are eligible for split extraction
