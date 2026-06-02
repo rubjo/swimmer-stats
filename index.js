@@ -206,6 +206,9 @@ async function main() {
       }
     }
 
+    // How many races are eligible for split extraction
+    const eligible = races.filter((r) => hasPotentialSplits(r.Distanse)).length;
+
     // Resume logic: compare with saved data to decide what to do
     const existing = existingSwimmers.get(sw.id);
 
@@ -225,7 +228,7 @@ async function main() {
 
         // Races match but some splits missing — extract only those
         console.log(
-          `  ${sw.text} → extracting missing splits (${missing.length}/${races.length} races)`,
+          `  ${sw.text} → extracting ${missing.length} missing splits from ${races.length} races`,
         );
         await extractSplits(page, races, {
           log: (msg) => console.log(`    ${msg}`),
@@ -234,14 +237,18 @@ async function main() {
         // Fall through to entry-building below (skip full extraction)
       } else {
         // Race count differs — full processing
-        console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
+        console.log(
+          `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
+        );
         await extractSplits(page, races, {
           log: (msg) => console.log(`    ${msg}`),
         });
       }
     } else {
       // No existing data — full processing
-      console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
+      console.log(
+        `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
+      );
       await extractSplits(page, races, {
         log: (msg) => console.log(`    ${msg}`),
       });
@@ -286,9 +293,9 @@ async function main() {
     writeSwimmerFile(entry, SWIMMERS_DIR);
     totalRaces += races.length;
 
-    const splitsCount = races.filter((r) => r.splits).length;
+    const splitsExtracted = races.filter((r) => r.splits?.length > 0).length;
     console.log(
-      `  ${sw.text} → ${races.length} races${splitsCount ? `, ${splitsCount} with splits` : ""} (${elapsed(swStart)})`,
+      `  ${sw.text} → extracted ${splitsExtracted} splits (${elapsed(swStart)})`,
     );
 
     // Checkpoint: rebuild index and push data to repo every 25 swimmers
