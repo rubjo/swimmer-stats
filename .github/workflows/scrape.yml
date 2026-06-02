@@ -33,13 +33,13 @@ jobs:
 
       - run: npm ci
 
-      # Chromium system dependencies for Puppeteer on Ubuntu
+      # Chromium system dependencies for Puppeteer
       - name: Install browser dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
             libnss3 libatk-bridge2.0-0 libxkbcommon0 \
-            libxdamage1 libgbm1 libasound2
+            libxdamage1 libgbm1 libasound2t64
 
       - name: Run scraper
         run: node index.js
