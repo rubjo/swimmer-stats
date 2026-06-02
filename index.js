@@ -5,6 +5,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { parseCSV } from "./lib/csv.js";
 import {
+  flattenRaces,
   loadExistingSwimmers,
   writeSwimmerFile,
   rebuildIndex,
@@ -131,14 +132,31 @@ async function main() {
     return `${secs}s`;
   }
 
+  /** Compare CSV races against saved data and return indices where splits are missing. */
+  function findMissingSplitIndices(csvRaces, savedRaces) {
+    const indices = [];
+    for (let i = 0; i < csvRaces.length; i++) {
+      const cr = csvRaces[i];
+      if (!hasPotentialSplits(cr.Distanse)) continue;
+      const saved = savedRaces.find(
+        (sr) =>
+          sr.Distanse === cr.Distanse &&
+          sr.Dato === cr.Dato &&
+          sr.Tid === cr.Tid,
+      );
+      if (!saved || !saved.splits || saved.splits.length === 0) {
+        indices.push(i);
+      }
+    }
+    return indices;
+  }
+
   async function thisSwimmer(sw, selIdx) {
     const swStart = Date.now();
 
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
     // Poll for grid rows to appear — adapts to actual response time.
-    // Checks both that the grid is NOT in a callback (InCallback = false)
-    // AND that it has rendered rows (data or empty).
     const gridReady = await pollFor(
       page,
       () => {
@@ -171,7 +189,6 @@ async function main() {
     }
 
     if (!races || races.length === 0) {
-      // CSV failed — try reading the grid content directly from the DOM
       const gridRaces = await parseGridFromDOM(page);
       if (gridRaces && gridRaces.length > 0) {
         races = gridRaces;
@@ -186,23 +203,46 @@ async function main() {
       }
     }
 
-    // Skip if scraped within the last 24 hours, but still bump the timestamp
+    // Resume logic: compare with saved data to decide what to do
     const existing = existingSwimmers.get(sw.id);
-    if (existing && existing.timestamp) {
-      const age = Date.now() - new Date(existing.timestamp).getTime();
-      if (age < 24 * 60 * 60 * 1000) {
-        console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
-        existing.timestamp = new Date().toISOString();
-        writeSwimmerFile(existing, SWIMMERS_DIR);
-        return;
-      }
-    }
 
-    // Extract split times for long-distance races
-    console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
-    await extractSplits(page, races, {
-      log: (msg) => console.log(`    ${msg}`),
-    });
+    if (existing && existing.timestamp) {
+      const savedRaces = flattenRaces(existing);
+
+      if (savedRaces.length === races.length) {
+        const missing = findMissingSplitIndices(races, savedRaces);
+
+        if (missing.length === 0) {
+          // All races current and all splits present — skip
+          console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
+          existing.timestamp = new Date().toISOString();
+          writeSwimmerFile(existing, SWIMMERS_DIR);
+          return;
+        }
+
+        // Races match but some splits missing — extract only those
+        console.log(
+          `  ${sw.text} → extracting missing splits (${missing.length}/${races.length} races)`,
+        );
+        await extractSplits(page, races, {
+          log: (msg) => console.log(`    ${msg}`),
+          onlyRows: new Set(missing),
+        });
+        // Fall through to entry-building below (skip full extraction)
+      } else {
+        // Race count differs — full processing
+        console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
+        await extractSplits(page, races, {
+          log: (msg) => console.log(`    ${msg}`),
+        });
+      }
+    } else {
+      // No existing data — full processing
+      console.log(`  ${sw.text} → extracting splits (${races.length} races)`);
+      await extractSplits(page, races, {
+        log: (msg) => console.log(`    ${msg}`),
+      });
+    }
 
     // Drop unwanted CSV columns, and null-valued ranking fields
     for (const r of races) {
