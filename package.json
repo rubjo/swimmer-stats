@@ -1,0 +1,14 @@
+{
+  "name": "medley-svommer-scraper",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Puppeteer-based scraper for medley.no svommer.aspx — extracts all swimmer race data to JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "puppeteer": "^24.43.1"
+  }
+}
