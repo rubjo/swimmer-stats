@@ -44,6 +44,7 @@ async function main() {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    protocolTimeout: 120_000,
   });
   const page = await browser.newPage();
   await page.setUserAgent(
@@ -107,6 +108,15 @@ async function main() {
     processedInSession++;
     console.log(`  ${processedInSession}/${loadedCount - 1} — ${sw.text}`);
 
+    try {
+      await thisSwimmer(sw, selIdx);
+    } catch (err) {
+      console.log(`  ⚠ Error — ${sw.text}: ${err.message?.slice(0, 100)}`);
+    }
+    await sleep(DELAY_BETWEEN);
+  }
+
+  async function thisSwimmer(sw, selIdx) {
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
     await sleep(DELAY_SWIMMER + Math.random() * JITTER);
@@ -115,15 +125,13 @@ async function main() {
     const csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
     if (!csvText) {
       console.log(`  ⚠ No CSV — ${sw.text}`);
-      await sleep(DELAY_BETWEEN);
-      continue;
+      return;
     }
 
     const races = parseCSV(csvText);
     if (races.length === 0) {
       console.log(`  ⚠ No data — ${sw.text}`);
-      await sleep(DELAY_BETWEEN);
-      continue;
+      return;
     }
 
     // Skip if scraped within the last 24 hours, but still bump the timestamp
@@ -134,8 +142,7 @@ async function main() {
         console.log(`  ✓ ${sw.text}`);
         existing.timestamp = new Date().toISOString();
         writeSwimmerFile(existing, SWIMMERS_DIR);
-        await sleep(DELAY_BETWEEN);
-        continue;
+        return;
       }
     }
 
@@ -196,8 +203,6 @@ async function main() {
         baseUrl: BASE_URL,
       });
     }
-
-    await sleep(DELAY_BETWEEN);
   }
 
   // Final index write
