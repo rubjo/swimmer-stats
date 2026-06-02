@@ -134,8 +134,8 @@ async function main() {
   async function thisSwimmer(sw, selIdx) {
     // Select swimmer (triggers grid load)
     await selectSwimmer(page, selIdx);
-    // Poll for grid rows to appear — much faster than a fixed sleep
-    await pollFor(
+    // Poll for grid rows to appear — adapts to actual response time
+    const gridReady = await pollFor(
       page,
       () => {
         const table = document.getElementById("grdRanking_DXMainTable");
@@ -145,8 +145,12 @@ async function main() {
           table.querySelector(".dxgvEmptyDataRow") !== null
         );
       },
-      { interval: 200, timeout: DELAY_SWIMMER + JITTER },
+      { interval: 200, timeout: 10_000 },
     );
+    if (!gridReady) {
+      console.log(`  ⚠ Grid never loaded — ${sw.text}`);
+      return;
+    }
 
     // Export and parse CSV
     const csvText = await exportCSV(page, DL_DIR, DELAY_EXPORT + JITTER);
