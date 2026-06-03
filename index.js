@@ -25,7 +25,7 @@ const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
 const DELAY_BETWEEN = 500;
-const MODE = (process.env.MODE || "collect").trim();
+const DEFAULT_MODE = (process.env.MODE || "auto").trim();
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -44,8 +44,10 @@ function gitCheckpoint(label) {
   } catch {}
 }
 
-/* ─── Main ───────────────────────────────────────────────────────── */
-async function main() {
+/* ─── Run one pass (collect or splits) ──────────────────────────── */
+async function runPass(mode) {
+  console.log(`\n=== ${mode} pass ===\n`);
+
   /* ── Browser setup ────────────────────────────────────────────── */
   console.log("Launching browser …");
   const browser = await puppeteer.launch({
@@ -73,7 +75,7 @@ async function main() {
   let totalRaces = 0;
   let expansionsSinceReload = 0;
 
-  console.log(`Mode: ${MODE}`);
+  console.log(`Mode: ${mode}`);
 
   /** Navigate back to BASE_URL, re-apply filters, reset loadedCount. */
   async function reloadPage() {
@@ -186,7 +188,7 @@ async function main() {
     }
 
     // ── Collect mode: skip split extraction, save immediately ──
-    if (MODE !== "splits") {
+    if (mode !== "splits") {
       // Drop unwanted CSV columns
       for (const r of races) {
         delete r.Nr;
@@ -361,12 +363,22 @@ async function main() {
     indexFile: INDEX_FILE,
     baseUrl: BASE_URL,
   });
-  gitCheckpoint(`done — ${processedInSession} swimmers`);
+  gitCheckpoint(`${mode} done — ${processedInSession} swimmers`);
 
   console.log(
-    `✓ Done! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
+    `✓ ${mode} pass complete! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
   );
   await browser.close();
+}
+
+/* ─── Entry point ────────────────────────────────────────────────── */
+async function main() {
+  if (DEFAULT_MODE === "auto") {
+    await runPass("collect");
+    await runPass("splits");
+  } else {
+    await runPass(DEFAULT_MODE);
+  }
 }
 
 main().catch((err) => {
