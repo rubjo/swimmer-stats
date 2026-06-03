@@ -33,9 +33,11 @@ jobs:
 
       - run: npm ci
 
-      # Install Chrome for Puppeteer
+      # Install Chrome for Puppeteer (clear stale cache first to avoid partial-download issues)
       - name: Install Chrome
-        run: npx puppeteer browsers install chrome
+        run: |
+          rm -rf "$HOME/.cache/puppeteer"
+          npx puppeteer browsers install chrome
 
       # Chromium system dependencies for Puppeteer
       - name: Install browser dependencies
