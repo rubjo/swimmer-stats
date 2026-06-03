@@ -33,11 +33,15 @@ jobs:
 
       - run: npm ci
 
-      # Install Chrome for Puppeteer (clear stale cache first to avoid partial-download issues)
+      # Install Chrome for Puppeteer
       - name: Install Chrome
+        env:
+          PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
         run: |
-          rm -rf "$HOME/.cache/puppeteer"
-          npx puppeteer browsers install chrome
+          rm -rf /tmp/puppeteer-cache
+          node node_modules/puppeteer/lib/cjs/puppeteer/node/cli.js browsers install chrome
+          echo "Checking installation:"
+          find /tmp/puppeteer-cache -name chrome -type f 2>/dev/null || echo "chrome binary NOT found!"
 
       # Chromium system dependencies for Puppeteer
       - name: Install browser dependencies
@@ -54,6 +58,8 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
 
       - name: Run scraper
+        env:
+          PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
         run: node index.js
 
       # Commit any leftover data not yet pushed by in-script checkpoints
