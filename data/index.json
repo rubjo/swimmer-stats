@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "https://www.medley.no/svommer.aspx",
-    "generatedAt": "2026-06-03T05:26:00.955Z",
-    "totalSwimmers": 205,
-    "totalRaces": 18182,
+    "generatedAt": "2026-06-03T05:27:42.561Z",
+    "totalSwimmers": 229,
+    "totalRaces": 21263,
     "settings": {
       "kunLisensiert2026": true,
       "fraDato": "01.01.2010",
@@ -14,11 +14,25 @@
   },
   "swimmers": [
     {
+      "id": "45926",
+      "name": "Per Balling",
+      "club": "Aalesunds SLK",
+      "birthYear": 2014,
+      "totalRaces": 2
+    },
+    {
       "id": "46275",
       "name": "Pia Buene Abusland",
       "club": "Arendal SLK",
       "birthYear": 2008,
       "totalRaces": 50
+    },
+    {
+      "id": "32634",
+      "name": "Gustav Sjøløkken Bandlien",
+      "club": "Asker SK",
+      "birthYear": 2009,
+      "totalRaces": 393
     },
     {
       "id": "50831",
@@ -75,6 +89,13 @@
       "club": "Bergen Vest SK",
       "birthYear": 2011,
       "totalRaces": 49
+    },
+    {
+      "id": "4981",
+      "name": "Anne Katrine Bang",
+      "club": "Bergen og Omegn Masters",
+      "birthYear": 1966,
+      "totalRaces": 21
     },
     {
       "id": "2226",
@@ -187,6 +208,13 @@
       "club": "Bærumsvømmerne",
       "birthYear": 2008,
       "totalRaces": 336
+    },
+    {
+      "id": "26811",
+      "name": "Sandra Maria Balto",
+      "club": "Bærumsvømmerne",
+      "birthYear": 2007,
+      "totalRaces": 617
     },
     {
       "id": "49956",
@@ -350,6 +378,13 @@
       "totalRaces": 33
     },
     {
+      "id": "43917",
+      "name": "Cecilie Baricic",
+      "club": "Gjøvik SK",
+      "birthYear": 2011,
+      "totalRaces": 11
+    },
+    {
       "id": "49708",
       "name": "Bella Baklid",
       "club": "Gol IL",
@@ -397,6 +432,20 @@
       "club": "Harstad SK",
       "birthYear": 2012,
       "totalRaces": 108
+    },
+    {
+      "id": "38846",
+      "name": "Ainur Bari",
+      "club": "Haugesund SK",
+      "birthYear": 2010,
+      "totalRaces": 272
+    },
+    {
+      "id": "46267",
+      "name": "Beinur Bari",
+      "club": "Haugesund SK",
+      "birthYear": 2012,
+      "totalRaces": 150
     },
     {
       "id": "50793",
@@ -448,11 +497,39 @@
       "totalRaces": 24
     },
     {
+      "id": "38901",
+      "name": "Sigurd Bale",
+      "club": "Jotun IL",
+      "birthYear": 2009,
+      "totalRaces": 140
+    },
+    {
       "id": "36003",
       "name": "Kristian Almås",
       "club": "Karmøy SK",
       "birthYear": 2008,
       "totalRaces": 286
+    },
+    {
+      "id": "50783",
+      "name": "Aleksander Balmasov",
+      "club": "Kirkenes SK",
+      "birthYear": 2011,
+      "totalRaces": 35
+    },
+    {
+      "id": "50782",
+      "name": "Maria Balmasova",
+      "club": "Kirkenes SK",
+      "birthYear": 2011,
+      "totalRaces": 62
+    },
+    {
+      "id": "54291",
+      "name": "Mikhail Balmasov",
+      "club": "Kirkenes SK",
+      "birthYear": 2015,
+      "totalRaces": 9
     },
     {
       "id": "51010",
@@ -481,6 +558,13 @@
       "club": "Kongstensvømmerne",
       "birthYear": 2012,
       "totalRaces": 118
+    },
+    {
+      "id": "47090",
+      "name": "Irmelin Ballangby",
+      "club": "Kongstensvømmerne",
+      "birthYear": 2012,
+      "totalRaces": 88
     },
     {
       "id": "36733",
@@ -945,6 +1029,13 @@
       "totalRaces": 308
     },
     {
+      "id": "31450",
+      "name": "Mali Thyssen Baricic",
+      "club": "Raufoss IL",
+      "birthYear": 2008,
+      "totalRaces": 122
+    },
+    {
       "id": "50297",
       "name": "Adrian Avileis",
       "club": "Ringerike SK",
@@ -964,6 +1055,13 @@
       "club": "Riska SK",
       "birthYear": 2008,
       "totalRaces": 95
+    },
+    {
+      "id": "43532",
+      "name": "Emilio Sjöström Balta",
+      "club": "SK Speed",
+      "birthYear": 2013,
+      "totalRaces": 81
     },
     {
       "id": "39766",
@@ -1015,6 +1113,13 @@
       "totalRaces": 20
     },
     {
+      "id": "39724",
+      "name": "Eryk Julian Ban",
+      "club": "Sandefjord SK",
+      "birthYear": 2012,
+      "totalRaces": 18
+    },
+    {
       "id": "39962",
       "name": "Sofie Thorvaldsen Andersen",
       "club": "Sandefjord SK",
@@ -1062,6 +1167,13 @@
       "club": "Ski SK",
       "birthYear": 2011,
       "totalRaces": 58
+    },
+    {
+      "id": "49261",
+      "name": "Karina Baranauskaite",
+      "club": "Skien SK",
+      "birthYear": 2011,
+      "totalRaces": 31
     },
     {
       "id": "45244",
@@ -1134,6 +1246,27 @@
       "totalRaces": 39
     },
     {
+      "id": "40927",
+      "name": "Zakarya Barek",
+      "club": "Stavanger SK",
+      "birthYear": 2014,
+      "totalRaces": 121
+    },
+    {
+      "id": "50971",
+      "name": "Hamza Barakat",
+      "club": "Stavanger Vannpoloklubb",
+      "birthYear": 2013,
+      "totalRaces": 37
+    },
+    {
+      "id": "42562",
+      "name": "Michael Torbjørn Bannerman",
+      "club": "Stavanger Vannpoloklubb",
+      "birthYear": 2010,
+      "totalRaces": 128
+    },
+    {
       "id": "40008",
       "name": "Ingrid Elise Almestad",
       "club": "Stegaberg IL",
@@ -1202,6 +1335,13 @@
       "club": "Triton Lillestrøm",
       "birthYear": 2012,
       "totalRaces": 153
+    },
+    {
+      "id": "33770",
+      "name": "Edvin Horn Ballovarre",
+      "club": "Tromsø SK",
+      "birthYear": 2010,
+      "totalRaces": 225
     },
     {
       "id": "52651",
@@ -1279,6 +1419,13 @@
       "club": "Trondhjems SLK",
       "birthYear": 2009,
       "totalRaces": 81
+    },
+    {
+      "id": "42923",
+      "name": "Mathilde Oline Larsen Balstad",
+      "club": "Tverlandet IL",
+      "birthYear": 2013,
+      "totalRaces": 75
     },
     {
       "id": "35635",
@@ -1393,6 +1540,13 @@
       "totalRaces": 67
     },
     {
+      "id": "43591",
+      "name": "Adriana Barrera",
+      "club": "Vestbyen Trondheim",
+      "birthYear": 2015,
+      "totalRaces": 74
+    },
+    {
       "id": "49897",
       "name": "Helene Bach",
       "club": "Vestbyen Trondheim",
@@ -1407,11 +1561,25 @@
       "totalRaces": 39
     },
     {
+      "id": "27944",
+      "name": "Ylva Lunde Barman",
+      "club": "Voss IL",
+      "birthYear": 2007,
+      "totalRaces": 359
+    },
+    {
       "id": "37502",
       "name": "Kais Alsayegh",
       "club": "Vågsbygd SLK",
       "birthYear": 2011,
       "totalRaces": 95
+    },
+    {
+      "id": "52486",
+      "name": "Theodor  Barkhald Fidjestad",
+      "club": "Vågsbygd SLK",
+      "birthYear": 2014,
+      "totalRaces": 10
     },
     {
       "id": "42313",
