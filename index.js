@@ -30,6 +30,19 @@ const DEFAULT_MODE = (process.env.MODE || "auto").trim();
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/**
+ * Race a promise against a timeout. If the timeout fires first, the
+ * promise is abandoned (caller should reload the page to clean up CDP).
+ */
+function withTimeout(promise, ms, label) {
+  return Promise.race([
+    promise,
+    sleep(ms).then(() => {
+      throw new Error(`⏱ ${label} timed out after ${ms}ms`);
+    }),
+  ]);
+}
+
 /** Commit and push data/ to the repo so progress survives a crash. */
 function gitCheckpoint(label) {
   try {
@@ -108,23 +121,65 @@ async function runPass(mode) {
     const selIdx = cbIdx;
     cbIdx++;
     processedInSession++;
+
+    // Skip if this swimmer was fully scraped within the last 24 hours
+    const twentyFourHoursAgo = Date.now() - 24 * 60 * 60 * 1000;
+    const existing = existingSwimmers.get(sw.id);
+    if (
+      existing &&
+      existing.timestamp &&
+      new Date(existing.timestamp).getTime() >= twentyFourHoursAgo
+    ) {
+      // Confirm all eligible races have splits data
+      const savedRaces = flattenRaces(existing);
+      const missingSplits = savedRaces.some(
+        (r) => r.splits === undefined && hasPotentialSplits(r.Distanse),
+      );
+      if (!missingSplits) {
+        console.log(
+          `  → ${processedInSession} — ${sw.text} — ${savedRaces.length} races, skipped (fresh)`,
+        );
+        continue;
+      }
+    }
+
     console.log(`  ${processedInSession} — ${sw.text}`);
 
-    try {
-      await thisSwimmer(sw, selIdx);
-    } catch (err) {
-      const msg = err.message || String(err);
-      console.log(`  ⚠ Error — ${sw.text}: ${msg.slice(0, 100)}`);
-      // Protocol timeout means the page JS thread is stuck — reload to
-      // recover rather than failing on every subsequent swimmer.
-      if (
-        msg.includes("Runtime.callFunctionOn timed out") ||
-        msg.includes("protocolTimeout") ||
-        msg.includes("Protocol error")
-      ) {
-        try {
-          await reloadPage();
-        } catch {}
+    // Retry loop with hang detection + page reload
+    let attempts = 0;
+    let swimmerOk = false;
+    while (attempts < 3 && !swimmerOk) {
+      attempts++;
+      try {
+        await withTimeout(thisSwimmer(sw, selIdx), 60_000, sw.text);
+        swimmerOk = true;
+      } catch (err) {
+        const msg = err.message || String(err);
+        const isTimeout =
+          msg.includes("timed out") ||
+          msg.includes("Runtime.callFunctionOn timed out") ||
+          msg.includes("Protocol error");
+        if (isTimeout) {
+          console.log(
+            `  ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
+          );
+          try {
+            await withTimeout(reloadPage(), 30_000, "reload");
+          } catch {
+            // If even the reload hangs, we can't recover
+            console.log(`  ⚠ ${sw.text}: reload also hung, skipping`);
+            break;
+          }
+          if (attempts < 3) {
+            console.log(`    retry ${attempts}/3...`);
+          } else {
+            console.log(`  ⚠ ${sw.text}: gave up after 3 attempts`);
+          }
+        } else {
+          // Non-timeout error (e.g. missing data) — log and move on
+          console.log(`  ⚠ ${sw.text}: ${msg.slice(0, 100)}`);
+          swimmerOk = true; // don't retry
+        }
       }
     }
     await sleep(DELAY_BETWEEN);
