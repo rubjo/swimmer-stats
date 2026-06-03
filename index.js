@@ -113,7 +113,19 @@ async function runPass(mode) {
     try {
       await thisSwimmer(sw, selIdx);
     } catch (err) {
-      console.log(`  ⚠ Error — ${sw.text}: ${err.message?.slice(0, 100)}`);
+      const msg = err.message || String(err);
+      console.log(`  ⚠ Error — ${sw.text}: ${msg.slice(0, 100)}`);
+      // Protocol timeout means the page JS thread is stuck — reload to
+      // recover rather than failing on every subsequent swimmer.
+      if (
+        msg.includes("Runtime.callFunctionOn timed out") ||
+        msg.includes("protocolTimeout") ||
+        msg.includes("Protocol error")
+      ) {
+        try {
+          await reloadPage();
+        } catch {}
+      }
     }
     await sleep(DELAY_BETWEEN);
   }
@@ -227,6 +239,12 @@ async function runPass(mode) {
       writeSwimmerFile(entry, SWIMMERS_DIR);
       totalRaces += races.length;
       console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
+
+      // Periodically reload to prevent DevExpress callback buildup
+      // that eventually causes protocol timeouts.
+      if (processedInSession % 200 === 0) {
+        await reloadPage();
+      }
 
       if (processedInSession % 25 === 0) {
         rebuildIndex({
