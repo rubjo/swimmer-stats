@@ -215,6 +215,21 @@ async function runPass(mode) {
       const info = await getSwimmerInfo(page);
       const swimmerName = info.name || sw.text;
 
+      // Show whether this is new, grown, or unchanged
+      const existing = existingSwimmers.get(sw.id);
+      let changeLabel;
+      if (existing && existing.timestamp) {
+        const savedRaces = flattenRaces(existing);
+        const diff = races.length - savedRaces.length;
+        if (diff === 0) {
+          changeLabel = `unchanged`;
+        } else {
+          changeLabel = `${savedRaces.length}→${races.length}`;
+        }
+      } else {
+        changeLabel = `new`;
+      }
+
       const discMap = new Map();
       for (const r of races) {
         const dist = r.Distanse || "Ukjent";
@@ -238,7 +253,9 @@ async function runPass(mode) {
 
       writeSwimmerFile(entry, SWIMMERS_DIR);
       totalRaces += races.length;
-      console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
+      console.log(
+        `  ✓ ${sw.text} — ${races.length} races, ${changeLabel} (${elapsed(swStart)})`,
+      );
 
       if (processedInSession % 25 === 0) {
         rebuildIndex({
@@ -264,7 +281,9 @@ async function runPass(mode) {
 
         if (missing.length === 0) {
           // All races current and all splits present — skip
-          console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
+          console.log(
+            `  ✓ ${sw.text} — ${races.length} races, unchanged (${elapsed(swStart)})`,
+          );
           existing.timestamp = new Date().toISOString();
           writeSwimmerFile(existing, SWIMMERS_DIR);
           return;
