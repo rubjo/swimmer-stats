@@ -38,10 +38,27 @@ jobs:
         env:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
         run: |
+          set -ex
           rm -rf /tmp/puppeteer-cache
-          node node_modules/puppeteer/lib/cjs/puppeteer/node/cli.js browsers install chrome
-          echo "Checking installation:"
-          find /tmp/puppeteer-cache -name chrome -type f 2>/dev/null || echo "chrome binary NOT found!"
+          node -e "
+            const {install, computeExecutablePath, resolveBuildId, detectBrowserPlatform} = require('@puppeteer/browsers');
+            const {PUPPETEER_REVISIONS} = require('puppeteer-core/internal/revisions.js');
+            const platform = detectBrowserPlatform();
+            const buildId = PUPPETEER_REVISIONS.chrome;
+            console.log('Platform:', platform, 'BuildId:', buildId);
+            install({
+              browser: 'chrome',
+              buildId,
+              platform,
+              cacheDir: '/tmp/puppeteer-cache',
+              downloadProgressCallback: (d,l) => console.log('Downloaded', d, '/', l),
+            }).then(() => {
+              const p = computeExecutablePath({browser:'chrome', buildId, cacheDir:'/tmp/puppeteer-cache', platform});
+              console.log('Installed at:', p);
+            }).catch(e => { console.error('Install failed:', e); process.exit(1); });
+          "
+          echo "Verifying:"
+          find /tmp/puppeteer-cache -name chrome -type f
 
       # Chromium system dependencies for Puppeteer
       - name: Install browser dependencies
