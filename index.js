@@ -154,8 +154,12 @@ async function runPass(mode) {
         // Collect mode is fast (~3s/swimmer); splits mode can take minutes
         // per swimmer when hundreds of detail rows are expanded.
         const swimmerTimeout = mode === "splits" ? 7_200_000 : 60_000;
-        await withTimeout(thisSwimmer(sw, selIdx), swimmerTimeout, sw.text);
-        swimmerOk = true;
+        const saved = await withTimeout(
+          thisSwimmer(sw, selIdx),
+          swimmerTimeout,
+          sw.text,
+        );
+        if (saved) swimmerOk = true; // false = grid never loaded / no data → retry
       } catch (err) {
         const msg = err.message || String(err);
         const isTimeout =
@@ -184,6 +188,9 @@ async function runPass(mode) {
           swimmerOk = true; // don't retry
         }
       }
+    }
+    if (!swimmerOk) {
+      console.log(`  ⚠ ${sw.text}: skipped after ${attempts} attempts`);
     }
     await sleep(DELAY_BETWEEN);
   }
@@ -244,7 +251,7 @@ async function runPass(mode) {
     );
     if (!gridReady) {
       console.log(`  ⚠ Grid never loaded — ${sw.text}`);
-      return;
+      return false; // not saved
     }
 
     // Parse the grid table directly from the DOM.
@@ -254,7 +261,7 @@ async function runPass(mode) {
     const races = await parseGridFromDOM(page);
     if (!races || races.length === 0) {
       console.log(`  ⚠ No data — ${sw.text}`);
-      return;
+      return false; // not saved
     }
 
     // ── Collect mode: skip split extraction, save immediately ──
@@ -324,7 +331,7 @@ async function runPass(mode) {
         });
         gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
       }
-      return;
+      return true; // saved
     }
 
     // ── Splits mode: extract splits with resume logic ──
@@ -344,7 +351,7 @@ async function runPass(mode) {
           );
           existing.timestamp = new Date().toISOString();
           writeSwimmerFile(existing, SWIMMERS_DIR);
-          return;
+          return true; // saved
         }
 
         // Races match but some splits missing — extract only those
@@ -443,6 +450,7 @@ async function runPass(mode) {
       });
       gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
     }
+    return true; // saved
   }
 
   // Final index write and git push
