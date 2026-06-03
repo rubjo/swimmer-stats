@@ -25,6 +25,7 @@ const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
 const DELAY_BETWEEN = 500;
+const MODE = (process.env.MODE || "collect").trim();
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -38,6 +39,7 @@ function gitCheckpoint(label) {
       { stdio: "pipe", timeout: 30_000 },
     );
     if (out.includes("nothing to commit")) return;
+    execSync(`git pull --rebase`, { stdio: "ignore", timeout: 30_000 });
     execSync(`git push`, { stdio: "ignore", timeout: 60_000 });
   } catch {}
 }
@@ -69,6 +71,17 @@ async function main() {
   let loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
   let processedInSession = 0;
   let totalRaces = 0;
+  let expansionsSinceReload = 0;
+
+  console.log(`Mode: ${MODE}`);
+
+  /** Navigate back to BASE_URL, re-apply filters, reset loadedCount. */
+  async function reloadPage() {
+    console.log(`    Reloading page to clear state...`);
+    await navigateAndFilter(page, BASE_URL);
+    loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
+    expansionsSinceReload = 0;
+  }
 
   while (true) {
     // Safety net: load next batch if needed (shouldn't trigger after pre-scan)
@@ -172,10 +185,61 @@ async function main() {
       return;
     }
 
-    // How many races are eligible for split extraction
-    const eligible = races.filter((r) => hasPotentialSplits(r.Distanse)).length;
+    // ── Collect mode: skip split extraction, save immediately ──
+    if (MODE !== "splits") {
+      // Drop unwanted CSV columns
+      for (const r of races) {
+        delete r.Nr;
+        delete r.Poeng;
+        delete r.Poengtype;
+        delete r.D;
+        if (r.RK == null) delete r.RK;
+        if (r.RA == null) delete r.RA;
+      }
 
-    // Resume logic: compare with saved data to decide what to do
+      // Build entry with no split data (splits field omitted → undefined)
+      const info = await getSwimmerInfo(page);
+      const swimmerName = info.name || sw.text;
+
+      const discMap = new Map();
+      for (const r of races) {
+        const dist = r.Distanse || "Ukjent";
+        if (!discMap.has(dist)) discMap.set(dist, []);
+        discMap.get(dist).push(r);
+      }
+      const disciplines = [];
+      for (const [distanse, dRaces] of discMap) {
+        for (const r of dRaces) delete r.Distanse;
+        disciplines.push({ distanse, races: dRaces });
+      }
+
+      const entry = {
+        swimmerId: sw.id,
+        name: swimmerName,
+        club: info.club,
+        birthYear: info.birthYear,
+        timestamp: new Date().toISOString(),
+        disciplines,
+      };
+
+      writeSwimmerFile(entry, SWIMMERS_DIR);
+      totalRaces += races.length;
+      console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
+
+      if (processedInSession % 25 === 0) {
+        rebuildIndex({
+          swimmersDir: SWIMMERS_DIR,
+          dataDir: DATA_DIR,
+          indexFile: INDEX_FILE,
+          baseUrl: BASE_URL,
+        });
+        gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
+      }
+      return;
+    }
+
+    // ── Splits mode: extract splits with resume logic ──
+    const eligible = races.filter((r) => hasPotentialSplits(r.Distanse)).length;
     const existing = existingSwimmers.get(sw.id);
 
     if (existing && existing.timestamp) {
@@ -200,9 +264,7 @@ async function main() {
           log: (msg) => console.log(`    ${msg}`),
           onlyRows: new Set(missing),
         });
-        // Fall through to entry-building below (skip full extraction)
       } else {
-        // Race count differs — full processing
         console.log(
           `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
         );
@@ -211,7 +273,6 @@ async function main() {
         });
       }
     } else {
-      // No existing data — full processing
       console.log(
         `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
       );
@@ -220,7 +281,26 @@ async function main() {
       });
     }
 
-    // Drop unwanted CSV columns, and null-valued ranking fields
+    // Check if page is still alive after all the expansion work
+    try {
+      await page.evaluate(() => true);
+    } catch {
+      console.log(
+        `    ⚠ Page unresponsive after split extraction, reloading...`,
+      );
+      await reloadPage();
+    }
+
+    // Reload page periodically to prevent state buildup (every 200 expansions)
+    const expandedCount = races.filter(
+      (r) => r.splits !== undefined && hasPotentialSplits(r.Distanse),
+    ).length;
+    expansionsSinceReload += expandedCount;
+    if (expansionsSinceReload >= 200) {
+      await reloadPage();
+    }
+
+    // Drop unwanted CSV columns
     for (const r of races) {
       delete r.Nr;
       delete r.Poeng;
@@ -230,11 +310,9 @@ async function main() {
       if (r.RA == null) delete r.RA;
     }
 
-    // Build the swimmer entry
     const info = await getSwimmerInfo(page);
     const swimmerName = info.name || sw.text;
 
-    // Group by discipline
     const discMap = new Map();
     for (const r of races) {
       const dist = r.Distanse || "Ukjent";
