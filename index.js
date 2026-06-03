@@ -151,7 +151,10 @@ async function runPass(mode) {
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        await withTimeout(thisSwimmer(sw, selIdx), 60_000, sw.text);
+        // Collect mode is fast (~3s/swimmer); splits mode can take minutes
+        // per swimmer when hundreds of detail rows are expanded.
+        const swimmerTimeout = mode === "splits" ? 7_200_000 : 60_000;
+        await withTimeout(thisSwimmer(sw, selIdx), swimmerTimeout, sw.text);
         swimmerOk = true;
       } catch (err) {
         const msg = err.message || String(err);
