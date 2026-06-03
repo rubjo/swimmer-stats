@@ -53,7 +53,7 @@ async function runPass(mode) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 120_000,
+    protocolTimeout: 300_000,
   });
   const page = await browser.newPage();
   await page.setUserAgent(
@@ -239,12 +239,6 @@ async function runPass(mode) {
       writeSwimmerFile(entry, SWIMMERS_DIR);
       totalRaces += races.length;
       console.log(`  ✓ ${sw.text} (${elapsed(swStart)})`);
-
-      // Periodically reload to prevent DevExpress callback buildup
-      // that eventually causes protocol timeouts.
-      if (processedInSession % 200 === 0) {
-        await reloadPage();
-      }
 
       if (processedInSession % 25 === 0) {
         rebuildIndex({
