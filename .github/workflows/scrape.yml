@@ -33,6 +33,10 @@ jobs:
 
       - run: npm ci
 
+      # Install Chrome for Puppeteer
+      - name: Install Chrome
+        run: npx puppeteer browsers install chrome
+
       # Chromium system dependencies for Puppeteer
       - name: Install browser dependencies
         run: |
