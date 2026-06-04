@@ -248,7 +248,7 @@ async function runPass(mode) {
           return false;
         }
       },
-      { interval: 200, timeout: 30_000 },
+      { interval: 200, timeout: 10_000 },
     );
     if (!gridReady) {
       console.log(`  ⚠ Grid never loaded — ${sw.text}`);
