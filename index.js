@@ -164,6 +164,11 @@ async function runPass(mode) {
       continue;
     }
 
+    // DEBUG: Every 50 swimmers, log current index and name to check for alphabetical jumps
+    if (processedInSession % 50 === 0 && sw) {
+      console.log(`    [DEBUG] Index ${cbIdx} is ${sw.text}`);
+    }
+
     if (!sw) {
       if (cbIdx < loadedCount) {
         // Potential virtual scroll gap. Try to load more and retry the same index.
