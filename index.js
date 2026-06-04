@@ -391,14 +391,17 @@ async function runPass(mode) {
         `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${changeLabel}${ago ? ", last updated " + ago : ""} (processed in ${elapsed(swStart)})`,
       );
 
-      // Checkpoint after every swimmer so data is pushed to GitHub Pages immediately
+      // Rebuild index every swimmer; push to GitHub every 25 so Pages
+      // doesn't get flooded with individual deployments.
       rebuildIndex({
         swimmersDir: SWIMMERS_DIR,
         dataDir: DATA_DIR,
         indexFile: INDEX_FILE,
         baseUrl: BASE_URL,
       });
-      gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
+      if (processedInSession % 25 === 0) {
+        gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
+      }
       return true; // saved
     }
 
@@ -605,14 +608,17 @@ async function runPass(mode) {
         ` (processed in ${elapsed(swStart)})`,
     );
 
-    // Checkpoint after every swimmer so data is pushed to GitHub Pages immediately
+    // Rebuild index every swimmer; push to GitHub every 25 so Pages
+    // doesn't get flooded with individual deployments.
     rebuildIndex({
       swimmersDir: SWIMMERS_DIR,
       dataDir: DATA_DIR,
       indexFile: INDEX_FILE,
       baseUrl: BASE_URL,
     });
-    gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
+    if (processedInSession % 25 === 0) {
+      gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
+    }
     return true; // saved
   }
 

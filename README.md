@@ -70,19 +70,23 @@ You can also trigger a run manually from the Actions tab.
 
 ## GitHub Pages
 
-The `data/` directory is deployed as a static site with:
+The `data/` directory is deployed as a static site with **Source = Deploy from a branch** (`main` / `data`):
 
 - **`index.json`** — machine-readable index of all swimmers
 - **`swimmers/**`** — individual swimmer JSON files
 
 The raw JSON files are accessible at their direct URLs.
 
+Because the scraper rebuilds `index.json` and pushes to `main` every 25 swimmers,
+updated data appears on Pages within ~1–2 minutes — no need to wait for the full
+scrape to finish.
+
 Optionally add an `index.html` to the `data/` directory for a browsable frontend.
 
 ## Setup
 
 1. Create a GitHub repository and push this code
-2. In the repo Settings → Pages, set **Source** to **GitHub Actions**
+2. In the repo Settings → Pages, set **Source** to **Deploy from a branch**, branch `main`, folder `/data`
 3. The first run starts automatically (or trigger it manually from the Actions tab)
 
 ## Run locally
@@ -101,5 +105,5 @@ Requires Node.js 20+ and a working internet connection.
 - On re-run, swimmers scraped within the last 24 hours are skipped but their timestamp is refreshed.
 - Swimmers without changes are skipped, but the timestamp is still bumped so the 24-hour window stays fresh.
 - If the grid fails to load, the swimmer is recorded in `data/skip-until.json` with a **24-hour cooldown** — it won't be retried until that expires. This avoids hammering a stuck server.
-- Data is pushed to GitHub **after every swimmer**, so each swimmer's JSON appears on GitHub Pages within ~1–2 minutes (no need to wait for the full scrape to finish).
+- Data is pushed to GitHub **every 25 swimmers**, so updated data appears on GitHub Pages within ~1–2 minutes (no need to wait for the full scrape to finish).
 - Split extraction uses the DevExpress `ASPx.GVShowDetailRow` API — button `.click()` is a no-op in this version.
