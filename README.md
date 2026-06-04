@@ -100,5 +100,6 @@ Requires Node.js 20+ and a working internet connection.
 - Race data is parsed from the DOM grid table directly — no CSV export needed.
 - On re-run, swimmers scraped within the last 24 hours are skipped but their timestamp is refreshed.
 - Swimmers without changes are skipped, but the timestamp is still bumped so the 24-hour window stays fresh.
-- If the grid fails to load (no races or server timeout), the swimmer is skipped and retried on the next run.
+- If the grid fails to load, the swimmer is recorded in `data/skip-until.json` with a **24-hour cooldown** — it won't be retried until that expires. This avoids hammering a stuck server.
+- Data is pushed to GitHub **after every swimmer**, so each swimmer's JSON appears on GitHub Pages within ~1–2 minutes (no need to wait for the full scrape to finish).
 - Split extraction uses the DevExpress `ASPx.GVShowDetailRow` API — button `.click()` is a no-op in this version.
