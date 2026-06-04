@@ -148,11 +148,15 @@ async function runPass(mode) {
     }
 
     // Read swimmer info from combo box
+    // Instead of GetItem(idx), which is unreliable in virtualized lists,
+    // we force the selection and read the resulting text/value.
     const sw = await page.evaluate((idx) => {
       try {
-        const item = cmbUtover.GetItem(idx);
-        if (!item || !item.value || item.value === "0") return null;
-        return { id: String(item.value), text: item.text.trim(), index: idx };
+        cmbUtover.SetSelectedIndex(idx);
+        const text = cmbUtover.GetText();
+        const value = cmbUtover.GetValue();
+        if (!text || !value || value === "0") return null;
+        return { id: String(value), text: text.trim(), index: idx };
       } catch (e) {
         return { error: e.message, index: idx };
       }
