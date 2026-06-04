@@ -334,39 +334,15 @@ async function runPass(mode) {
       return true; // saved
     }
 
-    // ── Splits mode: extract new-since-last-run splits ──
+    // ── Splits mode: extract new or missing splits only ──
     const eligible = races.filter((r) => hasPotentialSplits(r.Distanse)).length;
     const existing = existingSwimmers.get(sw.id);
 
-    if (existing && existing.timestamp) {
-      const savedRaces = flattenRaces(existing);
-
-      if (savedRaces.length === races.length) {
-        // Race count unchanged — skip entirely, even if some splits are
-        // missing from an interrupted run. Those will be picked up when
-        // a new race eventually appears for this swimmer.
-        console.log(
-          `  ✓ ${sw.text} — ${races.length} races, unchanged (${elapsed(swStart)})`,
-        );
-        existing.timestamp = new Date().toISOString();
-        writeSwimmerFile(existing, SWIMMERS_DIR);
-        return true;
-      }
-
-      // Race count changed — find which races are new and extract only those.
-      const newIndices = findNewRaceIndices(races, savedRaces);
-
-      if (newIndices.length > 0) {
-        console.log(
-          `  ${sw.text} → extracting ${newIndices.length} new splits from ${races.length} races`,
-        );
-        await extractSplits(page, races, {
-          log: (msg) => console.log(`    ${msg}`),
-          onlyRows: new Set(newIndices),
-        });
-      }
-
-      // Preserve existing splits for races not in onlyRows.
+    /**
+     * Merge saved splits back into races that weren't touched by extractSplits.
+     * This prevents existing split data from being silently dropped on save.
+     */
+    function mergeSavedSplits(races, savedRaces) {
       for (const r of races) {
         if (r.splits === undefined && hasPotentialSplits(r.Distanse)) {
           const saved = savedRaces.find(
@@ -379,6 +355,61 @@ async function runPass(mode) {
             r.splits = saved.splits;
           }
         }
+      }
+    }
+
+    if (existing && existing.timestamp) {
+      const savedRaces = flattenRaces(existing);
+
+      if (savedRaces.length === races.length) {
+        // Race count unchanged — extract only rows where split data is
+        // missing from the saved file, then skip if all are present.
+        const missingSplits = [];
+        for (let i = 0; i < races.length; i++) {
+          const cr = races[i];
+          if (!hasPotentialSplits(cr.Distanse)) continue;
+          const saved = savedRaces.find(
+            (sr) =>
+              sr.Distanse === cr.Distanse &&
+              sr.Dato === cr.Dato &&
+              sr.Tid === cr.Tid,
+          );
+          if (!saved || saved.splits === undefined) {
+            missingSplits.push(i);
+          }
+        }
+
+        if (missingSplits.length === 0) {
+          console.log(
+            `  ✓ ${sw.text} — ${races.length} races, unchanged (${elapsed(swStart)})`,
+          );
+          existing.timestamp = new Date().toISOString();
+          writeSwimmerFile(existing, SWIMMERS_DIR);
+          return true;
+        }
+
+        console.log(
+          `  ${sw.text} → extracting ${missingSplits.length} missing splits from ${races.length} races`,
+        );
+        await extractSplits(page, races, {
+          log: (msg) => console.log(`    ${msg}`),
+          onlyRows: new Set(missingSplits),
+        });
+        mergeSavedSplits(races, savedRaces);
+      } else {
+        // Race count changed — find which races are new and extract only those.
+        const newIndices = findNewRaceIndices(races, savedRaces);
+
+        if (newIndices.length > 0) {
+          console.log(
+            `  ${sw.text} → extracting ${newIndices.length} new splits from ${races.length} races`,
+          );
+          await extractSplits(page, races, {
+            log: (msg) => console.log(`    ${msg}`),
+            onlyRows: new Set(newIndices),
+          });
+        }
+        mergeSavedSplits(races, savedRaces);
       }
     } else {
       console.log(
