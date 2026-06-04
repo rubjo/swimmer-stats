@@ -16,8 +16,9 @@ Designed to run daily via **GitHub Actions**, with the resulting data served on 
    - ✅ **Ikke vis førsteetapper (F)** — hides first-leg relay rows
 3. Discovers all licensed swimmers via the dropdown
 4. For each swimmer:
-   - Selects them, exports CSV, parses the data
-   - Extracts split times for long-distance races (> 2× pool length)
+   - Selects them in the combo box, polls for the grid to load
+   - Parses race data from the grid table in the DOM
+   - Expands detail rows for races ≥100 m and extracts split/lap times
    - Groups races by discipline
 5. Writes each swimmer to `data/swimmers/<club>/<name>.json`
 6. Builds `data/index.json` — a searchable index of all swimmers
@@ -95,7 +96,9 @@ Requires Node.js 20+ and a working internet connection.
 
 ## Notes
 
-- Rate-limited (1.5–2.5 s between swimmers) to avoid hammering the server.
-- CSV export is captured via CDP download handling.
+- Rate-limited (0.5 s between swimmers) to avoid hammering the server.
+- Race data is parsed from the DOM grid table directly — no CSV export needed.
 - On re-run, swimmers scraped within the last 24 hours are skipped but their timestamp is refreshed.
 - Swimmers without changes are skipped, but the timestamp is still bumped so the 24-hour window stays fresh.
+- If the grid fails to load (no races or server timeout), the swimmer is skipped and retried on the next run.
+- Split extraction uses the DevExpress `ASPx.GVShowDetailRow` API — button `.click()` is a no-op in this version.
