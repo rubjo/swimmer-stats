@@ -363,6 +363,22 @@ async function runPass(mode) {
           log: (msg) => console.log(`    ${msg}`),
           onlyRows: new Set(missing),
         });
+
+        // Preserve existing splits for races not in onlyRows — otherwise
+        // they'd be saved without a splits field and re-extracted next run.
+        for (const r of races) {
+          if (r.splits === undefined && hasPotentialSplits(r.Distanse)) {
+            const saved = savedRaces.find(
+              (sr) =>
+                sr.Distanse === r.Distanse &&
+                sr.Dato === r.Dato &&
+                sr.Tid === r.Tid,
+            );
+            if (saved && saved.splits !== undefined) {
+              r.splits = saved.splits;
+            }
+          }
+        }
       } else {
         console.log(
           `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
