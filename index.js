@@ -13,6 +13,7 @@ import {
   hasPotentialSplits,
   parseGridFromDOM,
   getSwimmerInfo,
+  fetchGender,
   selectSwimmer,
   loadNextBatch,
   navigateAndFilter,
@@ -347,6 +348,7 @@ async function runPass(mode) {
       // Build entry with no split data (splits field omitted → undefined)
       const info = await getSwimmerInfo(page);
       const swimmerName = info.name || sw.text;
+      const gender = await fetchGender(page);
 
       // Show whether this is new, grown, or unchanged
       const existing = existingSwimmers.get(sw.id);
@@ -380,6 +382,7 @@ async function runPass(mode) {
         name: swimmerName,
         club: info.club,
         birthYear: info.birthYear,
+        gender,
         timestamp: new Date().toISOString(),
         disciplines,
       };
@@ -504,6 +507,11 @@ async function runPass(mode) {
         }
 
         if (missingSplits.length === 0) {
+          // If gender isn't known yet, fetch and update the file even though
+          // splits are all present — we still want to fill in the gap.
+          if (!existing.gender) {
+            existing.gender = await fetchGender(page);
+          }
           console.log(
             `  ✓ ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (processed in ${elapsed(swStart)})`,
           );
@@ -579,6 +587,9 @@ async function runPass(mode) {
     const info = await getSwimmerInfo(page);
     const swimmerName = info.name || sw.text;
 
+    // Fetch gender once per swimmer (skip if already known from earlier run)
+    const gender = existing?.gender || (await fetchGender(page));
+
     const discMap = new Map();
     for (const r of races) {
       const dist = r.Distanse || "Ukjent";
@@ -596,6 +607,7 @@ async function runPass(mode) {
       name: swimmerName,
       club: info.club,
       birthYear: info.birthYear,
+      gender,
       timestamp: new Date().toISOString(),
       disciplines,
     };
