@@ -3,7 +3,8 @@
   "name": "Steinar Eliassen",
   "club": "Drammen SK",
   "birthYear": 1969,
-  "timestamp": "2026-06-03T11:06:13.861Z",
+  "gender": "male",
+  "timestamp": "2026-06-04T10:09:36.959Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -14,7 +15,8 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "134",
-          "RA": "433"
+          "RA": "433",
+          "pid": "2516345"
         }
       ]
     },
@@ -27,7 +29,12 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "102",
-          "RA": "490"
+          "RA": "490",
+          "pid": "2517602",
+          "splits": [
+            "36,05",
+            "38,83"
+          ]
         },
         {
           "Tid": "1.19,31",
@@ -35,7 +42,12 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "63",
-          "RA": "605"
+          "RA": "605",
+          "pid": "3235401",
+          "splits": [
+            "37,48",
+            "41,83"
+          ]
         }
       ]
     },
@@ -48,7 +60,12 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "76",
-          "RA": "313"
+          "RA": "313",
+          "pid": "2517006",
+          "splits": [
+            "37,53",
+            "41,96"
+          ]
         },
         {
           "Tid": "1.24,06",
@@ -56,7 +73,12 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "73",
-          "RA": "330"
+          "RA": "330",
+          "pid": "3900516",
+          "splits": [
+            "38,70",
+            "45,36"
+          ]
         }
       ]
     }
