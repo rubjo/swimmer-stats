@@ -159,7 +159,13 @@ async function runPass(mode) {
           swimmerTimeout,
           sw.text,
         );
-        if (saved) swimmerOk = true; // false = grid never loaded / no data → retry
+        if (saved) {
+          swimmerOk = true;
+        } else {
+          // false = grid never loaded / no data — retrying won't help,
+          // skip and try again on the next run.
+          break;
+        }
       } catch (err) {
         const msg = err.message || String(err);
         const isTimeout =
@@ -179,8 +185,6 @@ async function runPass(mode) {
           }
           if (attempts < 3) {
             console.log(`    retry ${attempts}/3...`);
-          } else {
-            console.log(`  ⚠ ${sw.text}: gave up after 3 attempts`);
           }
         } else {
           // Non-timeout error (e.g. missing data) — log and move on
@@ -188,9 +192,6 @@ async function runPass(mode) {
           swimmerOk = true; // don't retry
         }
       }
-    }
-    if (!swimmerOk) {
-      console.log(`  ⚠ ${sw.text}: skipped after ${attempts} attempts`);
     }
     await sleep(DELAY_BETWEEN);
   }
