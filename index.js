@@ -149,10 +149,20 @@ async function runPass(mode) {
 
     // Read swimmer info from combo box
     const sw = await page.evaluate((idx) => {
-      const item = cmbUtover.GetItem(idx);
-      if (!item || !item.value || item.value === "0") return null;
-      return { id: String(item.value), text: item.text.trim() };
+      try {
+        const item = cmbUtover.GetItem(idx);
+        if (!item || !item.value || item.value === "0") return null;
+        return { id: String(item.value), text: item.text.trim(), index: idx };
+      } catch (e) {
+        return { error: e.message, index: idx };
+      }
     }, cbIdx);
+
+    if (sw && sw.error) {
+      console.log(`    ⚠ Combo box error at index ${cbIdx}: ${sw.error}`);
+      cbIdx++;
+      continue;
+    }
 
     if (!sw) {
       if (cbIdx < loadedCount) {
