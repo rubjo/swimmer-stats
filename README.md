@@ -17,8 +17,8 @@ Designed to run daily via **GitHub Actions**, with the resulting data served on 
 3. Discovers all licensed swimmers via the dropdown
 4. For each swimmer:
    - Selects them in the combo box, polls for the grid to load
-   - Parses race data from the grid table in the DOM
-   - Expands detail rows for races ≥100 m and extracts split/lap times
+   - Parses race data from the grid table in the DOM (includes PID extraction from each race's time link)
+   - Fetches result pages for races ≥100 m in parallel batches (5 concurrent) and extracts split/lap times
    - Groups races by discipline
 5. Writes each swimmer to `data/swimmers/<club>/<name>.json`
 6. Builds `data/index.json` — a searchable index of all swimmers
@@ -106,4 +106,4 @@ Requires Node.js 20+ and a working internet connection.
 - Swimmers without changes are skipped, but the timestamp is still bumped so the 24-hour window stays fresh.
 - If the grid fails to load, the swimmer is recorded in `data/skip-until.json` with a **24-hour cooldown** — it won't be retried until that expires. This avoids hammering a stuck server.
 - Data is pushed to GitHub **every 25 swimmers**, so updated data appears on GitHub Pages within ~1–2 minutes (no need to wait for the full scrape to finish).
-- Split extraction uses the DevExpress `ASPx.GVShowDetailRow` API — button `.click()` is a no-op in this version.
+- Split extraction fetches each race's `resultat.aspx?pid=X` page directly via `fetch()` + `DOMParser`, with 5 concurrent requests per batch and 500 ms between batches. This avoids slow DevExpress detail-row callbacks entirely (was ~5 s/row, now ~1 s per batch of 5).
