@@ -648,6 +648,10 @@ async function runPass(mode) {
  */
 async function main() {
   if (DEFAULT_MODE === "auto") {
+    // Two-pass: collect all race data first (fast), then extract splits (slow).
+    // This way basic data appears on GitHub Pages within hours, and splits
+    // fill in over subsequent runs.
+    await runPass("collect");
     await runPass("splits");
   } else {
     await runPass(DEFAULT_MODE);
