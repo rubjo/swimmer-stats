@@ -400,6 +400,9 @@ async function runPass(mode) {
         baseUrl: BASE_URL,
       });
       if (processedInSession % 25 === 0) {
+        console.log(
+          `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
+        );
         gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
       }
       return true; // saved
@@ -617,6 +620,9 @@ async function runPass(mode) {
       baseUrl: BASE_URL,
     });
     if (processedInSession % 25 === 0) {
+      console.log(
+        `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
+      );
       gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
     }
     return true; // saved
