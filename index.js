@@ -6,6 +6,8 @@ import {
   loadExistingSwimmers,
   writeSwimmerFile,
   rebuildIndex,
+  loadSkipUntil,
+  saveSkipUntil,
 } from "./lib/fs-utils.js";
 import {
   hasPotentialSplits,
@@ -25,10 +27,51 @@ const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
 const DELAY_BETWEEN = 500;
+const SKIP_UNTIL_FILE = path.join(DATA_DIR, "skip-until.json");
 const DEFAULT_MODE = (process.env.MODE || "auto").trim();
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Format elapsed time since `start` (Date.now()) as "Xm Ys" or "Xs". */
+function elapsed(start) {
+  const secs = Math.round((Date.now() - start) / 1000);
+  if (secs >= 60) {
+    const m = Math.floor(secs / 60);
+    const s = secs % 60;
+    return s > 0 ? `${m}m ${s}s` : `${m}m`;
+  }
+  return `${secs}s`;
+}
+
+/** Format a timestamp as "Xd Yh ago", "Xh ago", "Xm ago", or "just now". */
+function timeAgo(timestamp) {
+  const diff = Date.now() - new Date(timestamp).getTime();
+  if (diff < 60_000) return "just now";
+  const totalMinutes = Math.floor(diff / 60_000);
+  if (totalMinutes < 60) return `${totalMinutes}m ago`;
+  const hours = Math.floor(totalMinutes / 60);
+  const days = Math.floor(hours / 24);
+  const remHours = hours % 24;
+  if (days > 0)
+    return remHours > 0 ? `${days}d ${remHours}h ago` : `${days}d ago`;
+  return `${hours}h ago`;
+}
+
+/** Return a human-readable stats string from an existing swimmer data object. */
+function formatSwimmerStats(data) {
+  if (!data) return "no data yet";
+  const allRaces = flattenRaces(data);
+  const total = allRaces.length;
+  const withSplits = allRaces.filter(
+    (r) => r.splits !== undefined && r.splits.length > 0,
+  ).length;
+  const splitEntries = allRaces.reduce(
+    (sum, r) => sum + (r.splits?.length || 0),
+    0,
+  );
+  return `${total} races, ${withSplits} with split times, ${splitEntries} split entries saved`;
+}
 
 /**
  * Race a promise against a timeout. If the timeout fires first, the
@@ -80,6 +123,7 @@ async function runPass(mode) {
 
   /* ── Load existing data ───────────────────────────────────────── */
   const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
+  const skipUntil = loadSkipUntil(SKIP_UNTIL_FILE);
 
   /* ── Main loop ────────────────────────────────────────────────── */
   let cbIdx = 1; // 0 = placeholder
@@ -137,10 +181,27 @@ async function runPass(mode) {
       );
       if (!missingSplits) {
         console.log(
-          `  → ${processedInSession} — ${sw.text} — ${savedRaces.length} races, skipped (fresh)`,
+          `  → ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
         );
         continue;
       }
+    }
+
+    // Skip-until check (grid never loaded on a previous run)
+    const skipInfo = skipUntil.get(sw.id);
+    if (skipInfo && new Date(skipInfo).getTime() > Date.now()) {
+      const statsMsg = existing ? formatSwimmerStats(existing) : "no data yet";
+      const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
+      const retryAfter = new Date(skipInfo).toLocaleString("nb-NO", {
+        day: "numeric",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+      console.log(
+        `  → ${processedInSession} — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""} (skipped — retry after ${retryAfter})`,
+      );
+      continue;
     }
 
     console.log(`  ${processedInSession} — ${sw.text}`);
@@ -193,17 +254,18 @@ async function runPass(mode) {
         }
       }
     }
-    await sleep(DELAY_BETWEEN);
-  }
 
-  function elapsed(start) {
-    const secs = Math.round((Date.now() - start) / 1000);
-    if (secs >= 60) {
-      const m = Math.floor(secs / 60);
-      const s = secs % 60;
-      return s > 0 ? `${m}m ${s}s` : `${m}m`;
+    // If the swimmer wasn't processed (e.g. grid never loaded), reload the
+    // page to clear any stuck state before the next swimmer.
+    if (!swimmerOk) {
+      try {
+        await withTimeout(reloadPage(), 30_000, "reload");
+      } catch {
+        // If reload hangs too, skip and try again later
+      }
     }
-    return `${secs}s`;
+
+    await sleep(DELAY_BETWEEN);
   }
 
   /**
@@ -250,7 +312,17 @@ async function runPass(mode) {
       { interval: 200, timeout: 10_000 },
     );
     if (!gridReady) {
-      console.log(`  ⚠ Grid never loaded — ${sw.text}`);
+      const existing = existingSwimmers.get(sw.id);
+      const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
+      const statsMsg = existing ? formatSwimmerStats(existing) : "no data yet";
+      console.log(
+        `  ⚠ Grid never loaded — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""}`,
+      );
+      skipUntil.set(
+        sw.id,
+        new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
+      );
+      saveSkipUntil(skipUntil, SKIP_UNTIL_FILE);
       return false; // not saved
     }
 
@@ -318,19 +390,19 @@ async function runPass(mode) {
 
       writeSwimmerFile(entry, SWIMMERS_DIR);
       totalRaces += races.length;
+      const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
       console.log(
-        `  ✓ ${sw.text} — ${races.length} races, ${changeLabel} (${elapsed(swStart)})`,
+        `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${changeLabel}${ago ? ", last updated " + ago : ""} (processed in ${elapsed(swStart)})`,
       );
 
-      if (processedInSession % 25 === 0) {
-        rebuildIndex({
-          swimmersDir: SWIMMERS_DIR,
-          dataDir: DATA_DIR,
-          indexFile: INDEX_FILE,
-          baseUrl: BASE_URL,
-        });
-        gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
-      }
+      // Checkpoint after every swimmer so data is pushed to GitHub Pages immediately
+      rebuildIndex({
+        swimmersDir: SWIMMERS_DIR,
+        dataDir: DATA_DIR,
+        indexFile: INDEX_FILE,
+        baseUrl: BASE_URL,
+      });
+      gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
       return true; // saved
     }
 
@@ -381,7 +453,7 @@ async function runPass(mode) {
 
         if (missingSplits.length === 0) {
           console.log(
-            `  ✓ ${sw.text} — ${races.length} races, unchanged (${elapsed(swStart)})`,
+            `  ✓ ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (processed in ${elapsed(swStart)})`,
           );
           existing.timestamp = new Date().toISOString();
           writeSwimmerFile(existing, SWIMMERS_DIR);
@@ -476,21 +548,26 @@ async function runPass(mode) {
     writeSwimmerFile(entry, SWIMMERS_DIR);
     totalRaces += races.length;
 
-    const splitsExtracted = races.filter((r) => r.splits?.length > 0).length;
+    const withSplits = races.filter(
+      (r) => r.splits !== undefined && r.splits.length > 0,
+    ).length;
+    const splitEntries = races.reduce(
+      (sum, r) => sum + (r.splits?.length || 0),
+      0,
+    );
     console.log(
-      `  ${sw.text} → extracted ${splitsExtracted} splits (${elapsed(swStart)})`,
+      `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${withSplits} with split times, ${splitEntries} split entries saved` +
+        ` (processed in ${elapsed(swStart)})`,
     );
 
-    // Checkpoint: rebuild index and push data to repo every 25 swimmers
-    if (processedInSession % 25 === 0) {
-      rebuildIndex({
-        swimmersDir: SWIMMERS_DIR,
-        dataDir: DATA_DIR,
-        indexFile: INDEX_FILE,
-        baseUrl: BASE_URL,
-      });
-      gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
-    }
+    // Checkpoint after every swimmer so data is pushed to GitHub Pages immediately
+    rebuildIndex({
+      swimmersDir: SWIMMERS_DIR,
+      dataDir: DATA_DIR,
+      indexFile: INDEX_FILE,
+      baseUrl: BASE_URL,
+    });
+    gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
     return true; // saved
   }
 
