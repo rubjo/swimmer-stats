@@ -129,6 +129,9 @@ async function runPass(mode) {
   let totalRaces = 0;
   let expansionsSinceReload = 0;
 
+  /** Remember the name of the last swimmer that was saved successfully. */
+  let lastSwimmerName = null;
+
   console.log(`Mode: ${mode}`);
 
   /** Navigate back to BASE_URL, re-apply filters, reset loadedCount. */
@@ -139,9 +142,40 @@ async function runPass(mode) {
     expansionsSinceReload = 0;
   }
 
+  /**
+   * Find the combo-box index of a swimmer by name, scanning from startIdx
+   * upward. Returns null if the name is not found after loading all batches.
+   */
+  async function findSwimmerIdx(page, name, startIdx = 1) {
+    let idx = startIdx;
+    let currentCount = await page.evaluate(() => cmbUtover.GetItemCount());
+
+    while (true) {
+      if (idx >= currentCount) {
+        const newCount = await loadNextBatch(page);
+        if (newCount <= currentCount) return null;
+        currentCount = newCount;
+      }
+
+      const match = await page.evaluate((i) => {
+        try {
+          cmbUtover.SetSelectedIndex(i);
+          return (cmbUtover.GetText() || "").trim() || null;
+        } catch {
+          return null;
+        }
+      }, idx);
+
+      if (match === name) return idx;
+      idx++;
+    }
+  }
+
   while (true) {
-    // Safety net: load next batch if needed (shouldn't trigger after pre-scan)
-    if (cbIdx >= loadedCount) {
+    // Safety net: keep loading batches until cbIdx is within range.
+    // Without this loop, a page reload would strand cbIdx beyond the
+    // (reset) loadedCount, silently skipping all subsequent swimmers.
+    while (cbIdx >= loadedCount) {
       const newCount = await loadNextBatch(page);
       if (newCount <= loadedCount) break;
       loadedCount = newCount;
@@ -246,6 +280,7 @@ async function runPass(mode) {
         );
         if (saved) {
           swimmerOk = true;
+          lastSwimmerName = sw.text;
         } else {
           // false = grid never loaded / no data — retrying won't help,
           // skip and try again on the next run.
@@ -286,6 +321,23 @@ async function runPass(mode) {
         await withTimeout(reloadPage(), 30_000, "reload");
       } catch {
         // If reload hangs too, skip and try again later
+      }
+
+      // After a reload, the combo box resets. Reposition cbIdx by finding
+      // the last successfully processed swimmer by name, so we don't skip
+      // swimmers due to stale index tracking.
+      if (lastSwimmerName) {
+        const foundIdx = await findSwimmerIdx(page, lastSwimmerName);
+        if (foundIdx !== null) {
+          cbIdx = foundIdx + 1;
+          console.log(
+            `    Repositioned to index ${cbIdx} (after "${lastSwimmerName}")`,
+          );
+        } else {
+          console.log(
+            `    Could not find "${lastSwimmerName}" in combo — continuing at index ${cbIdx}`,
+          );
+        }
       }
     }
 
