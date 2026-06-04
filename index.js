@@ -155,6 +155,14 @@ async function runPass(mode) {
     }, cbIdx);
 
     if (!sw) {
+      if (cbIdx < loadedCount) {
+        // Potential virtual scroll gap. Try to load more and retry the same index.
+        const newCount = await loadNextBatch(page);
+        if (newCount > loadedCount) {
+          loadedCount = newCount;
+          continue;
+        }
+      }
       cbIdx++;
       continue;
     }
