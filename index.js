@@ -143,32 +143,77 @@ async function runPass(mode) {
   }
 
   /**
-   * Find the combo-box index of a swimmer by name, scanning from startIdx
-   * upward. Returns null if the name is not found after loading all batches.
+   * Find the combo-box index of a swimmer by name.
+   *
+   * Opens the dropdown and reads item texts directly from the DOM, scrolling
+   * through batches to expose new items. This avoids SetSelectedIndex +
+   * GetText for indices beyond the loaded batch, which would return stale
+   * data because the combo needs an async server round-trip to load them.
    */
-  async function findSwimmerIdx(page, name, startIdx = 1) {
-    let idx = startIdx;
-    let currentCount = await page.evaluate(() => cmbUtover.GetItemCount());
+  async function findSwimmerIdx(page, name) {
+    await page.evaluate(() => cmbUtover.ShowDropDown());
+    await sleep(600);
+
+    const scanned = new Set();
 
     while (true) {
-      if (idx >= currentCount) {
-        const newCount = await loadNextBatch(page);
-        if (newCount <= currentCount) return null;
-        currentCount = newCount;
+      // Read currently visible items from the dropdown DOM.
+      // Each row's id encodes its index: "cmbUtover_LBT_<idx>"
+      const visible = await page.evaluate(() => {
+        try {
+          const scrollDiv = cmbUtover.GetListBoxScrollDivElement();
+          if (!scrollDiv) return [];
+          const rows = scrollDiv.querySelectorAll(
+            ".dxeListBoxItemRow_PlasticBlue",
+          );
+          return Array.from(rows)
+            .map((row) => {
+              const td = row.querySelector("td");
+              const m = row.id && row.id.match(/_LBT_(\d+)$/);
+              return {
+                text: td ? td.textContent.trim() : "",
+                idx: m ? parseInt(m[1], 10) : -1,
+              };
+            })
+            .filter((item) => item.text && item.idx >= 0);
+        } catch {
+          return [];
+        }
+      });
+
+      for (const { text, idx } of visible) {
+        if (scanned.has(idx)) continue;
+        scanned.add(idx);
+        if (text === name) {
+          await page.evaluate(() => {
+            try {
+              cmbUtover.HideDropDown();
+            } catch {}
+          });
+          await sleep(300);
+          return idx;
+        }
       }
 
-      const match = await page.evaluate((i) => {
-        try {
-          cmbUtover.SetSelectedIndex(i);
-          return (cmbUtover.GetText() || "").trim() || null;
-        } catch {
-          return null;
-        }
-      }, idx);
-
-      if (match === name) return idx;
-      idx++;
+      // Scroll the dropdown to trigger virtual-scroll loading
+      const prevCount = await page.evaluate(() => cmbUtover.GetItemCount());
+      await page.evaluate(async () => {
+        const scrollDiv = cmbUtover.GetListBoxScrollDivElement();
+        if (scrollDiv) scrollDiv.scrollTop = scrollDiv.scrollHeight;
+        await new Promise((r) => setTimeout(r, 2_000));
+      });
+      const newCount = await page.evaluate(() => cmbUtover.GetItemCount());
+      if (newCount <= prevCount) break;
     }
+
+    // Close the dropdown
+    await page.evaluate(() => {
+      try {
+        cmbUtover.HideDropDown();
+      } catch {}
+    });
+    await sleep(300);
+    return null;
   }
 
   while (true) {
