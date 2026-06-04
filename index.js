@@ -426,6 +426,56 @@ async function runPass(mode) {
       }
     }
 
+    /**
+     * Persist the current state of races as a partial checkpoint so that
+     * data is never lost if the process crashes mid-extraction. Clones
+     * race objects so the final save's destructive column-dropping is
+     * unaffected.
+     */
+    async function saveProgress() {
+      let info;
+      try {
+        info = await getSwimmerInfo(page);
+      } catch {
+        info = { name: null, club: null, birthYear: null };
+      }
+      const swimmerName = info.name || sw.text;
+
+      const discMap = new Map();
+      for (const r of races) {
+        const dist = r.Distanse || "Ukjent";
+        if (!discMap.has(dist)) discMap.set(dist, []);
+        discMap.get(dist).push(r);
+      }
+      const disciplines = [];
+      for (const [distanse, dRaces] of discMap) {
+        const cloned = dRaces.map((r) => {
+          const c = { ...r };
+          delete c.Nr;
+          delete c.Poeng;
+          delete c.Poengtype;
+          delete c.D;
+          if (c.RK == null) delete c.RK;
+          if (c.RA == null) delete c.RA;
+          delete c.Distanse;
+          return c;
+        });
+        disciplines.push({ distanse, races: cloned });
+      }
+
+      writeSwimmerFile(
+        {
+          swimmerId: sw.id,
+          name: swimmerName,
+          club: info.club,
+          birthYear: info.birthYear,
+          timestamp: new Date().toISOString(),
+          disciplines,
+        },
+        SWIMMERS_DIR,
+      );
+    }
+
     if (existing && existing.timestamp) {
       const savedRaces = flattenRaces(existing);
 
@@ -461,6 +511,7 @@ async function runPass(mode) {
         );
         await extractSplits(page, races, {
           log: (msg) => console.log(`    ${msg}`),
+          onProgress: saveProgress,
           onlyRows: new Set(missingSplits),
         });
         mergeSavedSplits(races, savedRaces);
@@ -474,6 +525,7 @@ async function runPass(mode) {
           );
           await extractSplits(page, races, {
             log: (msg) => console.log(`    ${msg}`),
+            onProgress: saveProgress,
             onlyRows: new Set(newIndices),
           });
         }
@@ -485,6 +537,7 @@ async function runPass(mode) {
       );
       await extractSplits(page, races, {
         log: (msg) => console.log(`    ${msg}`),
+        onProgress: saveProgress,
       });
     }
 
