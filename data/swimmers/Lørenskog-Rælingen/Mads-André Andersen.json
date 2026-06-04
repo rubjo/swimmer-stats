@@ -3,7 +3,8 @@
   "name": "Mads-André Andersen",
   "club": "Lørenskog/Rælingen",
   "birthYear": 1981,
-  "timestamp": "2026-06-04T08:06:16.172Z",
+  "gender": "male",
+  "timestamp": "2026-06-04T09:47:10.021Z",
   "disciplines": [
     {
       "distanse": "100m Individuell medley",
@@ -14,7 +15,12 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "59",
-          "RA": "264"
+          "RA": "264",
+          "pid": "3901063",
+          "splits": [
+            "36,38",
+            "39,82"
+          ]
         }
       ]
     },
@@ -27,7 +33,14 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "34",
-          "RA": "424"
+          "RA": "424",
+          "pid": "3901604",
+          "splits": [
+            "36,17",
+            "45,30",
+            "51,22",
+            "41,08"
+          ]
         }
       ]
     },
@@ -40,7 +53,18 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "27",
-          "RA": "115"
+          "RA": "115",
+          "pid": "3901845",
+          "splits": [
+            "37,15",
+            "45,59",
+            "50,86",
+            "50,32",
+            "56,06",
+            "56,79",
+            "44,22",
+            "43,05"
+          ]
         }
       ]
     }
