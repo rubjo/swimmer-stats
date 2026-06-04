@@ -66,11 +66,7 @@ function formatSwimmerStats(data) {
   const withSplits = allRaces.filter(
     (r) => r.splits !== undefined && r.splits.length > 0,
   ).length;
-  const splitEntries = allRaces.reduce(
-    (sum, r) => sum + (r.splits?.length || 0),
-    0,
-  );
-  return `${total} races, ${withSplits} with split times, ${splitEntries} split entries saved`;
+  return `${total} races, ${withSplits} with split times`;
 }
 
 /**
@@ -551,12 +547,8 @@ async function runPass(mode) {
     const withSplits = races.filter(
       (r) => r.splits !== undefined && r.splits.length > 0,
     ).length;
-    const splitEntries = races.reduce(
-      (sum, r) => sum + (r.splits?.length || 0),
-      0,
-    );
     console.log(
-      `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${withSplits} with split times, ${splitEntries} split entries saved` +
+      `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${withSplits} with split times` +
         ` (processed in ${elapsed(swStart)})`,
     );
 
