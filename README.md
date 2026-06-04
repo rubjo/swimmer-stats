@@ -70,7 +70,7 @@ You can also trigger a run manually from the Actions tab.
 
 ## GitHub Pages
 
-The `data/` directory is deployed as a static site with **Source = Deploy from a branch** (`main` / `data`):
+The `data/` directory is deployed as a static site with **Source = Deploy from a branch** (`main` / `/`):
 
 - **`index.json`** — machine-readable index of all swimmers
 - **`swimmers/**`** — individual swimmer JSON files
@@ -86,7 +86,7 @@ Optionally add an `index.html` to the `data/` directory for a browsable frontend
 ## Setup
 
 1. Create a GitHub repository and push this code
-2. In the repo Settings → Pages, set **Source** to **Deploy from a branch**, branch `main`, folder `/data`
+2. In the repo Settings → Pages, set **Source** to **Deploy from a branch**, branch `main`, folder `/`
 3. The first run starts automatically (or trigger it manually from the Actions tab)
 
 ## Run locally
