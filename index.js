@@ -106,7 +106,7 @@ async function runPass(mode) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 300_000,
+    protocolTimeout: 60_000,
   });
   const page = await browser.newPage();
   await page.setUserAgent(
@@ -555,9 +555,14 @@ async function runPass(mode) {
       });
     }
 
-    // Check if page is still alive after all the expansion work
+    // Check if page is still alive after all the expansion work.
+    // Use a short timeout — if the JS thread is stuck from a previous
+    // DevExpress callback, page.evaluate would hang for protocolTimeout.
     try {
-      await page.evaluate(() => true);
+      await withTimeout(
+        page.evaluate(() => true),
+        10_000,
+      );
     } catch {
       console.log(
         `    ⚠ Page unresponsive after split extraction, reloading...`,
