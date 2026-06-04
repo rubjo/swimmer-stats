@@ -106,7 +106,7 @@ async function runPass(mode) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 60_000,
+    protocolTimeout: 120_000,
   });
   const page = await browser.newPage();
   await page.setUserAgent(
