@@ -247,7 +247,7 @@ async function runPass(mode) {
           return false;
         }
       },
-      { interval: 200, timeout: 10_000 },
+      { interval: 200, timeout: 30_000 },
     );
     if (!gridReady) {
       console.log(`  ⚠ Grid never loaded — ${sw.text}`);
@@ -469,9 +469,16 @@ async function runPass(mode) {
 }
 
 /* ─── Entry point ────────────────────────────────────────────────── */
+/**
+ * Single-pass mode: for each swimmer, collect race data and extract split
+ * times in one go. This cuts the runtime roughly in half compared to the
+ * old two-pass (collect → splits) approach.
+ *
+ * When running against existing data, unchanged swimmers with complete
+ * splits are skipped quickly (~3 s/swimmer).
+ */
 async function main() {
   if (DEFAULT_MODE === "auto") {
-    await runPass("collect");
     await runPass("splits");
   } else {
     await runPass(DEFAULT_MODE);
