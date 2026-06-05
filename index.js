@@ -150,18 +150,24 @@ async function runPass(mode) {
    * the DOM at any time (recycling rows on scroll), so DOM-based lookups
    * miss all items in the middle of loaded batches.
    *
+   * Between batch loads the dropdown is closed and re-opened because
+   * DevExpress may not fire scroll callbacks for programmatic scrollTop
+   * changes on an already-open dropdown — closing and re-opening forces
+   * a fresh view update that triggers the server callback.
+   *
    * IMPORTANT: GetItemCount() is NOT used for batch-detection because in
    * callback mode it returns the total server-known item count, not the
    * count of items actually available in the client store.  Instead we
    * count items where GetItem(i) returns non-null.
    */
   async function findSwimmerIdx(page, name) {
-    await page.evaluate(() => cmbUtover.ShowDropDown());
-    await sleep(600);
-
     let prevLoaded = 0;
 
     while (true) {
+      // Open dropdown to trigger initial load / show loaded items
+      await page.evaluate(() => cmbUtover.ShowDropDown());
+      await sleep(600);
+
       // Count truly loaded items (non-null GetItem) and search for target.
       const result = await page.evaluate((target) => {
         try {
@@ -191,25 +197,19 @@ async function runPass(mode) {
         return result.idx;
       }
 
-      // No new items loaded since last scroll — checked everything available
+      // Close dropdown so the next ShowDropDown triggers a fresh view
+      await page.evaluate(() => {
+        try {
+          cmbUtover.HideDropDown();
+        } catch {}
+      });
+      await sleep(300);
+
+      // No new items loaded since last iteration — checked everything
       if (result.loadedUpTo <= prevLoaded) break;
       prevLoaded = result.loadedUpTo;
-
-      // Scroll to trigger the next server callback batch
-      await page.evaluate(async () => {
-        const scrollDiv = cmbUtover.GetListBoxScrollDivElement();
-        if (scrollDiv) scrollDiv.scrollTop = scrollDiv.scrollHeight;
-        await new Promise((r) => setTimeout(r, 2_000));
-      });
     }
 
-    // Close the dropdown
-    await page.evaluate(() => {
-      try {
-        cmbUtover.HideDropDown();
-      } catch {}
-    });
-    await sleep(300);
     return null;
   }
 
@@ -362,8 +362,10 @@ async function runPass(mode) {
           swimmerOk = true;
           lastSwimmerName = sw.text;
         } else {
-          // false = grid never loaded / no data — retrying won't help,
-          // skip and try again on the next run.
+          // false = grid never loaded / no data — retrying won't help.
+          // The page state is fine (no stuck DevExpress callback), so
+          // mark as ok to skip the reload + findSwimmerIdx block below.
+          swimmerOk = true;
           break;
         }
       } catch (err) {
@@ -394,8 +396,10 @@ async function runPass(mode) {
       }
     }
 
-    // If the swimmer wasn't processed (e.g. grid never loaded), reload the
+    // If the swimmer wasn't processed (timeout or protocol error), reload the
     // page to clear any stuck state before the next swimmer.
+    // Grid-never-loaded is handled above (swimmerOk = true) and does NOT
+    // reach here — the page is fine, just no data for that swimmer.
     if (!swimmerOk) {
       try {
         await withTimeout(reloadPage(), 30_000, "reload");
