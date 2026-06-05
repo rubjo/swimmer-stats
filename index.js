@@ -269,6 +269,12 @@ async function runPass(mode) {
     // though only the initial batch is actually in the client store.  The
     // loadUntilIdx helper scrolls to load batches until cbIdx is reachable.
     if (!(await loadUntilIdx(cbIdx))) {
+      console.log(
+        color(
+          C.dim,
+          `    [debug] loadUntilIdx(${cbIdx}) failed — combo item not loaded, skipping`,
+        ),
+      );
       cbIdx++;
       continue;
     }
@@ -295,6 +301,12 @@ async function runPass(mode) {
     }
 
     if (!sw) {
+      console.log(
+        color(
+          C.dim,
+          `    [debug] combo item at index ${cbIdx} has no text/value — skipping`,
+        ),
+      );
       cbIdx++;
       continue;
     }
