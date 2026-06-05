@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "https://www.medley.no/svommer.aspx",
-    "generatedAt": "2026-06-05T10:55:18.202Z",
-    "totalSwimmers": 325,
-    "totalRaces": 33144,
+    "generatedAt": "2026-06-05T10:57:13.089Z",
+    "totalSwimmers": 349,
+    "totalRaces": 36272,
     "settings": {
       "kunLisensiert2026": true,
       "fraDato": "01.01.2000",
@@ -14,12 +14,39 @@
   },
   "swimmers": [
     {
+      "id": "38460",
+      "name": "Maria Bersås",
+      "club": "Aalesunds SLK",
+      "birthYear": 2011,
+      "gender": "female",
+      "totalRaces": 115,
+      "splitsComplete": false
+    },
+    {
+      "id": "45362",
+      "name": "Nora Bersås",
+      "club": "Aalesunds SLK",
+      "birthYear": 2013,
+      "gender": "female",
+      "totalRaces": 70,
+      "splitsComplete": false
+    },
+    {
       "id": "45926",
       "name": "Per Balling",
       "club": "Aalesunds SLK",
       "birthYear": 2014,
       "gender": "male",
       "totalRaces": 2,
+      "splitsComplete": false
+    },
+    {
+      "id": "45528",
+      "name": "Charlene Lohiniva Birkeland",
+      "club": "Alta SK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 110,
       "splitsComplete": false
     },
     {
@@ -32,12 +59,30 @@
       "splitsComplete": false
     },
     {
+      "id": "43423",
+      "name": "Gael Besnier",
+      "club": "Arna SLK",
+      "birthYear": 2011,
+      "gender": "male",
+      "totalRaces": 36,
+      "splitsComplete": false
+    },
+    {
       "id": "32634",
       "name": "Gustav Sjøløkken Bandlien",
       "club": "Asker SK",
       "birthYear": 2009,
       "gender": "male",
       "totalRaces": 393,
+      "splitsComplete": false
+    },
+    {
+      "id": "34572",
+      "name": "Ivan Biljan",
+      "club": "Asker SK",
+      "birthYear": 2012,
+      "gender": null,
+      "totalRaces": 277,
       "splitsComplete": false
     },
     {
@@ -365,6 +410,15 @@
       "splitsComplete": false
     },
     {
+      "id": "25259",
+      "name": "Gergely Laszlo Besenyi",
+      "club": "Bærumsvømmerne",
+      "birthYear": 2007,
+      "gender": "male",
+      "totalRaces": 555,
+      "splitsComplete": false
+    },
+    {
       "id": "51184",
       "name": "Henrik Bergerud-Wichstrøm",
       "club": "Bærumsvømmerne",
@@ -479,6 +533,15 @@
       "birthYear": 2011,
       "gender": "female",
       "totalRaces": 235,
+      "splitsComplete": false
+    },
+    {
+      "id": "34235",
+      "name": "Lotte Rå Birkeland",
+      "club": "Delfana",
+      "birthYear": 2010,
+      "gender": "female",
+      "totalRaces": 381,
       "splitsComplete": false
     },
     {
@@ -734,12 +797,30 @@
       "splitsComplete": true
     },
     {
+      "id": "42985",
+      "name": "Edvin Bilal",
+      "club": "Haldens SK",
+      "birthYear": 2012,
+      "gender": "male",
+      "totalRaces": 129,
+      "splitsComplete": false
+    },
+    {
       "id": "37512",
       "name": "Mads Philip Stavang Abrahamsen",
       "club": "Haldens SK",
       "birthYear": 2007,
       "gender": "male",
       "totalRaces": 102,
+      "splitsComplete": false
+    },
+    {
+      "id": "42948",
+      "name": "Selma Bilal",
+      "club": "Haldens SK",
+      "birthYear": 2015,
+      "gender": "female",
+      "totalRaces": 14,
       "splitsComplete": false
     },
     {
@@ -878,6 +959,33 @@
       "splitsComplete": false
     },
     {
+      "id": "35760",
+      "name": "Alisha Bhatnagar",
+      "club": "Håbrann SK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 159,
+      "splitsComplete": false
+    },
+    {
+      "id": "45998",
+      "name": "Nikita Bezrukov",
+      "club": "Håbrann SK",
+      "birthYear": 2009,
+      "gender": "male",
+      "totalRaces": 42,
+      "splitsComplete": false
+    },
+    {
+      "id": "51759",
+      "name": "Timofi Bezrukov",
+      "club": "Håbrann SK",
+      "birthYear": 2012,
+      "gender": "male",
+      "totalRaces": 18,
+      "splitsComplete": false
+    },
+    {
       "id": "53876",
       "name": "Lisa Asserson Kirkeli",
       "club": "IL Solid",
@@ -977,6 +1085,15 @@
       "splitsComplete": false
     },
     {
+      "id": "44940",
+      "name": "Alma Josefine Bilet",
+      "club": "Kongstensvømmerne",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 103,
+      "splitsComplete": false
+    },
+    {
       "id": "44929",
       "name": "Elise Klev Andersen",
       "club": "Kongstensvømmerne",
@@ -1058,12 +1175,30 @@
       "splitsComplete": false
     },
     {
+      "id": "53385",
+      "name": "Deepak Bharathi",
+      "club": "Kristiansand SA",
+      "birthYear": 2011,
+      "gender": "male",
+      "totalRaces": 20,
+      "splitsComplete": false
+    },
+    {
       "id": "49860",
       "name": "Naim Anderson",
       "club": "Kristiansand SA",
       "birthYear": 2012,
       "gender": "male",
       "totalRaces": 18,
+      "splitsComplete": false
+    },
+    {
+      "id": "41644",
+      "name": "Hannah Frantsvåg Berntzen",
+      "club": "Kristiansund SK",
+      "birthYear": 2011,
+      "gender": "female",
+      "totalRaces": 81,
       "splitsComplete": false
     },
     {
@@ -1181,6 +1316,15 @@
       "birthYear": 2010,
       "gender": "female",
       "totalRaces": 11,
+      "splitsComplete": false
+    },
+    {
+      "id": "45625",
+      "name": "Jan Friedrich Betti",
+      "club": "Lambertseter SK",
+      "birthYear": 2012,
+      "gender": "male",
+      "totalRaces": 29,
       "splitsComplete": false
     },
     {
@@ -1544,6 +1688,15 @@
       "splitsComplete": false
     },
     {
+      "id": "34526",
+      "name": "Ewa Justyna Biegajlo",
+      "club": "Modum SK",
+      "birthYear": 1971,
+      "gender": "female",
+      "totalRaces": 6,
+      "splitsComplete": false
+    },
+    {
       "id": "39144",
       "name": "Johan Tobias Andresen",
       "club": "Modum SK",
@@ -1604,6 +1757,15 @@
       "birthYear": 2011,
       "gender": "male",
       "totalRaces": 49,
+      "splitsComplete": false
+    },
+    {
+      "id": "37678",
+      "name": "Enikö Magdolna Besenyi",
+      "club": "Nannestad IL",
+      "birthYear": 2011,
+      "gender": "female",
+      "totalRaces": 206,
       "splitsComplete": false
     },
     {
@@ -1787,6 +1949,15 @@
       "splitsComplete": false
     },
     {
+      "id": "21049",
+      "name": "Uma Park Bhasin",
+      "club": "OI Svømming",
+      "birthYear": 2004,
+      "gender": "female",
+      "totalRaces": 651,
+      "splitsComplete": false
+    },
+    {
       "id": "4742",
       "name": "Øyvind Arentz",
       "club": "OI Svømming",
@@ -1874,6 +2045,15 @@
       "birthYear": 2000,
       "gender": "male",
       "totalRaces": 308,
+      "splitsComplete": false
+    },
+    {
+      "id": "46725",
+      "name": "Joel Søegaard  Bientie",
+      "club": "Rana SK",
+      "birthYear": 2015,
+      "gender": "male",
+      "totalRaces": 67,
       "splitsComplete": false
     },
     {
@@ -2363,6 +2543,15 @@
       "splitsComplete": false
     },
     {
+      "id": "51800",
+      "name": "Aurko Bhattacharya",
+      "club": "Stord IL Symjing",
+      "birthYear": 2013,
+      "gender": "male",
+      "totalRaces": 7,
+      "splitsComplete": false
+    },
+    {
       "id": "46008",
       "name": "Ella Ingeborg Angen",
       "club": "Svalbard Turn",
@@ -2432,6 +2621,15 @@
       "birthYear": 2013,
       "gender": "male",
       "totalRaces": 143,
+      "splitsComplete": false
+    },
+    {
+      "id": "48726",
+      "name": "Liam Betin",
+      "club": "Triton Lillestrøm",
+      "birthYear": 2014,
+      "gender": "male",
+      "totalRaces": 26,
       "splitsComplete": false
     },
     {
@@ -2576,6 +2774,15 @@
       "birthYear": 2013,
       "gender": "female",
       "totalRaces": 190,
+      "splitsComplete": false
+    },
+    {
+      "id": "44674",
+      "name": "Miriam Bianchi Dos Santos",
+      "club": "Trondhjems SLK",
+      "birthYear": 2011,
+      "gender": "female",
+      "totalRaces": 3,
       "splitsComplete": false
     },
     {
@@ -2891,6 +3098,15 @@
       "birthYear": 2012,
       "gender": "male",
       "totalRaces": 46,
+      "splitsComplete": false
+    },
+    {
+      "id": "43524",
+      "name": "Enya Engelsen Bertelsen",
+      "club": "Åstveit SK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 23,
       "splitsComplete": false
     },
     {
