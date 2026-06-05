@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "https://www.medley.no/svommer.aspx",
-    "generatedAt": "2026-06-05T10:29:39.084Z",
-    "totalSwimmers": 25,
-    "totalRaces": 1618,
+    "generatedAt": "2026-06-05T10:32:58.172Z",
+    "totalSwimmers": 42,
+    "totalRaces": 3761,
     "settings": {
       "kunLisensiert2026": true,
-      "fraDato": "01.01.2010",
+      "fraDato": "01.01.2000",
       "ikkeVisDeldistanser": true,
       "ikkeVisForsteetapper": true,
       "visKunForsteResultat": false
@@ -50,6 +50,15 @@
       "splitsComplete": false
     },
     {
+      "id": "36578",
+      "name": "Mia Svartemyr Algrøy",
+      "club": "Bergen Vest SK",
+      "birthYear": 2013,
+      "gender": "female",
+      "totalRaces": 19,
+      "splitsComplete": false
+    },
+    {
       "id": "51148",
       "name": "Nora Hansine Ahlfors",
       "club": "Bergen Vest SK",
@@ -77,12 +86,57 @@
       "splitsComplete": false
     },
     {
+      "id": "45088",
+      "name": "Badie Haytham Ali",
+      "club": "Bergkameratene",
+      "birthYear": 2013,
+      "gender": "male",
+      "totalRaces": 92,
+      "splitsComplete": false
+    },
+    {
+      "id": "54150",
+      "name": "Alexander Alemayhu",
+      "club": "Bærumsvømmerne",
+      "birthYear": 1992,
+      "gender": "male",
+      "totalRaces": 2,
+      "splitsComplete": false
+    },
+    {
       "id": "49956",
       "name": "Victoria Afrazi",
       "club": "Bærumsvømmerne",
       "birthYear": 2012,
       "gender": "female",
       "totalRaces": 3,
+      "splitsComplete": false
+    },
+    {
+      "id": "43841",
+      "name": "Hanna Frankrig Almankaas",
+      "club": "Drammen SK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 207,
+      "splitsComplete": false
+    },
+    {
+      "id": "21287",
+      "name": "Marie Alle",
+      "club": "Elverum Svømming",
+      "birthYear": 2003,
+      "gender": null,
+      "totalRaces": 336,
+      "splitsComplete": false
+    },
+    {
+      "id": "39880",
+      "name": "Sofie Catrin Johansen Alexandersen",
+      "club": "Fauske SK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 226,
       "splitsComplete": false
     },
     {
@@ -113,12 +167,57 @@
       "splitsComplete": false
     },
     {
+      "id": "44962",
+      "name": "Radmila Albul",
+      "club": "Haugesund SK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 179,
+      "splitsComplete": false
+    },
+    {
       "id": "39374",
       "name": "Alva My Aihonen",
       "club": "Horten SK",
       "birthYear": 2012,
       "gender": null,
       "totalRaces": 211,
+      "splitsComplete": false
+    },
+    {
+      "id": "39375",
+      "name": "Ida-Elvira Aihonen",
+      "club": "Horten SK",
+      "birthYear": 2010,
+      "gender": "female",
+      "totalRaces": 149,
+      "splitsComplete": false
+    },
+    {
+      "id": "51010",
+      "name": "Anton O Alfredsen",
+      "club": "Kolbotn IL",
+      "birthYear": 2014,
+      "gender": "male",
+      "totalRaces": 6,
+      "splitsComplete": false
+    },
+    {
+      "id": "53343",
+      "name": "Youssef Alarby",
+      "club": "Larvik SK",
+      "birthYear": 2001,
+      "gender": "male",
+      "totalRaces": 10,
+      "splitsComplete": false
+    },
+    {
+      "id": "41664",
+      "name": "Luna Sofie Barli Almestad",
+      "club": "Levanger SLK",
+      "birthYear": 2012,
+      "gender": "female",
+      "totalRaces": 62,
       "splitsComplete": false
     },
     {
@@ -194,6 +293,15 @@
       "splitsComplete": false
     },
     {
+      "id": "14082",
+      "name": "Espen Aikio",
+      "club": "ROMA",
+      "birthYear": 2000,
+      "gender": "male",
+      "totalRaces": 446,
+      "splitsComplete": false
+    },
+    {
       "id": "49239",
       "name": "Sofie Abduhelil",
       "club": "Sandnes SLK",
@@ -209,6 +317,24 @@
       "birthYear": 2012,
       "gender": "male",
       "totalRaces": 1,
+      "splitsComplete": true
+    },
+    {
+      "id": "48975",
+      "name": "Vianka Alban",
+      "club": "Stavanger SK",
+      "birthYear": 2014,
+      "gender": "female",
+      "totalRaces": 39,
+      "splitsComplete": false
+    },
+    {
+      "id": "40008",
+      "name": "Ingrid Elise Almestad",
+      "club": "Stegaberg IL",
+      "birthYear": 1998,
+      "gender": "female",
+      "totalRaces": 2,
       "splitsComplete": true
     },
     {
@@ -230,12 +356,39 @@
       "splitsComplete": false
     },
     {
+      "id": "41696",
+      "name": "Marion Reinåmo Akselsen",
+      "club": "Ullensakersvømmerne",
+      "birthYear": 2011,
+      "gender": "female",
+      "totalRaces": 174,
+      "splitsComplete": false
+    },
+    {
+      "id": "45407",
+      "name": "Mathias Pedersen Aksdal",
+      "club": "Ullensakersvømmerne",
+      "birthYear": 2011,
+      "gender": "male",
+      "totalRaces": 82,
+      "splitsComplete": false
+    },
+    {
       "id": "51479",
       "name": "Mohamed Yassine Abroud",
       "club": "Ullensakersvømmerne",
       "birthYear": 2012,
       "gender": "male",
       "totalRaces": 8,
+      "splitsComplete": false
+    },
+    {
+      "id": "44346",
+      "name": "Viktor Reinåmo Akselsen",
+      "club": "Ullensakersvømmerne",
+      "birthYear": 2013,
+      "gender": "male",
+      "totalRaces": 112,
       "splitsComplete": false
     }
   ]
