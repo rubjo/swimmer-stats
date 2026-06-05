@@ -15,7 +15,6 @@ import {
   getSwimmerInfo,
   fetchGender,
   selectSwimmer,
-  loadNextBatch,
   navigateAndFilter,
   extractSplits,
   pollFor,
@@ -151,31 +150,34 @@ async function runPass(mode) {
    * the DOM at any time (recycling rows on scroll), so DOM-based lookups
    * miss all items in the middle of loaded batches.
    *
-   * After each scroll-to-bottom the server delivers the next batch of
-   * items.  All loaded items are accessible via GetItem(i) regardless of
-   * whether they have a visible DOM node.
+   * IMPORTANT: GetItemCount() is NOT used for batch-detection because in
+   * callback mode it returns the total server-known item count, not the
+   * count of items actually available in the client store.  Instead we
+   * count items where GetItem(i) returns non-null.
    */
   async function findSwimmerIdx(page, name) {
     await page.evaluate(() => cmbUtover.ShowDropDown());
     await sleep(600);
 
-    let prevCount = 0;
+    let prevLoaded = 0;
 
     while (true) {
-      // Check all loaded items via the DevExpress API (internal data
-      // store), not from the DOM (which only has ~10 visible rows).
+      // Count truly loaded items (non-null GetItem) and search for target.
       const result = await page.evaluate((target) => {
         try {
-          const count = cmbUtover.GetItemCount();
-          for (let i = 0; i < count; i++) {
+          const total = cmbUtover.GetItemCount();
+          let loadedUpTo = 0;
+          for (let i = 0; i < total; i++) {
             const item = cmbUtover.GetItem(i);
-            if (item && item.text && item.text.trim() === target) {
-              return { found: true, idx: i };
+            if (!item) break; // items are loaded sequentially from 0
+            loadedUpTo = i + 1;
+            if (item.text && item.text.trim() === target) {
+              return { found: true, idx: i, loadedUpTo };
             }
           }
-          return { found: false, count };
+          return { found: false, loadedUpTo };
         } catch {
-          return { found: false, count: 0 };
+          return { found: false, loadedUpTo: 0 };
         }
       }, name);
 
@@ -189,11 +191,11 @@ async function runPass(mode) {
         return result.idx;
       }
 
-      // No new items loaded since last iteration — checked everything
-      if (result.count <= prevCount) break;
-      prevCount = result.count;
+      // No new items loaded since last scroll — checked everything available
+      if (result.loadedUpTo <= prevLoaded) break;
+      prevLoaded = result.loadedUpTo;
 
-      // Scroll to bottom to trigger the next server callback batch
+      // Scroll to trigger the next server callback batch
       await page.evaluate(async () => {
         const scrollDiv = cmbUtover.GetListBoxScrollDivElement();
         if (scrollDiv) scrollDiv.scrollTop = scrollDiv.scrollHeight;
@@ -211,19 +213,56 @@ async function runPass(mode) {
     return null;
   }
 
+  /**
+   * Load combo batches until the item at `idx` is available in the client
+   * data store (cmbUtover.GetItem(idx) !== null).  After a page reload,
+   * GetItemCount() may return the total server-known item count while only
+   * the first batch is loaded — so we cannot trust GetItemCount() to decide
+   * whether an index is safe to use.  Returns true once loaded, false if
+   * no more batches load (index doesn't exist).
+   */
+  async function loadUntilIdx(idx, maxScrolls = 200) {
+    for (let s = 0; s < maxScrolls; s++) {
+      const ready = await page.evaluate((i) => {
+        try {
+          return cmbUtover.GetItem(i) != null;
+        } catch {
+          return false;
+        }
+      }, idx);
+      if (ready) return true;
+      await page.evaluate(() => {
+        try {
+          cmbUtover.ShowDropDown();
+        } catch {}
+      });
+      await sleep(400);
+      await page.evaluate(async () => {
+        const d = cmbUtover.GetListBoxScrollDivElement();
+        if (d) d.scrollTop = d.scrollHeight;
+        await new Promise((r) => setTimeout(r, 2_000));
+      });
+      await page.evaluate(() => {
+        try {
+          cmbUtover.HideDropDown();
+        } catch {}
+      });
+      await sleep(300);
+    }
+    return false;
+  }
+
   while (true) {
-    // Safety net: keep loading batches until cbIdx is within range.
-    // Without this loop, a page reload would strand cbIdx beyond the
-    // (reset) loadedCount, silently skipping all subsequent swimmers.
-    while (cbIdx >= loadedCount) {
-      const newCount = await loadNextBatch(page);
-      if (newCount <= loadedCount) break;
-      loadedCount = newCount;
+    // Ensure the combo has loaded items up to cbIdx before trying to read.
+    // After a page reload, GetItemCount() may return the total count even
+    // though only the initial batch is actually in the client store.  The
+    // loadUntilIdx helper scrolls to load batches until cbIdx is reachable.
+    if (!(await loadUntilIdx(cbIdx))) {
+      cbIdx++;
+      continue;
     }
 
     // Read swimmer info from combo box
-    // Instead of GetItem(idx), which is unreliable in virtualized lists,
-    // we force the selection and read the resulting text/value.
     const sw = await page.evaluate((idx) => {
       try {
         cmbUtover.SetSelectedIndex(idx);
@@ -248,14 +287,6 @@ async function runPass(mode) {
     }
 
     if (!sw) {
-      if (cbIdx < loadedCount) {
-        // Potential virtual scroll gap. Try to load more and retry the same index.
-        const newCount = await loadNextBatch(page);
-        if (newCount > loadedCount) {
-          loadedCount = newCount;
-          continue;
-        }
-      }
       cbIdx++;
       continue;
     }
