@@ -1,23 +1,83 @@
 {
-  "swimmerId": "50496",
+  "swimmerId": "46876",
   "name": "Magnus Lin Andenæs",
   "club": "Førde IL Symjing",
   "birthYear": 2014,
-  "timestamp": "2026-06-04T09:44:02.221Z",
+  "gender": "female",
+  "timestamp": "2026-06-05T10:03:49.619Z",
   "disciplines": [
     {
-      "distanse": "50m Rygg",
+      "distanse": "50m Fri",
       "races": [
         {
-          "Tid": "54,67",
-          "Dato": "31.05.2025",
-          "Sted": "Førde",
+          "Tid": "46,65",
+          "Dato": "30.05.2026",
+          "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "96",
-          "RA": "1229"
+          "RK": "234",
+          "RA": "1668",
+          "pid": "3950780"
+        },
+        {
+          "Tid": "50,17",
+          "Dato": "09.11.2025",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3813248"
+        },
+        {
+          "Tid": "57,69",
+          "Dato": "08.09.2024",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "2268",
+          "pid": "3512540"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,70",
+          "Dato": "30.05.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "RK": "224",
+          "RA": "1440",
+          "pid": "3950645"
+        },
+        {
+          "Tid": "1.00,71",
+          "Dato": "07.09.2025",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3738916"
+        },
+        {
+          "Tid": "1.03,18",
+          "Dato": "09.11.2025",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3813204"
+        },
+        {
+          "Tid": "1.05,90",
+          "Dato": "08.09.2024",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1858",
+          "pid": "3512477"
         }
       ]
     }
-  ],
-  "gender": "male"
+  ]
 }
