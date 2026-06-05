@@ -145,65 +145,60 @@ async function runPass(mode) {
   /**
    * Find the combo-box index of a swimmer by name.
    *
-   * Opens the dropdown and reads item texts directly from the DOM, scrolling
-   * through batches to expose new items. This avoids SetSelectedIndex +
-   * GetText for indices beyond the loaded batch, which would return stale
-   * data because the combo needs an async server round-trip to load them.
+   * Opens the dropdown and reads item data from the DevExpress internal
+   * data store (cmbUtover.GetItem(i)) rather than from the DOM.  This is
+   * critical because DevExpress virtual scrolling only keeps ~10 items in
+   * the DOM at any time (recycling rows on scroll), so DOM-based lookups
+   * miss all items in the middle of loaded batches.
+   *
+   * After each scroll-to-bottom the server delivers the next batch of
+   * items.  All loaded items are accessible via GetItem(i) regardless of
+   * whether they have a visible DOM node.
    */
   async function findSwimmerIdx(page, name) {
     await page.evaluate(() => cmbUtover.ShowDropDown());
     await sleep(600);
 
-    const scanned = new Set();
+    let prevCount = 0;
 
     while (true) {
-      // Read currently visible items from the dropdown DOM.
-      // Each row's id encodes its index: "cmbUtover_LBT_<idx>"
-      const visible = await page.evaluate(() => {
+      // Check all loaded items via the DevExpress API (internal data
+      // store), not from the DOM (which only has ~10 visible rows).
+      const result = await page.evaluate((target) => {
         try {
-          const scrollDiv = cmbUtover.GetListBoxScrollDivElement();
-          if (!scrollDiv) return [];
-          const rows = scrollDiv.querySelectorAll(
-            ".dxeListBoxItemRow_PlasticBlue",
-          );
-          return Array.from(rows)
-            .map((row) => {
-              const td = row.querySelector("td");
-              const m = row.id && row.id.match(/_LBT_(\d+)$/);
-              return {
-                text: td ? td.textContent.trim() : "",
-                idx: m ? parseInt(m[1], 10) : -1,
-              };
-            })
-            .filter((item) => item.text && item.idx >= 0);
+          const count = cmbUtover.GetItemCount();
+          for (let i = 0; i < count; i++) {
+            const item = cmbUtover.GetItem(i);
+            if (item && item.text && item.text.trim() === target) {
+              return { found: true, idx: i };
+            }
+          }
+          return { found: false, count };
         } catch {
-          return [];
+          return { found: false, count: 0 };
         }
-      });
+      }, name);
 
-      for (const { text, idx } of visible) {
-        if (scanned.has(idx)) continue;
-        scanned.add(idx);
-        if (text === name) {
-          await page.evaluate(() => {
-            try {
-              cmbUtover.HideDropDown();
-            } catch {}
-          });
-          await sleep(300);
-          return idx;
-        }
+      if (result.found) {
+        await page.evaluate(() => {
+          try {
+            cmbUtover.HideDropDown();
+          } catch {}
+        });
+        await sleep(300);
+        return result.idx;
       }
 
-      // Scroll the dropdown to trigger virtual-scroll loading
-      const prevCount = await page.evaluate(() => cmbUtover.GetItemCount());
+      // No new items loaded since last iteration — checked everything
+      if (result.count <= prevCount) break;
+      prevCount = result.count;
+
+      // Scroll to bottom to trigger the next server callback batch
       await page.evaluate(async () => {
         const scrollDiv = cmbUtover.GetListBoxScrollDivElement();
         if (scrollDiv) scrollDiv.scrollTop = scrollDiv.scrollHeight;
         await new Promise((r) => setTimeout(r, 2_000));
       });
-      const newCount = await page.evaluate(() => cmbUtover.GetItemCount());
-      if (newCount <= prevCount) break;
     }
 
     // Close the dropdown
@@ -375,6 +370,9 @@ async function runPass(mode) {
         const foundIdx = await findSwimmerIdx(page, lastSwimmerName);
         if (foundIdx !== null) {
           cbIdx = foundIdx + 1;
+          // findSwimmerIdx loaded batches via the dropdown; sync loadedCount
+          // so the main loop safety net doesn't re-scroll unnecessarily.
+          loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
           console.log(
             `    Repositioned to index ${cbIdx} (after "${lastSwimmerName}")`,
           );
