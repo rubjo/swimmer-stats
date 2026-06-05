@@ -133,9 +133,20 @@ async function runPass(mode) {
 
   console.log(`Mode: ${mode}`);
 
+  /* ─── ANSI color helpers ────────────────────────────────────────── */
+  const C = {
+    reset: "\x1b[0m",
+    green: "\x1b[32m",
+    yellow: "\x1b[33m",
+    cyan: "\x1b[36m",
+    red: "\x1b[31m",
+    dim: "\x1b[2m",
+  };
+  const color = (code, s) => `${code}${s}${C.reset}`;
+
   /** Navigate back to BASE_URL, re-apply filters, reset loadedCount. */
   async function reloadPage() {
-    console.log(`    Reloading page to clear state...`);
+    console.log(color(C.dim, `    Reloading page to clear state...`));
     await navigateAndFilter(page, BASE_URL);
     loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
     expansionsSinceReload = 0;
@@ -276,14 +287,11 @@ async function runPass(mode) {
     }, cbIdx);
 
     if (sw && sw.error) {
-      console.log(`    ⚠ Combo box error at index ${cbIdx}: ${sw.error}`);
+      console.log(
+        color(C.red, `    ⚠ Combo box error at index ${cbIdx}: ${sw.error}`),
+      );
       cbIdx++;
       continue;
-    }
-
-    // DEBUG: Every 50 swimmers, log current index and name to check for alphabetical jumps
-    if (processedInSession % 50 === 0 && sw) {
-      console.log(`    [DEBUG] Index ${cbIdx} is ${sw.text}`);
     }
 
     if (!sw) {
@@ -308,7 +316,7 @@ async function runPass(mode) {
         // within 24 h, regardless of whether splits are present (splits are
         // only extracted in the splits pass).
         console.log(
-          `  → ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
+          `  ${color(C.yellow, "→")} ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
         );
         continue;
       }
@@ -319,7 +327,7 @@ async function runPass(mode) {
       );
       if (!missingSplits) {
         console.log(
-          `  → ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
+          `  ${color(C.yellow, "→")} ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
         );
         continue;
       }
@@ -337,12 +345,17 @@ async function runPass(mode) {
         minute: "2-digit",
       });
       console.log(
-        `  → ${processedInSession} — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""} (skipped — retry after ${retryAfter})`,
+        `  ${color(C.yellow, "→")} ${processedInSession} — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""} (skipped — retry after ${retryAfter})`,
       );
       continue;
     }
 
-    console.log(`  ${processedInSession} — ${sw.text}`);
+    // In splits mode, log the swimmer name before processing so progress
+    // is visible during slow split extraction.  Collect mode is fast so
+    // we skip this line and only show the ✓ result line.
+    if (mode === "splits") {
+      console.log(`  ${color(C.cyan, processedInSession)} — ${sw.text}`);
+    }
 
     // Retry loop with hang detection + page reload
     let attempts = 0;
@@ -376,21 +389,26 @@ async function runPass(mode) {
           msg.includes("Protocol error");
         if (isTimeout) {
           console.log(
-            `  ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
+            color(
+              C.red,
+              `  ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
+            ),
           );
           try {
             await withTimeout(reloadPage(), 30_000, "reload");
           } catch {
             // If even the reload hangs, we can't recover
-            console.log(`  ⚠ ${sw.text}: reload also hung, skipping`);
+            console.log(
+              color(C.red, `  ⚠ ${sw.text}: reload also hung, skipping`),
+            );
             break;
           }
           if (attempts < 3) {
-            console.log(`    retry ${attempts}/3...`);
+            console.log(color(C.dim, `    retry ${attempts}/3...`));
           }
         } else {
           // Non-timeout error (e.g. missing data) — log and move on
-          console.log(`  ⚠ ${sw.text}: ${msg.slice(0, 100)}`);
+          console.log(color(C.red, `  ⚠ ${sw.text}: ${msg.slice(0, 100)}`));
           swimmerOk = true; // don't retry
         }
       }
@@ -418,11 +436,17 @@ async function runPass(mode) {
           // so the main loop safety net doesn't re-scroll unnecessarily.
           loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
           console.log(
-            `    Repositioned to index ${cbIdx} (after "${lastSwimmerName}")`,
+            color(
+              C.cyan,
+              `    Repositioned to index ${cbIdx} (after "${lastSwimmerName}")`,
+            ),
           );
         } else {
           console.log(
-            `    Could not find "${lastSwimmerName}" in combo — continuing at index ${cbIdx}`,
+            color(
+              C.yellow,
+              `    Could not find "${lastSwimmerName}" in combo — continuing at index ${cbIdx}`,
+            ),
           );
         }
       }
@@ -479,7 +503,10 @@ async function runPass(mode) {
       const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
       const statsMsg = existing ? formatSwimmerStats(existing) : "no data yet";
       console.log(
-        `  ⚠ Grid never loaded — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""}`,
+        color(
+          C.yellow,
+          `  ⚠ Grid never loaded — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""}`,
+        ),
       );
       skipUntil.set(
         sw.id,
@@ -495,7 +522,7 @@ async function runPass(mode) {
     // rows (D/F) and cause index mismatches.
     const races = await parseGridFromDOM(page);
     if (!races || races.length === 0) {
-      console.log(`  ⚠ No data — ${sw.text}`);
+      console.log(color(C.yellow, `  ⚠ No data — ${sw.text}`));
       return false; // not saved
     }
 
@@ -557,7 +584,7 @@ async function runPass(mode) {
       totalRaces += races.length;
       const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
       console.log(
-        `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${changeLabel}${ago ? ", last updated " + ago : ""} (processed in ${elapsed(swStart)})`,
+        `  ${color(C.green, "✓")} ${processedInSession} — ${sw.text} — ${races.length} races, ${changeLabel}${ago ? ", last updated " + ago : ""} (processed in ${elapsed(swStart)})`,
       );
 
       // Rebuild index every swimmer; push to GitHub every 25 so Pages
@@ -570,7 +597,10 @@ async function runPass(mode) {
       });
       if (processedInSession % 25 === 0) {
         console.log(
-          `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
+          color(
+            C.cyan,
+            `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
+          ),
         );
         gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
       }
@@ -687,7 +717,10 @@ async function runPass(mode) {
         }
 
         console.log(
-          `  ${sw.text} → extracting ${missingSplits.length} missing splits from ${races.length} races`,
+          color(
+            C.cyan,
+            `  ${sw.text} → extracting ${missingSplits.length} missing splits from ${races.length} races`,
+          ),
         );
         await extractSplits(page, races, {
           log: (msg) => console.log(`    ${msg}`),
@@ -701,7 +734,10 @@ async function runPass(mode) {
 
         if (newIndices.length > 0) {
           console.log(
-            `  ${sw.text} → extracting ${newIndices.length} new splits from ${races.length} races`,
+            color(
+              C.cyan,
+              `  ${sw.text} → extracting ${newIndices.length} new splits from ${races.length} races`,
+            ),
           );
           await extractSplits(page, races, {
             log: (msg) => console.log(`    ${msg}`),
@@ -713,7 +749,10 @@ async function runPass(mode) {
       }
     } else {
       console.log(
-        `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
+        color(
+          C.cyan,
+          `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
+        ),
       );
       await extractSplits(page, races, {
         log: (msg) => console.log(`    ${msg}`),
@@ -731,7 +770,10 @@ async function runPass(mode) {
       );
     } catch {
       console.log(
-        `    ⚠ Page unresponsive after split extraction, reloading...`,
+        color(
+          C.red,
+          `    ⚠ Page unresponsive after split extraction, reloading...`,
+        ),
       );
       await reloadPage();
     }
@@ -804,7 +846,10 @@ async function runPass(mode) {
     });
     if (processedInSession % 25 === 0) {
       console.log(
-        `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
+        color(
+          C.cyan,
+          `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
+        ),
       );
       gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
     }
@@ -821,7 +866,10 @@ async function runPass(mode) {
   gitCheckpoint(`${mode} done — ${processedInSession} swimmers`);
 
   console.log(
-    `✓ ${mode} pass complete! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
+    color(
+      C.green,
+      `  ✓ ${mode} pass complete! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
+    ),
   );
   await browser.close();
 }
