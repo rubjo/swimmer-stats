@@ -272,7 +272,16 @@ async function runPass(mode) {
       existing.timestamp &&
       new Date(existing.timestamp).getTime() >= twentyFourHoursAgo
     ) {
-      // Confirm all eligible races have splits data
+      if (mode !== "splits") {
+        // Collect pass: we saved ALL race data last time — no need to re-fetch
+        // within 24 h, regardless of whether splits are present (splits are
+        // only extracted in the splits pass).
+        console.log(
+          `  → ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
+        );
+        continue;
+      }
+      // Splits pass: only skip if every eligible race already has split data.
       const savedRaces = flattenRaces(existing);
       const missingSplits = savedRaces.some(
         (r) => r.splits === undefined && hasPotentialSplits(r.Distanse),
