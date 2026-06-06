@@ -383,6 +383,7 @@ async function runPass(mode) {
     // Retry loop with hang detection + page reload
     let attempts = 0;
     let swimmerOk = false;
+    let pageWasReloaded = false;
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
@@ -419,6 +420,7 @@ async function runPass(mode) {
           );
           try {
             await withTimeout(reloadPage(), 30_000, "reload");
+            pageWasReloaded = true;
           } catch {
             // If even the reload hangs, we can't recover
             console.log(
@@ -437,11 +439,12 @@ async function runPass(mode) {
       }
     }
 
-    // If the swimmer wasn't processed (timeout or protocol error), reload the
-    // page to clear any stuck state before the next swimmer.
-    // Grid-never-loaded is handled above (swimmerOk = true) and does NOT
-    // reach here — the page is fine, just no data for that swimmer.
-    if (!swimmerOk) {
+    // If the page was reloaded during the retry loop (due to a timeout or
+    // protocol error), we must reposition cbIdx via findSwimmerIdx even if
+    // the retry eventually succeeded — the combo box was reset and cbIdx
+    // is no longer valid for the current page state.
+    // Grid-never-loaded does not reach here (swimmerOk = true, no reload).
+    if (!swimmerOk || pageWasReloaded) {
       try {
         await withTimeout(reloadPage(), 30_000, "reload");
       } catch {
