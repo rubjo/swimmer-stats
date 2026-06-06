@@ -269,6 +269,17 @@ async function runPass(mode) {
     // though only the initial batch is actually in the client store.  The
     // loadUntilIdx helper scrolls to load batches until cbIdx is reachable.
     if (!(await loadUntilIdx(cbIdx))) {
+      // Check if we've exhausted all items
+      const totalCount = await page.evaluate(() => cmbUtover.GetItemCount());
+      if (cbIdx >= totalCount) {
+        console.log(
+          color(
+            C.dim,
+            `    Reached end of swimmer list at index ${cbIdx} (total: ${totalCount})`,
+          ),
+        );
+        break;
+      }
       console.log(
         color(
           C.dim,
