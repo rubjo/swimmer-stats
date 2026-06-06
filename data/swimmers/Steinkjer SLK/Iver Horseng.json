@@ -4,7 +4,7 @@
   "club": "Steinkjer SLK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-06T13:15:16.573Z",
+  "timestamp": "2026-06-06T23:38:28.468Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -112,7 +112,11 @@
           "Basseng": "50m",
           "RK": "32",
           "RA": "445",
-          "pid": "3938728"
+          "pid": "3938728",
+          "splits": [
+            "",
+            ""
+          ]
         },
         {
           "Tid": "2.45,32",
@@ -121,7 +125,11 @@
           "Basseng": "25m",
           "RK": "",
           "RA": "1419",
-          "pid": "3827301"
+          "pid": "3827301",
+          "splits": [
+            "1.19,70",
+            "1.25,62"
+          ]
         }
       ]
     }
