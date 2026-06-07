@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-06T13:14:58.791Z",
+  "timestamp": "2026-06-07T23:40:07.197Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,22 +39,17 @@
       ]
     },
     {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "49,65",
-          "Dato": "26.04.2026",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "191",
-          "RA": "1141",
-          "pid": "3935820"
-        }
-      ]
-    },
-    {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "48,48",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "141",
+          "RA": "897",
+          "pid": "3959678"
+        },
         {
           "Tid": "52,39",
           "Dato": "01.02.2026",
@@ -72,6 +67,20 @@
           "RK": "",
           "RA": "",
           "pid": "3781816"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,65",
+          "Dato": "26.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "193",
+          "RA": "1155",
+          "pid": "3935820"
         }
       ]
     },
@@ -106,8 +115,8 @@
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "199",
-          "RA": "1185",
+          "RK": "201",
+          "RA": "1201",
           "pid": "3860674"
         },
         {
@@ -134,6 +143,15 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
+          "Tid": "1.36,45",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "93",
+          "RA": "609",
+          "pid": "3960564"
+        },
+        {
           "Tid": "1.42,05",
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
@@ -156,6 +174,15 @@
     {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.42,79",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "103",
+          "RA": "681",
+          "pid": "3960091"
+        },
         {
           "Tid": "1.50,28",
           "Dato": "26.04.2026",
@@ -194,7 +221,7 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "RK": "198",
-          "RA": "1083",
+          "RA": "1090",
           "pid": "3936823"
         }
       ]
