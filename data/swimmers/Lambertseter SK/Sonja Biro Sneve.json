@@ -4,11 +4,20 @@
   "club": "Lambertseter SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T11:46:42.282Z",
+  "timestamp": "2026-06-07T21:53:57.991Z",
   "disciplines": [
     {
       "distanse": "50m Rygg",
       "races": [
+        {
+          "Tid": "48,89",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "62",
+          "RA": "795",
+          "pid": "3959551"
+        },
         {
           "Tid": "50,65",
           "Dato": "26.04.2026",
@@ -21,6 +30,20 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,81",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "115",
+          "RA": "1339",
+          "pid": "3959691"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
@@ -28,9 +51,18 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "66",
-          "RA": "1200",
+          "RK": "72",
+          "RA": "1218",
           "pid": "3949322"
+        },
+        {
+          "Tid": "1.36,05",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3960384"
         },
         {
           "Tid": "1.38,94",
