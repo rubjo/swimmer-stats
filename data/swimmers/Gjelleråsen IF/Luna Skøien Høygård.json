@@ -4,7 +4,7 @@
   "club": "Gjelleråsen IF",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T13:22:21.343Z",
+  "timestamp": "2026-06-07T23:47:13.781Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "31.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "78",
-          "RA": "518",
+          "RK": "82",
+          "RA": "536",
           "pid": "3950855"
         },
         {
@@ -127,8 +127,8 @@
           "Dato": "31.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "37",
+          "RA": "219",
           "pid": "3950587"
         },
         {
@@ -267,8 +267,8 @@
           "Dato": "31.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "92",
-          "RA": "553",
+          "RK": "95",
+          "RA": "567",
           "pid": "3950497"
         },
         {
@@ -344,8 +344,8 @@
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "98",
-          "RA": "504",
+          "RK": "101",
+          "RA": "517",
           "pid": "3950699"
         },
         {
@@ -394,8 +394,8 @@
           "Dato": "28.02.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "138",
-          "RA": "752",
+          "RK": "140",
+          "RA": "762",
           "pid": "3880876"
         },
         {
@@ -419,6 +419,65 @@
       ]
     },
     {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.24,52",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "59",
+          "RA": "253",
+          "pid": "3959949"
+        },
+        {
+          "Tid": "1.36,35",
+          "Dato": "03.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3690752"
+        },
+        {
+          "Tid": "1.37,60",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3674714"
+        },
+        {
+          "Tid": "1.37,90",
+          "Dato": "11.01.2025",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3604052"
+        },
+        {
+          "Tid": "1.42,69",
+          "Dato": "27.04.2024",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "120",
+          "RA": "825",
+          "pid": "3463554"
+        },
+        {
+          "Tid": "1.45,87",
+          "Dato": "24.08.2024",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3508616"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -426,8 +485,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "76",
+          "RA": "372",
           "pid": "3936685"
         },
         {
@@ -564,58 +623,17 @@
       ]
     },
     {
-      "distanse": "100m Rygg",
-      "races": [
-        {
-          "Tid": "1.36,35",
-          "Dato": "03.05.2025",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3690752"
-        },
-        {
-          "Tid": "1.37,60",
-          "Dato": "05.04.2025",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3674714"
-        },
-        {
-          "Tid": "1.37,90",
-          "Dato": "11.01.2025",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3604052"
-        },
-        {
-          "Tid": "1.42,69",
-          "Dato": "27.04.2024",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "120",
-          "RA": "825",
-          "pid": "3463554"
-        },
-        {
-          "Tid": "1.45,87",
-          "Dato": "24.08.2024",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3508616"
-        }
-      ]
-    },
-    {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.42,91",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "146",
+          "RA": "686",
+          "pid": "3960111"
+        },
         {
           "Tid": "1.52,13",
           "Dato": "09.02.2025",
@@ -633,6 +651,47 @@
           "RK": "",
           "RA": "",
           "pid": "3785188"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.44,16",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "107",
+          "RA": "501",
+          "pid": "3960774"
+        },
+        {
+          "Tid": "3.04,07",
+          "Dato": "11.10.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3786204"
+        },
+        {
+          "Tid": "3.30,00",
+          "Dato": "27.10.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "RK": "185",
+          "RA": "1262",
+          "pid": "3555520"
+        },
+        {
+          "Tid": "3.43,13",
+          "Dato": "01.06.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "59",
+          "RA": "631",
+          "pid": "3477478"
         }
       ]
     },
@@ -674,38 +733,6 @@
           "RK": "",
           "RA": "",
           "pid": "3619120"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "3.04,07",
-          "Dato": "11.10.2025",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3786204"
-        },
-        {
-          "Tid": "3.30,00",
-          "Dato": "27.10.2024",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "RK": "185",
-          "RA": "1262",
-          "pid": "3555520"
-        },
-        {
-          "Tid": "3.43,13",
-          "Dato": "01.06.2024",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "RK": "59",
-          "RA": "631",
-          "pid": "3477478"
         }
       ]
     },
