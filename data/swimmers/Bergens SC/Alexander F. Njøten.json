@@ -4,11 +4,20 @@
   "club": "Bergens SC",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-06T12:40:01.527Z",
+  "timestamp": "2026-06-07T22:46:24.603Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "36,88",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "63",
+          "RA": "1230",
+          "pid": "3963863"
+        },
         {
           "Tid": "39,07",
           "Dato": "16.11.2025",
@@ -51,12 +60,30 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "41,09",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "23",
+          "RA": "551",
+          "pid": "3963605"
+        },
+        {
+          "Tid": "41,31",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963606"
+        },
+        {
           "Tid": "42,20",
           "Dato": "01.02.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
-          "RK": "23",
-          "RA": "551",
+          "RK": "",
+          "RA": "",
           "pid": "3862486"
         },
         {
@@ -160,6 +187,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "54,15",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "107",
+          "RA": "1128",
+          "pid": "3963734"
+        },
+        {
           "Tid": "1.05,72",
           "Dato": "13.06.2025",
           "Sted": "Bergen",
@@ -233,6 +269,15 @@
       "distanse": "100m Rygg",
       "races": [
         {
+          "Tid": "1.32,13",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "23",
+          "RA": "367",
+          "pid": "3964087"
+        },
+        {
           "Tid": "1.36,28",
           "Dato": "06.09.2025",
           "Sted": "Stemmemyren",
@@ -279,7 +324,7 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "49",
-          "RA": "781",
+          "RA": "784",
           "pid": "3911509"
         },
         {
@@ -331,6 +376,38 @@
       ]
     },
     {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.04,70",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "58",
+          "RA": "892",
+          "pid": "3964573"
+        },
+        {
+          "Tid": "3.22,22",
+          "Dato": "25.05.2025",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "RK": "63",
+          "RA": "1168",
+          "pid": "3703956"
+        },
+        {
+          "Tid": "3.37,90",
+          "Dato": "11.01.2025",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3605388"
+        }
+      ]
+    },
+    {
       "distanse": "200m Rygg",
       "races": [
         {
@@ -350,29 +427,6 @@
           "RK": "3",
           "RA": "223",
           "pid": "3726469"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "3.22,22",
-          "Dato": "25.05.2025",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "RK": "63",
-          "RA": "1168",
-          "pid": "3703956"
-        },
-        {
-          "Tid": "3.37,90",
-          "Dato": "11.01.2025",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3605388"
         }
       ]
     },

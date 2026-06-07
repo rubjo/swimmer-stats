@@ -4,11 +4,20 @@
   "club": "Øyane SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-06T12:41:47.637Z",
+  "timestamp": "2026-06-07T22:48:21.702Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "37,46",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "154",
+          "RA": "1117",
+          "pid": "3963914"
+        },
         {
           "Tid": "38,94",
           "Dato": "30.11.2025",
@@ -60,6 +69,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "44,67",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "64",
+          "RA": "598",
+          "pid": "3963778"
+        },
+        {
           "Tid": "48,68",
           "Dato": "01.11.2025",
           "Sted": "Slåtthaug",
@@ -109,6 +127,15 @@
     {
       "distanse": "50m Rygg",
       "races": [
+        {
+          "Tid": "45,10",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "116",
+          "RA": "664",
+          "pid": "3963650"
+        },
         {
           "Tid": "50,00",
           "Dato": "01.11.2025",
@@ -160,6 +187,15 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "48,08",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "179",
+          "RA": "1095",
+          "pid": "3963536"
+        },
+        {
           "Tid": "56,75",
           "Dato": "31.05.2025",
           "Sted": "Førde",
@@ -201,6 +237,15 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.22,50",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "126",
+          "RA": "906",
+          "pid": "3964361"
+        },
+        {
           "Tid": "1.31,92",
           "Dato": "31.05.2025",
           "Sted": "Førde",
@@ -239,6 +284,47 @@
       ]
     },
     {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.40,20",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "81",
+          "RA": "600",
+          "pid": "3964183"
+        },
+        {
+          "Tid": "1.56,76",
+          "Dato": "01.06.2025",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3708517"
+        },
+        {
+          "Tid": "2.00,01",
+          "Dato": "02.06.2024",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "133",
+          "RA": "1313",
+          "pid": "3478627"
+        },
+        {
+          "Tid": "2.05,70",
+          "Dato": "18.02.2024",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3412433"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -246,8 +332,8 @@
           "Dato": "31.01.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "123",
+          "RA": "765",
           "pid": "3863334"
         },
         {
@@ -298,38 +384,6 @@
       ]
     },
     {
-      "distanse": "100m Bryst",
-      "races": [
-        {
-          "Tid": "1.56,76",
-          "Dato": "01.06.2025",
-          "Sted": "Førde",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3708517"
-        },
-        {
-          "Tid": "2.00,01",
-          "Dato": "02.06.2024",
-          "Sted": "Førde",
-          "Basseng": "25m",
-          "RK": "133",
-          "RA": "1313",
-          "pid": "3478627"
-        },
-        {
-          "Tid": "2.05,70",
-          "Dato": "18.02.2024",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3412433"
-        }
-      ]
-    },
-    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -337,8 +391,8 @@
           "Dato": "11.04.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
-          "RK": "184",
-          "RA": "916",
+          "RK": "186",
+          "RA": "923",
           "pid": "3911662"
         },
         {
