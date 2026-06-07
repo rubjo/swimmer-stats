@@ -4,11 +4,20 @@
   "club": "Lillesand IL",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T13:03:55.626Z",
+  "timestamp": "2026-06-07T23:10:14.583Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "42,05",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "32",
+          "RA": "924",
+          "pid": "3956609"
+        },
         {
           "Tid": "46,78",
           "Dato": "09.02.2025",
@@ -28,8 +37,8 @@
           "Dato": "10.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "69",
-          "RA": "1117",
+          "RK": "71",
+          "RA": "1128",
           "pid": "3921714"
         },
         {
@@ -111,6 +120,15 @@
           "pid": "3823568"
         },
         {
+          "Tid": "1.37,44",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "36",
+          "RA": "811",
+          "pid": "3957662"
+        },
+        {
           "Tid": "1.45,94",
           "Dato": "05.04.2025",
           "Sted": "Vennesla",
@@ -129,8 +147,8 @@
           "Dato": "12.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "40",
+          "RA": "462",
           "pid": "3922154"
         },
         {
@@ -170,8 +188,8 @@
           "Dato": "12.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "81",
+          "RA": "743",
           "pid": "3922274"
         },
         {
@@ -202,8 +220,8 @@
           "Dato": "11.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "97",
+          "RA": "1138",
           "pid": "3922228"
         },
         {
@@ -253,7 +271,7 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "RK": "86",
-          "RA": "1092",
+          "RA": "1099",
           "pid": "3923184"
         },
         {
@@ -273,6 +291,34 @@
           "RK": "",
           "RA": "",
           "pid": "3896805"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.43,64",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "7",
+          "RA": "230",
+          "pid": "3957877"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.57,19",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "19",
+          "RA": "341",
+          "pid": "3958700"
         }
       ]
     }
