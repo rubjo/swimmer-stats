@@ -4,18 +4,27 @@
   "club": "Haldens SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T11:45:32.067Z",
+  "timestamp": "2026-06-07T21:52:44.118Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "41,91",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "31",
+          "RA": "920",
+          "pid": "3961504"
+        },
+        {
           "Tid": "42,23",
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "94",
-          "RA": "1452",
+          "RK": "100",
+          "RA": "1471",
           "pid": "3868885"
         },
         {
@@ -37,9 +46,18 @@
           "Dato": "07.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "70",
+          "RA": "833",
           "pid": "3868434"
+        },
+        {
+          "Tid": "51,04",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "28",
+          "RA": "587",
+          "pid": "3961107"
         }
       ]
     },
@@ -51,8 +69,8 @@
           "Dato": "10.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "102",
-          "RA": "1232",
+          "RK": "103",
+          "RA": "1242",
           "pid": "3914027"
         },
         {
@@ -70,6 +88,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "53,51",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "29",
+          "RA": "647",
+          "pid": "3961269"
+        },
+        {
           "Tid": "54,33",
           "Dato": "07.02.2026",
           "Sted": "Holmen",
@@ -81,6 +108,20 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,54",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "29",
+          "RA": "792",
+          "pid": "3962244"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -88,8 +129,8 @@
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "93",
+          "RA": "782",
           "pid": "3914550"
         },
         {
@@ -111,8 +152,8 @@
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "107",
+          "RA": "663",
           "pid": "3914469"
         },
         {
@@ -134,8 +175,8 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "77",
+          "RA": "1073",
           "pid": "3914517"
         },
         {
@@ -158,7 +199,7 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "87",
-          "RA": "1096",
+          "RA": "1103",
           "pid": "3915433"
         },
         {

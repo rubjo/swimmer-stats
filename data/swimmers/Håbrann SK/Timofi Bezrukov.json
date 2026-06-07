@@ -4,7 +4,7 @@
   "club": "Håbrann SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T11:44:49.348Z",
+  "timestamp": "2026-06-07T21:52:01.538Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -51,6 +51,15 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "39,50",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "67",
+          "RA": "488",
+          "pid": "3959486"
+        },
+        {
           "Tid": "50,30",
           "Dato": "13.06.2025",
           "Sted": "Hamar",
@@ -94,6 +103,29 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.27,36",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "84",
+          "RA": "461",
+          "pid": "3960474"
+        },
+        {
+          "Tid": "1.43,27",
+          "Dato": "11.10.2025",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "RK": "164",
+          "RA": "1091",
+          "pid": "3787793"
+        }
+      ]
+    },
+    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -102,7 +134,7 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "RK": "132",
-          "RA": "676",
+          "RA": "678",
           "pid": "3893166"
         },
         {
@@ -113,20 +145,6 @@
           "RK": "",
           "RA": "",
           "pid": "3861632"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.43,27",
-          "Dato": "11.10.2025",
-          "Sted": "Kongsberg",
-          "Basseng": "25m",
-          "RK": "164",
-          "RA": "1091",
-          "pid": "3787793"
         }
       ]
     },
