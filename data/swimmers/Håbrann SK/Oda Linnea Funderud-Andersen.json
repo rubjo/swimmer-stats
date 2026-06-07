@@ -4,7 +4,7 @@
   "club": "Håbrann SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T12:54:45.960Z",
+  "timestamp": "2026-06-07T23:00:57.557Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "146",
-          "RA": "1350",
+          "RK": "",
+          "RA": "",
           "pid": "3937512"
         }
       ]
@@ -28,8 +28,8 @@
           "Dato": "26.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "87",
+          "RA": "721",
           "pid": "3937274"
         }
       ]
@@ -38,13 +38,50 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "47,48",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "72",
+          "RA": "831",
+          "pid": "3959702"
+        },
+        {
           "Tid": "49,89",
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "101",
-          "RA": "978",
+          "RK": "",
+          "RA": "",
           "pid": "3937391"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.37,56",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "67",
+          "RA": "632",
+          "pid": "3960578"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,43",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "97",
+          "RA": "875",
+          "pid": "3960103"
         }
       ]
     }
