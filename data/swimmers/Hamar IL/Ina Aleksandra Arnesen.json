@@ -4,7 +4,7 @@
   "club": "Hamar IL",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-06-06T11:25:56.478Z",
+  "timestamp": "2026-06-07T21:33:43.719Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -17,6 +17,15 @@
           "RK": "",
           "RA": "",
           "pid": "3824982"
+        },
+        {
+          "Tid": "36,86",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "119",
+          "RA": "755",
+          "pid": "3961500"
         },
         {
           "Tid": "40,11",
@@ -47,8 +56,17 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "150",
-          "RA": "948",
+          "RA": "953",
           "pid": "3854121"
+        },
+        {
+          "Tid": "45,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "98",
+          "RA": "634",
+          "pid": "3960959"
         }
       ]
     },
@@ -56,12 +74,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "49,99",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "89",
+          "RA": "537",
+          "pid": "3961262"
+        },
+        {
           "Tid": "50,07",
           "Dato": "24.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "165",
-          "RA": "993",
+          "RA": "998",
           "pid": "3854399"
         },
         {
@@ -93,8 +120,17 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "164",
-          "RA": "1037",
+          "RA": "1044",
           "pid": "3855786"
+        },
+        {
+          "Tid": "1.26,70",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "104",
+          "RA": "697",
+          "pid": "3962234"
         }
       ]
     },
@@ -120,8 +156,8 @@
           "Dato": "23.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "157",
+          "RA": "939",
           "pid": "3855359"
         },
         {
@@ -132,6 +168,20 @@
           "RK": "",
           "RA": "",
           "pid": "3747553"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.47,11",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "55",
+          "RA": "331",
+          "pid": "3962954"
         }
       ]
     }

@@ -4,8 +4,22 @@
   "club": "Sarpsborg IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-06T11:25:11.007Z",
+  "timestamp": "2026-06-07T21:32:52.820Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,47",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "131",
+          "RA": "883",
+          "pid": "3961358"
+        }
+      ]
+    },
     {
       "distanse": "100m Fri",
       "races": [
@@ -14,9 +28,46 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
+          "RK": "175",
+          "RA": "1156",
+          "pid": "3949244"
+        },
+        {
+          "Tid": "1.31,44",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "114",
+          "RA": "763",
+          "pid": "3962027"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.32,64",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
           "RK": "",
           "RA": "",
-          "pid": "3949244"
+          "pid": "3962618"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.58,51",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "43",
+          "RA": "292",
+          "pid": "3962994"
         }
       ]
     }
