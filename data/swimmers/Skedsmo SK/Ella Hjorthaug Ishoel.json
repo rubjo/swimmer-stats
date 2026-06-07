@@ -4,7 +4,7 @@
   "club": "Skedsmo SK",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-06-06T13:27:53.117Z",
+  "timestamp": "2026-06-07T23:51:46.131Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "81",
-          "RA": "534",
+          "RK": "84",
+          "RA": "551",
           "pid": "3936087"
         },
         {
@@ -135,6 +135,56 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,91",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "71",
+          "RA": "472",
+          "pid": "3962122"
+        },
+        {
+          "Tid": "1.31,86",
+          "Dato": "07.05.2022",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3023267"
+        },
+        {
+          "Tid": "1.34,00",
+          "Dato": "22.10.2022",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3105045"
+        },
+        {
+          "Tid": "1.55,29",
+          "Dato": "20.06.2021",
+          "Sted": "Lillestrøm",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2833439"
+        },
+        {
+          "Tid": "1.57,32",
+          "Dato": "06.06.2021",
+          "Sted": "Lillestrøm",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2823519"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -142,8 +192,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "41",
+          "RA": "332",
           "pid": "3936640"
         },
         {
@@ -208,79 +258,24 @@
       ]
     },
     {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "1.31,86",
-          "Dato": "07.05.2022",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3023267"
-        },
-        {
-          "Tid": "1.34,00",
-          "Dato": "22.10.2022",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3105045"
-        },
-        {
-          "Tid": "1.55,29",
-          "Dato": "20.06.2021",
-          "Sted": "Lillestrøm",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2833439"
-        },
-        {
-          "Tid": "1.57,32",
-          "Dato": "06.06.2021",
-          "Sted": "Lillestrøm",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2823519"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Bryst",
-      "races": [
-        {
-          "Tid": "1.46,66",
-          "Dato": "31.01.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3861773"
-        },
-        {
-          "Tid": "2.01,74",
-          "Dato": "05.03.2022",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2968006"
-        }
-      ]
-    },
-    {
       "distanse": "100m Butterfly",
       "races": [
+        {
+          "Tid": "1.38,18",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "208",
+          "pid": "3961611"
+        },
         {
           "Tid": "1.48,87",
           "Dato": "31.01.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
           "RK": "136",
-          "RA": "770",
+          "RA": "772",
           "pid": "3861656"
         },
         {
@@ -300,6 +295,29 @@
           "RK": "",
           "RA": "",
           "pid": "3104913"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,66",
+          "Dato": "31.01.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "144",
+          "RA": "817",
+          "pid": "3861773"
+        },
+        {
+          "Tid": "2.01,74",
+          "Dato": "05.03.2022",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2968006"
         }
       ]
     },
@@ -328,12 +346,30 @@
           "RK": "127",
           "RA": "591",
           "pid": "3861902"
+        },
+        {
+          "Tid": "3.16,58",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "26",
+          "RA": "183",
+          "pid": "3962328"
         }
       ]
     },
     {
       "distanse": "200m Individuell medley",
       "races": [
+        {
+          "Tid": "3.19,74",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "45",
+          "RA": "257",
+          "pid": "3962890"
+        },
         {
           "Tid": "3.34,80",
           "Dato": "24.04.2022",
@@ -346,8 +382,31 @@
       ]
     },
     {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.50,89",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "40",
+          "RA": "208",
+          "pid": "3962423"
+        }
+      ]
+    },
+    {
       "distanse": "400m Fri",
       "races": [
+        {
+          "Tid": "6.01,92",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "195",
+          "pid": "3963070"
+        },
         {
           "Tid": "7.25,38",
           "Dato": "07.01.2022",
