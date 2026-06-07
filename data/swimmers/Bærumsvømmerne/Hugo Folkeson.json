@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-06T12:48:59.875Z",
+  "timestamp": "2026-06-07T22:55:35.654Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "96",
-          "RA": "1599",
+          "RK": "99",
+          "RA": "1616",
           "pid": "3936020"
         },
         {
@@ -48,22 +48,45 @@
       ]
     },
     {
-      "distanse": "100m Individuell medley",
+      "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "1.52,82",
-          "Dato": "25.04.2026",
-          "Sted": "Skjetten",
+          "Tid": "51,52",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "67",
-          "RA": "670",
-          "pid": "3936586"
+          "RK": "38",
+          "RA": "772",
+          "pid": "3959481"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,79",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "79",
+          "RA": "1258",
+          "pid": "3959573"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.46,45",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "89",
+          "RA": "1439",
+          "pid": "3960142"
+        },
         {
           "Tid": "1.55,10",
           "Dato": "21.09.2025",
@@ -72,6 +95,20 @@
           "RK": "",
           "RA": "1741",
           "pid": "3794308"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.52,82",
+          "Dato": "25.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "67",
+          "RA": "703",
+          "pid": "3936586"
         }
       ]
     },

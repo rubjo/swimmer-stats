@@ -4,7 +4,7 @@
   "club": "Holmestrand IF",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T12:47:47.867Z",
+  "timestamp": "2026-06-07T22:54:38.864Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "RK": "237",
-          "RA": "1677",
+          "RA": "1691",
           "pid": "3950842"
         },
         {
@@ -26,6 +26,15 @@
           "RK": "",
           "RA": "",
           "pid": "3846214"
+        },
+        {
+          "Tid": "48,54",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "112",
+          "RA": "1028",
+          "pid": "3961491"
         },
         {
           "Tid": "50,58",
@@ -46,8 +55,8 @@
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "150",
-          "RA": "1183",
+          "RK": "153",
+          "RA": "1198",
           "pid": "3950685"
         },
         {
@@ -64,8 +73,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "62",
-          "RA": "595",
+          "RK": "76",
+          "RA": "700",
           "pid": "3942436"
         },
         {
@@ -87,8 +96,8 @@
           "Dato": "11.01.2026",
           "Sted": "Hokksund",
           "Basseng": "25m",
-          "RK": "208",
-          "RA": "1441",
+          "RK": "210",
+          "RA": "1456",
           "pid": "3846239"
         }
       ]
@@ -101,9 +110,37 @@
           "Dato": "11.01.2026",
           "Sted": "Hokksund",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "167",
+          "RA": "1141",
           "pid": "3846225"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.04,07",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "567",
+          "pid": "3962824"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.14,34",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "28",
+          "RA": "269",
+          "pid": "3962541"
         }
       ]
     }

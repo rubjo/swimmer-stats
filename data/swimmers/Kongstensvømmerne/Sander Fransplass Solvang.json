@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-06T12:50:50.173Z",
+  "timestamp": "2026-06-07T22:57:04.454Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "25",
-          "RA": "1056",
+          "RK": "27",
+          "RA": "1075",
           "pid": "3937413"
+        },
+        {
+          "Tid": "35,78",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "25",
+          "RA": "772",
+          "pid": "3961335"
         },
         {
           "Tid": "39,59",
@@ -39,6 +48,20 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,18",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "16",
+          "RA": "383",
+          "pid": "3961005"
+        }
+      ]
+    },
+    {
       "distanse": "50m Butterfly",
       "races": [
         {
@@ -46,8 +69,8 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "53",
-          "RA": "1050",
+          "RK": "56",
+          "RA": "1063",
           "pid": "3948631"
         },
         {
@@ -83,12 +106,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "49,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3961148"
+        },
+        {
           "Tid": "51,04",
           "Dato": "11.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "62",
-          "RA": "1008",
+          "RK": "64",
+          "RA": "1022",
           "pid": "3842553"
         }
       ]
@@ -97,12 +129,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.17,84",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "17",
+          "RA": "639",
+          "pid": "3962006"
+        },
+        {
           "Tid": "1.19,26",
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "33",
+          "RA": "968",
           "pid": "3937699"
         }
       ]
@@ -115,8 +156,8 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "14",
-          "RA": "313",
+          "RK": "16",
+          "RA": "327",
           "pid": "3949013"
         },
         {
@@ -127,6 +168,15 @@
           "RK": "",
           "RA": "",
           "pid": "3894624"
+        },
+        {
+          "Tid": "1.33,19",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "14",
+          "RA": "291",
+          "pid": "3961672"
         }
       ]
     },
@@ -134,12 +184,21 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.46,26",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "15",
+          "RA": "366",
+          "pid": "3961784"
+        },
+        {
           "Tid": "1.46,95",
           "Dato": "26.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
           "RK": "48",
-          "RA": "794",
+          "RA": "799",
           "pid": "3937602"
         },
         {
@@ -170,8 +229,8 @@
           "Dato": "10.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "62",
-          "RA": "635",
+          "RK": "66",
+          "RA": "667",
           "pid": "3842854"
         },
         {
@@ -194,7 +253,7 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "73",
-          "RA": "849",
+          "RA": "851",
           "pid": "3894529"
         }
       ]
