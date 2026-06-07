@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-06T12:43:32.583Z",
+  "timestamp": "2026-06-07T22:50:10.818Z",
   "disciplines": [
     {
       "distanse": "50m Rygg",
@@ -14,8 +14,8 @@
           "Dato": "01.02.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
-          "RK": "87",
-          "RA": "769",
+          "RK": "89",
+          "RA": "799",
           "pid": "3862477"
         }
       ]
@@ -28,9 +28,18 @@
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
+          "RK": "148",
+          "RA": "1426",
+          "pid": "3951813"
+        },
+        {
+          "Tid": "1.46,55",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
           "RK": "",
           "RA": "",
-          "pid": "3951813"
+          "pid": "3964288"
         }
       ]
     },
@@ -38,12 +47,21 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.49,27",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "55",
+          "RA": "832",
+          "pid": "3964138"
+        },
+        {
           "Tid": "1.54,32",
           "Dato": "14.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "81",
-          "RA": "906",
+          "RK": "",
+          "RA": "",
           "pid": "3891505"
         }
       ]
@@ -52,13 +70,50 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
+          "Tid": "1.54,25",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "77",
+          "RA": "715",
+          "pid": "3964453"
+        },
+        {
           "Tid": "1.54,79",
           "Dato": "01.02.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
-          "RK": "77",
-          "RA": "689",
+          "RK": "",
+          "RA": "",
           "pid": "3863275"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.32,66",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "104",
+          "RA": "900",
+          "pid": "3963989"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.45,96",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "128",
+          "RA": "1120",
+          "pid": "3964552"
         }
       ]
     },
