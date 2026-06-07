@@ -227,13 +227,25 @@ async function runPass(mode) {
   /**
    * Load combo batches until the item at `idx` is available in the client
    * data store (cmbUtover.GetItem(idx) !== null).  After a page reload,
-   * GetItemCount() may return the total server-known item count while only
-   * the first batch is loaded — so we cannot trust GetItemCount() to decide
-   * whether an index is safe to use.  Returns true once loaded, false if
-   * no more batches load (index doesn't exist).
+   * only the first batch (~100 items) is loaded — and GetItemCount()
+   * returns the loaded count, not the server total — so we cannot rely on
+   * GetItemCount() for termination.  Instead, the dropdown is opened once
+   * and scrolled incrementally (one viewport per iteration) to trigger
+   * sequential batch loading from the server.  Returns true once the item
+   * is found (and closes the dropdown), false if scrolling reaches the
+   * bottom without finding it (index doesn't exist).
    */
   async function loadUntilIdx(idx, maxScrolls = 200) {
+    // Open dropdown once — it stays open while we scroll incrementally
+    await page.evaluate(() => {
+      try {
+        cmbUtover.ShowDropDown();
+      } catch {}
+    });
+    await sleep(400);
+
     for (let s = 0; s < maxScrolls; s++) {
+      // Check if the target item is already loaded
       const ready = await page.evaluate((i) => {
         try {
           return cmbUtover.GetItem(i) != null;
@@ -241,53 +253,60 @@ async function runPass(mode) {
           return false;
         }
       }, idx);
-      if (ready) return true;
-      await page.evaluate(() => {
-        try {
-          cmbUtover.ShowDropDown();
-        } catch {}
-      });
-      await sleep(400);
-      await page.evaluate(async () => {
+      if (ready) {
+        // Item found — close dropdown and return
+        await page.evaluate(() => {
+          try {
+            cmbUtover.HideDropDown();
+          } catch {}
+        });
+        await sleep(300);
+        return true;
+      }
+
+      // Scroll down by one viewport to trigger the next batch
+      const atBottom = await page.evaluate(async () => {
         const d = cmbUtover.GetListBoxScrollDivElement();
-        if (d) d.scrollTop = d.scrollHeight;
+        if (!d) return true;
+        const prev = d.scrollTop;
+        d.scrollTop = d.scrollTop + d.clientHeight;
+        if (d.scrollTop <= prev) return true; // already at bottom
         await new Promise((r) => setTimeout(r, 2_000));
+        return false;
       });
-      await page.evaluate(() => {
-        try {
-          cmbUtover.HideDropDown();
-        } catch {}
-      });
-      await sleep(300);
+
+      if (atBottom) {
+        // Can't scroll further — item doesn't exist
+        await page.evaluate(() => {
+          try {
+            cmbUtover.HideDropDown();
+          } catch {}
+        });
+        await sleep(300);
+        return false;
+      }
     }
+
+    // Exhausted all scrolls without finding the item
+    await page.evaluate(() => {
+      try {
+        cmbUtover.HideDropDown();
+      } catch {}
+    });
+    await sleep(300);
     return false;
   }
 
   while (true) {
     // Ensure the combo has loaded items up to cbIdx before trying to read.
-    // After a page reload, GetItemCount() may return the total count even
-    // though only the initial batch is actually in the client store.  The
-    // loadUntilIdx helper scrolls to load batches until cbIdx is reachable.
+    // After a page reload, only the first batch is loaded.  The
+    // loadUntilIdx helper scrolls incrementally through batches until
+    // cbIdx is reachable or we hit the end of the list.
     if (!(await loadUntilIdx(cbIdx))) {
-      // Check if we've exhausted all items
-      const totalCount = await page.evaluate(() => cmbUtover.GetItemCount());
-      if (cbIdx >= totalCount) {
-        console.log(
-          color(
-            C.dim,
-            `    Reached end of swimmer list at index ${cbIdx} (total: ${totalCount})`,
-          ),
-        );
-        break;
-      }
       console.log(
-        color(
-          C.dim,
-          `    [debug] loadUntilIdx(${cbIdx}) failed — combo item not loaded, skipping`,
-        ),
+        color(C.dim, `    Reached end of swimmer list at index ${cbIdx}`),
       );
-      cbIdx++;
-      continue;
+      break;
     }
 
     // Read swimmer info from combo box
