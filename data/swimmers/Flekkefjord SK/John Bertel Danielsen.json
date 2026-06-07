@@ -4,7 +4,7 @@
   "club": "Flekkefjord SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T12:18:07.831Z",
+  "timestamp": "2026-06-07T22:23:23.074Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,16 +15,25 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "RK": "10",
-          "RA": "360",
+          "RA": "383",
           "pid": "3865140"
+        },
+        {
+          "Tid": "27,49",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "5",
+          "RA": "288",
+          "pid": "3956455"
         },
         {
           "Tid": "27,75",
           "Dato": "19.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
-          "RK": "7",
-          "RA": "286",
+          "RK": "",
+          "RA": "",
           "pid": "3928879"
         },
         {
@@ -150,12 +159,21 @@
           "pid": "3837201"
         },
         {
+          "Tid": "30,36",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "10",
+          "RA": "308",
+          "pid": "3956024"
+        },
+        {
           "Tid": "30,70",
           "Dato": "18.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
-          "RK": "15",
-          "RA": "307",
+          "RK": "",
+          "RA": "",
           "pid": "3928081"
         },
         {
@@ -309,6 +327,15 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.00,46",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "5",
+          "RA": "251",
+          "pid": "3957372"
+        },
+        {
           "Tid": "1.03,90",
           "Dato": "12.12.2025",
           "Sted": "Sandnes",
@@ -426,8 +453,8 @@
           "Dato": "15.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "15",
-          "RA": "198",
+          "RK": "16",
+          "RA": "214",
           "pid": "3896481"
         },
         {
@@ -477,7 +504,7 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "RK": "38",
-          "RA": "331",
+          "RA": "333",
           "pid": "3865175"
         },
         {
@@ -571,8 +598,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "16",
-          "RA": "143",
+          "RK": "17",
+          "RA": "158",
           "pid": "3864528"
         },
         {
@@ -725,8 +752,8 @@
           "Dato": "31.05.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "14",
-          "RA": "281",
+          "RK": "",
+          "RA": "",
           "pid": "3707042"
         },
         {
@@ -796,6 +823,15 @@
           "RK": "",
           "RA": "",
           "pid": "3896533"
+        },
+        {
+          "Tid": "2.41,24",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "12",
+          "RA": "94",
+          "pid": "3957839"
         },
         {
           "Tid": "2.50,70",
@@ -974,8 +1010,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "14",
-          "RA": "146",
+          "RK": "16",
+          "RA": "158",
           "pid": "3864529"
         },
         {
@@ -1062,8 +1098,31 @@
       ]
     },
     {
+      "distanse": "400m Individuell medley",
+      "races": [
+        {
+          "Tid": "5.56,46",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "14",
+          "RA": "70",
+          "pid": "3959030"
+        }
+      ]
+    },
+    {
       "distanse": "1500m Fri",
       "races": [
+        {
+          "Tid": "20.36,13",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "4",
+          "RA": "42",
+          "pid": "3959106"
+        },
         {
           "Tid": "21.42,08",
           "Dato": "31.05.2025",
