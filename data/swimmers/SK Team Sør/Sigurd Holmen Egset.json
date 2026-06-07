@@ -4,7 +4,7 @@
   "club": "SK Team Sør",
   "birthYear": 2008,
   "gender": null,
-  "timestamp": "2026-06-06T12:28:11.055Z",
+  "timestamp": "2026-06-07T22:34:04.899Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -416,7 +416,7 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "11",
-          "RA": "77",
+          "RA": "80",
           "pid": "3848830"
         },
         {
@@ -614,12 +614,21 @@
           "pid": "3704707"
         },
         {
+          "Tid": "29,39",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "5",
+          "RA": "41",
+          "pid": "3956215"
+        },
+        {
           "Tid": "29,57",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "6",
-          "RA": "48",
+          "RK": "",
+          "RA": "",
           "pid": "3849172"
         },
         {
@@ -767,8 +776,8 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "29",
-          "RA": "148",
+          "RK": "30",
+          "RA": "157",
           "pid": "3896139"
         },
         {
@@ -939,6 +948,15 @@
           "pid": "3930208"
         },
         {
+          "Tid": "53,41",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3957500"
+        },
+        {
           "Tid": "53,46",
           "Dato": "07.09.2025",
           "Sted": "Porsgrunn",
@@ -946,6 +964,15 @@
           "RK": "",
           "RA": "",
           "pid": "3742757"
+        },
+        {
+          "Tid": "53,91",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3957496"
         },
         {
           "Tid": "54,08",
@@ -1220,6 +1247,137 @@
       ]
     },
     {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.00,78",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "6",
+          "RA": "50",
+          "pid": "3956778"
+        },
+        {
+          "Tid": "1.01,99",
+          "Dato": "06.09.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "RK": "15",
+          "RA": "135",
+          "pid": "3742449"
+        },
+        {
+          "Tid": "1.02,54",
+          "Dato": "31.05.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "8",
+          "RA": "89",
+          "pid": "3705309"
+        },
+        {
+          "Tid": "1.04,26",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956774"
+        },
+        {
+          "Tid": "1.06,55",
+          "Dato": "16.03.2024",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "RK": "34",
+          "RA": "241",
+          "pid": "3431142"
+        },
+        {
+          "Tid": "1.06,89",
+          "Dato": "31.05.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3705311"
+        },
+        {
+          "Tid": "1.12,82",
+          "Dato": "18.03.2023",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "RK": "62",
+          "RA": "416",
+          "pid": "3199903"
+        },
+        {
+          "Tid": "1.17,47",
+          "Dato": "15.10.2022",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3100162"
+        },
+        {
+          "Tid": "1.23,22",
+          "Dato": "19.03.2022",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2978481"
+        },
+        {
+          "Tid": "1.23,22",
+          "Dato": "08.05.2022",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3021369"
+        },
+        {
+          "Tid": "1.25,78",
+          "Dato": "13.02.2022",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2950940"
+        },
+        {
+          "Tid": "2.00,35",
+          "Dato": "20.09.2020",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "RK": "75",
+          "RA": "766",
+          "pid": "2770958"
+        },
+        {
+          "Tid": "2.15,52",
+          "Dato": "01.09.2019",
+          "Sted": "Mandalshallen",
+          "Basseng": "25m",
+          "RK": "69",
+          "RA": "1059",
+          "pid": "2627189"
+        },
+        {
+          "Tid": "2.16,30",
+          "Dato": "19.01.2020",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2717405"
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -1441,119 +1599,6 @@
       ]
     },
     {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "1.01,99",
-          "Dato": "06.09.2025",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "RK": "15",
-          "RA": "135",
-          "pid": "3742449"
-        },
-        {
-          "Tid": "1.02,54",
-          "Dato": "31.05.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "RK": "8",
-          "RA": "89",
-          "pid": "3705309"
-        },
-        {
-          "Tid": "1.06,55",
-          "Dato": "16.03.2024",
-          "Sted": "Sandefjord",
-          "Basseng": "25m",
-          "RK": "34",
-          "RA": "241",
-          "pid": "3431142"
-        },
-        {
-          "Tid": "1.06,89",
-          "Dato": "31.05.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3705311"
-        },
-        {
-          "Tid": "1.12,82",
-          "Dato": "18.03.2023",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "RK": "62",
-          "RA": "416",
-          "pid": "3199903"
-        },
-        {
-          "Tid": "1.17,47",
-          "Dato": "15.10.2022",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3100162"
-        },
-        {
-          "Tid": "1.23,22",
-          "Dato": "19.03.2022",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2978481"
-        },
-        {
-          "Tid": "1.23,22",
-          "Dato": "08.05.2022",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3021369"
-        },
-        {
-          "Tid": "1.25,78",
-          "Dato": "13.02.2022",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2950940"
-        },
-        {
-          "Tid": "2.00,35",
-          "Dato": "20.09.2020",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "RK": "75",
-          "RA": "766",
-          "pid": "2770958"
-        },
-        {
-          "Tid": "2.15,52",
-          "Dato": "01.09.2019",
-          "Sted": "Mandalshallen",
-          "Basseng": "25m",
-          "RK": "69",
-          "RA": "1059",
-          "pid": "2627189"
-        },
-        {
-          "Tid": "2.16,30",
-          "Dato": "19.01.2020",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2717405"
-        }
-      ]
-    },
-    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -1751,8 +1796,8 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "3",
-          "RA": "23",
+          "RK": "5",
+          "RA": "29",
           "pid": "3896705"
         },
         {
@@ -1770,7 +1815,7 @@
           "Sted": "Drammen",
           "Basseng": "50m",
           "RK": "8",
-          "RA": "46",
+          "RA": "50",
           "pid": "3944151"
         },
         {
@@ -1781,6 +1826,15 @@
           "RK": "7",
           "RA": "65",
           "pid": "3680488"
+        },
+        {
+          "Tid": "2.02,89",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3958255"
         },
         {
           "Tid": "2.03,26",
@@ -2018,12 +2072,21 @@
       "distanse": "200m Individuell medley",
       "races": [
         {
+          "Tid": "2.20,91",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "6",
+          "RA": "44",
+          "pid": "3958546"
+        },
+        {
           "Tid": "2.21,92",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "7",
-          "RA": "43",
+          "RK": "",
+          "RA": "",
           "pid": "3853031"
         },
         {
@@ -2321,7 +2384,7 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "13",
-          "RA": "53",
+          "RA": "56",
           "pid": "3853493"
         },
         {
