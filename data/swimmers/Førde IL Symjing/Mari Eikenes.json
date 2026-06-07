@@ -4,7 +4,7 @@
   "club": "Førde IL Symjing",
   "birthYear": 2008,
   "gender": "female",
-  "timestamp": "2026-06-06T12:30:53.189Z",
+  "timestamp": "2026-06-07T22:36:59.115Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -24,12 +24,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "2.48,17",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "195",
+          "RA": "1649",
+          "pid": "3964366"
+        },
+        {
           "Tid": "2.57,85",
           "Dato": "08.03.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "193",
-          "RA": "1627",
+          "RK": "",
+          "RA": "",
           "pid": "3883418"
         },
         {
@@ -40,6 +49,20 @@
           "RK": "154",
           "RA": "1921",
           "pid": "3419725"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.59,46",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "59",
+          "RA": "782",
+          "pid": "3964100"
         }
       ]
     }
