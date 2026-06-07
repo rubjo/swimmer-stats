@@ -4,7 +4,7 @@
   "club": "Sandane TIL",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-06T09:53:18.389Z",
+  "timestamp": "2026-06-07T23:26:52.402Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,31 @@
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
           "RK": "180",
-          "RA": "1507",
+          "RA": "1526",
           "pid": "3897285"
+        },
+        {
+          "Tid": "43,83",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963888"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,47",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "155",
+          "RA": "1253",
+          "pid": "3963513"
         }
       ]
     },
@@ -38,6 +61,15 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.36,11",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "166",
+          "RA": "1318",
+          "pid": "3964332"
+        },
+        {
           "Tid": "1.44,41",
           "Dato": "01.11.2025",
           "Sted": "Nordfjordeid",
@@ -57,8 +89,22 @@
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
           "RK": "157",
-          "RA": "1104",
+          "RA": "1112",
           "pid": "3897286"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.24,23",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "141",
+          "RA": "1025",
+          "pid": "3964607"
         }
       ]
     }
