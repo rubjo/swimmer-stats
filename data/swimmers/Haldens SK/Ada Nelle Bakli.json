@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T11:32:27.190Z",
+  "timestamp": "2026-06-07T21:39:45.426Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "104",
-          "RA": "1484",
+          "RK": "107",
+          "RA": "1493",
           "pid": "3884351"
+        },
+        {
+          "Tid": "43,78",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "49",
+          "RA": "967",
+          "pid": "3961505"
         }
       ]
     },
@@ -28,8 +37,8 @@
           "Dato": "07.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "100",
-          "RA": "1302",
+          "RK": "105",
+          "RA": "1312",
           "pid": "3868629"
         },
         {
@@ -51,8 +60,8 @@
           "Dato": "07.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "120",
-          "RA": "1297",
+          "RK": "121",
+          "RA": "1305",
           "pid": "3868265"
         },
         {
@@ -63,6 +72,34 @@
           "RK": "",
           "RA": "",
           "pid": "3884232"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.00,68",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "42",
+          "RA": "633",
+          "pid": "3961108"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.39,65",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "27",
+          "RA": "358",
+          "pid": "3962942"
         }
       ]
     }
