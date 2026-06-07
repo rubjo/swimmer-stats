@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T11:49:25.888Z",
+  "timestamp": "2026-06-07T21:56:49.574Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,51 @@
           "Dato": "15.03.2026",
           "Sted": "Hagan",
           "Basseng": "25m",
-          "RK": "182",
-          "RA": "1764",
+          "RK": "",
+          "RA": "",
           "pid": "3893130"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,83",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "116",
+          "RA": "1342",
+          "pid": "3959648"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,23",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "134",
+          "RA": "1459",
+          "pid": "3960320"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,78",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "125",
+          "RA": "1213",
+          "pid": "3960054"
         }
       ]
     }

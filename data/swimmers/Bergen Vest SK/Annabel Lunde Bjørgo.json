@@ -4,11 +4,20 @@
   "club": "Bergen Vest SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-06T11:48:26.105Z",
+  "timestamp": "2026-06-07T21:55:45.320Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "45,74",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "264",
+          "RA": "1649",
+          "pid": "3963979"
+        },
         {
           "Tid": "48,51",
           "Dato": "30.11.2025",
@@ -23,8 +32,8 @@
           "Dato": "14.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "273",
-          "RA": "1755",
+          "RK": "",
+          "RA": "",
           "pid": "3891124"
         },
         {
@@ -87,12 +96,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "51,33",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "198",
+          "RA": "1102",
+          "pid": "3963838"
+        },
+        {
           "Tid": "53,89",
           "Dato": "15.02.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
-          "RK": "222",
-          "RA": "1236",
+          "RK": "",
+          "RA": "",
           "pid": "3874626"
         },
         {
@@ -152,22 +170,17 @@
       ]
     },
     {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "55,09",
-          "Dato": "29.11.2025",
-          "Sted": "Ågotnes",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3825492"
-        }
-      ]
-    },
-    {
       "distanse": "50m Rygg",
       "races": [
+        {
+          "Tid": "51,90",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "150",
+          "RA": "887",
+          "pid": "3963706"
+        },
         {
           "Tid": "55,20",
           "Dato": "28.09.2025",
@@ -216,8 +229,31 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "55,09",
+          "Dato": "29.11.2025",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3825492"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.45,48",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "245",
+          "RA": "1481",
+          "pid": "3964442"
+        },
         {
           "Tid": "1.51,67",
           "Dato": "28.09.2025",
@@ -246,8 +282,8 @@
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "105",
+          "RA": "677",
           "pid": "3951782"
         },
         {
@@ -291,6 +327,15 @@
     {
       "distanse": "100m Individuell medley",
       "races": [
+        {
+          "Tid": "1.54,34",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "136",
+          "RA": "885",
+          "pid": "3964530"
+        },
         {
           "Tid": "1.57,36",
           "Dato": "15.11.2025",
@@ -369,6 +414,15 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.55,85",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "202",
+          "RA": "1074",
+          "pid": "3964262"
+        },
+        {
           "Tid": "2.03,88",
           "Dato": "15.11.2025",
           "Sted": "Åstveit",
@@ -403,6 +457,47 @@
           "RK": "",
           "RA": "",
           "pid": "3671270"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.55,45",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "220",
+          "RA": "1265",
+          "pid": "3964729"
+        },
+        {
+          "Tid": "4.07,91",
+          "Dato": "16.11.2025",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3816206"
+        },
+        {
+          "Tid": "4.17,50",
+          "Dato": "08.12.2024",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "RK": "188",
+          "RA": "1479",
+          "pid": "3595725"
+        },
+        {
+          "Tid": "4.19,52",
+          "Dato": "23.03.2025",
+          "Sted": "Åstveithallen",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3671729"
         }
       ]
     },
@@ -453,38 +548,6 @@
           "RK": "",
           "RA": "",
           "pid": "3738800"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "4.07,91",
-          "Dato": "16.11.2025",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3816206"
-        },
-        {
-          "Tid": "4.17,50",
-          "Dato": "08.12.2024",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "RK": "188",
-          "RA": "1479",
-          "pid": "3595725"
-        },
-        {
-          "Tid": "4.19,52",
-          "Dato": "23.03.2025",
-          "Sted": "Åstveithallen",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3671729"
         }
       ]
     },
