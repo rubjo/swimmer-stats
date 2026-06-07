@@ -4,18 +4,27 @@
   "club": "Lillesand IL",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T11:27:46.521Z",
+  "timestamp": "2026-06-07T21:35:43.784Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "35,61",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "120",
+          "RA": "767",
+          "pid": "3956498"
+        },
         {
           "Tid": "38,05",
           "Dato": "15.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
           "RK": "203",
-          "RA": "1274",
+          "RA": "1284",
           "pid": "3896189"
         }
       ]
@@ -24,12 +33,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "49,72",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "91",
+          "RA": "522",
+          "pid": "3956333"
+        },
+        {
           "Tid": "51,22",
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "196",
-          "RA": "1012",
+          "RK": "197",
+          "RA": "1019",
           "pid": "3896132"
         }
       ]
@@ -42,9 +60,32 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "122",
-          "RA": "745",
+          "RK": "125",
+          "RA": "764",
           "pid": "3896090"
+        },
+        {
+          "Tid": "57,03",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "74",
+          "RA": "477",
+          "pid": "3956203"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,89",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "122",
+          "RA": "743",
+          "pid": "3957446"
         }
       ]
     },
@@ -56,9 +97,18 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "191",
-          "RA": "945",
+          "RK": "192",
+          "RA": "951",
           "pid": "3896377"
+        },
+        {
+          "Tid": "1.58,16",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "74",
+          "RA": "439",
+          "pid": "3957097"
         }
       ]
     },
@@ -71,8 +121,17 @@
           "Sted": "Lillesand",
           "Basseng": "25m",
           "RK": "195",
-          "RA": "1008",
+          "RA": "1018",
           "pid": "3896685"
+        },
+        {
+          "Tid": "3.24,00",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "89",
+          "RA": "496",
+          "pid": "3958144"
         }
       ]
     }
