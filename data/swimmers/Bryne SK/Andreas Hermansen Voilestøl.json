@@ -4,7 +4,7 @@
   "club": "Bryne SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-06T21:24:29.080Z",
+  "timestamp": "2026-06-08T06:25:24.381Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -131,22 +131,17 @@
       ]
     },
     {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.53,10",
-          "Dato": "13.12.2025",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "RK": "75",
-          "RA": "1181",
-          "pid": "3838431"
-        }
-      ]
-    },
-    {
       "distanse": "100m Rygg",
       "races": [
+        {
+          "Tid": "1.47,03",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "32",
+          "RA": "358",
+          "pid": "3956882"
+        },
         {
           "Tid": "1.55,05",
           "Dato": "13.09.2025",
@@ -168,6 +163,20 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.53,10",
+          "Dato": "13.12.2025",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "RK": "75",
+          "RA": "1181",
+          "pid": "3838431"
+        }
+      ]
+    },
+    {
       "distanse": "100m Bryst",
       "races": [
         {
@@ -175,8 +184,8 @@
           "Dato": "10.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "108",
-          "RA": "996",
+          "RK": "110",
+          "RA": "1005",
           "pid": "3947040"
         },
         {
@@ -208,8 +217,17 @@
           "Sted": "Karmøy",
           "Basseng": "25m",
           "RK": "96",
-          "RA": "879",
+          "RA": "883",
           "pid": "3919626"
+        },
+        {
+          "Tid": "2.18,19",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "20",
+          "RA": "390",
+          "pid": "3956691"
         },
         {
           "Tid": "2.19,39",
@@ -344,6 +362,15 @@
           "pid": "3920771"
         },
         {
+          "Tid": "3.56,95",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "17",
+          "RA": "314",
+          "pid": "3958528"
+        },
+        {
           "Tid": "4.00,18",
           "Dato": "25.04.2026",
           "Sted": "Sandnes",
@@ -403,6 +430,15 @@
           "pid": "3920277"
         },
         {
+          "Tid": "4.37,20",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "16",
+          "RA": "231",
+          "pid": "3957922"
+        },
+        {
           "Tid": "4.38,82",
           "Dato": "08.02.2026",
           "Sted": "Stavanger",
@@ -433,6 +469,15 @@
           "RK": "78",
           "RA": "799",
           "pid": "3934704"
+        },
+        {
+          "Tid": "6.48,89",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "9",
+          "RA": "287",
+          "pid": "3958803"
         },
         {
           "Tid": "7.00,11",

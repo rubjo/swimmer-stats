@@ -4,18 +4,50 @@
   "club": "Austrheim SK",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-06-06T21:22:15.120Z",
+  "timestamp": "2026-06-08T06:22:53.947Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,19",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "88",
+          "RA": "597",
+          "pid": "3963842"
+        }
+      ]
+    },
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "37,74",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "48",
+          "RA": "405",
+          "pid": "3963714"
+        },
+        {
+          "Tid": "38,13",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963713"
+        },
         {
           "Tid": "40,37",
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "53",
-          "RA": "534",
+          "RK": "",
+          "RA": "",
           "pid": "3951550"
         }
       ]
@@ -24,6 +56,15 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.07,01",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "71",
+          "RA": "593",
+          "pid": "3964274"
+        },
+        {
           "Tid": "1.07,56",
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
@@ -31,6 +72,20 @@
           "RK": "",
           "RA": "",
           "pid": "3951802"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,33",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "38",
+          "RA": "534",
+          "pid": "3964125"
         }
       ]
     }
