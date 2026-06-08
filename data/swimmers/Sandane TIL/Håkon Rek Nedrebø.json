@@ -4,18 +4,27 @@
   "club": "Sandane TIL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-06T15:57:06.223Z",
+  "timestamp": "2026-06-08T02:22:35.987Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "38,81",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "87",
+          "RA": "1335",
+          "pid": "3963889"
+        },
+        {
           "Tid": "40,89",
           "Dato": "15.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "103",
-          "RA": "1412",
+          "RK": "",
+          "RA": "",
           "pid": "3890409"
         },
         {
@@ -46,8 +55,8 @@
           "Dato": "15.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "42",
-          "RA": "636",
+          "RK": "45",
+          "RA": "662",
           "pid": "3890360"
         },
         {
@@ -65,12 +74,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "56,44",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "128",
+          "RA": "1197",
+          "pid": "3963755"
+        },
+        {
           "Tid": "57,14",
           "Dato": "14.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "129",
-          "RA": "1203",
+          "RK": "",
+          "RA": "",
           "pid": "3890381"
         },
         {
@@ -105,6 +123,15 @@
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.24,34",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "58",
+          "RA": "1096",
+          "pid": "3964328"
+        },
         {
           "Tid": "1.28,49",
           "Dato": "14.03.2026",
@@ -144,15 +171,38 @@
       ]
     },
     {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.47,49",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "57",
+          "RA": "497",
+          "pid": "3964094"
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
+        {
+          "Tid": "3.04,12",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "55",
+          "RA": "884",
+          "pid": "3964610"
+        },
         {
           "Tid": "3.16,15",
           "Dato": "14.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "82",
-          "RA": "960",
+          "RK": "",
+          "RA": "",
           "pid": "3890652"
         }
       ]

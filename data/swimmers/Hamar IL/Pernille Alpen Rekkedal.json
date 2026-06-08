@@ -4,18 +4,27 @@
   "club": "Hamar IL",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-06T15:57:11.433Z",
+  "timestamp": "2026-06-08T02:22:41.516Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "40,50",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "129",
+          "RA": "884",
+          "pid": "3961486"
+        },
+        {
           "Tid": "44,50",
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "125",
-          "RA": "862",
+          "RK": "",
+          "RA": "",
           "pid": "3864704"
         },
         {
@@ -42,6 +51,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "46,52",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "42",
+          "RA": "415",
+          "pid": "3961260"
+        },
+        {
           "Tid": "47,39",
           "Dato": "29.11.2025",
           "Sted": "Elverum",
@@ -55,8 +73,8 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "51",
-          "RA": "422",
+          "RK": "",
+          "RA": "",
           "pid": "3864630"
         },
         {
@@ -71,6 +89,34 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "49,60",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "91",
+          "RA": "566",
+          "pid": "3961097"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,98",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "109",
+          "RA": "772",
+          "pid": "3960955"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
@@ -78,9 +124,18 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "108",
-          "RA": "731",
+          "RK": "122",
+          "RA": "829",
           "pid": "3864875"
+        },
+        {
+          "Tid": "1.40,66",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3962236"
         },
         {
           "Tid": "1.45,35",
@@ -97,12 +152,21 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.43,53",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "45",
+          "RA": "323",
+          "pid": "3961922"
+        },
+        {
           "Tid": "1.47,02",
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "54",
-          "RA": "332",
+          "RK": "",
+          "RA": "",
           "pid": "3864801"
         },
         {
