@@ -4,11 +4,20 @@
   "club": "Askimsvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T16:07:37.616Z",
+  "timestamp": "2026-06-08T02:32:59.861Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "31,84",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "73",
+          "RA": "615",
+          "pid": "3961294"
+        },
         {
           "Tid": "42,69",
           "Dato": "08.09.2024",
@@ -17,6 +26,20 @@
           "RK": "",
           "RA": "",
           "pid": "3514606"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "45,80",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "66",
+          "RA": "406",
+          "pid": "3960979"
         }
       ]
     },
