@@ -4,18 +4,27 @@
   "club": "Øyane SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T13:59:30.029Z",
+  "timestamp": "2026-06-08T00:23:19.464Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "44,46",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "133",
+          "RA": "1592",
+          "pid": "3963911"
+        },
+        {
           "Tid": "45,13",
           "Dato": "14.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "138",
-          "RA": "1618",
+          "RK": "",
+          "RA": "",
           "pid": "3891061"
         }
       ]
@@ -24,13 +33,36 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "54,01",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "91",
+          "RA": "1260",
+          "pid": "3963775"
+        },
+        {
           "Tid": "55,92",
           "Dato": "15.02.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
-          "RK": "108",
-          "RA": "1322",
+          "RK": "",
+          "RA": "",
           "pid": "3874566"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "55,75",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "114",
+          "RA": "967",
+          "pid": "3963647"
         }
       ]
     },
@@ -38,12 +70,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "1.03,15",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "154",
+          "RA": "1399",
+          "pid": "3963532"
+        },
+        {
           "Tid": "1.03,91",
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "154",
-          "RA": "1395",
+          "RK": "",
+          "RA": "",
           "pid": "3890844"
         }
       ]
@@ -52,12 +93,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.39,68",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "112",
+          "RA": "1390",
+          "pid": "3964359"
+        },
+        {
           "Tid": "1.44,40",
           "Dato": "14.02.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
-          "RK": "131",
-          "RA": "1446",
+          "RK": "",
+          "RA": "",
           "pid": "3874901"
         }
       ]
@@ -70,8 +120,8 @@
           "Dato": "14.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "144",
+          "RA": "933",
           "pid": "3891688"
         }
       ]
@@ -84,8 +134,8 @@
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "122",
+          "RA": "1205",
           "pid": "3891562"
         }
       ]
@@ -98,8 +148,8 @@
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "121",
-          "RA": "1213",
+          "RK": "122",
+          "RA": "1221",
           "pid": "3892162"
         }
       ]
