@@ -4,7 +4,7 @@
   "club": "ROMA",
   "birthYear": 1965,
   "gender": "male",
-  "timestamp": "2026-06-07T21:47:24.294Z",
+  "timestamp": "2026-06-08T16:41:04.612Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "271",
-          "RA": "950",
+          "RA": "956",
           "pid": "3900241"
         }
       ]
@@ -29,7 +29,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "200",
-          "RA": "730",
+          "RA": "733",
           "pid": "3899884"
         }
       ]
@@ -43,8 +43,12 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "206",
-          "RA": "842",
-          "pid": "3900857"
+          "RA": "845",
+          "pid": "3900857",
+          "splits": [
+            "35,98",
+            "38,58"
+          ]
         }
       ]
     }

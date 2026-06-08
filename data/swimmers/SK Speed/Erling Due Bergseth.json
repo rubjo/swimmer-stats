@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 1989,
   "gender": "male",
-  "timestamp": "2026-06-07T21:48:59.133Z",
+  "timestamp": "2026-06-08T16:52:38.576Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,7 +14,7 @@
           "Dato": "07.03.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "",
+          "RK": "339",
           "RA": "1786",
           "pid": "3883271"
         }
@@ -28,9 +28,13 @@
           "Dato": "08.03.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "",
+          "RK": "250",
           "RA": "1535",
-          "pid": "3883385"
+          "pid": "3883385",
+          "splits": [
+            "1.25,51",
+            "1.39,52"
+          ]
         }
       ]
     }
