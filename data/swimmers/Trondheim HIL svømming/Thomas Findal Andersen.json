@@ -4,18 +4,27 @@
   "club": "Trondheim HIL svømming",
   "birthYear": 1998,
   "gender": "male",
-  "timestamp": "2026-06-06T22:56:05.309Z",
+  "timestamp": "2026-06-08T04:41:24.065Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "33,20",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "148",
+          "RA": "695",
+          "pid": "3956532"
+        },
+        {
           "Tid": "33,34",
           "Dato": "19.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
-          "RK": "136",
-          "RA": "646",
+          "RK": "",
+          "RA": "",
           "pid": "3928946"
         },
         {
@@ -51,12 +60,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "38,18",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "71",
+          "RA": "280",
+          "pid": "3956350"
+        },
+        {
           "Tid": "38,26",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "113",
-          "RA": "419",
+          "RK": "115",
+          "RA": "430",
           "pid": "3879518"
         },
         {
@@ -64,8 +82,8 @@
           "Dato": "19.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
-          "RK": "62",
-          "RA": "264",
+          "RK": "",
+          "RA": "",
           "pid": "3928679"
         },
         {
@@ -101,17 +119,22 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.20,47",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "123",
+          "RA": "676",
+          "pid": "3957530"
+        },
+        {
           "Tid": "1.21,79",
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "109",
-          "RA": "631",
-          "pid": "3851418",
-          "splits": [
-            "33,99",
-            "47,80"
-          ]
+          "RK": "",
+          "RA": "",
+          "pid": "3851418"
         },
         {
           "Tid": "1.22,40",
@@ -120,11 +143,21 @@
           "Basseng": "25m",
           "RK": "198",
           "RA": "1274",
-          "pid": "3813713",
-          "splits": [
-            "35,72",
-            "46,68"
-          ]
+          "pid": "3813713"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.28,82",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "51",
+          "RA": "243",
+          "pid": "3957136"
         }
       ]
     }

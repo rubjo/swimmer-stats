@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-06T22:59:18.111Z",
+  "timestamp": "2026-06-08T04:41:53.257Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -37,8 +37,8 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "72",
-          "RA": "635",
+          "RK": "80",
+          "RA": "661",
           "pid": "3884242"
         },
         {
@@ -53,6 +53,20 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,30",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "81",
+          "RA": "600",
+          "pid": "3961146"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
@@ -60,13 +74,9 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3884447",
-          "splits": [
-            "41,23",
-            "47,99"
-          ]
+          "RK": "148",
+          "RA": "1210",
+          "pid": "3884447"
         },
         {
           "Tid": "1.36,26",
@@ -75,11 +85,7 @@
           "Basseng": "25m",
           "RK": "147",
           "RA": "1541",
-          "pid": "3808069",
-          "splits": [
-            "44,25",
-            "52,01"
-          ]
+          "pid": "3808069"
         },
         {
           "Tid": "1.39,42",
@@ -88,11 +94,21 @@
           "Basseng": "25m",
           "RK": "",
           "RA": "",
-          "pid": "3846132",
-          "splits": [
-            "45,99",
-            "53,43"
-          ]
+          "pid": "3846132"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.44,70",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "45",
+          "RA": "353",
+          "pid": "3961668"
         }
       ]
     },
@@ -105,12 +121,50 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "146",
-          "RA": "1015",
-          "pid": "3846123",
-          "splits": [
-            "57,98",
-            "1.05,28"
-          ]
+          "RA": "1023",
+          "pid": "3846123"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.25,84",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "64",
+          "RA": "503",
+          "pid": "3962566"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.25,39",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "224",
+          "pid": "3962355"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.04,30",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "42",
+          "RA": "296",
+          "pid": "3962962"
         }
       ]
     }
