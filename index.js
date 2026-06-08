@@ -927,13 +927,16 @@ async function runPass(mode) {
  *
  * When running against existing data, unchanged swimmers with complete
  * splits are skipped quickly (~3 s/swimmer).
+ *
+ * For manual use:
+ *   MODE=collect   — race data only (no splits), fast per swimmer
+ *   MODE=splits    — split extraction only (same as "auto" default)
  */
 async function main() {
   if (DEFAULT_MODE === "auto") {
-    // Two-pass: collect all race data first (fast), then extract splits (slow).
-    // This way basic data appears on GitHub Pages within hours, and splits
-    // fill in over subsequent runs.
-    await runPass("collect");
+    // Single-pass: collect race data and extract splits in one go.
+    // On the first run each swimmer gets full race data + splits.
+    // Subsequent runs skip unchanged swimmers with complete splits.
     await runPass("splits");
   } else {
     await runPass(DEFAULT_MODE);
