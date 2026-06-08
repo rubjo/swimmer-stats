@@ -4,19 +4,56 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T16:39:58.050Z",
+  "timestamp": "2026-06-08T03:05:47.276Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "36,70",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "136",
+          "RA": "749",
+          "pid": "3961456"
+        },
+        {
           "Tid": "37,55",
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "200",
-          "RA": "1105",
+          "RK": "201",
+          "RA": "1125",
           "pid": "3884333"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "44,21",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "100",
+          "RA": "482",
+          "pid": "3961080"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,64",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "90",
+          "RA": "420",
+          "pid": "3961242"
         }
       ]
     },
@@ -28,8 +65,8 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "179",
-          "RA": "950",
+          "RK": "181",
+          "RA": "956",
           "pid": "3884485"
         }
       ]
@@ -42,9 +79,18 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "100",
+          "RA": "494",
           "pid": "3884429"
+        },
+        {
+          "Tid": "1.41,94",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "76",
+          "RA": "306",
+          "pid": "3961888"
         }
       ]
     },

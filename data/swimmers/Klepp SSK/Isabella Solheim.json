@@ -4,18 +4,27 @@
   "club": "Klepp SSK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T16:40:40.428Z",
+  "timestamp": "2026-06-08T03:06:32.137Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "48,19",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "68",
+          "RA": "1019",
+          "pid": "3956625"
+        },
+        {
           "Tid": "51,65",
           "Dato": "14.03.2026",
           "Sted": "Bryne",
           "Basseng": "25m",
-          "RK": "197",
-          "RA": "1803",
+          "RK": "201",
+          "RA": "1816",
           "pid": "3888383"
         },
         {
@@ -37,8 +46,8 @@
           "Dato": "14.03.2026",
           "Sted": "Bryne",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "100",
+          "RA": "920",
           "pid": "3888307"
         },
         {
@@ -49,6 +58,57 @@
           "RK": "",
           "RA": "",
           "pid": "3865578"
+        },
+        {
+          "Tid": "56,53",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956269"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,43",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "70",
+          "RA": "775",
+          "pid": "3956401"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.48,02",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "55",
+          "RA": "864",
+          "pid": "3957687"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.52,82",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "24",
+          "RA": "440",
+          "pid": "3957002"
         }
       ]
     }
