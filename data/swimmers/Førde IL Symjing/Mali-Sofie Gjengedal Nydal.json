@@ -4,18 +4,36 @@
   "club": "Førde IL Symjing",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T15:25:27.435Z",
+  "timestamp": "2026-06-08T01:50:09.802Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "32,44",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "11",
+          "RA": "539",
+          "pid": "3963931"
+        },
+        {
+          "Tid": "32,71",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963928"
+        },
+        {
           "Tid": "33,98",
           "Dato": "01.03.2026",
           "Sted": "Øvre Årdal",
           "Basseng": "25m",
-          "RK": "29",
-          "RA": "735",
+          "RK": "",
+          "RA": "",
           "pid": "3882882"
         },
         {
@@ -77,6 +95,24 @@
     {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "37,99",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "28",
+          "RA": "589",
+          "pid": "3963551"
+        },
+        {
+          "Tid": "38,07",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963547"
+        },
         {
           "Tid": "40,77",
           "Dato": "28.02.2026",
@@ -152,6 +188,56 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,93",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "10",
+          "RA": "395",
+          "pid": "3963789"
+        },
+        {
+          "Tid": "42,07",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963786"
+        },
+        {
+          "Tid": "49,43",
+          "Dato": "01.06.2025",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3708158"
+        },
+        {
+          "Tid": "52,19",
+          "Dato": "13.06.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3724239"
+        },
+        {
+          "Tid": "55,02",
+          "Dato": "28.06.2025",
+          "Sted": "Varberg",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3731551"
+        }
+      ]
+    },
+    {
       "distanse": "50m Rygg",
       "races": [
         {
@@ -184,40 +270,17 @@
       ]
     },
     {
-      "distanse": "50m Bryst",
-      "races": [
-        {
-          "Tid": "49,43",
-          "Dato": "01.06.2025",
-          "Sted": "Førde",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3708158"
-        },
-        {
-          "Tid": "52,19",
-          "Dato": "13.06.2025",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3724239"
-        },
-        {
-          "Tid": "55,02",
-          "Dato": "28.06.2025",
-          "Sted": "Varberg",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3731551"
-        }
-      ]
-    },
-    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.12,71",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "13",
+          "RA": "487",
+          "pid": "3964369"
+        },
         {
           "Tid": "1.27,96",
           "Dato": "28.09.2025",
@@ -286,6 +349,15 @@
     {
       "distanse": "100m Individuell medley",
       "races": [
+        {
+          "Tid": "1.21,77",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "6",
+          "RA": "269",
+          "pid": "3964493"
+        },
         {
           "Tid": "1.29,21",
           "Dato": "28.02.2026",
@@ -509,8 +581,8 @@
           "Dato": "14.06.2025",
           "Sted": "Bergen",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "",
+          "RK": "16",
+          "RA": "364",
           "pid": "3727792"
         }
       ]
