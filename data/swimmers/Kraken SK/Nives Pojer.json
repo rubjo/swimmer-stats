@@ -4,7 +4,7 @@
   "club": "Kraken SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T15:47:36.933Z",
+  "timestamp": "2026-06-08T02:12:42.260Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "59",
-          "RA": "911",
+          "RK": "",
+          "RA": "",
           "pid": "3854587"
         },
         {
@@ -57,38 +57,33 @@
       ]
     },
     {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "38,41",
-          "Dato": "25.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3935072"
-        },
-        {
-          "Tid": "48,23",
-          "Dato": "02.03.2025",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3645475"
-        }
-      ]
-    },
-    {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "37,19",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "16",
+          "RA": "529",
+          "pid": "3963545"
+        },
+        {
+          "Tid": "37,74",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963544"
+        },
         {
           "Tid": "39,35",
           "Dato": "01.03.2026",
           "Sted": "Molde",
           "Basseng": "25m",
-          "RK": "33",
-          "RA": "670",
+          "RK": "",
+          "RA": "",
           "pid": "3881779"
         },
         {
@@ -112,6 +107,47 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "38,41",
+          "Dato": "25.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "RK": "10",
+          "RA": "355",
+          "pid": "3935072"
+        },
+        {
+          "Tid": "38,70",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963662"
+        },
+        {
+          "Tid": "38,88",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963665"
+        },
+        {
+          "Tid": "48,23",
+          "Dato": "02.03.2025",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3645475"
+        }
+      ]
+    },
+    {
       "distanse": "50m Bryst",
       "races": [
         {
@@ -129,12 +165,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.15,61",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "28",
+          "RA": "612",
+          "pid": "3964382"
+        },
+        {
           "Tid": "1.17,41",
           "Dato": "23.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "36",
-          "RA": "685",
+          "RK": "",
+          "RA": "",
           "pid": "3855754"
         },
         {
@@ -201,8 +246,8 @@
           "Dato": "14.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "17",
+          "RA": "293",
           "pid": "3890486"
         },
         {
@@ -252,8 +297,17 @@
           "Sted": "Stjørdal",
           "Basseng": "25m",
           "RK": "42",
-          "RA": "569",
+          "RA": "570",
           "pid": "3924837"
+        },
+        {
+          "Tid": "1.36,70",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3964033"
         },
         {
           "Tid": "1.38,34",
@@ -329,6 +383,15 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.46,78",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "86",
+          "RA": "823",
+          "pid": "3964195"
+        },
+        {
           "Tid": "2.15,02",
           "Dato": "02.03.2025",
           "Sted": "Kristiansund",
@@ -343,12 +406,21 @@
       "distanse": "200m Fri",
       "races": [
         {
+          "Tid": "2.37,62",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "10",
+          "RA": "376",
+          "pid": "3964657"
+        },
+        {
           "Tid": "2.43,55",
           "Dato": "01.03.2026",
           "Sted": "Molde",
           "Basseng": "25m",
-          "RK": "15",
-          "RA": "485",
+          "RK": "",
+          "RA": "",
           "pid": "3882464"
         },
         {
