@@ -4,11 +4,34 @@
   "club": "Haldens SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-06T15:00:30.083Z",
+  "timestamp": "2026-06-08T01:25:22.054Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,03",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "45",
+          "RA": "723",
+          "pid": "3961316"
+        }
+      ]
+    },
     {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "37,82",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "30",
+          "RA": "590",
+          "pid": "3960824"
+        },
         {
           "Tid": "42,79",
           "Dato": "08.03.2026",
@@ -75,6 +98,34 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,33",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "16",
+          "RA": "368",
+          "pid": "3961137"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "42,39",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "37",
+          "RA": "362",
+          "pid": "3960996"
+        }
+      ]
+    },
+    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -83,8 +134,17 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "57",
-          "RA": "619",
+          "RA": "621",
           "pid": "3914032"
+        },
+        {
+          "Tid": "1.30,24",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "13",
+          "RA": "319",
+          "pid": "3961544"
         },
         {
           "Tid": "1.42,58",
@@ -98,6 +158,29 @@
       ]
     },
     {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,24",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "13",
+          "RA": "268",
+          "pid": "3961767"
+        },
+        {
+          "Tid": "1.48,21",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "26",
+          "RA": "463",
+          "pid": "3710258"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -105,8 +188,8 @@
           "Dato": "10.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "56",
-          "RA": "523",
+          "RK": "60",
+          "RA": "551",
           "pid": "3879128"
         }
       ]
@@ -126,20 +209,6 @@
       ]
     },
     {
-      "distanse": "100m Bryst",
-      "races": [
-        {
-          "Tid": "1.48,21",
-          "Dato": "01.06.2025",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "RK": "26",
-          "RA": "463",
-          "pid": "3710258"
-        }
-      ]
-    },
-    {
       "distanse": "200m Fri",
       "races": [
         {
@@ -147,8 +216,8 @@
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "96",
-          "RA": "814",
+          "RK": "97",
+          "RA": "827",
           "pid": "3881201"
         },
         {
