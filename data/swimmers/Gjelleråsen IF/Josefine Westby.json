@@ -4,8 +4,40 @@
   "club": "Gjelleråsen IF",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T21:32:44.109Z",
+  "timestamp": "2026-06-08T06:34:08.184Z",
   "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,01",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "68",
+          "RA": "830",
+          "pid": "3959562"
+        },
+        {
+          "Tid": "56,52",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3880221"
+        },
+        {
+          "Tid": "1.03,59",
+          "Dato": "25.10.2025",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3794532"
+        }
+      ]
+    },
     {
       "distanse": "50m Fri",
       "races": [
@@ -39,63 +71,17 @@
       ]
     },
     {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "56,36",
-          "Dato": "10.04.2026",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "RK": "124",
-          "RA": "1311",
-          "pid": "3914025"
-        },
-        {
-          "Tid": "58,32",
-          "Dato": "14.03.2026",
-          "Sted": "Hagan",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3893018"
-        },
-        {
-          "Tid": "1.02,40",
-          "Dato": "26.10.2025",
-          "Sted": "Langhus",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3794426"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "56,52",
-          "Dato": "28.02.2026",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3880221"
-        },
-        {
-          "Tid": "1.03,59",
-          "Dato": "25.10.2025",
-          "Sted": "Langhus",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3794532"
-        }
-      ]
-    },
-    {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "53,98",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "90",
+          "RA": "1255",
+          "pid": "3959703"
+        },
         {
           "Tid": "57,38",
           "Dato": "01.03.2026",
@@ -126,6 +112,52 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "56,36",
+          "Dato": "10.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "RK": "128",
+          "RA": "1323",
+          "pid": "3914025"
+        },
+        {
+          "Tid": "58,32",
+          "Dato": "14.03.2026",
+          "Sted": "Hagan",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3893018"
+        },
+        {
+          "Tid": "1.02,40",
+          "Dato": "26.10.2025",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3794426"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,76",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "110",
+          "RA": "1376",
+          "pid": "3960398"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -133,8 +165,8 @@
           "Dato": "15.03.2026",
           "Sted": "Hagan",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "122",
+          "RA": "864",
           "pid": "3893434"
         },
         {
@@ -201,8 +233,8 @@
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "125",
+          "RA": "701",
           "pid": "3914470"
         },
         {
@@ -224,8 +256,8 @@
           "Dato": "15.03.2026",
           "Sted": "Hagan",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "103",
+          "RA": "1150",
           "pid": "3893335"
         },
         {
@@ -256,8 +288,8 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "119",
-          "RA": "1204",
+          "RK": "120",
+          "RA": "1212",
           "pid": "3915440"
         },
         {
