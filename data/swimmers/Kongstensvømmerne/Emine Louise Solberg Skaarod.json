@@ -4,18 +4,27 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-06T16:35:43.680Z",
+  "timestamp": "2026-06-08T03:01:50.554Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "38,65",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "108",
+          "RA": "816",
+          "pid": "3961457"
+        },
+        {
           "Tid": "41,43",
           "Dato": "15.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "222",
-          "RA": "1408",
+          "RK": "227",
+          "RA": "1429",
           "pid": "3894500"
         },
         {
@@ -46,9 +55,18 @@
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "151",
+          "RA": "896",
           "pid": "3894328"
+        },
+        {
+          "Tid": "54,22",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "98",
+          "RA": "607",
+          "pid": "3961079"
         }
       ]
     },
@@ -56,13 +74,36 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "53,99",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "110",
+          "RA": "649",
+          "pid": "3961241"
+        },
+        {
           "Tid": "55,26",
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "232",
-          "RA": "1291",
+          "RK": "233",
+          "RA": "1313",
           "pid": "3894413"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.04,75",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "110",
+          "RA": "544",
+          "pid": "3961890"
         }
       ]
     }

@@ -4,18 +4,27 @@
   "club": "Farsund SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T16:35:22.359Z",
+  "timestamp": "2026-06-08T03:01:28.442Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "40,20",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "167",
+          "RA": "871",
+          "pid": "3956663"
+        },
+        {
           "Tid": "41,66",
           "Dato": "15.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "235",
-          "RA": "1420",
+          "RK": "240",
+          "RA": "1440",
           "pid": "3896260"
         },
         {
@@ -23,8 +32,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "155",
-          "RA": "833",
+          "RK": "",
+          "RA": "",
           "pid": "3850165"
         }
       ]
@@ -37,17 +46,26 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "104",
-          "RA": "495",
+          "RK": "121",
+          "RA": "562",
           "pid": "3849696"
+        },
+        {
+          "Tid": "51,41",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956431"
         },
         {
           "Tid": "55,23",
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "233",
-          "RA": "1290",
+          "RK": "237",
+          "RA": "1312",
           "pid": "3896179"
         }
       ]
@@ -60,8 +78,8 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "159",
+          "RA": "932",
           "pid": "3896125"
         },
         {
@@ -69,8 +87,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "98",
-          "RA": "539",
+          "RK": "115",
+          "RA": "615",
           "pid": "3849361"
         }
       ]
@@ -83,9 +101,32 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "144",
-          "RA": "727",
+          "RK": "166",
+          "RA": "824",
           "pid": "3851747"
+        },
+        {
+          "Tid": "1.43,02",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3957743"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.52,79",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "86",
+          "RA": "439",
+          "pid": "3957013"
         }
       ]
     },
@@ -97,8 +138,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "93",
-          "RA": "395",
+          "RK": "107",
+          "RA": "454",
           "pid": "3851049"
         },
         {
@@ -106,8 +147,8 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "216",
+          "RA": "1163",
           "pid": "3896456"
         }
       ]
@@ -120,8 +161,8 @@
           "Dato": "14.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "217",
-          "RA": "1196",
+          "RK": "218",
+          "RA": "1204",
           "pid": "3896787"
         },
         {
@@ -129,9 +170,23 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "104",
-          "RA": "474",
+          "RK": "122",
+          "RA": "553",
           "pid": "3852857"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.05,20",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "68",
+          "RA": "251",
+          "pid": "3957873"
         }
       ]
     },
@@ -139,12 +194,21 @@
       "distanse": "200m Bryst",
       "races": [
         {
+          "Tid": "4.09,22",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "55",
+          "RA": "260",
+          "pid": "3958075"
+        },
+        {
           "Tid": "4.11,19",
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "45",
-          "RA": "210",
+          "RK": "",
+          "RA": "",
           "pid": "3852269"
         }
       ]
