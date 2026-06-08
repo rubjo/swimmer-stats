@@ -4,18 +4,27 @@
   "club": "Arna SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T21:35:09.887Z",
+  "timestamp": "2026-06-08T06:36:52.398Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "35,64",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "66",
+          "RA": "954",
+          "pid": "3963971"
+        },
+        {
           "Tid": "36,48",
           "Dato": "14.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "71",
-          "RA": "1000",
+          "RK": "",
+          "RA": "",
           "pid": "3891133"
         },
         {
@@ -109,9 +118,18 @@
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "56",
-          "RA": "840",
+          "RK": "58",
+          "RA": "850",
           "pid": "3951546"
+        },
+        {
+          "Tid": "43,95",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963593"
         },
         {
           "Tid": "48,06",
@@ -141,8 +159,8 @@
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "53",
+          "RA": "573",
           "pid": "3890970"
         },
         {
@@ -219,7 +237,7 @@
           "Sted": "Slåtthaug",
           "Basseng": "25m",
           "RK": "43",
-          "RA": "678",
+          "RA": "688",
           "pid": "3951683"
         },
         {
@@ -309,12 +327,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.18,54",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "45",
+          "RA": "748",
+          "pid": "3964432"
+        },
+        {
           "Tid": "1.20,77",
           "Dato": "31.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "61",
-          "RA": "839",
+          "RK": "",
+          "RA": "",
           "pid": "3952089"
         },
         {
@@ -390,8 +417,8 @@
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "26",
+          "RA": "334",
           "pid": "3951793"
         },
         {
@@ -445,6 +472,15 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
+          "Tid": "1.30,57",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "36",
+          "RA": "477",
+          "pid": "3964526"
+        },
+        {
           "Tid": "1.37,22",
           "Dato": "15.02.2026",
           "Sted": "Åstveit",
@@ -486,6 +522,15 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.41,23",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "47",
+          "RA": "633",
+          "pid": "3964256"
+        },
+        {
           "Tid": "1.44,75",
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
@@ -524,6 +569,38 @@
       ]
     },
     {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.53,97",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "50",
+          "RA": "698",
+          "pid": "3964720"
+        },
+        {
+          "Tid": "3.17,38",
+          "Dato": "07.09.2025",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3860065"
+        },
+        {
+          "Tid": "3.17,51",
+          "Dato": "27.09.2025",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3860076"
+        }
+      ]
+    },
+    {
       "distanse": "200m Individuell medley",
       "races": [
         {
@@ -543,29 +620,6 @@
           "RK": "",
           "RA": "",
           "pid": "3860091"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "3.17,38",
-          "Dato": "07.09.2025",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3860065"
-        },
-        {
-          "Tid": "3.17,51",
-          "Dato": "27.09.2025",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3860076"
         }
       ]
     },
