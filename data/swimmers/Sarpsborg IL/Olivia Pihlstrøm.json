@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-06T15:46:57.708Z",
+  "timestamp": "2026-06-08T02:12:01.172Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "07.02.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "64",
-          "RA": "684",
+          "RK": "68",
+          "RA": "702",
           "pid": "3872960"
+        },
+        {
+          "Tid": "34,34",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "61",
+          "RA": "614",
+          "pid": "3961426"
         },
         {
           "Tid": "34,95",
@@ -87,12 +96,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "38,32",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "40",
+          "RA": "453",
+          "pid": "3960915"
+        },
+        {
           "Tid": "38,56",
           "Dato": "07.02.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "65",
-          "RA": "623",
+          "RK": "68",
+          "RA": "638",
           "pid": "3872762"
         },
         {
@@ -100,8 +118,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "39",
-          "RA": "448",
+          "RK": "",
+          "RA": "",
           "pid": "3848967"
         },
         {
@@ -159,8 +177,8 @@
           "Dato": "28.02.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "78",
+          "RA": "513",
           "pid": "3880197"
         },
         {
@@ -202,15 +220,38 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,49",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "77",
+          "RA": "526",
+          "pid": "3961221"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.15,40",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "37",
+          "RA": "465",
+          "pid": "3962155"
+        },
         {
           "Tid": "1.16,47",
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "39",
-          "RA": "452",
+          "RK": "",
+          "RA": "",
           "pid": "3943626"
         },
         {
@@ -295,8 +336,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "16",
-          "RA": "181",
+          "RK": "20",
+          "RA": "210",
           "pid": "3850433"
         },
         {
@@ -364,9 +405,18 @@
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "27",
-          "RA": "299",
+          "RK": "28",
+          "RA": "328",
           "pid": "3944179"
+        },
+        {
+          "Tid": "2.53,15",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3962761"
         },
         {
           "Tid": "2.54,40",
@@ -446,8 +496,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "35",
-          "RA": "251",
+          "RK": "39",
+          "RA": "289",
           "pid": "3853142"
         },
         {
@@ -496,8 +546,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "38",
-          "RA": "185",
+          "RK": "45",
+          "RA": "224",
           "pid": "3852146"
         },
         {

@@ -4,18 +4,27 @@
   "club": "SK Speed",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-06-06T15:46:12.018Z",
+  "timestamp": "2026-06-08T02:11:14.355Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "28,62",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "97",
+          "RA": "512",
+          "pid": "3959760"
+        },
+        {
           "Tid": "29,07",
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "79",
-          "RA": "396",
+          "RK": "82",
+          "RA": "424",
           "pid": "3849867"
         },
         {
@@ -253,8 +262,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "59",
-          "RA": "305",
+          "RK": "60",
+          "RA": "324",
           "pid": "3848827"
         },
         {
@@ -299,7 +308,7 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "RK": "91",
-          "RA": "437",
+          "RA": "443",
           "pid": "3860123"
         },
         {
@@ -474,8 +483,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "30",
-          "RA": "158",
+          "RK": "33",
+          "RA": "171",
           "pid": "3849169"
         },
         {
@@ -642,6 +651,15 @@
           "pid": "3752462"
         },
         {
+          "Tid": "1.02,03",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "82",
+          "RA": "374",
+          "pid": "3960282"
+        },
+        {
           "Tid": "1.03,06",
           "Dato": "06.12.2025",
           "Sted": "Nadderud",
@@ -655,8 +673,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "65",
-          "RA": "326",
+          "RK": "70",
+          "RA": "360",
           "pid": "3851323"
         },
         {
@@ -802,6 +820,92 @@
           "RK": "",
           "RA": "",
           "pid": "2832350"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.10,56",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "44",
+          "RA": "184",
+          "pid": "3960517"
+        },
+        {
+          "Tid": "1.14,09",
+          "Dato": "30.11.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "RK": "64",
+          "RA": "451",
+          "pid": "3589221"
+        },
+        {
+          "Tid": "1.15,95",
+          "Dato": "21.09.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3526053"
+        },
+        {
+          "Tid": "1.16,50",
+          "Dato": "27.04.2024",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3464603"
+        },
+        {
+          "Tid": "1.16,86",
+          "Dato": "15.10.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "RK": "34",
+          "RA": "533",
+          "pid": "3317568"
+        },
+        {
+          "Tid": "1.18,79",
+          "Dato": "16.09.2023",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3292733"
+        },
+        {
+          "Tid": "1.31,45",
+          "Dato": "10.09.2022",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3070162"
+        },
+        {
+          "Tid": "1.35,71",
+          "Dato": "18.09.2021",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2870165"
+        },
+        {
+          "Tid": "1.36,29",
+          "Dato": "05.03.2022",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2968470"
         }
       ]
     },
@@ -1122,83 +1226,6 @@
       ]
     },
     {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.14,09",
-          "Dato": "30.11.2024",
-          "Sted": "Nadderud",
-          "Basseng": "25m",
-          "RK": "64",
-          "RA": "451",
-          "pid": "3589221"
-        },
-        {
-          "Tid": "1.15,95",
-          "Dato": "21.09.2024",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3526053"
-        },
-        {
-          "Tid": "1.16,50",
-          "Dato": "27.04.2024",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3464603"
-        },
-        {
-          "Tid": "1.16,86",
-          "Dato": "15.10.2023",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "RK": "34",
-          "RA": "533",
-          "pid": "3317568"
-        },
-        {
-          "Tid": "1.18,79",
-          "Dato": "16.09.2023",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3292733"
-        },
-        {
-          "Tid": "1.31,45",
-          "Dato": "10.09.2022",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3070162"
-        },
-        {
-          "Tid": "1.35,71",
-          "Dato": "18.09.2021",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2870165"
-        },
-        {
-          "Tid": "1.36,29",
-          "Dato": "05.03.2022",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2968470"
-        }
-      ]
-    },
-    {
       "distanse": "100m Bryst",
       "races": [
         {
@@ -1324,12 +1351,21 @@
       "distanse": "200m Fri",
       "races": [
         {
+          "Tid": "2.17,98",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "75",
+          "RA": "300",
+          "pid": "3960712"
+        },
+        {
           "Tid": "2.26,03",
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "57",
-          "RA": "243",
+          "RK": "60",
+          "RA": "263",
           "pid": "3905849"
         },
         {
@@ -1563,8 +1599,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "29",
-          "RA": "136",
+          "RK": "32",
+          "RA": "148",
           "pid": "3853013"
         },
         {
@@ -1590,8 +1626,8 @@
           "Dato": "25.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "45",
-          "RA": "215",
+          "RK": "",
+          "RA": "",
           "pid": "3617288"
         },
         {
@@ -2105,8 +2141,8 @@
           "Dato": "29.06.2025",
           "Sted": "Stockholm",
           "Basseng": "50m",
-          "RK": "22",
-          "RA": "89",
+          "RK": "",
+          "RA": "",
           "pid": "3731268"
         },
         {
