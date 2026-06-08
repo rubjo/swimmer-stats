@@ -4,18 +4,27 @@
   "club": "Sandane TIL",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T21:52:53.210Z",
+  "timestamp": "2026-06-08T06:57:42.370Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "39,90",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "136",
+          "RA": "1318",
+          "pid": "3963919"
+        },
+        {
           "Tid": "41,52",
           "Dato": "01.03.2026",
           "Sted": "Øvre Årdal",
           "Basseng": "25m",
-          "RK": "164",
-          "RA": "1413",
+          "RK": "",
+          "RA": "",
           "pid": "3882871"
         },
         {
@@ -60,12 +69,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "51,11",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "139",
+          "RA": "1209",
+          "pid": "3963543"
+        },
+        {
           "Tid": "52,34",
           "Dato": "14.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "146",
-          "RA": "1227",
+          "RK": "",
+          "RA": "",
           "pid": "3890347"
         },
         {
@@ -114,8 +132,8 @@
           "Dato": "28.02.2026",
           "Sted": "Øvre Årdal",
           "Basseng": "25m",
-          "RK": "155",
-          "RA": "1199",
+          "RK": "158",
+          "RA": "1215",
           "pid": "3882854"
         },
         {
@@ -182,8 +200,8 @@
           "Dato": "28.02.2026",
           "Sted": "Øvre Årdal",
           "Basseng": "25m",
-          "RK": "157",
-          "RA": "1292",
+          "RK": "160",
+          "RA": "1309",
           "pid": "3882945"
         }
       ]
@@ -191,6 +209,15 @@
     {
       "distanse": "100m Individuell medley",
       "races": [
+        {
+          "Tid": "1.44,75",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "103",
+          "RA": "761",
+          "pid": "3964497"
+        },
         {
           "Tid": "1.54,31",
           "Dato": "07.09.2025",
@@ -235,6 +262,38 @@
           "RK": "",
           "RA": "",
           "pid": "3621889"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.00,55",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "140",
+          "RA": "909",
+          "pid": "3964037"
+        },
+        {
+          "Tid": "2.04,31",
+          "Dato": "01.03.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3882898"
+        },
+        {
+          "Tid": "2.04,32",
+          "Dato": "15.03.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3890454"
         }
       ]
     },
@@ -303,29 +362,6 @@
           "RK": "",
           "RA": "",
           "pid": "3500165"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "2.04,31",
-          "Dato": "01.03.2026",
-          "Sted": "Øvre Årdal",
-          "Basseng": "25m",
-          "RK": "143",
-          "RA": "920",
-          "pid": "3882898"
-        },
-        {
-          "Tid": "2.04,32",
-          "Dato": "15.03.2026",
-          "Sted": "Nordfjordeid",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3890454"
         }
       ]
     },

@@ -4,11 +4,20 @@
   "club": "Øyane SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T21:53:27.268Z",
+  "timestamp": "2026-06-08T06:58:21.334Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "37,70",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "206",
+          "RA": "1147",
+          "pid": "3963904"
+        },
         {
           "Tid": "40,79",
           "Dato": "30.11.2025",
@@ -51,6 +60,24 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "42,45",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "117",
+          "RA": "566",
+          "pid": "3963641"
+        },
+        {
+          "Tid": "42,99",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963654"
+        },
+        {
           "Tid": "46,76",
           "Dato": "01.11.2025",
           "Sted": "Slåtthaug",
@@ -65,12 +92,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "47,54",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "199",
+          "RA": "1081",
+          "pid": "3963527"
+        },
+        {
           "Tid": "51,29",
           "Dato": "07.02.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "219",
-          "RA": "1201",
+          "RK": "",
+          "RA": "",
           "pid": "3865433"
         },
         {
@@ -87,6 +123,15 @@
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "54,00",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "227",
+          "RA": "1258",
+          "pid": "3963768"
+        },
         {
           "Tid": "57,15",
           "Dato": "06.09.2025",
@@ -124,8 +169,8 @@
           "Dato": "06.02.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "203",
-          "RA": "1103",
+          "RK": "205",
+          "RA": "1116",
           "pid": "3866475"
         },
         {
@@ -149,6 +194,29 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.40,40",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "124",
+          "RA": "677",
+          "pid": "3964481"
+        },
+        {
+          "Tid": "1.48,42",
+          "Dato": "07.12.2024",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "RK": "181",
+          "RA": "1231",
+          "pid": "3594915"
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -163,16 +231,25 @@
       ]
     },
     {
-      "distanse": "100m Individuell medley",
+      "distanse": "100m Bryst",
       "races": [
         {
-          "Tid": "1.48,42",
+          "Tid": "1.55,67",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "205",
+          "RA": "1067",
+          "pid": "3964176"
+        },
+        {
+          "Tid": "2.01,39",
           "Dato": "07.12.2024",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "181",
-          "RA": "1231",
-          "pid": "3594915"
+          "RK": "234",
+          "RA": "1349",
+          "pid": "3594644"
         }
       ]
     },
@@ -185,7 +262,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "192",
-          "RA": "878",
+          "RA": "881",
           "pid": "3866000"
         },
         {
@@ -196,20 +273,6 @@
           "RK": "",
           "RA": "",
           "pid": "3825641"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Bryst",
-      "races": [
-        {
-          "Tid": "2.01,39",
-          "Dato": "07.12.2024",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "RK": "234",
-          "RA": "1349",
-          "pid": "3594644"
         }
       ]
     },
