@@ -4,7 +4,7 @@
   "club": "Kongsvinger SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T15:32:23.206Z",
+  "timestamp": "2026-06-08T01:57:18.644Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -17,12 +17,44 @@
           "RK": "",
           "RA": "",
           "pid": "3842092"
+        },
+        {
+          "Tid": "50,12",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "73",
+          "RA": "1035",
+          "pid": "3961446"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "57,72",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "624",
+          "pid": "3961073"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "58,77",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "56",
+          "RA": "741",
+          "pid": "3961237"
+        },
         {
           "Tid": "1.01,03",
           "Dato": "29.11.2025",
@@ -31,6 +63,20 @@
           "RK": "",
           "RA": "",
           "pid": "3842091"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.07,25",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "69",
+          "RA": "895",
+          "pid": "3962174"
         }
       ]
     }
