@@ -4,18 +4,27 @@
   "club": "Poseidon",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T16:41:46.831Z",
+  "timestamp": "2026-06-08T03:07:42.232Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "35,89",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "129",
+          "RA": "718",
+          "pid": "3961433"
+        },
+        {
           "Tid": "36,27",
           "Dato": "07.02.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "175",
-          "RA": "987",
+          "RK": "176",
+          "RA": "1006",
           "pid": "3872963"
         },
         {
@@ -78,12 +87,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "39,23",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "87",
+          "RA": "497",
+          "pid": "3960920"
+        },
+        {
           "Tid": "41,00",
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "148",
-          "RA": "769",
+          "RA": "778",
           "pid": "3894259"
         },
         {
@@ -146,6 +164,15 @@
           "pid": "3894315"
         },
         {
+          "Tid": "45,97",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "105",
+          "RA": "519",
+          "pid": "3961056"
+        },
+        {
           "Tid": "48,15",
           "Dato": "20.09.2025",
           "Sted": "Horten",
@@ -194,12 +221,30 @@
           "RK": "",
           "RA": "",
           "pid": "3802572"
+        },
+        {
+          "Tid": "1.05,87",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "152",
+          "RA": "782",
+          "pid": "3961224"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.21,39",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "114",
+          "RA": "614",
+          "pid": "3962172"
+        },
         {
           "Tid": "1.23,31",
           "Dato": "07.09.2025",
@@ -223,8 +268,8 @@
           "Dato": "07.02.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "202",
-          "RA": "1096",
+          "RK": "204",
+          "RA": "1108",
           "pid": "3873245"
         },
         {
@@ -266,6 +311,29 @@
       ]
     },
     {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.32,20",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "36",
+          "RA": "183",
+          "pid": "3961616"
+        },
+        {
+          "Tid": "1.37,94",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "RK": "139",
+          "RA": "599",
+          "pid": "3894599"
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -273,8 +341,8 @@
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "90",
+          "RA": "410",
           "pid": "3894656"
         },
         {
@@ -298,20 +366,6 @@
       ]
     },
     {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "1.37,94",
-          "Dato": "15.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "RK": "139",
-          "RA": "599",
-          "pid": "3894599"
-        }
-      ]
-    },
-    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -319,8 +373,8 @@
           "Dato": "15.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "127",
+          "RA": "686",
           "pid": "3894940"
         },
         {
@@ -342,8 +396,8 @@
           "Dato": "07.02.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "223",
+          "RA": "1246",
           "pid": "3873170"
         }
       ]
@@ -352,12 +406,21 @@
       "distanse": "200m Fri",
       "races": [
         {
+          "Tid": "3.07,01",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "100",
+          "RA": "469",
+          "pid": "3962770"
+        },
+        {
           "Tid": "3.08,17",
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "181",
-          "RA": "904",
+          "RA": "910",
           "pid": "3895329"
         },
         {
