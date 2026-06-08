@@ -4,7 +4,7 @@
   "club": "Kolbotn IL",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T14:22:29.745Z",
+  "timestamp": "2026-06-08T00:46:47.735Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -49,6 +49,15 @@
           "RK": "",
           "RA": "",
           "pid": "3736455"
+        },
+        {
+          "Tid": "53,64",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "59",
+          "RA": "739",
+          "pid": "3960946"
         },
         {
           "Tid": "54,33",
@@ -198,6 +207,38 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,10",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "68",
+          "RA": "780",
+          "pid": "3962212"
+        },
+        {
+          "Tid": "1.52,84",
+          "Dato": "12.05.2024",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3469573"
+        },
+        {
+          "Tid": "1.57,45",
+          "Dato": "02.06.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "1109",
+          "pid": "3476993"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -307,29 +348,6 @@
       ]
     },
     {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "1.52,84",
-          "Dato": "12.05.2024",
-          "Sted": "Nordbytun",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3469573"
-        },
-        {
-          "Tid": "1.57,45",
-          "Dato": "02.06.2024",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "1109",
-          "pid": "3476993"
-        }
-      ]
-    },
-    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -337,8 +355,8 @@
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "112",
-          "RA": "848",
+          "RK": "114",
+          "RA": "852",
           "pid": "3880583"
         },
         {
@@ -364,6 +382,15 @@
     {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "2.00,74",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "59",
+          "RA": "519",
+          "pid": "3961906"
+        },
         {
           "Tid": "2.07,58",
           "Dato": "01.03.2025",
