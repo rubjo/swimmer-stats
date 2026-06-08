@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T15:53:47.615Z",
+  "timestamp": "2026-06-08T02:19:09.002Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "105",
-          "RA": "634",
+          "RK": "110",
+          "RA": "653",
           "pid": "3880410"
         },
         {
@@ -23,8 +23,8 @@
           "Dato": "21.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "95",
-          "RA": "549",
+          "RK": "108",
+          "RA": "593",
           "pid": "3903393"
         },
         {
@@ -156,6 +156,92 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "37,71",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "58",
+          "RA": "317",
+          "pid": "3959519"
+        },
+        {
+          "Tid": "39,44",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3846684"
+        },
+        {
+          "Tid": "42,61",
+          "Dato": "24.11.2024",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "RK": "94",
+          "RA": "875",
+          "pid": "3582842"
+        },
+        {
+          "Tid": "42,71",
+          "Dato": "03.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3689596"
+        },
+        {
+          "Tid": "43,02",
+          "Dato": "28.06.2025",
+          "Sted": "Stockholm",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3730145"
+        },
+        {
+          "Tid": "45,44",
+          "Dato": "06.04.2024",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3438929"
+        },
+        {
+          "Tid": "46,86",
+          "Dato": "13.01.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3375401"
+        },
+        {
+          "Tid": "47,22",
+          "Dato": "13.01.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3375402"
+        },
+        {
+          "Tid": "1.04,68",
+          "Dato": "23.10.2021",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "2912643"
+        }
+      ]
+    },
+    {
       "distanse": "50m Butterfly",
       "races": [
         {
@@ -163,8 +249,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "78",
-          "RA": "439",
+          "RK": "83",
+          "RA": "478",
           "pid": "3941851"
         },
         {
@@ -269,83 +355,6 @@
       ]
     },
     {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "39,44",
-          "Dato": "18.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3846684"
-        },
-        {
-          "Tid": "42,61",
-          "Dato": "24.11.2024",
-          "Sted": "Sandefjord",
-          "Basseng": "25m",
-          "RK": "94",
-          "RA": "875",
-          "pid": "3582842"
-        },
-        {
-          "Tid": "42,71",
-          "Dato": "03.05.2025",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3689596"
-        },
-        {
-          "Tid": "43,02",
-          "Dato": "28.06.2025",
-          "Sted": "Stockholm",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3730145"
-        },
-        {
-          "Tid": "45,44",
-          "Dato": "06.04.2024",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3438929"
-        },
-        {
-          "Tid": "46,86",
-          "Dato": "13.01.2024",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3375401"
-        },
-        {
-          "Tid": "47,22",
-          "Dato": "13.01.2024",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3375402"
-        },
-        {
-          "Tid": "1.04,68",
-          "Dato": "23.10.2021",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "2912643"
-        }
-      ]
-    },
-    {
       "distanse": "50m Bryst",
       "races": [
         {
@@ -353,8 +362,8 @@
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "56",
-          "RA": "298",
+          "RK": "60",
+          "RA": "318",
           "pid": "3903074"
         },
         {
@@ -416,6 +425,15 @@
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.11,25",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "66",
+          "RA": "415",
+          "pid": "3960302"
+        },
         {
           "Tid": "1.13,76",
           "Dato": "06.12.2025",
@@ -597,8 +615,8 @@
           "Dato": "01.02.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "50",
+          "RA": "224",
           "pid": "3861749"
         },
         {
@@ -886,8 +904,8 @@
           "Dato": "28.02.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "80",
+          "RA": "387",
           "pid": "3880674"
         },
         {
@@ -1116,8 +1134,8 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "129",
-          "RA": "557",
+          "RK": "130",
+          "RA": "558",
           "pid": "3914237"
         },
         {
@@ -1256,8 +1274,8 @@
           "Dato": "21.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "46",
-          "RA": "266",
+          "RK": "50",
+          "RA": "283",
           "pid": "3905979"
         },
         {
@@ -1790,7 +1808,7 @@
           "Sted": "Drammen",
           "Basseng": "50m",
           "RK": "21",
-          "RA": "110",
+          "RA": "117",
           "pid": "3944847"
         },
         {
@@ -1929,8 +1947,8 @@
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "",
+          "RK": "11",
+          "RA": "62",
           "pid": "3945299"
         },
         {
