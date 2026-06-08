@@ -4,7 +4,7 @@
   "club": "Gjelleråsen IF",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T13:53:14.904Z",
+  "timestamp": "2026-06-08T00:16:47.406Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "160",
-          "RA": "946",
+          "RK": "163",
+          "RA": "966",
           "pid": "3950854"
         },
         {
@@ -46,8 +46,8 @@
           "Dato": "31.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "60",
-          "RA": "343",
+          "RK": "63",
+          "RA": "357",
           "pid": "3950702"
         },
         {
@@ -168,8 +168,8 @@
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "123",
+          "RA": "609",
           "pid": "3950586"
         },
         {
@@ -191,8 +191,8 @@
           "Dato": "31.01.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "172",
-          "RA": "932",
+          "RK": "173",
+          "RA": "942",
           "pid": "3860159"
         },
         {
@@ -223,9 +223,23 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "104",
+          "RA": "523",
           "pid": "3936684"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.33,46",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "91",
+          "RA": "412",
+          "pid": "3959951"
         }
       ]
     },
@@ -253,40 +267,17 @@
       ]
     },
     {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "1.41,30",
-          "Dato": "14.03.2026",
-          "Sted": "Hagan",
-          "Basseng": "25m",
-          "RK": "157",
-          "RA": "651",
-          "pid": "3893230"
-        },
-        {
-          "Tid": "1.44,15",
-          "Dato": "14.12.2025",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3840228"
-        },
-        {
-          "Tid": "1.52,41",
-          "Dato": "18.10.2025",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3788464"
-        }
-      ]
-    },
-    {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.36,03",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "94",
+          "RA": "462",
+          "pid": "3960109"
+        },
         {
           "Tid": "1.42,30",
           "Dato": "01.06.2025",
@@ -331,6 +322,52 @@
           "RK": "",
           "RA": "",
           "pid": "3376546"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.41,30",
+          "Dato": "14.03.2026",
+          "Sted": "Hagan",
+          "Basseng": "25m",
+          "RK": "157",
+          "RA": "653",
+          "pid": "3893230"
+        },
+        {
+          "Tid": "1.44,15",
+          "Dato": "14.12.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3840228"
+        },
+        {
+          "Tid": "1.52,41",
+          "Dato": "18.10.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3788464"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.53,58",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "141",
+          "RA": "687",
+          "pid": "3960771"
         }
       ]
     },
