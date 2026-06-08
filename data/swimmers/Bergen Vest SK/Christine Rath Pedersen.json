@@ -4,18 +4,27 @@
   "club": "Bergen Vest SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T15:41:27.395Z",
+  "timestamp": "2026-06-08T02:06:20.866Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "37,29",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "90",
+          "RA": "1102",
+          "pid": "3963958"
+        },
+        {
           "Tid": "38,39",
           "Dato": "01.02.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
-          "RK": "109",
-          "RA": "1193",
+          "RK": "",
+          "RA": "",
           "pid": "3862727"
         },
         {
@@ -51,6 +60,15 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "46,23",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "83",
+          "RA": "706",
+          "pid": "3963693"
+        },
+        {
           "Tid": "51,53",
           "Dato": "28.09.2025",
           "Sted": "Bergen",
@@ -62,8 +80,49 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "46,53",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "95",
+          "RA": "1033",
+          "pid": "3963577"
+        },
+        {
+          "Tid": "59,93",
+          "Dato": "14.03.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3653003"
+        },
+        {
+          "Tid": "1.08,42",
+          "Dato": "16.02.2025",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3640160"
+        }
+      ]
+    },
+    {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "50,99",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "122",
+          "RA": "1079",
+          "pid": "3963820"
+        },
         {
           "Tid": "53,44",
           "Dato": "16.11.2025",
@@ -103,31 +162,17 @@
       ]
     },
     {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "59,93",
-          "Dato": "14.03.2025",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3653003"
-        },
-        {
-          "Tid": "1.08,42",
-          "Dato": "16.02.2025",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3640160"
-        }
-      ]
-    },
-    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.29,46",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "129",
+          "RA": "1154",
+          "pid": "3964420"
+        },
         {
           "Tid": "1.46,54",
           "Dato": "28.09.2025",
@@ -140,8 +185,49 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.39,14",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "76",
+          "RA": "665",
+          "pid": "3964515"
+        },
+        {
+          "Tid": "1.58,59",
+          "Dato": "16.03.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3653735"
+        },
+        {
+          "Tid": "2.07,21",
+          "Dato": "01.02.2025",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3623823"
+        }
+      ]
+    },
+    {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.50,58",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "115",
+          "RA": "939",
+          "pid": "3964232"
+        },
         {
           "Tid": "1.51,46",
           "Dato": "15.03.2026",
@@ -179,8 +265,8 @@
           "Dato": "10.04.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
-          "RK": "107",
-          "RA": "837",
+          "RK": "109",
+          "RA": "841",
           "pid": "3911797"
         },
         {
@@ -227,25 +313,34 @@
       ]
     },
     {
-      "distanse": "100m Individuell medley",
+      "distanse": "200m Fri",
       "races": [
         {
-          "Tid": "1.58,59",
-          "Dato": "16.03.2025",
+          "Tid": "3.18,37",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3964702"
+        },
+        {
+          "Tid": "3.54,23",
+          "Dato": "15.03.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "",
           "RA": "",
-          "pid": "3653735"
+          "pid": "3654926"
         },
         {
-          "Tid": "2.07,21",
-          "Dato": "01.02.2025",
-          "Sted": "Stemmemyren",
+          "Tid": "4.09,47",
+          "Dato": "15.02.2025",
+          "Sted": "Slåtthaug",
           "Basseng": "25m",
           "RK": "",
           "RA": "",
-          "pid": "3623823"
+          "pid": "3641096"
         }
       ]
     },
@@ -342,29 +437,6 @@
           "RK": "",
           "RA": "",
           "pid": "3726956"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "3.54,23",
-          "Dato": "15.03.2025",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3654926"
-        },
-        {
-          "Tid": "4.09,47",
-          "Dato": "15.02.2025",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3641096"
         }
       ]
     },

@@ -4,7 +4,7 @@
   "club": "Jotun IL",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T15:39:52.514Z",
+  "timestamp": "2026-06-08T02:04:41.710Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "15.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "219",
-          "RA": "1879",
+          "RK": "",
+          "RA": "",
           "pid": "3890417"
         },
         {
@@ -46,9 +46,51 @@
           "Dato": "28.02.2026",
           "Sted": "Øvre Årdal",
           "Basseng": "25m",
-          "RK": "180",
-          "RA": "1530",
+          "RK": "",
+          "RA": "",
           "pid": "3882852"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.10,93",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "135",
+          "RA": "1057",
+          "pid": "3963660"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.08,21",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "192",
+          "RA": "1622",
+          "pid": "3964384"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,86",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "146",
+          "RA": "1287",
+          "pid": "3964191"
         }
       ]
     }
