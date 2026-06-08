@@ -4,7 +4,7 @@
   "club": "Nedre Eiker SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T21:39:14.382Z",
+  "timestamp": "2026-06-08T06:42:38.294Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "21",
-          "RA": "600",
+          "RK": "25",
+          "RA": "650",
           "pid": "3942715"
+        },
+        {
+          "Tid": "35,70",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956589"
         },
         {
           "Tid": "37,51",
@@ -64,8 +73,8 @@
           "Dato": "21.03.2026",
           "Sted": "Geithus",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "15",
+          "RA": "395",
           "pid": "3897502"
         },
         {
@@ -73,9 +82,18 @@
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "12",
-          "RA": "348",
+          "RK": "13",
+          "RA": "368",
           "pid": "3942129"
+        },
+        {
+          "Tid": "40,76",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956252"
         },
         {
           "Tid": "44,04",
@@ -107,40 +125,17 @@
       ]
     },
     {
-      "distanse": "50m Bryst",
-      "races": [
-        {
-          "Tid": "47,23",
-          "Dato": "21.03.2026",
-          "Sted": "Geithus",
-          "Basseng": "25m",
-          "RK": "63",
-          "RA": "791",
-          "pid": "3897569"
-        },
-        {
-          "Tid": "50,79",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "RK": "38",
-          "RA": "496",
-          "pid": "3858350"
-        },
-        {
-          "Tid": "58,24",
-          "Dato": "02.05.2025",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "",
-          "pid": "3689969"
-        }
-      ]
-    },
-    {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "47,12",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "44",
+          "RA": "667",
+          "pid": "3956115"
+        },
         {
           "Tid": "50,24",
           "Dato": "12.10.2025",
@@ -162,6 +157,38 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,23",
+          "Dato": "21.03.2026",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "RK": "66",
+          "RA": "805",
+          "pid": "3897569"
+        },
+        {
+          "Tid": "50,79",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "44",
+          "RA": "563",
+          "pid": "3858350"
+        },
+        {
+          "Tid": "58,24",
+          "Dato": "02.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3689969"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
@@ -169,8 +196,8 @@
           "Dato": "15.02.2026",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
-          "RK": "47",
-          "RA": "754",
+          "RK": "50",
+          "RA": "764",
           "pid": "3874106"
         },
         {
@@ -178,8 +205,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "22",
-          "RA": "530",
+          "RK": "28",
+          "RA": "583",
           "pid": "3858437"
         },
         {
@@ -210,8 +237,8 @@
           "Dato": "21.03.2026",
           "Sted": "Geithus",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "71",
+          "RA": "749",
           "pid": "3897820"
         },
         {
@@ -228,8 +255,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "32",
-          "RA": "402",
+          "RK": "47",
+          "RA": "464",
           "pid": "3858409"
         },
         {
@@ -306,8 +333,8 @@
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "145",
-          "RA": "926",
+          "RK": "146",
+          "RA": "932",
           "pid": "3869179"
         }
       ]
