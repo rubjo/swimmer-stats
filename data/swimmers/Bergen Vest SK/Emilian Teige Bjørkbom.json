@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-06T17:09:17.088Z",
+  "timestamp": "2026-06-08T05:53:42.480Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -74,7 +74,7 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "17",
-          "RA": "1023",
+          "RA": "1035",
           "pid": "3911448"
         },
         {
@@ -159,6 +159,15 @@
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "47,68",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "12",
+          "RA": "893",
+          "pid": "3963728"
+        },
         {
           "Tid": "51,62",
           "Dato": "01.06.2025",
@@ -252,6 +261,47 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,19",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "29",
+          "RA": "1173",
+          "pid": "3964309"
+        },
+        {
+          "Tid": "1.44,44",
+          "Dato": "13.06.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "953",
+          "pid": "3725731"
+        },
+        {
+          "Tid": "1.47,53",
+          "Dato": "02.02.2025",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3623587"
+        },
+        {
+          "Tid": "1.53,42",
+          "Dato": "19.10.2024",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1716",
+          "pid": "3549063"
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -260,7 +310,7 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "16",
-          "RA": "356",
+          "RA": "371",
           "pid": "3911864"
         },
         {
@@ -287,12 +337,21 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
+          "Tid": "1.35,46",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "22",
+          "RA": "561",
+          "pid": "3964465"
+        },
+        {
           "Tid": "1.35,60",
           "Dato": "12.04.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
-          "RK": "22",
-          "RA": "533",
+          "RK": "",
+          "RA": "",
           "pid": "3911941"
         },
         {
@@ -352,38 +411,6 @@
       ]
     },
     {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "1.44,44",
-          "Dato": "13.06.2025",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "RK": "",
-          "RA": "953",
-          "pid": "3725731"
-        },
-        {
-          "Tid": "1.47,53",
-          "Dato": "02.02.2025",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3623587"
-        },
-        {
-          "Tid": "1.53,42",
-          "Dato": "19.10.2024",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "1716",
-          "pid": "3549063"
-        }
-      ]
-    },
-    {
       "distanse": "100m Bryst",
       "races": [
         {
@@ -392,7 +419,7 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "17",
-          "RA": "754",
+          "RA": "760",
           "pid": "3911891"
         },
         {
@@ -452,6 +479,20 @@
       ]
     },
     {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.45,77",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3963994"
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
         {
@@ -460,7 +501,7 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "RK": "31",
-          "RA": "899",
+          "RA": "914",
           "pid": "3912754"
         },
         {

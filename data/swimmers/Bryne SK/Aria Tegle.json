@@ -4,7 +4,7 @@
   "club": "Bryne SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T17:09:11.831Z",
+  "timestamp": "2026-06-08T05:53:35.630Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "10.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "46",
-          "RA": "1210",
+          "RK": "49",
+          "RA": "1228",
           "pid": "3946806"
         },
         {
@@ -101,7 +101,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "36",
-          "RA": "908",
+          "RA": "915",
           "pid": "3946317"
         },
         {
@@ -186,9 +186,18 @@
           "Dato": "09.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "9",
-          "RA": "799",
+          "RK": "10",
+          "RA": "813",
           "pid": "3946625"
+        },
+        {
+          "Tid": "48,43",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "7",
+          "RA": "487",
+          "pid": "3956433"
         },
         {
           "Tid": "51,08",
@@ -250,12 +259,21 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "49,25",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "23",
+          "RA": "564",
+          "pid": "3956287"
+        },
+        {
           "Tid": "49,29",
           "Dato": "25.04.2026",
           "Sted": "Sandnes",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "64",
+          "RA": "806",
           "pid": "3933356"
         },
         {
@@ -363,8 +381,8 @@
           "Dato": "09.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "33",
+          "RA": "579",
           "pid": "3947714"
         },
         {
@@ -424,6 +442,38 @@
       ]
     },
     {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.36,70",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "3",
+          "RA": "203",
+          "pid": "3956862"
+        },
+        {
+          "Tid": "1.41,20",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956860"
+        },
+        {
+          "Tid": "2.11,42",
+          "Dato": "27.04.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3683541"
+        }
+      ]
+    },
+    {
       "distanse": "100m Bryst",
       "races": [
         {
@@ -431,8 +481,8 @@
           "Dato": "10.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "13",
+          "RA": "682",
           "pid": "3947216"
         },
         {
@@ -517,8 +567,8 @@
           "Dato": "12.04.2026",
           "Sted": "Karmøy",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "113",
+          "RA": "673",
           "pid": "3919967"
         },
         {
@@ -533,20 +583,6 @@
       ]
     },
     {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "2.11,42",
-          "Dato": "27.04.2025",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3683541"
-        }
-      ]
-    },
-    {
       "distanse": "200m Fri",
       "races": [
         {
@@ -554,8 +590,8 @@
           "Dato": "11.04.2026",
           "Sted": "Karmøy",
           "Basseng": "25m",
-          "RK": "30",
-          "RA": "842",
+          "RK": "31",
+          "RA": "850",
           "pid": "3920722"
         },
         {
@@ -582,6 +618,15 @@
       "distanse": "200m Individuell medley",
       "races": [
         {
+          "Tid": "3.28,16",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "9",
+          "RA": "285",
+          "pid": "3958658"
+        },
+        {
           "Tid": "4.14,65",
           "Dato": "09.02.2025",
           "Sted": "Stavanger",
@@ -589,6 +634,34 @@
           "RK": "",
           "RA": "",
           "pid": "3630711"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.44,20",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "2",
+          "RA": "182",
+          "pid": "3958036"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.17,53",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "4",
+          "RA": "238",
+          "pid": "3958967"
         }
       ]
     }
