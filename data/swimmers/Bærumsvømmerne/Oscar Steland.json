@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-06T16:47:21.713Z",
+  "timestamp": "2026-06-08T03:13:28.248Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -30,6 +30,20 @@
       ]
     },
     {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,85",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "63",
+          "RA": "1209",
+          "pid": "3959577"
+        }
+      ]
+    },
+    {
       "distanse": "50m Rygg",
       "races": [
         {
@@ -37,29 +51,24 @@
           "Dato": "07.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "55",
-          "RA": "842",
+          "RK": "58",
+          "RA": "874",
           "pid": "3955800"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "2.09,24",
-          "Dato": "30.03.2025",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "1788",
-          "pid": "3667395"
         }
       ]
     },
     {
       "distanse": "100m Individuell medley",
       "races": [
+        {
+          "Tid": "2.07,97",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "88",
+          "RA": "772",
+          "pid": "3960454"
+        },
         {
           "Tid": "2.09,76",
           "Dato": "26.10.2025",
@@ -74,9 +83,23 @@
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "86",
-          "RA": "738",
+          "RK": "",
+          "RA": "",
           "pid": "3955804"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.09,24",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1788",
+          "pid": "3667395"
         }
       ]
     },
@@ -97,8 +120,8 @@
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "81",
-          "RA": "1083",
+          "RK": "83",
+          "RA": "1093",
           "pid": "3955802"
         },
         {
@@ -129,8 +152,8 @@
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "76",
-          "RA": "569",
+          "RK": "77",
+          "RA": "594",
           "pid": "3955801"
         },
         {
