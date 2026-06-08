@@ -4,11 +4,20 @@
   "club": "Austrheim SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-06T23:53:30.027Z",
+  "timestamp": "2026-06-08T01:04:37.894Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "41,02",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "235",
+          "RA": "1390",
+          "pid": "3963975"
+        },
         {
           "Tid": "46,30",
           "Dato": "22.10.2023",
@@ -24,6 +33,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "52,15",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "217",
+          "RA": "1151",
+          "pid": "3963834"
+        },
+        {
           "Tid": "1.07,33",
           "Dato": "22.10.2023",
           "Sted": "Åstveit",
@@ -35,6 +53,62 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,26",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "156",
+          "RA": "899",
+          "pid": "3963701"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,04",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "218",
+          "RA": "1196",
+          "pid": "3964430"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.49,83",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "138",
+          "RA": "833",
+          "pid": "3964527"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,56",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "202",
+          "RA": "1043",
+          "pid": "3964268"
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -42,13 +116,9 @@
           "Dato": "30.05.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3951797",
-          "splits": [
-            "",
-            ""
-          ]
+          "RK": "117",
+          "RA": "729",
+          "pid": "3951797"
         }
       ]
     },
@@ -62,13 +132,7 @@
           "Basseng": "25m",
           "RK": "202",
           "RA": "952",
-          "pid": "3952455",
-          "splits": [
-            "57,71",
-            "1.07,99",
-            "1.11,18",
-            "1.08,16"
-          ]
+          "pid": "3952455"
         }
       ]
     }
