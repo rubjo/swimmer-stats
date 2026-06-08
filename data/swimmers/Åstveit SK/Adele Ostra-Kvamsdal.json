@@ -4,11 +4,20 @@
   "club": "Åstveit SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T15:37:35.832Z",
+  "timestamp": "2026-06-08T02:02:43.725Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "38,79",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "51",
+          "RA": "1234",
+          "pid": "3963916"
+        },
         {
           "Tid": "43,03",
           "Dato": "16.11.2025",
@@ -42,6 +51,15 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "50,64",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "75",
+          "RA": "854",
+          "pid": "3963653"
+        },
+        {
           "Tid": "51,51",
           "Dato": "15.11.2025",
           "Sted": "Åstveit",
@@ -56,6 +74,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "52,54",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "67",
+          "RA": "1179",
+          "pid": "3963779"
+        },
+        {
           "Tid": "56,27",
           "Dato": "16.11.2025",
           "Sted": "Åstveit",
@@ -69,6 +96,15 @@
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.26,14",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "38",
+          "RA": "1049",
+          "pid": "3964363"
+        },
         {
           "Tid": "1.31,42",
           "Dato": "15.11.2025",
@@ -95,6 +131,20 @@
           "RK": "",
           "RA": "",
           "pid": "3703544"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.44,31",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "85",
+          "RA": "750",
+          "pid": "3964488"
         }
       ]
     }
