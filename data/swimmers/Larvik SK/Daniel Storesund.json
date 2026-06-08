@@ -4,34 +4,20 @@
   "club": "Larvik SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-06T16:50:44.100Z",
+  "timestamp": "2026-06-08T03:16:54.278Z",
   "disciplines": [
-    {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "36,32",
-          "Dato": "30.05.2026",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "RK": "126",
-          "RA": "751",
-          "pid": "3950416"
-        },
-        {
-          "Tid": "50,39",
-          "Dato": "25.10.2020",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "1074",
-          "pid": "2794658"
-        }
-      ]
-    },
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "28,98",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "57",
+          "RA": "417",
+          "pid": "3956495"
+        },
         {
           "Tid": "39,61",
           "Dato": "10.10.2020",
@@ -62,15 +48,56 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "33,15",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "65",
+          "RA": "450",
+          "pid": "3956049"
+        },
+        {
+          "Tid": "36,32",
+          "Dato": "30.05.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "RK": "126",
+          "RA": "760",
+          "pid": "3950416"
+        },
+        {
+          "Tid": "50,39",
+          "Dato": "25.10.2020",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1074",
+          "pid": "2794658"
+        }
+      ]
+    },
+    {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "42,74",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "74",
+          "RA": "381",
+          "pid": "3956331"
+        },
         {
           "Tid": "44,38",
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "142",
-          "RA": "744",
+          "RK": "143",
+          "RA": "755",
           "pid": "3950608"
         },
         {
@@ -106,12 +133,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.05,92",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "67",
+          "RA": "411",
+          "pid": "3957432"
+        },
+        {
           "Tid": "1.08,34",
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "115",
+          "RA": "641",
           "pid": "3951021"
         }
       ]
