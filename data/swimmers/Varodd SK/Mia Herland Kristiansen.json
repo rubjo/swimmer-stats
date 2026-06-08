@@ -4,7 +4,7 @@
   "club": "Varodd SK",
   "birthYear": 2010,
   "gender": "female",
-  "timestamp": "2026-06-06T14:10:31.872Z",
+  "timestamp": "2026-06-08T00:34:24.286Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Vennesla",
           "Basseng": "25m",
           "RK": "31",
-          "RA": "144",
+          "RA": "150",
           "pid": "3927721"
         },
         {
@@ -26,6 +26,15 @@
           "RK": "",
           "RA": "",
           "pid": "3896228"
+        },
+        {
+          "Tid": "29,53",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "31",
+          "RA": "159",
+          "pid": "3956566"
         },
         {
           "Tid": "29,68",
@@ -131,8 +140,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "61",
-          "RA": "272",
+          "RK": "",
+          "RA": "",
           "pid": "3849980"
         },
         {
@@ -352,8 +361,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "35",
-          "RA": "151",
+          "RK": "38",
+          "RA": "163",
           "pid": "3848918"
         },
         {
@@ -578,12 +587,21 @@
           "pid": "3455979"
         },
         {
+          "Tid": "34,75",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956235"
+        },
+        {
           "Tid": "34,90",
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "28",
-          "RA": "122",
+          "RK": "",
+          "RA": "",
           "pid": "3849235"
         },
         {
@@ -1033,8 +1051,8 @@
           "Dato": "18.04.2026",
           "Sted": "Vennesla",
           "Basseng": "25m",
-          "RK": "22",
-          "RA": "126",
+          "RK": "27",
+          "RA": "141",
           "pid": "3927894"
         },
         {
@@ -1051,8 +1069,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "34",
-          "RA": "162",
+          "RK": "35",
+          "RA": "168",
           "pid": "3851509"
         },
         {
@@ -1209,8 +1227,8 @@
           "Dato": "15.03.2026",
           "Sted": "Lillesand",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "14",
+          "RA": "81",
           "pid": "3896505"
         },
         {
@@ -1324,94 +1342,26 @@
       ]
     },
     {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "1.15,03",
-          "Dato": "11.04.2026",
-          "Sted": "Horten",
-          "Basseng": "25m",
-          "RK": "37",
-          "RA": "139",
-          "pid": "3921952"
-        },
-        {
-          "Tid": "1.15,32",
-          "Dato": "08.02.2026",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3865193"
-        },
-        {
-          "Tid": "1.16,38",
-          "Dato": "15.03.2025",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3650647"
-        },
-        {
-          "Tid": "1.17,86",
-          "Dato": "23.11.2025",
-          "Sted": "Flekkefjord",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3823420"
-        },
-        {
-          "Tid": "1.24,21",
-          "Dato": "16.03.2024",
-          "Sted": "Sandefjord",
-          "Basseng": "25m",
-          "RK": "79",
-          "RA": "396",
-          "pid": "3431181"
-        },
-        {
-          "Tid": "1.29,80",
-          "Dato": "29.09.2023",
-          "Sted": "Thisted",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3311372"
-        },
-        {
-          "Tid": "1.30,39",
-          "Dato": "17.09.2023",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3291842"
-        },
-        {
-          "Tid": "1.31,97",
-          "Dato": "14.10.2023",
-          "Sted": "Grimstad",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3319083"
-        },
-        {
-          "Tid": "1.35,28",
-          "Dato": "15.10.2022",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3100191"
-        }
-      ]
-    },
-    {
       "distanse": "100m Rygg",
       "races": [
+        {
+          "Tid": "1.14,07",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "16",
+          "RA": "69",
+          "pid": "3956961"
+        },
+        {
+          "Tid": "1.14,13",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3956962"
+        },
         {
           "Tid": "1.15,19",
           "Dato": "26.10.2024",
@@ -1519,6 +1469,92 @@
           "RK": "",
           "RA": "",
           "pid": "3100266"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.15,03",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "RK": "37",
+          "RA": "139",
+          "pid": "3921952"
+        },
+        {
+          "Tid": "1.15,32",
+          "Dato": "08.02.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3865193"
+        },
+        {
+          "Tid": "1.16,38",
+          "Dato": "15.03.2025",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3650647"
+        },
+        {
+          "Tid": "1.17,86",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3823420"
+        },
+        {
+          "Tid": "1.24,21",
+          "Dato": "16.03.2024",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "RK": "79",
+          "RA": "396",
+          "pid": "3431181"
+        },
+        {
+          "Tid": "1.29,80",
+          "Dato": "29.09.2023",
+          "Sted": "Thisted",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3311372"
+        },
+        {
+          "Tid": "1.30,39",
+          "Dato": "17.09.2023",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3291842"
+        },
+        {
+          "Tid": "1.31,97",
+          "Dato": "14.10.2023",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3319083"
+        },
+        {
+          "Tid": "1.35,28",
+          "Dato": "15.10.2022",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3100191"
         }
       ]
     },
