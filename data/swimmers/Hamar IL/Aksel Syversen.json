@@ -4,8 +4,22 @@
   "club": "Hamar IL",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-06T17:00:14.489Z",
+  "timestamp": "2026-06-08T05:43:47.308Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,36",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "14",
+          "RA": "857",
+          "pid": "3961322"
+        }
+      ]
+    },
     {
       "distanse": "50m Butterfly",
       "races": [
@@ -15,7 +29,7 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "32",
-          "RA": "1146",
+          "RA": "1156",
           "pid": "3914001"
         },
         {
@@ -23,9 +37,23 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "21",
-          "RA": "699",
+          "RK": "26",
+          "RA": "767",
           "pid": "3864551"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "48,91",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "14",
+          "RA": "426",
+          "pid": "3960998"
         }
       ]
     },
@@ -44,6 +72,29 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,29",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "21",
+          "RA": "778",
+          "pid": "3961982"
+        },
+        {
+          "Tid": "1.53,12",
+          "Dato": "29.11.2025",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1733",
+          "pid": "3825132"
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -51,8 +102,8 @@
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "58",
-          "RA": "492",
+          "RK": "59",
+          "RA": "512",
           "pid": "3914446"
         },
         {
@@ -67,20 +118,6 @@
       ]
     },
     {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "1.53,12",
-          "Dato": "29.11.2025",
-          "Sted": "Elverum",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "1733",
-          "pid": "3825132"
-        }
-      ]
-    },
-    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -89,7 +126,7 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "RK": "72",
-          "RA": "696",
+          "RA": "730",
           "pid": "3893412"
         }
       ]
@@ -102,8 +139,8 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "80",
-          "RA": "1082",
+          "RK": "82",
+          "RA": "1092",
           "pid": "3914475"
         },
         {
@@ -111,8 +148,8 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "31",
-          "RA": "440",
+          "RK": "38",
+          "RA": "506",
           "pid": "3864787"
         }
       ]
@@ -126,7 +163,7 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "58",
-          "RA": "1030",
+          "RA": "1045",
           "pid": "3915364"
         },
         {
@@ -143,8 +180,8 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "5",
-          "RA": "447",
+          "RK": "14",
+          "RA": "526",
           "pid": "3864996"
         }
       ]
