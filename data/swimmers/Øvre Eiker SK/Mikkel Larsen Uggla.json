@@ -4,7 +4,7 @@
   "club": "Øvre Eiker SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T21:11:51.759Z",
+  "timestamp": "2026-06-08T06:11:17.128Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "31.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "4",
-          "RA": "220",
+          "RK": "5",
+          "RA": "235",
           "pid": "3950775"
         },
         {
@@ -35,6 +35,15 @@
           "RK": "",
           "RA": "",
           "pid": "3897645"
+        },
+        {
+          "Tid": "27,70",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "7",
+          "RA": "305",
+          "pid": "3956551"
         },
         {
           "Tid": "27,72",
@@ -68,8 +77,8 @@
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "12",
-          "RA": "333",
+          "RK": "",
+          "RA": "",
           "pid": "3942675"
         },
         {
@@ -276,12 +285,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "32,62",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "32",
+          "RA": "424",
+          "pid": "3956095"
+        },
+        {
           "Tid": "33,12",
           "Dato": "15.02.2026",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
           "RK": "52",
-          "RA": "564",
+          "RA": "572",
           "pid": "3873866"
         },
         {
@@ -289,8 +307,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "38",
-          "RA": "421",
+          "RK": "",
+          "RA": "",
           "pid": "3941840"
         },
         {
@@ -341,83 +359,24 @@
       ]
     },
     {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "35,51",
-          "Dato": "15.02.2026",
-          "Sted": "Krokstadelva",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3873897"
-        },
-        {
-          "Tid": "36,01",
-          "Dato": "07.09.2025",
-          "Sted": "Hokksund",
-          "Basseng": "25m",
-          "RK": "42",
-          "RA": "575",
-          "pid": "3738867"
-        },
-        {
-          "Tid": "37,86",
-          "Dato": "01.05.2026",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "38",
-          "RA": "265",
-          "pid": "3942103"
-        },
-        {
-          "Tid": "38,99",
-          "Dato": "30.05.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "RK": "26",
-          "RA": "359",
-          "pid": "3704719"
-        },
-        {
-          "Tid": "48,16",
-          "Dato": "14.10.2023",
-          "Sted": "Kongsberg",
-          "Basseng": "25m",
-          "RK": "61",
-          "RA": "974",
-          "pid": "3314625"
-        },
-        {
-          "Tid": "49,79",
-          "Dato": "12.11.2023",
-          "Sted": "Gol",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3343914"
-        },
-        {
-          "Tid": "51,98",
-          "Dato": "13.05.2023",
-          "Sted": "Nordby",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3243559"
-        }
-      ]
-    },
-    {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "35,48",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "8",
+          "RA": "183",
+          "pid": "3956365"
+        },
         {
           "Tid": "35,69",
           "Dato": "21.03.2026",
           "Sted": "Geithus",
           "Basseng": "25m",
-          "RK": "17",
-          "RA": "280",
+          "RK": "18",
+          "RA": "289",
           "pid": "3897561"
         },
         {
@@ -425,8 +384,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "11",
-          "RA": "182",
+          "RK": "",
+          "RA": "",
           "pid": "3942364"
         },
         {
@@ -621,6 +580,74 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "35,51",
+          "Dato": "15.02.2026",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3873897"
+        },
+        {
+          "Tid": "36,01",
+          "Dato": "07.09.2025",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "RK": "42",
+          "RA": "575",
+          "pid": "3738867"
+        },
+        {
+          "Tid": "37,86",
+          "Dato": "01.05.2026",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "RK": "41",
+          "RA": "286",
+          "pid": "3942103"
+        },
+        {
+          "Tid": "38,99",
+          "Dato": "30.05.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "26",
+          "RA": "359",
+          "pid": "3704719"
+        },
+        {
+          "Tid": "48,16",
+          "Dato": "14.10.2023",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "RK": "61",
+          "RA": "974",
+          "pid": "3314625"
+        },
+        {
+          "Tid": "49,79",
+          "Dato": "12.11.2023",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3343914"
+        },
+        {
+          "Tid": "51,98",
+          "Dato": "13.05.2023",
+          "Sted": "Nordby",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3243559"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
@@ -628,8 +655,8 @@
           "Dato": "31.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "10",
+          "RA": "297",
           "pid": "3951105"
         },
         {
@@ -640,6 +667,15 @@
           "RK": "",
           "RA": "",
           "pid": "3951093"
+        },
+        {
+          "Tid": "1.03,21",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "16",
+          "RA": "335",
+          "pid": "3957571"
         },
         {
           "Tid": "1.05,30",
@@ -809,9 +845,18 @@
           "Dato": "21.03.2026",
           "Sted": "Geithus",
           "Basseng": "25m",
-          "RK": "23",
-          "RA": "271",
+          "RK": "24",
+          "RA": "275",
           "pid": "3897754"
+        },
+        {
+          "Tid": "1.22,88",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "12",
+          "RA": "185",
+          "pid": "3957174"
         },
         {
           "Tid": "1.26,52",
@@ -869,7 +914,7 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "RK": "81",
-          "RA": "501",
+          "RA": "503",
           "pid": "3921727"
         },
         {
@@ -904,6 +949,15 @@
     {
       "distanse": "100m Rygg",
       "races": [
+        {
+          "Tid": "1.21,85",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "32",
+          "RA": "215",
+          "pid": "3956951"
+        },
         {
           "Tid": "1.27,26",
           "Dato": "03.05.2025",

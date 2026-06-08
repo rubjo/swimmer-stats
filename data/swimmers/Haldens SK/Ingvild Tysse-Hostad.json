@@ -4,18 +4,27 @@
   "club": "Haldens SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-06T21:10:05.924Z",
+  "timestamp": "2026-06-08T06:09:18.792Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "42,87",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "86",
+          "RA": "948",
+          "pid": "3961499"
+        },
+        {
           "Tid": "42,97",
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "188",
-          "RA": "1498",
+          "RK": "190",
+          "RA": "1513",
           "pid": "3884345"
         }
       ]
@@ -28,9 +37,37 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "93",
-          "RA": "941",
+          "RK": "99",
+          "RA": "956",
           "pid": "3884296"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,85",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "71",
+          "RA": "605",
+          "pid": "3961102"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.58,00",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "20",
+          "RA": "230",
+          "pid": "3962535"
         }
       ]
     }

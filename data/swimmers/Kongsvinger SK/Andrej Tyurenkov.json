@@ -4,11 +4,20 @@
   "club": "Kongsvinger SK",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-06-06T21:10:21.798Z",
+  "timestamp": "2026-06-08T06:09:36.632Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "32,84",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "124",
+          "RA": "677",
+          "pid": "3961344"
+        },
         {
           "Tid": "34,43",
           "Dato": "13.06.2025",
@@ -42,6 +51,15 @@
           "pid": "3784339"
         },
         {
+          "Tid": "39,75",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "65",
+          "RA": "311",
+          "pid": "3961157"
+        },
+        {
           "Tid": "42,83",
           "Dato": "14.06.2025",
           "Sted": "Hamar",
@@ -67,6 +85,20 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "42,29",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "65",
+          "RA": "361",
+          "pid": "3961012"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
@@ -83,6 +115,15 @@
     {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.28,69",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "49",
+          "RA": "240",
+          "pid": "3961787"
+        },
         {
           "Tid": "1.29,77",
           "Dato": "14.09.2025",
@@ -109,6 +150,20 @@
           "RK": "77",
           "RA": "332",
           "pid": "3729042"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.41,01",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "54",
+          "RA": "331",
+          "pid": "3961677"
         }
       ]
     },
