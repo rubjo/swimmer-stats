@@ -4,18 +4,27 @@
   "club": "Eidsvoll SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T16:12:43.355Z",
+  "timestamp": "2026-06-08T02:38:18.217Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "34,22",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "111",
+          "RA": "731",
+          "pid": "3961284"
+        },
+        {
           "Tid": "35,57",
           "Dato": "01.02.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "173",
-          "RA": "1114",
+          "RK": "174",
+          "RA": "1132",
           "pid": "3861551"
         }
       ]
@@ -24,13 +33,36 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "41,05",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "100",
+          "RA": "644",
+          "pid": "3960812"
+        },
+        {
           "Tid": "43,64",
           "Dato": "31.01.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "170",
-          "RA": "1026",
+          "RK": "171",
+          "RA": "1039",
           "pid": "3861418"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,68",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "90",
+          "RA": "614",
+          "pid": "3961953"
         }
       ]
     },
@@ -42,9 +74,23 @@
           "Dato": "01.02.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "104",
-          "RA": "560",
+          "RK": "109",
+          "RA": "592",
           "pid": "3861835"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.54,74",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "66",
+          "RA": "421",
+          "pid": "3962590"
         }
       ]
     }
