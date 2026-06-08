@@ -4,18 +4,27 @@
   "club": "Vågsbygd SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-06T13:41:32.802Z",
+  "timestamp": "2026-06-08T00:04:08.706Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "41,09",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "28",
+          "RA": "903",
+          "pid": "3956561"
+        },
+        {
           "Tid": "42,62",
           "Dato": "08.02.2026",
           "Sted": "Mandal",
           "Basseng": "25m",
-          "RK": "102",
-          "RA": "1479",
+          "RK": "108",
+          "RA": "1498",
           "pid": "3865161"
         },
         {
@@ -65,12 +74,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "56,04",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "44",
+          "RA": "694",
+          "pid": "3956368"
+        },
+        {
           "Tid": "57,67",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "38",
-          "RA": "617",
+          "RK": "",
+          "RA": "",
           "pid": "3849559"
         },
         {
@@ -106,12 +124,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.36,09",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "31",
+          "RA": "801",
+          "pid": "3957584"
+        },
+        {
           "Tid": "1.36,93",
           "Dato": "08.02.2026",
           "Sted": "Mandal",
           "Basseng": "25m",
-          "RK": "94",
-          "RA": "1326",
+          "RK": "99",
+          "RA": "1342",
           "pid": "3865253"
         },
         {
@@ -119,8 +146,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "30",
-          "RA": "734",
+          "RK": "",
+          "RA": "",
           "pid": "3851476"
         },
         {
@@ -142,8 +169,8 @@
           "Dato": "12.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "74",
+          "RA": "721",
           "pid": "3922287"
         },
         {
@@ -165,8 +192,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "12",
-          "RA": "354",
+          "RK": "17",
+          "RA": "415",
           "pid": "3850611"
         },
         {
@@ -188,9 +215,18 @@
           "Dato": "11.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "75",
+          "RA": "1059",
           "pid": "3922246"
+        },
+        {
+          "Tid": "2.02,42",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "37",
+          "RA": "529",
+          "pid": "3957184"
         },
         {
           "Tid": "2.03,27",
@@ -243,12 +279,21 @@
       "distanse": "200m Fri",
       "races": [
         {
+          "Tid": "3.31,07",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "21",
+          "RA": "536",
+          "pid": "3958309"
+        },
+        {
           "Tid": "3.32,33",
           "Dato": "11.04.2026",
           "Sted": "Horten",
           "Basseng": "25m",
           "RK": "100",
-          "RA": "1146",
+          "RA": "1153",
           "pid": "3923223"
         },
         {
@@ -259,6 +304,20 @@
           "RK": "",
           "RA": "",
           "pid": "3794035"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.50,05",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "17",
+          "RA": "335",
+          "pid": "3958591"
         }
       ]
     }
