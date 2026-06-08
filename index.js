@@ -126,7 +126,6 @@ async function runPass(mode) {
   let loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
   let processedInSession = 0;
   let totalRaces = 0;
-  let expansionsSinceReload = 0;
 
   /** Remember the name of the last swimmer that was saved successfully. */
   let lastSwimmerName = null;
@@ -149,7 +148,6 @@ async function runPass(mode) {
     console.log(color(C.dim, `    Reloading page to clear state...`));
     await navigateAndFilter(page, BASE_URL);
     loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
-    expansionsSinceReload = 0;
   }
 
   /**
@@ -820,15 +818,6 @@ async function runPass(mode) {
           `    ⚠ Page unresponsive after split extraction, reloading...`,
         ),
       );
-      await reloadPage();
-    }
-
-    // Reload page periodically to prevent state buildup (every 200 expansions)
-    const expandedCount = races.filter(
-      (r) => r.splits !== undefined && hasPotentialSplits(r.Distanse),
-    ).length;
-    expansionsSinceReload += expandedCount;
-    if (expansionsSinceReload >= 200) {
       await reloadPage();
     }
 
