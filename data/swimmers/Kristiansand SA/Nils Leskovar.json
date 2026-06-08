@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-06T14:29:48.902Z",
+  "timestamp": "2026-06-08T00:54:10.910Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "72",
-          "RA": "606",
+          "RK": "84",
+          "RA": "655",
           "pid": "3942596"
         },
         {
@@ -51,12 +51,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "42,19",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "48",
+          "RA": "365",
+          "pid": "3956321"
+        },
+        {
           "Tid": "42,83",
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "44",
-          "RA": "341",
+          "RK": "",
+          "RA": "",
           "pid": "3942299"
         },
         {
@@ -124,12 +133,21 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.10,97",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "64",
+          "RA": "540",
+          "pid": "3957406"
+        },
+        {
           "Tid": "1.15,41",
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "80",
-          "RA": "563",
+          "RK": "",
+          "RA": "",
           "pid": "3943521"
         },
         {
@@ -153,15 +171,47 @@
       ]
     },
     {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.25,35",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "39",
+          "RA": "238",
+          "pid": "3956902"
+        },
+        {
+          "Tid": "1.37,43",
+          "Dato": "03.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "RK": "49",
+          "RA": "393",
+          "pid": "3690664"
+        }
+      ]
+    },
+    {
       "distanse": "100m Butterfly",
       "races": [
+        {
+          "Tid": "1.25,75",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "303",
+          "pid": "3956718"
+        },
         {
           "Tid": "1.29,56",
           "Dato": "08.02.2026",
           "Sted": "Mandal",
           "Basseng": "25m",
           "RK": "115",
-          "RA": "627",
+          "RA": "629",
           "pid": "3865171"
         },
         {
@@ -169,8 +219,8 @@
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "35",
-          "RA": "283",
+          "RK": "",
+          "RA": "",
           "pid": "3942894"
         },
         {
@@ -185,36 +235,17 @@
       ]
     },
     {
-      "distanse": "100m Rygg",
-      "races": [
-        {
-          "Tid": "1.37,43",
-          "Dato": "03.05.2025",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "49",
-          "RA": "393",
-          "pid": "3690664"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.43,13",
-          "Dato": "08.02.2025",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "RK": "163",
-          "RA": "1090",
-          "pid": "3631964"
-        }
-      ]
-    },
-    {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.31,87",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "27",
+          "RA": "259",
+          "pid": "3957075"
+        },
         {
           "Tid": "1.45,89",
           "Dato": "04.05.2025",
@@ -236,6 +267,43 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.43,13",
+          "Dato": "08.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "RK": "163",
+          "RA": "1090",
+          "pid": "3631964"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.44,08",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "56",
+          "RA": "379",
+          "pid": "3958159"
+        },
+        {
+          "Tid": "3.12,47",
+          "Dato": "04.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "RK": "71",
+          "RA": "581",
+          "pid": "3692352"
+        }
+      ]
+    },
+    {
       "distanse": "200m Individuell medley",
       "races": [
         {
@@ -243,8 +311,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "30",
-          "RA": "216",
+          "RK": "37",
+          "RA": "247",
           "pid": "3944394"
         },
         {
@@ -266,23 +334,9 @@
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "21",
-          "RA": "137",
+          "RK": "24",
+          "RA": "145",
           "pid": "3943888"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "3.12,47",
-          "Dato": "04.05.2025",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "71",
-          "RA": "581",
-          "pid": "3692352"
         }
       ]
     },
