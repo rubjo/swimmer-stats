@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-08T06:45:01.355Z",
+  "timestamp": "2026-06-09T12:18:12.260Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Oslo",
           "Basseng": "50m",
           "RK": "25",
-          "RA": "903",
+          "RA": "904",
           "pid": "3903323"
         }
       ]
@@ -29,7 +29,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "52",
-          "RA": "1179",
+          "RA": "1183",
           "pid": "3959622"
         }
       ]
@@ -44,7 +44,11 @@
           "Basseng": "50m",
           "RK": "21",
           "RA": "472",
-          "pid": "3904188"
+          "pid": "3904188",
+          "splits": [
+            "59,74",
+            "1.09,71"
+          ]
         }
       ]
     }
