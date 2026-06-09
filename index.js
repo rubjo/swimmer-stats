@@ -26,7 +26,7 @@ const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
-const DELAY_BETWEEN = 500;
+const DELAY_BETWEEN = 250;
 const SKIP_UNTIL_FILE = path.join(DATA_DIR, "skip-until.json");
 const DEFAULT_MODE = (process.env.MODE || "auto").trim();
 
@@ -170,6 +170,25 @@ async function runPass(mode) {
       await navigateAndFilter(newPage, BASE_URL);
       page = newPage;
     }
+    loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
+  }
+
+  /**
+   * The current page's CDP session may be stuck with a pending command.
+   * Create a brand-new page with a clean session so the main loop can
+   * continue processing.  The old page is orphaned (the browser handles
+   * cleanup).
+   */
+  async function replacePage() {
+    console.log(color(C.yellow, `    Creating new page after stuck state...`));
+    const newPage = await browser.newPage();
+    await newPage.setUserAgent(
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    );
+    await newPage.setViewport({ width: 1400, height: 900 });
+    await navigateAndFilter(newPage, BASE_URL);
+    page = newPage;
     loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
   }
 
@@ -323,11 +342,35 @@ async function runPass(mode) {
     // After a page reload, only the first batch is loaded.  The
     // loadUntilIdx helper scrolls incrementally through batches until
     // cbIdx is reachable or we hit the end of the list.
-    if (!(await loadUntilIdx(cbIdx))) {
-      console.log(
-        color(C.dim, `    Reached end of swimmer list at index ${cbIdx}`),
+    try {
+      // If loadUntilIdx hangs (DevExpress callback never completes), the
+      // underlying CDP Runtime.callFunctionOn is stuck and blocks every
+      // subsequent command on that page session.  Use a shorter timeout
+      // than the 120s protocolTimeout so we detect hangs early.  The
+      // .catch() prevents unhandled rejection when the orphaned promise
+      // eventually fails.
+      const found = await withTimeout(
+        loadUntilIdx(cbIdx).catch(() => false),
+        60_000,
+        `loadUntilIdx(${cbIdx})`,
       );
-      break;
+      if (!found) {
+        console.log(
+          color(C.dim, `    Reached end of swimmer list at index ${cbIdx}`),
+        );
+        break;
+      }
+    } catch {
+      // loadUntilIdx timed out — the combo's DevExpress callback hung.
+      // Create a fresh page with a clean CDP session and retry.
+      console.log(
+        color(
+          C.yellow,
+          `    loadUntilIdx timed out at index ${cbIdx}, replacing page...`,
+        ),
+      );
+      await replacePage();
+      continue;
     }
 
     // Read swimmer info from combo box
