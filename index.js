@@ -556,6 +556,14 @@ async function runPass(mode) {
         new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
       );
       saveSkipUntil(skipUntil, SKIP_UNTIL_FILE);
+      // The failed callback may have left the JS thread stuck. Reload the
+      // page so the main loop's next loadUntilIdx call doesn't hang.
+      try {
+        await withTimeout(reloadPage(), 15_000, "grid-never-loaded reload");
+      } catch {
+        // If even the reload hangs, there's nothing we can do — the outer
+        // retry loop will catch the ProtocolError on the next iteration.
+      }
       return false; // not saved
     }
 
