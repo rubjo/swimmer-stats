@@ -4,7 +4,7 @@
   "club": "Larvik SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-08T02:47:23.163Z",
+  "timestamp": "2026-06-09T06:28:08.495Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "06.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "65",
-          "RA": "878",
+          "RK": "",
+          "RA": "",
           "pid": "3956613"
         }
       ]
@@ -42,9 +42,13 @@
           "Dato": "05.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "61",
-          "RA": "768",
-          "pid": "3957679"
+          "RK": "",
+          "RA": "",
+          "pid": "3957679",
+          "splits": [
+            "42,82",
+            "49,44"
+          ]
         }
       ]
     },
@@ -58,7 +62,11 @@
           "Basseng": "50m",
           "RK": "40",
           "RA": "391",
-          "pid": "3956999"
+          "pid": "3956999",
+          "splits": [
+            "49,22",
+            "52,48"
+          ]
         }
       ]
     }

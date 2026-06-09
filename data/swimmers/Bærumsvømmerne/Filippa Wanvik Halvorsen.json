@@ -4,18 +4,27 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-06-07T08:49:43.842Z",
+  "timestamp": "2026-06-09T05:24:05.789Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "31,24",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "58",
+          "RA": "394",
+          "pid": "3959810"
+        },
+        {
           "Tid": "32,41",
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "78",
-          "RA": "515",
+          "RK": "",
+          "RA": "",
           "pid": "3868912"
         },
         {
@@ -23,8 +32,8 @@
           "Dato": "21.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "62",
-          "RA": "424",
+          "RK": "",
+          "RA": "",
           "pid": "3903608"
         },
         {
@@ -244,8 +253,8 @@
           "Dato": "07.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "50",
+          "RA": "298",
           "pid": "3868454"
         },
         {
@@ -425,6 +434,15 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "38,34",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "98",
+          "RA": "625",
+          "pid": "3959476"
+        },
+        {
           "Tid": "43,47",
           "Dato": "12.10.2025",
           "Sted": "Holmen",
@@ -524,8 +542,8 @@
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "68",
-          "RA": "342",
+          "RK": "",
+          "RA": "",
           "pid": "3903190"
         },
         {
@@ -677,6 +695,19 @@
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.09,90",
+          "Dato": "07.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "59",
+          "RA": "354",
+          "pid": "3960430",
+          "splits": [
+            "32,91",
+            "36,99"
+          ]
+        },
         {
           "Tid": "1.12,99",
           "Dato": "06.12.2025",
@@ -849,8 +880,8 @@
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "36",
-          "RA": "247",
+          "RK": "39",
+          "RA": "269",
           "pid": "3904060"
         },
         {
@@ -960,76 +991,21 @@
       ]
     },
     {
-      "distanse": "100m Butterfly",
-      "races": [
-        {
-          "Tid": "1.35,94",
-          "Dato": "11.04.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "RK": "113",
-          "RA": "574",
-          "pid": "3917064"
-        },
-        {
-          "Tid": "1.37,98",
-          "Dato": "07.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3885229"
-        },
-        {
-          "Tid": "1.38,12",
-          "Dato": "07.12.2025",
-          "Sted": "Nadderud",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3832940"
-        },
-        {
-          "Tid": "1.40,45",
-          "Dato": "01.12.2024",
-          "Sted": "Nadderud",
-          "Basseng": "25m",
-          "RK": "117",
-          "RA": "732",
-          "pid": "3588261"
-        },
-        {
-          "Tid": "1.51,39",
-          "Dato": "03.12.2023",
-          "Sted": "Nadderud",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3360637"
-        },
-        {
-          "Tid": "1.55,30",
-          "Dato": "17.03.2023",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3193595"
-        },
-        {
-          "Tid": "1.55,72",
-          "Dato": "04.12.2022",
-          "Sted": "Bekkestua",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3135131"
-        }
-      ]
-    },
-    {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.33,58",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "83",
+          "RA": "393",
+          "pid": "3960123",
+          "splits": [
+            "44,14",
+            "49,44"
+          ]
+        },
         {
           "Tid": "1.36,08",
           "Dato": "30.03.2025",
@@ -1150,6 +1126,74 @@
       ]
     },
     {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.35,94",
+          "Dato": "11.04.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "113",
+          "RA": "575",
+          "pid": "3917064"
+        },
+        {
+          "Tid": "1.37,98",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3885229"
+        },
+        {
+          "Tid": "1.38,12",
+          "Dato": "07.12.2025",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3832940"
+        },
+        {
+          "Tid": "1.40,45",
+          "Dato": "01.12.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "RK": "117",
+          "RA": "732",
+          "pid": "3588261"
+        },
+        {
+          "Tid": "1.51,39",
+          "Dato": "03.12.2023",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3360637"
+        },
+        {
+          "Tid": "1.55,30",
+          "Dato": "17.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3193595"
+        },
+        {
+          "Tid": "1.55,72",
+          "Dato": "04.12.2022",
+          "Sted": "Bekkestua",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3135131"
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
         {
@@ -1157,8 +1201,8 @@
           "Dato": "21.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "41",
-          "RA": "236",
+          "RK": "",
+          "RA": "",
           "pid": "3906210"
         },
         {
@@ -1452,7 +1496,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "81",
-          "RA": "338",
+          "RA": "340",
           "pid": "3918030"
         },
         {
@@ -1574,7 +1618,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "77",
-          "RA": "320",
+          "RA": "321",
           "pid": "3919419"
         },
         {
@@ -1686,8 +1730,8 @@
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "",
+          "RK": "15",
+          "RA": "78",
           "pid": "3907419"
         }
       ]

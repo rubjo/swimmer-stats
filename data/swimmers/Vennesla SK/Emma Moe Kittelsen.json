@@ -4,7 +4,7 @@
   "club": "Vennesla SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-08T00:19:43.386Z",
+  "timestamp": "2026-06-09T05:31:51.329Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "164",
-          "RA": "861",
+          "RK": "",
+          "RA": "",
           "pid": "3849970"
         }
       ]
@@ -28,9 +28,13 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "158",
-          "RA": "764",
-          "pid": "3851489"
+          "RK": "",
+          "RA": "",
+          "pid": "3851489",
+          "splits": [
+            "40,33",
+            "51,82"
+          ]
         }
       ]
     },
@@ -44,7 +48,11 @@
           "Basseng": "50m",
           "RK": "108",
           "RA": "455",
-          "pid": "3850895"
+          "pid": "3850895",
+          "splits": [
+            "51,53",
+            "1.02,48"
+          ]
         }
       ]
     }
