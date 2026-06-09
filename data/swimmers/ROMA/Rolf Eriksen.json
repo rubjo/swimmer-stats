@@ -4,7 +4,7 @@
   "club": "ROMA",
   "birthYear": 1954,
   "gender": "male",
-  "timestamp": "2026-06-07T22:43:28.386Z",
+  "timestamp": "2026-06-09T22:58:20.068Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "305",
-          "RA": "1183",
+          "RK": "306",
+          "RA": "1187",
           "pid": "3900248"
         }
       ]
@@ -29,7 +29,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "157",
-          "RA": "794",
+          "RA": "796",
           "pid": "3900086"
         }
       ]
@@ -44,7 +44,11 @@
           "Basseng": "25m",
           "RK": "102",
           "RA": "721",
-          "pid": "3900583"
+          "pid": "3900583",
+          "splits": [
+            "48,69",
+            "53,71"
+          ]
         }
       ]
     }
