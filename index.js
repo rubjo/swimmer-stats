@@ -4,21 +4,16 @@ import path from "path";
 import {
   flattenRaces,
   loadExistingSwimmers,
-  writeSwimmerFile,
   rebuildIndex,
   loadSkipUntil,
-  saveSkipUntil,
 } from "./lib/fs-utils.js";
 import {
   hasPotentialSplits,
-  parseGridFromDOM,
-  getSwimmerInfo,
-  fetchGender,
-  selectSwimmer,
   navigateAndFilter,
-  extractSplits,
-  pollFor,
+  loadUntilIdx,
+  findSwimmerIdx,
 } from "./lib/browser.js";
+import { processSwimmer } from "./lib/swimmer.js";
 
 /* ─── Config ─────────────────────────────────────────────────────── */
 const BASE_URL = "https://www.medley.no/svommer.aspx";
@@ -150,46 +145,48 @@ async function runPass(mode) {
   };
   const color = (code, s) => `${code}${s}${C.reset}`;
 
-  /** Navigate back to BASE_URL, re-apply filters, reset loadedCount. */
+  /**
+   * Navigate back to BASE_URL, re-apply filters.  If the page's JS thread
+   * is stuck (navigation times out), create a fresh page.
+   * Returns the (possibly new) page and its initial loadedCount.
+   */
   async function reloadPage() {
     console.log(color(C.dim, `    Reloading page to clear state...`));
+    let p = page;
     try {
-      await navigateAndFilter(page, BASE_URL);
+      await navigateAndFilter(p, BASE_URL);
     } catch {
-      // Navigation timed out — the page's JS thread may be stuck.
-      // Create a fresh page with a clean CDP session.
       console.log(
         color(C.yellow, `    Page unresponsive, creating new page...`),
       );
-      const newPage = await browser.newPage();
-      await newPage.setUserAgent(
+      p = await browser.newPage();
+      await p.setUserAgent(
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
           "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       );
-      await newPage.setViewport({ width: 1400, height: 900 });
-      await navigateAndFilter(newPage, BASE_URL);
-      page = newPage;
+      await p.setViewport({ width: 1400, height: 900 });
+      await navigateAndFilter(p, BASE_URL);
     }
-    loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
+    const lc = await p.evaluate(() => cmbUtover.GetItemCount());
+    return { page: p, loadedCount: lc };
   }
 
   /**
-   * The current page's CDP session may be stuck with a pending command.
-   * Create a brand-new page with a clean session so the main loop can
-   * continue processing.  The old page is orphaned (the browser handles
-   * cleanup).
+   * Create a brand-new page with a clean CDP session (for when the
+   * current page's CDP session is stuck).  Returns the new page and
+   * its initial loadedCount.
    */
   async function replacePage() {
     console.log(color(C.yellow, `    Creating new page after stuck state...`));
-    const newPage = await browser.newPage();
-    await newPage.setUserAgent(
+    const p = await browser.newPage();
+    await p.setUserAgent(
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     );
-    await newPage.setViewport({ width: 1400, height: 900 });
-    await navigateAndFilter(newPage, BASE_URL);
-    page = newPage;
-    loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
+    await p.setViewport({ width: 1400, height: 900 });
+    await navigateAndFilter(p, BASE_URL);
+    const lc = await p.evaluate(() => cmbUtover.GetItemCount());
+    return { page: p, loadedCount: lc };
   }
 
   /**
@@ -377,7 +374,9 @@ async function runPass(mode) {
           `    loadUntilIdx timed out at index ${cbIdx}, replacing page...`,
         ),
       );
-      await replacePage();
+      const rp = await replacePage();
+      page = rp.page;
+      loadedCount = rp.loadedCount;
       continue;
     }
 
@@ -471,6 +470,26 @@ async function runPass(mode) {
       console.log(`  ${color(C.cyan, processedInSession)} — ${sw.text}`);
     }
 
+    // Build context for processSwimmer
+    const ctx = {
+      mode,
+      existingSwimmers,
+      skipUntil,
+      SKIP_UNTIL_FILE,
+      SWIMMERS_DIR,
+      DATA_DIR,
+      INDEX_FILE,
+      BASE_URL,
+      processedInSession,
+      reloadPage: async () => {
+        const rp = await reloadPage();
+        page = rp.page;
+        loadedCount = rp.loadedCount;
+        return rp.page;
+      },
+      gitCheckpoint,
+    };
+
     // Retry loop with hang detection + page reload
     let attempts = 0;
     let swimmerOk = false;
@@ -481,18 +500,18 @@ async function runPass(mode) {
         // Collect mode is fast (~3s/swimmer); splits mode can take minutes
         // per swimmer when hundreds of detail rows are expanded.
         const swimmerTimeout = mode === "splits" ? 7_200_000 : 60_000;
-        const saved = await withTimeout(
-          thisSwimmer(sw, selIdx),
+        const result = await withTimeout(
+          processSwimmer(page, sw, selIdx, ctx),
           swimmerTimeout,
           sw.text,
         );
-        if (saved) {
+        if (result.saved) {
           swimmerOk = true;
           lastSwimmerName = sw.text;
+          totalRaces += result.totalRaces;
         } else {
           // false = grid never loaded / no data — retrying won't help.
-          // The page state is fine (no stuck DevExpress callback), so
-          // mark as ok to skip the reload + findSwimmerIdx block below.
+          needsReposition = result.needsReposition;
           swimmerOk = true;
           break;
         }
@@ -510,7 +529,9 @@ async function runPass(mode) {
             ),
           );
           try {
-            await withTimeout(reloadPage(), 60_000, "reload");
+            const rp = await withTimeout(reloadPage(), 60_000, "reload");
+            page = rp.page;
+            loadedCount = rp.loadedCount;
             pageWasReloaded = true;
           } catch {
             // If even the reload hangs, we can't recover
@@ -533,7 +554,7 @@ async function runPass(mode) {
     // Handle page state after a failed swimmer.
     //
     // Three cases:
-    //   1. Grid never loaded / no data (thisSwimmer returned false):
+    //   1. Grid never loaded / no data (processSwimmer returned !saved):
     //      Page state is clean — the DevExpress callback completed, it just
     //      returned no rows. cbIdx was already incremented past the swimmer.
     //      No reload or reposition needed — loadUntilIdx(cbIdx) on the next
@@ -556,7 +577,9 @@ async function runPass(mode) {
       // already reloaded in the retry loop above.
       if (!swimmerOk && !pageWasReloaded) {
         try {
-          await withTimeout(reloadPage(), 60_000, "reload");
+          const rp = await withTimeout(reloadPage(), 60_000, "reload");
+          page = rp.page;
+          loadedCount = rp.loadedCount;
         } catch {
           // If reload hangs too, skip and try again later
         }
@@ -591,420 +614,6 @@ async function runPass(mode) {
     }
 
     await sleep(DELAY_BETWEEN);
-  }
-
-  /**
-   * Find indices of races in currentRaces that don't exist in savedRaces,
-   * matched by distance + date + time. Skips ineligible (< 100 m) races.
-   */
-  function findNewRaceIndices(currentRaces, savedRaces) {
-    const indices = [];
-    for (let i = 0; i < currentRaces.length; i++) {
-      const cr = currentRaces[i];
-      if (!hasPotentialSplits(cr.Distanse)) continue;
-      const exists = savedRaces.some(
-        (sr) =>
-          sr.Distanse === cr.Distanse &&
-          sr.Dato === cr.Dato &&
-          sr.Tid === cr.Tid,
-      );
-      if (!exists) indices.push(i);
-    }
-    return indices;
-  }
-
-  async function thisSwimmer(sw, selIdx) {
-    const swStart = Date.now();
-
-    // Select swimmer (triggers grid load)
-    await selectSwimmer(page, selIdx);
-    // Poll for grid rows to appear — adapts to actual response time.
-    const gridReady = await pollFor(
-      page,
-      () => {
-        try {
-          if (grdRanking.InCallback()) return false;
-          const table = document.getElementById("grdRanking_DXMainTable");
-          if (!table) return false;
-          return (
-            table.querySelector(".dxgvDataRow_PlasticBlue") !== null ||
-            table.querySelector(".dxgvEmptyDataRow") !== null
-          );
-        } catch {
-          return false;
-        }
-      },
-      { interval: 200, timeout: 10_000 },
-    );
-    if (!gridReady) {
-      const existing = existingSwimmers.get(sw.id);
-      const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
-      const statsMsg = existing ? formatSwimmerStats(existing) : "no data yet";
-      console.log(
-        color(
-          C.yellow,
-          `  ⚠ Grid never loaded — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""}`,
-        ),
-      );
-      skipUntil.set(
-        sw.id,
-        new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
-      );
-      saveSkipUntil(skipUntil, SKIP_UNTIL_FILE);
-      // The failed callback may have left the JS thread stuck.  Signal the
-      // main loop to reload the page and reposition cbIdx via findSwimmerIdx
-      // before the next loadUntilIdx call.
-      needsReposition = true;
-      return false; // not saved
-    }
-
-    // Parse the grid table directly from the DOM.
-    // The array indices are the grid's visible indices, which is what
-    // GVShowDetailRow expects. CSV export would include filtered-out
-    // rows (D/F) and cause index mismatches.
-    const races = await parseGridFromDOM(page);
-    if (!races || races.length === 0) {
-      console.log(color(C.yellow, `  ⚠ No data — ${sw.text}`));
-      return false; // not saved
-    }
-
-    // Merge saved races that aren't in the current grid back into the
-    // races array.  This preserves historical data when the date filter
-    // (dtFraDato) is narrowed — without this, pre-filter races would be
-    // silently dropped on the next save.
-    const prevData = existingSwimmers.get(sw.id);
-    if (prevData && prevData.timestamp) {
-      const savedRaces = flattenRaces(prevData);
-      for (const sr of savedRaces) {
-        const inGrid = races.some(
-          (r) =>
-            r.Distanse === sr.Distanse &&
-            r.Dato === sr.Dato &&
-            r.Tid === sr.Tid,
-        );
-        if (!inGrid) races.push(sr);
-      }
-    }
-
-    // ── Collect mode: skip split extraction, save immediately ──
-    if (mode !== "splits") {
-      // Drop unwanted CSV columns
-      for (const r of races) {
-        delete r.Nr;
-        delete r.Poeng;
-        delete r.Poengtype;
-        delete r.D;
-        if (r.RK == null) delete r.RK;
-        if (r.RA == null) delete r.RA;
-      }
-
-      // Build entry with no split data (splits field omitted → undefined)
-      const info = await getSwimmerInfo(page);
-      const swimmerName = info.name || sw.text;
-      const gender = await fetchGender(page);
-
-      // Show whether this is new, grown, or unchanged
-      const existing = existingSwimmers.get(sw.id);
-      let changeLabel;
-      if (existing && existing.timestamp) {
-        const savedRaces = flattenRaces(existing);
-        const diff = races.length - savedRaces.length;
-        if (diff === 0) {
-          changeLabel = `unchanged`;
-        } else {
-          changeLabel = `${savedRaces.length}→${races.length}`;
-        }
-      } else {
-        changeLabel = `new`;
-      }
-
-      const discMap = new Map();
-      for (const r of races) {
-        const dist = r.Distanse || "Ukjent";
-        if (!discMap.has(dist)) discMap.set(dist, []);
-        discMap.get(dist).push(r);
-      }
-      const disciplines = [];
-      for (const [distanse, dRaces] of discMap) {
-        for (const r of dRaces) delete r.Distanse;
-        disciplines.push({ distanse, races: dRaces });
-      }
-
-      const entry = {
-        swimmerId: sw.id,
-        name: swimmerName,
-        club: info.club,
-        birthYear: info.birthYear,
-        gender,
-        timestamp: new Date().toISOString(),
-        disciplines,
-      };
-
-      writeSwimmerFile(entry, SWIMMERS_DIR);
-      totalRaces += races.length;
-      const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
-      console.log(
-        `  ${color(C.green, "✓")} ${processedInSession} — ${sw.text} — ${races.length} races, ${changeLabel}${ago ? ", last updated " + ago : ""} (processed in ${elapsed(swStart)})`,
-      );
-
-      // Rebuild index every swimmer; push to GitHub every 25 so Pages
-      // doesn't get flooded with individual deployments.
-      rebuildIndex({
-        swimmersDir: SWIMMERS_DIR,
-        dataDir: DATA_DIR,
-        indexFile: INDEX_FILE,
-        baseUrl: BASE_URL,
-      });
-      if (processedInSession % 25 === 0) {
-        console.log(
-          color(
-            C.cyan,
-            `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
-          ),
-        );
-        gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
-      }
-      return true; // saved
-    }
-
-    // ── Splits mode: extract new or missing splits only ──
-    const eligible = races.filter((r) => hasPotentialSplits(r.Distanse)).length;
-    const existing = existingSwimmers.get(sw.id);
-
-    /**
-     * Merge saved splits back into races that weren't touched by extractSplits.
-     * This prevents existing split data from being silently dropped on save.
-     */
-    function mergeSavedSplits(races, savedRaces) {
-      for (const r of races) {
-        if (r.splits === undefined && hasPotentialSplits(r.Distanse)) {
-          const saved = savedRaces.find(
-            (sr) =>
-              sr.Distanse === r.Distanse &&
-              sr.Dato === r.Dato &&
-              sr.Tid === r.Tid,
-          );
-          if (saved && saved.splits !== undefined) {
-            r.splits = saved.splits;
-          }
-        }
-      }
-    }
-
-    /**
-     * Persist the current state of races as a partial checkpoint so that
-     * data is never lost if the process crashes mid-extraction. Clones
-     * race objects so the final save's destructive column-dropping is
-     * unaffected.
-     */
-    async function saveProgress() {
-      let info;
-      try {
-        info = await getSwimmerInfo(page);
-      } catch {
-        info = { name: null, club: null, birthYear: null };
-      }
-      const swimmerName = info.name || sw.text;
-
-      const discMap = new Map();
-      for (const r of races) {
-        const dist = r.Distanse || "Ukjent";
-        if (!discMap.has(dist)) discMap.set(dist, []);
-        discMap.get(dist).push(r);
-      }
-      const disciplines = [];
-      for (const [distanse, dRaces] of discMap) {
-        const cloned = dRaces.map((r) => {
-          const c = { ...r };
-          delete c.Nr;
-          delete c.Poeng;
-          delete c.Poengtype;
-          delete c.D;
-          if (c.RK == null) delete c.RK;
-          if (c.RA == null) delete c.RA;
-          delete c.Distanse;
-          return c;
-        });
-        disciplines.push({ distanse, races: cloned });
-      }
-
-      writeSwimmerFile(
-        {
-          swimmerId: sw.id,
-          name: swimmerName,
-          club: info.club,
-          birthYear: info.birthYear,
-          timestamp: new Date().toISOString(),
-          disciplines,
-        },
-        SWIMMERS_DIR,
-      );
-    }
-
-    if (existing && existing.timestamp) {
-      const savedRaces = flattenRaces(existing);
-
-      if (savedRaces.length === races.length) {
-        // Race count unchanged — extract only rows where split data is
-        // missing from the saved file, then skip if all are present.
-        const missingSplits = [];
-        for (let i = 0; i < races.length; i++) {
-          const cr = races[i];
-          if (!hasPotentialSplits(cr.Distanse)) continue;
-          const saved = savedRaces.find(
-            (sr) =>
-              sr.Distanse === cr.Distanse &&
-              sr.Dato === cr.Dato &&
-              sr.Tid === cr.Tid,
-          );
-          if (!saved || saved.splits === undefined) {
-            missingSplits.push(i);
-          }
-        }
-
-        if (missingSplits.length === 0) {
-          // If gender isn't known yet, fetch and update the file even though
-          // splits are all present — we still want to fill in the gap.
-          if (!existing.gender) {
-            existing.gender = await fetchGender(page);
-          }
-          console.log(
-            `  ✓ ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (processed in ${elapsed(swStart)})`,
-          );
-          existing.timestamp = new Date().toISOString();
-          writeSwimmerFile(existing, SWIMMERS_DIR);
-          return true;
-        }
-
-        console.log(
-          color(
-            C.cyan,
-            `  ${sw.text} → extracting ${missingSplits.length} missing splits from ${races.length} races`,
-          ),
-        );
-        await extractSplits(page, races, {
-          log: (msg) => console.log(`    ${msg}`),
-          onProgress: saveProgress,
-          onlyRows: new Set(missingSplits),
-        });
-        mergeSavedSplits(races, savedRaces);
-      } else {
-        // Race count changed — find which races are new and extract only those.
-        const newIndices = findNewRaceIndices(races, savedRaces);
-
-        if (newIndices.length > 0) {
-          console.log(
-            color(
-              C.cyan,
-              `  ${sw.text} → extracting ${newIndices.length} new splits from ${races.length} races`,
-            ),
-          );
-          await extractSplits(page, races, {
-            log: (msg) => console.log(`    ${msg}`),
-            onProgress: saveProgress,
-            onlyRows: new Set(newIndices),
-          });
-        }
-        mergeSavedSplits(races, savedRaces);
-      }
-    } else {
-      console.log(
-        color(
-          C.cyan,
-          `  ${sw.text} → extracting ${eligible} splits from ${races.length} races`,
-        ),
-      );
-      await extractSplits(page, races, {
-        log: (msg) => console.log(`    ${msg}`),
-        onProgress: saveProgress,
-      });
-    }
-
-    // Check if page is still alive after all the expansion work.
-    // Use a short timeout — if the JS thread is stuck from a previous
-    // DevExpress callback, page.evaluate would hang for protocolTimeout.
-    try {
-      await withTimeout(
-        page.evaluate(() => true),
-        10_000,
-      );
-    } catch {
-      console.log(
-        color(
-          C.red,
-          `    ⚠ Page unresponsive after split extraction, reloading...`,
-        ),
-      );
-      await reloadPage();
-    }
-
-    // Drop unwanted CSV columns
-    for (const r of races) {
-      delete r.Nr;
-      delete r.Poeng;
-      delete r.Poengtype;
-      delete r.D;
-      if (r.RK == null) delete r.RK;
-      if (r.RA == null) delete r.RA;
-    }
-
-    const info = await getSwimmerInfo(page);
-    const swimmerName = info.name || sw.text;
-
-    // Fetch gender once per swimmer (skip if already known from earlier run)
-    const gender = existing?.gender || (await fetchGender(page));
-
-    const discMap = new Map();
-    for (const r of races) {
-      const dist = r.Distanse || "Ukjent";
-      if (!discMap.has(dist)) discMap.set(dist, []);
-      discMap.get(dist).push(r);
-    }
-    const disciplines = [];
-    for (const [distanse, dRaces] of discMap) {
-      for (const r of dRaces) delete r.Distanse;
-      disciplines.push({ distanse, races: dRaces });
-    }
-
-    const entry = {
-      swimmerId: sw.id,
-      name: swimmerName,
-      club: info.club,
-      birthYear: info.birthYear,
-      gender,
-      timestamp: new Date().toISOString(),
-      disciplines,
-    };
-
-    writeSwimmerFile(entry, SWIMMERS_DIR);
-    totalRaces += races.length;
-
-    const withSplits = races.filter(
-      (r) => r.splits !== undefined && r.splits.length > 0,
-    ).length;
-    console.log(
-      `  ✓ ${processedInSession} — ${sw.text} — ${races.length} races, ${withSplits} with split times` +
-        ` (processed in ${elapsed(swStart)})`,
-    );
-
-    // Rebuild index every swimmer; push to GitHub every 25 so Pages
-    // doesn't get flooded with individual deployments.
-    rebuildIndex({
-      swimmersDir: SWIMMERS_DIR,
-      dataDir: DATA_DIR,
-      indexFile: INDEX_FILE,
-      baseUrl: BASE_URL,
-    });
-    if (processedInSession % 25 === 0) {
-      console.log(
-        color(
-          C.cyan,
-          `    checkpoint — pushing ${processedInSession} swimmers to GitHub...`,
-        ),
-      );
-      gitCheckpoint(`${processedInSession}/${loadedCount - 1} swimmers`);
-    }
-    return true; // saved
   }
 
   // Final index write and git push
