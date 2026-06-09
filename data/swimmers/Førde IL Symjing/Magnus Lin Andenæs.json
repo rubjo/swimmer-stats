@@ -4,8 +4,22 @@
   "club": "Førde IL Symjing",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-07T21:29:35.446Z",
+  "timestamp": "2026-06-09T03:41:47.995Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,38",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "171",
+          "RA": "1664",
+          "pid": "3963875"
+        }
+      ]
+    },
     {
       "distanse": "50m Rygg",
       "races": [
@@ -17,6 +31,60 @@
           "RK": "96",
           "RA": "1229",
           "pid": "3708014"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,99",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "134",
+          "RA": "1373",
+          "pid": "3964340",
+          "splits": [
+            "50,19",
+            "48,80"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.53,67",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "63",
+          "RA": "536",
+          "pid": "3964095",
+          "splits": [
+            "56,46",
+            "57,21"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.27,05",
+          "Dato": "07.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "RK": "145",
+          "RA": "1132",
+          "pid": "3964169",
+          "splits": [
+            "1.09,83",
+            "1.17,22"
+          ]
         }
       ]
     }
