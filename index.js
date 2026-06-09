@@ -130,6 +130,13 @@ async function runPass(mode) {
   /** Remember the name of the last swimmer that was saved successfully. */
   let lastSwimmerName = null;
 
+  /**
+   * Set by thisSwimmer when an internal failure (e.g. grid never loaded)
+   * may have left the page in an inconsistent state.  The main loop will
+   * reload the page and reposition cbIdx via findSwimmerIdx.
+   */
+  let needsReposition = false;
+
   console.log(`Mode: ${mode}`);
 
   /* ─── ANSI color helpers ────────────────────────────────────────── */
@@ -460,8 +467,8 @@ async function runPass(mode) {
     // protocol error), we must reposition cbIdx via findSwimmerIdx even if
     // the retry eventually succeeded — the combo box was reset and cbIdx
     // is no longer valid for the current page state.
-    // Grid-never-loaded does not reach here (swimmerOk = true, no reload).
-    if (!swimmerOk || pageWasReloaded) {
+    if (!swimmerOk || pageWasReloaded || needsReposition) {
+      needsReposition = false;
       try {
         await withTimeout(reloadPage(), 30_000, "reload");
       } catch {
@@ -556,14 +563,10 @@ async function runPass(mode) {
         new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
       );
       saveSkipUntil(skipUntil, SKIP_UNTIL_FILE);
-      // The failed callback may have left the JS thread stuck. Reload the
-      // page so the main loop's next loadUntilIdx call doesn't hang.
-      try {
-        await withTimeout(reloadPage(), 15_000, "grid-never-loaded reload");
-      } catch {
-        // If even the reload hangs, there's nothing we can do — the outer
-        // retry loop will catch the ProtocolError on the next iteration.
-      }
+      // The failed callback may have left the JS thread stuck.  Signal the
+      // main loop to reload the page and reposition cbIdx via findSwimmerIdx
+      // before the next loadUntilIdx call.
+      needsReposition = true;
       return false; // not saved
     }
 
@@ -913,7 +916,14 @@ async function runPass(mode) {
       `  ✓ ${mode} pass complete! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
     ),
   );
-  await browser.close();
+
+  // Don't let a stuck browser.close() prevent the process from exiting.
+  try {
+    await withTimeout(browser.close(), 10_000, "browser close");
+  } catch {
+    // All work is done — force exit if the browser won't close cleanly.
+    process.exit(0);
+  }
 }
 
 /* ─── Entry point ────────────────────────────────────────────────── */
