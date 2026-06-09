@@ -107,7 +107,7 @@ async function runPass(mode) {
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
     protocolTimeout: 120_000,
   });
-  const page = await browser.newPage();
+  let page = await browser.newPage();
   await page.setUserAgent(
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -153,7 +153,23 @@ async function runPass(mode) {
   /** Navigate back to BASE_URL, re-apply filters, reset loadedCount. */
   async function reloadPage() {
     console.log(color(C.dim, `    Reloading page to clear state...`));
-    await navigateAndFilter(page, BASE_URL);
+    try {
+      await navigateAndFilter(page, BASE_URL);
+    } catch {
+      // Navigation timed out — the page's JS thread may be stuck.
+      // Create a fresh page with a clean CDP session.
+      console.log(
+        color(C.yellow, `    Page unresponsive, creating new page...`),
+      );
+      const newPage = await browser.newPage();
+      await newPage.setUserAgent(
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      );
+      await newPage.setViewport({ width: 1400, height: 900 });
+      await navigateAndFilter(newPage, BASE_URL);
+      page = newPage;
+    }
     loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
   }
 
@@ -443,7 +459,7 @@ async function runPass(mode) {
             ),
           );
           try {
-            await withTimeout(reloadPage(), 30_000, "reload");
+            await withTimeout(reloadPage(), 60_000, "reload");
             pageWasReloaded = true;
           } catch {
             // If even the reload hangs, we can't recover
@@ -470,7 +486,7 @@ async function runPass(mode) {
     if (!swimmerOk || pageWasReloaded || needsReposition) {
       needsReposition = false;
       try {
-        await withTimeout(reloadPage(), 30_000, "reload");
+        await withTimeout(reloadPage(), 60_000, "reload");
       } catch {
         // If reload hangs too, skip and try again later
       }
