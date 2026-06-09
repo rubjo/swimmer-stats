@@ -580,6 +580,24 @@ async function runPass(mode) {
       return false; // not saved
     }
 
+    // Merge saved races that aren't in the current grid back into the
+    // races array.  This preserves historical data when the date filter
+    // (dtFraDato) is narrowed — without this, pre-filter races would be
+    // silently dropped on the next save.
+    const prevData = existingSwimmers.get(sw.id);
+    if (prevData && prevData.timestamp) {
+      const savedRaces = flattenRaces(prevData);
+      for (const sr of savedRaces) {
+        const inGrid = races.some(
+          (r) =>
+            r.Distanse === sr.Distanse &&
+            r.Dato === sr.Dato &&
+            r.Tid === sr.Tid,
+        );
+        if (!inGrid) races.push(sr);
+      }
+    }
+
     // ── Collect mode: skip split extraction, save immediately ──
     if (mode !== "splits") {
       // Drop unwanted CSV columns
