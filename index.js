@@ -195,46 +195,42 @@ async function runPass(mode) {
   /**
    * Find the combo-box index of a swimmer by name.
    *
-   * Opens the dropdown and reads item data from the DevExpress internal
-   * data store (cmbUtover.GetItem(i)) rather than from the DOM.  This is
-   * critical because DevExpress virtual scrolling only keeps ~10 items in
-   * the DOM at any time (recycling rows on scroll), so DOM-based lookups
-   * miss all items in the middle of loaded batches.
+   * Opens the dropdown and scrolls incrementally (like loadUntilIdx) to
+   * trigger DevExpress virtual-scroll batch loading.  At each scroll
+   * position, all currently loaded items are scanned via the internal
+   * data store (cmbUtover.GetItem(i)) rather than from the DOM — critical
+   * because DevExpress virtual scrolling only keeps ~10 items visible in
+   * the DOM at any time, so DOM-based lookups miss items in the middle of
+   * loaded batches.
    *
-   * Between batch loads the dropdown is closed and re-opened because
-   * DevExpress may not fire scroll callbacks for programmatic scrollTop
-   * changes on an already-open dropdown — closing and re-opening forces
-   * a fresh view update that triggers the server callback.
-   *
-   * IMPORTANT: GetItemCount() is NOT used for batch-detection because in
-   * callback mode it returns the total server-known item count, not the
-   * count of items actually available in the client store.  Instead we
-   * count items where GetItem(i) returns non-null.
+   * Earlier versions of this function relied on open/close cycles to
+   * trigger batch loading, but that doesn't work — DevExpress only loads
+   * new batches on scroll callbacks.  The incremental scroll approach
+   * mirrors loadUntilIdx and reliably exposes all items.
    */
-  async function findSwimmerIdx(page, name) {
-    let prevLoaded = 0;
+  async function findSwimmerIdx(page, name, maxScrolls = 200) {
+    await page.evaluate(() => {
+      try {
+        cmbUtover.ShowDropDown();
+      } catch {}
+    });
+    await sleep(400);
 
-    while (true) {
-      // Open dropdown to trigger initial load / show loaded items
-      await page.evaluate(() => cmbUtover.ShowDropDown());
-      await sleep(600);
-
-      // Count truly loaded items (non-null GetItem) and search for target.
+    for (let s = 0; s < maxScrolls; s++) {
+      // Search currently loaded items for the target name
       const result = await page.evaluate((target) => {
         try {
           const total = cmbUtover.GetItemCount();
-          let loadedUpTo = 0;
           for (let i = 0; i < total; i++) {
             const item = cmbUtover.GetItem(i);
-            if (!item) break; // items are loaded sequentially from 0
-            loadedUpTo = i + 1;
+            if (!item) break;
             if (item.text && item.text.trim() === target) {
-              return { found: true, idx: i, loadedUpTo };
+              return { found: true, idx: i };
             }
           }
-          return { found: false, loadedUpTo };
+          return { found: false };
         } catch {
-          return { found: false, loadedUpTo: 0 };
+          return { found: false };
         }
       }, name);
 
@@ -248,19 +244,31 @@ async function runPass(mode) {
         return result.idx;
       }
 
-      // Close dropdown so the next ShowDropDown triggers a fresh view
-      await page.evaluate(() => {
+      // Scroll down by one viewport to load the next batch
+      const atBottom = await page.evaluate(async () => {
         try {
-          cmbUtover.HideDropDown();
-        } catch {}
+          const d = cmbUtover.GetListBoxScrollDivElement();
+          if (!d) return true;
+          const prev = d.scrollTop;
+          d.scrollTop = d.scrollTop + d.clientHeight;
+          if (d.scrollTop <= prev) return true;
+          await new Promise((r) => setTimeout(r, 2_000));
+          return false;
+        } catch {
+          return true;
+        }
       });
-      await sleep(300);
 
-      // No new items loaded since last iteration — checked everything
-      if (result.loadedUpTo <= prevLoaded) break;
-      prevLoaded = result.loadedUpTo;
+      if (atBottom) break;
     }
 
+    // Close dropdown
+    await page.evaluate(() => {
+      try {
+        cmbUtover.HideDropDown();
+      } catch {}
+    });
+    await sleep(300);
     return null;
   }
 
@@ -522,27 +530,48 @@ async function runPass(mode) {
       }
     }
 
-    // If the page was reloaded during the retry loop (due to a timeout or
-    // protocol error), we must reposition cbIdx via findSwimmerIdx even if
-    // the retry eventually succeeded — the combo box was reset and cbIdx
-    // is no longer valid for the current page state.
+    // Handle page state after a failed swimmer.
+    //
+    // Three cases:
+    //   1. Grid never loaded / no data (thisSwimmer returned false):
+    //      Page state is clean — the DevExpress callback completed, it just
+    //      returned no rows. cbIdx was already incremented past the swimmer.
+    //      No reload or reposition needed — loadUntilIdx(cbIdx) on the next
+    //      loop iteration will naturally scroll to the right position.
+    //
+    //   2. Timeout / protocol error (retry loop caught and reloaded):
+    //      reloadPage() was already called inside the retry loop. The combo
+    //      is reset to the beginning. cbIdx still points to the next swimmer
+    //      after the one that timed out. loadUntilIdx(cbIdx) will scroll to
+    //      the right batch.
+    //
+    //   3. Non-timeout error with swimmerOk=false (page may be stuck):
+    //      Reload the page to clear state, then continue. cbIdx was already
+    //      incremented so the next loop iteration handles positioning.
     if (!swimmerOk || pageWasReloaded || needsReposition) {
       needsReposition = false;
-      try {
-        await withTimeout(reloadPage(), 60_000, "reload");
-      } catch {
-        // If reload hangs too, skip and try again later
+
+      // Only reload when the page might be in a bad state.  For case 1
+      // (grid-never-loaded) the page is clean.  For case 2 the page was
+      // already reloaded in the retry loop above.
+      if (!swimmerOk && !pageWasReloaded) {
+        try {
+          await withTimeout(reloadPage(), 60_000, "reload");
+        } catch {
+          // If reload hangs too, skip and try again later
+        }
       }
 
-      // After a reload, the combo box resets. Reposition cbIdx by finding
-      // the last successfully processed swimmer by name, so we don't skip
-      // swimmers due to stale index tracking.
-      if (lastSwimmerName) {
+      // After an actual page reload (case 2 or 3), the combo was reset.
+      // Reposition cbIdx relative to the last successfully processed
+      // swimmer.  findSwimmerIdx now scrolls incrementally (like
+      // loadUntilIdx) so it can find names at any index.  If it still
+      // fails (e.g. the swimmer was removed from the list), we fall back
+      // to the existing cbIdx which already points to the next swimmer.
+      if (pageWasReloaded && lastSwimmerName) {
         const foundIdx = await findSwimmerIdx(page, lastSwimmerName);
         if (foundIdx !== null) {
           cbIdx = foundIdx + 1;
-          // findSwimmerIdx loaded batches via the dropdown; sync loadedCount
-          // so the main loop safety net doesn't re-scroll unnecessarily.
           loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
           console.log(
             color(
