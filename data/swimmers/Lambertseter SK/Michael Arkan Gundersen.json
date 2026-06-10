@@ -4,11 +4,20 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-07T08:43:42.859Z",
+  "timestamp": "2026-06-10T10:14:08.337Z",
   "disciplines": [
     {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "40,92",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "31",
+          "RA": "966",
+          "pid": "3959379"
+        },
         {
           "Tid": "48,04",
           "Dato": "08.03.2026",
@@ -38,12 +47,25 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
+          "Tid": "1.38,73",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "48",
+          "RA": "605",
+          "pid": "3960486",
+          "splits": [
+            "47,47",
+            "51,26"
+          ]
+        },
+        {
           "Tid": "1.40,90",
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "47",
-          "RA": "585",
+          "RK": "",
+          "RA": "",
           "pid": "3860698"
         },
         {
@@ -66,7 +88,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "57",
-          "RA": "803",
+          "RA": "808",
           "pid": "3916827"
         },
         {
@@ -91,6 +113,19 @@
           "RK": "",
           "RA": "",
           "pid": "3885411"
+        },
+        {
+          "Tid": "1.52,20",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3959993",
+          "splits": [
+            "52,58",
+            "59,62"
+          ]
         },
         {
           "Tid": "1.56,82",
@@ -121,7 +156,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "58",
-          "RA": "676",
+          "RA": "678",
           "pid": "3918385"
         },
         {
@@ -167,7 +202,7 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "RK": "57",
-          "RA": "669",
+          "RA": "670",
           "pid": "3885884"
         },
         {

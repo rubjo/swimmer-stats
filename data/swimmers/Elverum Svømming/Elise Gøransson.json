@@ -4,18 +4,27 @@
   "club": "Elverum Svømming",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-07T08:45:43.662Z",
+  "timestamp": "2026-06-10T10:22:24.989Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "34,10",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3961509"
+        },
+        {
           "Tid": "34,28",
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "52",
-          "RA": "562",
+          "RK": "",
+          "RA": "",
           "pid": "3864721"
         },
         {
@@ -26,6 +35,20 @@
           "RK": "",
           "RA": "",
           "pid": "3824993"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "39,78",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3960971"
         }
       ]
     },
@@ -58,6 +81,42 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.18,37",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3962252",
+          "splits": [
+            "37,66",
+            "40,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.31,67",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "36",
+          "RA": "312",
+          "pid": "3961734",
+          "splits": [
+            "44,49",
+            "47,18"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -66,7 +125,7 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "104",
-          "RA": "631",
+          "RA": "633",
           "pid": "3914436"
         },
         {
@@ -134,8 +193,8 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "35",
-          "RA": "175",
+          "RK": "36",
+          "RA": "182",
           "pid": "3864920"
         },
         {
@@ -198,12 +257,27 @@
           "pid": "3847727"
         },
         {
+          "Tid": "3.28,78",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "38",
+          "RA": "287",
+          "pid": "3962937",
+          "splits": [
+            "47,38",
+            "51,82",
+            "1.06,51",
+            "43,07"
+          ]
+        },
+        {
           "Tid": "3.35,91",
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "43",
-          "RA": "268",
+          "RK": "",
+          "RA": "",
           "pid": "3865071"
         }
       ]
@@ -217,7 +291,7 @@
           "Sted": "Jessheim",
           "Basseng": "25m",
           "RK": "160",
-          "RA": "770",
+          "RA": "772",
           "pid": "3862015"
         },
         {
@@ -261,8 +335,8 @@
           "Dato": "08.02.2026",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "47",
-          "RA": "199",
+          "RK": "58",
+          "RA": "254",
           "pid": "3864968"
         }
       ]
