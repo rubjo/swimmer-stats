@@ -4,18 +4,27 @@
   "club": "Bodø SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-07T23:07:28.902Z",
+  "timestamp": "2026-06-10T07:43:34.252Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "47,47",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "107",
+          "RA": "1666",
+          "pid": "3965088"
+        },
+        {
           "Tid": "49,21",
           "Dato": "18.01.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "111",
-          "RA": "1686",
+          "RK": "",
+          "RA": "",
           "pid": "3846558"
         },
         {
@@ -33,7 +42,7 @@
           "Sted": "Tverlandet",
           "Basseng": "25m",
           "RK": "",
-          "RA": "2075",
+          "RA": "2076",
           "pid": "3777437"
         },
         {
@@ -51,12 +60,21 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "51,94",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "40",
+          "RA": "789",
+          "pid": "3964875"
+        },
+        {
           "Tid": "54,46",
           "Dato": "15.02.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "47",
-          "RA": "822",
+          "RK": "",
+          "RA": "",
           "pid": "3876074"
         },
         {
@@ -83,12 +101,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.43,40",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "86",
+          "RA": "1414",
+          "pid": "3965408",
+          "splits": [
+            "49,54",
+            "53,86"
+          ]
+        },
+        {
           "Tid": "2.00,27",
           "Dato": "11.10.2025",
           "Sted": "Bodø",
           "Basseng": "25m",
           "RK": "",
-          "RA": "1764",
+          "RA": "1765",
           "pid": "3779961"
         },
         {
@@ -96,8 +127,8 @@
           "Dato": "11.01.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "107",
-          "RA": "1508",
+          "RK": "",
+          "RA": "",
           "pid": "3845575"
         },
         {
