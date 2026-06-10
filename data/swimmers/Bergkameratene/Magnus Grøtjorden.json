@@ -4,18 +4,27 @@
   "club": "Bergkameratene",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-07T08:41:32.266Z",
+  "timestamp": "2026-06-10T09:17:04.000Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "27,11",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "1",
+          "RA": "244",
+          "pid": "3956442"
+        },
+        {
           "Tid": "28,39",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "1",
-          "RA": "339",
+          "RK": "",
+          "RA": "",
           "pid": "3849721"
         },
         {
@@ -60,6 +69,15 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "30,73",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "2",
+          "RA": "328",
+          "pid": "3956013"
+        },
+        {
           "Tid": "32,65",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
@@ -91,6 +109,15 @@
     {
       "distanse": "50m Rygg",
       "races": [
+        {
+          "Tid": "33,17",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "1",
+          "RA": "162",
+          "pid": "3956187"
+        },
         {
           "Tid": "33,84",
           "Dato": "24.01.2026",
@@ -151,6 +178,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "41,71",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "15",
+          "RA": "358",
+          "pid": "3956295"
+        },
+        {
           "Tid": "41,98",
           "Dato": "09.11.2025",
           "Sted": "Gol",
@@ -174,12 +210,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.02,34",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "1",
+          "RA": "312",
+          "pid": "3957331",
+          "splits": [
+            "30,01",
+            "32,33"
+          ]
+        },
+        {
           "Tid": "1.06,45",
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "4",
-          "RA": "390",
+          "RK": "",
+          "RA": "",
           "pid": "3851109"
         },
         {
@@ -220,7 +269,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "RK": "5",
-          "RA": "290",
+          "RA": "292",
           "pid": "3952861"
         },
         {
@@ -283,8 +332,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "12",
-          "RA": "257",
+          "RK": "17",
+          "RA": "293",
           "pid": "3850718"
         }
       ]
@@ -312,7 +361,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "RK": "4",
-          "RA": "172",
+          "RA": "173",
           "pid": "3954313"
         },
         {
@@ -323,6 +372,21 @@
           "RK": "",
           "RA": "",
           "pid": "3923269"
+        },
+        {
+          "Tid": "2.41,63",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "RK": "4",
+          "RA": "155",
+          "pid": "3958518",
+          "splits": [
+            "32,23",
+            "42,24",
+            "50,14",
+            "37,02"
+          ]
         },
         {
           "Tid": "2.50,84",
