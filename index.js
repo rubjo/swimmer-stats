@@ -178,6 +178,12 @@ async function runPass(mode) {
    */
   async function replacePage() {
     console.log(color(C.yellow, `    Creating new page after stuck state...`));
+    // Attempt to close the old page, but don't wait if it's stuck.
+    try {
+      await withTimeout(page.close(), 5_000, "close old page");
+    } catch {
+      // Old page CDP session is hung — abandon it.
+    }
     const p = await browser.newPage();
     await p.setUserAgent(
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
@@ -632,13 +638,10 @@ async function runPass(mode) {
     ),
   );
 
-  // Don't let a stuck browser.close() prevent the process from exiting.
-  try {
-    await withTimeout(browser.close(), 10_000, "browser close");
-  } catch {
-    // All work is done — force exit if the browser won't close cleanly.
-    process.exit(0);
-  }
+  // All work is done — force exit immediately.
+  // Do NOT attempt browser.close() — orphaned pages from timeout recovery
+  // may have stuck CDP sessions that would hang the shutdown indefinitely.
+  process.exit(0);
 }
 
 /* ─── Entry point ────────────────────────────────────────────────── */
