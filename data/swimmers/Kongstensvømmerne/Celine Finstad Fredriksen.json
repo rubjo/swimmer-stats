@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-07T22:58:11.812Z",
+  "timestamp": "2026-06-10T00:50:14.214Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "95",
-          "RA": "977",
+          "RK": "",
+          "RA": "",
           "pid": "3961472"
         }
       ]
@@ -28,8 +28,8 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "70",
-          "RA": "598",
+          "RK": "",
+          "RA": "",
           "pid": "3961088"
         }
       ]
@@ -44,7 +44,11 @@
           "Basseng": "50m",
           "RK": "64",
           "RA": "459",
-          "pid": "3961725"
+          "pid": "3961725",
+          "splits": [
+            "56,64",
+            "1.00,90"
+          ]
         }
       ]
     }
