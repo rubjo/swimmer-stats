@@ -4,7 +4,7 @@
   "club": "Aalesunds SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-07T23:22:05.468Z",
+  "timestamp": "2026-06-10T11:36:46.053Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "14.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "161",
-          "RA": "1617",
+          "RK": "162",
+          "RA": "1626",
           "pid": "3889301"
         }
       ]
@@ -28,8 +28,8 @@
           "Dato": "15.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "105",
-          "RA": "866",
+          "RK": "106",
+          "RA": "879",
           "pid": "3889156"
         }
       ]
@@ -43,8 +43,12 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "RK": "160",
-          "RA": "1459",
-          "pid": "3889659"
+          "RA": "1463",
+          "pid": "3889659",
+          "splits": [
+            "50,60",
+            "58,19"
+          ]
         }
       ]
     },
@@ -56,9 +60,13 @@
           "Dato": "15.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "149",
-          "RA": "1145",
-          "pid": "3889544"
+          "RK": "150",
+          "RA": "1150",
+          "pid": "3889544",
+          "splits": [
+            "1.20,87",
+            "1.32,35"
+          ]
         }
       ]
     }
