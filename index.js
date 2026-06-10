@@ -348,6 +348,9 @@ async function runPass(mode) {
     return false;
   }
 
+  let consecutiveTimeouts = 0;
+  const MAX_REPLACEMENTS = 3;
+
   while (true) {
     // Ensure the combo has loaded items up to cbIdx before trying to read.
     // After a page reload, only the first batch is loaded.  The
@@ -365,6 +368,7 @@ async function runPass(mode) {
         60_000,
         `loadUntilIdx(${cbIdx})`,
       );
+      consecutiveTimeouts = 0; // reset on success
       if (!found) {
         console.log(
           color(C.dim, `    Reached end of swimmer list at index ${cbIdx}`),
@@ -372,6 +376,16 @@ async function runPass(mode) {
         break;
       }
     } catch {
+      consecutiveTimeouts++;
+      if (consecutiveTimeouts >= MAX_REPLACEMENTS) {
+        console.log(
+          color(
+            C.yellow,
+            `    loadUntilIdx timed out ${consecutiveTimeouts} times at index ${cbIdx} — treating as end of list`,
+          ),
+        );
+        break;
+      }
       // loadUntilIdx timed out — the combo's DevExpress callback hung.
       // Create a fresh page with a clean CDP session and retry.
       console.log(
