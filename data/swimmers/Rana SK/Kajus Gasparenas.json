@@ -4,18 +4,27 @@
   "club": "Rana SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-07T23:05:40.927Z",
+  "timestamp": "2026-06-10T01:46:02.860Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "33,41",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "129",
+          "RA": "983",
+          "pid": "3965120"
+        },
+        {
           "Tid": "34,41",
           "Dato": "22.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "149",
-          "RA": "1052",
+          "RK": "",
+          "RA": "",
           "pid": "3879252"
         },
         {
@@ -30,6 +39,29 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "40,11",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "79",
+          "RA": "526",
+          "pid": "3964906"
+        },
+        {
+          "Tid": "44,31",
+          "Dato": "21.02.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3879239"
+        }
+      ]
+    },
+    {
       "distanse": "50m Bryst",
       "races": [
         {
@@ -37,23 +69,18 @@
           "Dato": "21.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "69",
-          "RA": "553",
+          "RK": "70",
+          "RA": "556",
           "pid": "3879246"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
+        },
         {
-          "Tid": "44,31",
-          "Dato": "21.02.2026",
-          "Sted": "Mo i Rana",
+          "Tid": "41,01",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
           "Basseng": "25m",
-          "RK": "109",
-          "RA": "613",
-          "pid": "3879239"
+          "RK": "",
+          "RA": "",
+          "pid": "3965010"
         }
       ]
     },
@@ -61,12 +88,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.17,06",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "150",
+          "RA": "909",
+          "pid": "3965375",
+          "splits": [
+            "34,35",
+            "42,71"
+          ]
+        },
+        {
           "Tid": "1.22,81",
           "Dato": "21.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "185",
-          "RA": "1069",
+          "RK": "",
+          "RA": "",
           "pid": "3879262"
         },
         {
@@ -75,7 +115,7 @@
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "RK": "180",
-          "RA": "1342",
+          "RA": "1343",
           "pid": "3824586"
         }
       ]
