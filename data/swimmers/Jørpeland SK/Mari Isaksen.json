@@ -4,7 +4,7 @@
   "club": "Jørpeland SK",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-06-07T23:51:28.764Z",
+  "timestamp": "2026-06-11T00:18:09.526Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -92,9 +92,13 @@
           "Dato": "05.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "108",
-          "RA": "765",
-          "pid": "3957751"
+          "RK": "",
+          "RA": "",
+          "pid": "3957751",
+          "splits": [
+            "43,14",
+            "49,02"
+          ]
         }
       ]
     },
@@ -108,7 +112,11 @@
           "Basseng": "50m",
           "RK": "67",
           "RA": "568",
-          "pid": "3957294"
+          "pid": "3957294",
+          "splits": [
+            "57,55",
+            "1.14,53"
+          ]
         }
       ]
     }
