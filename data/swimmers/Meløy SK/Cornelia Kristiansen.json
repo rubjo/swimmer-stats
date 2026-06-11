@@ -4,11 +4,20 @@
   "club": "Meløy SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-08T00:33:33.680Z",
+  "timestamp": "2026-06-11T07:28:27.214Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "34,82",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "48",
+          "RA": "868",
+          "pid": "3965170"
+        },
         {
           "Tid": "38,56",
           "Dato": "23.11.2025",
@@ -118,8 +127,8 @@
           "Dato": "21.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "56",
-          "RA": "585",
+          "RK": "57",
+          "RA": "594",
           "pid": "3877961"
         },
         {
@@ -200,6 +209,15 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "43,35",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "67",
+          "RA": "886",
+          "pid": "3964831"
+        },
+        {
           "Tid": "48,56",
           "Dato": "22.02.2026",
           "Sted": "Mo i Rana",
@@ -240,6 +258,15 @@
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "44,35",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "28",
+          "RA": "580",
+          "pid": "3965044"
+        },
         {
           "Tid": "49,13",
           "Dato": "22.11.2025",
@@ -327,6 +354,19 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.17,04",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "36",
+          "RA": "674",
+          "pid": "3965507",
+          "splits": [
+            "38,03",
+            "39,01"
+          ]
+        },
+        {
           "Tid": "1.26,22",
           "Dato": "22.11.2025",
           "Sted": "Mo i Rana",
@@ -365,15 +405,64 @@
       ]
     },
     {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.27,34",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "22",
+          "RA": "307",
+          "pid": "3965285",
+          "splits": [
+            "43,93",
+            "43,41"
+          ]
+        },
+        {
+          "Tid": "1.42,31",
+          "Dato": "16.03.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3660754"
+        },
+        {
+          "Tid": "1.56,60",
+          "Dato": "02.11.2024",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1021",
+          "pid": "3566003"
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
+        {
+          "Tid": "1.28,36",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "27",
+          "RA": "427",
+          "pid": "3965619",
+          "splits": [
+            "43,06",
+            "45,30"
+          ]
+        },
         {
           "Tid": "1.32,70",
           "Dato": "21.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "47",
-          "RA": "529",
+          "RK": "",
+          "RA": "",
           "pid": "3878449"
         },
         {
@@ -432,7 +521,7 @@
           "Sted": "Bodø",
           "Basseng": "25m",
           "RK": "36",
-          "RA": "546",
+          "RA": "547",
           "pid": "3909723"
         },
         {
@@ -542,29 +631,6 @@
       ]
     },
     {
-      "distanse": "100m Rygg",
-      "races": [
-        {
-          "Tid": "1.42,31",
-          "Dato": "16.03.2025",
-          "Sted": "Tromsø",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3660754"
-        },
-        {
-          "Tid": "1.56,60",
-          "Dato": "02.11.2024",
-          "Sted": "Sortland",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "1021",
-          "pid": "3566003"
-        }
-      ]
-    },
-    {
       "distanse": "200m Individuell medley",
       "races": [
         {
@@ -646,8 +712,23 @@
           "Sted": "Bodø",
           "Basseng": "25m",
           "RK": "34",
-          "RA": "470",
+          "RA": "472",
           "pid": "3910341"
+        },
+        {
+          "Tid": "3.36,25",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3965768",
+          "splits": [
+            "48,22",
+            "56,38",
+            "57,18",
+            "54,47"
+          ]
         },
         {
           "Tid": "3.44,25",
