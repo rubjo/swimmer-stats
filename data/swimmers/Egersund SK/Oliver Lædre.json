@@ -4,7 +4,7 @@
   "club": "Egersund SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-08T01:09:13.276Z",
+  "timestamp": "2026-06-11T17:34:22.668Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -33,7 +33,7 @@
           "Sted": "Egersund",
           "Basseng": "25m",
           "RK": "",
-          "RA": "1940",
+          "RA": "1941",
           "pid": "3745206"
         }
       ]
@@ -46,8 +46,8 @@
           "Dato": "05.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "17",
-          "RA": "445",
+          "RK": "",
+          "RA": "",
           "pid": "3956188"
         },
         {
@@ -70,8 +70,12 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "22",
-          "RA": "784",
-          "pid": "3957348"
+          "RA": "787",
+          "pid": "3957348",
+          "splits": [
+            "43,34",
+            "50,82"
+          ]
         },
         {
           "Tid": "1.40,78",
@@ -80,7 +84,11 @@
           "Basseng": "50m",
           "RK": "",
           "RA": "",
-          "pid": "3851144"
+          "pid": "3851144",
+          "splits": [
+            "46,52",
+            "54,26"
+          ]
         }
       ]
     }

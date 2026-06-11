@@ -4,7 +4,7 @@
   "club": "Sandefjord SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-08T01:09:07.808Z",
+  "timestamp": "2026-06-11T17:34:16.638Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "RK": "178",
-          "RA": "2031",
+          "RA": "2032",
           "pid": "3701761"
         },
         {
@@ -52,8 +52,12 @@
           "Sted": "Sandefjord",
           "Basseng": "25m",
           "RK": "159",
-          "RA": "1780",
-          "pid": "3689086"
+          "RA": "1781",
+          "pid": "3689086",
+          "splits": [
+            "57,61",
+            "1.07,60"
+          ]
         }
       ]
     }
