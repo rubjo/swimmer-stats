@@ -4,7 +4,7 @@
   "club": "Kongsvinger SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-08T01:32:52.072Z",
+  "timestamp": "2026-06-11T20:33:04.106Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -33,7 +33,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "109",
-          "RA": "1014",
+          "RA": "1015",
           "pid": "3961448"
         },
         {
@@ -92,7 +92,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "76",
-          "RA": "620",
+          "RA": "621",
           "pid": "3961072"
         }
       ]
@@ -138,8 +138,12 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "90",
-          "RA": "868",
-          "pid": "3962176"
+          "RA": "869",
+          "pid": "3962176",
+          "splits": [
+            "48,43",
+            "1.00,78"
+          ]
         }
       ]
     },
@@ -153,7 +157,11 @@
           "Basseng": "25m",
           "RK": "",
           "RA": "1118",
-          "pid": "3585667"
+          "pid": "3585667",
+          "splits": [
+            "1.00,03",
+            "1.11,22"
+          ]
         }
       ]
     }
