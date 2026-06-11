@@ -4,7 +4,7 @@
   "club": "Sør-Varanger SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-08T01:25:44.253Z",
+  "timestamp": "2026-06-11T19:39:05.290Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -23,8 +23,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kirkenes",
           "Basseng": "25m",
-          "RK": "98",
-          "RA": "1377",
+          "RK": "99",
+          "RA": "1388",
           "pid": "3857412"
         },
         {
@@ -33,7 +33,7 @@
           "Sted": "Tromsø",
           "Basseng": "50m",
           "RK": "45",
-          "RA": "866",
+          "RA": "869",
           "pid": "3898502"
         },
         {
@@ -51,7 +51,7 @@
           "Sted": "Longyearbyen",
           "Basseng": "25m",
           "RK": "106",
-          "RA": "1768",
+          "RA": "1769",
           "pid": "3814422"
         },
         {
@@ -97,8 +97,12 @@
           "Sted": "Tromsø",
           "Basseng": "50m",
           "RK": "41",
-          "RA": "758",
-          "pid": "3898999"
+          "RA": "761",
+          "pid": "3898999",
+          "splits": [
+            "41,78",
+            "48,46"
+          ]
         }
       ]
     }
