@@ -4,7 +4,7 @@
   "club": "Vennesla SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-08T00:59:09.515Z",
+  "timestamp": "2026-06-11T12:43:27.227Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "62",
-          "RA": "948",
+          "RA": "951",
           "pid": "3849934"
         },
         {
@@ -33,7 +33,7 @@
           "Sted": "Lillesand",
           "Basseng": "25m",
           "RK": "160",
-          "RA": "1949",
+          "RA": "1950",
           "pid": "3793643"
         },
         {
@@ -56,7 +56,7 @@
           "Sted": "Vennesla",
           "Basseng": "25m",
           "RK": "161",
-          "RA": "1315",
+          "RA": "1321",
           "pid": "3927642"
         },
         {
@@ -88,8 +88,12 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "61",
-          "RA": "833",
-          "pid": "3851430"
+          "RA": "836",
+          "pid": "3851430",
+          "splits": [
+            "46,57",
+            "57,08"
+          ]
         }
       ]
     },
@@ -102,17 +106,25 @@
           "Sted": "Vennesla",
           "Basseng": "25m",
           "RK": "132",
-          "RA": "1084",
-          "pid": "3927782"
+          "RA": "1089",
+          "pid": "3927782",
+          "splits": [
+            "1.02,77",
+            "1.08,74"
+          ]
         },
         {
           "Tid": "2.21,54",
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "49",
-          "RA": "504",
-          "pid": "3850865"
+          "RK": "",
+          "RA": "",
+          "pid": "3850865",
+          "splits": [
+            "1.07,06",
+            "1.14,48"
+          ]
         }
       ]
     }
