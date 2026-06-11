@@ -4,7 +4,7 @@
   "club": "Holmestrand IF",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-08T00:09:16.386Z",
+  "timestamp": "2026-06-11T05:36:57.790Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "15.02.2026",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
-          "RK": "158",
-          "RA": "988",
+          "RK": "159",
+          "RA": "994",
           "pid": "3873968"
         }
       ]
@@ -29,7 +29,7 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "150",
-          "RA": "862",
+          "RA": "866",
           "pid": "3894201"
         }
       ]
@@ -42,8 +42,8 @@
           "Dato": "15.02.2026",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
-          "RK": "98",
-          "RA": "618",
+          "RK": "99",
+          "RA": "627",
           "pid": "3873887"
         }
       ]
@@ -57,7 +57,7 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "160",
-          "RA": "881",
+          "RA": "883",
           "pid": "3894334"
         },
         {
@@ -98,8 +98,12 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "RK": "150",
-          "RA": "874",
-          "pid": "3873190"
+          "RA": "880",
+          "pid": "3873190",
+          "splits": [
+            "35,20",
+            "40,54"
+          ]
         },
         {
           "Tid": "1.18,11",
@@ -108,7 +112,11 @@
           "Basseng": "25m",
           "RK": "",
           "RA": "",
-          "pid": "3846229"
+          "pid": "3846229",
+          "splits": [
+            "35,97",
+            "42,14"
+          ]
         }
       ]
     }
