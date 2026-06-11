@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-07T10:39:46.991Z",
+  "timestamp": "2026-06-11T17:18:23.879Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "09.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "67",
-          "RA": "1242",
+          "RK": "68",
+          "RA": "1266",
           "pid": "3948876"
         },
         {
@@ -60,12 +60,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "43,79",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "14",
+          "RA": "725",
+          "pid": "3959578"
+        },
+        {
           "Tid": "43,93",
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "14",
-          "RA": "717",
+          "RK": "",
+          "RA": "",
           "pid": "3948769"
         },
         {
@@ -114,8 +123,8 @@
           "Dato": "26.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "47",
-          "RA": "647",
+          "RK": "50",
+          "RA": "683",
           "pid": "3935839"
         }
       ]
@@ -188,7 +197,7 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "RK": "22",
-          "RA": "638",
+          "RA": "645",
           "pid": "3936231",
           "splits": [
             "46,98",
@@ -209,6 +218,19 @@
           ]
         },
         {
+          "Tid": "1.40,95",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3959960",
+          "splits": [
+            "47,34",
+            "53,61"
+          ]
+        },
+        {
           "Tid": "1.48,81",
           "Dato": "06.12.2025",
           "Sted": "Nadderud",
@@ -224,6 +246,37 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.40,27",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "RK": "51",
+          "RA": "619",
+          "pid": "3960457",
+          "splits": [
+            "49,12",
+            "51,15"
+          ]
+        },
+        {
+          "Tid": "1.43,24",
+          "Dato": "10.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3949368",
+          "splits": [
+            "50,72",
+            "52,52"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -231,8 +284,8 @@
           "Dato": "08.03.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "40",
-          "RA": "434",
+          "RK": "45",
+          "RA": "457",
           "pid": "3885320",
           "splits": [
             "49,12",
@@ -255,24 +308,6 @@
       ]
     },
     {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.43,24",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
-          "Basseng": "25m",
-          "RK": "56",
-          "RA": "603",
-          "pid": "3949368",
-          "splits": [
-            "50,72",
-            "52,52"
-          ]
-        }
-      ]
-    },
-    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -280,8 +315,8 @@
           "Dato": "10.04.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "81",
-          "RA": "859",
+          "RK": "",
+          "RA": "",
           "pid": "3916746",
           "splits": [
             "51,55",
@@ -324,8 +359,8 @@
           "Dato": "26.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "63",
-          "RA": "893",
+          "RK": "",
+          "RA": "",
           "pid": "3936713",
           "splits": [
             "41,09",
@@ -475,7 +510,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "73",
-          "RA": "704",
+          "RA": "706",
           "pid": "3918308",
           "splits": [
             "49,74",

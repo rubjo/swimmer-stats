@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-08T01:07:17.761Z",
+  "timestamp": "2026-06-11T17:20:34.737Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -14,8 +14,8 @@
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "41",
-          "RA": "590",
+          "RK": "",
+          "RA": "",
           "pid": "3961170"
         }
       ]
@@ -29,8 +29,12 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "43",
-          "RA": "772",
-          "pid": "3962031"
+          "RA": "775",
+          "pid": "3962031",
+          "splits": [
+            "40,79",
+            "51,30"
+          ]
         }
       ]
     }
