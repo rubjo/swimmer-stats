@@ -4,11 +4,20 @@
   "club": "Fauske SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-08T01:46:41.081Z",
+  "timestamp": "2026-06-11T21:46:49.162Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "39,52",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "223",
+          "RA": "1298",
+          "pid": "3965189"
+        },
         {
           "Tid": "43,57",
           "Dato": "27.04.2025",
@@ -42,6 +51,15 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "41,85",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "115",
+          "RA": "539",
+          "pid": "3964946"
+        },
+        {
           "Tid": "45,14",
           "Dato": "25.04.2026",
           "Sted": "Harstad",
@@ -74,12 +92,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "46,88",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "154",
+          "RA": "781",
+          "pid": "3965059"
+        },
+        {
           "Tid": "49,53",
           "Dato": "25.04.2026",
           "Sted": "Harstad",
           "Basseng": "25m",
-          "RK": "187",
-          "RA": "964",
+          "RK": "",
+          "RA": "",
           "pid": "3940909"
         },
         {
@@ -106,12 +133,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.27,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "200",
+          "RA": "1098",
+          "pid": "3965453",
+          "splits": [
+            "41,13",
+            "45,96"
+          ]
+        },
+        {
           "Tid": "1.34,26",
           "Dato": "25.04.2026",
           "Sted": "Harstad",
           "Basseng": "25m",
-          "RK": "228",
-          "RA": "1282",
+          "RK": "",
+          "RA": "",
           "pid": "3941238"
         },
         {
