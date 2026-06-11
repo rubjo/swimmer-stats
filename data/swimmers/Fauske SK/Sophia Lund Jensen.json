@@ -4,7 +4,7 @@
   "club": "Fauske SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-07T23:59:59.219Z",
+  "timestamp": "2026-06-11T01:24:35.259Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "10.01.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "241",
-          "RA": "1720",
+          "RK": "242",
+          "RA": "1731",
           "pid": "3845428"
+        },
+        {
+          "Tid": "49,55",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3965194"
         },
         {
           "Tid": "50,99",
@@ -73,9 +82,18 @@
           "Dato": "10.01.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "143",
-          "RA": "979",
+          "RK": "145",
+          "RA": "997",
           "pid": "3845300"
+        },
+        {
+          "Tid": "1.01,91",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3964957"
         },
         {
           "Tid": "1.07,56",
@@ -92,12 +110,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.53,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "235",
+          "RA": "1565",
+          "pid": "3965465",
+          "splits": [
+            "51,35",
+            "1.01,74"
+          ]
+        },
+        {
           "Tid": "1.57,20",
           "Dato": "11.01.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "240",
-          "RA": "1585",
+          "RK": "",
+          "RA": "",
           "pid": "3845645"
         },
         {
@@ -117,6 +148,24 @@
           "RK": "",
           "RA": "",
           "pid": "3716044"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.02,79",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "150",
+          "RA": "955",
+          "pid": "3965596",
+          "splits": [
+            "59,08",
+            "1.03,71"
+          ]
         }
       ]
     },
