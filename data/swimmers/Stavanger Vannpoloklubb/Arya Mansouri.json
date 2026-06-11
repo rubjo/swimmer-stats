@@ -4,7 +4,7 @@
   "club": "Stavanger Vannpoloklubb",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-08T01:16:01.640Z",
+  "timestamp": "2026-06-11T18:36:26.331Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "RK": "64",
-          "RA": "1234",
+          "RA": "1240",
           "pid": "3933547"
         },
         {
@@ -24,7 +24,7 @@
           "Sted": "Kopervik",
           "Basseng": "25m",
           "RK": "64",
-          "RA": "1234",
+          "RA": "1240",
           "pid": "3949927"
         },
         {
@@ -47,7 +47,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "37",
-          "RA": "628",
+          "RA": "637",
           "pid": "3946366"
         }
       ]
@@ -61,7 +61,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "99",
-          "RA": "1112",
+          "RA": "1117",
           "pid": "3946524"
         }
       ]
@@ -75,8 +75,12 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "54",
-          "RA": "1078",
-          "pid": "3947384"
+          "RA": "1080",
+          "pid": "3947384",
+          "splits": [
+            "40,48",
+            "42,90"
+          ]
         }
       ]
     },
@@ -89,8 +93,12 @@
           "Sted": "Kopervik",
           "Basseng": "25m",
           "RK": "92",
-          "RA": "939",
-          "pid": "3950009"
+          "RA": "944",
+          "pid": "3950009",
+          "splits": [
+            "56,06",
+            "1.00,14"
+          ]
         }
       ]
     },
@@ -102,9 +110,15 @@
           "Dato": "09.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "72",
-          "RA": "929",
-          "pid": "3947975"
+          "RK": "",
+          "RA": "",
+          "pid": "3947975",
+          "splits": [
+            "42,17",
+            "",
+            "",
+            "46,52"
+          ]
         }
       ]
     }

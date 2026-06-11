@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-08T01:17:21.044Z",
+  "timestamp": "2026-06-11T18:49:25.727Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "103",
-          "RA": "910",
+          "RA": "913",
           "pid": "3961317"
         },
         {
@@ -23,8 +23,8 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "181",
-          "RA": "1538",
+          "RK": "182",
+          "RA": "1546",
           "pid": "3884306"
         }
       ]
@@ -37,8 +37,8 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "101",
-          "RA": "808",
+          "RK": "104",
+          "RA": "825",
           "pid": "3884241"
         },
         {
@@ -46,8 +46,8 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "62",
-          "RA": "486",
+          "RK": "",
+          "RA": "",
           "pid": "3960994"
         }
       ]
@@ -60,9 +60,13 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "170",
-          "RA": "1337",
-          "pid": "3884451"
+          "RK": "172",
+          "RA": "1342",
+          "pid": "3884451",
+          "splits": [
+            "46,44",
+            "51,01"
+          ]
         }
       ]
     }
