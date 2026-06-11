@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-08T00:49:28.366Z",
+  "timestamp": "2026-06-11T09:39:02.978Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -38,7 +38,7 @@
           "Sted": "Oslo",
           "Basseng": "50m",
           "RK": "117",
-          "RA": "725",
+          "RA": "726",
           "pid": "3902381"
         }
       ]
@@ -52,8 +52,12 @@
           "Sted": "Oslo",
           "Basseng": "50m",
           "RK": "115",
-          "RA": "724",
-          "pid": "3904654"
+          "RA": "725",
+          "pid": "3904654",
+          "splits": [
+            "40,45",
+            "45,02"
+          ]
         },
         {
           "Tid": "1.25,68",
@@ -61,8 +65,12 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "RK": "187",
-          "RA": "1363",
-          "pid": "3785354"
+          "RA": "1364",
+          "pid": "3785354",
+          "splits": [
+            "39,83",
+            "45,85"
+          ]
         }
       ]
     }
