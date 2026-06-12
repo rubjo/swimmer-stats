@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-08T02:22:47.032Z",
+  "timestamp": "2026-06-12T22:33:23.203Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,8 +28,8 @@
           "Dato": "07.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "67",
-          "RA": "827",
+          "RK": "69",
+          "RA": "840",
           "pid": "3868432"
         },
         {
@@ -47,7 +47,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "32",
-          "RA": "595",
+          "RA": "596",
           "pid": "3961104"
         }
       ]
@@ -60,8 +60,8 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "79",
-          "RA": "1225",
+          "RK": "80",
+          "RA": "1233",
           "pid": "3884295"
         },
         {
@@ -83,9 +83,13 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "21",
+          "RK": "",
           "RA": "427",
-          "pid": "3961729"
+          "pid": "3961729",
+          "splits": [
+            "52,47",
+            "57,55"
+          ]
         }
       ]
     }
