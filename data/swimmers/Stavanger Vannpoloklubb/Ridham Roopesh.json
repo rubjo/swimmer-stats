@@ -4,7 +4,7 @@
   "club": "Stavanger Vannpoloklubb",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-08T02:28:40.634Z",
+  "timestamp": "2026-06-12T23:08:55.128Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "RK": "18",
-          "RA": "1220",
+          "RA": "1226",
           "pid": "3933551"
         },
         {
@@ -47,7 +47,7 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "13",
-          "RA": "614",
+          "RA": "623",
           "pid": "3946369"
         }
       ]
@@ -61,8 +61,12 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "RK": "43",
-          "RA": "1230",
-          "pid": "3947366"
+          "RA": "1233",
+          "pid": "3947366",
+          "splits": [
+            "43,69",
+            "46,39"
+          ]
         }
       ]
     },
@@ -75,8 +79,12 @@
           "Sted": "Kopervik",
           "Basseng": "25m",
           "RK": "26",
-          "RA": "875",
-          "pid": "3950005"
+          "RA": "878",
+          "pid": "3950005",
+          "splits": [
+            "53,51",
+            "58,44"
+          ]
         }
       ]
     },
@@ -88,9 +96,15 @@
           "Dato": "09.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "40",
-          "RA": "949",
-          "pid": "3947977"
+          "RK": "",
+          "RA": "",
+          "pid": "3947977",
+          "splits": [
+            "41,86",
+            "50,11",
+            "53,13",
+            "48,57"
+          ]
         }
       ]
     }
