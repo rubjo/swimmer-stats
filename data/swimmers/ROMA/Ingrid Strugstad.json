@@ -4,7 +4,7 @@
   "club": "ROMA",
   "birthYear": 1960,
   "gender": "female",
-  "timestamp": "2026-06-08T03:19:01.709Z",
+  "timestamp": "2026-06-13T09:40:52.430Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -342,7 +342,11 @@
           "Basseng": "25m",
           "RK": "37",
           "RA": "530",
-          "pid": "1141713"
+          "pid": "1141713",
+          "splits": [
+            "37,84",
+            "45,81"
+          ]
         },
         {
           "Tid": "1.25,17",
@@ -351,7 +355,8 @@
           "Basseng": "25m",
           "RK": "35",
           "RA": "473",
-          "pid": "592689"
+          "pid": "592689",
+          "splits": []
         }
       ]
     }
