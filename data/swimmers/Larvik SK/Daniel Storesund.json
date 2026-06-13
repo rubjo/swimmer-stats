@@ -4,7 +4,7 @@
   "club": "Larvik SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-08T03:16:54.278Z",
+  "timestamp": "2026-06-13T09:24:01.037Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "57",
-          "RA": "417",
+          "RA": "418",
           "pid": "3956495"
         },
         {
@@ -56,7 +56,7 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "65",
-          "RA": "450",
+          "RA": "451",
           "pid": "3956049"
         },
         {
@@ -64,8 +64,8 @@
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
-          "RK": "126",
-          "RA": "760",
+          "RK": "127",
+          "RA": "768",
           "pid": "3950416"
         },
         {
@@ -87,8 +87,8 @@
           "Dato": "07.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "74",
-          "RA": "381",
+          "RK": "",
+          "RA": "",
           "pid": "3956331"
         },
         {
@@ -97,7 +97,7 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "RK": "143",
-          "RA": "755",
+          "RA": "758",
           "pid": "3950608"
         },
         {
@@ -138,8 +138,12 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "67",
-          "RA": "411",
-          "pid": "3957432"
+          "RA": "412",
+          "pid": "3957432",
+          "splits": [
+            "30,67",
+            "35,25"
+          ]
         },
         {
           "Tid": "1.08,34",
@@ -147,8 +151,12 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "RK": "115",
-          "RA": "641",
-          "pid": "3951021"
+          "RA": "644",
+          "pid": "3951021",
+          "splits": [
+            "31,40",
+            "36,94"
+          ]
         }
       ]
     }
