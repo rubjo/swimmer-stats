@@ -4,18 +4,27 @@
   "club": "Drag SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-08T02:39:20.446Z",
+  "timestamp": "2026-06-13T05:07:09.197Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "39,10",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "128",
+          "RA": "1274",
+          "pid": "3965198"
+        },
+        {
           "Tid": "42,72",
           "Dato": "22.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "185",
-          "RA": "1503",
+          "RK": "",
+          "RA": "",
           "pid": "3878100"
         },
         {
@@ -33,12 +42,21 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "53,81",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "134",
+          "RA": "951",
+          "pid": "3964962"
+        },
+        {
           "Tid": "58,78",
           "Dato": "21.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "146",
-          "RA": "993",
+          "RK": "",
+          "RA": "",
           "pid": "3877972"
         },
         {
@@ -53,15 +71,42 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,48",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "190",
+          "RA": "1364",
+          "pid": "3964853"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.28,51",
+          "Dato": "07.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "119",
+          "RA": "1132",
+          "pid": "3965467",
+          "splits": [
+            "42,29",
+            "46,22"
+          ]
+        },
         {
           "Tid": "1.37,47",
           "Dato": "21.02.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
-          "RK": "176",
-          "RA": "1356",
+          "RK": "",
+          "RA": "",
           "pid": "3878399"
         },
         {
@@ -76,6 +121,42 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.48,14",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "121",
+          "RA": "831",
+          "pid": "3965600",
+          "splits": [
+            "50,53",
+            "57,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.53,08",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "104",
+          "RA": "681",
+          "pid": "3965270",
+          "splits": [
+            "55,54",
+            "57,54"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
         {
@@ -84,7 +165,7 @@
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "RK": "191",
-          "RA": "1252",
+          "RA": "1255",
           "pid": "3878686"
         }
       ]
