@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-08T06:33:14.801Z",
+  "timestamp": "2026-06-14T15:48:20.221Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,7 +15,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "185",
-          "RA": "967",
+          "RA": "968",
           "pid": "3961522"
         }
       ]
@@ -29,7 +29,7 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "114",
-          "RA": "599",
+          "RA": "600",
           "pid": "3961115"
         }
       ]
@@ -57,8 +57,12 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "RK": "167",
-          "RA": "832",
-          "pid": "3962258"
+          "RA": "833",
+          "pid": "3962258",
+          "splits": [
+            "46,28",
+            "55,54"
+          ]
         }
       ]
     }
