@@ -4,11 +4,20 @@
   "club": "Trondhjems SLK",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-06-08T06:30:12.791Z",
+  "timestamp": "2026-06-14T09:05:03.949Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "32,22",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "82",
+          "RA": "530",
+          "pid": "3966442"
+        },
         {
           "Tid": "32,66",
           "Dato": "25.04.2026",
@@ -32,8 +41,8 @@
           "Dato": "25.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "125",
-          "RA": "760",
+          "RK": "",
+          "RA": "",
           "pid": "3854521"
         },
         {
@@ -128,7 +137,7 @@
           "Sted": "Hommelvik",
           "Basseng": "25m",
           "RK": "94",
-          "RA": "603",
+          "RA": "610",
           "pid": "3871855"
         },
         {
@@ -155,7 +164,7 @@
           "Sted": "Hommelvik",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "947",
           "pid": "3804767"
         },
         {
@@ -173,7 +182,7 @@
           "Sted": "Hamar",
           "Basseng": "50m",
           "RK": "",
-          "RA": "",
+          "RA": "640",
           "pid": "3717760"
         },
         {
@@ -197,6 +206,38 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "38,54",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "63",
+          "RA": "369",
+          "pid": "3966287"
+        },
+        {
+          "Tid": "46,86",
+          "Dato": "17.01.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "1104",
+          "pid": "3606492"
+        },
+        {
+          "Tid": "53,65",
+          "Dato": "14.06.2024",
+          "Sted": "Ankerskogen svømmehall",
+          "Basseng": "50m",
+          "RK": "114",
+          "RA": "762",
+          "pid": "3491781"
+        }
+      ]
+    },
+    {
       "distanse": "50m Bryst",
       "races": [
         {
@@ -205,7 +246,7 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "97",
-          "RA": "538",
+          "RA": "544",
           "pid": "3854340"
         },
         {
@@ -301,31 +342,21 @@
       ]
     },
     {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "46,86",
-          "Dato": "17.01.2025",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3606492"
-        },
-        {
-          "Tid": "53,65",
-          "Dato": "14.06.2024",
-          "Sted": "Ankerskogen svømmehall",
-          "Basseng": "50m",
-          "RK": "114",
-          "RA": "762",
-          "pid": "3491781"
-        }
-      ]
-    },
-    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.11,97",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "80",
+          "RA": "459",
+          "pid": "3966869",
+          "splits": [
+            "33,95",
+            "38,02"
+          ]
+        },
         {
           "Tid": "1.12,31",
           "Dato": "25.04.2026",
@@ -340,8 +371,8 @@
           "Dato": "23.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "88",
-          "RA": "480",
+          "RK": "",
+          "RA": "",
           "pid": "3855619"
         },
         {
@@ -391,7 +422,7 @@
           "Sted": "Hommelvik",
           "Basseng": "25m",
           "RK": "36",
-          "RA": "316",
+          "RA": "323",
           "pid": "3872183"
         },
         {
@@ -673,7 +704,7 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "105",
-          "RA": "482",
+          "RA": "483",
           "pid": "3856782"
         },
         {
@@ -717,8 +748,8 @@
           "Dato": "13.06.2025",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "51",
-          "RA": "287",
+          "RK": "",
+          "RA": "",
           "pid": "3722523"
         },
         {
@@ -749,8 +780,8 @@
           "Dato": "11.04.2026",
           "Sted": "Stjørdal",
           "Basseng": "25m",
-          "RK": "114",
-          "RA": "472",
+          "RK": "115",
+          "RA": "475",
           "pid": "3925416"
         },
         {
