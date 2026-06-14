@@ -4,18 +4,27 @@
   "club": "Trondhjems SLK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-13T19:46:05.642Z",
+  "timestamp": "2026-06-14T20:03:17.350Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "34,34",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "88",
+          "RA": "810",
+          "pid": "3966458"
+        },
+        {
           "Tid": "34,58",
           "Dato": "14.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "90",
-          "RA": "827",
+          "RK": "",
+          "RA": "",
           "pid": "3889335"
         },
         {
@@ -195,6 +204,15 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "40,21",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "67",
+          "RA": "460",
+          "pid": "3966298"
+        },
+        {
           "Tid": "41,56",
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
@@ -208,8 +226,8 @@
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "85",
-          "RA": "548",
+          "RK": "",
+          "RA": "",
           "pid": "3879492"
         },
         {
@@ -218,7 +236,7 @@
           "Sted": "Hommelvik",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1000",
           "pid": "3804814"
         },
         {
@@ -281,12 +299,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "43,09",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "125",
+          "RA": "881",
+          "pid": "3966245"
+        },
+        {
           "Tid": "45,55",
           "Dato": "01.11.2025",
           "Sted": "Hommelvik",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1219",
           "pid": "3804774"
         },
         {
@@ -330,6 +357,15 @@
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "50,03",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3966364"
+        },
         {
           "Tid": "50,82",
           "Dato": "07.06.2026",
@@ -398,6 +434,19 @@
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.14,17",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "45",
+          "RA": "555",
+          "pid": "3966901",
+          "splits": [
+            "35,91",
+            "38,26"
+          ]
+        },
         {
           "Tid": "1.16,72",
           "Dato": "07.06.2026",
@@ -521,12 +570,25 @@
       "distanse": "100m Rygg",
       "races": [
         {
+          "Tid": "1.26,84",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "40",
+          "RA": "301",
+          "pid": "3966615",
+          "splits": [
+            "42,81",
+            "44,03"
+          ]
+        },
+        {
           "Tid": "1.29,21",
           "Dato": "07.02.2026",
           "Sted": "Hommelvik",
           "Basseng": "25m",
-          "RK": "50",
-          "RA": "350",
+          "RK": "",
+          "RA": "",
           "pid": "3872099",
           "splits": [
             "42,29",
@@ -686,8 +748,8 @@
           "Dato": "07.02.2026",
           "Sted": "Hommelvik",
           "Basseng": "25m",
-          "RK": "104",
-          "RA": "659",
+          "RK": "107",
+          "RA": "670",
           "pid": "3872185",
           "splits": [
             "44,94",
@@ -757,7 +819,7 @@
           "Sted": "Stjørdal",
           "Basseng": "25m",
           "RK": "109",
-          "RA": "656",
+          "RA": "657",
           "pid": "3924771",
           "splits": [
             "44,92",
@@ -861,6 +923,19 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.50,18",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3966722",
+          "splits": [
+            "52,15",
+            "58,03"
+          ]
+        },
+        {
           "Tid": "1.52,88",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
@@ -957,12 +1032,27 @@
       "distanse": "200m Fri",
       "races": [
         {
+          "Tid": "2.44,97",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "57",
+          "RA": "524",
+          "pid": "3967172",
+          "splits": [
+            "38,50",
+            "43,32",
+            "42,40",
+            "40,75"
+          ]
+        },
+        {
           "Tid": "2.45,98",
           "Dato": "15.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "60",
-          "RA": "539",
+          "RK": "",
+          "RA": "",
           "pid": "3890037",
           "splits": [
             "37,94",
@@ -1182,7 +1272,7 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "RK": "120",
-          "RA": "661",
+          "RA": "662",
           "pid": "3890131",
           "splits": [
             "43,52",
@@ -1256,8 +1346,8 @@
           "Dato": "13.06.2025",
           "Sted": "Hamar",
           "Basseng": "50m",
-          "RK": "43",
-          "RA": "362",
+          "RK": "",
+          "RA": "",
           "pid": "3722535",
           "splits": [
             "51,97",
@@ -1322,13 +1412,28 @@
           "Sted": "Stjørdal",
           "Basseng": "25m",
           "RK": "125",
-          "RA": "640",
+          "RA": "644",
           "pid": "3925549",
           "splits": [
             "49,49",
             "58,13",
             "57,58",
             "57,45"
+          ]
+        },
+        {
+          "Tid": "3.50,73",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967033",
+          "splits": [
+            "52,69",
+            "1.00,78",
+            "1.00,13",
+            "57,13"
           ]
         },
         {
@@ -1626,8 +1731,8 @@
           "Dato": "25.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "21",
+          "RA": "109",
           "pid": "3856953",
           "splits": [
             "49,75",
@@ -1650,8 +1755,8 @@
           "Dato": "24.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "17",
+          "RA": "120",
           "pid": "3857088",
           "splits": [
             "40,90",

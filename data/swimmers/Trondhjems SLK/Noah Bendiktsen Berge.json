@@ -4,19 +4,42 @@
   "club": "Trondhjems SLK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-13T16:03:42.817Z",
+  "timestamp": "2026-06-14T19:53:44.640Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "35,67",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "101",
+          "RA": "1155",
+          "pid": "3966400"
+        },
+        {
           "Tid": "38,71",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "144",
-          "RA": "1329",
+          "RK": "",
+          "RA": "",
           "pid": "3882746"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "45,76",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "80",
+          "RA": "665",
+          "pid": "3966264"
         }
       ]
     },
@@ -24,12 +47,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "51,35",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "135",
+          "RA": "1042",
+          "pid": "3966318"
+        },
+        {
           "Tid": "53,53",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "146",
-          "RA": "1107",
+          "RK": "",
+          "RA": "",
           "pid": "3882745"
         }
       ]
@@ -38,12 +70,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.24,38",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3966783",
+          "splits": [
+            "40,55",
+            "43,83"
+          ]
+        },
+        {
           "Tid": "1.30,23",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "152",
-          "RA": "1234",
+          "RK": "",
+          "RA": "",
           "pid": "3882747",
           "splits": [
             "42,29",

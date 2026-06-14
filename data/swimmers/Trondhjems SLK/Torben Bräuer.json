@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-13T16:17:46.489Z",
+  "timestamp": "2026-06-14T20:12:31.666Z",
   "disciplines": [
     {
       "distanse": "50m Butterfly",
@@ -14,8 +14,8 @@
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "87",
-          "RA": "960",
+          "RK": "",
+          "RA": "",
           "pid": "3879405"
         }
       ]
@@ -29,7 +29,7 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "RK": "58",
-          "RA": "548",
+          "RA": "557",
           "pid": "3889143"
         },
         {
@@ -63,12 +63,34 @@
           "RK": "49",
           "RA": "1039",
           "pid": "3813504"
+        },
+        {
+          "Tid": "47,14",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "87",
+          "RA": "885",
+          "pid": "3966320"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.15,29",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "68",
+          "RA": "872",
+          "pid": "3966777",
+          "splits": [
+            "36,18",
+            "39,11"
+          ]
+        },
         {
           "Tid": "1.22,84",
           "Dato": "08.11.2025",
@@ -98,15 +120,46 @@
       ]
     },
     {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.31,16",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "37",
+          "RA": "365",
+          "pid": "3966589",
+          "splits": [
+            "45,18",
+            "45,98"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "100m Butterfly",
       "races": [
+        {
+          "Tid": "1.32,71",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "71",
+          "RA": "669",
+          "pid": "3966503",
+          "splits": [
+            "39,47",
+            "53,24"
+          ]
+        },
         {
           "Tid": "1.38,94",
           "Dato": "07.02.2026",
           "Sted": "Hommelvik",
           "Basseng": "25m",
-          "RK": "85",
-          "RA": "726",
+          "RK": "",
+          "RA": "",
           "pid": "3872011",
           "splits": [
             "41,59",
@@ -136,8 +189,8 @@
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "65",
-          "RA": "661",
+          "RK": "66",
+          "RA": "665",
           "pid": "3879769",
           "splits": [
             "48,54",
@@ -202,8 +255,8 @@
           "Dato": "14.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "92",
-          "RA": "623",
+          "RK": "93",
+          "RA": "625",
           "pid": "3889857",
           "splits": [
             "49,85",
