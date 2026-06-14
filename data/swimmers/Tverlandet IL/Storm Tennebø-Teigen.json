@@ -4,18 +4,27 @@
   "club": "Tverlandet IL",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-08T05:54:54.640Z",
+  "timestamp": "2026-06-14T05:36:51.810Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "38,27",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "26",
+          "RA": "1314",
+          "pid": "3965128"
+        },
+        {
           "Tid": "40,00",
           "Dato": "15.03.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "39",
-          "RA": "1391",
+          "RK": "",
+          "RA": "",
           "pid": "3894089"
         },
         {
@@ -51,7 +60,7 @@
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "RK": "",
-          "RA": "1927",
+          "RA": "1928",
           "pid": "3821331"
         },
         {
@@ -69,12 +78,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "59,06",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "86",
+          "RA": "1282",
+          "pid": "3965018"
+        },
+        {
           "Tid": "1.03,68",
           "Dato": "11.01.2026",
           "Sted": "Tverlandet",
           "Basseng": "25m",
-          "RK": "96",
-          "RA": "1329",
+          "RK": "",
+          "RA": "",
           "pid": "3845335"
         }
       ]
@@ -88,7 +106,7 @@
           "Sted": "Harstad",
           "Basseng": "25m",
           "RK": "66",
-          "RA": "1347",
+          "RA": "1361",
           "pid": "3941201"
         },
         {
@@ -99,6 +117,42 @@
           "RK": "",
           "RA": "",
           "pid": "3845628"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.48,28",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "55",
+          "RA": "686",
+          "pid": "3965548",
+          "splits": [
+            "51,49",
+            "56,79"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.09,75",
+          "Dato": "06.06.2026",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "RK": "77",
+          "RA": "1084",
+          "pid": "3965301",
+          "splits": [
+            "1.00,77",
+            "1.08,98"
+          ]
         }
       ]
     }
