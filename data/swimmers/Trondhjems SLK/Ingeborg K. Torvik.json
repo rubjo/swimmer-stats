@@ -4,18 +4,27 @@
   "club": "Trondhjems SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-08T06:04:50.810Z",
+  "timestamp": "2026-06-14T06:31:03.444Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "49,97",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "190",
+          "RA": "1810",
+          "pid": "3966443"
+        },
+        {
           "Tid": "50,18",
           "Dato": "07.03.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "192",
-          "RA": "1793",
+          "RK": "",
+          "RA": "",
           "pid": "3883554"
         },
         {
@@ -37,9 +46,18 @@
           "Dato": "07.03.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "171",
-          "RA": "1512",
+          "RK": "172",
+          "RA": "1521",
           "pid": "3883468"
+        },
+        {
+          "Tid": "1.01,35",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3966349"
         },
         {
           "Tid": "1.06,62",
@@ -53,6 +71,38 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.03,78",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "133",
+          "RA": "1063",
+          "pid": "3966284"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.02,04",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "190",
+          "RA": "1621",
+          "pid": "3966873",
+          "splits": [
+            "58,98",
+            "1.03,06"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -60,8 +110,8 @@
           "Dato": "07.03.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "156",
-          "RA": "777",
+          "RK": "157",
+          "RA": "791",
           "pid": "3883687"
         }
       ]
