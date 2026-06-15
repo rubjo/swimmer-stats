@@ -4,7 +4,7 @@
   "club": "Ytre Søre Sunnmøre SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-14T19:44:53.551Z",
+  "timestamp": "2026-06-15T20:18:33.797Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -51,12 +51,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "31,96",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "32",
+          "RA": "436",
+          "pid": "3968889"
+        },
+        {
           "Tid": "33,68",
           "Dato": "25.04.2026",
           "Sted": "Ålesund",
           "Basseng": "25m",
-          "RK": "61",
-          "RA": "607",
+          "RK": "62",
+          "RA": "612",
           "pid": "3934992"
         },
         {
@@ -74,6 +83,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "35,86",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "13",
+          "RA": "215",
+          "pid": "3969378"
+        },
+        {
           "Tid": "1.04,74",
           "Dato": "25.03.2023",
           "Sted": "Kristiansund",
@@ -88,12 +106,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.07,07",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "53",
+          "RA": "517",
+          "pid": "3971254",
+          "splits": [
+            "31,56",
+            "35,51"
+          ]
+        },
+        {
           "Tid": "1.10,58",
           "Dato": "13.09.2025",
           "Sted": "Ålesund",
           "Basseng": "25m",
-          "RK": "72",
-          "RA": "928",
+          "RK": "",
+          "RA": "",
           "pid": "3746849",
           "splits": [
             "33,12",
@@ -124,7 +155,7 @@
           "Sted": "Stjørdal",
           "Basseng": "25m",
           "RK": "86",
-          "RA": "518",
+          "RA": "525",
           "pid": "3924587",
           "splits": [
             "37,74",
@@ -212,7 +243,7 @@
           "Sted": "Ålesund",
           "Basseng": "25m",
           "RK": "59",
-          "RA": "467",
+          "RA": "470",
           "pid": "3935510",
           "splits": [
             "34,05",
@@ -277,7 +308,7 @@
           "Sted": "Stjørdal",
           "Basseng": "25m",
           "RK": "39",
-          "RA": "279",
+          "RA": "280",
           "pid": "3925823",
           "splits": [
             "36,28",
@@ -504,6 +535,21 @@
             "43,85",
             "45,51",
             "44,35"
+          ]
+        },
+        {
+          "Tid": "2.55,77",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "5",
+          "RA": "93",
+          "pid": "3972086",
+          "splits": [
+            "38,56",
+            "44,29",
+            "45,84",
+            "47,08"
           ]
         },
         {
