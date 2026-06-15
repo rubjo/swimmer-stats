@@ -4,18 +4,27 @@
   "club": "Kattem SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-13T16:27:56.849Z",
+  "timestamp": "2026-06-15T04:50:35.144Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "34,90",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "146",
+          "RA": "881",
+          "pid": "3966484"
+        },
+        {
           "Tid": "37,99",
           "Dato": "07.03.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "209",
-          "RA": "1175",
+          "RK": "",
+          "RA": "",
           "pid": "3883592"
         },
         {
@@ -78,12 +87,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "44,52",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "173",
+          "RA": "946",
+          "pid": "3966256"
+        },
+        {
           "Tid": "49,97",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "212",
-          "RA": "1167",
+          "RK": "",
+          "RA": "",
           "pid": "3879462"
         }
       ]
@@ -97,7 +115,7 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1315",
           "pid": "3729194"
         },
         {
@@ -105,8 +123,8 @@
           "Dato": "23.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "154",
-          "RA": "889",
+          "RK": "156",
+          "RA": "912",
           "pid": "3854240"
         },
         {
@@ -124,12 +142,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.19,88",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "154",
+          "RA": "818",
+          "pid": "3966924",
+          "splits": [
+            "37,23",
+            "42,65"
+          ]
+        },
+        {
           "Tid": "1.25,91",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "194",
-          "RA": "1038",
+          "RK": "",
+          "RA": "",
           "pid": "3879966",
           "splits": [
             "40,34",
@@ -199,7 +230,7 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "107",
-          "RA": "573",
+          "RA": "583",
           "pid": "3883706",
           "splits": [
             "52,72",
@@ -230,7 +261,7 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "194",
-          "RA": "887",
+          "RA": "894",
           "pid": "3854879",
           "splits": [
             "53,78",
