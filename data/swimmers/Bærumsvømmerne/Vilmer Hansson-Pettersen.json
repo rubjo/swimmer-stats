@@ -4,18 +4,27 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-13T17:00:56.997Z",
+  "timestamp": "2026-06-15T09:39:02.707Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "29,59",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "10",
+          "RA": "525",
+          "pid": "3975554"
+        },
+        {
           "Tid": "30,11",
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "8",
-          "RA": "510",
+          "RK": "",
+          "RA": "",
           "pid": "3942536"
         },
         {
@@ -123,12 +132,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "32,62",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "7",
+          "RA": "467",
+          "pid": "3974982"
+        },
+        {
           "Tid": "33,67",
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "10",
-          "RA": "473",
+          "RK": "",
+          "RA": "",
           "pid": "3941733"
         },
         {
@@ -245,12 +263,21 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "36,41",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "13",
+          "RA": "293",
+          "pid": "3975285"
+        },
+        {
           "Tid": "37,77",
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "13",
-          "RA": "283",
+          "RK": "",
+          "RA": "",
           "pid": "3942010"
         },
         {
@@ -281,8 +308,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "24",
-          "RA": "406",
+          "RK": "32",
+          "RA": "452",
           "pid": "3942259"
         },
         {
@@ -354,12 +381,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.07,17",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "16",
+          "RA": "522",
+          "pid": "3976887",
+          "splits": [
+            "32,83",
+            "34,34"
+          ]
+        },
+        {
           "Tid": "1.09,24",
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "19",
-          "RA": "511",
+          "RK": "",
+          "RA": "",
           "pid": "3943461",
           "splits": [
             "33,43",
@@ -411,12 +451,25 @@
       "distanse": "100m Butterfly",
       "races": [
         {
+          "Tid": "1.25,07",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "11",
+          "RA": "335",
+          "pid": "3975963",
+          "splits": [
+            "41,17",
+            "43,90"
+          ]
+        },
+        {
           "Tid": "1.25,58",
           "Dato": "11.04.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "42",
-          "RA": "572",
+          "RA": "577",
           "pid": "3916806",
           "splits": [
             "38,50",
@@ -428,8 +481,8 @@
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "8",
-          "RA": "305",
+          "RK": "",
+          "RA": "",
           "pid": "3942857",
           "splits": [
             "40,40",
@@ -516,8 +569,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "39",
-          "RA": "374",
+          "RK": "51",
+          "RA": "431",
           "pid": "3850724",
           "splits": [
             "50,96",
@@ -592,6 +645,26 @@
       ]
     },
     {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.33,31",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "18",
+          "RA": "385",
+          "pid": "3977920",
+          "splits": [
+            "34,39",
+            "38,76",
+            "40,92",
+            "39,24"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "200m Individuell medley",
       "races": [
         {
@@ -629,8 +702,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "21",
-          "RA": "257",
+          "RK": "26",
+          "RA": "301",
           "pid": "3852912",
           "splits": [
             "39,82",
@@ -694,8 +767,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "16",
-          "RA": "164",
+          "RK": "18",
+          "RA": "187",
           "pid": "3851808",
           "splits": [
             "47,60",
@@ -715,7 +788,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "61",
-          "RA": "510",
+          "RA": "511",
           "pid": "3917644",
           "splits": [
             "47,09",
