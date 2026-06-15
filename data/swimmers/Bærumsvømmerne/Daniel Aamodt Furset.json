@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-13T16:52:57.614Z",
+  "timestamp": "2026-06-15T08:26:07.734Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "90",
-          "RA": "1595",
+          "RK": "91",
+          "RA": "1600",
           "pid": "3949804"
         },
         {
@@ -33,13 +33,36 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "50,05",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "24",
+          "RA": "535",
+          "pid": "3975281"
+        },
+        {
           "Tid": "50,88",
           "Dato": "06.06.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "37",
-          "RA": "776",
+          "RA": "783",
           "pid": "3959480"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "52,99",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "25",
+          "RA": "867",
+          "pid": "3974975"
         }
       ]
     },
@@ -52,7 +75,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "72",
-          "RA": "1240",
+          "RA": "1247",
           "pid": "3959576"
         },
         {
@@ -67,6 +90,24 @@
       ]
     },
     {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,19",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "43",
+          "RA": "990",
+          "pid": "3976857",
+          "splits": [
+            "44,81",
+            "56,38"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -75,7 +116,7 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "RK": "50",
-          "RA": "670",
+          "RA": "671",
           "pid": "3949805",
           "splits": [
             "47,84",
@@ -106,6 +147,24 @@
           "splits": [
             "55,71",
             "1.02,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.05,53",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "34",
+          "RA": "490",
+          "pid": "3976154",
+          "splits": [
+            "56,10",
+            "1.09,43"
           ]
         }
       ]
