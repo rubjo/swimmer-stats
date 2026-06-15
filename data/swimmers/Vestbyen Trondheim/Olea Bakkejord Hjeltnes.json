@@ -4,18 +4,27 @@
   "club": "Vestbyen Trondheim",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-13T20:39:29.669Z",
+  "timestamp": "2026-06-15T09:53:33.806Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "40,78",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "157",
+          "RA": "1394",
+          "pid": "3966433"
+        },
+        {
           "Tid": "41,72",
           "Dato": "07.02.2026",
           "Sted": "Hommelvik",
           "Basseng": "25m",
-          "RK": "168",
-          "RA": "1443",
+          "RK": "",
+          "RA": "",
           "pid": "3871960"
         },
         {
@@ -37,8 +46,8 @@
           "Dato": "07.02.2026",
           "Sted": "Hommelvik",
           "Basseng": "25m",
-          "RK": "143",
-          "RA": "1172",
+          "RK": "145",
+          "RA": "1184",
           "pid": "3871899"
         },
         {
@@ -49,6 +58,24 @@
           "RK": "",
           "RA": "",
           "pid": "3883459"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,51",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "138",
+          "RA": "1025",
+          "pid": "3966680",
+          "splits": [
+            "53,20",
+            "1.00,31"
+          ]
         }
       ]
     }

@@ -4,18 +4,27 @@
   "club": "Skien SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-13T20:44:57.148Z",
+  "timestamp": "2026-06-15T10:00:06.661Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "31,33",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "19",
+          "RA": "358",
+          "pid": "3969745"
+        },
         {
           "Tid": "31,65",
           "Dato": "15.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "25",
-          "RA": "451",
+          "RA": "452",
           "pid": "3894466"
         },
         {
@@ -78,12 +87,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "37,24",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "42",
+          "RA": "469",
+          "pid": "3968915"
+        },
+        {
           "Tid": "41,35",
           "Dato": "07.09.2025",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1000",
           "pid": "3741992"
         }
       ]
@@ -97,7 +115,7 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1087",
           "pid": "3668796"
         },
         {
@@ -160,8 +178,8 @@
           "Dato": "26.04.2025",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "204",
+          "RA": "1479",
           "pid": "3687858",
           "splits": [
             "42,16",
@@ -235,8 +253,8 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "",
+          "RK": "78",
+          "RA": "522",
           "pid": "3852684",
           "splits": [
             "41,98",
@@ -296,12 +314,27 @@
           ]
         },
         {
+          "Tid": "3.13,94",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "39",
+          "RA": "257",
+          "pid": "3973362",
+          "splits": [
+            "39,93",
+            "48,57",
+            "1.02,73",
+            "42,71"
+          ]
+        },
+        {
           "Tid": "3.29,61",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "41",
-          "RA": "292",
+          "RK": "",
+          "RA": "",
           "pid": "3853132",
           "splits": [
             "44,89",
@@ -320,8 +353,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "32",
-          "RA": "176",
+          "RK": "40",
+          "RA": "212",
           "pid": "3851883",
           "splits": [
             "45,21",
@@ -341,7 +374,7 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "RK": "140",
-          "RA": "698",
+          "RA": "702",
           "pid": "3922842",
           "splits": [
             "51,40",
@@ -370,8 +403,8 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "56",
-          "RA": "250",
+          "RK": "72",
+          "RA": "321",
           "pid": "3852140",
           "splits": [
             "54,47",
@@ -462,8 +495,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "45",
-          "RA": "264",
+          "RK": "51",
+          "RA": "315",
           "pid": "3853606",
           "splits": [
             "42,43",
