@@ -4,18 +4,27 @@
   "club": "Ringerike SK",
   "birthYear": 2010,
   "gender": "female",
-  "timestamp": "2026-06-13T21:50:05.021Z",
+  "timestamp": "2026-06-15T22:26:34.787Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "34,95",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "135",
+          "RA": "742",
+          "pid": "3975758"
+        },
+        {
           "Tid": "35,26",
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "925",
+          "RK": "146",
+          "RA": "930",
           "pid": "3868802"
         },
         {
@@ -60,12 +69,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "36,84",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "96",
+          "RA": "446",
+          "pid": "3975129"
+        },
+        {
           "Tid": "38,66",
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
           "RK": "",
-          "RA": "474",
+          "RA": "",
           "pid": "3941863"
         },
         {
@@ -74,7 +92,7 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "RK": "",
-          "RA": "",
+          "RA": "671",
           "pid": "3704579"
         },
         {
@@ -169,8 +187,8 @@
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "477",
+          "RK": "107",
+          "RA": "544",
           "pid": "3943638",
           "splits": [
             "36,60",
@@ -187,8 +205,8 @@
           "Dato": "03.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "169",
+          "RK": "36",
+          "RA": "201",
           "pid": "3942936",
           "splits": [
             "40,02",
@@ -198,15 +216,48 @@
       ]
     },
     {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.41,81",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "60",
+          "RA": "361",
+          "pid": "3976606",
+          "splits": [
+            "46,90",
+            "54,91"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
+        {
+          "Tid": "2.47,83",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "67",
+          "RA": "383",
+          "pid": "3978236",
+          "splits": [
+            "38,95",
+            "42,81",
+            "44,20",
+            "41,87"
+          ]
+        },
         {
           "Tid": "2.51,53",
           "Dato": "08.02.2026",
           "Sted": "Holmen",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "116",
+          "RA": "649",
           "pid": "3870778",
           "splits": [
             "37,0",
@@ -255,8 +306,8 @@
           "Dato": "02.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
-          "RK": "",
-          "RA": "",
+          "RK": "41",
+          "RA": "235",
           "pid": "3944427",
           "splits": [
             "40,47",
