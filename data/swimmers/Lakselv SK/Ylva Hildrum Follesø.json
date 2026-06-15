@@ -4,11 +4,20 @@
   "club": "Lakselv SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-13T16:48:13.262Z",
+  "timestamp": "2026-06-15T08:20:11.483Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "43,43",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967626"
+        },
         {
           "Tid": "45,37",
           "Dato": "06.12.2025",
@@ -55,8 +64,8 @@
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "209",
-          "RA": "1404",
+          "RK": "212",
+          "RA": "1417",
           "pid": "3939426"
         },
         {
@@ -74,12 +83,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.38,80",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3968031",
+          "splits": [
+            "46,86",
+            "51,94"
+          ]
+        },
+        {
           "Tid": "1.43,99",
           "Dato": "26.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "211",
-          "RA": "1457",
+          "RK": "214",
+          "RA": "1470",
           "pid": "3939680",
           "splits": [
             "51,0",
@@ -118,12 +140,25 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "2.04,79",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967865",
+          "splits": [
+            "58,70",
+            "1.06,09"
+          ]
+        },
+        {
           "Tid": "2.09,37",
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "209",
-          "RA": "1290",
+          "RK": "212",
+          "RA": "1299",
           "pid": "3939602",
           "splits": [
             "1.00,35",

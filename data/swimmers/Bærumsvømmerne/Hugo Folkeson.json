@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-13T16:48:01.688Z",
+  "timestamp": "2026-06-15T08:19:57.457Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "99",
-          "RA": "1625",
+          "RK": "100",
+          "RA": "1632",
           "pid": "3936020"
         },
         {
@@ -56,8 +56,22 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "39",
-          "RA": "783",
+          "RA": "790",
           "pid": "3959481"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,23",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "32",
+          "RA": "892",
+          "pid": "3974974"
         }
       ]
     },
@@ -70,8 +84,52 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "79",
-          "RA": "1263",
+          "RA": "1269",
           "pid": "3959573"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.46,14",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "25",
+          "RA": "445",
+          "pid": "3976153",
+          "splits": [
+            "51,60",
+            "54,54"
+          ]
+        },
+        {
+          "Tid": "2.07,04",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "938",
+          "pid": "3799998",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "2.16,75",
+          "Dato": "26.04.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3794298",
+          "splits": [
+            "1.05,41",
+            "1.11,34"
+          ]
         }
       ]
     },
@@ -83,8 +141,8 @@
           "Dato": "06.06.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "90",
-          "RA": "1442",
+          "RK": "91",
+          "RA": "1451",
           "pid": "3960142",
           "splits": [
             "51,11",
@@ -115,42 +173,11 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "RK": "68",
-          "RA": "713",
+          "RA": "714",
           "pid": "3936586",
           "splits": [
             "",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "100m Rygg",
-      "races": [
-        {
-          "Tid": "2.07,04",
-          "Dato": "25.10.2025",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "938",
-          "pid": "3799998",
-          "splits": [
-            "",
-            ""
-          ]
-        },
-        {
-          "Tid": "2.16,75",
-          "Dato": "26.04.2025",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3794298",
-          "splits": [
-            "1.05,41",
-            "1.11,34"
           ]
         }
       ]
