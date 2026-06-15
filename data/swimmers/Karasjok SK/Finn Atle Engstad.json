@@ -4,18 +4,27 @@
   "club": "Karasjok SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-13T16:37:17.430Z",
+  "timestamp": "2026-06-15T05:01:49.677Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "38,94",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967547"
+        },
         {
           "Tid": "40,00",
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
           "RK": "40",
-          "RA": "1399",
+          "RA": "1403",
           "pid": "3939459"
         },
         {
@@ -111,8 +120,31 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "46,21",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967313"
+        }
+      ]
+    },
+    {
       "distanse": "50m Rygg",
       "races": [
+        {
+          "Tid": "46,86",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967370"
+        },
         {
           "Tid": "50,39",
           "Dato": "15.06.2025",
@@ -191,12 +223,21 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "54,29",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967461"
+        },
+        {
           "Tid": "55,69",
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "51",
-          "RA": "1182",
+          "RK": "52",
+          "RA": "1189",
           "pid": "3939409"
         },
         {
@@ -263,8 +304,8 @@
           "Dato": "26.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "47",
-          "RA": "1257",
+          "RK": "48",
+          "RA": "1263",
           "pid": "3939650",
           "splits": [
             "42,33",
@@ -355,12 +396,25 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
+          "Tid": "1.40,13",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3968067",
+          "splits": [
+            "46,78",
+            "53,35"
+          ]
+        },
+        {
           "Tid": "1.45,15",
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
           "RK": "46",
-          "RA": "659",
+          "RA": "660",
           "pid": "3939731",
           "splits": [
             "49,75",
@@ -539,7 +593,7 @@
           "Sted": "Kirkenes",
           "Basseng": "25m",
           "RK": "85",
-          "RA": "1105",
+          "RA": "1111",
           "pid": "3857544",
           "splits": [
             "1.04,05",
@@ -583,7 +637,7 @@
           "Sted": "Hammerfest",
           "Basseng": "25m",
           "RK": "49",
-          "RA": "991",
+          "RA": "995",
           "pid": "3939881",
           "splits": [
             "44,16",

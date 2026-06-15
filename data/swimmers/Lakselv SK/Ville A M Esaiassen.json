@@ -4,19 +4,42 @@
   "club": "Lakselv SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-13T16:39:44.612Z",
+  "timestamp": "2026-06-15T05:04:51.671Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "43,88",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967566"
+        },
+        {
           "Tid": "47,09",
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "194",
-          "RA": "1656",
+          "RK": "196",
+          "RA": "1666",
           "pid": "3939472"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,32",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967384"
         }
       ]
     },
@@ -28,9 +51,18 @@
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "160",
-          "RA": "1238",
+          "RK": "161",
+          "RA": "1245",
           "pid": "3939416"
+        },
+        {
+          "Tid": "58,48",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967473"
         }
       ]
     },
@@ -38,12 +70,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.40,47",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967925",
+          "splits": [
+            "45,51",
+            "54,96"
+          ]
+        },
+        {
           "Tid": "1.47,70",
           "Dato": "26.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "184",
-          "RA": "1456",
+          "RK": "185",
+          "RA": "1465",
           "pid": "3939662",
           "splits": [
             "47,31",

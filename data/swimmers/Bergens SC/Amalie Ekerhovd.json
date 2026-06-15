@@ -4,19 +4,164 @@
   "club": "Bergens SC",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-13T16:34:12.970Z",
+  "timestamp": "2026-06-15T04:58:08.407Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "40,78",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "164",
+          "RA": "1060",
+          "pid": "3969894"
+        },
+        {
           "Tid": "44,37",
           "Dato": "14.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "RK": "253",
-          "RA": "1585",
+          "RK": "258",
+          "RA": "1604",
           "pid": "3897419"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,21",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "103",
+          "RA": "605",
+          "pid": "3969243"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,01",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "123",
+          "RA": "718",
+          "pid": "3969474"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,44",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "139",
+          "RA": "916",
+          "pid": "3969023"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,13",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3971488",
+          "splits": [
+            "44,14",
+            "50,99"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.44,93",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "84",
+          "RA": "507",
+          "pid": "3970397",
+          "splits": [
+            "51,53",
+            "53,40"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,15",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "133",
+          "RA": "629",
+          "pid": "3970850",
+          "splits": [
+            "54,66",
+            "1.02,49"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.32,02",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "113",
+          "RA": "663",
+          "pid": "3973048",
+          "splits": [
+            "44,27",
+            "55,12",
+            "57,77",
+            "54,86"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.41,17",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "63",
+          "RA": "295",
+          "pid": "3971887",
+          "splits": [
+            "52,12",
+            "57,31",
+            "59,05",
+            "52,69"
+          ]
         }
       ]
     }
