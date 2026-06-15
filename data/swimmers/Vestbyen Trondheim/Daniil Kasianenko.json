@@ -4,18 +4,27 @@
   "club": "Vestbyen Trondheim",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-13T21:15:30.022Z",
+  "timestamp": "2026-06-15T11:34:08.730Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "28,11",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "57",
+          "RA": "461",
+          "pid": "3966420"
+        },
+        {
           "Tid": "28,32",
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "61",
-          "RA": "487",
+          "RK": "",
+          "RA": "",
           "pid": "3879655"
         },
         {
@@ -47,8 +56,17 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "81",
-          "RA": "533",
+          "RA": "534",
           "pid": "3879424"
+        },
+        {
+          "Tid": "32,57",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3966227"
         },
         {
           "Tid": "38,89",
@@ -70,8 +88,22 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "RK": "79",
-          "RA": "426",
+          "RA": "427",
           "pid": "3879478"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,20",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "116",
+          "RA": "601",
+          "pid": "3966334"
         }
       ]
     },
@@ -83,8 +115,8 @@
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "94",
-          "RA": "541",
+          "RK": "",
+          "RA": "",
           "pid": "3879894",
           "splits": [
             "30,96",
@@ -102,6 +134,24 @@
           "splits": [
             "31,71",
             "34,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.14,86",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "80",
+          "RA": "380",
+          "pid": "3966535",
+          "splits": [
+            "33,44",
+            "41,42"
           ]
         }
       ]
