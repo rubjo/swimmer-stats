@@ -4,18 +4,27 @@
   "club": "Aalesunds SLK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-13T20:51:57.738Z",
+  "timestamp": "2026-06-15T10:08:08.533Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "37,39",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "95",
+          "RA": "955",
+          "pid": "3969526"
+        },
+        {
           "Tid": "37,82",
           "Dato": "26.04.2026",
           "Sted": "Ålesund",
           "Basseng": "25m",
-          "RK": "133",
-          "RA": "1281",
+          "RK": "135",
+          "RA": "1288",
           "pid": "3935145"
         },
         {
@@ -42,12 +51,21 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "42,66",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "68",
+          "RA": "766",
+          "pid": "3968731"
+        },
+        {
           "Tid": "43,96",
           "Dato": "15.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "RK": "105",
-          "RA": "1058",
+          "RA": "1061",
           "pid": "3889098"
         },
         {
@@ -69,8 +87,8 @@
           "Dato": "25.04.2026",
           "Sted": "Ålesund",
           "Basseng": "25m",
-          "RK": "83",
-          "RA": "677",
+          "RK": "85",
+          "RA": "680",
           "pid": "3935042"
         },
         {
@@ -101,8 +119,8 @@
           "Dato": "28.02.2026",
           "Sted": "Molde",
           "Basseng": "25m",
-          "RK": "155",
-          "RA": "1270",
+          "RK": "156",
+          "RA": "1277",
           "pid": "3882163",
           "splits": [
             "42,04",
@@ -123,6 +141,19 @@
           ]
         },
         {
+          "Tid": "1.39,70",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3970954",
+          "splits": [
+            "47,90",
+            "51,80"
+          ]
+        },
+        {
           "Tid": "1.40,78",
           "Dato": "15.03.2026",
           "Sted": "Kristiansund",
@@ -138,15 +169,46 @@
       ]
     },
     {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.52,53",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "39",
+          "RA": "433",
+          "pid": "3969969",
+          "splits": [
+            "45,64",
+            "1.06,89"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "100m Rygg",
       "races": [
+        {
+          "Tid": "1.53,96",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "73",
+          "RA": "474",
+          "pid": "3970182",
+          "splits": [
+            "52,08",
+            "1.01,88"
+          ]
+        },
         {
           "Tid": "1.55,19",
           "Dato": "14.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
-          "RK": "61",
-          "RA": "551",
+          "RK": "63",
+          "RA": "559",
           "pid": "3889466",
           "splits": [
             "51,20",
@@ -172,12 +234,27 @@
       "distanse": "200m Fri",
       "races": [
         {
+          "Tid": "3.21,76",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "85",
+          "RA": "628",
+          "pid": "3972434",
+          "splits": [
+            "42,49",
+            "50,37",
+            "55,96",
+            "52,94"
+          ]
+        },
+        {
           "Tid": "3.36,17",
           "Dato": "15.03.2026",
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "RK": "153",
-          "RA": "1083",
+          "RA": "1087",
           "pid": "3889998",
           "splits": [
             "44,79",
