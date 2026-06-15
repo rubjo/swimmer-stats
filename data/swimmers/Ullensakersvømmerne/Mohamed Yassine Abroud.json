@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-14T19:30:37.387Z",
+  "timestamp": "2026-06-15T20:03:53.159Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "171",
-          "RA": "1124",
+          "RK": "177",
+          "RA": "1140",
           "pid": "3936060"
         },
         {
@@ -30,6 +30,20 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "40,89",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "71",
+          "RA": "395",
+          "pid": "3975373"
+        }
+      ]
+    },
+    {
       "distanse": "50m Bryst",
       "races": [
         {
@@ -37,9 +51,27 @@
           "Dato": "31.01.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "203",
-          "RA": "1050",
+          "RK": "204",
+          "RA": "1060",
           "pid": "3861503"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,20",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "145",
+          "RA": "848",
+          "pid": "3977116",
+          "splits": [
+            "42,29",
+            "42,91"
+          ]
         }
       ]
     },
@@ -51,8 +83,8 @@
           "Dato": "07.03.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "99",
-          "RA": "545",
+          "RK": "102",
+          "RA": "554",
           "pid": "3885595",
           "splits": [
             "",
@@ -82,8 +114,8 @@
           "Dato": "01.02.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "71",
-          "RA": "404",
+          "RK": "73",
+          "RA": "414",
           "pid": "3861730",
           "splits": [
             "45,55",
@@ -100,8 +132,8 @@
           "Dato": "07.03.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "183",
-          "RA": "879",
+          "RK": "184",
+          "RA": "884",
           "pid": "3885446",
           "splits": [
             "53,82",
