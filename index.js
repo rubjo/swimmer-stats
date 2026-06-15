@@ -21,7 +21,7 @@ const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
-const DELAY_BETWEEN = 250;
+const DELAY_BETWEEN = 50;
 const SKIP_UNTIL_FILE = path.join(DATA_DIR, "skip-until.json");
 const DEFAULT_MODE = (process.env.MODE || "auto").trim();
 
