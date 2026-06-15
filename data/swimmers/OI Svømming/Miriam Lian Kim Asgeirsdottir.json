@@ -4,11 +4,20 @@
   "club": "OI Svømming",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-14T19:41:55.420Z",
+  "timestamp": "2026-06-15T20:15:20.045Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "41,81",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "117",
+          "RA": "1102",
+          "pid": "3975767"
+        },
         {
           "Tid": "47,30",
           "Dato": "25.10.2025",
@@ -52,7 +61,7 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1504",
           "pid": "3799378"
         }
       ]
@@ -74,6 +83,19 @@
     {
       "distanse": "100m Bryst",
       "races": [
+        {
+          "Tid": "1.49,94",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "57",
+          "RA": "509",
+          "pid": "3976632",
+          "splits": [
+            "50,68",
+            "59,26"
+          ]
+        },
         {
           "Tid": "1.52,18",
           "Dato": "25.10.2025",
@@ -110,8 +132,8 @@
           "Dato": "10.04.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "155",
-          "RA": "951",
+          "RK": "156",
+          "RA": "960",
           "pid": "3916970",
           "splits": [
             "55,95",
@@ -128,8 +150,8 @@
           "Dato": "02.03.2025",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "238",
+          "RA": "1971",
           "pid": "3647060",
           "splits": [
             "58,98",
@@ -165,7 +187,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "150",
-          "RA": "909",
+          "RA": "911",
           "pid": "3918529",
           "splits": [
             "53,56",
@@ -199,8 +221,8 @@
           "Dato": "11.04.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "114",
-          "RA": "798",
+          "RK": "117",
+          "RA": "808",
           "pid": "3917899",
           "splits": [
             "52,18",
@@ -234,8 +256,8 @@
           "Dato": "12.04.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "165",
-          "RA": "892",
+          "RK": "167",
+          "RA": "899",
           "pid": "3917429",
           "splits": [
             "57,32",
@@ -270,7 +292,7 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "RK": "173",
-          "RA": "988",
+          "RA": "989",
           "pid": "3848179",
           "splits": [
             "48,78",
