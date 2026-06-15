@@ -4,7 +4,7 @@
   "club": "Nordlysbyen SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-14T19:53:20.122Z",
+  "timestamp": "2026-06-15T20:27:17.099Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "132",
-          "RA": "1590",
+          "RK": "133",
+          "RA": "1609",
           "pid": "3939489"
+        },
+        {
+          "Tid": "48,24",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967616"
         }
       ]
     },
@@ -24,12 +33,21 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "50,01",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967426"
+        },
+        {
           "Tid": "51,14",
           "Dato": "26.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "83",
-          "RA": "871",
+          "RK": "87",
+          "RA": "895",
           "pid": "3939387"
         }
       ]
@@ -42,12 +60,30 @@
           "Dato": "26.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "148",
-          "RA": "1488",
+          "RK": "150",
+          "RA": "1501",
           "pid": "3939698",
           "splits": [
             "48,26",
             "57,82"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.50,70",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967751",
+          "splits": [
+            "53,37",
+            "57,33"
           ]
         }
       ]
