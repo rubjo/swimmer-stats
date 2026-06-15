@@ -4,7 +4,7 @@
   "club": "Skien SK",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-06-13T21:36:02.646Z",
+  "timestamp": "2026-06-15T21:15:01.834Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,18 @@
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "92",
-          "RA": "466",
+          "RK": "99",
+          "RA": "519",
           "pid": "3849883"
+        },
+        {
+          "Tid": "30,07",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3969682"
         },
         {
           "Tid": "30,87",
@@ -56,16 +65,25 @@
           "Sted": "Sandefjord",
           "Basseng": "25m",
           "RK": "57",
-          "RA": "319",
+          "RA": "321",
           "pid": "3937247"
+        },
+        {
+          "Tid": "35,19",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "48",
+          "RA": "250",
+          "pid": "3969142"
         },
         {
           "Tid": "36,60",
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "53",
-          "RA": "260",
+          "RK": "",
+          "RA": "",
           "pid": "3849179"
         },
         {
@@ -96,15 +114,33 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "109",
-          "RA": "566",
+          "RK": "115",
+          "RA": "627",
           "pid": "3848843"
+        },
+        {
+          "Tid": "38,55",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "",
+          "RA": "",
+          "pid": "3968865"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "41,75",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "73",
+          "RA": "398",
+          "pid": "3969368"
+        },
         {
           "Tid": "47,87",
           "Dato": "11.10.2025",
@@ -124,8 +160,8 @@
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "RK": "109",
-          "RA": "568",
+          "RK": "119",
+          "RA": "651",
           "pid": "3851339",
           "splits": [
             "31,89",
@@ -137,8 +173,8 @@
           "Dato": "20.09.2025",
           "Sted": "Horten",
           "Basseng": "25m",
-          "RK": "185",
-          "RA": "1176",
+          "RK": "",
+          "RA": "",
           "pid": "3753997",
           "splits": [
             "37,20",
@@ -150,6 +186,19 @@
     {
       "distanse": "100m Rygg",
       "races": [
+        {
+          "Tid": "1.17,45",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "RK": "40",
+          "RA": "207",
+          "pid": "3970276",
+          "splits": [
+            "37,10",
+            "40,35"
+          ]
+        },
         {
           "Tid": "1.26,04",
           "Dato": "22.11.2025",
@@ -200,7 +249,7 @@
           "Sted": "Sandefjord",
           "Basseng": "25m",
           "RK": "115",
-          "RA": "487",
+          "RA": "489",
           "pid": "3937631",
           "splits": [
             "42,77",
@@ -311,7 +360,7 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "RK": "105",
-          "RA": "452",
+          "RA": "453",
           "pid": "3922805",
           "splits": [
             "43,68",

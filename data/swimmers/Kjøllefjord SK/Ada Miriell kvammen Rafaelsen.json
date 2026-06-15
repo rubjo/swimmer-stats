@@ -4,18 +4,27 @@
   "club": "Kjøllefjord SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-13T21:35:19.058Z",
+  "timestamp": "2026-06-15T21:14:10.492Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "43,47",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967622"
+        },
+        {
           "Tid": "43,53",
           "Dato": "24.01.2026",
           "Sted": "Kirkenes",
           "Basseng": "25m",
-          "RK": "196",
-          "RA": "1554",
+          "RK": "197",
+          "RA": "1563",
           "pid": "3858661"
         },
         {
@@ -33,6 +42,15 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "49,37",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967512"
+        },
+        {
           "Tid": "53,32",
           "Dato": "14.06.2025",
           "Sted": "Alta",
@@ -47,12 +65,21 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "50,23",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967427"
+        },
+        {
           "Tid": "53,84",
           "Dato": "24.01.2026",
           "Sted": "Kirkenes",
           "Basseng": "25m",
-          "RK": "135",
-          "RA": "952",
+          "RK": "137",
+          "RA": "960",
           "pid": "3858641"
         },
         {
@@ -61,8 +88,39 @@
           "Sted": "Alta",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1449",
           "pid": "3716581"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.43,15",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3968118",
+          "splits": [
+            "50,87",
+            "52,28"
+          ]
+        },
+        {
+          "Tid": "1.54,06",
+          "Dato": "24.01.2026",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "RK": "139",
+          "RA": "896",
+          "pid": "3858700",
+          "splits": [
+            "59,51",
+            "54,55"
+          ]
         }
       ]
     },
@@ -70,12 +128,25 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.45,83",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967874",
+          "splits": [
+            "50,90",
+            "54,93"
+          ]
+        },
+        {
           "Tid": "1.47,82",
           "Dato": "24.01.2026",
           "Sted": "Kirkenes",
           "Basseng": "25m",
-          "RK": "94",
-          "RA": "855",
+          "RK": "97",
+          "RA": "860",
           "pid": "3858677",
           "splits": [
             "51,40",
@@ -105,30 +176,12 @@
           "Dato": "15.06.2025",
           "Sted": "Alta",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "210",
+          "RA": "1863",
           "pid": "3717114",
           "splits": [
             "",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.54,06",
-          "Dato": "24.01.2026",
-          "Sted": "Kirkenes",
-          "Basseng": "25m",
-          "RK": "139",
-          "RA": "893",
-          "pid": "3858700",
-          "splits": [
-            "59,51",
-            "54,55"
           ]
         }
       ]

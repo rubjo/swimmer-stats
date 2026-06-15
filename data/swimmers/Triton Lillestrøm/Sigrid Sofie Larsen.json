@@ -4,8 +4,40 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-13T21:41:42.109Z",
+  "timestamp": "2026-06-15T21:21:02.088Z",
   "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "47,43",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "108",
+          "RA": "630",
+          "pid": "3975391"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.29,34",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "125",
+          "RA": "862",
+          "pid": "3977142",
+          "splits": [
+            "43,25",
+            "46,09"
+          ]
+        }
+      ]
+    },
     {
       "distanse": "100m Individuell medley",
       "races": [
@@ -14,8 +46,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "113",
-          "RA": "705",
+          "RK": "114",
+          "RA": "706",
           "pid": "3936636",
           "splits": [
             "47,59",
@@ -45,8 +77,8 @@
           "Dato": "25.04.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
-          "RK": "95",
-          "RA": "573",
+          "RK": "99",
+          "RA": "579",
           "pid": "3936199",
           "splits": [
             "",
@@ -63,8 +95,8 @@
           "Dato": "01.02.2026",
           "Sted": "Jessheim",
           "Basseng": "25m",
-          "RK": "189",
-          "RA": "838",
+          "RK": "190",
+          "RA": "847",
           "pid": "3864404",
           "splits": [
             "56,53",
