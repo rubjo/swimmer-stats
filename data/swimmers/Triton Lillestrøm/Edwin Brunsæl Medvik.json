@@ -4,8 +4,45 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-14T20:11:37.840Z",
+  "timestamp": "2026-06-15T20:46:14.708Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,38",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "76",
+          "RA": "877",
+          "pid": "3975696"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "39,57",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "49",
+          "RA": "700",
+          "pid": "3975084"
+        },
+        {
+          "Tid": "52,69",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "RK": "133",
+          "RA": "1444",
+          "pid": "3799152"
+        }
+      ]
+    },
     {
       "distanse": "50m Rygg",
       "races": [
@@ -39,20 +76,6 @@
       ]
     },
     {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "52,69",
-          "Dato": "25.10.2025",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "RK": "133",
-          "RA": "1443",
-          "pid": "3799152"
-        }
-      ]
-    },
-    {
       "distanse": "100m Butterfly",
       "races": [
         {
@@ -61,7 +84,7 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "RK": "110",
-          "RA": "795",
+          "RA": "803",
           "pid": "3914153",
           "splits": [
             "47,06",
@@ -164,6 +187,56 @@
       ]
     },
     {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.52,47",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "RK": "51",
+          "RA": "520",
+          "pid": "3978157",
+          "splits": [
+            "40,43",
+            "46,08",
+            "46,28",
+            "39,68"
+          ]
+        },
+        {
+          "Tid": "3.27,12",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "RK": "133",
+          "RA": "1200",
+          "pid": "3801194",
+          "splits": [
+            "44,84",
+            "52,68",
+            "55,65",
+            "53,95"
+          ]
+        },
+        {
+          "Tid": "3.28,86",
+          "Dato": "23.11.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3824302",
+          "splits": [
+            "43,96",
+            "54,33",
+            "57,71",
+            "52,86"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "200m Individuell medley",
       "races": [
         {
@@ -171,8 +244,8 @@
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "104",
-          "RA": "660",
+          "RK": "105",
+          "RA": "662",
           "pid": "3915561",
           "splits": [
             "48,47",
@@ -279,41 +352,6 @@
       ]
     },
     {
-      "distanse": "200m Fri",
-      "races": [
-        {
-          "Tid": "3.27,12",
-          "Dato": "26.10.2025",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "RK": "133",
-          "RA": "1200",
-          "pid": "3801194",
-          "splits": [
-            "44,84",
-            "52,68",
-            "55,65",
-            "53,95"
-          ]
-        },
-        {
-          "Tid": "3.28,86",
-          "Dato": "23.11.2025",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3824302",
-          "splits": [
-            "43,96",
-            "54,33",
-            "57,71",
-            "52,86"
-          ]
-        }
-      ]
-    },
-    {
       "distanse": "200m Bryst",
       "races": [
         {
@@ -321,8 +359,8 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "97",
-          "RA": "645",
+          "RK": "98",
+          "RA": "647",
           "pid": "3914946",
           "splits": [
             "50,40",
