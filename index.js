@@ -705,139 +705,91 @@ async function discoverAllSwimmers(browser, baseUrl) {
   await page.setViewport({ width: 1400, height: 900 });
   await navigateAndFilter(page, baseUrl);
 
-  const swimmers = [];
-  const seen = new Set();
-
-  // ── Phase 1: Load suffix (cursor → end) ────────────────────────────
-  // Jump to scrollHeight repeatedly. Each jump triggers a callback that
-  // loads ~100 more items. The loop exits when itemCount stops growing.
-  await page.evaluate(() => {
+  // ── Load ALL items in one browser-side async loop ────────────────
+  // Single evaluate to avoid CDP roundtrip overhead between scrolls.
+  // Protocol timeout is 120s; this loop typically takes ~90s for 4500 items.
+  const rawData = await page.evaluate(async () => {
+    // Helper: open dropdown
     try {
       cmbUtover.ShowDropDown();
     } catch {}
-  });
-  await sleep(500);
+    await new Promise((r) => setTimeout(r, 500));
 
-  for (let attempt = 0; attempt < 80; attempt++) {
-    const prevCount = await page.evaluate(() => cmbUtover.GetItemCount());
+    const d = cmbUtover.GetListBoxScrollDivElement();
+    if (!d) return { error: "no scroll div" };
 
-    const grew = await page.evaluate(async () => {
-      const d = cmbUtover.GetListBoxScrollDivElement();
-      if (!d) return false;
+    // ── Phase A: Load suffix (cursor → end) ────────────────────
+    for (let i = 0; i < 80; i++) {
+      const prevCount = cmbUtover.GetItemCount();
       const prevScroll = d.scrollTop;
       d.scrollTop = d.scrollHeight;
-      if (d.scrollTop <= prevScroll) return false; // already at bottom
-      await new Promise((r) => setTimeout(r, 2_500));
-      return true;
-    });
-
-    if (!grew) {
-      // scrollHeight didn't advance — we're at the end
-      await sleep(1_000);
-      break;
+      if (d.scrollTop <= prevScroll) {
+        // at bottom — wait a moment for pending callbacks
+        await new Promise((r) => setTimeout(r, 2_000));
+        break;
+      }
+      await new Promise((r) => setTimeout(r, 2_000));
+      const newCount = cmbUtover.GetItemCount();
+      if (newCount <= prevCount) {
+        await new Promise((r) => setTimeout(r, 2_000));
+        if (cmbUtover.GetItemCount() <= prevCount) break;
+      }
     }
 
-    const newCount = await page.evaluate(() => cmbUtover.GetItemCount());
-    if (newCount <= prevCount) {
-      // Count didn't grow (callback yielded same batch or no-op)
-      // Give it one more chance, then break.
-      await sleep(2_500);
-      const finalCheck = await page.evaluate(() => cmbUtover.GetItemCount());
-      if (finalCheck <= prevCount) break;
-    }
-  }
+    // ── Phase B: Load prefix (top → cursor) ────────────────────
+    d.scrollTop = 0;
+    await new Promise((r) => setTimeout(r, 3_000));
+    d.scrollTop = d.scrollHeight;
+    await new Promise((r) => setTimeout(r, 2_000));
 
-  // ── Phase 2: Load prefix (top → cursor) ────────────────────────────
-  // Scroll to top to trigger loading of items before the initial cursor.
-  await page.evaluate(() => {
-    try {
-      const d = cmbUtover.GetListBoxScrollDivElement();
-      if (d) d.scrollTop = 0;
-    } catch {}
-  });
-  await sleep(3_000);
-
-  // And scroll again to bottom to load any batches revealed by going to top
-  await page.evaluate(async () => {
-    const d = cmbUtover.GetListBoxScrollDivElement();
-    if (d) {
-      d.scrollTop = d.scrollHeight;
-      await new Promise((r) => setTimeout(r, 2_500));
-    }
-  });
-
-  // ── Phase 3: Read all loaded items ─────────────────────────────────
-  // Close and reopen so GetItem(i) gives consistent results from index 0.
-  await page.evaluate(() => {
+    // ── Phase C: Close & reopen ────────────────────────────────
     try {
       cmbUtover.HideDropDown();
     } catch {}
-  });
-  await sleep(300);
-  await page.evaluate(() => {
+    await new Promise((r) => setTimeout(r, 300));
     try {
       cmbUtover.ShowDropDown();
     } catch {}
-  });
-  await sleep(1_000);
+    await new Promise((r) => setTimeout(r, 500));
 
-  // Collect all items from the client data store.
-  // With every item loaded, GetItem(i) returns non-null for all indices.
-  // We read in chunks to avoid evaluate() timeout.
-  let offset = 0;
-  const BATCH = 500;
-  for (;;) {
-    const batch = await page.evaluate(
-      (start, batchSize) => {
-        const out = [];
-        for (let i = start; ; i++) {
-          try {
-            const item = cmbUtover.GetItem(i);
-            if (!item) {
-              if (out.length === 0) continue; // placeholder or null gap
-              break; // past the last item
-            }
-            if (String(item.value) === "0") continue; // placeholder
-            out.push({
-              id: String(item.value),
-              text: item.text.trim(),
-              index: i,
-            });
-          } catch {
-            break;
-          }
-          if (out.length >= batchSize) break;
+    // ── Phase D: Read all items ────────────────────────────────
+    const all = [];
+    for (let i = 0; ; i++) {
+      try {
+        const item = cmbUtover.GetItem(i);
+        if (!item) {
+          if (all.length === 0) continue; // placeholder or null gap
+          break; // past the last item
         }
-        return out;
-      },
-      offset,
-      BATCH,
-    );
-
-    if (batch.length === 0) break;
-
-    for (const d of batch) {
-      if (!seen.has(d.id)) {
-        seen.add(d.id);
-        swimmers.push(d);
+        if (String(item.value) === "0") continue; // placeholder
+        all.push({
+          id: String(item.value),
+          text: item.text.trim(),
+          index: i,
+        });
+      } catch {
+        break;
       }
-      if (d.index >= offset) offset = d.index + 1;
     }
+    return { swimmers: all };
+  });
+
+  if (rawData.error) {
+    console.log(color(C.red, `  Discovery error: ${rawData.error}`));
+    await page.close();
+    return [];
   }
 
-  // ── Phase 4: Cleanup ───────────────────────────────────────────────
+  // Close dropdown
   await page.evaluate(() => {
     try {
       cmbUtover.HideDropDown();
     } catch {}
   });
   await page.close();
-  console.log(
-    color(
-      C.dim,
-      `  Scanned ${offset} indices, found ${swimmers.length} swimmers`,
-    ),
-  );
+
+  const swimmers = rawData.swimmers;
+  console.log(color(C.dim, `  Found ${swimmers.length} swimmers`));
   return swimmers;
 }
 
@@ -1075,7 +1027,7 @@ async function runPassParallel(mode) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 120_000,
+    protocolTimeout: 300_000,
   });
 
   console.log("Loading existing data…");
