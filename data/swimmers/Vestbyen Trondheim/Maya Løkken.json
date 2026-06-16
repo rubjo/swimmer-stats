@@ -4,18 +4,27 @@
   "club": "Vestbyen Trondheim",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-13T22:00:08.036Z",
+  "timestamp": "2026-06-16T03:35:04.038Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "40,15",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "214",
+          "RA": "1353",
+          "pid": "3966431"
+        },
+        {
           "Tid": "40,85",
           "Dato": "25.04.2026",
           "Sted": "Namsos",
           "Basseng": "50m",
-          "RK": "130",
-          "RA": "893",
+          "RK": "166",
+          "RA": "1065",
           "pid": "3938590"
         },
         {
@@ -73,8 +82,8 @@
           "Dato": "24.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "226",
-          "RA": "1234",
+          "RK": "227",
+          "RA": "1243",
           "pid": "3854336"
         },
         {
@@ -92,12 +101,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.30,12",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "RK": "201",
+          "RA": "1198",
+          "pid": "3966845",
+          "splits": [
+            "42,65",
+            "47,47"
+          ]
+        },
+        {
           "Tid": "1.31,29",
           "Dato": "23.01.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "206",
-          "RA": "1212",
+          "RK": "",
+          "RA": "",
           "pid": "3855603",
           "splits": [
             "43,03",
@@ -109,8 +131,8 @@
           "Dato": "25.04.2026",
           "Sted": "Namsos",
           "Basseng": "50m",
-          "RK": "105",
-          "RA": "761",
+          "RK": "134",
+          "RA": "901",
           "pid": "3938811",
           "splits": [
             "",
@@ -122,8 +144,8 @@
           "Dato": "30.11.2025",
           "Sted": "Stjørdal",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "230",
+          "RA": "1596",
           "pid": "3827558",
           "splits": [
             "46,57",
@@ -153,8 +175,8 @@
           "Dato": "28.02.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "232",
-          "RA": "1286",
+          "RK": "234",
+          "RA": "1300",
           "pid": "3879787",
           "splits": [
             "1.00,17",

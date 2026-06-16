@@ -4,7 +4,7 @@
   "club": "Tromsø SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-13T21:56:12.917Z",
+  "timestamp": "2026-06-16T03:30:56.721Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -21,6 +21,20 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "47,46",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967341"
+        }
+      ]
+    },
+    {
       "distanse": "50m Rygg",
       "races": [
         {
@@ -29,7 +43,7 @@
           "Sted": "Finnsnes",
           "Basseng": "25m",
           "RK": "",
-          "RA": "",
+          "RA": "1224",
           "pid": "3828963"
         }
       ]
@@ -85,6 +99,61 @@
       ]
     },
     {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.29,78",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3968142",
+          "splits": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.46,38",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3968245",
+          "splits": [
+            "50,03",
+            "57,62",
+            "1.00,92",
+            "57,81"
+          ]
+        },
+        {
+          "Tid": "4.08,77",
+          "Dato": "30.11.2025",
+          "Sted": "Finnsnes",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3829358",
+          "splits": [
+            "54,69",
+            "1.02,76",
+            "1.05,44",
+            "1.05,88"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "200m Individuell medley",
       "races": [
         {
@@ -105,35 +174,34 @@
       ]
     },
     {
-      "distanse": "200m Bryst",
+      "distanse": "400m Fri",
       "races": [
         {
-          "Tid": "4.08,77",
-          "Dato": "30.11.2025",
-          "Sted": "Finnsnes",
+          "Tid": "7.13,16",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
           "Basseng": "25m",
           "RK": "",
           "RA": "",
-          "pid": "3829358",
+          "pid": "3968467",
           "splits": [
-            "54,69",
-            "1.02,76",
-            "1.05,44",
-            "1.05,88"
+            "43,34",
+            "52,88",
+            "56,55",
+            "55,57",
+            "57,60",
+            "",
+            "",
+            "51,87"
           ]
-        }
-      ]
-    },
-    {
-      "distanse": "400m Fri",
-      "races": [
+        },
         {
           "Tid": "7.42,27",
           "Dato": "21.02.2026",
           "Sted": "Tromsø",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "RK": "170",
+          "RA": "978",
           "pid": "3877107",
           "splits": [
             "49,78",

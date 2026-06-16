@@ -4,18 +4,27 @@
   "club": "Tromsø SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-13T21:58:46.995Z",
+  "timestamp": "2026-06-16T03:33:39.101Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "39,35",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "133",
+          "RA": "1300",
+          "pid": "3967593"
+        },
+        {
           "Tid": "42,15",
           "Dato": "21.03.2026",
           "Sted": "Tromsø",
           "Basseng": "50m",
-          "RK": "81",
-          "RA": "928",
+          "RK": "119",
+          "RA": "1113",
           "pid": "3908034"
         },
         {
@@ -30,15 +39,38 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "45,36",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "83",
+          "RA": "704",
+          "pid": "3967404"
+        }
+      ]
+    },
+    {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "46,51",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3967342"
+        },
         {
           "Tid": "50,40",
           "Dato": "26.04.2026",
           "Sted": "Harstad",
           "Basseng": "25m",
-          "RK": "137",
-          "RA": "1187",
+          "RK": "",
+          "RA": "",
           "pid": "3940732"
         }
       ]
@@ -47,12 +79,25 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.26,68",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "112",
+          "RA": "1092",
+          "pid": "3967987",
+          "splits": [
+            "41,17",
+            "45,51"
+          ]
+        },
+        {
           "Tid": "1.30,95",
           "Dato": "25.04.2026",
           "Sted": "Harstad",
           "Basseng": "25m",
-          "RK": "136",
-          "RA": "1199",
+          "RK": "",
+          "RA": "",
           "pid": "3941204",
           "splits": [
             "",
@@ -65,12 +110,25 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.52,01",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "131",
+          "RA": "992",
+          "pid": "3967829",
+          "splits": [
+            "51,61",
+            "1.00,40"
+          ]
+        },
+        {
           "Tid": "1.53,70",
           "Dato": "26.04.2026",
           "Sted": "Harstad",
           "Basseng": "25m",
-          "RK": "137",
-          "RA": "1021",
+          "RK": "",
+          "RA": "",
           "pid": "3941103",
           "splits": [
             "52,89",
