@@ -998,8 +998,20 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
         if (result.saved) {
           saved++;
           swimmerOk = true;
+        } else if (result.needsReposition && attempts < 3) {
+          // Grid never loaded — likely a transient server overload under
+          // parallel load.  Reload the page and retry with a fresh DevExpress
+          // session rather than immediately skip-and-cooldown.
+          console.log(
+            color(
+              C.yellow,
+              `  ⚠ ${sw.text}: grid never loaded, retrying (${attempts}/3)...`,
+            ),
+          );
+          await workerReload();
+          continue;
         } else {
-          // Grid never loaded / no data
+          // Grid never loaded (exhausted retries) or no data
           if (result.needsReposition) {
             localSkipUntil.set(
               sw.id,
