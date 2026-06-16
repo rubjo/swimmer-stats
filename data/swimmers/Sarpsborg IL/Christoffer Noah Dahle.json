@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-15T04:41:51.818Z",
+  "timestamp": "2026-06-16T06:10:29.373Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,9 @@
           "Dato": "11.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "31",
-          "RA": "341",
+          "RA": "342",
           "pid": "3842605"
         },
         {
@@ -23,6 +24,7 @@
           "Dato": "11.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3842604"
@@ -32,6 +34,7 @@
           "Dato": "24.10.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "46",
           "RA": "599",
           "pid": "3796332"
@@ -41,15 +44,27 @@
           "Dato": "12.10.2025",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3781856"
         },
         {
           "Tid": "28,08",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3797241"
+        },
+        {
+          "Tid": "28,08",
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3880371"
@@ -59,33 +74,117 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "48",
-          "RA": "402",
+          "RA": "403",
           "pid": "3961359"
+        },
+        {
+          "Tid": "28,46",
+          "Dato": "11.10.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3782352"
+        },
+        {
+          "Tid": "28,73",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3884470"
         },
         {
           "Tid": "28,79",
           "Dato": "23.08.2025",
           "Sted": "Langhus",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3736977"
+        },
+        {
+          "Tid": "29,00",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3851316"
         },
         {
           "Tid": "29,11",
           "Dato": "31.05.2025",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "42",
           "RA": "482",
           "pid": "3709715"
+        },
+        {
+          "Tid": "29,26",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3962036"
+        },
+        {
+          "Tid": "29,68",
+          "Dato": "26.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3798225"
+        },
+        {
+          "Tid": "29,68",
+          "Dato": "07.12.2025",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3835309"
+        },
+        {
+          "Tid": "29,93",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3905884"
+        },
+        {
+          "Tid": "30,04",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3798540"
         },
         {
           "Tid": "30,16",
           "Dato": "24.08.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3508451"
@@ -95,6 +194,7 @@
           "Dato": "24.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3613975"
@@ -104,6 +204,7 @@
           "Dato": "13.10.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3540511"
@@ -113,60 +214,557 @@
           "Dato": "08.09.2024",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3513167"
+        },
+        {
+          "Tid": "30,34",
+          "Dato": "12.10.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3783005"
         },
         {
           "Tid": "30,44",
           "Dato": "02.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3415964"
+        },
+        {
+          "Tid": "30,49",
+          "Dato": "15.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3721976"
+        },
+        {
+          "Tid": "30,55",
+          "Dato": "07.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3714628"
         },
         {
           "Tid": "30,59",
           "Dato": "01.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "30",
           "RA": "622",
           "pid": "3476305"
+        },
+        {
+          "Tid": "30,59",
+          "Dato": "21.09.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3753400"
+        },
+        {
+          "Tid": "30,67",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843194"
         },
         {
           "Tid": "30,72",
           "Dato": "10.11.2024",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3575113"
+        },
+        {
+          "Tid": "30,82",
+          "Dato": "10.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3916055"
+        },
+        {
+          "Tid": "30,87",
+          "Dato": "18.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3931539"
+        },
+        {
+          "Tid": "30,91",
+          "Dato": "14.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3659678"
+        },
+        {
+          "Tid": "31,00",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3852512"
+        },
+        {
+          "Tid": "31,05",
+          "Dato": "04.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3678710"
+        },
+        {
+          "Tid": "31,06",
+          "Dato": "07.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3637853"
+        },
+        {
+          "Tid": "31,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963003"
+        },
+        {
+          "Tid": "31,14",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3615429"
+        },
+        {
+          "Tid": "31,15",
+          "Dato": "08.09.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3514163"
+        },
+        {
+          "Tid": "31,21",
+          "Dato": "05.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601820"
+        },
+        {
+          "Tid": "31,24",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711318"
+        },
+        {
+          "Tid": "31,27",
+          "Dato": "19.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3932387"
         },
         {
           "Tid": "31,38",
           "Dato": "26.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3389566"
+        },
+        {
+          "Tid": "31,46",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601933"
+        },
+        {
+          "Tid": "31,48",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3663044"
+        },
+        {
+          "Tid": "31,49",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711895"
+        },
+        {
+          "Tid": "31,50",
+          "Dato": "05.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3680379"
+        },
+        {
+          "Tid": "31,55",
+          "Dato": "08.09.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3513502"
+        },
+        {
+          "Tid": "31,58",
+          "Dato": "06.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3681432"
+        },
+        {
+          "Tid": "31,61",
+          "Dato": "24.08.2024",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3508769"
+        },
+        {
+          "Tid": "31,61",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3861353"
+        },
+        {
+          "Tid": "31,64",
+          "Dato": "13.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3542385"
+        },
+        {
+          "Tid": "31,76",
+          "Dato": "17.10.2025",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3791020"
+        },
+        {
+          "Tid": "31,79",
+          "Dato": "12.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3542008"
+        },
+        {
+          "Tid": "31,79",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963299"
         },
         {
           "Tid": "31,83",
           "Dato": "15.10.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "28",
           "RA": "1029",
           "pid": "3316775"
+        },
+        {
+          "Tid": "31,85",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370519"
+        },
+        {
+          "Tid": "31,90",
+          "Dato": "10.11.2024",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3575269"
+        },
+        {
+          "Tid": "31,94",
+          "Dato": "04.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3692383"
+        },
+        {
+          "Tid": "31,99",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370673"
+        },
+        {
+          "Tid": "32,03",
+          "Dato": "12.05.2024",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3469484"
+        },
+        {
+          "Tid": "32,03",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3617721"
+        },
+        {
+          "Tid": "32,06",
+          "Dato": "15.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3428339"
+        },
+        {
+          "Tid": "32,12",
+          "Dato": "03.03.2024",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3416647"
+        },
+        {
+          "Tid": "32,15",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853457"
+        },
+        {
+          "Tid": "32,30",
+          "Dato": "14.04.2024",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3448205"
+        },
+        {
+          "Tid": "32,36",
+          "Dato": "02.06.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3476871"
+        },
+        {
+          "Tid": "32,54",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853829"
+        },
+        {
+          "Tid": "32,64",
+          "Dato": "14.10.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3317337"
+        },
+        {
+          "Tid": "32,74",
+          "Dato": "01.05.2026",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3945038"
+        },
+        {
+          "Tid": "32,77",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3712133"
+        },
+        {
+          "Tid": "32,82",
+          "Dato": "28.01.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3391083"
+        },
+        {
+          "Tid": "32,84",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3978879"
+        },
+        {
+          "Tid": "33,07",
+          "Dato": "27.01.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3392191"
+        },
+        {
+          "Tid": "34,09",
+          "Dato": "02.09.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3284230"
+        },
+        {
+          "Tid": "34,11",
+          "Dato": "13.04.2024",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3446766"
         },
         {
           "Tid": "34,53",
           "Dato": "26.03.2023",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3209360"
@@ -176,6 +774,7 @@
           "Dato": "03.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3254708"
@@ -185,36 +784,150 @@
           "Dato": "12.02.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3178016"
+        },
+        {
+          "Tid": "35,70",
+          "Dato": "26.03.2023",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3209603"
+        },
+        {
+          "Tid": "35,84",
+          "Dato": "09.09.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3286618"
+        },
+        {
+          "Tid": "36,07",
+          "Dato": "04.06.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3255999"
         },
         {
           "Tid": "36,22",
           "Dato": "27.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3160031"
+        },
+        {
+          "Tid": "36,91",
+          "Dato": "18.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3195875"
         },
         {
           "Tid": "37,19",
           "Dato": "16.10.2022",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3095371"
+        },
+        {
+          "Tid": "38,47",
+          "Dato": "29.01.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3161495"
+        },
+        {
+          "Tid": "39,05",
+          "Dato": "15.10.2022",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3095942"
+        },
+        {
+          "Tid": "39,17",
+          "Dato": "11.12.2022",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3141574"
+        },
+        {
+          "Tid": "40,57",
+          "Dato": "11.09.2022",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3069282"
+        },
+        {
+          "Tid": "41,32",
+          "Dato": "07.01.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3145663"
         },
         {
           "Tid": "42,56",
           "Dato": "11.06.2022",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3039829"
+        },
+        {
+          "Tid": "44,96",
+          "Dato": "12.06.2022",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3040545"
+        },
+        {
+          "Tid": "46,25",
+          "Dato": "11.06.2022",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3041217"
         }
       ]
     },
@@ -222,10 +935,51 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "31,06",
+          "Dato": "11.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "59",
+          "RA": "441",
+          "pid": "3914140"
+        },
+        {
+          "Tid": "31,45",
+          "Dato": "01.03.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3880499"
+        },
+        {
+          "Tid": "31,75",
+          "Dato": "24.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "64",
+          "RA": "661",
+          "pid": "3798380"
+        },
+        {
+          "Tid": "31,76",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "60",
+          "RA": "428",
+          "pid": "3961570"
+        },
+        {
           "Tid": "31,94",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3960854"
@@ -235,24 +989,117 @@
           "Dato": "11.10.2025",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3781594"
+        },
+        {
+          "Tid": "32,13",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3903737"
+        },
+        {
+          "Tid": "32,41",
+          "Dato": "11.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843117"
         },
         {
           "Tid": "32,66",
           "Dato": "23.08.2025",
           "Sted": "Langhus",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3736370"
+        },
+        {
+          "Tid": "32,79",
+          "Dato": "19.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3932027"
+        },
+        {
+          "Tid": "32,93",
+          "Dato": "08.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3712559"
+        },
+        {
+          "Tid": "32,95",
+          "Dato": "12.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3915554"
+        },
+        {
+          "Tid": "33,05",
+          "Dato": "15.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3656791"
+        },
+        {
+          "Tid": "33,14",
+          "Dato": "09.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3714025"
+        },
+        {
+          "Tid": "33,18",
+          "Dato": "11.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843396"
+        },
+        {
+          "Tid": "33,21",
+          "Dato": "24.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3797699"
         },
         {
           "Tid": "33,25",
           "Dato": "10.11.2024",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "40",
           "RA": "714",
           "pid": "3574989"
@@ -262,15 +1109,67 @@
           "Dato": "04.01.2025",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3601407"
+        },
+        {
+          "Tid": "33,36",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853020"
+        },
+        {
+          "Tid": "33,45",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3842887"
+        },
+        {
+          "Tid": "33,53",
+          "Dato": "16.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3658915"
+        },
+        {
+          "Tid": "33,60",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "55",
+          "RA": "527",
+          "pid": "3710005"
+        },
+        {
+          "Tid": "33,61",
+          "Dato": "20.09.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3752863"
         },
         {
           "Tid": "33,62",
           "Dato": "25.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3612965"
@@ -280,6 +1179,7 @@
           "Dato": "08.09.2024",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3512950"
@@ -289,33 +1189,157 @@
           "Dato": "03.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3415445"
+        },
+        {
+          "Tid": "33,78",
+          "Dato": "03.11.2024",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3563243"
         },
         {
           "Tid": "33,79",
           "Dato": "25.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3612964"
+        },
+        {
+          "Tid": "33,93",
+          "Dato": "16.02.2025",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3639970"
+        },
+        {
+          "Tid": "34,00",
+          "Dato": "18.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3932612"
+        },
+        {
+          "Tid": "34,08",
+          "Dato": "17.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3930733"
+        },
+        {
+          "Tid": "34,15",
+          "Dato": "12.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3542214"
+        },
+        {
+          "Tid": "34,16",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3962292"
+        },
+        {
+          "Tid": "34,26",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3663012"
+        },
+        {
+          "Tid": "34,40",
+          "Dato": "16.02.2025",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3639616"
+        },
+        {
+          "Tid": "34,44",
+          "Dato": "24.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3614442"
+        },
+        {
+          "Tid": "34,52",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963207"
+        },
+        {
+          "Tid": "34,57",
+          "Dato": "16.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3425460"
         },
         {
           "Tid": "34,67",
           "Dato": "12.05.2024",
           "Sted": "Nordbytun",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3468355"
+        },
+        {
+          "Tid": "34,77",
+          "Dato": "17.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3427614"
         },
         {
           "Tid": "34,83",
           "Dato": "27.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "27",
           "RA": "568",
           "pid": "3388503"
@@ -325,42 +1349,197 @@
           "Dato": "02.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "27",
           "RA": "568",
           "pid": "3475921"
+        },
+        {
+          "Tid": "34,90",
+          "Dato": "25.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3617271"
+        },
+        {
+          "Tid": "35,16",
+          "Dato": "02.03.2024",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3416168"
+        },
+        {
+          "Tid": "35,19",
+          "Dato": "01.06.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3476471"
+        },
+        {
+          "Tid": "35,70",
+          "Dato": "12.04.2024",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3447573"
+        },
+        {
+          "Tid": "35,75",
+          "Dato": "08.09.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3513272"
         },
         {
           "Tid": "35,80",
           "Dato": "14.10.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "19",
           "RA": "872",
           "pid": "3316406"
+        },
+        {
+          "Tid": "35,99",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370015"
+        },
+        {
+          "Tid": "36,14",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370426"
+        },
+        {
+          "Tid": "36,38",
+          "Dato": "26.01.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3390057"
+        },
+        {
+          "Tid": "36,96",
+          "Dato": "15.10.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3316926"
         },
         {
           "Tid": "38,94",
           "Dato": "04.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3253822"
+        },
+        {
+          "Tid": "40,51",
+          "Dato": "09.09.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3286594"
+        },
+        {
+          "Tid": "40,79",
+          "Dato": "03.06.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3255121"
+        },
+        {
+          "Tid": "40,84",
+          "Dato": "03.09.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3283366"
+        },
+        {
+          "Tid": "40,98",
+          "Dato": "19.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3195179"
+        },
+        {
+          "Tid": "41,68",
+          "Dato": "17.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3193242"
         },
         {
           "Tid": "42,59",
           "Dato": "26.03.2023",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3209160"
+        },
+        {
+          "Tid": "44,52",
+          "Dato": "27.01.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3160462"
         },
         {
           "Tid": "45,01",
           "Dato": "28.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3159041"
@@ -370,9 +1549,30 @@
           "Dato": "11.12.2022",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3141246"
+        },
+        {
+          "Tid": "45,90",
+          "Dato": "21.01.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3157744"
+        },
+        {
+          "Tid": "49,98",
+          "Dato": "08.01.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3145081"
         }
       ]
     },
@@ -384,8 +1584,9 @@
           "Dato": "10.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "29",
-          "RA": "209",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3842521"
         },
         {
@@ -393,6 +1594,7 @@
           "Dato": "10.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3842522"
@@ -402,6 +1604,7 @@
           "Dato": "23.08.2025",
           "Sted": "Langhus",
           "Basseng": "25m",
+          "D": "",
           "RK": "67",
           "RA": "532",
           "pid": "3736558"
@@ -411,6 +1614,7 @@
           "Dato": "02.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "51",
           "RA": "567",
           "pid": "3415620"
@@ -420,6 +1624,7 @@
           "Dato": "15.10.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "22",
           "RA": "599",
           "pid": "3316518"
@@ -429,6 +1634,7 @@
           "Dato": "26.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "35",
           "RA": "397",
           "pid": "3388830"
@@ -438,6 +1644,7 @@
           "Dato": "01.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3476028"
@@ -447,6 +1654,7 @@
           "Dato": "03.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3254098"
@@ -456,6 +1664,7 @@
           "Dato": "27.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3159358"
@@ -465,6 +1674,7 @@
           "Dato": "11.06.2022",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3039532"
@@ -479,6 +1689,7 @@
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "46",
           "RA": "277",
           "pid": "3849481"
@@ -488,15 +1699,117 @@
           "Dato": "23.08.2025",
           "Sted": "Langhus",
           "Basseng": "25m",
+          "D": "",
           "RK": "65",
           "RA": "571",
           "pid": "3736757"
+        },
+        {
+          "Tid": "38,74",
+          "Dato": "08.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3713397"
+        },
+        {
+          "Tid": "39,01",
+          "Dato": "11.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3914915"
+        },
+        {
+          "Tid": "39,20",
+          "Dato": "15.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3657970"
+        },
+        {
+          "Tid": "39,65",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3852044"
+        },
+        {
+          "Tid": "39,80",
+          "Dato": "16.02.2025",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3639865"
+        },
+        {
+          "Tid": "40,26",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601775"
+        },
+        {
+          "Tid": "40,65",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "48",
+          "RA": "380",
+          "pid": "3614952"
+        },
+        {
+          "Tid": "41,23",
+          "Dato": "24.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3616191"
+        },
+        {
+          "Tid": "42,05",
+          "Dato": "05.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3679813"
+        },
+        {
+          "Tid": "42,36",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370275"
         },
         {
           "Tid": "42,80",
           "Dato": "27.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "37",
           "RA": "438",
           "pid": "3389180"
@@ -506,6 +1819,7 @@
           "Dato": "03.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3415797"
@@ -515,24 +1829,177 @@
           "Dato": "02.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3476158"
+        },
+        {
+          "Tid": "43,73",
+          "Dato": "02.03.2024",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3416376"
+        },
+        {
+          "Tid": "43,99",
+          "Dato": "28.01.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3390580"
+        },
+        {
+          "Tid": "45,25",
+          "Dato": "16.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3426665"
+        },
+        {
+          "Tid": "45,36",
+          "Dato": "02.06.2024",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3476655"
         },
         {
           "Tid": "46,38",
           "Dato": "04.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3254361"
+        },
+        {
+          "Tid": "46,99",
+          "Dato": "04.06.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3255568"
+        },
+        {
+          "Tid": "48,07",
+          "Dato": "03.09.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "86",
+          "RA": "1100",
+          "pid": "3283766"
+        },
+        {
+          "Tid": "50,25",
+          "Dato": "02.09.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3285029"
+        },
+        {
+          "Tid": "50,57",
+          "Dato": "18.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3194326"
+        },
+        {
+          "Tid": "51,86",
+          "Dato": "26.03.2023",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3209482"
+        },
+        {
+          "Tid": "53,93",
+          "Dato": "12.02.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3178893"
+        },
+        {
+          "Tid": "54,98",
+          "Dato": "29.01.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3161001"
+        },
+        {
+          "Tid": "55,59",
+          "Dato": "11.12.2022",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3141488"
+        },
+        {
+          "Tid": "58,30",
+          "Dato": "16.10.2022",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3095698"
+        },
+        {
+          "Tid": "58,65",
+          "Dato": "07.01.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3145352"
+        },
+        {
+          "Tid": "58,88",
+          "Dato": "11.09.2022",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3069216"
         },
         {
           "Tid": "1.01,05",
           "Dato": "12.06.2022",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3039654"
@@ -547,299 +2014,680 @@
           "Dato": "25.10.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "15",
-          "RA": "360",
-          "pid": "3797240",
-          "splits": [
-            "28,08",
-            "30,94"
-          ]
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3797240"
         },
         {
           "Tid": "59,73",
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
-          "RK": "26",
-          "RA": "275",
-          "pid": "3884469",
-          "splits": [
-            "28,73",
-            "31,00"
-          ]
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3884469"
         },
         {
           "Tid": "59,77",
           "Dato": "11.10.2025",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3782351",
-          "splits": [
-            "28,46",
-            "31,31"
-          ]
+          "pid": "3782351"
         },
         {
           "Tid": "1.00,93",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "32",
-          "RA": "301",
-          "pid": "3962035",
-          "splits": [
-            "29,26",
-            "31,67"
-          ]
+          "D": "",
+          "RK": "33",
+          "RA": "302",
+          "pid": "3962035"
         },
         {
           "Tid": "1.01,05",
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3851315",
-          "splits": [
-            "29,0",
-            "32,05"
-          ]
+          "pid": "3851315"
+        },
+        {
+          "Tid": "1.02,05",
+          "Dato": "07.12.2025",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3835310"
+        },
+        {
+          "Tid": "1.02,15",
+          "Dato": "26.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3798226"
+        },
+        {
+          "Tid": "1.03,17",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3798541"
+        },
+        {
+          "Tid": "1.03,35",
+          "Dato": "12.10.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3783006"
+        },
+        {
+          "Tid": "1.03,38",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3905885"
+        },
+        {
+          "Tid": "1.04,01",
+          "Dato": "07.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3714629"
+        },
+        {
+          "Tid": "1.04,25",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843195"
+        },
+        {
+          "Tid": "1.04,38",
+          "Dato": "18.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3931540"
         },
         {
           "Tid": "1.04,48",
           "Dato": "26.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "35",
           "RA": "421",
-          "pid": "3615428",
-          "splits": [
-            "31,14",
-            "33,34"
-          ]
+          "pid": "3615428"
+        },
+        {
+          "Tid": "1.04,49",
+          "Dato": "21.09.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3753401"
         },
         {
           "Tid": "1.04,50",
           "Dato": "04.04.2025",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3678709",
-          "splits": [
-            "31,05",
-            "33,45"
-          ]
+          "pid": "3678709"
+        },
+        {
+          "Tid": "1.04,57",
+          "Dato": "14.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3659679"
+        },
+        {
+          "Tid": "1.04,79",
+          "Dato": "10.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3916056"
+        },
+        {
+          "Tid": "1.04,97",
+          "Dato": "15.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3721977"
+        },
+        {
+          "Tid": "1.05,04",
+          "Dato": "07.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3637854"
+        },
+        {
+          "Tid": "1.05,14",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3852513"
+        },
+        {
+          "Tid": "1.05,46",
+          "Dato": "05.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601821"
+        },
+        {
+          "Tid": "1.05,47",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711319"
+        },
+        {
+          "Tid": "1.05,56",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711896"
+        },
+        {
+          "Tid": "1.05,57",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963004"
         },
         {
           "Tid": "1.05,75",
           "Dato": "10.11.2024",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "29",
           "RA": "673",
-          "pid": "3575268",
-          "splits": [
-            "31,90",
-            "33,85"
-          ]
+          "pid": "3575268"
+        },
+        {
+          "Tid": "1.05,76",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601934"
+        },
+        {
+          "Tid": "1.06,07",
+          "Dato": "05.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3680380"
+        },
+        {
+          "Tid": "1.06,07",
+          "Dato": "19.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3932388"
+        },
+        {
+          "Tid": "1.06,21",
+          "Dato": "17.10.2025",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3791021"
         },
         {
           "Tid": "1.06,29",
           "Dato": "08.09.2024",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3513501",
-          "splits": [
-            "31,55",
-            "34,74"
-          ]
+          "pid": "3513501"
         },
         {
           "Tid": "1.06,34",
           "Dato": "24.08.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3508768",
-          "splits": [
-            "31,61",
-            "34,73"
-          ]
+          "pid": "3508768"
+        },
+        {
+          "Tid": "1.06,36",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3663045"
+        },
+        {
+          "Tid": "1.06,40",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3861354"
+        },
+        {
+          "Tid": "1.06,45",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963300"
         },
         {
           "Tid": "1.06,80",
           "Dato": "12.05.2024",
           "Sted": "Nordbytun",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3469483",
-          "splits": [
-            "32,03",
-            "34,77"
-          ]
+          "pid": "3469483"
+        },
+        {
+          "Tid": "1.06,90",
+          "Dato": "13.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3542386"
+        },
+        {
+          "Tid": "1.06,92",
+          "Dato": "06.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3681433"
         },
         {
           "Tid": "1.06,99",
           "Dato": "02.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "18",
           "RA": "499",
-          "pid": "3476870",
-          "splits": [
-            "32,36",
-            "34,63"
-          ]
+          "pid": "3476870"
         },
         {
           "Tid": "1.07,31",
           "Dato": "03.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3416646",
-          "splits": [
-            "32,12",
-            "35,19"
-          ]
+          "pid": "3416646"
+        },
+        {
+          "Tid": "1.07,57",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853458"
+        },
+        {
+          "Tid": "1.07,62",
+          "Dato": "01.05.2026",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3945039"
+        },
+        {
+          "Tid": "1.07,71",
+          "Dato": "04.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3692384"
+        },
+        {
+          "Tid": "1.07,79",
+          "Dato": "12.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3542009"
+        },
+        {
+          "Tid": "1.07,96",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3370674"
+        },
+        {
+          "Tid": "1.08,05",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3617722"
+        },
+        {
+          "Tid": "1.08,08",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370520"
+        },
+        {
+          "Tid": "1.08,12",
+          "Dato": "15.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3428340"
+        },
+        {
+          "Tid": "1.08,21",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3978880"
         },
         {
           "Tid": "1.08,41",
           "Dato": "28.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3391082",
-          "splits": [
-            "32,82",
-            "35,59"
-          ]
+          "pid": "3391082"
+        },
+        {
+          "Tid": "1.08,43",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3712134"
+        },
+        {
+          "Tid": "1.08,81",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853830"
+        },
+        {
+          "Tid": "1.08,83",
+          "Dato": "14.04.2024",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3448206"
         },
         {
           "Tid": "1.09,02",
           "Dato": "14.10.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "10",
           "RA": "802",
-          "pid": "3317336",
-          "splits": [
-            "32,64",
-            "36,38"
-          ]
+          "pid": "3317336"
+        },
+        {
+          "Tid": "1.10,33",
+          "Dato": "27.01.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3392192"
         },
         {
           "Tid": "1.12,12",
           "Dato": "02.09.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3284229",
-          "splits": [
-            "34,09",
-            "38,03"
-          ]
+          "pid": "3284229"
+        },
+        {
+          "Tid": "1.12,38",
+          "Dato": "13.04.2024",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3446767"
         },
         {
           "Tid": "1.14,57",
           "Dato": "26.03.2023",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3209602",
-          "splits": [
-            "35,70",
-            "38,87"
-          ]
+          "pid": "3209602"
         },
         {
           "Tid": "1.14,81",
           "Dato": "04.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3255998",
-          "splits": [
-            "36,07",
-            "38,74"
-          ]
+          "pid": "3255998"
+        },
+        {
+          "Tid": "1.15,83",
+          "Dato": "09.09.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3286619"
+        },
+        {
+          "Tid": "1.18,92",
+          "Dato": "18.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3195876"
         },
         {
           "Tid": "1.22,22",
           "Dato": "29.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3161494",
-          "splits": [
-            "38,47",
-            "43,75"
-          ]
+          "pid": "3161494"
         },
         {
           "Tid": "1.23,67",
           "Dato": "11.12.2022",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3141573",
-          "splits": [
-            "39,17",
-            "44,50"
-          ]
+          "pid": "3141573"
         },
         {
           "Tid": "1.24,79",
           "Dato": "15.10.2022",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3095941",
-          "splits": [
-            "39,05",
-            "45,74"
-          ]
+          "pid": "3095941"
         },
         {
           "Tid": "1.25,96",
           "Dato": "11.09.2022",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3069281",
-          "splits": [
-            "40,57",
-            "45,39"
-          ]
+          "pid": "3069281"
+        },
+        {
+          "Tid": "1.29,35",
+          "Dato": "07.01.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3145664"
         },
         {
           "Tid": "1.35,39",
           "Dato": "12.06.2022",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3040544",
-          "splits": [
-            "44,96",
-            "50,43"
-          ]
+          "pid": "3040544"
+        },
+        {
+          "Tid": "1.40,37",
+          "Dato": "11.06.2022",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3041218"
         }
       ]
     },
@@ -851,286 +2699,310 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "32",
           "RA": "193",
-          "pid": "3914139",
-          "splits": [
-            "31,06",
-            "35,37"
-          ]
+          "pid": "3914139"
         },
         {
           "Tid": "1.06,64",
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3880498",
-          "splits": [
-            "31,45",
-            "35,19"
-          ]
+          "pid": "3880498"
         },
         {
           "Tid": "1.07,77",
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "16",
           "RA": "159",
-          "pid": "3961569",
-          "splits": [
-            "31,76",
-            "36,01"
-          ]
+          "pid": "3961569"
         },
         {
           "Tid": "1.09,09",
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3903736",
-          "splits": [
-            "32,13",
-            "36,96"
-          ]
+          "pid": "3903736"
+        },
+        {
+          "Tid": "1.10,49",
+          "Dato": "24.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "34",
+          "RA": "359",
+          "pid": "3797700"
+        },
+        {
+          "Tid": "1.10,57",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3842888"
+        },
+        {
+          "Tid": "1.10,73",
+          "Dato": "11.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843397"
         },
         {
           "Tid": "1.10,75",
           "Dato": "08.06.2025",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3712558",
-          "splits": [
-            "32,93",
-            "37,82"
-          ]
+          "pid": "3712558"
         },
         {
           "Tid": "1.10,94",
           "Dato": "15.03.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3656790",
-          "splits": [
-            "33,05",
-            "37,89"
-          ]
+          "pid": "3656790"
+        },
+        {
+          "Tid": "1.11,82",
+          "Dato": "20.09.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3752864"
         },
         {
           "Tid": "1.12,06",
           "Dato": "31.05.2025",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "14",
           "RA": "226",
-          "pid": "3710004",
-          "splits": [
-            "33,60",
-            "38,46"
-          ]
+          "pid": "3710004"
+        },
+        {
+          "Tid": "1.12,15",
+          "Dato": "17.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3930734"
+        },
+        {
+          "Tid": "1.12,31",
+          "Dato": "18.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3932613"
         },
         {
           "Tid": "1.12,37",
           "Dato": "03.11.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "15",
           "RA": "397",
-          "pid": "3563242",
-          "splits": [
-            "33,78",
-            "38,59"
-          ]
+          "pid": "3563242"
         },
         {
           "Tid": "1.12,79",
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3639615",
-          "splits": [
-            "34,40",
-            "38,39"
-          ]
+          "pid": "3639615"
+        },
+        {
+          "Tid": "1.12,91",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3962293"
+        },
+        {
+          "Tid": "1.13,01",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3663013"
+        },
+        {
+          "Tid": "1.13,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963208"
         },
         {
           "Tid": "1.14,38",
           "Dato": "24.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3614441",
-          "splits": [
-            "34,44",
-            "39,94"
-          ]
+          "pid": "3614441"
         },
         {
           "Tid": "1.14,64",
           "Dato": "02.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3416167",
-          "splits": [
-            "35,16",
-            "39,48"
-          ]
+          "pid": "3416167"
         },
         {
           "Tid": "1.14,96",
           "Dato": "16.03.2024",
           "Sted": "Manglerud",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3425459",
-          "splits": [
-            "34,57",
-            "40,39"
-          ]
+          "pid": "3425459"
         },
         {
           "Tid": "1.16,06",
           "Dato": "08.09.2024",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3513271",
-          "splits": [
-            "35,75",
-            "40,31"
-          ]
+          "pid": "3513271"
         },
         {
           "Tid": "1.16,71",
           "Dato": "01.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "13",
           "RA": "273",
-          "pid": "3476470",
-          "splits": [
-            "35,19",
-            "41,52"
-          ]
+          "pid": "3476470"
         },
         {
           "Tid": "1.16,77",
           "Dato": "26.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3390056",
-          "splits": [
-            "36,38",
-            "40,39"
-          ]
+          "pid": "3390056"
         },
         {
           "Tid": "1.17,56",
           "Dato": "06.01.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3370014",
-          "splits": [
-            "35,99",
-            "41,57"
-          ]
+          "pid": "3370014"
         },
         {
           "Tid": "1.23,16",
           "Dato": "15.10.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "20",
           "RA": "628",
-          "pid": "3316925",
-          "splits": [
-            "36,96",
-            "46,20"
-          ]
+          "pid": "3316925"
         },
         {
           "Tid": "1.26,70",
           "Dato": "17.03.2023",
           "Sted": "Jessheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3193241",
-          "splits": [
-            "41,68",
-            "45,02"
-          ]
+          "pid": "3193241"
         },
         {
           "Tid": "1.26,82",
           "Dato": "03.09.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3283365",
-          "splits": [
-            "40,84",
-            "45,98"
-          ]
+          "pid": "3283365"
         },
         {
           "Tid": "1.28,16",
           "Dato": "03.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3255120",
-          "splits": [
-            "40,79",
-            "47,37"
-          ]
+          "pid": "3255120"
         },
         {
           "Tid": "1.42,65",
           "Dato": "27.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3160461",
-          "splits": [
-            "44,52",
-            "58,13"
-          ]
+          "pid": "3160461"
         },
         {
           "Tid": "1.46,62",
           "Dato": "08.01.2023",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3145080",
-          "splits": [
-            "49,98",
-            "56,64"
-          ]
+          "pid": "3145080"
         }
       ]
     },
@@ -1142,13 +3014,10 @@
           "Dato": "10.11.2024",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "29",
           "RA": "493",
-          "pid": "3575340",
-          "splits": [
-            "35,58",
-            "40,03"
-          ]
+          "pid": "3575340"
         }
       ]
     },
@@ -1160,195 +3029,150 @@
           "Dato": "05.01.2025",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "62",
           "RA": "392",
-          "pid": "3601621",
-          "splits": [
-            "37,04",
-            "39,99"
-          ]
+          "pid": "3601621"
         },
         {
           "Tid": "1.20,12",
           "Dato": "12.05.2024",
           "Sted": "Nordbytun",
           "Basseng": "25m",
+          "D": "",
           "RK": "44",
           "RA": "428",
-          "pid": "3469064",
-          "splits": [
-            "39,29",
-            "40,83"
-          ]
+          "pid": "3469064"
         },
         {
           "Tid": "1.21,80",
           "Dato": "14.04.2024",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "32",
           "RA": "291",
-          "pid": "3443381",
-          "splits": [
-            "40,32",
-            "41,48"
-          ]
+          "pid": "3443381"
         },
         {
           "Tid": "1.22,10",
           "Dato": "25.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "44",
           "RA": "281",
-          "pid": "3614724",
-          "splits": [
-            "39,10",
-            "43,00"
-          ]
+          "pid": "3614724"
         },
         {
           "Tid": "1.22,68",
           "Dato": "27.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3390349",
-          "splits": [
-            "39,64",
-            "43,04"
-          ]
+          "pid": "3390349"
         },
         {
           "Tid": "1.23,51",
           "Dato": "14.10.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "22",
           "RA": "511",
-          "pid": "3317026",
-          "splits": [
-            "41,02",
-            "42,49"
-          ]
+          "pid": "3317026"
         },
         {
           "Tid": "1.23,60",
           "Dato": "02.09.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3283520",
-          "splits": [
-            "41,54",
-            "42,06"
-          ]
+          "pid": "3283520"
         },
         {
           "Tid": "1.27,33",
           "Dato": "26.03.2023",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3209432",
-          "splits": [
-            "43,42",
-            "43,91"
-          ]
+          "pid": "3209432"
         },
         {
           "Tid": "1.27,91",
           "Dato": "01.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3476562",
-          "splits": [
-            "42,60",
-            "45,31"
-          ]
+          "pid": "3476562"
         },
         {
           "Tid": "1.29,96",
           "Dato": "03.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3255331",
-          "splits": [
-            "44,35",
-            "45,61"
-          ]
+          "pid": "3255331"
         },
         {
           "Tid": "1.30,23",
           "Dato": "12.02.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3178698",
-          "splits": [
-            "45,30",
-            "44,93"
-          ]
+          "pid": "3178698"
         },
         {
           "Tid": "1.33,91",
           "Dato": "28.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3160757",
-          "splits": [
-            "45,93",
-            "47,98"
-          ]
+          "pid": "3160757"
         },
         {
           "Tid": "1.34,89",
           "Dato": "11.12.2022",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3141436",
-          "splits": [
-            "46,56",
-            "48,33"
-          ]
+          "pid": "3141436"
         },
         {
           "Tid": "1.39,57",
           "Dato": "15.10.2022",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3095629",
-          "splits": [
-            "49,27",
-            "50,30"
-          ]
+          "pid": "3095629"
         },
         {
           "Tid": "1.43,99",
           "Dato": "11.06.2022",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3040148",
-          "splits": [
-            "49,26",
-            "54,73"
-          ]
+          "pid": "3040148"
         }
       ]
     },
@@ -1356,160 +3180,254 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.22,31",
+          "Dato": "08.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "53",
+          "RA": "425",
+          "pid": "3713398"
+        },
+        {
+          "Tid": "1.22,40",
+          "Dato": "11.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3914916"
+        },
+        {
+          "Tid": "1.23,44",
+          "Dato": "15.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3657971"
+        },
+        {
+          "Tid": "1.24,74",
+          "Dato": "16.02.2025",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3639866"
+        },
+        {
+          "Tid": "1.24,90",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "44",
+          "RA": "225",
+          "pid": "3852045"
+        },
+        {
           "Tid": "1.25,79",
           "Dato": "26.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "30",
           "RA": "239",
-          "pid": "3614951",
-          "splits": [
-            "40,65",
-            "45,14"
-          ]
+          "pid": "3614951"
+        },
+        {
+          "Tid": "1.26,37",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601776"
+        },
+        {
+          "Tid": "1.27,49",
+          "Dato": "24.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3616192"
+        },
+        {
+          "Tid": "1.28,10",
+          "Dato": "05.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3679814"
         },
         {
           "Tid": "1.32,54",
           "Dato": "02.03.2024",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3416375",
-          "splits": [
-            "43,73",
-            "48,81"
-          ]
+          "pid": "3416375"
+        },
+        {
+          "Tid": "1.32,91",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370276"
         },
         {
           "Tid": "1.33,34",
           "Dato": "28.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "31",
           "RA": "335",
-          "pid": "3390579",
-          "splits": [
-            "43,99",
-            "49,35"
-          ]
+          "pid": "3390579"
+        },
+        {
+          "Tid": "1.36,14",
+          "Dato": "16.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3426666"
         },
         {
           "Tid": "1.36,36",
           "Dato": "02.06.2024",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3476654",
-          "splits": [
-            "45,36",
-            "51,00"
-          ]
+          "pid": "3476654"
         },
         {
           "Tid": "1.41,15",
           "Dato": "03.09.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "59",
           "RA": "821",
-          "pid": "3283765",
-          "splits": [
-            "48,07",
-            "53,08"
-          ]
+          "pid": "3283765"
         },
         {
           "Tid": "1.41,62",
           "Dato": "04.06.2023",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3255567",
-          "splits": [
-            "46,99",
-            "54,63"
-          ]
+          "pid": "3255567"
+        },
+        {
+          "Tid": "1.45,24",
+          "Dato": "02.09.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3285030"
+        },
+        {
+          "Tid": "1.48,77",
+          "Dato": "18.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3194327"
         },
         {
           "Tid": "1.49,14",
           "Dato": "26.03.2023",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3209481",
-          "splits": [
-            "51,86",
-            "57,28"
-          ]
+          "pid": "3209481"
         },
         {
           "Tid": "1.55,42",
           "Dato": "12.02.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3178892",
-          "splits": [
-            "53,93",
-            "1.01,49"
-          ]
+          "pid": "3178892"
         },
         {
           "Tid": "1.55,64",
           "Dato": "29.01.2023",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3161000",
-          "splits": [
-            "54,98",
-            "1.00,66"
-          ]
+          "pid": "3161000"
         },
         {
           "Tid": "1.58,19",
           "Dato": "11.12.2022",
           "Sted": "Moss",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3141487",
-          "splits": [
-            "55,59",
-            "1.02,60"
-          ]
+          "pid": "3141487"
         },
         {
           "Tid": "2.01,85",
           "Dato": "16.10.2022",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3095697",
-          "splits": [
-            "58,30",
-            "1.03,55"
-          ]
+          "pid": "3095697"
         },
         {
           "Tid": "2.01,91",
           "Dato": "11.09.2022",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3069215",
-          "splits": [
-            "58,88",
-            "1.03,03"
-          ]
+          "pid": "3069215"
+        },
+        {
+          "Tid": "2.05,88",
+          "Dato": "07.01.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3145353"
         }
       ]
     },
@@ -1521,225 +3439,440 @@
           "Dato": "07.12.2025",
           "Sted": "Nadderud",
           "Basseng": "25m",
+          "D": "",
           "RK": "11",
           "RA": "218",
-          "pid": "3835308",
-          "splits": [
-            "29,68",
-            "32,37",
-            "33,19",
-            "32,76"
-          ]
+          "pid": "3835308"
         },
         {
           "Tid": "2.08,05",
           "Dato": "26.10.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3798224",
-          "splits": [
-            "29,68",
-            "32,47",
-            "33,19",
-            "32,71"
-          ]
+          "pid": "3798224"
         },
         {
           "Tid": "2.09,71",
           "Dato": "12.10.2025",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3783004",
-          "splits": [
-            "30,34",
-            "33,01",
-            "33,49",
-            "32,87"
-          ]
+          "pid": "3783004"
+        },
+        {
+          "Tid": "2.11,34",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3798542"
         },
         {
           "Tid": "2.11,79",
           "Dato": "22.03.2026",
           "Sted": "Oslo",
           "Basseng": "50m",
-          "RK": "10",
-          "RA": "141",
-          "pid": "3905883",
-          "splits": [
-            "29,93",
-            "33,45",
-            "34,45",
-            "33,96"
-          ]
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3905883"
+        },
+        {
+          "Tid": "2.12,39",
+          "Dato": "10.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "29",
+          "RA": "207",
+          "pid": "3916057"
         },
         {
           "Tid": "2.13,21",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3852511",
-          "splits": [
-            "31,0",
-            "34,14",
-            "34,89",
-            "33,18"
-          ]
+          "pid": "3852511"
+        },
+        {
+          "Tid": "2.13,24",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843196"
+        },
+        {
+          "Tid": "2.13,59",
+          "Dato": "07.06.2025",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3714630"
+        },
+        {
+          "Tid": "2.14,03",
+          "Dato": "14.03.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3659680"
+        },
+        {
+          "Tid": "2.14,61",
+          "Dato": "21.09.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3753402"
         },
         {
           "Tid": "2.14,65",
           "Dato": "05.01.2025",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3601819",
-          "splits": [
-            "31,21",
-            "34,25",
-            "34,93",
-            "34,26"
-          ]
+          "pid": "3601819"
         },
         {
           "Tid": "2.14,67",
           "Dato": "18.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3931538",
-          "splits": [
-            "30,87",
-            "33,51",
-            "35,65",
-            "34,64"
-          ]
+          "pid": "3931538"
+        },
+        {
+          "Tid": "2.15,39",
+          "Dato": "07.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3637855"
         },
         {
           "Tid": "2.15,81",
           "Dato": "31.05.2025",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "10",
           "RA": "215",
-          "pid": "3711317",
-          "splits": [
-            "31,24",
-            "34,23",
-            "35,21",
-            "35,13"
-          ]
+          "pid": "3711317"
         },
         {
           "Tid": "2.15,94",
           "Dato": "15.06.2025",
           "Sted": "Hamar",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3721975",
-          "splits": [
-            "30,49",
-            "34,48",
-            "35,52",
-            "35,45"
-          ]
+          "pid": "3721975"
+        },
+        {
+          "Tid": "2.16,13",
+          "Dato": "17.10.2025",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3791022"
+        },
+        {
+          "Tid": "2.16,50",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711897"
         },
         {
           "Tid": "2.16,54",
           "Dato": "05.04.2025",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3680378",
-          "splits": [
-            "31,50",
-            "34,57",
-            "35,51",
-            "34,96"
-          ]
+          "pid": "3680378"
+        },
+        {
+          "Tid": "2.16,71",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3663046"
+        },
+        {
+          "Tid": "2.16,83",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963005"
+        },
+        {
+          "Tid": "2.17,73",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3861355"
+        },
+        {
+          "Tid": "2.17,94",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3601935"
+        },
+        {
+          "Tid": "2.18,40",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963301"
+        },
+        {
+          "Tid": "2.18,72",
+          "Dato": "06.04.2025",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3681434"
+        },
+        {
+          "Tid": "2.19,09",
+          "Dato": "19.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3932389"
         },
         {
           "Tid": "2.19,36",
           "Dato": "12.10.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "14",
           "RA": "417",
-          "pid": "3542007",
-          "splits": [
-            "31,79",
-            "36,00",
-            "36,35",
-            "35,22"
-          ]
+          "pid": "3542007"
+        },
+        {
+          "Tid": "2.20,11",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853459"
         },
         {
           "Tid": "2.20,16",
           "Dato": "04.05.2025",
           "Sted": "Drammen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3692382",
-          "splits": [
-            "31,94",
-            "35,77",
-            "35,97",
-            "36,48"
-          ]
+          "pid": "3692382"
+        },
+        {
+          "Tid": "2.20,18",
+          "Dato": "13.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3542387"
+        },
+        {
+          "Tid": "2.20,93",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3978881"
+        },
+        {
+          "Tid": "2.21,13",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853831"
+        },
+        {
+          "Tid": "2.21,16",
+          "Dato": "01.05.2026",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3945040"
+        },
+        {
+          "Tid": "2.21,91",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3712135"
+        },
+        {
+          "Tid": "2.23,05",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3617723"
+        },
+        {
+          "Tid": "2.23,94",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3370521"
+        },
+        {
+          "Tid": "2.24,25",
+          "Dato": "15.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3428341"
+        },
+        {
+          "Tid": "2.25,10",
+          "Dato": "14.04.2024",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "8",
+          "RA": "318",
+          "pid": "3448207"
         },
         {
           "Tid": "2.25,16",
           "Dato": "27.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3392190",
-          "splits": [
-            "33,07",
-            "37,26",
-            "38,54",
-            "36,29"
-          ]
+          "pid": "3392190"
         },
         {
           "Tid": "2.29,37",
           "Dato": "13.04.2024",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3446765",
-          "splits": [
-            "34,11",
-            "38,27",
-            "39,86",
-            "37,13"
-          ]
+          "pid": "3446765"
+        },
+        {
+          "Tid": "2.39,68",
+          "Dato": "09.09.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3286620"
+        },
+        {
+          "Tid": "2.46,78",
+          "Dato": "18.03.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3195877"
+        },
+        {
+          "Tid": "3.09,56",
+          "Dato": "07.01.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3145665"
         },
         {
           "Tid": "3.26,52",
           "Dato": "11.06.2022",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3041216",
-          "splits": [
-            "46,25",
-            "54,12",
-            "54,58",
-            "51,57"
-          ]
+          "pid": "3041216"
         }
       ]
     },
@@ -1751,240 +3884,160 @@
           "Dato": "24.10.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "13",
           "RA": "179",
-          "pid": "3798379",
-          "splits": [
-            "31,75",
-            "38,16",
-            "42,27",
-            "32,68"
-          ]
+          "pid": "3798379"
         },
         {
           "Tid": "2.25,38",
           "Dato": "11.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "27",
           "RA": "123",
-          "pid": "3843116",
-          "splits": [
-            "32,41",
-            "37,14",
-            "42,46",
-            "33,37"
-          ]
+          "pid": "3843116"
         },
         {
           "Tid": "2.29,20",
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3915553",
-          "splits": [
-            "32,95",
-            "38,43",
-            "44,38",
-            "33,44"
-          ]
+          "pid": "3915553"
         },
         {
           "Tid": "2.29,49",
           "Dato": "09.06.2025",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3714024",
-          "splits": [
-            "33,14",
-            "39,14",
-            "43,16",
-            "34,05"
-          ]
+          "pid": "3714024"
         },
         {
           "Tid": "2.33,26",
           "Dato": "19.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "19",
           "RA": "122",
-          "pid": "3932026",
-          "splits": [
-            "32,79",
-            "40,56",
-            "46,17",
-            "33,74"
-          ]
+          "pid": "3932026"
         },
         {
           "Tid": "2.33,66",
           "Dato": "16.03.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3658914",
-          "splits": [
-            "33,53",
-            "40,81",
-            "44,66",
-            "34,66"
-          ]
+          "pid": "3658914"
         },
         {
           "Tid": "2.34,00",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3853019",
-          "splits": [
-            "33,36",
-            "40,77",
-            "45,64",
-            "34,23"
-          ]
+          "pid": "3853019"
         },
         {
           "Tid": "2.36,54",
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3639969",
-          "splits": [
-            "33,93",
-            "41,91",
-            "45,64",
-            "35,06"
-          ]
+          "pid": "3639969"
         },
         {
           "Tid": "2.39,93",
           "Dato": "12.10.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "26",
           "RA": "348",
-          "pid": "3542213",
-          "splits": [
-            "34,15",
-            "43,31",
-            "45,91",
-            "36,56"
-          ]
+          "pid": "3542213"
         },
         {
           "Tid": "2.43,28",
           "Dato": "17.03.2024",
           "Sted": "Manglerud",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3427613",
-          "splits": [
-            "34,77",
-            "41,15",
-            "49,89",
-            "37,47"
-          ]
+          "pid": "3427613"
         },
         {
           "Tid": "2.43,85",
           "Dato": "25.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "24",
           "RA": "214",
-          "pid": "3617270",
-          "splits": [
-            "34,90",
-            "44,22",
-            "48,24",
-            "36,49"
-          ]
+          "pid": "3617270"
         },
         {
           "Tid": "2.45,28",
           "Dato": "06.01.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3370425",
-          "splits": [
-            "36,14",
-            "43,83",
-            "49,31",
-            "36,00"
-          ]
+          "pid": "3370425"
         },
         {
           "Tid": "2.48,11",
           "Dato": "12.04.2024",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "12",
           "RA": "243",
-          "pid": "3447572",
-          "splits": [
-            "35,70",
-            "44,53",
-            "50,36",
-            "37,52"
-          ]
+          "pid": "3447572"
         },
         {
           "Tid": "2.59,59",
           "Dato": "09.09.2023",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3286593",
-          "splits": [
-            "40,51",
-            "44,92",
-            "53,62",
-            "40,54"
-          ]
+          "pid": "3286593"
         },
         {
           "Tid": "3.10,22",
           "Dato": "19.03.2023",
           "Sted": "Jessheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3195178",
-          "splits": [
-            "40,98",
-            "47,59",
-            "59,95",
-            "41,70"
-          ]
+          "pid": "3195178"
         },
         {
           "Tid": "3.24,77",
           "Dato": "21.01.2023",
           "Sted": "Lambertseter",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3157743",
-          "splits": [
-            "45,90",
-            "49,58",
-            "1.04,04",
-            "45,25"
-          ]
+          "pid": "3157743"
         }
       ]
     },
@@ -1996,90 +4049,60 @@
           "Dato": "10.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "1",
           "RA": "26",
-          "pid": "3842886",
-          "splits": [
-            "33,45",
-            "37,12",
-            "37,35",
-            "37,55"
-          ]
+          "pid": "3842886"
         },
         {
           "Tid": "2.31,06",
           "Dato": "17.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "4",
           "RA": "48",
-          "pid": "3930732",
-          "splits": [
-            "34,08",
-            "38,07",
-            "39,15",
-            "39,76"
-          ]
+          "pid": "3930732"
         },
         {
           "Tid": "2.31,15",
           "Dato": "24.10.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "7",
           "RA": "95",
-          "pid": "3797698",
-          "splits": [
-            "33,21",
-            "37,28",
-            "39,77",
-            "40,89"
-          ]
+          "pid": "3797698"
         },
         {
           "Tid": "2.31,70",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3962291",
-          "splits": [
-            "34,16",
-            "38,75",
-            "39,28",
-            "39,51"
-          ]
+          "pid": "3962291"
         },
         {
           "Tid": "2.32,50",
           "Dato": "20.09.2025",
           "Sted": "Lambertseter",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3752862",
-          "splits": [
-            "33,61",
-            "38,21",
-            "40,17",
-            "40,51"
-          ]
+          "pid": "3752862"
         },
         {
           "Tid": "2.34,39",
           "Dato": "23.03.2025",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3663011",
-          "splits": [
-            "34,26",
-            "38,75",
-            "40,51",
-            "40,87"
-          ]
+          "pid": "3663011"
         }
       ]
     },
@@ -2091,195 +4114,130 @@
           "Dato": "08.03.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "33",
           "RA": "129",
-          "pid": "3884533",
-          "splits": [
-            "35,17",
-            "37,35",
-            "37,42",
-            "36,95"
-          ]
+          "pid": "3884533"
         },
         {
           "Tid": "2.29,86",
           "Dato": "12.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3914611",
-          "splits": [
-            "35,34",
-            "37,96",
-            "38,63",
-            "37,93"
-          ]
+          "pid": "3914611"
         },
         {
           "Tid": "2.36,43",
           "Dato": "07.06.2025",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "47",
           "RA": "287",
-          "pid": "3712997",
-          "splits": [
-            "36,68",
-            "39,83",
-            "40,07",
-            "39,85"
-          ]
+          "pid": "3712997"
         },
         {
           "Tid": "2.41,27",
           "Dato": "16.03.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3657506",
-          "splits": [
-            "36,93",
-            "40,71",
-            "42,66",
-            "40,97"
-          ]
+          "pid": "3657506"
         },
         {
           "Tid": "2.42,58",
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3639803",
-          "splits": [
-            "39,20",
-            "41,32",
-            "41,90",
-            "40,16"
-          ]
+          "pid": "3639803"
         },
         {
           "Tid": "2.43,00",
           "Dato": "17.03.2024",
           "Sted": "Manglerud",
           "Basseng": "25m",
+          "D": "",
           "RK": "37",
           "RA": "352",
-          "pid": "3426226",
-          "splits": [
-            "38,31",
-            "41,32",
-            "42,64",
-            "40,73"
-          ]
+          "pid": "3426226"
         },
         {
           "Tid": "2.49,73",
           "Dato": "26.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "25",
           "RA": "126",
-          "pid": "3616013",
-          "splits": [
-            "39,30",
-            "43,52",
-            "43,75",
-            "43,16"
-          ]
+          "pid": "3616013"
         },
         {
           "Tid": "2.51,26",
           "Dato": "04.04.2025",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3679470",
-          "splits": [
-            "39,27",
-            "44,10",
-            "44,53",
-            "43,36"
-          ]
+          "pid": "3679470"
         },
         {
           "Tid": "2.53,55",
           "Dato": "28.01.2024",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "13",
           "RA": "141",
-          "pid": "3391582",
-          "splits": [
-            "40,99",
-            "43,85",
-            "44,99",
-            "43,72"
-          ]
+          "pid": "3391582"
         },
         {
           "Tid": "2.54,17",
           "Dato": "12.04.2024",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3445442",
-          "splits": [
-            "40,92",
-            "44,55",
-            "44,97",
-            "43,73"
-          ]
+          "pid": "3445442"
         },
         {
           "Tid": "2.55,27",
           "Dato": "03.09.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3284813",
-          "splits": [
-            "42,71",
-            "44,65",
-            "44,13",
-            "43,78"
-          ]
+          "pid": "3284813"
         },
         {
           "Tid": "3.03,12",
           "Dato": "19.03.2023",
           "Sted": "Jessheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3193899",
-          "splits": [
-            "42,87",
-            "47,22",
-            "47,46",
-            "45,57"
-          ]
+          "pid": "3193899"
         },
         {
           "Tid": "3.26,97",
           "Dato": "07.01.2023",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3145265",
-          "splits": [
-            "49,81",
-            "52,10",
-            "54,41",
-            "50,65"
-          ]
+          "pid": "3145265"
         }
       ]
     },
@@ -2291,195 +4249,130 @@
           "Dato": "11.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "53",
           "RA": "183",
-          "pid": "3914914",
-          "splits": [
-            "39,01",
-            "43,39",
-            "44,53",
-            "44,22"
-          ]
+          "pid": "3914914"
         },
         {
           "Tid": "2.52,84",
           "Dato": "08.06.2025",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "38",
           "RA": "257",
-          "pid": "3713396",
-          "splits": [
-            "38,74",
-            "43,57",
-            "44,95",
-            "45,58"
-          ]
+          "pid": "3713396"
         },
         {
           "Tid": "2.53,20",
           "Dato": "15.03.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3657969",
-          "splits": [
-            "39,20",
-            "44,24",
-            "45,12",
-            "44,64"
-          ]
+          "pid": "3657969"
         },
         {
           "Tid": "2.56,76",
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3639864",
-          "splits": [
-            "39,80",
-            "44,94",
-            "46,45",
-            "45,57"
-          ]
+          "pid": "3639864"
         },
         {
           "Tid": "2.57,24",
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "22",
           "RA": "95",
-          "pid": "3852043",
-          "splits": [
-            "39,65",
-            "45,25",
-            "46,16",
-            "46,18"
-          ]
+          "pid": "3852043"
         },
         {
           "Tid": "2.59,12",
           "Dato": "04.01.2025",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3601774",
-          "splits": [
-            "40,26",
-            "46,11",
-            "46,47",
-            "46,28"
-          ]
+          "pid": "3601774"
         },
         {
           "Tid": "3.02,49",
           "Dato": "24.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "19",
           "RA": "125",
-          "pid": "3616190",
-          "splits": [
-            "41,23",
-            "46,26",
-            "47,33",
-            "47,67"
-          ]
+          "pid": "3616190"
         },
         {
           "Tid": "3.02,73",
           "Dato": "05.04.2025",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3679812",
-          "splits": [
-            "42,05",
-            "46,05",
-            "48,78",
-            "45,85"
-          ]
+          "pid": "3679812"
         },
         {
           "Tid": "3.13,10",
           "Dato": "06.01.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "56",
           "RA": "464",
-          "pid": "3370274",
-          "splits": [
-            "42,36",
-            "50,55",
-            "49,97",
-            "50,22"
-          ]
+          "pid": "3370274"
         },
         {
           "Tid": "3.20,70",
           "Dato": "16.03.2024",
           "Sted": "Manglerud",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3426664",
-          "splits": [
-            "45,25",
-            "50,89",
-            "52,42",
-            "52,14"
-          ]
+          "pid": "3426664"
         },
         {
           "Tid": "3.35,21",
           "Dato": "02.09.2023",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3285028",
-          "splits": [
-            "50,25",
-            "54,99",
-            "56,14",
-            "53,83"
-          ]
+          "pid": "3285028"
         },
         {
           "Tid": "3.46,76",
           "Dato": "18.03.2023",
           "Sted": "Jessheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3194325",
-          "splits": [
-            "50,57",
-            "58,20",
-            "59,66",
-            "58,33"
-          ]
+          "pid": "3194325"
         },
         {
           "Tid": "4.25,66",
           "Dato": "07.01.2023",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3145351",
-          "splits": [
-            "58,65",
-            "1.07,23",
-            "1.09,59",
-            "1.10,19"
-          ]
+          "pid": "3145351"
         }
       ]
     },
@@ -2491,380 +4384,290 @@
           "Dato": "10.04.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "16",
           "RA": "114",
-          "pid": "3916054",
-          "splits": [
-            "30,82",
-            "33,97",
-            "33,30",
-            "34,30",
-            "34,33",
-            "33,60",
-            "34,01",
-            "33,14"
-          ]
+          "pid": "3916054"
         },
         {
           "Tid": "4.28,30",
           "Dato": "10.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3843193",
-          "splits": [
-            "30,67",
-            "33,58",
-            "34,15",
-            "34,84",
-            "33,95",
-            "33,71",
-            "34,31",
-            "33,09"
-          ]
+          "pid": "3843193"
         },
         {
           "Tid": "4.29,78",
           "Dato": "25.10.2025",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "9",
           "RA": "132",
-          "pid": "3798539",
-          "splits": [
-            "30,04",
-            "33,13",
-            "33,82",
-            "34,35",
-            "34,72",
-            "34,66",
-            "35,20",
-            "33,86"
-          ]
+          "pid": "3798539"
         },
         {
           "Tid": "4.34,84",
           "Dato": "07.06.2025",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3714627",
-          "splits": [
-            "30,55",
-            "33,46",
-            "34,58",
-            "35,00",
-            "35,36",
-            "35,34",
-            "35,75",
-            "34,80"
-          ]
+          "pid": "3714627"
         },
         {
           "Tid": "4.36,24",
           "Dato": "07.02.2025",
           "Sted": "Holmen",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3637852",
-          "splits": [
-            "31,06",
-            "33,98",
-            "35,00",
-            "35,35",
-            "35,63",
-            "35,21",
-            "35,49",
-            "34,52"
-          ]
+          "pid": "3637852"
+        },
+        {
+          "Tid": "4.36,41",
+          "Dato": "17.10.2025",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3791023"
+        },
+        {
+          "Tid": "4.36,73",
+          "Dato": "21.09.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3753403"
         },
         {
           "Tid": "4.37,20",
           "Dato": "14.03.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3659677",
-          "splits": [
-            "30,91",
-            "33,66",
-            "34,41",
-            "35,05",
-            "35,53",
-            "35,87",
-            "36,09",
-            "35,68"
-          ]
+          "pid": "3659677"
         },
         {
           "Tid": "4.37,63",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "4",
           "RA": "83",
-          "pid": "3963002",
-          "splits": [
-            "31,09",
-            "34,48",
-            "35,71",
-            "35,55",
-            "35,73",
-            "36,23",
-            "35,69",
-            "33,15"
-          ]
+          "pid": "3963002"
+        },
+        {
+          "Tid": "4.38,99",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3861356"
         },
         {
           "Tid": "4.41,07",
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3853456",
-          "splits": [
-            "32,15",
-            "35,42",
-            "36,23",
-            "36,31",
-            "35,24",
-            "36,66",
-            "35,33",
-            "33,73"
-          ]
+          "pid": "3853456"
         },
         {
           "Tid": "4.41,24",
           "Dato": "01.06.2025",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "5",
           "RA": "91",
-          "pid": "3711894",
-          "splits": [
-            "31,49",
-            "34,07",
-            "35,62",
-            "35,32",
-            "35,79",
-            "36,71",
-            "36,22",
-            "36,02"
-          ]
+          "pid": "3711894"
+        },
+        {
+          "Tid": "4.41,59",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3663047"
         },
         {
           "Tid": "4.42,55",
           "Dato": "04.01.2025",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3601932",
-          "splits": [
-            "31,46",
-            "34,30",
-            "36,12",
-            "36,06",
-            "36,63",
-            "36,75",
-            "36,52",
-            "34,71"
-          ]
+          "pid": "3601932"
+        },
+        {
+          "Tid": "4.43,22",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963302"
         },
         {
           "Tid": "4.43,97",
           "Dato": "06.04.2025",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3681431",
-          "splits": [
-            "31,58",
-            "35,34",
-            "35,50",
-            "36,30",
-            "36,15",
-            "36,70",
-            "36,20",
-            "36,20"
-          ]
+          "pid": "3681431"
         },
         {
           "Tid": "4.45,87",
           "Dato": "13.10.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "11",
           "RA": "255",
-          "pid": "3542384",
-          "splits": [
-            "31,64",
-            "35,26",
-            "36,43",
-            "36,85",
-            "36,95",
-            "36,52",
-            "37,04",
-            "35,18"
-          ]
+          "pid": "3542384"
         },
         {
           "Tid": "4.47,38",
           "Dato": "19.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3932386",
-          "splits": [
-            "31,27",
-            "34,80",
-            "35,94",
-            "37,08",
-            "37,27",
-            "37,95",
-            "37,32",
-            "35,75"
-          ]
+          "pid": "3932386"
+        },
+        {
+          "Tid": "4.47,52",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853832"
+        },
+        {
+          "Tid": "4.48,15",
+          "Dato": "01.05.2026",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3945041"
+        },
+        {
+          "Tid": "4.48,93",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3712136"
         },
         {
           "Tid": "4.50,01",
           "Dato": "26.01.2025",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3617720",
-          "splits": [
-            "32,03",
-            "36,02",
-            "37,47",
-            "37,53",
-            "36,51",
-            "37,21",
-            "37,23",
-            "36,01"
-          ]
+          "pid": "3617720"
+        },
+        {
+          "Tid": "4.53,85",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3978882"
         },
         {
           "Tid": "4.55,14",
           "Dato": "15.03.2024",
           "Sted": "Manglerud",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3428338",
-          "splits": [
-            "32,06",
-            "36,06",
-            "37,70",
-            "38,43",
-            "38,15",
-            "38,46",
-            "37,95",
-            "36,33"
-          ]
+          "pid": "3428338"
         },
         {
           "Tid": "4.56,60",
           "Dato": "06.01.2024",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3370518",
-          "splits": [
-            "31,85",
-            "36,23",
-            "37,84",
-            "38,02",
-            "38,76",
-            "39,17",
-            "39,34",
-            "35,39"
-          ]
+          "pid": "3370518"
         },
         {
           "Tid": "4.57,01",
           "Dato": "14.04.2024",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "6",
           "RA": "156",
-          "pid": "3448204",
-          "splits": [
-            "32,30",
-            "36,53",
-            "38,23",
-            "38,04",
-            "38,88",
-            "39,41",
-            "37,99",
-            "35,63"
-          ]
+          "pid": "3448204"
         },
         {
           "Tid": "5.26,68",
           "Dato": "09.09.2023",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3286617",
-          "splits": [
-            "35,84",
-            "39,99",
-            "41,39",
-            "42,46",
-            "41,83",
-            "42,61",
-            "41,96",
-            "40,60"
-          ]
+          "pid": "3286617"
         },
         {
           "Tid": "5.44,54",
           "Dato": "18.03.2023",
           "Sted": "Jessheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3195874",
-          "splits": [
-            "36,91",
-            "42,01",
-            "43,71",
-            "44,15",
-            "43,60",
-            "43,31",
-            "45,85",
-            "45,00"
-          ]
+          "pid": "3195874"
         },
         {
           "Tid": "6.33,99",
           "Dato": "07.01.2023",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3145662",
-          "splits": [
-            "41,32",
-            "48,03",
-            "49,61",
-            "50,60",
-            "52,08",
-            "52,19",
-            "52,73",
-            "47,43"
-          ]
+          "pid": "3145662"
         }
       ]
     },
@@ -2876,57 +4679,30 @@
           "Dato": "11.01.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "6",
           "RA": "42",
-          "pid": "3843395",
-          "splits": [
-            "33,18",
-            "37,55",
-            "40,56",
-            "40,44",
-            "43,08",
-            "44,92",
-            "35,67",
-            "33,35"
-          ]
+          "pid": "3843395"
         },
         {
           "Tid": "5.21,22",
           "Dato": "18.04.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "7",
           "RA": "47",
-          "pid": "3932611",
-          "splits": [
-            "34,0",
-            "38,31",
-            "43,16",
-            "42,10",
-            "45,95",
-            "47,56",
-            "35,76",
-            "34,38"
-          ]
+          "pid": "3932611"
         },
         {
           "Tid": "5.28,01",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3963206",
-          "splits": [
-            "34,52",
-            "38,57",
-            "42,83",
-            "42,62",
-            "48,25",
-            "49,05",
-            "36,81",
-            "35,36"
-          ]
+          "pid": "3963206"
         }
       ]
     },
@@ -2934,139 +4710,94 @@
       "distanse": "800m Fri",
       "races": [
         {
+          "Tid": "9.15,86",
+          "Dato": "17.10.2025",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "3",
+          "RA": "69",
+          "pid": "3791024"
+        },
+        {
+          "Tid": "9.21,54",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "4",
+          "RA": "36",
+          "pid": "3861357"
+        },
+        {
           "Tid": "9.24,66",
           "Dato": "21.09.2025",
           "Sted": "Lambertseter",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3753399",
-          "splits": [
-            "30,59",
-            "33,90",
-            "35,07",
-            "35,05",
-            "35,66",
-            "35,19",
-            "35,78",
-            "35,49",
-            "35,73",
-            "35,90",
-            "36,05",
-            "35,96",
-            "36,66",
-            "36,43",
-            "36,56",
-            "34,64"
-          ]
+          "pid": "3753399"
         },
         {
           "Tid": "9.30,01",
           "Dato": "23.03.2025",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3663043",
-          "splits": [
-            "31,48",
-            "34,88",
-            "35,09",
-            "35,26",
-            "36,16",
-            "35,92",
-            "35,80",
-            "37,00",
-            "36,00",
-            "36,63",
-            "35,49",
-            "36,91",
-            "36,09",
-            "36,85",
-            "35,90",
-            "34,55"
-          ]
+          "pid": "3663043"
         },
         {
           "Tid": "9.34,18",
           "Dato": "23.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
+          "D": "",
           "RK": "3",
           "RA": "48",
-          "pid": "3853828",
-          "splits": [
-            "32,54",
-            "36,27",
-            "35,95",
-            "36,37",
-            "36,57",
-            "36,63",
-            "36,75",
-            "36,44",
-            "36,87",
-            "36,69",
-            "36,40",
-            "36,51",
-            "36,68",
-            "36,37",
-            "35,48",
-            "31,66"
-          ]
+          "pid": "3853828"
+        },
+        {
+          "Tid": "9.40,84",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963303"
         },
         {
           "Tid": "9.42,34",
           "Dato": "01.05.2026",
           "Sted": "Drammen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3945037",
-          "splits": [
-            "32,74",
-            "34,88",
-            "36,25",
-            "37,29",
-            "36,41",
-            "36,96",
-            "36,56",
-            "37,06",
-            "37,29",
-            "37,50",
-            "37,42",
-            "36,65",
-            "37,07",
-            "37,00",
-            "36,72",
-            "34,54"
-          ]
+          "pid": "3945037"
+        },
+        {
+          "Tid": "9.44,36",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "3",
+          "RA": "53",
+          "pid": "3712137"
         },
         {
           "Tid": "9.56,68",
           "Dato": "14.06.2026",
           "Sted": "Rud",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3978878",
-          "splits": [
-            "32,84",
-            "35,37",
-            "35,57",
-            "37,15",
-            "37,93",
-            "38,10",
-            "38,58",
-            "38,31",
-            "37,82",
-            "37,97",
-            "39,05",
-            "37,59",
-            "37,65",
-            "37,46",
-            "38,80",
-            "36,49"
-          ]
+          "pid": "3978878"
         }
       ]
     },
@@ -3078,164 +4809,40 @@
           "Dato": "17.10.2025",
           "Sted": "Bergen",
           "Basseng": "25m",
+          "D": "",
           "RK": "2",
           "RA": "38",
-          "pid": "3791019",
-          "splits": [
-            "31,76",
-            "34,45",
-            "34,82",
-            "35,10",
-            "35,27",
-            "35,22",
-            "35,26",
-            "34,53",
-            "34,90",
-            "34,82",
-            "34,78",
-            "34,91",
-            "35,23",
-            "34,88",
-            "35,14",
-            "34,79",
-            "35,16",
-            "35,59",
-            "34,39",
-            "34,97",
-            "34,54",
-            "35,26",
-            "35,28",
-            "35,35",
-            "35,12",
-            "35,69",
-            "34,92",
-            "36,67",
-            "36,32",
-            "34,00"
-          ]
+          "pid": "3791019"
         },
         {
           "Tid": "17.38,75",
           "Dato": "31.01.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
+          "D": "",
           "RK": "2",
           "RA": "17",
-          "pid": "3861352",
-          "splits": [
-            "31,61",
-            "34,79",
-            "35,28",
-            "36,05",
-            "35,62",
-            "35,67",
-            "34,96",
-            "35,01",
-            "35,05",
-            "35,36",
-            "35,52",
-            "34,55",
-            "35,46",
-            "35,52",
-            "36,00",
-            "35,09",
-            "35,61",
-            "35,91",
-            "36,43",
-            "35,52",
-            "35,71",
-            "35,69",
-            "35,67",
-            "35,52",
-            "35,34",
-            "35,98",
-            "35,74",
-            "36,30",
-            "35,09",
-            "32,70"
-          ]
+          "pid": "3861352"
         },
         {
           "Tid": "18.25,09",
           "Dato": "31.05.2025",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "3",
           "RA": "33",
-          "pid": "3712132",
-          "splits": [
-            "32,77",
-            "35,66",
-            "36,84",
-            "36,64",
-            "36,72",
-            "36,72",
-            "36,89",
-            "36,69",
-            "36,78",
-            "36,51",
-            "37,13",
-            "36,79",
-            "36,83",
-            "37,34",
-            "37,31",
-            "36,74",
-            "37,54",
-            "36,94",
-            "37,60",
-            "37,67",
-            "37,15",
-            "38,63",
-            "36,25",
-            "37,03",
-            "37,02",
-            "37,41",
-            "37,28",
-            "37,23",
-            "37,03",
-            "35,95"
-          ]
+          "pid": "3712132"
         },
         {
           "Tid": "18.31,55",
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
+          "D": "",
           "RK": "4",
           "RA": "38",
-          "pid": "3963298",
-          "splits": [
-            "31,79",
-            "34,66",
-            "35,79",
-            "36,16",
-            "35,99",
-            "36,18",
-            "36,41",
-            "36,24",
-            "37,14",
-            "37,09",
-            "37,54",
-            "36,17",
-            "37,45",
-            "37,51",
-            "37,40",
-            "37,32",
-            "37,80",
-            "37,84",
-            "37,72",
-            "37,57",
-            "37,55",
-            "39,12",
-            "38,85",
-            "37,23",
-            "38,21",
-            "38,95",
-            "37,37",
-            "38,66",
-            "36,83",
-            "37,01"
-          ]
+          "pid": "3963298"
         }
       ]
     }
