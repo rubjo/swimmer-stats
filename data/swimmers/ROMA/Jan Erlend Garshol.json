@@ -4,8 +4,44 @@
   "club": "ROMA",
   "birthYear": 1976,
   "gender": "male",
-  "timestamp": "2026-06-15T09:14:14.586Z",
+  "timestamp": "2026-06-16T19:31:29.073Z",
   "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,77",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "141",
+          "RA": "584",
+          "pid": "760169"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.27,55",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "81",
+          "RA": "388",
+          "pid": "743004",
+          "splits": [
+            "41,77",
+            "45,78",
+            "47,57",
+            "46,26"
+          ]
+        }
+      ]
+    },
     {
       "distanse": "200m Bryst",
       "races": [
@@ -14,6 +50,7 @@
           "Dato": "13.03.2010",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "34",
           "RA": "199",
           "pid": "635358",
