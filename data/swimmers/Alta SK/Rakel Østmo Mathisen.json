@@ -4,18 +4,27 @@
   "club": "Alta SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-13T22:08:34.223Z",
+  "timestamp": "2026-06-16T03:44:09.703Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "49,82",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "192",
+          "RA": "1824",
+          "pid": "3967648"
+        },
+        {
           "Tid": "54,42",
           "Dato": "25.04.2026",
           "Sted": "Hammerfest",
           "Basseng": "25m",
-          "RK": "217",
-          "RA": "1869",
+          "RK": "",
+          "RA": "",
           "pid": "3939499"
         }
       ]
@@ -23,6 +32,19 @@
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.54,26",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "RK": "173",
+          "RA": "1592",
+          "pid": "3968053",
+          "splits": [
+            "51,72",
+            "1.02,54"
+          ]
+        },
         {
           "Tid": "2.01,66",
           "Dato": "26.04.2026",
@@ -47,7 +69,7 @@
           "Sted": "Hammerfest",
           "Basseng": "25m",
           "RK": "154",
-          "RA": "1297",
+          "RA": "1298",
           "pid": "3939962",
           "splits": [
             "55,78",
