@@ -4,8 +4,23 @@
   "club": "OI Svømming",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-06-15T04:37:03.438Z",
+  "timestamp": "2026-06-16T05:01:23.096Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,30",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "152",
+          "RA": "1154",
+          "pid": "3977207"
+        }
+      ]
+    },
     {
       "distanse": "100m Fri",
       "races": [
@@ -14,8 +29,9 @@
           "Dato": "14.06.2026",
           "Sted": "Rud",
           "Basseng": "50m",
+          "D": "",
           "RK": "127",
-          "RA": "936",
+          "RA": "937",
           "pid": "3977206",
           "splits": [
             "43,30",
