@@ -688,6 +688,14 @@ async function discoverAllSwimmers(browser, baseUrl) {
   await page.setViewport({ width: 1400, height: 900 });
   await navigateAndFilter(page, baseUrl);
 
+  const swimmers = [];
+  const seen = new Set();
+  let lastHighestIdx = 0;
+
+  // Phase 1: open dropdown once and scroll incrementally. DevExpress
+  // drops items from its client store when they're far from the viewport,
+  // so we cannot read from index 0 each time. Instead we scan forward
+  // from the last discovered index, skipping null gaps.
   await page.evaluate(() => {
     try {
       cmbUtover.ShowDropDown();
@@ -695,38 +703,40 @@ async function discoverAllSwimmers(browser, baseUrl) {
   });
   await sleep(400);
 
-  const swimmers = [];
-  let lastLoadedCount = 0;
-  const maxScrolls = 300;
-
-  for (let s = 0; s < maxScrolls; s++) {
-    // Read all items currently in the client data store
-    const batch = await page.evaluate(() => {
-      try {
-        const total = cmbUtover.GetItemCount();
-        const items = [];
-        for (let i = 0; i < total; i++) {
+  for (let s = 0; s < 300; s++) {
+    // Scan forward from the last known index to find newly loaded items
+    const discovered = await page.evaluate((fromIdx) => {
+      const items = [];
+      let i = fromIdx;
+      let sinceLastFound = 0;
+      while (sinceLastFound < 500) {
+        try {
           const item = cmbUtover.GetItem(i);
-          if (!item) break;
-          items.push({
-            id: String(item.value),
-            text: item.text.trim(),
-            index: i,
-          });
+          if (item && String(item.value) !== "0") {
+            items.push({
+              id: String(item.value),
+              text: item.text.trim(),
+              index: i,
+            });
+            sinceLastFound = 0;
+          } else {
+            sinceLastFound++;
+          }
+        } catch {
+          break;
         }
-        return items;
-      } catch {
-        return [];
+        i++;
       }
-    });
+      return items;
+    }, lastHighestIdx + 1);
 
-    // Add newly discovered items (skip placeholder at index 0, value "0")
-    for (let i = lastLoadedCount; i < batch.length; i++) {
-      if (batch[i].id !== "0") {
-        swimmers.push(batch[i]);
+    for (const d of discovered) {
+      if (d.index > lastHighestIdx) lastHighestIdx = d.index;
+      if (!seen.has(d.id)) {
+        seen.add(d.id);
+        swimmers.push(d);
       }
     }
-    lastLoadedCount = batch.length;
 
     // Scroll down one viewport to trigger the next batch
     const atBottom = await page.evaluate(async () => {
@@ -746,12 +756,67 @@ async function discoverAllSwimmers(browser, baseUrl) {
     if (atBottom) break;
   }
 
+  // Phase 2: close and reopen the dropdown to flush any stale buffer
+  // and load items from a different scroll position.
+  await page.evaluate(() => {
+    try {
+      cmbUtover.HideDropDown();
+    } catch {}
+  });
+  await sleep(300);
+  await page.evaluate(() => {
+    try {
+      cmbUtover.ShowDropDown();
+      const d = cmbUtover.GetListBoxScrollDivElement();
+      if (d) d.scrollTop = d.scrollHeight * 0.75;
+    } catch {}
+  });
+  await sleep(3_000);
+
+  // Final scan for any missed items
+  const finalScan = await page.evaluate(() => {
+    const items = [];
+    let i = 0;
+    let sinceLastFound = 0;
+    while (sinceLastFound < 500) {
+      try {
+        const item = cmbUtover.GetItem(i);
+        if (item && String(item.value) !== "0") {
+          items.push({
+            id: String(item.value),
+            text: item.text.trim(),
+            index: i,
+          });
+          sinceLastFound = 0;
+        } else {
+          sinceLastFound++;
+        }
+      } catch {
+        break;
+      }
+      i++;
+    }
+    return items;
+  });
+  for (const d of finalScan) {
+    if (!seen.has(d.id)) {
+      seen.add(d.id);
+      swimmers.push(d);
+    }
+  }
+
   await page.evaluate(() => {
     try {
       cmbUtover.HideDropDown();
     } catch {}
   });
   await page.close();
+  console.log(
+    color(
+      C.dim,
+      `  Scanned ${lastHighestIdx + 1} indices, found ${swimmers.length} swimmers`,
+    ),
+  );
   return swimmers;
 }
 
