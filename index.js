@@ -705,54 +705,85 @@ async function discoverAllSwimmers(browser, baseUrl) {
   await page.setViewport({ width: 1400, height: 900 });
   await navigateAndFilter(page, baseUrl);
 
+  // Raise page timeout so the long evaluate doesn't trip the 30s default.
+  page.setDefaultTimeout(300_000);
+
   // ── Load ALL items in one browser-side async loop ────────────────
-  // Single evaluate to avoid CDP roundtrip overhead between scrolls.
-  // Protocol timeout is 120s; this loop typically takes ~90s for 4500 items.
+  // Single evaluate avoids CDP roundtrip overhead between scrolls.
+  // Adaptive polling (500ms intervals) replaces fixed 2s waits.
   const rawData = await page.evaluate(async () => {
-    // Helper: open dropdown
+    const startMs = Date.now();
+    const MAX_DISCOVERY_MS = 250_000; // stay under protocolTimeout (300s)
+
+    // Close any stale dropdown, then open fresh and reset scroll
+    try {
+      cmbUtover.HideDropDown();
+    } catch {}
+    await new Promise((r) => setTimeout(r, 200));
     try {
       cmbUtover.ShowDropDown();
+      const d = cmbUtover.GetListBoxScrollDivElement();
+      if (d) d.scrollTop = 0;
     } catch {}
-    await new Promise((r) => setTimeout(r, 500));
+    await new Promise((r) => setTimeout(r, 600));
 
     const d = cmbUtover.GetListBoxScrollDivElement();
     if (!d) return { error: "no scroll div" };
 
+    /** Poll up to 10s for GetItemCount() to exceed prevCount. */
+    async function waitForGrowth(prevCount) {
+      for (let p = 0; p < 20; p++) {
+        await new Promise((r) => setTimeout(r, 500));
+        if (Date.now() - startMs > MAX_DISCOVERY_MS) return false;
+        if (cmbUtover.GetItemCount() > prevCount) return true;
+      }
+      return false;
+    }
+
     // ── Phase A: Load suffix (cursor → end) ────────────────────
     for (let i = 0; i < 80; i++) {
+      if (Date.now() - startMs > MAX_DISCOVERY_MS) break;
       const prevCount = cmbUtover.GetItemCount();
       const prevScroll = d.scrollTop;
       d.scrollTop = d.scrollHeight;
       if (d.scrollTop <= prevScroll) {
-        // at bottom — wait a moment for pending callbacks
-        await new Promise((r) => setTimeout(r, 2_000));
-        break;
+        // Already at bottom — wait for pending callbacks
+        if (!(await waitForGrowth(prevCount))) break;
+        continue;
       }
-      await new Promise((r) => setTimeout(r, 2_000));
-      const newCount = cmbUtover.GetItemCount();
-      if (newCount <= prevCount) {
-        await new Promise((r) => setTimeout(r, 2_000));
-        if (cmbUtover.GetItemCount() <= prevCount) break;
-      }
+      // Scrolled — wait for next batch to arrive
+      if (!(await waitForGrowth(prevCount))) break;
     }
 
-    // ── Phase B: Load prefix (top → cursor) ────────────────────
-    d.scrollTop = 0;
-    await new Promise((r) => setTimeout(r, 3_000));
-    d.scrollTop = d.scrollHeight;
-    await new Promise((r) => setTimeout(r, 2_000));
+    // ── Phase B: Reload prefix by closing & reopening ──────────
+    if (Date.now() - startMs < MAX_DISCOVERY_MS) {
+      try {
+        cmbUtover.HideDropDown();
+      } catch {}
+      await new Promise((r) => setTimeout(r, 300));
+      try {
+        cmbUtover.ShowDropDown();
+        if (d) d.scrollTop = 0;
+      } catch {}
+      await new Promise((r) => setTimeout(r, 1_000));
 
-    // ── Phase C: Close & reopen ────────────────────────────────
-    try {
-      cmbUtover.HideDropDown();
-    } catch {}
-    await new Promise((r) => setTimeout(r, 300));
-    try {
-      cmbUtover.ShowDropDown();
-    } catch {}
-    await new Promise((r) => setTimeout(r, 500));
+      // Scroll to bottom to expose the full range
+      d.scrollTop = d.scrollHeight;
+      await new Promise((r) => setTimeout(r, 1_500));
 
-    // ── Phase D: Read all items ────────────────────────────────
+      // Close & reopen one more time — ensures GetItem() sees everything
+      try {
+        cmbUtover.HideDropDown();
+      } catch {}
+      await new Promise((r) => setTimeout(r, 300));
+      try {
+        cmbUtover.ShowDropDown();
+        if (d) d.scrollTop = 0;
+      } catch {}
+      await new Promise((r) => setTimeout(r, 1_000));
+    }
+
+    // ── Phase C: Read all items ────────────────────────────────
     const all = [];
     for (let i = 0; ; i++) {
       try {
@@ -905,7 +936,12 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        let found = await loadUntilIdx(myPage, sw.index);
+        // Timeout combo navigation (60s) so we don't hang on stuck DevExpress callbacks
+        let found = await withTimeout(
+          loadUntilIdx(myPage, sw.index).catch(() => false),
+          60_000,
+          `loadUntilIdx(${sw.index})`,
+        );
         if (!found) {
           // Index-based lookup failed. DevExpress virtual scrolling
           // may have skipped a slow batch under parallel load.
@@ -914,11 +950,23 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
           if (nameIdx !== null) {
             sw.index = nameIdx; // update index for future use
             found = true;
-          } else {
+          } else if (attempts < 3) {
+            // Swimmer not found — the combo state on this page might be
+            // stale (e.g. scroll position persisted from previous swimmer).
+            // Reload the page and let the retry loop try again.
             console.log(
               color(
                 C.yellow,
-                `[W${workerId}] Swimmer ${sw.text} not found in combo`,
+                `[W${workerId}] Swimmer ${sw.text} not found in combo, reloading...`,
+              ),
+            );
+            await workerReload();
+            continue; // back to while loop — retry with fresh page
+          } else {
+            console.log(
+              color(
+                C.red,
+                `[W${workerId}] Swimmer ${sw.text} not found in combo (after 3 attempts)`,
               ),
             );
             swimmerOk = true;
@@ -996,9 +1044,27 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
       }
     }
 
-    // Periodic skip-until persistence (every 25 swimmers within this worker)
+    // Periodic skip-until persistence (every 10 saves)
     if (saved > 0 && saved % 10 === 0) {
       saveSkipUntil(localSkipUntil, workerSkipFile);
+    }
+
+    // Periodic git checkpoint (every 25 saves) so progress survives a crash.
+    if (saved > 0 && saved % 25 === 0) {
+      gitCheckpoint(`W${workerId} ${saved} swimmers`);
+    }
+
+    // Periodic page reload (every 50 swimmers) to prevent stale DevExpress
+    // combo state from accumulating.  This adds ~3–4 s overhead but ensures
+    // a clean page for the next batch.
+    if (localProcessed > 0 && localProcessed % 50 === 0) {
+      console.log(
+        color(
+          C.dim,
+          `[W${workerId}] Periodic page reload after ${localProcessed} swimmers...`,
+        ),
+      );
+      await workerReload();
     }
   }
 
