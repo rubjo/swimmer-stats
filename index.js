@@ -867,16 +867,25 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        const found = await loadUntilIdx(myPage, sw.index);
+        let found = await loadUntilIdx(myPage, sw.index);
         if (!found) {
-          console.log(
-            color(
-              C.yellow,
-              `[W${workerId}] Swimmer ${sw.text} (idx ${sw.index}) not found in combo`,
-            ),
-          );
-          swimmerOk = true;
-          break;
+          // Index-based lookup failed. DevExpress virtual scrolling
+          // may have skipped a slow batch under parallel load.
+          // Fall back to name-based lookup which re-scans from the top.
+          const nameIdx = await findSwimmerIdx(myPage, sw.text);
+          if (nameIdx !== null) {
+            sw.index = nameIdx; // update index for future use
+            found = true;
+          } else {
+            console.log(
+              color(
+                C.yellow,
+                `[W${workerId}] Swimmer ${sw.text} not found in combo`,
+              ),
+            );
+            swimmerOk = true;
+            break;
+          }
         }
 
         const timeout = sharedCtx.mode === "splits" ? 7_200_000 : 60_000;
