@@ -1,3 +1,4 @@
+import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
@@ -6,6 +7,7 @@ import {
   loadExistingSwimmers,
   rebuildIndex,
   loadSkipUntil,
+  saveSkipUntil,
 } from "./lib/fs-utils.js";
 import {
   hasPotentialSplits,
@@ -121,6 +123,7 @@ async function runPass(mode) {
   let loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
   let processedInSession = 0;
   let totalRaces = 0;
+  let savedSinceCheckpoint = 0;
 
   /** Remember the name of the last swimmer that was saved successfully. */
   let lastSwimmerName = null;
@@ -529,6 +532,17 @@ async function runPass(mode) {
           swimmerOk = true;
           lastSwimmerName = sw.text;
           totalRaces += result.totalRaces;
+          savedSinceCheckpoint++;
+          if (savedSinceCheckpoint >= 25) {
+            savedSinceCheckpoint = 0;
+            rebuildIndex({
+              swimmersDir: SWIMMERS_DIR,
+              dataDir: DATA_DIR,
+              indexFile: INDEX_FILE,
+              baseUrl: BASE_URL,
+            });
+            gitCheckpoint(`${processedInSession} swimmers`);
+          }
         } else {
           // false = grid never loaded / no data — retrying won't help.
           needsReposition = result.needsReposition;
@@ -658,6 +672,400 @@ async function runPass(mode) {
   process.exit(0);
 }
 
+/* ─── Parallel processing ──────────────────────────────────────────── */
+
+/**
+ * Discover all swimmers in the combo box by scrolling through virtual-scroll
+ * batches and reading the DevExpress client data store.
+ * Returns an array of { id, text, index } for every swimmer.
+ */
+async function discoverAllSwimmers(browser, baseUrl) {
+  const page = await browser.newPage();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  );
+  await page.setViewport({ width: 1400, height: 900 });
+  await navigateAndFilter(page, baseUrl);
+
+  await page.evaluate(() => {
+    try {
+      cmbUtover.ShowDropDown();
+    } catch {}
+  });
+  await sleep(400);
+
+  const swimmers = [];
+  let lastLoadedCount = 0;
+  const maxScrolls = 300;
+
+  for (let s = 0; s < maxScrolls; s++) {
+    // Read all items currently in the client data store
+    const batch = await page.evaluate(() => {
+      try {
+        const total = cmbUtover.GetItemCount();
+        const items = [];
+        for (let i = 0; i < total; i++) {
+          const item = cmbUtover.GetItem(i);
+          if (!item) break;
+          items.push({
+            id: String(item.value),
+            text: item.text.trim(),
+            index: i,
+          });
+        }
+        return items;
+      } catch {
+        return [];
+      }
+    });
+
+    // Add newly discovered items (skip placeholder at index 0, value "0")
+    for (let i = lastLoadedCount; i < batch.length; i++) {
+      if (batch[i].id !== "0") {
+        swimmers.push(batch[i]);
+      }
+    }
+    lastLoadedCount = batch.length;
+
+    // Scroll down one viewport to trigger the next batch
+    const atBottom = await page.evaluate(async () => {
+      try {
+        const d = cmbUtover.GetListBoxScrollDivElement();
+        if (!d) return true;
+        const prev = d.scrollTop;
+        d.scrollTop = d.scrollTop + d.clientHeight;
+        if (d.scrollTop <= prev) return true;
+        await new Promise((r) => setTimeout(r, 2_000));
+        return false;
+      } catch {
+        return true;
+      }
+    });
+
+    if (atBottom) break;
+  }
+
+  await page.evaluate(() => {
+    try {
+      cmbUtover.HideDropDown();
+    } catch {}
+  });
+  await page.close();
+  return swimmers;
+}
+
+/**
+ * Reload a worker page (navigate back to BASE_URL, re-apply filters).
+ * If the page is stuck, creates a fresh one.
+ */
+async function reloadWorkerPage(page, browser, baseUrl) {
+  try {
+    await navigateAndFilter(page, baseUrl);
+    return page;
+  } catch {
+    try {
+      await page.close();
+    } catch {}
+    const newPage = await browser.newPage();
+    await newPage.setUserAgent(
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    );
+    await newPage.setViewport({ width: 1400, height: 900 });
+    await navigateAndFilter(newPage, baseUrl);
+    return newPage;
+  }
+}
+
+/**
+ * Run a single worker that processes a chunk of swimmers on its own page.
+ * Each worker has its own page, skip-until map, and retry logic.
+ * Returns { saved, workerId }.
+ */
+async function runWorker(browser, swimmers, workerId, sharedCtx) {
+  if (swimmers.length === 0) return { saved: 0, workerId };
+
+  let myPage;
+  try {
+    myPage = await browser.newPage();
+    await myPage.setUserAgent(
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    );
+    await myPage.setViewport({ width: 1400, height: 900 });
+    await navigateAndFilter(myPage, sharedCtx.BASE_URL);
+  } catch (err) {
+    console.log(
+      color(C.red, `[W${workerId}] Failed to create page: ${err.message}`),
+    );
+    return { saved: 0, workerId };
+  }
+
+  const localSkipUntil = new Map();
+  const workerSkipFile = path.join(DATA_DIR, `.skip-until-${workerId}.json`);
+  let saved = 0;
+  let localProcessed = 0;
+  const twentyFourHoursAgo = Date.now() - 24 * 60 * 60 * 1000;
+
+  async function workerReload() {
+    myPage = await reloadWorkerPage(myPage, browser, sharedCtx.BASE_URL);
+  }
+
+  for (const sw of swimmers) {
+    localProcessed++;
+
+    // Freshness check — skip if data was saved within 24 h and (in splits
+    // mode) every eligible race already has split data.
+    const existing = sharedCtx.existingSwimmers.get(sw.id);
+    if (existing && existing.timestamp) {
+      if (new Date(existing.timestamp).getTime() >= twentyFourHoursAgo) {
+        if (sharedCtx.mode !== "splits") {
+          console.log(
+            `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} — ${formatSwimmerStats(existing)} (skipped)`,
+          );
+          continue;
+        }
+        // Splits mode: skip only if every eligible race already has data
+        const savedRaces = flattenRaces(existing);
+        const missingSplits = savedRaces.some(
+          (r) => r.splits === undefined && hasPotentialSplits(r.Distanse),
+        );
+        if (!missingSplits) {
+          console.log(
+            `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} — ${formatSwimmerStats(existing)} (skipped)`,
+          );
+          continue;
+        }
+      }
+    }
+
+    // Skip-until check (cooldown from grid-never-loaded)
+    const skipInfo =
+      localSkipUntil.get(sw.id) || sharedCtx.skipUntil.get(sw.id);
+    if (skipInfo && new Date(skipInfo).getTime() > Date.now()) {
+      const retryAfter = new Date(skipInfo).toLocaleString("nb-NO", {
+        day: "numeric",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+      console.log(
+        `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} — (skipped — retry after ${retryAfter})`,
+      );
+      continue;
+    }
+
+    // Log swimmer name in splits mode (slow path)
+    if (sharedCtx.mode === "splits") {
+      console.log(`  ${color(C.cyan, localProcessed)} — ${sw.text}`);
+    }
+
+    // Retry loop
+    let attempts = 0;
+    let swimmerOk = false;
+    while (attempts < 3 && !swimmerOk) {
+      attempts++;
+      try {
+        const found = await loadUntilIdx(myPage, sw.index);
+        if (!found) {
+          console.log(
+            color(
+              C.yellow,
+              `[W${workerId}] Swimmer ${sw.text} (idx ${sw.index}) not found in combo`,
+            ),
+          );
+          swimmerOk = true;
+          break;
+        }
+
+        const timeout = sharedCtx.mode === "splits" ? 7_200_000 : 60_000;
+        const result = await withTimeout(
+          processSwimmer(myPage, sw, sw.index, {
+            mode: sharedCtx.mode,
+            existingSwimmers: sharedCtx.existingSwimmers,
+            skipUntil: localSkipUntil,
+            SKIP_UNTIL_FILE: workerSkipFile,
+            SWIMMERS_DIR: sharedCtx.SWIMMERS_DIR,
+            DATA_DIR: sharedCtx.DATA_DIR,
+            INDEX_FILE: sharedCtx.INDEX_FILE,
+            BASE_URL: sharedCtx.BASE_URL,
+            processedInSession: localProcessed,
+            reloadPage: async () => {
+              await workerReload();
+              return myPage;
+            },
+          }),
+          timeout,
+          sw.text,
+        );
+
+        if (result.saved) {
+          saved++;
+          swimmerOk = true;
+        } else {
+          // Grid never loaded / no data
+          if (result.needsReposition) {
+            localSkipUntil.set(
+              sw.id,
+              new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
+            );
+          }
+          swimmerOk = true;
+          break;
+        }
+      } catch (err) {
+        const msg = err.message || String(err);
+        const isTimeout =
+          msg.includes("timed out") ||
+          msg.includes("Runtime.callFunctionOn timed out") ||
+          msg.includes("Protocol error");
+        if (isTimeout) {
+          console.log(
+            color(
+              C.red,
+              `[W${workerId}] ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
+            ),
+          );
+          try {
+            await workerReload();
+            if (attempts < 3)
+              console.log(color(C.dim, `    retry ${attempts}/3...`));
+          } catch {
+            console.log(
+              color(
+                C.red,
+                `[W${workerId}] ⚠ ${sw.text}: reload failed, skipping`,
+              ),
+            );
+            break;
+          }
+        } else {
+          console.log(
+            color(C.red, `[W${workerId}] ⚠ ${sw.text}: ${msg.slice(0, 100)}`),
+          );
+          swimmerOk = true;
+        }
+      }
+    }
+
+    // Periodic skip-until persistence (every 25 swimmers within this worker)
+    if (saved > 0 && saved % 10 === 0) {
+      saveSkipUntil(localSkipUntil, workerSkipFile);
+    }
+  }
+
+  // Persist final skip-until for this worker
+  saveSkipUntil(localSkipUntil, workerSkipFile);
+
+  try {
+    await myPage.close();
+  } catch {}
+  return { saved, workerId };
+}
+
+/**
+ * Run a parallel pass across 10 browser pages, each processing a separate
+ * chunk of swimmers concurrently.
+ *
+ * Phase 1 — Discover all swimmer indices from the combo box (serial).
+ * Phase 2 — Split into 10 round-robin chunks for even load distribution.
+ * Phase 3 — Spawn 10 worker pages, each processing its chunk in parallel.
+ * Phase 4 — Merge worker skip-until files, rebuild index, push to git.
+ */
+async function runPassParallel(mode) {
+  console.log(`\n=== ${mode} pass (parallel, 10 workers) ===\n`);
+
+  console.log("Launching browser …");
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    protocolTimeout: 120_000,
+  });
+
+  console.log("Loading existing data…");
+  const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
+  const skipUntil = loadSkipUntil(SKIP_UNTIL_FILE);
+  const NUM_WORKERS = 10;
+
+  // ── Phase 1: Discover all swimmers ──────────────────────────────
+  console.log("Discovering swimmers (scanning combo box)...");
+  const allSwimmers = await discoverAllSwimmers(browser, BASE_URL);
+  console.log(color(C.green, `  Found ${allSwimmers.length} swimmers`));
+
+  // ── Phase 2: Split into round-robin chunks ─────────────────────
+  const chunks = Array.from({ length: NUM_WORKERS }, () => []);
+  for (let i = 0; i < allSwimmers.length; i++) {
+    chunks[i % NUM_WORKERS].push(allSwimmers[i]);
+  }
+  console.log(`  Chunks: ${chunks.map((c) => c.length).join(", ")}`);
+
+  const sharedCtx = {
+    mode,
+    BASE_URL,
+    existingSwimmers,
+    skipUntil,
+    SWIMMERS_DIR,
+    DATA_DIR,
+    INDEX_FILE,
+  };
+
+  // ── Phase 3: Run workers in parallel ────────────────────────────
+  const workerPromises = chunks.map((chunk, i) =>
+    runWorker(browser, chunk, i, sharedCtx),
+  );
+  const results = await Promise.all(workerPromises);
+  const totalSaved = results.reduce((sum, r) => sum + r.saved, 0);
+  console.log(
+    color(
+      C.green,
+      `\n  ✓ ${totalSaved} swimmers saved across ${NUM_WORKERS} workers`,
+    ),
+  );
+
+  // ── Phase 4: Merge worker skip-until files, finalize ────────────
+  console.log("    Merging skip-until state…");
+  for (let i = 0; i < NUM_WORKERS; i++) {
+    const workerFile = path.join(DATA_DIR, `.skip-until-${i}.json`);
+    try {
+      const workerData = loadSkipUntil(workerFile);
+      for (const [id, until] of workerData) {
+        const existing = skipUntil.get(id);
+        if (
+          !existing ||
+          new Date(existing).getTime() < new Date(until).getTime()
+        ) {
+          skipUntil.set(id, until);
+        }
+      }
+      try {
+        fs.unlinkSync(workerFile);
+      } catch {}
+    } catch {}
+  }
+  saveSkipUntil(skipUntil, SKIP_UNTIL_FILE);
+
+  console.log("    Rebuilding index…");
+  rebuildIndex({
+    swimmersDir: SWIMMERS_DIR,
+    dataDir: DATA_DIR,
+    indexFile: INDEX_FILE,
+    baseUrl: BASE_URL,
+  });
+
+  console.log("    Pushing to GitHub…");
+  gitCheckpoint(`parallel ${mode} — ${totalSaved} swimmers`);
+
+  console.log(
+    color(
+      C.green,
+      `\n  ✓ ${mode} pass complete! ${allSwimmers.length} total swimmers, ${totalSaved} saved/updated`,
+    ),
+  );
+
+  process.exit(0);
+}
+
 /* ─── Entry point ────────────────────────────────────────────────── */
 /**
  * Single-pass mode: for each swimmer, collect race data and extract split
@@ -672,14 +1080,7 @@ async function runPass(mode) {
  *   MODE=splits    — split extraction only (same as "auto" default)
  */
 async function main() {
-  if (DEFAULT_MODE === "auto") {
-    // Single-pass: collect race data and extract splits in one go.
-    // On the first run each swimmer gets full race data + splits.
-    // Subsequent runs skip unchanged swimmers with complete splits.
-    await runPass("splits");
-  } else {
-    await runPass(DEFAULT_MODE);
-  }
+  await runPassParallel(DEFAULT_MODE);
 }
 
 main().catch((err) => {
