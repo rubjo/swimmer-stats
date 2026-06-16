@@ -787,28 +787,32 @@ async function discoverAllSwimmers(browser, baseUrl) {
   let offset = 0;
   const BATCH = 500;
   for (;;) {
-    const batch = await page.evaluate((start) => {
-      const out = [];
-      for (let i = start; ; i++) {
-        try {
-          const item = cmbUtover.GetItem(i);
-          if (!item) {
-            if (out.length === 0) continue; // placeholder or null gap
-            break; // past the last item
+    const batch = await page.evaluate(
+      (start, batchSize) => {
+        const out = [];
+        for (let i = start; ; i++) {
+          try {
+            const item = cmbUtover.GetItem(i);
+            if (!item) {
+              if (out.length === 0) continue; // placeholder or null gap
+              break; // past the last item
+            }
+            if (String(item.value) === "0") continue; // placeholder
+            out.push({
+              id: String(item.value),
+              text: item.text.trim(),
+              index: i,
+            });
+          } catch {
+            break;
           }
-          if (String(item.value) === "0") continue; // placeholder
-          out.push({
-            id: String(item.value),
-            text: item.text.trim(),
-            index: i,
-          });
-        } catch {
-          break;
+          if (out.length >= batchSize) break;
         }
-        if (out.length >= BATCH) break;
-      }
-      return out;
-    }, offset);
+        return out;
+      },
+      offset,
+      BATCH,
+    );
 
     if (batch.length === 0) break;
 
