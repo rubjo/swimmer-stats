@@ -1080,7 +1080,8 @@ async function runPassParallel(mode) {
  *   MODE=splits    — split extraction only (same as "auto" default)
  */
 async function main() {
-  await runPassParallel(DEFAULT_MODE);
+  const mode = DEFAULT_MODE === "auto" ? "splits" : DEFAULT_MODE;
+  await runPassParallel(mode);
 }
 
 main().catch((err) => {
