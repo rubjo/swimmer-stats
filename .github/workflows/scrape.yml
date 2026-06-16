@@ -90,8 +90,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "scrape $(date -u +%F) [skip ci]"
-            git pull --rebase
-            git push
+            git push origin HEAD:main
           fi
 
       # Deploy the data directory to GitHub Pages

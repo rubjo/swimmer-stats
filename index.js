@@ -88,8 +88,13 @@ function gitCheckpoint(label) {
       { stdio: "pipe", timeout: 30_000 },
     );
     if (out.includes("nothing to commit")) return;
-    execSync(`git pull --rebase`, { stdio: "ignore", timeout: 30_000 });
-    execSync(`git push`, { stdio: "ignore", timeout: 60_000 });
+    // GitHub Actions checks out a detached HEAD, so we need to push
+    // with an explicit refspec. No pull is needed since the workflow
+    // serializes runs via concurrency group.
+    execSync(`git push origin HEAD:main`, {
+      stdio: "ignore",
+      timeout: 60_000,
+    });
   } catch {}
 }
 
