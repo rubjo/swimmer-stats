@@ -680,8 +680,20 @@ async function runPass(mode) {
 /* ─── Parallel processing ──────────────────────────────────────────── */
 
 /**
- * Discover all swimmers in the combo box by scrolling through virtual-scroll
- * batches and reading the DevExpress client data store.
+ * Discover all swimmers in the combo box by loading ALL items into the
+ * DevExpress client data store, then reading them via GetItem().
+ *
+ * DevExpress virtual-scroll (callback mode) loads items in batches of 100.
+ * Jumping the scroll DIV to scrollHeight triggers a callback that loads the
+ * NEXT batch. Each jump increases scrollHeight as more items are loaded.
+ *
+ * Strategy:
+ *   1. Open dropdown, repeatedly jump to scrollHeight until item count
+ *      stabilises (loads all items from current cursor position to end).
+ *   2. Scroll to top to trigger loading of items before the cursor.
+ *   3. Jump to scrollHeight again to load remaining middle batches.
+ *   4. Close & reopen dropdown, then scan all items from index 0.
+ *
  * Returns an array of { id, text, index } for every swimmer.
  */
 async function discoverAllSwimmers(browser, baseUrl) {
@@ -695,74 +707,67 @@ async function discoverAllSwimmers(browser, baseUrl) {
 
   const swimmers = [];
   const seen = new Set();
-  let lastHighestIdx = 0;
 
-  // Phase 1: open dropdown once and scroll incrementally. DevExpress
-  // drops items from its client store when they're far from the viewport,
-  // so we cannot read from index 0 each time. Instead we scan forward
-  // from the last discovered index, skipping null gaps.
+  // ── Phase 1: Load suffix (cursor → end) ────────────────────────────
+  // Jump to scrollHeight repeatedly. Each jump triggers a callback that
+  // loads ~100 more items. The loop exits when itemCount stops growing.
   await page.evaluate(() => {
     try {
       cmbUtover.ShowDropDown();
     } catch {}
   });
-  await sleep(400);
+  await sleep(500);
 
-  for (let s = 0; s < 300; s++) {
-    // Scan forward from the last known index to find newly loaded items
-    const discovered = await page.evaluate((fromIdx) => {
-      const items = [];
-      let i = fromIdx;
-      let sinceLastFound = 0;
-      while (sinceLastFound < 500) {
-        try {
-          const item = cmbUtover.GetItem(i);
-          if (item && String(item.value) !== "0") {
-            items.push({
-              id: String(item.value),
-              text: item.text.trim(),
-              index: i,
-            });
-            sinceLastFound = 0;
-          } else {
-            sinceLastFound++;
-          }
-        } catch {
-          break;
-        }
-        i++;
-      }
-      return items;
-    }, lastHighestIdx + 1);
+  for (let attempt = 0; attempt < 80; attempt++) {
+    const prevCount = await page.evaluate(() => cmbUtover.GetItemCount());
 
-    for (const d of discovered) {
-      if (d.index > lastHighestIdx) lastHighestIdx = d.index;
-      if (!seen.has(d.id)) {
-        seen.add(d.id);
-        swimmers.push(d);
-      }
-    }
-
-    // Scroll down one viewport to trigger the next batch
-    const atBottom = await page.evaluate(async () => {
-      try {
-        const d = cmbUtover.GetListBoxScrollDivElement();
-        if (!d) return true;
-        const prev = d.scrollTop;
-        d.scrollTop = d.scrollTop + d.clientHeight;
-        if (d.scrollTop <= prev) return true;
-        await new Promise((r) => setTimeout(r, 2_000));
-        return false;
-      } catch {
-        return true;
-      }
+    const grew = await page.evaluate(async () => {
+      const d = cmbUtover.GetListBoxScrollDivElement();
+      if (!d) return false;
+      const prevScroll = d.scrollTop;
+      d.scrollTop = d.scrollHeight;
+      if (d.scrollTop <= prevScroll) return false; // already at bottom
+      await new Promise((r) => setTimeout(r, 2_500));
+      return true;
     });
 
-    if (atBottom) break;
+    if (!grew) {
+      // scrollHeight didn't advance — we're at the end
+      await sleep(1_000);
+      break;
+    }
+
+    const newCount = await page.evaluate(() => cmbUtover.GetItemCount());
+    if (newCount <= prevCount) {
+      // Count didn't grow (callback yielded same batch or no-op)
+      // Give it one more chance, then break.
+      await sleep(2_500);
+      const finalCheck = await page.evaluate(() => cmbUtover.GetItemCount());
+      if (finalCheck <= prevCount) break;
+    }
   }
 
-  // Phase 2: close and reopen the dropdown to flush any stale buffer
-  // and load items from a different scroll position.
+  // ── Phase 2: Load prefix (top → cursor) ────────────────────────────
+  // Scroll to top to trigger loading of items before the initial cursor.
+  await page.evaluate(() => {
+    try {
+      const d = cmbUtover.GetListBoxScrollDivElement();
+      if (d) d.scrollTop = 0;
+    } catch {}
+  });
+  await sleep(3_000);
+
+  // And scroll again to bottom to load any batches revealed by going to top
+  await page.evaluate(async () => {
+    const d = cmbUtover.GetListBoxScrollDivElement();
+    if (d) {
+      d.scrollTop = d.scrollHeight;
+      await new Promise((r) => setTimeout(r, 2_500));
+    }
+  });
+
+  // ── Phase 3: Read all loaded items ─────────────────────────────────
+  // Close and reopen so GetItem(i) gives consistent results from index 0.
   await page.evaluate(() => {
     try {
       cmbUtover.HideDropDown();
@@ -772,44 +777,51 @@ async function discoverAllSwimmers(browser, baseUrl) {
   await page.evaluate(() => {
     try {
       cmbUtover.ShowDropDown();
-      const d = cmbUtover.GetListBoxScrollDivElement();
-      if (d) d.scrollTop = d.scrollHeight * 0.75;
     } catch {}
   });
-  await sleep(3_000);
+  await sleep(1_000);
 
-  // Final scan for any missed items
-  const finalScan = await page.evaluate(() => {
-    const items = [];
-    let i = 0;
-    let sinceLastFound = 0;
-    while (sinceLastFound < 500) {
-      try {
-        const item = cmbUtover.GetItem(i);
-        if (item && String(item.value) !== "0") {
-          items.push({
+  // Collect all items from the client data store.
+  // With every item loaded, GetItem(i) returns non-null for all indices.
+  // We read in chunks to avoid evaluate() timeout.
+  let offset = 0;
+  const BATCH = 500;
+  for (;;) {
+    const batch = await page.evaluate((start) => {
+      const out = [];
+      for (let i = start; ; i++) {
+        try {
+          const item = cmbUtover.GetItem(i);
+          if (!item) {
+            if (out.length === 0) continue; // placeholder or null gap
+            break; // past the last item
+          }
+          if (String(item.value) === "0") continue; // placeholder
+          out.push({
             id: String(item.value),
             text: item.text.trim(),
             index: i,
           });
-          sinceLastFound = 0;
-        } else {
-          sinceLastFound++;
+        } catch {
+          break;
         }
-      } catch {
-        break;
+        if (out.length >= BATCH) break;
       }
-      i++;
-    }
-    return items;
-  });
-  for (const d of finalScan) {
-    if (!seen.has(d.id)) {
-      seen.add(d.id);
-      swimmers.push(d);
+      return out;
+    }, offset);
+
+    if (batch.length === 0) break;
+
+    for (const d of batch) {
+      if (!seen.has(d.id)) {
+        seen.add(d.id);
+        swimmers.push(d);
+      }
+      if (d.index >= offset) offset = d.index + 1;
     }
   }
 
+  // ── Phase 4: Cleanup ───────────────────────────────────────────────
   await page.evaluate(() => {
     try {
       cmbUtover.HideDropDown();
@@ -819,7 +831,7 @@ async function discoverAllSwimmers(browser, baseUrl) {
   console.log(
     color(
       C.dim,
-      `  Scanned ${lastHighestIdx + 1} indices, found ${swimmers.length} swimmers`,
+      `  Scanned ${offset} indices, found ${swimmers.length} swimmers`,
     ),
   );
   return swimmers;
