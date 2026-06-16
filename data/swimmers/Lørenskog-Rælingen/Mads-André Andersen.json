@@ -1,69 +1,331 @@
 {
-  "swimmerId": "42869",
+  "swimmerId": "49860",
   "name": "Mads-André Andersen",
   "club": "Lørenskog/Rælingen",
   "birthYear": 1981,
   "gender": "male",
-  "timestamp": "2026-06-15T20:09:25.644Z",
+  "timestamp": "2026-06-16T22:24:18.572Z",
   "disciplines": [
     {
-      "distanse": "100m Individuell medley",
+      "distanse": "50m Fri",
       "races": [
         {
-          "Tid": "1.16,20",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
+          "Tid": "36,29",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "150",
+          "RA": "907",
+          "pid": "3849802"
+        },
+        {
+          "Tid": "36,48",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
           "Basseng": "25m",
-          "RK": "61",
-          "RA": "287",
-          "pid": "3901063",
+          "D": "",
+          "RK": "174",
+          "RA": "1481",
+          "pid": "3823334"
+        },
+        {
+          "Tid": "36,57",
+          "Dato": "19.10.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3793620"
+        },
+        {
+          "Tid": "38,07",
+          "Dato": "14.09.2025",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3749042"
+        },
+        {
+          "Tid": "39,36",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3823494"
+        },
+        {
+          "Tid": "40,13",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3957405"
+        },
+        {
+          "Tid": "42,28",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3851217"
+        },
+        {
+          "Tid": "42,44",
+          "Dato": "31.05.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "127",
+          "RA": "1035",
+          "pid": "3705000"
+        },
+        {
+          "Tid": "42,70",
+          "Dato": "08.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3631634"
+        },
+        {
+          "Tid": "44,18",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675530"
+        },
+        {
+          "Tid": "44,77",
+          "Dato": "24.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3613900"
+        },
+        {
+          "Tid": "45,85",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3675741"
+        },
+        {
+          "Tid": "46,94",
+          "Dato": "08.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3631879"
+        },
+        {
+          "Tid": "49,04",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3615352"
+        },
+        {
+          "Tid": "52,01",
+          "Dato": "24.11.2024",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3584834"
+        },
+        {
+          "Tid": "52,97",
+          "Dato": "24.11.2024",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3584634"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "44,90",
+          "Dato": "18.10.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "974",
+          "pid": "3793530"
+        },
+        {
+          "Tid": "46,22",
+          "Dato": "30.05.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "60",
+          "RA": "493",
+          "pid": "3704679"
+        },
+        {
+          "Tid": "47,29",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "95",
+          "RA": "504",
+          "pid": "3956198"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,45",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3823493",
           "splits": [
-            "36,38",
-            "39,82"
+            "39,36",
+            "47,09"
+          ]
+        },
+        {
+          "Tid": "1.28,71",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "157",
+          "RA": "888",
+          "pid": "3957404",
+          "splits": [
+            "40,13",
+            "48,58"
+          ]
+        },
+        {
+          "Tid": "1.31,20",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3851216",
+          "splits": [
+            "42,28",
+            "48,92"
+          ]
+        },
+        {
+          "Tid": "1.43,46",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675740",
+          "splits": [
+            "45,85",
+            "57,61"
+          ]
+        },
+        {
+          "Tid": "1.45,27",
+          "Dato": "08.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3631878",
+          "splits": [
+            "46,94",
+            "58,33"
+          ]
+        },
+        {
+          "Tid": "1.52,14",
+          "Dato": "26.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "129",
+          "RA": "969",
+          "pid": "3615351",
+          "splits": [
+            "49,04",
+            "1.03,10"
+          ]
+        },
+        {
+          "Tid": "1.57,50",
+          "Dato": "24.11.2024",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "221",
+          "RA": "1733",
+          "pid": "3584833",
+          "splits": [
+            "52,01",
+            "1.05,49"
           ]
         }
       ]
     },
     {
-      "distanse": "200m Individuell medley",
+      "distanse": "200m Rygg",
       "races": [
         {
-          "Tid": "2.53,77",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "RK": "34",
-          "RA": "424",
-          "pid": "3901604",
+          "Tid": "3.40,91",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3851824",
           "splits": [
-            "36,17",
-            "45,30",
-            "51,22",
-            "41,08"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "400m Individuell medley",
-      "races": [
-        {
-          "Tid": "6.24,04",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "RK": "27",
-          "RA": "115",
-          "pid": "3901845",
-          "splits": [
-            "37,15",
-            "45,59",
-            "50,86",
-            "50,32",
-            "56,06",
-            "56,79",
-            "44,22",
-            "43,05"
+            "50,23",
+            "55,89",
+            "",
+            ""
           ]
         }
       ]

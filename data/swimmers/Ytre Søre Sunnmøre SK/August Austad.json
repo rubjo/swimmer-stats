@@ -4,7 +4,7 @@
   "club": "Ytre Søre Sunnmøre SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-15T20:18:27.780Z",
+  "timestamp": "2026-06-16T23:00:24.648Z",
   "disciplines": [
     {
       "distanse": "50m Rygg",
@@ -14,6 +14,7 @@
           "Dato": "12.06.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "39",
           "RA": "522",
           "pid": "3969155"
@@ -28,18 +29,66 @@
           "Dato": "12.06.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
+          "D": "",
           "RK": "33",
           "RA": "610",
           "pid": "3969379"
+        },
+        {
+          "Tid": "58,42",
+          "Dato": "15.03.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3890496"
         },
         {
           "Tid": "59,17",
           "Dato": "14.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3890380"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,15",
+          "Dato": "14.03.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "190",
+          "RA": "1743",
+          "pid": "3890656"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.48,86",
+          "Dato": "14.03.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3890657",
+          "splits": [
+            "51,15",
+            "57,71",
+            "1.00,92",
+            "57,57"
+          ]
         }
       ]
     },
@@ -51,6 +100,7 @@
           "Dato": "07.12.2025",
           "Sted": "Volda",
           "Basseng": "25m",
+          "D": "",
           "RK": "91",
           "RA": "1219",
           "pid": "3831135",
@@ -69,8 +119,9 @@
           "Dato": "15.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
-          "RK": "122",
-          "RA": "1045",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3890495",
           "splits": [
             "58,42",
@@ -87,6 +138,7 @@
           "Dato": "02.02.2025",
           "Sted": "Molde",
           "Basseng": "25m",
+          "D": "",
           "RK": "109",
           "RA": "962",
           "pid": "3622302",
@@ -105,6 +157,7 @@
           "Dato": "14.03.2026",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
+          "D": "",
           "RK": "131",
           "RA": "1131",
           "pid": "3890655",
