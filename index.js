@@ -88,13 +88,26 @@ function gitCheckpoint(label) {
       { stdio: "pipe", timeout: 30_000 },
     );
     if (out.includes("nothing to commit")) return;
-    // GitHub Actions checks out a detached HEAD, so we need to push
-    // with an explicit refspec. No pull is needed since the workflow
-    // serializes runs via concurrency group.
-    execSync(`git push origin HEAD:main`, {
-      stdio: "ignore",
-      timeout: 60_000,
-    });
+    // GitHub Actions checks out a detached HEAD, so we push with
+    // an explicit refspec.  Under parallel load, multiple workers may
+    // push simultaneously — a push can be rejected because the remote
+    // has moved.  We retry with a rebase to stay in sync.
+    try {
+      execSync(`git push origin HEAD:main`, {
+        stdio: "ignore",
+        timeout: 60_000,
+      });
+    } catch {
+      // Push rejected (remote moved) — sync and retry once.
+      execSync(`git pull --rebase origin main`, {
+        stdio: "ignore",
+        timeout: 30_000,
+      });
+      execSync(`git push origin HEAD:main`, {
+        stdio: "ignore",
+        timeout: 60_000,
+      });
+    }
   } catch {}
 }
 
