@@ -93,6 +93,17 @@ function gitCheckpoint(label) {
   } catch {}
 }
 
+/* ─── ANSI color helpers ─────────────────────────────────────────── */
+const C = {
+  reset: "\x1b[0m",
+  green: "\x1b[32m",
+  yellow: "\x1b[33m",
+  cyan: "\x1b[36m",
+  red: "\x1b[31m",
+  dim: "\x1b[2m",
+};
+const color = (code, s) => `${code}${s}${C.reset}`;
+
 /* ─── Run one pass (collect or splits) ──────────────────────────── */
 async function runPass(mode) {
   console.log(`\n=== ${mode} pass ===\n`);
@@ -136,17 +147,6 @@ async function runPass(mode) {
   let needsReposition = false;
 
   console.log(`Mode: ${mode}`);
-
-  /* ─── ANSI color helpers ────────────────────────────────────────── */
-  const C = {
-    reset: "\x1b[0m",
-    green: "\x1b[32m",
-    yellow: "\x1b[33m",
-    cyan: "\x1b[36m",
-    red: "\x1b[31m",
-    dim: "\x1b[2m",
-  };
-  const color = (code, s) => `${code}${s}${C.reset}`;
 
   /**
    * Navigate back to BASE_URL, re-apply filters.  If the page's JS thread
