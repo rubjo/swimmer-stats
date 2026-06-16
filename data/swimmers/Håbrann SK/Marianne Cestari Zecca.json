@@ -4,8 +4,38 @@
   "club": "Håbrann SK",
   "birthYear": 1974,
   "gender": "female",
-  "timestamp": "2026-06-15T04:36:05.181Z",
+  "timestamp": "2026-06-16T04:59:01.329Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,43",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "269",
+          "RA": "1811",
+          "pid": "3901012"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.02,33",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "102",
+          "RA": "1069",
+          "pid": "3902257"
+        }
+      ]
+    },
     {
       "distanse": "100m Fri",
       "races": [
@@ -14,8 +44,9 @@
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "185",
-          "RA": "1524",
+          "D": "",
+          "RK": "187",
+          "RA": "1543",
           "pid": "3901011",
           "splits": [
             "49,43",

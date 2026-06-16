@@ -4,7 +4,7 @@
   "club": "Lier SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-15T04:34:46.613Z",
+  "timestamp": "2026-06-16T04:54:43.007Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,6 +14,7 @@
           "Dato": "02.05.2025",
           "Sted": "Drammen",
           "Basseng": "50m",
+          "D": "",
           "RK": "81",
           "RA": "1027",
           "pid": "3690188"
@@ -23,8 +24,9 @@
           "Dato": "22.11.2025",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "167",
-          "RA": "1771",
+          "RA": "1772",
           "pid": "3819958"
         },
         {
@@ -32,6 +34,7 @@
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3689032"
@@ -42,10 +45,41 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "50,67",
+          "Dato": "22.11.2025",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "103",
+          "RA": "1265",
+          "pid": "3820192"
+        },
+        {
+          "Tid": "51,24",
+          "Dato": "22.11.2025",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3820548"
+        },
+        {
+          "Tid": "53,60",
+          "Dato": "04.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "56",
+          "RA": "703",
+          "pid": "3690878"
+        },
+        {
           "Tid": "53,70",
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3689031"
@@ -55,6 +89,7 @@
           "Dato": "02.05.2025",
           "Sted": "Drammen",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3689855"
@@ -69,6 +104,7 @@
           "Dato": "22.11.2025",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "71",
           "RA": "987",
           "pid": "3820191",
@@ -82,12 +118,29 @@
           "Dato": "04.05.2025",
           "Sted": "Drammen",
           "Basseng": "50m",
+          "D": "",
           "RK": "32",
           "RA": "490",
           "pid": "3690877",
           "splits": [
             "53,60",
             "57,39"
+          ]
+        },
+        {
+          "Tid": "1.51,24",
+          "Dato": "22.11.2025",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3820549",
+          "splits": [
+            "51,24",
+            "1.00,00",
+            "59,78",
+            "55,19"
           ]
         }
       ]
@@ -100,6 +153,7 @@
           "Dato": "22.11.2025",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "71",
           "RA": "782",
           "pid": "3820547",

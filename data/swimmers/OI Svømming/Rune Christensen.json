@@ -4,16 +4,27 @@
   "club": "OI Svømming",
   "birthYear": 1969,
   "gender": null,
-  "timestamp": "2026-06-15T04:36:59.185Z",
+  "timestamp": "2026-06-16T05:01:18.079Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "24,42",
+          "Dato": "18.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "14",
+          "RA": "24",
+          "pid": "273591"
+        },
+        {
           "Tid": "24,49",
           "Dato": "15.04.2005",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "16",
           "RA": "23",
           "pid": "26970"
@@ -23,6 +34,7 @@
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
           "Basseng": "25m",
+          "D": "",
           "RK": "22",
           "RA": "45",
           "pid": "539660"
@@ -32,6 +44,7 @@
           "Dato": "18.03.2007",
           "Sted": "Kristiansand",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "308342"
@@ -41,6 +54,7 @@
           "Dato": "05.03.2005",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "25770"
@@ -50,6 +64,7 @@
           "Dato": "26.05.2007",
           "Sted": "Frognerbadet",
           "Basseng": "50m",
+          "D": "",
           "RK": "16",
           "RA": "38",
           "pid": "220442"
@@ -59,9 +74,20 @@
           "Dato": "25.05.2007",
           "Sted": "Frognerbadet",
           "Basseng": "50m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "219227"
+        },
+        {
+          "Tid": "26,21",
+          "Dato": "13.03.2009",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "572873"
         }
       ]
     },
@@ -73,6 +99,7 @@
           "Dato": "15.04.2005",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "8",
           "RA": "10",
           "pid": "26968"
@@ -82,6 +109,7 @@
           "Dato": "17.03.2007",
           "Sted": "Kristiansand",
           "Basseng": "25m",
+          "D": "",
           "RK": "19",
           "RA": "34",
           "pid": "273169"
@@ -91,6 +119,7 @@
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
           "Basseng": "25m",
+          "D": "",
           "RK": "23",
           "RA": "54",
           "pid": "539659"
@@ -100,6 +129,7 @@
           "Dato": "13.07.2007",
           "Sted": "Namsos",
           "Basseng": "50m",
+          "D": "",
           "RK": "14",
           "RA": "27",
           "pid": "228713"
@@ -109,6 +139,7 @@
           "Dato": "25.03.2017",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "63",
           "RA": "219",
           "pid": "2008884"
@@ -118,6 +149,7 @@
           "Dato": "09.03.2019",
           "Sted": "Bergen",
           "Basseng": "25m",
+          "D": "",
           "RK": "114",
           "RA": "260",
           "pid": "2516100"
@@ -132,24 +164,57 @@
           "Dato": "18.03.2007",
           "Sted": "Kristiansand",
           "Basseng": "25m",
+          "D": "",
           "RK": "10",
           "RA": "28",
           "pid": "290008"
+        },
+        {
+          "Tid": "28,79",
+          "Dato": "02.03.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "313480"
+        },
+        {
+          "Tid": "28,90",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "12",
+          "RA": "36",
+          "pid": "156390"
         },
         {
           "Tid": "29,02",
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
           "Basseng": "25m",
+          "D": "",
           "RK": "13",
           "RA": "49",
           "pid": "572874"
+        },
+        {
+          "Tid": "29,56",
+          "Dato": "18.04.2008",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "11",
+          "RA": "53",
+          "pid": "425675"
         },
         {
           "Tid": "30,01",
           "Dato": "09.04.2016",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "25",
           "RA": "101",
           "pid": "1779196"
@@ -159,24 +224,57 @@
           "Dato": "25.03.2017",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "37",
           "RA": "119",
           "pid": "2009357"
+        },
+        {
+          "Tid": "30,12",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "1915432"
+        },
+        {
+          "Tid": "30,12",
+          "Dato": "08.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "1955119"
         },
         {
           "Tid": "30,21",
           "Dato": "14.03.2015",
           "Sted": "Sognsvann",
           "Basseng": "25m",
+          "D": "",
           "RK": "31",
           "RA": "126",
           "pid": "1558432"
+        },
+        {
+          "Tid": "30,42",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "2157372"
         },
         {
           "Tid": "30,49",
           "Dato": "10.03.2019",
           "Sted": "Bergen",
           "Basseng": "25m",
+          "D": "",
           "RK": "58",
           "RA": "181",
           "pid": "2516273"
@@ -186,6 +284,7 @@
           "Dato": "15.10.2016",
           "Sted": "Asker",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "1833957"
@@ -195,17 +294,49 @@
           "Dato": "14.07.2007",
           "Sted": "Namsos",
           "Basseng": "50m",
+          "D": "",
           "RK": "4",
           "RA": "21",
           "pid": "228923"
+        },
+        {
+          "Tid": "30,71",
+          "Dato": "24.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "2176846"
+        },
+        {
+          "Tid": "30,82",
+          "Dato": "15.10.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "1910612"
+        },
+        {
+          "Tid": "30,85",
+          "Dato": "08.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "2518962"
         },
         {
           "Tid": "33,15",
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "79",
-          "RA": "257",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3899979"
         }
       ]
@@ -218,6 +349,7 @@
           "Dato": "15.04.2005",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "8",
           "RA": "14",
           "pid": "26966",
@@ -228,6 +360,7 @@
           "Dato": "05.03.2005",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "5250",
@@ -241,6 +374,7 @@
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
           "Basseng": "25m",
+          "D": "",
           "RK": "16",
           "RA": "48",
           "pid": "539658",
@@ -251,6 +385,7 @@
           "Dato": "16.03.2007",
           "Sted": "Kristiansand",
           "Basseng": "25m",
+          "D": "",
           "RK": "18",
           "RA": "61",
           "pid": "269222",
@@ -266,6 +401,7 @@
           "Dato": "15.04.2005",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "11",
           "RA": "15",
           "pid": "26969",
@@ -276,6 +412,7 @@
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
           "Basseng": "25m",
+          "D": "",
           "RK": "17",
           "RA": "48",
           "pid": "539661",
@@ -291,6 +428,7 @@
           "Dato": "15.04.2005",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "9",
           "RA": "28",
           "pid": "26967",
@@ -306,6 +444,7 @@
           "Dato": "15.04.2005",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "10",
           "RA": "67",
           "pid": "81716",
