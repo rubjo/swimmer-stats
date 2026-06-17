@@ -4,8 +4,23 @@
   "club": "Drammen SK",
   "birthYear": 1978,
   "gender": "female",
-  "timestamp": "2026-06-15T11:24:10.707Z",
+  "timestamp": "2026-06-17T08:25:20.093Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,15",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "206",
+          "RA": "924",
+          "pid": "3901019"
+        }
+      ]
+    },
     {
       "distanse": "100m Fri",
       "races": [
@@ -14,8 +29,9 @@
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "120",
-          "RA": "642",
+          "D": "",
+          "RK": "122",
+          "RA": "650",
           "pid": "3901018",
           "splits": [
             "35,15",
@@ -32,8 +48,9 @@
           "Dato": "21.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
+          "D": "",
           "RK": "36",
-          "RA": "349",
+          "RA": "357",
           "pid": "3900492",
           "splits": [
             "43,44",
