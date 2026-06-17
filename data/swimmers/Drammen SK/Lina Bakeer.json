@@ -1,31 +1,332 @@
 {
-  "swimmerId": "51711",
+  "swimmerId": "54290",
   "name": "Lina Bakeer",
   "club": "Drammen SK",
   "birthYear": 2011,
-  "gender": "female",
-  "timestamp": "2026-06-17T04:43:48.820Z",
+  "timestamp": "2026-06-17T11:11:24.732Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
-          "Tid": "38,83",
-          "Dato": "01.05.2026",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "RK": "125",
-          "RA": "831",
-          "pid": "3942794"
+          "Tid": "38,99",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1277",
+          "pid": "3894473"
         },
         {
-          "Tid": "41,57",
-          "Dato": "31.05.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
+          "Tid": "40,86",
+          "Dato": "26.04.2025",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3705184"
+          "pid": "3687450"
+        },
+        {
+          "Tid": "42,01",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "RK": "132",
+          "RA": "905",
+          "pid": "3864682"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,49",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "890",
+          "pid": "3894311"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,88",
+          "Dato": "01.11.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3802567"
+        },
+        {
+          "Tid": "1.05,22",
+          "Dato": "24.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3701704"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,57",
+          "Dato": "24.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1518",
+          "pid": "3701587"
+        },
+        {
+          "Tid": "58,14",
+          "Dato": "26.04.2025",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3687117"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.36,94",
+          "Dato": "24.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "268",
+          "RA": "1603",
+          "pid": "3702135",
+          "splits": [
+            "48,62",
+            "48,32"
+          ]
+        },
+        {
+          "Tid": "1.41,05",
+          "Dato": "26.04.2025",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3687913",
+          "splits": [
+            "50,74",
+            "50,31"
+          ]
+        },
+        {
+          "Tid": "1.39,75",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "RK": "119",
+          "RA": "815",
+          "pid": "3864857",
+          "splits": [
+            "46,46",
+            "53,29"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.53,30",
+          "Dato": "01.11.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3803041",
+          "splits": [
+            "56,34",
+            "56,96"
+          ]
+        },
+        {
+          "Tid": "2.01,03",
+          "Dato": "24.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3702216",
+          "splits": [
+            "57,65",
+            "1.03,38"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.04,43",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "935",
+          "pid": "3894589",
+          "splits": [
+            "53,21",
+            "1.11,22"
+          ]
+        },
+        {
+          "Tid": "2.05,28",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3921990",
+          "splits": [
+            "50,14",
+            "1.15,14"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.53,80",
+          "Dato": "12.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "905",
+          "pid": "3923482",
+          "splits": [
+            "47,66",
+            "1.02,59",
+            "1.09,86",
+            "53,69"
+          ]
+        },
+        {
+          "Tid": "4.17,91",
+          "Dato": "07.02.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3873541",
+          "splits": [
+            "53,23",
+            "1.10,86",
+            "1.18,39",
+            "55,43"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.25,31",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "969",
+          "pid": "3922892",
+          "splits": [
+            "56,53",
+            "1.06,94",
+            "1.11,56",
+            "1.10,28"
+          ]
+        },
+        {
+          "Tid": "4.36,91",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3895168",
+          "splits": [
+            "58,19",
+            "1.13,10",
+            "1.15,02",
+            "1.10,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.38,51",
+          "Dato": "07.02.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "909",
+          "pid": "3873319"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.50,13",
+          "Dato": "07.02.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "202",
+          "RA": "986",
+          "pid": "3873669"
+        },
+        {
+          "Tid": "7.55,26",
+          "Dato": "10.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3924159"
         }
       ]
     }
