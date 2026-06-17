@@ -1,10 +1,10 @@
 {
-  "swimmerId": "51010",
+  "swimmerId": "54679",
   "name": "Anton O Alfredsen",
   "club": "Kolbotn IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-15T20:05:59.264Z",
+  "timestamp": "2026-06-17T06:15:08.348Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,9 @@
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "110",
-          "RA": "1434",
+          "D": "",
+          "RK": "112",
+          "RA": "1451",
           "pid": "3880330"
         }
       ]
@@ -28,9 +29,25 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "126",
-          "RA": "1194",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3948771"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.00,41",
+          "Dato": "17.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "128",
+          "RA": "1326",
+          "pid": "3848472"
         }
       ]
     },
@@ -42,25 +59,59 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "86",
-          "RA": "1187",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3949182",
           "splits": [
             "41,82",
             "46,31"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
         {
-          "Tid": "1.32,44",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "RK": "44",
-          "RA": "773",
-          "pid": "3961992",
+          "Tid": "2.09,70",
+          "Dato": "17.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3848423",
           "splits": [
-            "43,81",
-            "48,63"
+            "59,75",
+            "1.09,95",
+            "1.10,90",
+            "1.08,50"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.27,20",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "102",
+          "RA": "1044",
+          "pid": "3881449",
+          "splits": [
+            "44,05",
+            "52,40",
+            "54,32",
+            "56,43",
+            "57,73",
+            "55,99",
+            "54,37",
+            "48,87"
           ]
         }
       ]
@@ -73,8 +124,9 @@
           "Dato": "17.01.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
+          "D": "",
           "RK": "101",
-          "RA": "771",
+          "RA": "773",
           "pid": "3848471",
           "splits": [
             "1.00,41",
@@ -93,8 +145,9 @@
           "Dato": "17.01.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
-          "RK": "102",
-          "RA": "786",
+          "D": "",
+          "RK": "104",
+          "RA": "791",
           "pid": "3848421",
           "splits": [
             "59,75",
@@ -113,6 +166,7 @@
           "Dato": "28.02.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
+          "D": "",
           "RK": "91",
           "RA": "838",
           "pid": "3881446",
