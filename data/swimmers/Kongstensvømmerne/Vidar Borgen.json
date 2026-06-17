@@ -1,19 +1,30 @@
 {
-  "swimmerId": "6239",
+  "swimmerId": "55390",
   "name": "Vidar Borgen",
   "club": "Kongstensvømmerne",
   "birthYear": 1969,
-  "gender": "male",
-  "timestamp": "2026-06-15T20:40:10.493Z",
+  "gender": "female",
+  "timestamp": "2026-06-17T05:52:38.607Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "27,02",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "73",
+          "RA": "222",
+          "pid": "156368"
+        },
+        {
           "Tid": "27,37",
           "Dato": "10.03.2019",
           "Sted": "Bergen",
           "Basseng": "25m",
+          "D": "",
           "RK": "185",
           "RA": "491",
           "pid": "2516603"
@@ -23,6 +34,7 @@
           "Dato": "25.03.2017",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "124",
           "RA": "471",
           "pid": "2009198"
@@ -32,6 +44,7 @@
           "Dato": "07.05.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "123",
           "RA": "578",
           "pid": "3234870"
@@ -41,8 +54,9 @@
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "175",
-          "RA": "454",
+          "D": "",
+          "RK": "178",
+          "RA": "466",
           "pid": "3900206"
         },
         {
@@ -50,6 +64,7 @@
           "Dato": "30.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "184",
           "RA": "757",
           "pid": "3664429"
@@ -64,6 +79,7 @@
           "Dato": "01.04.2006",
           "Sted": "Lambertseter",
           "Basseng": "25m",
+          "D": "",
           "RK": "37",
           "RA": "106",
           "pid": "111770"
@@ -73,8 +89,9 @@
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "74",
-          "RA": "200",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3900057"
         },
         {
@@ -82,6 +99,7 @@
           "Dato": "08.03.2019",
           "Sted": "Bergen",
           "Basseng": "25m",
+          "D": "",
           "RK": "101",
           "RA": "264",
           "pid": "2516385"
@@ -91,6 +109,7 @@
           "Dato": "24.03.2017",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
+          "D": "",
           "RK": "75",
           "RA": "261",
           "pid": "2008604"
@@ -100,6 +119,7 @@
           "Dato": "05.05.2023",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
+          "D": "",
           "RK": "64",
           "RA": "299",
           "pid": "3234758"
@@ -109,9 +129,20 @@
           "Dato": "28.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "86",
           "RA": "375",
           "pid": "3664289"
+        },
+        {
+          "Tid": "39,05",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3664779"
         }
       ]
     },
@@ -123,12 +154,31 @@
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "74",
           "RA": "510",
           "pid": "3664778",
           "splits": [
             "39,05",
             "46,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.42,17",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "130",
+          "RA": "905",
+          "pid": "3966098",
+          "splits": [
+            "1.12,58",
+            "1.29,59"
           ]
         }
       ]
