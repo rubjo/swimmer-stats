@@ -4,7 +4,11 @@
   "club": "Hamar IL",
   "birthYear": 2011,
   "gender": "female",
+<<<<<<< HEAD
   "timestamp": "2026-06-16T22:38:37.016Z",
+=======
+  "timestamp": "2026-06-17T04:26:58.288Z",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -20,6 +24,7 @@
           "pid": "3300764"
         },
         {
+<<<<<<< HEAD
           "Tid": "45,93",
           "Dato": "09.03.2024",
           "Sted": "Trondheim",
@@ -35,6 +40,43 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
+=======
+          "Tid": "36,86",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "133",
+          "RA": "864",
+          "pid": "3961500"
+        },
+        {
+          "Tid": "39,51",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3962235"
+        },
+        {
+          "Tid": "39,54",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "178",
+          "RA": "1313",
+          "pid": "3855787"
+        },
+        {
+          "Tid": "40,11",
+          "Dato": "14.09.2025",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "RK": "",
           "RA": "",
           "pid": "3830686"
@@ -300,9 +342,15 @@
           "Sted": "Kleppe",
           "Basseng": "25m",
           "D": "",
+<<<<<<< HEAD
           "RK": "116",
           "RA": "1523",
           "pid": "3573177"
+=======
+          "RK": "",
+          "RA": "1145",
+          "pid": "3824847"
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
         },
         {
           "Tid": "56,21",
@@ -312,6 +360,7 @@
           "D": "",
           "RK": "",
           "RA": "",
+<<<<<<< HEAD
           "pid": "3419562"
         },
         {
@@ -438,6 +487,39 @@
           "RK": "103",
           "RA": "1092",
           "pid": "3883229"
+=======
+          "pid": "3854121"
+        },
+        {
+          "Tid": "45,09",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "107",
+          "RA": "738",
+          "pid": "3960959"
+        },
+        {
+          "Tid": "47,61",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3854891"
+        },
+        {
+          "Tid": "48,66",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3962955"
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
         }
       ]
     },
@@ -445,6 +527,7 @@
       "distanse": "50m Bryst",
       "races": [
         {
+<<<<<<< HEAD
           "Tid": "1.00,25",
           "Dato": "09.03.2025",
           "Sted": "Holmen",
@@ -453,6 +536,16 @@
           "RK": "",
           "RA": "",
           "pid": "3830658"
+=======
+          "Tid": "49,99",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3961262"
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
         },
         {
           "Tid": "1.01,03",
@@ -540,28 +633,67 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
+<<<<<<< HEAD
+=======
+          "RK": "165",
+          "RA": "1028",
+          "pid": "3854399"
+        },
+        {
+          "Tid": "50,16",
+          "Dato": "29.11.2025",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "RK": "",
           "RA": "",
           "pid": "3419608"
         },
         {
+<<<<<<< HEAD
           "Tid": "1.05,05",
           "Dato": "25.05.2024",
           "Sted": "Frederikshavn",
+=======
+          "Tid": "51,33",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3855360"
+        },
+        {
+          "Tid": "54,00",
+          "Dato": "14.09.2025",
+          "Sted": "Brumunddal",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
+<<<<<<< HEAD
           "pid": "3475264"
         },
         {
           "Tid": "1.05,44",
           "Dato": "20.04.2024",
           "Sted": "Sandnes",
+=======
+          "pid": "3747454"
+        },
+        {
+          "Tid": "56,79",
+          "Dato": "14.09.2025",
+          "Sted": "Brumunddal",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
+<<<<<<< HEAD
           "pid": "3450416"
         },
         {
@@ -613,6 +745,9 @@
           "RK": "",
           "RA": "",
           "pid": "2920654"
+=======
+          "pid": "3747554"
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
         }
       ]
     },
@@ -625,15 +760,22 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
+<<<<<<< HEAD
           "RK": "144",
           "RA": "1821",
           "pid": "3838307",
+=======
+          "RK": "167",
+          "RA": "1071",
+          "pid": "3855786",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "splits": [
             "48,84",
             "59,10"
           ]
         },
         {
+<<<<<<< HEAD
           "Tid": "1.50,55",
           "Dato": "06.02.2026",
           "Sted": "Stavanger",
@@ -642,6 +784,16 @@
           "RK": "188",
           "RA": "1555",
           "pid": "3866528",
+=======
+          "Tid": "1.26,70",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "119",
+          "RA": "812",
+          "pid": "3962234",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "splits": [
             "49,58",
             "1.00,97"
@@ -742,9 +894,15 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
+<<<<<<< HEAD
           "RK": "",
           "RA": "",
           "pid": "3729023",
+=======
+          "RK": "134",
+          "RA": "759",
+          "pid": "3854890",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "splits": [
             "56,95",
             "1.04,03"
@@ -920,9 +1078,15 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
+<<<<<<< HEAD
           "RK": "53",
           "RA": "1598",
           "pid": "3450415",
+=======
+          "RK": "157",
+          "RA": "957",
+          "pid": "3855359",
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           "splits": [
             "1.05,44",
             "1.20,27"
@@ -934,12 +1098,42 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
+<<<<<<< HEAD
           "RK": "97",
           "RA": "1387",
           "pid": "3883353",
           "splits": [
             "1.04,0",
             "1.21,72"
+=======
+          "RK": "",
+          "RA": "",
+          "pid": "3747553",
+          "splits": [
+            "56,79",
+            "1.05,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.47,11",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3962954",
+          "splits": [
+            "48,66",
+            "1.00,33",
+            "1.05,47",
+            "52,65"
+>>>>>>> aed7df8 (checkpoint: W2 25 swimmers [skip ci])
           ]
         }
       ]
