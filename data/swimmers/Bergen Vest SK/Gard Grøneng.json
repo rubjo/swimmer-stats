@@ -4,8 +4,23 @@
   "club": "Bergen Vest SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-15T09:24:20.205Z",
+  "timestamp": "2026-06-17T02:06:23.703Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "58,31",
+          "Dato": "06.06.2026",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "135",
+          "RA": "1783",
+          "pid": "3964291"
+        }
+      ]
+    },
     {
       "distanse": "50m Bryst",
       "races": [
@@ -14,8 +29,9 @@
           "Dato": "07.06.2026",
           "Sted": "Førde",
           "Basseng": "25m",
-          "RK": "98",
-          "RA": "1334",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3963720"
         }
       ]
@@ -28,8 +44,9 @@
           "Dato": "06.06.2026",
           "Sted": "Førde",
           "Basseng": "25m",
-          "RK": "108",
-          "RA": "1512",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3964290",
           "splits": [
             "58,31",
