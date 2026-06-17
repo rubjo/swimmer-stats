@@ -4,19 +4,60 @@
   "club": "Poseidon",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-15T09:22:45.349Z",
+  "timestamp": "2026-06-17T02:45:38.864Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "35,82",
+          "Dato": "25.04.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "182",
+          "RA": "1174",
+          "pid": "3937717"
+        },
+        {
           "Tid": "36,02",
           "Dato": "15.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3894436"
+        },
+        {
+          "Tid": "36,36",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "153",
+          "RA": "911",
+          "pid": "3962042"
+        },
+        {
+          "Tid": "36,41",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3894818"
+        },
+        {
+          "Tid": "37,23",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3963449"
         }
       ]
     },
@@ -24,10 +65,31 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "38,78",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "104",
+          "RA": "680",
+          "pid": "3962863"
+        },
+        {
+          "Tid": "39,95",
+          "Dato": "25.04.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "144",
+          "RA": "944",
+          "pid": "3937530"
+        },
+        {
           "Tid": "42,11",
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3894221"
@@ -42,9 +104,20 @@
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "106",
-          "RA": "610",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3894302"
+        },
+        {
+          "Tid": "46,74",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3895955"
         }
       ]
     },
@@ -56,8 +129,9 @@
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "98",
-          "RA": "638",
+          "D": "",
+          "RK": "122",
+          "RA": "745",
           "pid": "3962041",
           "splits": [
             "36,36",
@@ -69,8 +143,9 @@
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
-          "RK": "156",
-          "RA": "935",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3937716",
           "splits": [
             "35,82",
@@ -82,6 +157,7 @@
           "Dato": "15.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3894817",
@@ -89,6 +165,17 @@
             "36,41",
             "43,78"
           ]
+        },
+        {
+          "Tid": "1.21,07",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3963450",
+          "splits": []
         }
       ]
     },
@@ -100,8 +187,9 @@
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "118",
-          "RA": "638",
+          "RA": "643",
           "pid": "3937529",
           "splits": [
             "39,95",
@@ -118,8 +206,9 @@
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
-          "RK": "60",
-          "RA": "359",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3894633",
           "splits": [
             "43,51",
@@ -131,6 +220,7 @@
           "Dato": "25.04.2026",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3937562",
@@ -149,8 +239,9 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "39",
-          "RA": "251",
+          "D": "",
+          "RK": "55",
+          "RA": "294",
           "pid": "3962862",
           "splits": [
             "38,78",

@@ -4,16 +4,27 @@
   "club": "Volda SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-15T09:40:27.294Z",
+  "timestamp": "2026-06-17T02:46:06.037Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "46,46",
+          "Dato": "13.09.2025",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3746892"
+        },
+        {
           "Tid": "49,13",
           "Dato": "22.02.2025",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3644663"
@@ -28,9 +39,20 @@
           "Dato": "13.09.2025",
           "Sted": "Ålesund",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3746668"
+        },
+        {
+          "Tid": "1.04,45",
+          "Dato": "23.02.2025",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3644735"
         }
       ]
     },
@@ -42,8 +64,9 @@
           "Dato": "13.09.2025",
           "Sted": "Ålesund",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
-          "RA": "",
+          "RA": "1466",
           "pid": "3746630"
         }
       ]
@@ -56,8 +79,9 @@
           "Dato": "13.09.2025",
           "Sted": "Ålesund",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "D": "",
+          "RK": "269",
+          "RA": "1738",
           "pid": "3746891",
           "splits": [
             "46,46",
@@ -74,6 +98,7 @@
           "Dato": "23.02.2025",
           "Sted": "Nordfjordeid",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3644734",
