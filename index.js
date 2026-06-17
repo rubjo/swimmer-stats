@@ -1074,8 +1074,17 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
       saveSkipUntil(localSkipUntil, workerSkipFile);
     }
 
-    // Periodic git checkpoint (every 25 saves) so progress survives a crash.
+    // Periodic index rebuild + git checkpoint (every 25 saves).
+    // rebuildIndex reads all swimmer files to produce a complete
+    // overview — concurrent workers writing this simultaneously just
+    // overwrite with the same content, so there's no conflict.
     if (saved > 0 && saved % 25 === 0) {
+      rebuildIndex({
+        swimmersDir: sharedCtx.SWIMMERS_DIR,
+        dataDir: sharedCtx.DATA_DIR,
+        indexFile: sharedCtx.INDEX_FILE,
+        baseUrl: sharedCtx.BASE_URL,
+      });
       gitCheckpoint(`W${workerId} ${saved} swimmers`);
     }
 
