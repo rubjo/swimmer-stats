@@ -1,11 +1,35 @@
 {
-  "swimmerId": "47409",
+  "swimmerId": "44008",
   "name": "Joakim Berndtsson",
   "club": "Lambertseter SK",
   "birthYear": 1976,
   "gender": "male",
-  "timestamp": "2026-06-15T20:30:40.273Z",
+  "timestamp": "2026-06-16T23:45:38.029Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,27",
+          "Dato": "30.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "196",
+          "RA": "819",
+          "pid": "3666240"
+        },
+        {
+          "Tid": "36,98",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "155",
+          "RA": "814",
+          "pid": "3961364"
+        }
+      ]
+    },
     {
       "distanse": "50m Butterfly",
       "races": [
@@ -14,6 +38,7 @@
           "Dato": "27.04.2024",
           "Sted": "Narvik",
           "Basseng": "25m",
+          "D": "",
           "RK": "88",
           "RA": "389",
           "pid": "3466395"
@@ -23,6 +48,7 @@
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "127",
           "RA": "486",
           "pid": "3664087"
@@ -37,6 +63,7 @@
           "Dato": "30.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "57",
           "RA": "247",
           "pid": "3664203"
@@ -46,9 +73,20 @@
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "65",
-          "RA": "176",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3899967"
+        },
+        {
+          "Tid": "32,98",
+          "Dato": "28.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3666292"
         }
       ]
     },
@@ -60,6 +98,7 @@
           "Dato": "27.04.2024",
           "Sted": "Narvik",
           "Basseng": "25m",
+          "D": "",
           "RK": "22",
           "RA": "231",
           "pid": "3466751",
@@ -73,12 +112,92 @@
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "44",
           "RA": "357",
           "pid": "3664691",
           "splits": [
             "35,29",
             "40,17"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,48",
+          "Dato": "13.10.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3540407"
+        },
+        {
+          "Tid": "39,51",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "52",
+          "RA": "352",
+          "pid": "3709488"
+        },
+        {
+          "Tid": "39,66",
+          "Dato": "11.10.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "RK": "131",
+          "RA": "693",
+          "pid": "3781748"
+        },
+        {
+          "Tid": "39,82",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "RK": "103",
+          "RA": "640",
+          "pid": "3234787"
+        },
+        {
+          "Tid": "41,16",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "RK": "77",
+          "RA": "342",
+          "pid": "3961169"
+        },
+        {
+          "Tid": "41,54",
+          "Dato": "26.03.2023",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3209279"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.27,38",
+          "Dato": "06.01.2024",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "RK": "40",
+          "RA": "590",
+          "pid": "3370271",
+          "splits": [
+            "43,17",
+            "50,93",
+            "56,04",
+            "57,24"
           ]
         }
       ]
