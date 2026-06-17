@@ -1,10 +1,10 @@
 {
-  "swimmerId": "53841",
+  "swimmerId": "55306",
   "name": "Cecilie-Karoline  Skinstad Berke",
   "club": "Øvre Eiker SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-14T14:55:08.695Z",
+  "timestamp": "2026-06-17T08:38:45.755Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,9 +14,19 @@
           "Dato": "11.01.2026",
           "Sted": "Hokksund",
           "Basseng": "25m",
-          "RK": "265",
-          "RA": "1888",
+          "D": "",
+          "RK": "266",
+          "RA": "1921",
           "pid": "3844613"
+        },
+        {
+          "Tid": "56,23",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "RK": "220",
+          "RA": "1869",
+          "pid": "3949947"
         }
       ]
     },
@@ -28,9 +38,37 @@
           "Dato": "11.01.2026",
           "Sted": "Hokksund",
           "Basseng": "25m",
-          "RK": "163",
-          "RA": "1008",
+          "D": "",
+          "RK": "169",
+          "RA": "1052",
           "pid": "3844493"
+        },
+        {
+          "Tid": "1.00,46",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "RK": "125",
+          "RA": "1007",
+          "pid": "3949868"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.11,75",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "RK": "155",
+          "RA": "1310",
+          "pid": "3950026",
+          "splits": [
+            "1.01,15",
+            "1.10,60"
+          ]
         }
       ]
     }
