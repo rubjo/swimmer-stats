@@ -1,10 +1,10 @@
 {
-  "swimmerId": "49893",
+  "swimmerId": "43486",
   "name": "Cecilie Utengen Engebråten",
   "club": "Lier SK",
   "birthYear": 2011,
-  "gender": "female",
-  "timestamp": "2026-06-15T05:01:05.250Z",
+  "gender": "male",
+  "timestamp": "2026-06-17T11:52:06.241Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,6 +14,7 @@
           "Dato": "22.03.2025",
           "Sted": "Geithus",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3663488"
@@ -23,6 +24,7 @@
           "Dato": "26.04.2025",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3687459"
@@ -32,6 +34,7 @@
           "Dato": "23.11.2024",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "302",
           "RA": "2052",
           "pid": "3583135"
@@ -41,6 +44,7 @@
           "Dato": "05.01.2025",
           "Sted": "Hokksund",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3643215"
@@ -50,9 +54,28 @@
           "Dato": "16.02.2025",
           "Sted": "Krokstadelva",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3643217"
+        },
+        {
+          "Tid": "32,38",
+          "Dato": "01.03.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "154",
+          "RA": "915",
+          "pid": "3882868"
+        },
+        {
+          "Tid": "34,44",
+          "Dato": "26.01.2025",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "202",
+          "RA": "1335",
+          "pid": "3621802"
         }
       ]
     },
@@ -64,6 +87,7 @@
           "Dato": "26.04.2025",
           "Sted": "Sandefjord",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3687330"
@@ -73,6 +97,7 @@
           "Dato": "22.03.2025",
           "Sted": "Geithus",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3663389"
@@ -82,9 +107,131 @@
           "Dato": "05.01.2025",
           "Sted": "Hokksund",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3643214"
+        },
+        {
+          "Tid": "41,97",
+          "Dato": "28.02.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "129",
+          "RA": "632",
+          "pid": "3882847"
+        },
+        {
+          "Tid": "46,97",
+          "Dato": "25.01.2025",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "184",
+          "RA": "1088",
+          "pid": "3621778"
+        },
+        {
+          "Tid": "47,43",
+          "Dato": "10.02.2024",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "",
+          "RA": "",
+          "pid": "3400869"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "40,09",
+          "Dato": "28.02.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "154",
+          "RA": "941",
+          "pid": "3882827"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,35",
+          "Dato": "28.02.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "147",
+          "RA": "867",
+          "pid": "3882935",
+          "splits": [
+            "35,99",
+            "39,36"
+          ]
+        },
+        {
+          "Tid": "1.38,16",
+          "Dato": "10.02.2024",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "231",
+          "RA": "1546",
+          "pid": "3400965",
+          "splits": [
+            "45,41",
+            "52,75"
+          ]
+        },
+        {
+          "Tid": "1.47,73",
+          "Dato": "11.02.2023",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "240",
+          "RA": "1643",
+          "pid": "3177012",
+          "splits": [
+            "54,41",
+            "53,32"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.26,15",
+          "Dato": "28.02.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "77",
+          "RA": "449",
+          "pid": "3882960",
+          "splits": [
+            "42,25",
+            "43,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.36,98",
+          "Dato": "01.03.2026",
+          "Sted": "Øvre Årdal",
+          "Basseng": "25m",
+          "RK": "122",
+          "RA": "607",
+          "pid": "3882913",
+          "splits": [
+            "43,62",
+            "53,36"
+          ]
         }
       ]
     }
