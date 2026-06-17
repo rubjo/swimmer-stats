@@ -4,19 +4,90 @@
   "club": "Dolphin Masters SK",
   "birthYear": 1978,
   "gender": "male",
-  "timestamp": "2026-06-15T20:43:53.952Z",
+  "timestamp": "2026-06-17T01:37:12.600Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
+          "Tid": "28,24",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "182",
+          "RA": "484",
+          "pid": "3902139"
+        },
+        {
+          "Tid": "28,76",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "184",
+          "RA": "757",
+          "pid": "3674169"
+        },
+        {
           "Tid": "28,88",
           "Dato": "30.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3674119"
+        },
+        {
+          "Tid": "29,15",
+          "Dato": "30.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3674172"
+        },
+        {
+          "Tid": "31,13",
+          "Dato": "28.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3674135"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "33,52",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3902310"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "38,33",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "217",
+          "RA": "871",
+          "pid": "3901829"
         }
       ]
     },
@@ -28,8 +99,9 @@
           "Dato": "28.03.2025",
           "Sted": "Trondheim",
           "Basseng": "25m",
-          "RK": "137",
-          "RA": "700",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3674134",
           "splits": [
             "31,13",
@@ -46,8 +118,9 @@
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "48",
-          "RA": "231",
+          "D": "",
+          "RK": "49",
+          "RA": "237",
           "pid": "3901050",
           "splits": [
             "32,40",
@@ -64,12 +137,38 @@
           "Dato": "21.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "44",
-          "RA": "180",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3900444",
           "splits": [
             "35,70",
             "38,32"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.24,58",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "89",
+          "RA": "556",
+          "pid": "3901830",
+          "splits": [
+            "38,33",
+            "46,25",
+            "49,04",
+            "48,23",
+            "56,30",
+            "57,35",
+            "46,37",
+            "43,56"
           ]
         }
       ]
@@ -82,8 +181,9 @@
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "RK": "29",
-          "RA": "117",
+          "D": "",
+          "RK": "31",
+          "RA": "125",
           "pid": "3901828",
           "splits": [
             "38,33",
