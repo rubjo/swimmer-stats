@@ -1,90 +1,56 @@
 {
-  "swimmerId": "48140",
+  "swimmerId": "51019",
   "name": "Danielle  Knatterød",
   "club": "Kolbotn IL",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-15T18:54:54.883Z",
+  "timestamp": "2026-06-17T12:18:54.704Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
-          "Tid": "42,08",
+          "Tid": "43,40",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "1553",
+          "pid": "3927672"
+        },
+        {
+          "Tid": "46,13",
           "Dato": "01.03.2026",
           "Sted": "Sofiemyr",
           "Basseng": "25m",
-          "RK": "182",
-          "RA": "1475",
-          "pid": "3880460"
+          "RK": "227",
+          "RA": "1671",
+          "pid": "3880462"
         }
       ]
     },
     {
-      "distanse": "50m Bryst",
+      "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "58,17",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
+          "Tid": "53,06",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
           "Basseng": "25m",
-          "RK": "217",
-          "RA": "1446",
-          "pid": "3948854"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Fri",
-      "races": [
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3927598"
+        },
         {
-          "Tid": "1.34,00",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
+          "Tid": "1.03,33",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
           "Basseng": "25m",
           "RK": "152",
-          "RA": "1279",
-          "pid": "3949347",
-          "splits": [
-            "43,24",
-            "50,76"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "1.54,67",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
-          "Basseng": "25m",
-          "RK": "141",
-          "RA": "902",
-          "pid": "3949434",
-          "splits": [
-            "53,78",
-            "1.00,89"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "100m Rygg",
-      "races": [
-        {
-          "Tid": "1.55,79",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
-          "Basseng": "25m",
-          "RK": "110",
-          "RA": "694",
-          "pid": "3949059",
-          "splits": [
-            "54,89",
-            "1.00,90"
-          ]
+          "RA": "1031",
+          "pid": "3868425"
         }
       ]
     }
