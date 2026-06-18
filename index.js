@@ -85,7 +85,7 @@ const C = {
 };
 const color = (code, s) => `${code}${s}${C.reset}`;
 
-/* ─── Parallel processing ──────────────────────────────────────────── */
+/* ─── Swimmer discovery ───────────────────────────────────────────── */
 
 /**
  * Discover all swimmers in the combo box by loading ALL items into the
@@ -214,10 +214,10 @@ async function discoverAllSwimmers(browser, baseUrl) {
 }
 
 /**
- * Reload a worker page (navigate back to BASE_URL, re-apply filters).
+ * Reload the page (navigate back to BASE_URL, re-apply filters).
  * If the page is stuck, creates a fresh one.
  */
-async function reloadWorkerPage(page, browser, baseUrl) {
+async function reloadPage(page, browser, baseUrl) {
   try {
     await navigateAndFilter(page, baseUrl, {
       fraDato: FRA_DATO,
@@ -242,47 +242,62 @@ async function reloadWorkerPage(page, browser, baseUrl) {
   }
 }
 
-/**
- * Run a single worker that processes a chunk of swimmers on its own page.
- * Each worker has its own retry logic and page lifecycle.
- * Returns { saved, workerId }.
- */
-async function runWorker(browser, swimmers, workerId, sharedCtx) {
-  if (swimmers.length === 0) return { saved: 0, workerId };
+/* ─── Main sequential scrape loop ──────────────────────────────────── */
 
-  let myPage;
-  try {
-    myPage = await browser.newPage();
-    await myPage.setUserAgent(
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    );
-    await myPage.setViewport({ width: 1400, height: 900 });
-    await navigateAndFilter(myPage, sharedCtx.BASE_URL, {
-      fraDato: FRA_DATO,
-      tilDato: TIL_DATO,
-    });
-  } catch (err) {
-    console.log(
-      color(C.red, `[W${workerId}] Failed to create page: ${err.message}`),
-    );
-    return { saved: 0, workerId };
-  }
+async function main() {
+  console.log("\n=== Full scrape (sequential) ===\n");
 
-  async function workerReload() {
-    myPage = await reloadWorkerPage(myPage, browser, sharedCtx.BASE_URL);
+  // Load existing index for resume
+  console.log("Loading index for resume…");
+  const { swimmersMap } = loadIndex(INDEX_FILE);
+  const alreadyIndexed = new Set();
+  if (swimmersMap) {
+    for (const [id, entry] of swimmersMap) {
+      if (entry.splitsComplete) alreadyIndexed.add(id);
+    }
   }
+  console.log(
+    color(C.dim, `  ${alreadyIndexed.size} swimmers already fully indexed`),
+  );
+
+  // Track swimmers saved in THIS run (used for checkpoint rebuildIndex)
+  const indexedSwimmers = new Set();
+
+  console.log("Launching browser …");
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    protocolTimeout: 300_000,
+  });
+
+  // ── Discover all swimmers ───────────────────────────────────────
+  console.log("Discovering swimmers (scanning combo box)...");
+  const allSwimmers = await discoverAllSwimmers(browser, BASE_URL);
+  console.log(color(C.green, `  Found ${allSwimmers.length} swimmers`));
+
+  // ── Create main processing page ──────────────────────────────────
+  let page = await browser.newPage();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  );
+  await page.setViewport({ width: 1400, height: 900 });
+  await navigateAndFilter(page, BASE_URL, {
+    fraDato: FRA_DATO,
+    tilDato: TIL_DATO,
+  });
 
   let saved = 0;
-  let localProcessed = 0;
+  let processed = 0;
+  const total = allSwimmers.length;
 
-  for (const sw of swimmers) {
-    localProcessed++;
+  for (const sw of allSwimmers) {
+    processed++;
 
     // Index-based resume — skip if already fully indexed with all splits
-    if (sharedCtx.alreadyIndexed.has(sw.id)) {
+    if (alreadyIndexed.has(sw.id)) {
       console.log(
-        `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} (already indexed)`,
+        `  ${color(C.yellow, "→")} ${processed} — ${sw.text} — (already indexed)`,
       );
       continue;
     }
@@ -297,19 +312,25 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
         // Timeout 120s — incremental scrolling through ~4500 items at
         // ~2.5 s per viewport needs ~75 s for mid-list swimmers.
         let found = await withTimeout(
-          loadUntilIdx(myPage, sw.index).catch(() => false),
+          loadUntilIdx(page, sw.index).catch(() => false),
           120_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
           // Index-based lookup failed. Reload page (may have stuck CDP),
           // then try name-based lookup.
-          await workerReload();
+          page = await reloadPage(page, browser, BASE_URL);
 
-          const nameIdx = await findSwimmerIdx(myPage, sw.text);
+          const nameIdx = await findSwimmerIdx(page, sw.text);
           if (nameIdx !== null) {
             sw.index = nameIdx; // update index for future use
             if (attempts < 3) {
+              console.log(
+                color(
+                  C.yellow,
+                  `  ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
+                ),
+              );
               continue; // retry loadUntilIdx with updated index
             }
             found = true; // last attempt — proceed with updated index
@@ -317,7 +338,7 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
             console.log(
               color(
                 C.yellow,
-                `[W${workerId}] Swimmer ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
+                `  ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
               ),
             );
             continue;
@@ -325,7 +346,7 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
             console.log(
               color(
                 C.red,
-                `[W${workerId}] Swimmer ${sw.text} not found in combo (after 3 attempts)`,
+                `  ${sw.text} not found in combo (after 3 attempts)`,
               ),
             );
             swimmerOk = true;
@@ -335,9 +356,9 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
 
         // Process the swimmer — grid parse, split extraction, save
         const result = await withTimeout(
-          processSwimmer(myPage, sw, sw.index, {
-            SWIMMERS_DIR: sharedCtx.SWIMMERS_DIR,
-            processedInSession: localProcessed,
+          processSwimmer(page, sw, sw.index, {
+            SWIMMERS_DIR,
+            processedInSession: processed,
           }),
           7_200_000,
           sw.text,
@@ -345,7 +366,7 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
 
         if (result.saved) {
           saved++;
-          sharedCtx.indexedSwimmers.add(sw.id);
+          indexedSwimmers.add(sw.id);
           swimmerOk = true;
         } else if (result.needsReposition && attempts < 3) {
           // Grid never loaded — likely transient server overload.
@@ -356,7 +377,7 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
               `  ⚠ ${sw.text}: grid never loaded, retrying (${attempts}/3)...`,
             ),
           );
-          await workerReload();
+          page = await reloadPage(page, browser, BASE_URL);
           continue;
         } else {
           // Grid never loaded (exhausted retries) or no data — skip
@@ -373,26 +394,21 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
           console.log(
             color(
               C.red,
-              `[W${workerId}] ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
+              `  ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
             ),
           );
           try {
-            await workerReload();
+            page = await reloadPage(page, browser, BASE_URL);
             if (attempts < 3)
               console.log(color(C.dim, `    retry ${attempts}/3...`));
           } catch {
             console.log(
-              color(
-                C.red,
-                `[W${workerId}] ⚠ ${sw.text}: reload failed, skipping`,
-              ),
+              color(C.red, `  ⚠ ${sw.text}: reload failed, skipping`),
             );
             break;
           }
         } else {
-          console.log(
-            color(C.red, `[W${workerId}] ⚠ ${sw.text}: ${msg.slice(0, 100)}`),
-          );
+          console.log(color(C.red, `  ⚠ ${sw.text}: ${msg.slice(0, 100)}`));
           swimmerOk = true;
         }
       }
@@ -401,110 +417,43 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
     // Checkpoint every 10 saves: rebuild index + git commit + push
     if (saved > 0 && saved % 10 === 0) {
       rebuildIndex({
-        swimmersDir: sharedCtx.SWIMMERS_DIR,
-        dataDir: sharedCtx.DATA_DIR,
-        indexFile: sharedCtx.INDEX_FILE,
-        baseUrl: sharedCtx.BASE_URL,
-        fraDato: sharedCtx.FRA_DATO,
-        tilDato: sharedCtx.TIL_DATO,
-        indexedSwimmers: sharedCtx.indexedSwimmers,
+        swimmersDir: SWIMMERS_DIR,
+        dataDir: DATA_DIR,
+        indexFile: INDEX_FILE,
+        baseUrl: BASE_URL,
+        fraDato: FRA_DATO,
+        tilDato: TIL_DATO,
+        indexedSwimmers,
       });
-      gitCheckpoint(`W${workerId} ${saved} swimmers`);
+      gitCheckpoint(`${saved} swimmers`);
+      console.log(color(C.dim, `  Checkpoint: ${saved} swimmers saved`));
     }
 
     // Periodic page reload every 50 swimmers to prevent stale DevExpress
     // combo state from accumulating.
-    if (localProcessed > 0 && localProcessed % 50 === 0) {
+    if (processed > 0 && processed % 50 === 0) {
       console.log(
         color(
           C.dim,
-          `[W${workerId}] Periodic page reload after ${localProcessed} swimmers...`,
+          `  Periodic page reload after ${processed}/${total} swimmers...`,
         ),
       );
-      await workerReload();
+      page = await reloadPage(page, browser, BASE_URL);
+    }
+
+    // Log progress every 50 swimmers
+    if (processed % 50 === 0) {
+      const pct = ((processed / total) * 100).toFixed(1);
+      console.log(color(C.dim, `  Progress: ${processed}/${total} (${pct}%)`));
     }
   }
 
+  // ── Finalize ────────────────────────────────────────────────────
   try {
-    await myPage.close();
+    await page.close();
   } catch {}
-  return { saved, workerId };
-}
 
-/**
- * Run a parallel pass across 10 browser pages, each processing a separate
- * chunk of swimmers concurrently.
- *
- * Phase 1 — Discover all swimmer indices from the combo box (serial).
- * Phase 2 — Split into 10 round-robin chunks for even load distribution.
- * Phase 3 — Spawn 10 worker pages, each processing its chunk in parallel.
- * Phase 4 — Rebuild index, push to git.
- */
-async function runPassParallel() {
-  console.log("\n=== Full scrape (parallel, 10 workers) ===\n");
-
-  // Load existing index for resume
-  console.log("Loading index for resume…");
-  const { swimmersMap } = loadIndex(INDEX_FILE);
-  const alreadyIndexed = new Set();
-  if (swimmersMap) {
-    for (const [id, entry] of swimmersMap) {
-      if (entry.splitsComplete) alreadyIndexed.add(id);
-    }
-  }
-  console.log(
-    color(C.dim, `  ${alreadyIndexed.size} swimmers already fully indexed`),
-  );
-
-  // Shared Set to track swimmers saved in THIS run (used for checkpoint rebuildIndex)
-  const indexedSwimmers = new Set();
-
-  console.log("Launching browser …");
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 300_000,
-  });
-
-  // ── Phase 1: Discover all swimmers ──────────────────────────────
-  console.log("Discovering swimmers (scanning combo box)...");
-  const allSwimmers = await discoverAllSwimmers(browser, BASE_URL);
-  console.log(color(C.green, `  Found ${allSwimmers.length} swimmers`));
-
-  // ── Phase 2: Split into round-robin chunks ─────────────────────
-  const NUM_WORKERS = 10;
-  const chunks = Array.from({ length: NUM_WORKERS }, () => []);
-  for (let i = 0; i < allSwimmers.length; i++) {
-    chunks[i % NUM_WORKERS].push(allSwimmers[i]);
-  }
-  console.log(`  Chunks: ${chunks.map((c) => c.length).join(", ")}`);
-
-  const sharedCtx = {
-    BASE_URL,
-    FRA_DATO,
-    TIL_DATO,
-    SWIMMERS_DIR,
-    DATA_DIR,
-    INDEX_FILE,
-    alreadyIndexed,
-    indexedSwimmers,
-  };
-
-  // ── Phase 3: Run workers in parallel ────────────────────────────
-  const workerPromises = chunks.map((chunk, i) =>
-    runWorker(browser, chunk, i, sharedCtx),
-  );
-  const results = await Promise.all(workerPromises);
-  const totalSaved = results.reduce((sum, r) => sum + r.saved, 0);
-  console.log(
-    color(
-      C.green,
-      `\n  ✓ ${totalSaved} swimmers saved across ${NUM_WORKERS} workers`,
-    ),
-  );
-
-  // ── Phase 4: Finalize ───────────────────────────────────────────
-  console.log("    Rebuilding index…");
+  console.log("\n    Rebuilding index…");
   rebuildIndex({
     swimmersDir: SWIMMERS_DIR,
     dataDir: DATA_DIR,
@@ -516,22 +465,17 @@ async function runPassParallel() {
   });
 
   console.log("    Pushing to GitHub…");
-  gitCheckpoint(`parallel — ${totalSaved} swimmers`);
+  gitCheckpoint(`final — ${saved} swimmers`);
 
   console.log(
     color(
       C.green,
-      `\n  ✓ Full scrape complete! ${allSwimmers.length} total swimmers, ${totalSaved} saved/updated`,
+      `\n  ✓ Full scrape complete! ${total} total swimmers, ${saved} saved in this run`,
     ),
   );
 
+  await browser.close();
   process.exit(0);
-}
-
-/* ─── Entry point ────────────────────────────────────────────────── */
-
-async function main() {
-  await runPassParallel();
 }
 
 main().catch((err) => {
