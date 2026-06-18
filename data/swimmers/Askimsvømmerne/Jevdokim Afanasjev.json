@@ -4,7 +4,7 @@
   "club": "Askimsvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-15T20:04:20.029Z",
+  "timestamp": "2026-06-18T00:35:21.932Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -14,8 +14,9 @@
           "Dato": "09.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "101",
-          "RA": "857",
+          "D": "",
+          "RK": "105",
+          "RA": "872",
           "pid": "3948874"
         },
         {
@@ -23,9 +24,20 @@
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
-          "RK": "82",
-          "RA": "649",
+          "D": "",
+          "RK": "101",
+          "RA": "736",
           "pid": "3961299"
+        },
+        {
+          "Tid": "36,57",
+          "Dato": "01.02.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3860540"
         }
       ]
     },
@@ -37,9 +49,25 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "92",
-          "RA": "719",
+          "D": "",
+          "RK": "97",
+          "RA": "734",
           "pid": "3948618"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,61",
+          "Dato": "01.02.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3860447"
         }
       ]
     },
@@ -51,8 +79,9 @@
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "177",
-          "RA": "1018",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3860539",
           "splits": [
             "36,57",
@@ -69,8 +98,9 @@
           "Dato": "10.05.2026",
           "Sted": "Nordbytun",
           "Basseng": "25m",
-          "RK": "80",
-          "RA": "453",
+          "D": "",
+          "RK": "81",
+          "RA": "459",
           "pid": "3949364",
           "splits": [
             "39,96",
@@ -82,6 +112,7 @@
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3860696",
@@ -100,8 +131,9 @@
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
           "Basseng": "25m",
-          "RK": "193",
-          "RA": "962",
+          "D": "",
+          "RK": "",
+          "RA": "",
           "pid": "3860446",
           "splits": [
             "52,61",
