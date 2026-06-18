@@ -1,0 +1,76 @@
+{
+  "swimmerId": "49956",
+  "name": "Victoria Afrazi",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-06-18T07:24:59.651Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,93",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "261",
+          "RA": "1723",
+          "pid": "3948962"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,54",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "969",
+          "pid": "3948763"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,23",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "253",
+          "RA": "1566",
+          "pid": "3949173",
+          "splits": [],
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.19,99",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "230",
+          "RA": "1374",
+          "pid": "3949172",
+          "splits": [
+            "1.02,23",
+            "1.17,76"
+          ]
+        }
+      ]
+    }
+  ]
+}
