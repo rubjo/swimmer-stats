@@ -1,0 +1,188 @@
+{
+  "swimmerId": "50020",
+  "name": "Thea Askautrud",
+  "club": "Nesodden-Drøbak SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-06-18T21:06:07.540Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,19",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "1608",
+          "pid": "3948935"
+        },
+        {
+          "Tid": "46,97",
+          "Dato": "08.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3868834"
+        },
+        {
+          "Tid": "47,26",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "92",
+          "RA": "1222",
+          "pid": "3903489"
+        },
+        {
+          "Tid": "50,09",
+          "Dato": "01.03.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3880452"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "51,22",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "914",
+          "pid": "3948740"
+        },
+        {
+          "Tid": "53,21",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "51",
+          "RA": "712",
+          "pid": "3902818"
+        },
+        {
+          "Tid": "54,61",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3880205"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,26",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "126",
+          "RA": "1380",
+          "pid": "3949126",
+          "splits": [],
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,49",
+          "Dato": "01.03.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3880307"
+        },
+        {
+          "Tid": "1.00,10",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3904358",
+          "splits": [],
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.01,19",
+          "Dato": "08.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3869556",
+          "splits": [],
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,34",
+          "Dato": "09.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "1144",
+          "pid": "3949125",
+          "splits": [
+            "56,26",
+            "1.02,08"
+          ]
+        },
+        {
+          "Tid": "2.06,77",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3904357",
+          "splits": [
+            "1.00,10",
+            "1.06,67"
+          ]
+        },
+        {
+          "Tid": "2.07,17",
+          "Dato": "08.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3869555",
+          "splits": [
+            "1.01,19",
+            "1.05,98"
+          ]
+        }
+      ]
+    }
+  ]
+}
