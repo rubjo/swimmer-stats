@@ -1,6 +1,3 @@
 node_modules/
 _dl/
 .DS_Store
-
-# Worker-specific skip-until files (cleaned up at end of parallel run)
-data/.skip-until-*.json

@@ -2,15 +2,8 @@ import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
+import { loadIndex, rebuildIndex } from "./lib/fs-utils.js";
 import {
-  flattenRaces,
-  loadExistingSwimmers,
-  rebuildIndex,
-  loadSkipUntil,
-  saveSkipUntil,
-} from "./lib/fs-utils.js";
-import {
-  hasPotentialSplits,
   navigateAndFilter,
   loadUntilIdx,
   findSwimmerIdx,
@@ -23,12 +16,7 @@ const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
-const DELAY_BETWEEN = 50;
-const SKIP_UNTIL_FILE = path.join(DATA_DIR, "skip-until.json");
-const DEFAULT_MODE = (process.env.MODE || "auto").trim();
-
-// Date range for scraping. FRA_DATO defaults to 2000-01-01 (all historical
-// data).  TIL_DATO defaults to today when empty.
+// Date range for scraping.
 const FRA_DATO = process.env.FRA_DATO || "2000-01-01";
 const TIL_DATO = process.env.TIL_DATO || "";
 
@@ -44,31 +32,6 @@ function elapsed(start) {
     return s > 0 ? `${m}m ${s}s` : `${m}m`;
   }
   return `${secs}s`;
-}
-
-/** Format a timestamp as "Xd Yh ago", "Xh ago", "Xm ago", or "just now". */
-function timeAgo(timestamp) {
-  const diff = Date.now() - new Date(timestamp).getTime();
-  if (diff < 60_000) return "just now";
-  const totalMinutes = Math.floor(diff / 60_000);
-  if (totalMinutes < 60) return `${totalMinutes}m ago`;
-  const hours = Math.floor(totalMinutes / 60);
-  const days = Math.floor(hours / 24);
-  const remHours = hours % 24;
-  if (days > 0)
-    return remHours > 0 ? `${days}d ${remHours}h ago` : `${days}d ago`;
-  return `${hours}h ago`;
-}
-
-/** Return a human-readable stats string from an existing swimmer data object. */
-function formatSwimmerStats(data) {
-  if (!data) return "no data yet";
-  const allRaces = flattenRaces(data);
-  const total = allRaces.length;
-  const withSplits = allRaces.filter(
-    (r) => r.splits !== undefined && r.splits.length > 0,
-  ).length;
-  return `${total} races, ${withSplits} with split times`;
 }
 
 /**
@@ -93,17 +56,12 @@ function gitCheckpoint(label) {
       { stdio: "pipe", timeout: 30_000 },
     );
     if (out.includes("nothing to commit")) return;
-    // GitHub Actions checks out a detached HEAD, so we push with
-    // an explicit refspec.  Under parallel load, multiple workers may
-    // push simultaneously — a push can be rejected because the remote
-    // has moved.  We retry with a rebase to stay in sync.
     try {
       execSync(`git push origin HEAD:main`, {
         stdio: "ignore",
         timeout: 60_000,
       });
     } catch {
-      // Push rejected (remote moved) — sync and retry once.
       execSync(`git pull --rebase origin main`, {
         stdio: "ignore",
         timeout: 30_000,
@@ -127,606 +85,11 @@ const C = {
 };
 const color = (code, s) => `${code}${s}${C.reset}`;
 
-/* ─── Run one pass (collect or splits) ──────────────────────────── */
-async function runPass(mode) {
-  console.log(`\n=== ${mode} pass ===\n`);
-
-  /* ── Browser setup ────────────────────────────────────────────── */
-  console.log("Launching browser …");
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 120_000,
-  });
-  let page = await browser.newPage();
-  await page.setUserAgent(
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
-      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  );
-  await page.setViewport({ width: 1400, height: 900 });
-
-  console.log("Navigating …");
-  await navigateAndFilter(page, BASE_URL, {
-    fraDato: FRA_DATO,
-    tilDato: TIL_DATO,
-  });
-
-  /* ── Load existing data ───────────────────────────────────────── */
-  const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
-  const skipUntil = loadSkipUntil(SKIP_UNTIL_FILE);
-
-  /* ── Main loop ────────────────────────────────────────────────── */
-  let cbIdx = 1; // 0 = placeholder
-  let loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
-  let processedInSession = 0;
-  let totalRaces = 0;
-  let savedSinceCheckpoint = 0;
-
-  /** Remember the name of the last swimmer that was saved successfully. */
-  let lastSwimmerName = null;
-
-  /**
-   * Set by thisSwimmer when an internal failure (e.g. grid never loaded)
-   * may have left the page in an inconsistent state.  The main loop will
-   * reload the page and reposition cbIdx via findSwimmerIdx.
-   */
-  let needsReposition = false;
-
-  console.log(`Mode: ${mode}`);
-
-  /**
-   * Navigate back to BASE_URL, re-apply filters.  If the page's JS thread
-   * is stuck (navigation times out), create a fresh page.
-   * Returns the (possibly new) page and its initial loadedCount.
-   */
-  async function reloadPage() {
-    console.log(color(C.dim, `    Reloading page to clear state...`));
-    let p = page;
-    try {
-      await navigateAndFilter(p, BASE_URL, {
-        fraDato: FRA_DATO,
-        tilDato: TIL_DATO,
-      });
-    } catch {
-      console.log(
-        color(C.yellow, `    Page unresponsive, creating new page...`),
-      );
-      p = await browser.newPage();
-      await p.setUserAgent(
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
-          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      );
-      await p.setViewport({ width: 1400, height: 900 });
-      await navigateAndFilter(p, BASE_URL, {
-        fraDato: FRA_DATO,
-        tilDato: TIL_DATO,
-      });
-    }
-    const lc = await p.evaluate(() => cmbUtover.GetItemCount());
-    return { page: p, loadedCount: lc };
-  }
-
-  /**
-   * Create a brand-new page with a clean CDP session (for when the
-   * current page's CDP session is stuck).  Returns the new page and
-   * its initial loadedCount.
-   */
-  async function replacePage() {
-    console.log(color(C.yellow, `    Creating new page after stuck state...`));
-    // Attempt to close the old page, but don't wait if it's stuck.
-    try {
-      await withTimeout(page.close(), 5_000, "close old page");
-    } catch {
-      // Old page CDP session is hung — abandon it.
-    }
-    const p = await browser.newPage();
-    await p.setUserAgent(
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    );
-    await p.setViewport({ width: 1400, height: 900 });
-    await navigateAndFilter(p, BASE_URL, {
-      fraDato: FRA_DATO,
-      tilDato: TIL_DATO,
-    });
-    const lc = await p.evaluate(() => cmbUtover.GetItemCount());
-    return { page: p, loadedCount: lc };
-  }
-
-  /**
-   * Find the combo-box index of a swimmer by name.
-   *
-   * Opens the dropdown and scrolls incrementally (like loadUntilIdx) to
-   * trigger DevExpress virtual-scroll batch loading.  At each scroll
-   * position, all currently loaded items are scanned via the internal
-   * data store (cmbUtover.GetItem(i)) rather than from the DOM — critical
-   * because DevExpress virtual scrolling only keeps ~10 items visible in
-   * the DOM at any time, so DOM-based lookups miss items in the middle of
-   * loaded batches.
-   *
-   * Earlier versions of this function relied on open/close cycles to
-   * trigger batch loading, but that doesn't work — DevExpress only loads
-   * new batches on scroll callbacks.  The incremental scroll approach
-   * mirrors loadUntilIdx and reliably exposes all items.
-   */
-  async function findSwimmerIdx(page, name, maxScrolls = 200) {
-    await page.evaluate(() => {
-      try {
-        cmbUtover.ShowDropDown();
-      } catch {}
-    });
-    await sleep(400);
-
-    for (let s = 0; s < maxScrolls; s++) {
-      // Search currently loaded items for the target name
-      const result = await page.evaluate((target) => {
-        try {
-          const total = cmbUtover.GetItemCount();
-          for (let i = 0; i < total; i++) {
-            const item = cmbUtover.GetItem(i);
-            if (!item) break;
-            if (item.text && item.text.trim() === target) {
-              return { found: true, idx: i };
-            }
-          }
-          return { found: false };
-        } catch {
-          return { found: false };
-        }
-      }, name);
-
-      if (result.found) {
-        await page.evaluate(() => {
-          try {
-            cmbUtover.HideDropDown();
-          } catch {}
-        });
-        await sleep(300);
-        return result.idx;
-      }
-
-      // Scroll down by one viewport to load the next batch
-      const atBottom = await page.evaluate(async () => {
-        try {
-          const d = cmbUtover.GetListBoxScrollDivElement();
-          if (!d) return true;
-          const prev = d.scrollTop;
-          d.scrollTop = d.scrollTop + d.clientHeight;
-          if (d.scrollTop <= prev) return true;
-          await new Promise((r) => setTimeout(r, 2_000));
-          return false;
-        } catch {
-          return true;
-        }
-      });
-
-      if (atBottom) break;
-    }
-
-    // Close dropdown
-    await page.evaluate(() => {
-      try {
-        cmbUtover.HideDropDown();
-      } catch {}
-    });
-    await sleep(300);
-    return null;
-  }
-
-  /**
-   * Load combo batches until the item at `idx` is available in the client
-   * data store (cmbUtover.GetItem(idx) !== null).  After a page reload,
-   * only the first batch (~100 items) is loaded — and GetItemCount()
-   * returns the loaded count, not the server total — so we cannot rely on
-   * GetItemCount() for termination.  Instead, the dropdown is opened once
-   * and scrolled incrementally (one viewport per iteration) to trigger
-   * sequential batch loading from the server.  Returns true once the item
-   * is found (and closes the dropdown), false if scrolling reaches the
-   * bottom without finding it (index doesn't exist).
-   */
-  async function loadUntilIdx(idx, maxScrolls = 200) {
-    // Open dropdown once — it stays open while we scroll incrementally
-    await page.evaluate(() => {
-      try {
-        cmbUtover.ShowDropDown();
-      } catch {}
-    });
-    await sleep(400);
-
-    for (let s = 0; s < maxScrolls; s++) {
-      // Check if the target item is already loaded
-      const ready = await page.evaluate((i) => {
-        try {
-          return cmbUtover.GetItem(i) != null;
-        } catch {
-          return false;
-        }
-      }, idx);
-      if (ready) {
-        // Item found — close dropdown and return
-        await page.evaluate(() => {
-          try {
-            cmbUtover.HideDropDown();
-          } catch {}
-        });
-        await sleep(300);
-        return true;
-      }
-
-      // Scroll down by one viewport to trigger the next batch
-      const atBottom = await page.evaluate(async () => {
-        const d = cmbUtover.GetListBoxScrollDivElement();
-        if (!d) return true;
-        const prev = d.scrollTop;
-        d.scrollTop = d.scrollTop + d.clientHeight;
-        if (d.scrollTop <= prev) return true; // already at bottom
-        await new Promise((r) => setTimeout(r, 2_000));
-        return false;
-      });
-
-      if (atBottom) {
-        // Can't scroll further — item doesn't exist
-        await page.evaluate(() => {
-          try {
-            cmbUtover.HideDropDown();
-          } catch {}
-        });
-        await sleep(300);
-        return false;
-      }
-    }
-
-    // Exhausted all scrolls without finding the item
-    await page.evaluate(() => {
-      try {
-        cmbUtover.HideDropDown();
-      } catch {}
-    });
-    await sleep(300);
-    return false;
-  }
-
-  let consecutiveTimeouts = 0;
-  const MAX_REPLACEMENTS = 3;
-
-  while (true) {
-    // Ensure the combo has loaded items up to cbIdx before trying to read.
-    // After a page reload, only the first batch is loaded.  The
-    // loadUntilIdx helper scrolls incrementally through batches until
-    // cbIdx is reachable or we hit the end of the list.
-    try {
-      // If loadUntilIdx hangs (DevExpress callback never completes), the
-      // underlying CDP Runtime.callFunctionOn is stuck and blocks every
-      // subsequent command on that page session.  Use a shorter timeout
-      // than the 120s protocolTimeout so we detect hangs early.  The
-      // .catch() prevents unhandled rejection when the orphaned promise
-      // eventually fails.
-      const found = await withTimeout(
-        loadUntilIdx(cbIdx).catch(() => false),
-        60_000,
-        `loadUntilIdx(${cbIdx})`,
-      );
-      consecutiveTimeouts = 0; // reset on success
-      if (!found) {
-        console.log(
-          color(C.dim, `    Reached end of swimmer list at index ${cbIdx}`),
-        );
-        break;
-      }
-    } catch {
-      consecutiveTimeouts++;
-      if (consecutiveTimeouts >= MAX_REPLACEMENTS) {
-        console.log(
-          color(
-            C.yellow,
-            `    loadUntilIdx timed out ${consecutiveTimeouts} times at index ${cbIdx} — treating as end of list`,
-          ),
-        );
-        break;
-      }
-      // loadUntilIdx timed out — the combo's DevExpress callback hung.
-      // Create a fresh page with a clean CDP session and retry.
-      console.log(
-        color(
-          C.yellow,
-          `    loadUntilIdx timed out at index ${cbIdx}, replacing page...`,
-        ),
-      );
-      const rp = await replacePage();
-      page = rp.page;
-      loadedCount = rp.loadedCount;
-      continue;
-    }
-
-    // Read swimmer info from combo box
-    const sw = await page.evaluate((idx) => {
-      try {
-        cmbUtover.SetSelectedIndex(idx);
-        const text = cmbUtover.GetText();
-        const value = cmbUtover.GetValue();
-        if (!text || !value || value === "0") return null;
-        return { id: String(value), text: text.trim(), index: idx };
-      } catch (e) {
-        return { error: e.message, index: idx };
-      }
-    }, cbIdx);
-
-    if (sw && sw.error) {
-      console.log(
-        color(C.red, `    ⚠ Combo box error at index ${cbIdx}: ${sw.error}`),
-      );
-      cbIdx++;
-      continue;
-    }
-
-    if (!sw) {
-      console.log(
-        color(
-          C.dim,
-          `    [debug] combo item at index ${cbIdx} has no text/value — skipping`,
-        ),
-      );
-      cbIdx++;
-      continue;
-    }
-
-    const selIdx = cbIdx;
-    cbIdx++;
-    processedInSession++;
-
-    // Skip if this swimmer was fully scraped within the last 24 hours
-    const twentyFourHoursAgo = Date.now() - 24 * 60 * 60 * 1000;
-    const existing = existingSwimmers.get(sw.id);
-    if (
-      existing &&
-      existing.timestamp &&
-      new Date(existing.timestamp).getTime() >= twentyFourHoursAgo
-    ) {
-      if (mode !== "splits") {
-        // Collect pass: we saved ALL race data last time — no need to re-fetch
-        // within 24 h, regardless of whether splits are present (splits are
-        // only extracted in the splits pass).
-        console.log(
-          `  ${color(C.yellow, "→")} ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
-        );
-        continue;
-      }
-      // Splits pass: only skip if every eligible race already has split data.
-      const savedRaces = flattenRaces(existing);
-      const missingSplits = savedRaces.some(
-        (r) => r.splits === undefined && hasPotentialSplits(r.Distanse),
-      );
-      if (!missingSplits) {
-        console.log(
-          `  ${color(C.yellow, "→")} ${processedInSession} — ${sw.text} — ${formatSwimmerStats(existing)}, last updated ${timeAgo(existing.timestamp)} (skipped)`,
-        );
-        continue;
-      }
-    }
-
-    // Skip-until check (grid never loaded on a previous run)
-    const skipInfo = skipUntil.get(sw.id);
-    if (skipInfo && new Date(skipInfo).getTime() > Date.now()) {
-      const statsMsg = existing ? formatSwimmerStats(existing) : "no data yet";
-      const ago = existing?.timestamp ? timeAgo(existing.timestamp) : "";
-      const retryAfter = new Date(skipInfo).toLocaleString("nb-NO", {
-        day: "numeric",
-        month: "short",
-        hour: "2-digit",
-        minute: "2-digit",
-      });
-      console.log(
-        `  ${color(C.yellow, "→")} ${processedInSession} — ${sw.text} — ${statsMsg}${ago ? ", last updated " + ago : ""} (skipped — retry after ${retryAfter})`,
-      );
-      continue;
-    }
-
-    // In splits mode, log the swimmer name before processing so progress
-    // is visible during slow split extraction.  Collect mode is fast so
-    // we skip this line and only show the ✓ result line.
-    if (mode === "splits") {
-      console.log(`  ${color(C.cyan, processedInSession)} — ${sw.text}`);
-    }
-
-    // Build context for processSwimmer
-    const ctx = {
-      mode,
-      existingSwimmers,
-      skipUntil,
-      SKIP_UNTIL_FILE,
-      SWIMMERS_DIR,
-      DATA_DIR,
-      INDEX_FILE,
-      BASE_URL,
-      processedInSession,
-      reloadPage: async () => {
-        const rp = await reloadPage();
-        page = rp.page;
-        loadedCount = rp.loadedCount;
-        return rp.page;
-      },
-      gitCheckpoint,
-    };
-
-    // Retry loop with hang detection + page reload
-    let attempts = 0;
-    let swimmerOk = false;
-    let pageWasReloaded = false;
-    while (attempts < 3 && !swimmerOk) {
-      attempts++;
-      try {
-        // Collect mode is fast (~3s/swimmer); splits mode can take minutes
-        // per swimmer when hundreds of detail rows are expanded.
-        const swimmerTimeout = mode === "splits" ? 7_200_000 : 60_000;
-        const result = await withTimeout(
-          processSwimmer(page, sw, selIdx, ctx),
-          swimmerTimeout,
-          sw.text,
-        );
-        if (result.saved) {
-          swimmerOk = true;
-          lastSwimmerName = sw.text;
-          totalRaces += result.totalRaces;
-          savedSinceCheckpoint++;
-          if (savedSinceCheckpoint >= 25) {
-            savedSinceCheckpoint = 0;
-            rebuildIndex({
-              swimmersDir: SWIMMERS_DIR,
-              dataDir: DATA_DIR,
-              indexFile: INDEX_FILE,
-              baseUrl: BASE_URL,
-              fraDato: FRA_DATO,
-              tilDato: TIL_DATO,
-            });
-            gitCheckpoint(`${processedInSession} swimmers`);
-          }
-        } else {
-          // false = grid never loaded / no data — retrying won't help.
-          needsReposition = result.needsReposition;
-          swimmerOk = true;
-          break;
-        }
-      } catch (err) {
-        const msg = err.message || String(err);
-        const isTimeout =
-          msg.includes("timed out") ||
-          msg.includes("Runtime.callFunctionOn timed out") ||
-          msg.includes("Protocol error");
-        if (isTimeout) {
-          console.log(
-            color(
-              C.red,
-              `  ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
-            ),
-          );
-          try {
-            const rp = await withTimeout(reloadPage(), 60_000, "reload");
-            page = rp.page;
-            loadedCount = rp.loadedCount;
-            pageWasReloaded = true;
-          } catch {
-            // If even the reload hangs, we can't recover
-            console.log(
-              color(C.red, `  ⚠ ${sw.text}: reload also hung, skipping`),
-            );
-            break;
-          }
-          if (attempts < 3) {
-            console.log(color(C.dim, `    retry ${attempts}/3...`));
-          }
-        } else {
-          // Non-timeout error (e.g. missing data) — log and move on
-          console.log(color(C.red, `  ⚠ ${sw.text}: ${msg.slice(0, 100)}`));
-          swimmerOk = true; // don't retry
-        }
-      }
-    }
-
-    // Handle page state after a failed swimmer.
-    //
-    // Three cases:
-    //   1. Grid never loaded / no data (processSwimmer returned !saved):
-    //      Page state is clean — the DevExpress callback completed, it just
-    //      returned no rows. cbIdx was already incremented past the swimmer.
-    //      No reload or reposition needed — loadUntilIdx(cbIdx) on the next
-    //      loop iteration will naturally scroll to the right position.
-    //
-    //   2. Timeout / protocol error (retry loop caught and reloaded):
-    //      reloadPage() was already called inside the retry loop. The combo
-    //      is reset to the beginning. cbIdx still points to the next swimmer
-    //      after the one that timed out. loadUntilIdx(cbIdx) will scroll to
-    //      the right batch.
-    //
-    //   3. Non-timeout error with swimmerOk=false (page may be stuck):
-    //      Reload the page to clear state, then continue. cbIdx was already
-    //      incremented so the next loop iteration handles positioning.
-    if (!swimmerOk || pageWasReloaded || needsReposition) {
-      needsReposition = false;
-
-      // Only reload when the page might be in a bad state.  For case 1
-      // (grid-never-loaded) the page is clean.  For case 2 the page was
-      // already reloaded in the retry loop above.
-      if (!swimmerOk && !pageWasReloaded) {
-        try {
-          const rp = await withTimeout(reloadPage(), 60_000, "reload");
-          page = rp.page;
-          loadedCount = rp.loadedCount;
-        } catch {
-          // If reload hangs too, skip and try again later
-        }
-      }
-
-      // After an actual page reload (case 2 or 3), the combo was reset.
-      // Reposition cbIdx relative to the last successfully processed
-      // swimmer.  findSwimmerIdx now scrolls incrementally (like
-      // loadUntilIdx) so it can find names at any index.  If it still
-      // fails (e.g. the swimmer was removed from the list), we fall back
-      // to the existing cbIdx which already points to the next swimmer.
-      if (pageWasReloaded && lastSwimmerName) {
-        const foundIdx = await findSwimmerIdx(page, lastSwimmerName);
-        if (foundIdx !== null) {
-          cbIdx = foundIdx + 1;
-          loadedCount = await page.evaluate(() => cmbUtover.GetItemCount());
-          console.log(
-            color(
-              C.cyan,
-              `    Repositioned to index ${cbIdx} (after "${lastSwimmerName}")`,
-            ),
-          );
-        } else {
-          console.log(
-            color(
-              C.yellow,
-              `    Could not find "${lastSwimmerName}" in combo — continuing at index ${cbIdx}`,
-            ),
-          );
-        }
-      }
-    }
-
-    await sleep(DELAY_BETWEEN);
-  }
-
-  // Final index write and git push
-  rebuildIndex({
-    swimmersDir: SWIMMERS_DIR,
-    dataDir: DATA_DIR,
-    fraDato: FRA_DATO,
-    tilDato: TIL_DATO,
-    indexFile: INDEX_FILE,
-    baseUrl: BASE_URL,
-  });
-  gitCheckpoint(`${mode} done — ${processedInSession} swimmers`);
-
-  console.log(
-    color(
-      C.green,
-      `  ✓ ${mode} pass complete! ${processedInSession} swimmers checked, ${totalRaces} new/updated races`,
-    ),
-  );
-
-  // All work is done — force exit immediately.
-  // Do NOT attempt browser.close() — orphaned pages from timeout recovery
-  // may have stuck CDP sessions that would hang the shutdown indefinitely.
-  process.exit(0);
-}
-
 /* ─── Parallel processing ──────────────────────────────────────────── */
 
 /**
  * Discover all swimmers in the combo box by loading ALL items into the
  * DevExpress client data store, then reading them via GetItem().
- *
- * DevExpress virtual-scroll (callback mode) loads items in batches of 100.
- * Jumping the scroll DIV to scrollHeight triggers a callback that loads the
- * NEXT batch. Each jump increases scrollHeight as more items are loaded.
- *
- * Strategy:
- *   1. Open dropdown, repeatedly jump to scrollHeight until item count
- *      stabilises (loads all items from current cursor position to end).
- *   2. Scroll to top to trigger loading of items before the cursor.
- *   3. Jump to scrollHeight again to load remaining middle batches.
- *   4. Close & reopen dropdown, then scan all items from index 0.
  *
  * Returns an array of { id, text, index } for every swimmer.
  */
@@ -742,17 +105,12 @@ async function discoverAllSwimmers(browser, baseUrl) {
     tilDato: TIL_DATO,
   });
 
-  // Raise page timeout so the long evaluate doesn't trip the 30s default.
   page.setDefaultTimeout(300_000);
 
-  // ── Load ALL items in one browser-side async loop ────────────────
-  // Single evaluate avoids CDP roundtrip overhead between scrolls.
-  // Adaptive polling (500ms intervals) replaces fixed 2s waits.
   const rawData = await page.evaluate(async () => {
     const startMs = Date.now();
-    const MAX_DISCOVERY_MS = 250_000; // stay under protocolTimeout (300s)
+    const MAX_DISCOVERY_MS = 250_000;
 
-    // Close any stale dropdown, then open fresh and reset scroll
     try {
       cmbUtover.HideDropDown();
     } catch {}
@@ -767,7 +125,6 @@ async function discoverAllSwimmers(browser, baseUrl) {
     const d = cmbUtover.GetListBoxScrollDivElement();
     if (!d) return { error: "no scroll div" };
 
-    /** Poll up to 10s for GetItemCount() to exceed prevCount. */
     async function waitForGrowth(prevCount) {
       for (let p = 0; p < 20; p++) {
         await new Promise((r) => setTimeout(r, 500));
@@ -777,22 +134,20 @@ async function discoverAllSwimmers(browser, baseUrl) {
       return false;
     }
 
-    // ── Phase A: Load suffix (cursor → end) ────────────────────
+    // Phase A: Load suffix (cursor → end)
     for (let i = 0; i < 80; i++) {
       if (Date.now() - startMs > MAX_DISCOVERY_MS) break;
       const prevCount = cmbUtover.GetItemCount();
       const prevScroll = d.scrollTop;
       d.scrollTop = d.scrollHeight;
       if (d.scrollTop <= prevScroll) {
-        // Already at bottom — wait for pending callbacks
         if (!(await waitForGrowth(prevCount))) break;
         continue;
       }
-      // Scrolled — wait for next batch to arrive
       if (!(await waitForGrowth(prevCount))) break;
     }
 
-    // ── Phase B: Reload prefix by closing & reopening ──────────
+    // Phase B: Reload prefix by closing & reopening
     if (Date.now() - startMs < MAX_DISCOVERY_MS) {
       try {
         cmbUtover.HideDropDown();
@@ -804,11 +159,9 @@ async function discoverAllSwimmers(browser, baseUrl) {
       } catch {}
       await new Promise((r) => setTimeout(r, 1_000));
 
-      // Scroll to bottom to expose the full range
       d.scrollTop = d.scrollHeight;
       await new Promise((r) => setTimeout(r, 1_500));
 
-      // Close & reopen one more time — ensures GetItem() sees everything
       try {
         cmbUtover.HideDropDown();
       } catch {}
@@ -820,16 +173,16 @@ async function discoverAllSwimmers(browser, baseUrl) {
       await new Promise((r) => setTimeout(r, 1_000));
     }
 
-    // ── Phase C: Read all items ────────────────────────────────
+    // Phase C: Read all items
     const all = [];
     for (let i = 0; ; i++) {
       try {
         const item = cmbUtover.GetItem(i);
         if (!item) {
-          if (all.length === 0) continue; // placeholder or null gap
-          break; // past the last item
+          if (all.length === 0) continue;
+          break;
         }
-        if (String(item.value) === "0") continue; // placeholder
+        if (String(item.value) === "0") continue;
         all.push({
           id: String(item.value),
           text: item.text.trim(),
@@ -848,7 +201,6 @@ async function discoverAllSwimmers(browser, baseUrl) {
     return [];
   }
 
-  // Close dropdown
   await page.evaluate(() => {
     try {
       cmbUtover.HideDropDown();
@@ -892,7 +244,7 @@ async function reloadWorkerPage(page, browser, baseUrl) {
 
 /**
  * Run a single worker that processes a chunk of swimmers on its own page.
- * Each worker has its own page, skip-until map, and retry logic.
+ * Each worker has its own retry logic and page lifecycle.
  * Returns { saved, workerId }.
  */
 async function runWorker(browser, swimmers, workerId, sharedCtx) {
@@ -917,98 +269,51 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
     return { saved: 0, workerId };
   }
 
-  const localSkipUntil = new Map();
-  const workerSkipFile = path.join(DATA_DIR, `.skip-until-${workerId}.json`);
-  let saved = 0;
-  let localProcessed = 0;
-  const twentyFourHoursAgo = Date.now() - 24 * 60 * 60 * 1000;
-
   async function workerReload() {
     myPage = await reloadWorkerPage(myPage, browser, sharedCtx.BASE_URL);
   }
 
+  let saved = 0;
+  let localProcessed = 0;
+
   for (const sw of swimmers) {
     localProcessed++;
 
-    // Freshness check — skip if data was saved within 24 h and (in splits
-    // mode) every eligible race already has split data.
-    const existing = sharedCtx.existingSwimmers.get(sw.id);
-    if (existing && existing.timestamp) {
-      if (new Date(existing.timestamp).getTime() >= twentyFourHoursAgo) {
-        if (sharedCtx.mode !== "splits") {
-          console.log(
-            `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} — ${formatSwimmerStats(existing)} (skipped)`,
-          );
-          continue;
-        }
-        // Splits mode: skip only if every eligible race already has data
-        const savedRaces = flattenRaces(existing);
-        const missingSplits = savedRaces.some(
-          (r) => r.splits === undefined && hasPotentialSplits(r.Distanse),
-        );
-        if (!missingSplits) {
-          console.log(
-            `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} — ${formatSwimmerStats(existing)} (skipped)`,
-          );
-          continue;
-        }
-      }
-    }
-
-    // Skip-until check (cooldown from grid-never-loaded)
-    const skipInfo =
-      localSkipUntil.get(sw.id) || sharedCtx.skipUntil.get(sw.id);
-    if (skipInfo && new Date(skipInfo).getTime() > Date.now()) {
-      const retryAfter = new Date(skipInfo).toLocaleString("nb-NO", {
-        day: "numeric",
-        month: "short",
-        hour: "2-digit",
-        minute: "2-digit",
-      });
+    // Index-based resume — skip if already fully indexed with all splits
+    if (sharedCtx.alreadyIndexed.has(sw.id)) {
       console.log(
-        `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} — (skipped — retry after ${retryAfter})`,
+        `  ${color(C.yellow, "→")} ${localProcessed} — ${sw.text} (already indexed)`,
       );
       continue;
     }
 
-    // Log swimmer name in splits mode (slow path)
-    if (sharedCtx.mode === "splits") {
-      console.log(`  ${color(C.cyan, localProcessed)} — ${sw.text}`);
-    }
-
-    // Retry loop
+    // Retry loop (3 attempts with page reload on timeout)
     let attempts = 0;
     let swimmerOk = false;
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        // Timeout combo navigation (120s) — incremental scrolling through
-        // ~4500 items at ~2.5 s per viewport needs ~75 s for mid-list
-        // swimmers. 120 s gives comfortable headroom.
+        // Position the combo box to this swimmer's index.
+        // Timeout 120s — incremental scrolling through ~4500 items at
+        // ~2.5 s per viewport needs ~75 s for mid-list swimmers.
         let found = await withTimeout(
           loadUntilIdx(myPage, sw.index).catch(() => false),
           120_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
-          // Index-based lookup failed. The previous loadUntilIdx may
-          // have timed out, leaving a long-running evaluate pending on
-          // the page's CDP session.  Reload the page first before doing
-          // any further CDP work, so we operate on a clean session.
+          // Index-based lookup failed. Reload page (may have stuck CDP),
+          // then try name-based lookup.
           await workerReload();
 
-          // Try name-based lookup on the fresh page
           const nameIdx = await findSwimmerIdx(myPage, sw.text);
           if (nameIdx !== null) {
             sw.index = nameIdx; // update index for future use
             if (attempts < 3) {
               continue; // retry loadUntilIdx with updated index
             }
-            // Last attempt — proceed with processing using updated index
-            found = true;
+            found = true; // last attempt — proceed with updated index
           } else if (attempts < 3) {
-            // findSwimmerIdx also failed on a fresh page — likely the
-            // server is overloaded.  Retry from the top.
             console.log(
               color(
                 C.yellow,
@@ -1028,34 +333,23 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
           }
         }
 
-        const timeout = sharedCtx.mode === "splits" ? 7_200_000 : 60_000;
+        // Process the swimmer — grid parse, split extraction, save
         const result = await withTimeout(
           processSwimmer(myPage, sw, sw.index, {
-            mode: sharedCtx.mode,
-            existingSwimmers: sharedCtx.existingSwimmers,
-            skipUntil: localSkipUntil,
-            SKIP_UNTIL_FILE: workerSkipFile,
             SWIMMERS_DIR: sharedCtx.SWIMMERS_DIR,
-            DATA_DIR: sharedCtx.DATA_DIR,
-            INDEX_FILE: sharedCtx.INDEX_FILE,
-            BASE_URL: sharedCtx.BASE_URL,
             processedInSession: localProcessed,
-            reloadPage: async () => {
-              await workerReload();
-              return myPage;
-            },
           }),
-          timeout,
+          7_200_000,
           sw.text,
         );
 
         if (result.saved) {
           saved++;
+          sharedCtx.indexedSwimmers.add(sw.id);
           swimmerOk = true;
         } else if (result.needsReposition && attempts < 3) {
-          // Grid never loaded — likely a transient server overload under
-          // parallel load.  Reload the page and retry with a fresh DevExpress
-          // session rather than immediately skip-and-cooldown.
+          // Grid never loaded — likely transient server overload.
+          // Reload and retry rather than immediately skip.
           console.log(
             color(
               C.yellow,
@@ -1065,13 +359,7 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
           await workerReload();
           continue;
         } else {
-          // Grid never loaded (exhausted retries) or no data
-          if (result.needsReposition) {
-            localSkipUntil.set(
-              sw.id,
-              new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
-            );
-          }
+          // Grid never loaded (exhausted retries) or no data — skip
           swimmerOk = true;
           break;
         }
@@ -1110,16 +398,8 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
       }
     }
 
-    // Periodic skip-until persistence (every 10 saves)
+    // Checkpoint every 10 saves: rebuild index + git commit + push
     if (saved > 0 && saved % 10 === 0) {
-      saveSkipUntil(localSkipUntil, workerSkipFile);
-    }
-
-    // Periodic index rebuild + git checkpoint (every 25 saves).
-    // rebuildIndex reads all swimmer files to produce a complete
-    // overview — concurrent workers writing this simultaneously just
-    // overwrite with the same content, so there's no conflict.
-    if (saved > 0 && saved % 25 === 0) {
       rebuildIndex({
         swimmersDir: sharedCtx.SWIMMERS_DIR,
         dataDir: sharedCtx.DATA_DIR,
@@ -1127,13 +407,13 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
         baseUrl: sharedCtx.BASE_URL,
         fraDato: sharedCtx.FRA_DATO,
         tilDato: sharedCtx.TIL_DATO,
+        indexedSwimmers: sharedCtx.indexedSwimmers,
       });
       gitCheckpoint(`W${workerId} ${saved} swimmers`);
     }
 
-    // Periodic page reload (every 50 swimmers) to prevent stale DevExpress
-    // combo state from accumulating.  This adds ~3–4 s overhead but ensures
-    // a clean page for the next batch.
+    // Periodic page reload every 50 swimmers to prevent stale DevExpress
+    // combo state from accumulating.
     if (localProcessed > 0 && localProcessed % 50 === 0) {
       console.log(
         color(
@@ -1144,9 +424,6 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
       await workerReload();
     }
   }
-
-  // Persist final skip-until for this worker
-  saveSkipUntil(localSkipUntil, workerSkipFile);
 
   try {
     await myPage.close();
@@ -1161,10 +438,26 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
  * Phase 1 — Discover all swimmer indices from the combo box (serial).
  * Phase 2 — Split into 10 round-robin chunks for even load distribution.
  * Phase 3 — Spawn 10 worker pages, each processing its chunk in parallel.
- * Phase 4 — Merge worker skip-until files, rebuild index, push to git.
+ * Phase 4 — Rebuild index, push to git.
  */
-async function runPassParallel(mode) {
-  console.log(`\n=== ${mode} pass (parallel, 10 workers) ===\n`);
+async function runPassParallel() {
+  console.log("\n=== Full scrape (parallel, 10 workers) ===\n");
+
+  // Load existing index for resume
+  console.log("Loading index for resume…");
+  const { swimmersMap } = loadIndex(INDEX_FILE);
+  const alreadyIndexed = new Set();
+  if (swimmersMap) {
+    for (const [id, entry] of swimmersMap) {
+      if (entry.splitsComplete) alreadyIndexed.add(id);
+    }
+  }
+  console.log(
+    color(C.dim, `  ${alreadyIndexed.size} swimmers already fully indexed`),
+  );
+
+  // Shared Set to track swimmers saved in THIS run (used for checkpoint rebuildIndex)
+  const indexedSwimmers = new Set();
 
   console.log("Launching browser …");
   const browser = await puppeteer.launch({
@@ -1173,17 +466,13 @@ async function runPassParallel(mode) {
     protocolTimeout: 300_000,
   });
 
-  console.log("Loading existing data…");
-  const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
-  const skipUntil = loadSkipUntil(SKIP_UNTIL_FILE);
-  const NUM_WORKERS = 10;
-
   // ── Phase 1: Discover all swimmers ──────────────────────────────
   console.log("Discovering swimmers (scanning combo box)...");
   const allSwimmers = await discoverAllSwimmers(browser, BASE_URL);
   console.log(color(C.green, `  Found ${allSwimmers.length} swimmers`));
 
   // ── Phase 2: Split into round-robin chunks ─────────────────────
+  const NUM_WORKERS = 10;
   const chunks = Array.from({ length: NUM_WORKERS }, () => []);
   for (let i = 0; i < allSwimmers.length; i++) {
     chunks[i % NUM_WORKERS].push(allSwimmers[i]);
@@ -1191,15 +480,14 @@ async function runPassParallel(mode) {
   console.log(`  Chunks: ${chunks.map((c) => c.length).join(", ")}`);
 
   const sharedCtx = {
-    mode,
     BASE_URL,
     FRA_DATO,
     TIL_DATO,
-    existingSwimmers,
-    skipUntil,
     SWIMMERS_DIR,
     DATA_DIR,
     INDEX_FILE,
+    alreadyIndexed,
+    indexedSwimmers,
   };
 
   // ── Phase 3: Run workers in parallel ────────────────────────────
@@ -1215,28 +503,7 @@ async function runPassParallel(mode) {
     ),
   );
 
-  // ── Phase 4: Merge worker skip-until files, finalize ────────────
-  console.log("    Merging skip-until state…");
-  for (let i = 0; i < NUM_WORKERS; i++) {
-    const workerFile = path.join(DATA_DIR, `.skip-until-${i}.json`);
-    try {
-      const workerData = loadSkipUntil(workerFile);
-      for (const [id, until] of workerData) {
-        const existing = skipUntil.get(id);
-        if (
-          !existing ||
-          new Date(existing).getTime() < new Date(until).getTime()
-        ) {
-          skipUntil.set(id, until);
-        }
-      }
-      try {
-        fs.unlinkSync(workerFile);
-      } catch {}
-    } catch {}
-  }
-  saveSkipUntil(skipUntil, SKIP_UNTIL_FILE);
-
+  // ── Phase 4: Finalize ───────────────────────────────────────────
   console.log("    Rebuilding index…");
   rebuildIndex({
     swimmersDir: SWIMMERS_DIR,
@@ -1245,15 +512,16 @@ async function runPassParallel(mode) {
     baseUrl: BASE_URL,
     fraDato: FRA_DATO,
     tilDato: TIL_DATO,
+    indexedSwimmers,
   });
 
   console.log("    Pushing to GitHub…");
-  gitCheckpoint(`parallel ${mode} — ${totalSaved} swimmers`);
+  gitCheckpoint(`parallel — ${totalSaved} swimmers`);
 
   console.log(
     color(
       C.green,
-      `\n  ✓ ${mode} pass complete! ${allSwimmers.length} total swimmers, ${totalSaved} saved/updated`,
+      `\n  ✓ Full scrape complete! ${allSwimmers.length} total swimmers, ${totalSaved} saved/updated`,
     ),
   );
 
@@ -1261,21 +529,9 @@ async function runPassParallel(mode) {
 }
 
 /* ─── Entry point ────────────────────────────────────────────────── */
-/**
- * Single-pass mode: for each swimmer, collect race data and extract split
- * times in one go. This cuts the runtime roughly in half compared to the
- * old two-pass (collect → splits) approach.
- *
- * When running against existing data, unchanged swimmers with complete
- * splits are skipped quickly (~3 s/swimmer).
- *
- * For manual use:
- *   MODE=collect   — race data only (no splits), fast per swimmer
- *   MODE=splits    — split extraction only (same as "auto" default)
- */
+
 async function main() {
-  const mode = DEFAULT_MODE === "auto" ? "splits" : DEFAULT_MODE;
-  await runPassParallel(mode);
+  await runPassParallel();
 }
 
 main().catch((err) => {
