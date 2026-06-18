@@ -1,11 +1,91 @@
 {
-  "swimmerId": "44788",
+  "swimmerId": "54159",
   "name": "Sofiya  Prudnikava",
   "club": "Triton Lillestrøm",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-13T22:56:32.564Z",
+  "timestamp": "2026-06-17T23:01:02.905Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,34",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "188",
+          "RA": "1508",
+          "pid": "3887699"
+        },
+        {
+          "Tid": "48,16",
+          "Dato": "26.04.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3686693"
+        },
+        {
+          "Tid": "50,98",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3674903"
+        },
+        {
+          "Tid": "51,76",
+          "Dato": "25.01.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3619603"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "47,96",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3887689"
+        },
+        {
+          "Tid": "54,89",
+          "Dato": "27.04.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1555",
+          "pid": "3685659"
+        },
+        {
+          "Tid": "54,97",
+          "Dato": "08.02.2025",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3627346"
+        }
+      ]
+    },
     {
       "distanse": "50m Rygg",
       "races": [
@@ -14,8 +94,9 @@
           "Dato": "05.04.2025",
           "Sted": "Nittedal",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
-          "RA": "",
+          "RA": "1177",
           "pid": "3674428"
         }
       ]
@@ -28,6 +109,7 @@
           "Dato": "05.04.2025",
           "Sted": "Nittedal",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3674487"
@@ -37,32 +119,79 @@
           "Dato": "09.02.2025",
           "Sted": "Nordtvet",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3627449"
+        },
+        {
+          "Tid": "1.00,73",
+          "Dato": "09.02.2025",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3627800"
+        },
+        {
+          "Tid": "1.01,92",
+          "Dato": "27.04.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3686220"
         }
       ]
     },
     {
-      "distanse": "50m Butterfly",
+      "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "54,89",
-          "Dato": "27.04.2025",
-          "Sted": "Skjetten",
+          "Tid": "1.36,06",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3685659"
+          "D": "D",
+          "RK": "171",
+          "RA": "1347",
+          "pid": "3887700",
+          "splits": [
+            "42,34",
+            "53,72"
+          ],
+          "partOf": "400m Fri"
         },
         {
-          "Tid": "54,97",
-          "Dato": "08.02.2025",
-          "Sted": "Nordtvet",
+          "Tid": "1.49,12",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
           "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1834",
+          "pid": "3674902",
+          "splits": [
+            "50,98",
+            "58,14"
+          ]
+        },
+        {
+          "Tid": "1.54,96",
+          "Dato": "25.01.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3627346"
+          "pid": "3619604",
+          "splits": [
+            "51,76",
+            "1.03,20"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -74,6 +203,7 @@
           "Dato": "26.04.2025",
           "Sted": "Skjetten",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3686108",
@@ -87,30 +217,13 @@
           "Dato": "08.02.2025",
           "Sted": "Nordtvet",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3627720",
           "splits": [
             "52,23",
             "1.00,02"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "1.49,12",
-          "Dato": "05.04.2025",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3674902",
-          "splits": [
-            "50,98",
-            "58,14"
           ]
         }
       ]
@@ -123,6 +236,7 @@
           "Dato": "26.04.2025",
           "Sted": "Skjetten",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3686524",
@@ -136,6 +250,7 @@
           "Dato": "25.01.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3618994",
@@ -149,6 +264,7 @@
           "Dato": "05.04.2025",
           "Sted": "Nittedal",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3675037",
@@ -167,8 +283,9 @@
           "Dato": "07.03.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "128",
-          "RA": "882",
+          "D": "",
+          "RK": "129",
+          "RA": "886",
           "pid": "3887688",
           "splits": [
             "47,96",
@@ -185,6 +302,7 @@
           "Dato": "27.04.2025",
           "Sted": "Skjetten",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3686219",
@@ -198,6 +316,7 @@
           "Dato": "09.02.2025",
           "Sted": "Nordtvet",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3627799",
@@ -209,33 +328,29 @@
       ]
     },
     {
-      "distanse": "200m Rygg",
+      "distanse": "200m Fri",
       "races": [
         {
-          "Tid": "3.31,69",
+          "Tid": "3.31,21",
           "Dato": "07.03.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
-          "pid": "3887693",
+          "D": "D",
+          "RK": "161",
+          "RA": "1149",
+          "pid": "3887701",
           "splits": [
-            "48,83",
-            "53,26",
-            "56,53",
-            "53,07"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
+            "42,34",
+            "53,72"
+          ],
+          "partOf": "400m Fri"
+        },
         {
           "Tid": "3.53,06",
           "Dato": "26.04.2025",
           "Sted": "Skjetten",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3686692",
@@ -251,6 +366,7 @@
           "Dato": "25.01.2025",
           "Sted": "Lørenskog",
           "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
           "pid": "3619602",
@@ -264,6 +380,27 @@
       ]
     },
     {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.31,69",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "745",
+          "pid": "3887693",
+          "splits": [
+            "48,83",
+            "53,26",
+            "56,53",
+            "53,07"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "400m Fri",
       "races": [
         {
@@ -271,8 +408,9 @@
           "Dato": "07.03.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
-          "RK": "",
-          "RA": "",
+          "D": "",
+          "RK": "158",
+          "RA": "959",
           "pid": "3887698",
           "splits": [
             "42,34",
