@@ -949,32 +949,40 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        // Timeout combo navigation (60s) so we don't hang on stuck DevExpress callbacks
+        // Timeout combo navigation (120s) — incremental scrolling through
+        // ~4500 items at ~2.5 s per viewport needs ~75 s for mid-list
+        // swimmers. 120 s gives comfortable headroom.
         let found = await withTimeout(
           loadUntilIdx(myPage, sw.index).catch(() => false),
-          60_000,
+          120_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
-          // Index-based lookup failed. DevExpress virtual scrolling
-          // may have skipped a slow batch under parallel load.
-          // Fall back to name-based lookup which re-scans from the top.
+          // Index-based lookup failed. The previous loadUntilIdx may
+          // have timed out, leaving a long-running evaluate pending on
+          // the page's CDP session.  Reload the page first before doing
+          // any further CDP work, so we operate on a clean session.
+          await workerReload();
+
+          // Try name-based lookup on the fresh page
           const nameIdx = await findSwimmerIdx(myPage, sw.text);
           if (nameIdx !== null) {
             sw.index = nameIdx; // update index for future use
+            if (attempts < 3) {
+              continue; // retry loadUntilIdx with updated index
+            }
+            // Last attempt — proceed with processing using updated index
             found = true;
           } else if (attempts < 3) {
-            // Swimmer not found — the combo state on this page might be
-            // stale (e.g. scroll position persisted from previous swimmer).
-            // Reload the page and let the retry loop try again.
+            // findSwimmerIdx also failed on a fresh page — likely the
+            // server is overloaded.  Retry from the top.
             console.log(
               color(
                 C.yellow,
-                `[W${workerId}] Swimmer ${sw.text} not found in combo, reloading...`,
+                `[W${workerId}] Swimmer ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
               ),
             );
-            await workerReload();
-            continue; // back to while loop — retry with fresh page
+            continue;
           } else {
             console.log(
               color(
