@@ -27,6 +27,11 @@ const DELAY_BETWEEN = 50;
 const SKIP_UNTIL_FILE = path.join(DATA_DIR, "skip-until.json");
 const DEFAULT_MODE = (process.env.MODE || "auto").trim();
 
+// Date range for scraping. FRA_DATO defaults to 2000-01-01 (all historical
+// data).  TIL_DATO defaults to today when empty.
+const FRA_DATO = process.env.FRA_DATO || "2000-01-01";
+const TIL_DATO = process.env.TIL_DATO || "";
+
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -141,7 +146,10 @@ async function runPass(mode) {
   await page.setViewport({ width: 1400, height: 900 });
 
   console.log("Navigating …");
-  await navigateAndFilter(page, BASE_URL);
+  await navigateAndFilter(page, BASE_URL, {
+    fraDato: FRA_DATO,
+    tilDato: TIL_DATO,
+  });
 
   /* ── Load existing data ───────────────────────────────────────── */
   const existingSwimmers = loadExistingSwimmers(SWIMMERS_DIR);
@@ -175,7 +183,10 @@ async function runPass(mode) {
     console.log(color(C.dim, `    Reloading page to clear state...`));
     let p = page;
     try {
-      await navigateAndFilter(p, BASE_URL);
+      await navigateAndFilter(p, BASE_URL, {
+        fraDato: FRA_DATO,
+        tilDato: TIL_DATO,
+      });
     } catch {
       console.log(
         color(C.yellow, `    Page unresponsive, creating new page...`),
@@ -186,7 +197,10 @@ async function runPass(mode) {
           "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       );
       await p.setViewport({ width: 1400, height: 900 });
-      await navigateAndFilter(p, BASE_URL);
+      await navigateAndFilter(p, BASE_URL, {
+        fraDato: FRA_DATO,
+        tilDato: TIL_DATO,
+      });
     }
     const lc = await p.evaluate(() => cmbUtover.GetItemCount());
     return { page: p, loadedCount: lc };
@@ -211,7 +225,10 @@ async function runPass(mode) {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     );
     await p.setViewport({ width: 1400, height: 900 });
-    await navigateAndFilter(p, BASE_URL);
+    await navigateAndFilter(p, BASE_URL, {
+      fraDato: FRA_DATO,
+      tilDato: TIL_DATO,
+    });
     const lc = await p.evaluate(() => cmbUtover.GetItemCount());
     return { page: p, loadedCount: lc };
   }
@@ -558,6 +575,8 @@ async function runPass(mode) {
               dataDir: DATA_DIR,
               indexFile: INDEX_FILE,
               baseUrl: BASE_URL,
+              fraDato: FRA_DATO,
+              tilDato: TIL_DATO,
             });
             gitCheckpoint(`${processedInSession} swimmers`);
           }
@@ -672,6 +691,8 @@ async function runPass(mode) {
   rebuildIndex({
     swimmersDir: SWIMMERS_DIR,
     dataDir: DATA_DIR,
+    fraDato: FRA_DATO,
+    tilDato: TIL_DATO,
     indexFile: INDEX_FILE,
     baseUrl: BASE_URL,
   });
@@ -716,7 +737,10 @@ async function discoverAllSwimmers(browser, baseUrl) {
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   );
   await page.setViewport({ width: 1400, height: 900 });
-  await navigateAndFilter(page, baseUrl);
+  await navigateAndFilter(page, baseUrl, {
+    fraDato: FRA_DATO,
+    tilDato: TIL_DATO,
+  });
 
   // Raise page timeout so the long evaluate doesn't trip the 30s default.
   page.setDefaultTimeout(300_000);
@@ -843,7 +867,10 @@ async function discoverAllSwimmers(browser, baseUrl) {
  */
 async function reloadWorkerPage(page, browser, baseUrl) {
   try {
-    await navigateAndFilter(page, baseUrl);
+    await navigateAndFilter(page, baseUrl, {
+      fraDato: FRA_DATO,
+      tilDato: TIL_DATO,
+    });
     return page;
   } catch {
     try {
@@ -855,7 +882,10 @@ async function reloadWorkerPage(page, browser, baseUrl) {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     );
     await newPage.setViewport({ width: 1400, height: 900 });
-    await navigateAndFilter(newPage, baseUrl);
+    await navigateAndFilter(newPage, baseUrl, {
+      fraDato: FRA_DATO,
+      tilDato: TIL_DATO,
+    });
     return newPage;
   }
 }
@@ -876,7 +906,10 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     );
     await myPage.setViewport({ width: 1400, height: 900 });
-    await navigateAndFilter(myPage, sharedCtx.BASE_URL);
+    await navigateAndFilter(myPage, sharedCtx.BASE_URL, {
+      fraDato: FRA_DATO,
+      tilDato: TIL_DATO,
+    });
   } catch (err) {
     console.log(
       color(C.red, `[W${workerId}] Failed to create page: ${err.message}`),
@@ -1092,6 +1125,8 @@ async function runWorker(browser, swimmers, workerId, sharedCtx) {
         dataDir: sharedCtx.DATA_DIR,
         indexFile: sharedCtx.INDEX_FILE,
         baseUrl: sharedCtx.BASE_URL,
+        fraDato: sharedCtx.FRA_DATO,
+        tilDato: sharedCtx.TIL_DATO,
       });
       gitCheckpoint(`W${workerId} ${saved} swimmers`);
     }
@@ -1158,6 +1193,8 @@ async function runPassParallel(mode) {
   const sharedCtx = {
     mode,
     BASE_URL,
+    FRA_DATO,
+    TIL_DATO,
     existingSwimmers,
     skipUntil,
     SWIMMERS_DIR,
@@ -1206,6 +1243,8 @@ async function runPassParallel(mode) {
     dataDir: DATA_DIR,
     indexFile: INDEX_FILE,
     baseUrl: BASE_URL,
+    fraDato: FRA_DATO,
+    tilDato: TIL_DATO,
   });
 
   console.log("    Pushing to GitHub…");
