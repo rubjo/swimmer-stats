@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-06-18T10:58:19.821Z",
+  "timestamp": "2026-06-18T13:56:22.975Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -2124,8 +2124,11 @@
           "RK": "",
           "RA": "",
           "pid": "3944602",
-          "splits": [],
-          "partOf": "Hjem"
+          "splits": [
+            "32,79",
+            "36,79"
+          ],
+          "partOf": "400m Fri"
         },
         {
           "Tid": "1.09,87",
