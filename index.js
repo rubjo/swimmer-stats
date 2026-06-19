@@ -368,19 +368,8 @@ async function main() {
           saved++;
           indexedSwimmers.add(sw.id);
           swimmerOk = true;
-        } else if (result.needsReposition && attempts < 3) {
-          // Grid never loaded — likely transient server overload.
-          // Reload and retry rather than immediately skip.
-          console.log(
-            color(
-              C.yellow,
-              `  ⚠ ${sw.text}: grid never loaded, retrying (${attempts}/3)...`,
-            ),
-          );
-          page = await reloadPage(page, browser, BASE_URL);
-          continue;
         } else {
-          // Grid never loaded (exhausted retries) or no data — skip
+          // Grid never loaded — skip without retry.
           swimmerOk = true;
           break;
         }
