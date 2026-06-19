@@ -1,0 +1,58 @@
+{
+  "swimmerId": "54290",
+  "name": "Jørgen Loe Andersen",
+  "club": "Stange Svømming",
+  "birthYear": 2011,
+  "gender": "male",
+  "timestamp": "2026-06-19T22:56:22.010Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,01",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "151",
+          "RA": "1078",
+          "pid": "3864682"
+        },
+        {
+          "Tid": "46,46",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3864858",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,75",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "141",
+          "RA": "981",
+          "pid": "3864857",
+          "splits": [
+            "46,46",
+            "53,29"
+          ]
+        }
+      ]
+    }
+  ]
+}
