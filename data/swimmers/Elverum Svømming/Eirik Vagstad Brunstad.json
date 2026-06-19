@@ -4,7 +4,7 @@
   "club": "Elverum Svømming",
   "birthYear": 1996,
   "gender": "male",
-  "timestamp": "2026-06-19T10:49:03.202Z",
+  "timestamp": "2026-06-19T12:07:24.204Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -3195,8 +3195,11 @@
           "RK": "",
           "RA": "",
           "pid": "1909555",
-          "splits": [],
-          "partOf": "Hjem"
+          "splits": [
+            "53,85",
+            "1.01,57"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
