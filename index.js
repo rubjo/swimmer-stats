@@ -291,6 +291,10 @@ async function main() {
   let processed = 0;
   const total = allSwimmers.length;
 
+  // Fatal timeout counter: when this reaches MAX_FATAL_TIMEOUTS we checkpoint & exit.
+  let fatalTimeouts = 0;
+  const MAX_FATAL_TIMEOUTS = 3;
+
   for (const sw of allSwimmers) {
     processed++;
 
@@ -367,6 +371,8 @@ async function main() {
         if (result.saved) {
           saved++;
           indexedSwimmers.add(sw.id);
+          // successful progress resets the fatal-timeout counter
+          fatalTimeouts = 0;
           swimmerOk = true;
         } else {
           // Grid never loaded — skip without retry.
@@ -386,6 +392,31 @@ async function main() {
               `  ⚠ ${sw.text}: ${msg.slice(0, 80)} → reloading page...`,
             ),
           );
+          // increment fatal timeout counter for each timeout-ish error state
+          fatalTimeouts++;
+          console.log(color(C.dim, `    fatal timeouts: ${fatalTimeouts}/${MAX_FATAL_TIMEOUTS}`));
+          // If we've hit the threshold, persist progress and exit so a scheduled run can resume.
+          if (fatalTimeouts >= MAX_FATAL_TIMEOUTS) {
+            console.log(color(C.red, `  ✗ Reached ${MAX_FATAL_TIMEOUTS} fatal timeouts — checkpointing and exiting`));
+            try {
+              // Rebuild index and push what's been saved so far.
+              rebuildIndex({
+                swimmersDir: SWIMMERS_DIR,
+                dataDir: DATA_DIR,
+                indexFile: INDEX_FILE,
+                baseUrl: BASE_URL,
+                fraDato: FRA_DATO,
+                tilDato: TIL_DATO,
+                indexedSwimmers,
+              });
+            } catch (e) {}
+            try {
+              gitCheckpoint(`partial — fatal timeouts (${fatalTimeouts})`);
+            } catch (e) {}
+            // Exit cleanly so next scheduled run can pick up.
+            process.exit(0);
+          }
+
           try {
             page = await reloadPage(page, browser, BASE_URL);
             if (attempts < 3)
