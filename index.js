@@ -317,7 +317,7 @@ async function main() {
         // ~2.5 s per viewport needs ~75 s for mid-list swimmers.
         let found = await withTimeout(
           loadUntilIdx(page, sw.index).catch(() => false),
-          120_000,
+          1_800_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
@@ -394,10 +394,20 @@ async function main() {
           );
           // increment fatal timeout counter for each timeout-ish error state
           fatalTimeouts++;
-          console.log(color(C.dim, `    fatal timeouts: ${fatalTimeouts}/${MAX_FATAL_TIMEOUTS}`));
+          console.log(
+            color(
+              C.dim,
+              `    fatal timeouts: ${fatalTimeouts}/${MAX_FATAL_TIMEOUTS}`,
+            ),
+          );
           // If we've hit the threshold, persist progress and exit so a scheduled run can resume.
           if (fatalTimeouts >= MAX_FATAL_TIMEOUTS) {
-            console.log(color(C.red, `  ✗ Reached ${MAX_FATAL_TIMEOUTS} fatal timeouts — checkpointing and exiting`));
+            console.log(
+              color(
+                C.red,
+                `  ✗ Reached ${MAX_FATAL_TIMEOUTS} fatal timeouts — checkpointing and exiting`,
+              ),
+            );
             try {
               // Rebuild index and push what's been saved so far.
               rebuildIndex({
