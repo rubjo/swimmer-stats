@@ -291,20 +291,29 @@ async function main() {
   let processed = 0;
   const total = allSwimmers.length;
 
+  // Find first non-indexed swimmer so we skip straight past already-indexed ones
+  let startIdx = 0;
+  for (const sw of allSwimmers) {
+    if (alreadyIndexed.has(sw.id)) {
+      startIdx++;
+    } else {
+      break;
+    }
+  }
+  processed = startIdx;
+  if (startIdx > 0) {
+    console.log(
+      color(C.dim, `  Skipping ${startIdx} already-indexed swimmers`),
+    );
+  }
+
   // Fatal timeout counter: when this reaches MAX_FATAL_TIMEOUTS we checkpoint & exit.
   let fatalTimeouts = 0;
   const MAX_FATAL_TIMEOUTS = 3;
 
-  for (const sw of allSwimmers) {
+  for (let si = startIdx; si < allSwimmers.length; si++) {
+    const sw = allSwimmers[si];
     processed++;
-
-    // Index-based resume — skip if already fully indexed with all splits
-    if (alreadyIndexed.has(sw.id)) {
-      console.log(
-        `  ${color(C.yellow, "→")} ${processed} — ${sw.text} — (already indexed)`,
-      );
-      continue;
-    }
 
     // Retry loop (3 attempts with page reload on timeout)
     let attempts = 0;
