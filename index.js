@@ -287,32 +287,24 @@ async function main() {
     tilDato: TIL_DATO,
   });
 
+  // Filter out already-indexed swimmers so we don't waste time iterating them
+  const swimmersToScrape = allSwimmers.filter(
+    (sw) => !alreadyIndexed.has(sw.id),
+  );
+  const skipped = allSwimmers.length - swimmersToScrape.length;
+  if (skipped > 0) {
+    console.log(color(C.dim, `  Skipping ${skipped} already-indexed swimmers`));
+  }
+
   let saved = 0;
   let processed = 0;
   const total = allSwimmers.length;
-
-  // Find first non-indexed swimmer so we skip straight past already-indexed ones
-  let startIdx = 0;
-  for (const sw of allSwimmers) {
-    if (alreadyIndexed.has(sw.id)) {
-      startIdx++;
-    } else {
-      break;
-    }
-  }
-  processed = startIdx;
-  if (startIdx > 0) {
-    console.log(
-      color(C.dim, `  Skipping ${startIdx} already-indexed swimmers`),
-    );
-  }
 
   // Fatal timeout counter: when this reaches MAX_FATAL_TIMEOUTS we checkpoint & exit.
   let fatalTimeouts = 0;
   const MAX_FATAL_TIMEOUTS = 3;
 
-  for (let si = startIdx; si < allSwimmers.length; si++) {
-    const sw = allSwimmers[si];
+  for (const sw of swimmersToScrape) {
     processed++;
 
     // Retry loop (3 attempts with page reload on timeout)
