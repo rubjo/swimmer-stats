@@ -1,0 +1,130 @@
+{
+  "swimmerId": "35687",
+  "name": "Niko Hero",
+  "club": "Lambertseter SK",
+  "birthYear": 2011,
+  "gender": "male",
+  "timestamp": "2026-06-23T21:55:28.924Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "31,73",
+          "Dato": "17.07.2025",
+          "Sted": "Ciudad Real",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "1",
+          "RA": "70",
+          "pid": "3784011"
+        },
+        {
+          "Tid": "32,27",
+          "Dato": "24.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "5",
+          "RA": "179",
+          "pid": "3796921",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "33,28",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3797950",
+          "splits": [
+            ""
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,80",
+          "Dato": "24.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "2",
+          "RA": "77",
+          "pid": "3796920",
+          "splits": [
+            "32,27",
+            "35,53"
+          ]
+        },
+        {
+          "Tid": "1.09,80",
+          "Dato": "18.07.2025",
+          "Sted": "Ciudad Real",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "1",
+          "RA": "51",
+          "pid": "3784012",
+          "splits": []
+        },
+        {
+          "Tid": "1.10,48",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3797951",
+          "splits": [
+            "33,28",
+            "37,20"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "2.27,08",
+          "Dato": "25.10.2025",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "41",
+          "pid": "3797949",
+          "splits": [
+            "33,28",
+            "37,20",
+            "38,12",
+            "38,48"
+          ]
+        },
+        {
+          "Tid": "2.28,77",
+          "Dato": "23.07.2025",
+          "Sted": "Sheffield",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "1",
+          "RA": "25",
+          "pid": "3784013",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}
