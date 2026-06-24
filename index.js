@@ -317,10 +317,11 @@ async function main() {
       try {
         // Position the combo box to this swimmer's index.
         // ~4500 items, ~2.5s per viewport scroll → ~75s for mid-list
-        // swimmers. 120s is generous.
+        // swimmers. 300s gives headroom when the page is sluggish after
+        // a swimmer with many races.
         let found = await withTimeout(
           loadUntilIdx(page, sw.index).catch(() => false),
-          120_000,
+          300_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
@@ -330,7 +331,7 @@ async function main() {
 
           const nameIdx = await withTimeout(
             findSwimmerIdx(page, sw.text),
-            120_000,
+            300_000,
             `findSwimmerIdx(${sw.text})`,
           );
           if (nameIdx !== null) {
@@ -366,6 +367,7 @@ async function main() {
         }
 
         // Process the swimmer — grid parse, split extraction, save
+        const swimStart = Date.now();
         const result = await withTimeout(
           processSwimmer(page, sw, sw.index, {
             SWIMMERS_DIR,
@@ -381,6 +383,20 @@ async function main() {
           // successful progress resets the fatal-timeout counter
           fatalTimeouts = 0;
           swimmerOk = true;
+
+          // After a swimmer that took >5 min (many races, lots of splits),
+          // reload the page so the DevExpress combo box doesn't accumulate
+          // stale state and slow down subsequent operations.
+          const swimElapsed = Date.now() - swimStart;
+          if (swimElapsed > 300_000) {
+            console.log(
+              color(
+                C.dim,
+                `  Long swimmer (${elapsed(swimStart)}), reloading page to prevent slowdown...`,
+              ),
+            );
+            page = await reloadPage(page, browser, BASE_URL);
+          }
         } else {
           // Grid never loaded — skip without retry.
           swimmerOk = true;
