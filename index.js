@@ -316,11 +316,11 @@ async function main() {
       attempts++;
       try {
         // Position the combo box to this swimmer's index.
-        // Timeout 120s — incremental scrolling through ~4500 items at
-        // ~2.5 s per viewport needs ~75 s for mid-list swimmers.
+        // ~4500 items, ~2.5s per viewport scroll → ~75s for mid-list
+        // swimmers. 120s is generous.
         let found = await withTimeout(
           loadUntilIdx(page, sw.index).catch(() => false),
-          1_800_000,
+          120_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
@@ -328,7 +328,11 @@ async function main() {
           // then try name-based lookup.
           page = await reloadPage(page, browser, BASE_URL);
 
-          const nameIdx = await findSwimmerIdx(page, sw.text);
+          const nameIdx = await withTimeout(
+            findSwimmerIdx(page, sw.text),
+            120_000,
+            `findSwimmerIdx(${sw.text})`,
+          );
           if (nameIdx !== null) {
             sw.index = nameIdx; // update index for future use
             if (attempts < 3) {
