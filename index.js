@@ -250,14 +250,16 @@ async function main() {
   // Load existing index for resume
   console.log("Loading index for resume…");
   const { swimmersMap } = loadIndex(INDEX_FILE);
+  // ANY swimmer found in the index is considered done — skip to avoid
+  // re-scraping thousands of races (e.g. Henrik Christiansen: 3339 races).
   const alreadyIndexed = new Set();
   if (swimmersMap) {
-    for (const [id, entry] of swimmersMap) {
-      if (entry.splitsComplete) alreadyIndexed.add(id);
+    for (const [id] of swimmersMap) {
+      alreadyIndexed.add(id);
     }
   }
   console.log(
-    color(C.dim, `  ${alreadyIndexed.size} swimmers already fully indexed`),
+    color(C.dim, `  ${alreadyIndexed.size} swimmers already indexed, skipping`),
   );
 
   // Track swimmers saved in THIS run (used for checkpoint rebuildIndex)
