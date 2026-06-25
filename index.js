@@ -336,16 +336,15 @@ async function main() {
           );
           if (nameIdx !== null) {
             sw.index = nameIdx; // update index for future use
-            if (attempts < 3) {
-              console.log(
-                color(
-                  C.yellow,
-                  `  ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
-                ),
-              );
-              continue; // retry loadUntilIdx with updated index
-            }
-            found = true; // last attempt — proceed with updated index
+            console.log(
+              color(
+                C.yellow,
+                `  ${sw.text} — found by name after reload, proceeding...`,
+              ),
+            );
+            // Found by name — proceed directly to processSwimmer
+            // (don't retry loadUntilIdx, which would just reload the page)
+            found = true;
           } else if (attempts < 3) {
             console.log(
               color(
