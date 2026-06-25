@@ -1,0 +1,103 @@
+{
+  "swimmerId": "54005",
+  "name": "Pauline Picard",
+  "club": "Tromsøstudentenes IL",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-06-25T16:13:33.315Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,87",
+          "Dato": "21.03.2026",
+          "Sted": "Tromsø",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "125",
+          "RA": "808",
+          "pid": "3909482"
+        },
+        {
+          "Tid": "40,34",
+          "Dato": "21.03.2026",
+          "Sted": "Tromsø",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3909488",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.23,96",
+          "Dato": "21.03.2026",
+          "Sted": "Tromsø",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "113",
+          "RA": "758",
+          "pid": "3909489",
+          "splits": [
+            "40,34",
+            "43,62"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.59,64",
+          "Dato": "21.03.2026",
+          "Sted": "Tromsø",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "69",
+          "RA": "502",
+          "pid": "3909490",
+          "splits": [
+            "40,34",
+            "43,62",
+            "46,62",
+            "49,06"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.14,38",
+          "Dato": "21.03.2026",
+          "Sted": "Tromsø",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "30",
+          "RA": "276",
+          "pid": "3909487",
+          "splits": [
+            "40,34",
+            "43,62",
+            "46,62",
+            "49,06",
+            "49,26",
+            "49,40",
+            "49,51",
+            "46,57"
+          ]
+        }
+      ]
+    }
+  ]
+}
