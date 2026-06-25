@@ -23,17 +23,6 @@ const TIL_DATO = process.env.TIL_DATO || "";
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** Format elapsed time since `start` (Date.now()) as "Xm Ys" or "Xs". */
-function elapsed(start) {
-  const secs = Math.round((Date.now() - start) / 1000);
-  if (secs >= 60) {
-    const m = Math.floor(secs / 60);
-    const s = secs % 60;
-    return s > 0 ? `${m}m ${s}s` : `${m}m`;
-  }
-  return `${secs}s`;
-}
-
 /**
  * Race a promise against a timeout. If the timeout fires first, the
  * promise is abandoned (caller should reload the page to clean up CDP).
@@ -366,7 +355,6 @@ async function main() {
         }
 
         // Process the swimmer — grid parse, split extraction, save
-        const swimStart = Date.now();
         const result = await withTimeout(
           processSwimmer(page, sw, sw.index, {
             SWIMMERS_DIR,
@@ -382,20 +370,6 @@ async function main() {
           // successful progress resets the fatal-timeout counter
           fatalTimeouts = 0;
           swimmerOk = true;
-
-          // After a swimmer that took >5 min (many races, lots of splits),
-          // reload the page so the DevExpress combo box doesn't accumulate
-          // stale state and slow down subsequent operations.
-          const swimElapsed = Date.now() - swimStart;
-          if (swimElapsed > 300_000) {
-            console.log(
-              color(
-                C.dim,
-                `  Long swimmer (${elapsed(swimStart)}), reloading page to prevent slowdown...`,
-              ),
-            );
-            page = await reloadPage(page, browser, BASE_URL);
-          }
         } else {
           // Grid never loaded — skip without retry.
           swimmerOk = true;
@@ -479,18 +453,6 @@ async function main() {
       });
       gitCheckpoint(`${saved} swimmers`);
       console.log(color(C.dim, `  Checkpoint: ${saved} swimmers saved`));
-    }
-
-    // Periodic page reload every 50 swimmers to prevent stale DevExpress
-    // combo state from accumulating.
-    if (processed > 0 && processed % 50 === 0) {
-      console.log(
-        color(
-          C.dim,
-          `  Periodic page reload after ${processed}/${total} swimmers...`,
-        ),
-      );
-      page = await reloadPage(page, browser, BASE_URL);
     }
 
     // Log progress every 50 swimmers
