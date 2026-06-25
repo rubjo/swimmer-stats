@@ -1,0 +1,147 @@
+{
+  "swimmerId": "44844",
+  "name": "Cassandra Ånestad Øglænd",
+  "club": "Klepp SSK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-06-25T06:17:22.879Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,77",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "207",
+          "RA": "1170",
+          "pid": "3956624"
+        },
+        {
+          "Tid": "46,02",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3957694",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,46",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3957264",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,13",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3956408"
+        },
+        {
+          "Tid": "54,91",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3958082",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,87",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "188",
+          "RA": "989",
+          "pid": "3957693",
+          "splits": [
+            "46,02",
+            "52,85"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,14",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3957263",
+          "splits": [
+            "51,46",
+            "58,68"
+          ]
+        },
+        {
+          "Tid": "1.57,55",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3958083",
+          "splits": [
+            "54,91",
+            "1.02,64"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.03,21",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3958081",
+          "splits": [
+            "54,91",
+            "1.02,64",
+            "1.03,31",
+            "1.02,35"
+          ]
+        }
+      ]
+    }
+  ]
+}
