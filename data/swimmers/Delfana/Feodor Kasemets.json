@@ -1,0 +1,126 @@
+{
+  "swimmerId": "44549",
+  "name": "Feodor Kasemets",
+  "club": "Delfana",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-06-26T04:47:03.671Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,25",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "37",
+          "RA": "897",
+          "pid": "3874507"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,63",
+          "Dato": "30.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "179",
+          "RA": "1701",
+          "pid": "3864375",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.46,71",
+          "Dato": "30.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "157",
+          "RA": "1463",
+          "pid": "3864376",
+          "splits": [
+            "48,63",
+            "58,08"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.54,73",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3874663",
+          "splits": [
+            "57,64",
+            "57,09"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.55,70",
+          "Dato": "30.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "135",
+          "RA": "1144",
+          "pid": "3864377",
+          "splits": [
+            "48,63",
+            "58,08",
+            "1.04,54",
+            "1.04,45"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.17,63",
+          "Dato": "30.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "854",
+          "pid": "3864374",
+          "splits": [
+            "48,63",
+            "58,08",
+            "1.04,54",
+            "1.04,45",
+            "1.05,52",
+            "1.09,01",
+            "1.07,40"
+          ]
+        }
+      ]
+    }
+  ]
+}
