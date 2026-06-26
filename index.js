@@ -2,7 +2,7 @@ import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
-import { loadIndex, rebuildIndex } from "./lib/fs-utils.js";
+import { loadIndex, rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
 import {
   navigateAndFilter,
   loadUntilIdx,
@@ -247,6 +247,30 @@ async function main() {
       alreadyIndexed.add(id);
     }
   }
+
+  // Also check existing swimmer files as a fallback. The index.json may
+  // be slightly stale on the GitHub runner if the previous run's final
+  // push hadn't fully propagated when the checkout started. This ensures
+  // we never re-scrape a swimmer whose file already exists on disk.
+  let fromFiles = 0;
+  for (const fp of walkJsonFiles(SWIMMERS_DIR)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(fp, "utf-8"));
+      const id = String(data.swimmerId);
+      if (!alreadyIndexed.has(id)) {
+        alreadyIndexed.add(id);
+        fromFiles++;
+      }
+    } catch {
+      /* skip corrupted */
+    }
+  }
+  if (fromFiles > 0) {
+    console.log(
+      color(C.dim, `  +${fromFiles} swimmers found on disk (not yet in index)`),
+    );
+  }
+
   console.log(
     color(C.dim, `  ${alreadyIndexed.size} swimmers already indexed, skipping`),
   );
