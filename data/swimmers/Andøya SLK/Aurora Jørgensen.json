@@ -1,0 +1,55 @@
+{
+  "swimmerId": "55214",
+  "name": "Aurora  Jørgensen",
+  "club": "Andøya SLK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-06-25T23:57:11.733Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,64",
+          "Dato": "26.04.2026",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1863",
+          "pid": "3941000"
+        },
+        {
+          "Tid": "55,50",
+          "Dato": "25.04.2026",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3941257",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,63",
+          "Dato": "25.04.2026",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1574",
+          "pid": "3941256",
+          "splits": [
+            "55,50",
+            "56,13"
+          ]
+        }
+      ]
+    }
+  ]
+}
