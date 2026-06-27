@@ -1,0 +1,137 @@
+{
+  "swimmerId": "48671",
+  "name": "Rakel Østmo Mathisen",
+  "club": "Alta SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-06-27T23:08:23.669Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,82",
+          "Dato": "13.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "192",
+          "RA": "1824",
+          "pid": "3967648"
+        },
+        {
+          "Tid": "51,72",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3968054",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "54,42",
+          "Dato": "25.04.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3939499"
+        },
+        {
+          "Tid": "55,78",
+          "Dato": "26.04.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3939963",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "55,88",
+          "Dato": "26.04.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3939713",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,26",
+          "Dato": "14.06.2026",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "1597",
+          "pid": "3968053",
+          "splits": [
+            "51,72",
+            "1.02,54"
+          ]
+        },
+        {
+          "Tid": "1.58,33",
+          "Dato": "26.04.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3939964",
+          "splits": [
+            "55,78",
+            "1.02,55"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "2.01,66",
+          "Dato": "26.04.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3939712",
+          "splits": [
+            "55,88",
+            "1.05,78"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.10,84",
+          "Dato": "26.04.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "1298",
+          "pid": "3939962",
+          "splits": [
+            "55,78",
+            "1.02,55",
+            "1.07,79",
+            "1.04,72"
+          ]
+        }
+      ]
+    }
+  ]
+}
