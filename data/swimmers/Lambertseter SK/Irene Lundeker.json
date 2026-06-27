@@ -1,0 +1,137 @@
+{
+  "swimmerId": "37412",
+  "name": "Irene Lundeker",
+  "club": "Lambertseter SK",
+  "birthYear": 1976,
+  "gender": "female",
+  "timestamp": "2026-06-27T11:27:53.818Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "37,65",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3234825"
+        },
+        {
+          "Tid": "38,80",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2992963"
+        },
+        {
+          "Tid": "40,24",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2993308",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "40,51",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235190",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "43,38",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235621",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.24,05",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2993307",
+          "splits": [
+            "40,24",
+            "43,81"
+          ]
+        },
+        {
+          "Tid": "1.24,32",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3235189",
+          "splits": [
+            "40,51",
+            "43,81"
+          ]
+        },
+        {
+          "Tid": "1.31,77",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235622",
+          "splits": [
+            "43,38",
+            "48,39"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.12,88",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3235620",
+          "splits": [
+            "43,38",
+            "48,39",
+            "50,12",
+            "50,99"
+          ]
+        }
+      ]
+    }
+  ]
+}
