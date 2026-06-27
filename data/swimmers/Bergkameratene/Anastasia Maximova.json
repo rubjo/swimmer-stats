@@ -1,0 +1,55 @@
+{
+  "swimmerId": "52164",
+  "name": "Anastasia Maximova",
+  "club": "Bergkameratene",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-06-27T23:14:06.263Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,65",
+          "Dato": "15.02.2026",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1577",
+          "pid": "3874025"
+        },
+        {
+          "Tid": "45,58",
+          "Dato": "15.02.2026",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3874125",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,15",
+          "Dato": "15.02.2026",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "109",
+          "RA": "1389",
+          "pid": "3874124",
+          "splits": [
+            "45,58",
+            "52,57"
+          ]
+        }
+      ]
+    }
+  ]
+}
