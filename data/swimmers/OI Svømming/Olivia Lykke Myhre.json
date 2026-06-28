@@ -1,0 +1,60 @@
+{
+  "swimmerId": "46206",
+  "name": "Olivia Lykke Myhre",
+  "club": "OI Svømming",
+  "birthYear": 2011,
+  "gender": "female",
+  "timestamp": "2026-06-28T06:11:45.763Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,22",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3799722"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,34",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3800242",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,94",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3800241",
+          "splits": [
+            "50,34",
+            "56,60"
+          ]
+        }
+      ]
+    }
+  ]
+}
