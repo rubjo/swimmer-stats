@@ -1,0 +1,97 @@
+{
+  "swimmerId": "51720",
+  "name": "Leonas mikalajunas",
+  "club": "Kristiansand SA",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-06-28T00:21:09.074Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,17",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3849810"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.11,28",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3958496",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.13,42",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "86",
+          "RA": "792",
+          "pid": "3957074",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.36,30",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "72",
+          "RA": "610",
+          "pid": "3957073",
+          "splits": [
+            "1.13,42",
+            "1.22,88"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.41,55",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3958495",
+          "splits": [
+            "1.11,28",
+            "1.09,59",
+            "1.21,95",
+            "58,73"
+          ]
+        }
+      ]
+    }
+  ]
+}
