@@ -1,0 +1,55 @@
+{
+  "swimmerId": "34717",
+  "name": "Christian Fredrik Møllerop",
+  "club": "ROMA",
+  "birthYear": 1958,
+  "gender": "male",
+  "timestamp": "2026-06-28T11:10:32.392Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,33",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "313",
+          "RA": "1206",
+          "pid": "3900254"
+        },
+        {
+          "Tid": "40,65",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3900874",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,13",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1139",
+          "pid": "3900873",
+          "splits": [
+            "40,65",
+            "44,48"
+          ]
+        }
+      ]
+    }
+  ]
+}
