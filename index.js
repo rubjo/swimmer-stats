@@ -329,12 +329,12 @@ async function main() {
       attempts++;
       try {
         // Position the combo box to this swimmer's index.
-        // ~4500 items, ~2.5s per viewport scroll → ~75s for mid-list
-        // swimmers. 1200s gives headroom when the server is slow after
-        // a swimmer with many races and splits.
+        // ~4650 items, ~2.5s per viewport scroll, needs up to 600 scrolls
+        // for late-alphabet swimmers. 30 min timeout gives headroom even
+        // when the server is slow.
         let found = await withTimeout(
           loadUntilIdx(page, sw.index).catch(() => false),
-          1_200_000,
+          1_800_000,
           `loadUntilIdx(${sw.index})`,
         );
         if (!found) {
@@ -344,7 +344,7 @@ async function main() {
 
           const nameIdx = await withTimeout(
             findSwimmerIdx(page, sw.text),
-            1_200_000,
+            1_800_000,
             `findSwimmerIdx(${sw.text})`,
           );
           if (nameIdx !== null) {
