@@ -1,0 +1,105 @@
+{
+  "swimmerId": "50704",
+  "name": "Kaja Martinsen",
+  "club": "Kongstensvømmerne",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-06-27T22:45:16.687Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,76",
+          "Dato": "09.11.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3807967"
+        },
+        {
+          "Tid": "40,12",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "228",
+          "RA": "1351",
+          "pid": "3858136",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,42",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "741",
+          "pid": "3858131"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,32",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "220",
+          "RA": "1184",
+          "pid": "3858134",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,94",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "200",
+          "RA": "1109",
+          "pid": "3858135",
+          "splits": [
+            "40,12",
+            "46,82"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,98",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "200",
+          "RA": "1045",
+          "pid": "3858133",
+          "splits": [
+            "52,32",
+            "1.01,66"
+          ]
+        }
+      ]
+    }
+  ]
+}
