@@ -1,0 +1,60 @@
+{
+  "swimmerId": "55205",
+  "name": "Mark Shablienko",
+  "club": "Ytre Søre Sunnmøre SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-06-30T20:43:30.058Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,47",
+          "Dato": "26.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "23",
+          "RA": "1272",
+          "pid": "3946098"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,65",
+          "Dato": "26.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "65",
+          "RA": "1225",
+          "pid": "3946100",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,76",
+          "Dato": "26.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "1037",
+          "pid": "3946099",
+          "splits": [
+            "56,65",
+            "1.06,11"
+          ]
+        }
+      ]
+    }
+  ]
+}
