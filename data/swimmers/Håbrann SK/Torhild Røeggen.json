@@ -1,0 +1,70 @@
+{
+  "swimmerId": "336",
+  "name": "Torhild Røeggen",
+  "club": "Håbrann SK",
+  "birthYear": 1985,
+  "gender": "female",
+  "timestamp": "2026-06-30T09:00:17.167Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,09",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "204",
+          "RA": "924",
+          "pid": "3902187"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,78",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "272",
+          "pid": "3900152"
+        },
+        {
+          "Tid": "40,11",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3900694",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.26,72",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "52",
+          "RA": "199",
+          "pid": "3900693",
+          "splits": [
+            "40,11",
+            "46,61"
+          ]
+        }
+      ]
+    }
+  ]
+}
