@@ -1,0 +1,100 @@
+{
+  "swimmerId": "54420",
+  "name": "Emma Tollefsen",
+  "club": "Stavanger SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-07-02T04:54:57.086Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,92",
+          "Dato": "10.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1800",
+          "pid": "3946730"
+        },
+        {
+          "Tid": "49,57",
+          "Dato": "08.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3947443",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,40",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1476",
+          "pid": "3946547"
+        },
+        {
+          "Tid": "58,89",
+          "Dato": "10.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3947133",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.46,41",
+          "Dato": "08.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "1521",
+          "pid": "3947442",
+          "splits": [
+            "49,57",
+            "56,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,80",
+          "Dato": "10.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "1298",
+          "pid": "3947132",
+          "splits": [
+            "58,89",
+            "1.08,91"
+          ]
+        }
+      ]
+    }
+  ]
+}
