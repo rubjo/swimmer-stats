@@ -1,0 +1,55 @@
+{
+  "swimmerId": "43144",
+  "name": "Richard Andre Vidby Jørgensen",
+  "club": "SK Speed",
+  "birthYear": 1987,
+  "gender": "male",
+  "timestamp": "2026-07-02T15:12:32.596Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,54",
+          "Dato": "09.03.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3419610"
+        },
+        {
+          "Tid": "55,98",
+          "Dato": "10.03.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3419696",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.10,87",
+          "Dato": "10.03.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1763",
+          "pid": "3419695",
+          "splits": [
+            "55,98",
+            "1.14,89"
+          ]
+        }
+      ]
+    }
+  ]
+}
