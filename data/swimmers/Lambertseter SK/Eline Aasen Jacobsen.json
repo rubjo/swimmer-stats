@@ -1,0 +1,122 @@
+{
+  "swimmerId": "47252",
+  "name": "Eline Aasen Jacobsen",
+  "club": "Lambertseter SK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-07-03T05:46:29.600Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,14",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3799761"
+        },
+        {
+          "Tid": "41,07",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "203",
+          "RA": "1102",
+          "pid": "3906120",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,02",
+          "Dato": "25.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "946",
+          "pid": "3935995"
+        },
+        {
+          "Tid": "54,12",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "167",
+          "RA": "820",
+          "pid": "3904434",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,61",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "181",
+          "RA": "911",
+          "pid": "3906121",
+          "splits": [
+            "41,07",
+            "49,54"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,51",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "137",
+          "RA": "642",
+          "pid": "3904433",
+          "splits": [
+            "54,12",
+            "1.02,39"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.22,61",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "138",
+          "RA": "656",
+          "pid": "3906119",
+          "splits": [
+            "41,07",
+            "49,54",
+            "56,52",
+            "55,48"
+          ]
+        }
+      ]
+    }
+  ]
+}
