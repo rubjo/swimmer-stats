@@ -302,10 +302,15 @@ async function main() {
     tilDato: TIL_DATO,
   });
 
-  // Sort swimmers by lastChecked ascending so the least-recently-checked
-  // (or never-checked) are processed first. This naturally cycles through
-  // all swimmers over multiple runs.
+  // Sort swimmers:
+  // 1. Brand-new swimmers (no data file on disk) first — they need a full
+  //    save and shouldn't wait behind existing swimmers.
+  // 2. Existing swimmers by lastChecked ascending (most overdue first),
+  //    so we cycle fairly through all swimmers over multiple runs.
   const sortedSwimmers = [...allSwimmers].sort((a, b) => {
+    const aNew = existingDataMap.has(a.id) ? 1 : 0;
+    const bNew = existingDataMap.has(b.id) ? 1 : 0;
+    if (aNew !== bNew) return aNew - bNew; // no-data (brand-new) comes first
     const aChecked = lastCheckedMap.get(a.id) || "";
     const bChecked = lastCheckedMap.get(b.id) || "";
     return aChecked.localeCompare(bChecked);
