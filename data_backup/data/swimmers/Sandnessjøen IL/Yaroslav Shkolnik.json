@@ -1,0 +1,55 @@
+{
+  "swimmerId": "53338",
+  "name": "Yaroslav Shkolnik",
+  "club": "Sandnessjøen IL",
+  "birthYear": 2007,
+  "gender": "male",
+  "timestamp": "2026-06-30T23:47:18.839Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "30,66",
+          "Dato": "22.02.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "416",
+          "pid": "3877898"
+        },
+        {
+          "Tid": "31,23",
+          "Dato": "21.02.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3878134",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.14,79",
+          "Dato": "21.02.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "380",
+          "pid": "3878133",
+          "splits": [
+            "31,23",
+            "43,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

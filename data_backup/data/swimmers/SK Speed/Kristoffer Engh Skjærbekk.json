@@ -1,0 +1,90 @@
+{
+  "swimmerId": "43139",
+  "name": "Kristoffer Engh Skjærbekk",
+  "club": "SK Speed",
+  "birthYear": 1990,
+  "gender": "male",
+  "timestamp": "2026-07-01T02:09:07.221Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.10,19",
+          "Dato": "07.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "345",
+          "RA": "1810",
+          "pid": "3883273"
+        },
+        {
+          "Tid": "1.12,32",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3883381",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.13,40",
+          "Dato": "07.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "182",
+          "RA": "1408",
+          "pid": "3883337",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.43,92",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "1563",
+          "pid": "3883380",
+          "splits": [
+            "1.12,32",
+            "1.31,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.50,99",
+          "Dato": "07.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1174",
+          "pid": "3883336",
+          "splits": [
+            "1.13,40",
+            "1.37,59"
+          ]
+        }
+      ]
+    }
+  ]
+}

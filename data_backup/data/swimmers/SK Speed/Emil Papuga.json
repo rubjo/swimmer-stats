@@ -1,0 +1,115 @@
+{
+  "swimmerId": "47970",
+  "name": "Emil Papuga",
+  "club": "SK Speed",
+  "birthYear": 2013,
+  "gender": "male",
+  "timestamp": "2026-06-29T20:25:07.947Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,64",
+          "Dato": "01.02.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "1231",
+          "pid": "3860255"
+        },
+        {
+          "Tid": "37,77",
+          "Dato": "10.05.2025",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "1559",
+          "pid": "3698492"
+        },
+        {
+          "Tid": "39,07",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3799652"
+        },
+        {
+          "Tid": "41,41",
+          "Dato": "09.02.2025",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3627504"
+        },
+        {
+          "Tid": "46,63",
+          "Dato": "26.10.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3553983"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "45,85",
+          "Dato": "01.02.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "82",
+          "RA": "679",
+          "pid": "3860171"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,90",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "165",
+          "RA": "1468",
+          "pid": "3800156",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,53",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "1229",
+          "pid": "3800155",
+          "splits": [
+            "55,90",
+            "1.04,63"
+          ]
+        }
+      ]
+    }
+  ]
+}

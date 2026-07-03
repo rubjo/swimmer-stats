@@ -1,0 +1,162 @@
+{
+  "swimmerId": "44144",
+  "name": "Christian Ramstad",
+  "club": "Ski SK",
+  "birthYear": 1967,
+  "gender": "male",
+  "timestamp": "2026-06-30T01:31:27.075Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,23",
+          "Dato": "28.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "144",
+          "RA": "792",
+          "pid": "3664313"
+        },
+        {
+          "Tid": "41,77",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "146",
+          "RA": "629",
+          "pid": "3900096"
+        },
+        {
+          "Tid": "42,03",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3664813",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "43,58",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3900603",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "45,92",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3665422",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "47,72",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "139",
+          "RA": "1083",
+          "pid": "3235150",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,83",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "717",
+          "pid": "3664812",
+          "splits": [
+            "42,03",
+            "51,80"
+          ]
+        },
+        {
+          "Tid": "1.36,41",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "605",
+          "pid": "3900602",
+          "splits": [
+            "43,58",
+            "52,83"
+          ]
+        },
+        {
+          "Tid": "1.36,79",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "70",
+          "RA": "725",
+          "pid": "3235149",
+          "splits": [
+            "47,72",
+            "49,07"
+          ]
+        },
+        {
+          "Tid": "1.39,18",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3665423",
+          "splits": [
+            "45,92",
+            "53,26"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.33,21",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "671",
+          "pid": "3665421",
+          "splits": [
+            "45,92",
+            "53,26",
+            "57,19",
+            "56,84"
+          ]
+        }
+      ]
+    }
+  ]
+}

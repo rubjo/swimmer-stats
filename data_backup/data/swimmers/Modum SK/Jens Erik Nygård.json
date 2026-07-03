@@ -1,0 +1,117 @@
+{
+  "swimmerId": "54167",
+  "name": "Jens Erik Nygård",
+  "club": "Modum SK",
+  "birthYear": 1957,
+  "gender": "male",
+  "timestamp": "2026-06-29T12:05:17.737Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,47",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "263",
+          "RA": "855",
+          "pid": "3900225"
+        },
+        {
+          "Tid": "34,61",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3900799",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,10",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3901414",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,14",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "607",
+          "pid": "3899977"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.11,52",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "769",
+          "pid": "3900798",
+          "splits": [
+            "34,61",
+            "36,91"
+          ]
+        },
+        {
+          "Tid": "1.27,52",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3901415",
+          "splits": [
+            "42,10",
+            "45,42"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.53,43",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "787",
+          "pid": "3901413",
+          "splits": [
+            "42,10",
+            "45,42",
+            "44,95",
+            "40,96"
+          ]
+        }
+      ]
+    }
+  ]
+}

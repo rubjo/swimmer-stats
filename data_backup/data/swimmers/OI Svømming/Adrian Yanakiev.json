@@ -1,0 +1,70 @@
+{
+  "swimmerId": "53284",
+  "name": "Adrian Yanakiev",
+  "club": "OI Svømming",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-07-03T02:38:31.399Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,61",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "39",
+          "RA": "1084",
+          "pid": "3903323"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,70",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "1199",
+          "pid": "3959622"
+        },
+        {
+          "Tid": "59,74",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "39",
+          "RA": "756",
+          "pid": "3904189",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.09,45",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "34",
+          "RA": "589",
+          "pid": "3904188",
+          "splits": [
+            "59,74",
+            "1.09,71"
+          ]
+        }
+      ]
+    }
+  ]
+}

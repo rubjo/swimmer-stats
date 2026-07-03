@@ -1,0 +1,102 @@
+{
+  "swimmerId": "53918",
+  "name": "Anton Yehorenko",
+  "club": "Poseidon",
+  "birthYear": 2012,
+  "gender": "male",
+  "timestamp": "2026-07-03T02:44:10.990Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,14",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3894445"
+        },
+        {
+          "Tid": "34,80",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3894823",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,47",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3895280",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,40",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3894822",
+          "splits": [
+            "34,80",
+            "40,60"
+          ]
+        },
+        {
+          "Tid": "1.20,03",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3895281",
+          "splits": [
+            "36,47",
+            "43,56"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.56,19",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3895279",
+          "splits": [
+            "36,47",
+            "43,56",
+            "49,34",
+            "46,82"
+          ]
+        }
+      ]
+    }
+  ]
+}

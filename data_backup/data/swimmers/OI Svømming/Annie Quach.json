@@ -1,0 +1,45 @@
+{
+  "swimmerId": "47495",
+  "name": "Annie Quach",
+  "club": "OI Svømming",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-06-30T00:45:46.060Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,11",
+          "Dato": "29.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3667607",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.57,87",
+          "Dato": "29.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1927",
+          "pid": "3667606",
+          "splits": [
+            "53,11",
+            "1.04,76"
+          ]
+        }
+      ]
+    }
+  ]
+}

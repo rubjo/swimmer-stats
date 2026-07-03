@@ -1,0 +1,100 @@
+{
+  "swimmerId": "54346",
+  "name": "odine Stokkestad Sund",
+  "club": "Arendal SLK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-07-01T13:37:30.063Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,27",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "1615",
+          "pid": "3927734"
+        },
+        {
+          "Tid": "46,98",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3927904",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "48,39",
+          "Dato": "08.02.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3879185"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,11",
+          "Dato": "08.02.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "125",
+          "RA": "1374",
+          "pid": "3879194",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,52",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "1453",
+          "pid": "3927903",
+          "splits": [
+            "46,98",
+            "54,54"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,47",
+          "Dato": "08.02.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "1186",
+          "pid": "3879193",
+          "splits": [
+            "56,11",
+            "1.04,36"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "swimmerId": "17796",
+  "name": "Fredrik Østensen",
+  "club": "Bodø SK",
+  "birthYear": 1992,
+  "gender": "male",
+  "timestamp": "2026-07-03T07:01:23.077Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.01,15",
+          "Dato": "07.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3883265"
+        },
+        {
+          "Tid": "1.02,29",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3883364",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.08,95",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1394",
+          "pid": "3883234"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.16,78",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3883363",
+          "splits": [
+            "1.02,29",
+            "1.14,49"
+          ]
+        }
+      ]
+    }
+  ]
+}

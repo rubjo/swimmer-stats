@@ -1,0 +1,80 @@
+{
+  "swimmerId": "50656",
+  "name": "Christopher Stannard",
+  "club": "Bergen Vest SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-07-01T09:15:56.002Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,26",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "1626",
+          "pid": "3862597"
+        },
+        {
+          "Tid": "49,80",
+          "Dato": "16.11.2025",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1995",
+          "pid": "3823987"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,37",
+          "Dato": "16.11.2025",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1383",
+          "pid": "3823981"
+        },
+        {
+          "Tid": "54,13",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "41",
+          "RA": "1146",
+          "pid": "3863026",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,12",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "960",
+          "pid": "3863025",
+          "splits": [
+            "54,13",
+            "1.01,99"
+          ]
+        }
+      ]
+    }
+  ]
+}

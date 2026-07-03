@@ -1,0 +1,55 @@
+{
+  "swimmerId": "51130",
+  "name": "Line Moltke-Hansen",
+  "club": "Lambertseter SK",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-06-28T08:56:02.145Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.07,35",
+          "Dato": "07.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "280",
+          "RA": "1960",
+          "pid": "3883304"
+        },
+        {
+          "Tid": "1.15,62",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3883424",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.46,04",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "196",
+          "RA": "1683",
+          "pid": "3883423",
+          "splits": [
+            "1.15,62",
+            "1.30,42"
+          ]
+        }
+      ]
+    }
+  ]
+}

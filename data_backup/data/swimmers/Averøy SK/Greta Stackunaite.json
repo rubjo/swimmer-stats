@@ -1,0 +1,55 @@
+{
+  "swimmerId": "47941",
+  "name": "Greta  Stackunaite",
+  "club": "Averøy SK",
+  "birthYear": 2011,
+  "gender": "female",
+  "timestamp": "2026-07-01T08:43:32.026Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,20",
+          "Dato": "01.03.2025",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3645684"
+        },
+        {
+          "Tid": "41,71",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "190",
+          "RA": "1472",
+          "pid": "3882227",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,38",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "1209",
+          "pid": "3882226",
+          "splits": [
+            "41,71",
+            "48,67"
+          ]
+        }
+      ]
+    }
+  ]
+}
