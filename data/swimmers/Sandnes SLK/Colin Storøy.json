@@ -1,14 +1,46 @@
 {
-  "swimmerId": "49254",
+  "swimmerId": "54028",
   "name": "Colin Storøy",
   "club": "Sandnes SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-07-01T13:49:59.581Z",
+  "timestamp": "2026-07-03T22:14:07.879Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "43,83",
+          "Dato": "26.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "206",
+          "RA": "1586",
+          "pid": "3935167"
+        },
+        {
+          "Tid": "48,85",
+          "Dato": "25.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3935342",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,22",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3882191",
+          "partOf": "100m Fri"
+        },
         {
           "Tid": "41,63",
           "Dato": "28.06.2025",
@@ -25,8 +57,8 @@
           "Sted": "Kopervik",
           "Basseng": "25m",
           "D": "",
-          "RK": "124",
-          "RA": "1503",
+          "RK": "",
+          "RA": "",
           "pid": "3843611"
         },
         {
@@ -309,6 +341,16 @@
       "distanse": "50m Rygg",
       "races": [
         {
+          "Tid": "52,01",
+          "Dato": "25.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "931",
+          "pid": "3935057"
+        },
+        {
           "Tid": "49,23",
           "Dato": "27.04.2025",
           "Sted": "Stavanger",
@@ -361,23 +403,36 @@
       ]
     },
     {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "54,85",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "105",
-          "RA": "1272",
-          "pid": "3933133"
-        }
-      ]
-    },
-    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.39,62",
+          "Dato": "25.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1415",
+          "pid": "3935341",
+          "splits": [
+            "48,85",
+            "50,77"
+          ]
+        },
+        {
+          "Tid": "1.57,00",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3882190",
+          "splits": [
+            "53,22",
+            "1.03,78"
+          ]
+        },
         {
           "Tid": "1.32,57",
           "Dato": "11.05.2025",
@@ -427,8 +482,8 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "128",
-          "RA": "1354",
+          "RK": "",
+          "RA": "",
           "pid": "3934205",
           "splits": [
             "42,37",
@@ -581,6 +636,40 @@
       ]
     },
     {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.53,84",
+          "Dato": "26.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "109",
+          "RA": "700",
+          "pid": "3935220",
+          "splits": [
+            "54,10",
+            "59,74"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,85",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3933133"
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
         {
@@ -621,8 +710,8 @@
           "Sted": "Kopervik",
           "Basseng": "25m",
           "D": "",
-          "RK": "121",
-          "RA": "1110",
+          "RK": "",
+          "RA": "",
           "pid": "3844209",
           "splits": [
             "44,32",
