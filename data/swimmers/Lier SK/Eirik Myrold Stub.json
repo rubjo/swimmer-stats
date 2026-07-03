@@ -1,14 +1,56 @@
 {
-  "swimmerId": "44118",
+  "swimmerId": "53904",
   "name": "Eirik Myrold Stub",
   "club": "Lier SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-07-01T14:34:27.434Z",
+  "timestamp": "2026-07-03T22:59:36.951Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "42,09",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "175",
+          "RA": "1505",
+          "pid": "3949921"
+        },
+        {
+          "Tid": "43,48",
+          "Dato": "31.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3950069",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "46,11",
+          "Dato": "11.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3843594"
+        },
+        {
+          "Tid": "47,48",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3843909",
+          "partOf": "100m Fri"
+        },
         {
           "Tid": "30,53",
           "Dato": "01.05.2026",
@@ -25,8 +67,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "93",
-          "RA": "837",
+          "RK": "",
+          "RA": "",
           "pid": "3868747"
         },
         {
@@ -96,6 +138,26 @@
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "59,25",
+          "Dato": "31.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1298",
+          "pid": "3949880"
+        },
+        {
+          "Tid": "1.02,37",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3843541"
+        },
         {
           "Tid": "45,82",
           "Dato": "11.01.2026",
@@ -171,16 +233,69 @@
       ]
     },
     {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.00,69",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1329",
+          "pid": "3949827"
+        },
+        {
+          "Tid": "1.04,69",
+          "Dato": "11.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3843450"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.35,01",
+          "Dato": "31.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1326",
+          "pid": "3950068",
+          "splits": [
+            "43,48",
+            "51,53"
+          ]
+        },
+        {
+          "Tid": "1.43,90",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3843908",
+          "splits": [
+            "47,48",
+            "56,42"
+          ]
+        },
         {
           "Tid": "1.14,43",
           "Dato": "11.01.2026",
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "142",
-          "RA": "859",
+          "RK": "",
+          "RA": "",
           "pid": "3846233",
           "splits": [
             "34,76",
@@ -201,6 +316,25 @@
             "43,86"
           ],
           "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.54,25",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "726",
+          "pid": "3950135",
+          "splits": [
+            "52,95",
+            "1.01,30"
+          ]
         }
       ]
     },
