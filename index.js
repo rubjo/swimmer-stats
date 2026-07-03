@@ -2,7 +2,7 @@ import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
-import { rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
+import { loadIndex, rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
 import {
   navigateAndFilter,
   loadUntilIdx,
@@ -21,6 +21,12 @@ const INDEX_FILE = path.join(DATA_DIR, "index.json");
 // Override via env var to narrow the window for subsequent runs.
 const FRA_DATO = process.env.FRA_DATO || "2026-06-19";
 const TIL_DATO = process.env.TIL_DATO || "";
+
+// Batch size: process at most this many swimmers per run, sorted by
+// least-recently-checked first. This keeps each run well within the
+// 6-hour GitHub Actions timeout while cycling through all swimmers
+// over several runs.
+const MAX_SWIMMERS_PER_RUN = parseInt(process.env.MAX_SWIMMERS_PER_RUN || "500", 10);
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -256,6 +262,21 @@ async function main() {
 
   // Track swimmers saved in THIS run (used for checkpoint rebuildIndex)
   const indexedSwimmers = new Set();
+  // Track ALL swimmers successfully checked in this run (for lastChecked)
+  const processedIds = new Set();
+
+  // Load the existing index to get lastChecked timestamps for batch rotation.
+  console.log("Loading index for batch rotation…");
+  const { swimmersMap } = loadIndex(INDEX_FILE);
+  const lastCheckedMap = new Map();
+  if (swimmersMap) {
+    for (const [id, entry] of swimmersMap) {
+      if (entry.lastChecked) lastCheckedMap.set(id, entry.lastChecked);
+    }
+  }
+  console.log(
+    color(C.dim, `  ${lastCheckedMap.size} swimmers have lastChecked timestamps`),
+  );
 
   console.log("Launching browser …");
   const browser = await puppeteer.launch({
@@ -281,22 +302,31 @@ async function main() {
     tilDato: TIL_DATO,
   });
 
-  // Process ALL swimmers sequentially. For each one, load their existing
-  // data from disk (if any) for dedup. Swimmers with no new races are
-  // skipped by processSwimmer without writing.
+  // Sort swimmers by lastChecked ascending so the least-recently-checked
+  // (or never-checked) are processed first. This naturally cycles through
+  // all swimmers over multiple runs.
+  const sortedSwimmers = [...allSwimmers].sort((a, b) => {
+    const aChecked = lastCheckedMap.get(a.id) || "";
+    const bChecked = lastCheckedMap.get(b.id) || "";
+    return aChecked.localeCompare(bChecked);
+  });
+  // Take only the first batch to keep runtime within timeout limits.
+  const batch = sortedSwimmers.slice(0, MAX_SWIMMERS_PER_RUN);
+  const skipped = allSwimmers.length - batch.length;
+
   console.log(
-    color(C.dim, `  Processing all ${allSwimmers.length} swimmers`),
+    color(C.dim, `  Processing batch of ${batch.length} swimmers (${skipped} deferred to next run)`),
   );
 
   let saved = 0;
   let processed = 0;
-  const total = allSwimmers.length;
+  const total = batch.length;
 
   // Fatal timeout counter: when this reaches MAX_FATAL_TIMEOUTS we checkpoint & exit.
   let fatalTimeouts = 0;
   const MAX_FATAL_TIMEOUTS = 3;
 
-  for (const sw of allSwimmers) {
+  for (const sw of batch) {
     processed++;
 
     // Retry loop (3 attempts with page reload on timeout)
@@ -373,7 +403,7 @@ async function main() {
           fatalTimeouts = 0;
           swimmerOk = true;
         } else {
-          // Grid never loaded — skip without retry.
+          // No new races or grid never loaded — skip without retry.
           swimmerOk = true;
           break;
         }
@@ -416,6 +446,7 @@ async function main() {
                 fraDato: FRA_DATO,
                 tilDato: TIL_DATO,
                 indexedSwimmers,
+                processedIds,
               });
             } catch (e) {}
             try {
@@ -441,6 +472,9 @@ async function main() {
         }
       }
     }
+    // Record that this swimmer was successfully checked (even if no new races)
+    // so lastChecked is persisted in the index during the next rebuild.
+    if (swimmerOk) processedIds.add(sw.id);
 
     // Checkpoint every 10 saves: rebuild index + git commit + push
     if (saved > 0 && saved % 10 === 0) {
@@ -452,6 +486,7 @@ async function main() {
         fraDato: FRA_DATO,
         tilDato: TIL_DATO,
         indexedSwimmers,
+        processedIds,
       });
       gitCheckpoint(`${saved} swimmers`);
       console.log(color(C.dim, `  Checkpoint: ${saved} swimmers saved`));
@@ -478,16 +513,18 @@ async function main() {
     fraDato: FRA_DATO,
     tilDato: TIL_DATO,
     indexedSwimmers,
+    processedIds,
   });
 
   console.log("    Pushing to GitHub…");
   gitCheckpoint(`final — ${saved} swimmers`);
 
   const withNewRaces = indexedSwimmers.size;
+  const withChecked = processedIds.size;
   console.log(
     color(
       C.green,
-      `\n  ✓ Incremental scrape complete! ${total} swimmers checked, ${withNewRaces} with new races`,
+      `\n  ✓ Incremental scrape complete! ${withChecked} swimmers checked, ${withNewRaces} with new races (${skipped} deferred)`,
     ),
   );
 
