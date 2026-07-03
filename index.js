@@ -2,7 +2,7 @@ import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
-import { loadIndex, rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
+import { rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
 import {
   navigateAndFilter,
   loadUntilIdx,
@@ -16,8 +16,10 @@ const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 
-// Date range for scraping.
-const FRA_DATO = process.env.FRA_DATO || "2000-01-01";
+// Date range for incremental scraping.
+// Default to 2026-06-19 (the day after the initial full scrape ended).
+// Override via env var to narrow the window for subsequent runs.
+const FRA_DATO = process.env.FRA_DATO || "2026-06-19";
 const TIL_DATO = process.env.TIL_DATO || "";
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
@@ -234,45 +236,22 @@ async function reloadPage(page, browser, baseUrl) {
 /* ─── Main sequential scrape loop ──────────────────────────────────── */
 
 async function main() {
-  console.log("\n=== Full scrape (sequential) ===\n");
+  console.log("\n=== Incremental scrape — checking for new races ===\n");
 
-  // Load existing index for resume
-  console.log("Loading index for resume…");
-  const { swimmersMap } = loadIndex(INDEX_FILE);
-  // ANY swimmer found in the index is considered done — skip to avoid
-  // re-scraping thousands of races (e.g. Henrik Christiansen: 3339 races).
-  const alreadyIndexed = new Set();
-  if (swimmersMap) {
-    for (const [id] of swimmersMap) {
-      alreadyIndexed.add(id);
-    }
-  }
-
-  // Also check existing swimmer files as a fallback. The index.json may
-  // be slightly stale on the GitHub runner if the previous run's final
-  // push hadn't fully propagated when the checkout started. This ensures
-  // we never re-scrape a swimmer whose file already exists on disk.
-  let fromFiles = 0;
+  // Load ALL existing swimmer data from disk into a map keyed by swimmer ID.
+  // This gives us the existing races for dedup (by PID) and merge.
+  console.log("Loading existing swimmer data for dedup…");
+  const existingDataMap = new Map();
   for (const fp of walkJsonFiles(SWIMMERS_DIR)) {
     try {
       const data = JSON.parse(fs.readFileSync(fp, "utf-8"));
-      const id = String(data.swimmerId);
-      if (!alreadyIndexed.has(id)) {
-        alreadyIndexed.add(id);
-        fromFiles++;
-      }
+      existingDataMap.set(String(data.swimmerId), data);
     } catch {
       /* skip corrupted */
     }
   }
-  if (fromFiles > 0) {
-    console.log(
-      color(C.dim, `  +${fromFiles} swimmers found on disk (not yet in index)`),
-    );
-  }
-
   console.log(
-    color(C.dim, `  ${alreadyIndexed.size} swimmers already indexed, skipping`),
+    color(C.dim, `  ${existingDataMap.size} swimmers with existing data on disk`),
   );
 
   // Track swimmers saved in THIS run (used for checkpoint rebuildIndex)
@@ -302,14 +281,12 @@ async function main() {
     tilDato: TIL_DATO,
   });
 
-  // Filter out already-indexed swimmers so we don't waste time iterating them
-  const swimmersToScrape = allSwimmers.filter(
-    (sw) => !alreadyIndexed.has(sw.id),
+  // Process ALL swimmers sequentially. For each one, load their existing
+  // data from disk (if any) for dedup. Swimmers with no new races are
+  // skipped by processSwimmer without writing.
+  console.log(
+    color(C.dim, `  Processing all ${allSwimmers.length} swimmers`),
   );
-  const skipped = allSwimmers.length - swimmersToScrape.length;
-  if (skipped > 0) {
-    console.log(color(C.dim, `  Skipping ${skipped} already-indexed swimmers`));
-  }
 
   let saved = 0;
   let processed = 0;
@@ -319,7 +296,7 @@ async function main() {
   let fatalTimeouts = 0;
   const MAX_FATAL_TIMEOUTS = 3;
 
-  for (const sw of swimmersToScrape) {
+  for (const sw of allSwimmers) {
     processed++;
 
     // Retry loop (3 attempts with page reload on timeout)
@@ -378,12 +355,13 @@ async function main() {
           }
         }
 
-        // Process the swimmer — grid parse, split extraction, save
+        // Process the swimmer — grid parse, dedup, split extraction, merge, save
+        const existingEntry = existingDataMap.get(sw.id) || null;
         const result = await withTimeout(
           processSwimmer(page, sw, sw.index, {
             SWIMMERS_DIR,
             processedInSession: processed,
-          }),
+          }, existingEntry),
           14_400_000,
           sw.text,
         );
@@ -505,10 +483,11 @@ async function main() {
   console.log("    Pushing to GitHub…");
   gitCheckpoint(`final — ${saved} swimmers`);
 
+  const withNewRaces = indexedSwimmers.size;
   console.log(
     color(
       C.green,
-      `\n  ✓ Full scrape complete! ${total} total swimmers, ${saved} saved in this run`,
+      `\n  ✓ Incremental scrape complete! ${total} swimmers checked, ${withNewRaces} with new races`,
     ),
   );
 
