@@ -1,61 +1,33 @@
 {
-  "swimmerId": "50758",
+  "swimmerId": "54726",
   "name": "Oliver Gundersen",
   "club": "Vågsbygd SLK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-07-04T16:11:34.815Z",
+  "timestamp": "2026-07-04T18:49:51.740Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
-          "Tid": "30,35",
-          "Dato": "30.03.2025",
-          "Sted": "Trondheim",
+          "Tid": "38,13",
+          "Dato": "25.04.2026",
+          "Sted": "Namsos",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "174",
+          "RA": "925",
+          "pid": "3938611"
+        },
+        {
+          "Tid": "38,19",
+          "Dato": "14.03.2026",
+          "Sted": "Verdal",
           "Basseng": "25m",
           "D": "",
-          "RK": "225",
-          "RA": "956",
-          "pid": "3664472"
-        },
-        {
-          "Tid": "31,01",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "255",
-          "RA": "801",
-          "pid": "3900258"
-        },
-        {
-          "Tid": "31,99",
-          "Dato": "28.03.2025",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3665039",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "32,56",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900879",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
+          "RK": "213",
+          "RA": "1221",
+          "pid": "3887886"
         },
         {
           "Tid": "30,92",
@@ -343,24 +315,14 @@
       "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "34,91",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
+          "Tid": "45,88",
+          "Dato": "25.04.2026",
+          "Sted": "Namsos",
+          "Basseng": "50m",
           "D": "",
-          "RK": "191",
-          "RA": "692",
-          "pid": "3899899"
-        },
-        {
-          "Tid": "35,17",
-          "Dato": "29.03.2025",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "176",
-          "RA": "883",
-          "pid": "3664121"
+          "RK": "148",
+          "RA": "754",
+          "pid": "3938423"
         },
         {
           "Tid": "36,03",
@@ -680,34 +642,105 @@
       ]
     },
     {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,45",
+          "Dato": "14.03.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "743",
+          "pid": "3887804"
+        },
+        {
+          "Tid": "47,20",
+          "Dato": "25.04.2026",
+          "Sted": "Namsos",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "123",
+          "RA": "627",
+          "pid": "3938483"
+        },
+        {
+          "Tid": "38,63",
+          "Dato": "30.05.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "58",
+          "RA": "350",
+          "pid": "3704717"
+        },
+        {
+          "Tid": "39,59",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "507",
+          "pid": "3896104"
+        },
+        {
+          "Tid": "40,34",
+          "Dato": "18.10.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "799",
+          "pid": "3793554"
+        },
+        {
+          "Tid": "1.00,64",
+          "Dato": "11.06.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3259179"
+        },
+        {
+          "Tid": "1.04,08",
+          "Dato": "27.01.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3159424"
+        },
+        {
+          "Tid": "1.05,34",
+          "Dato": "15.10.2022",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3099931"
+        }
+      ]
+    },
+    {
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.08,60",
-          "Dato": "28.03.2025",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
+          "Tid": "1.28,22",
+          "Dato": "25.04.2026",
+          "Sted": "Namsos",
+          "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3665038",
+          "RK": "165",
+          "RA": "848",
+          "pid": "3938833",
           "splits": [
-            "31,99",
-            "36,61"
-          ]
-        },
-        {
-          "Tid": "1.09,41",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900878",
-          "splits": [
-            "32,56",
-            "36,85"
+            "",
+            ""
           ]
         },
         {
@@ -989,71 +1022,6 @@
             "1.08,05",
             "1.11,43"
           ]
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "38,63",
-          "Dato": "30.05.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "58",
-          "RA": "350",
-          "pid": "3704717"
-        },
-        {
-          "Tid": "39,59",
-          "Dato": "14.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "90",
-          "RA": "507",
-          "pid": "3896104"
-        },
-        {
-          "Tid": "40,34",
-          "Dato": "18.10.2025",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "128",
-          "RA": "799",
-          "pid": "3793554"
-        },
-        {
-          "Tid": "1.00,64",
-          "Dato": "11.06.2023",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3259179"
-        },
-        {
-          "Tid": "1.04,08",
-          "Dato": "27.01.2023",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3159424"
-        },
-        {
-          "Tid": "1.05,34",
-          "Dato": "15.10.2022",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3099931"
         }
       ]
     },
