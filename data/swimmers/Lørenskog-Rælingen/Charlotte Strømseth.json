@@ -1,35 +1,14 @@
 {
-  "swimmerId": "53306",
+  "swimmerId": "43878",
   "name": "Charlotte Strømseth",
   "club": "Lørenskog/Rælingen",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-07-03T22:54:21.987Z",
+  "timestamp": "2026-07-04T04:38:41.486Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "39,87",
-          "Dato": "23.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "187",
-          "RA": "1012",
-          "pid": "3849970"
-        },
-        {
-          "Tid": "40,33",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3851490",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "39,41",
           "Dato": "08.02.2026",
@@ -405,19 +384,329 @@
       ]
     },
     {
-      "distanse": "50m Bryst",
+      "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "51,53",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
+          "Tid": "45,52",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "710",
+          "pid": "3868404"
+        },
+        {
+          "Tid": "46,50",
+          "Dato": "01.02.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3861482"
+        },
+        {
+          "Tid": "47,39",
+          "Dato": "09.11.2025",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1142",
+          "pid": "3810581"
+        },
+        {
+          "Tid": "48,02",
+          "Dato": "20.09.2025",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3749874"
+        },
+        {
+          "Tid": "48,17",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3799381"
+        },
+        {
+          "Tid": "49,40",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3674442"
+        },
+        {
+          "Tid": "52,90",
+          "Dato": "03.05.2025",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3689644"
+        },
+        {
+          "Tid": "54,46",
+          "Dato": "28.04.2024",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1434",
+          "pid": "3463164"
+        },
+        {
+          "Tid": "1.00,24",
+          "Dato": "13.01.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3375400"
+        },
+        {
+          "Tid": "1.00,88",
+          "Dato": "14.10.2023",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3314635"
+        },
+        {
+          "Tid": "1.02,34",
+          "Dato": "05.11.2023",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3337931"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "52,08",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "212",
+          "RA": "1247",
+          "pid": "3885162",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "52,11",
+          "Dato": "02.05.2026",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "137",
+          "RA": "901",
+          "pid": "3941882"
+        },
+        {
+          "Tid": "52,57",
+          "Dato": "06.12.2025",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1495",
+          "pid": "3831681"
+        },
+        {
+          "Tid": "52,75",
+          "Dato": "08.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3886775",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "52,84",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3801607",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "53,17",
+          "Dato": "08.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3871034",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "53,38",
+          "Dato": "08.11.2025",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3810445"
+        },
+        {
+          "Tid": "53,80",
+          "Dato": "31.01.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3861697",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "53,95",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3868233"
+        },
+        {
+          "Tid": "54,53",
+          "Dato": "02.05.2026",
+          "Sted": "Drammen",
           "Basseng": "50m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3850896",
-          "partOf": "100m Bryst"
+          "pid": "3944452",
+          "partOf": "200m Individuell medley"
         },
+        {
+          "Tid": "54,54",
+          "Dato": "15.03.2026",
+          "Sted": "Hagan",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3893791",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "54,64",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3799935",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "54,65",
+          "Dato": "14.03.2026",
+          "Sted": "Hagan",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3893212",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "57,23",
+          "Dato": "08.11.2025",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3811006",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "59,67",
+          "Dato": "15.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "167",
+          "RA": "1592",
+          "pid": "3425248"
+        },
+        {
+          "Tid": "1.03,65",
+          "Dato": "26.01.2025",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3619783",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "1.04,19",
+          "Dato": "16.06.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3489600"
+        },
+        {
+          "Tid": "1.09,80",
+          "Dato": "02.12.2023",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3354544"
+        },
+        {
+          "Tid": "1.17,21",
+          "Dato": "21.10.2023",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3320565"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
         {
           "Tid": "58,71",
           "Dato": "31.01.2026",
@@ -594,20 +883,6 @@
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.32,15",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "180",
-          "RA": "904",
-          "pid": "3851489",
-          "splits": [
-            "40,33",
-            "51,82"
-          ]
-        },
         {
           "Tid": "1.30,18",
           "Dato": "14.03.2026",
@@ -944,506 +1219,6 @@
       ]
     },
     {
-      "distanse": "100m Bryst",
-      "races": [
-        {
-          "Tid": "1.54,01",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3850895",
-          "splits": [
-            "51,53",
-            "1.02,48"
-          ]
-        },
-        {
-          "Tid": "2.08,85",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "235",
-          "RA": "1307",
-          "pid": "3870236",
-          "splits": [
-            "1.01,60",
-            "1.07,25"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "2.09,22",
-          "Dato": "08.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3886116",
-          "splits": [
-            "1.00,55",
-            "1.08,67"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "2.15,16",
-          "Dato": "07.12.2025",
-          "Sted": "Nadderud",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3834943",
-          "splits": [
-            "1.04,28",
-            "1.10,88"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "2.16,25",
-          "Dato": "12.10.2025",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3782924",
-          "splits": [
-            "1.04,14",
-            "1.12,11"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "2.19,14",
-          "Dato": "09.11.2025",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3811788",
-          "splits": [
-            "1.04,90",
-            "1.14,24"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "2.42,05",
-          "Dato": "15.06.2024",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "230",
-          "RA": "1625",
-          "pid": "3489921",
-          "splits": [
-            "1.15,98",
-            "1.26,07"
-          ]
-        },
-        {
-          "Tid": "2.44,07",
-          "Dato": "10.02.2024",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3397046",
-          "splits": [
-            "1.18,03",
-            "1.26,04"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "2.44,91",
-          "Dato": "26.10.2024",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3554558",
-          "splits": [
-            "1.19,54",
-            "1.25,37"
-          ]
-        },
-        {
-          "Tid": "2.48,66",
-          "Dato": "27.01.2024",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3382896",
-          "splits": [
-            "1.21,16",
-            "1.27,50"
-          ]
-        },
-        {
-          "Tid": "2.51,02",
-          "Dato": "02.12.2023",
-          "Sted": "Elverum",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3354860",
-          "splits": [
-            "1.22,31",
-            "1.28,71"
-          ]
-        },
-        {
-          "Tid": "2.52,24",
-          "Dato": "16.03.2024",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3425969",
-          "splits": [
-            "1.24,73",
-            "1.27,51"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "45,52",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "125",
-          "RA": "710",
-          "pid": "3868404"
-        },
-        {
-          "Tid": "46,50",
-          "Dato": "01.02.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3861482"
-        },
-        {
-          "Tid": "47,39",
-          "Dato": "09.11.2025",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "1142",
-          "pid": "3810581"
-        },
-        {
-          "Tid": "48,02",
-          "Dato": "20.09.2025",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3749874"
-        },
-        {
-          "Tid": "48,17",
-          "Dato": "26.10.2025",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3799381"
-        },
-        {
-          "Tid": "49,40",
-          "Dato": "05.04.2025",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3674442"
-        },
-        {
-          "Tid": "52,90",
-          "Dato": "03.05.2025",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3689644"
-        },
-        {
-          "Tid": "54,46",
-          "Dato": "28.04.2024",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "166",
-          "RA": "1434",
-          "pid": "3463164"
-        },
-        {
-          "Tid": "1.00,24",
-          "Dato": "13.01.2024",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3375400"
-        },
-        {
-          "Tid": "1.00,88",
-          "Dato": "14.10.2023",
-          "Sted": "Kongsberg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3314635"
-        },
-        {
-          "Tid": "1.02,34",
-          "Dato": "05.11.2023",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3337931"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "52,08",
-          "Dato": "07.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "212",
-          "RA": "1247",
-          "pid": "3885162",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "52,11",
-          "Dato": "02.05.2026",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "137",
-          "RA": "901",
-          "pid": "3941882"
-        },
-        {
-          "Tid": "52,57",
-          "Dato": "06.12.2025",
-          "Sted": "Nadderud",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "1495",
-          "pid": "3831681"
-        },
-        {
-          "Tid": "52,75",
-          "Dato": "08.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3886775",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "52,84",
-          "Dato": "26.10.2025",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3801607",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "53,17",
-          "Dato": "08.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3871034",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "53,38",
-          "Dato": "08.11.2025",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3810445"
-        },
-        {
-          "Tid": "53,80",
-          "Dato": "31.01.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3861697",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "53,95",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3868233"
-        },
-        {
-          "Tid": "54,53",
-          "Dato": "02.05.2026",
-          "Sted": "Drammen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3944452",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "54,54",
-          "Dato": "15.03.2026",
-          "Sted": "Hagan",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3893791",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "54,64",
-          "Dato": "26.10.2025",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3799935",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "54,65",
-          "Dato": "14.03.2026",
-          "Sted": "Hagan",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3893212",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "57,23",
-          "Dato": "08.11.2025",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3811006",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "59,67",
-          "Dato": "15.03.2024",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "167",
-          "RA": "1592",
-          "pid": "3425248"
-        },
-        {
-          "Tid": "1.03,65",
-          "Dato": "26.01.2025",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3619783",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "1.04,19",
-          "Dato": "16.06.2024",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3489600"
-        },
-        {
-          "Tid": "1.09,80",
-          "Dato": "02.12.2023",
-          "Sted": "Elverum",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3354544"
-        },
-        {
-          "Tid": "1.17,21",
-          "Dato": "21.10.2023",
-          "Sted": "Nittedal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3320565"
-        }
-      ]
-    },
-    {
       "distanse": "100m Rygg",
       "races": [
         {
@@ -1692,6 +1467,171 @@
           "splits": [
             "57,23",
             "1.07,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,85",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "235",
+          "RA": "1307",
+          "pid": "3870236",
+          "splits": [
+            "1.01,60",
+            "1.07,25"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.09,22",
+          "Dato": "08.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3886116",
+          "splits": [
+            "1.00,55",
+            "1.08,67"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.15,16",
+          "Dato": "07.12.2025",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3834943",
+          "splits": [
+            "1.04,28",
+            "1.10,88"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.16,25",
+          "Dato": "12.10.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3782924",
+          "splits": [
+            "1.04,14",
+            "1.12,11"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.19,14",
+          "Dato": "09.11.2025",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3811788",
+          "splits": [
+            "1.04,90",
+            "1.14,24"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.42,05",
+          "Dato": "15.06.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "230",
+          "RA": "1625",
+          "pid": "3489921",
+          "splits": [
+            "1.15,98",
+            "1.26,07"
+          ]
+        },
+        {
+          "Tid": "2.44,07",
+          "Dato": "10.02.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3397046",
+          "splits": [
+            "1.18,03",
+            "1.26,04"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.44,91",
+          "Dato": "26.10.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3554558",
+          "splits": [
+            "1.19,54",
+            "1.25,37"
+          ]
+        },
+        {
+          "Tid": "2.48,66",
+          "Dato": "27.01.2024",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3382896",
+          "splits": [
+            "1.21,16",
+            "1.27,50"
+          ]
+        },
+        {
+          "Tid": "2.51,02",
+          "Dato": "02.12.2023",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3354860",
+          "splits": [
+            "1.22,31",
+            "1.28,71"
+          ]
+        },
+        {
+          "Tid": "2.52,24",
+          "Dato": "16.03.2024",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3425969",
+          "splits": [
+            "1.24,73",
+            "1.27,51"
           ]
         }
       ]
