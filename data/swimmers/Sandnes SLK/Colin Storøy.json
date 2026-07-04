@@ -1,46 +1,14 @@
 {
-  "swimmerId": "54028",
+  "swimmerId": "49254",
   "name": "Colin Storøy",
   "club": "Sandnes SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-07-03T22:14:07.879Z",
+  "timestamp": "2026-07-04T03:59:26.719Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "43,83",
-          "Dato": "26.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "206",
-          "RA": "1586",
-          "pid": "3935167"
-        },
-        {
-          "Tid": "48,85",
-          "Dato": "25.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3935342",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "53,22",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3882191",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "41,63",
           "Dato": "28.06.2025",
@@ -341,16 +309,6 @@
       "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "52,01",
-          "Dato": "25.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "137",
-          "RA": "931",
-          "pid": "3935057"
-        },
-        {
           "Tid": "49,23",
           "Dato": "27.04.2025",
           "Sted": "Stavanger",
@@ -403,36 +361,23 @@
       ]
     },
     {
-      "distanse": "100m Fri",
+      "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "1.39,62",
-          "Dato": "25.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "198",
-          "RA": "1415",
-          "pid": "3935341",
-          "splits": [
-            "48,85",
-            "50,77"
-          ]
-        },
-        {
-          "Tid": "1.57,00",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
+          "Tid": "54,85",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3882190",
-          "splits": [
-            "53,22",
-            "1.03,78"
-          ]
-        },
+          "pid": "3933133"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
         {
           "Tid": "1.32,57",
           "Dato": "11.05.2025",
@@ -632,40 +577,6 @@
             "1.02,93"
           ],
           "partOf": "200m Fri"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Rygg",
-      "races": [
-        {
-          "Tid": "1.53,84",
-          "Dato": "26.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "109",
-          "RA": "700",
-          "pid": "3935220",
-          "splits": [
-            "54,10",
-            "59,74"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "54,85",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3933133"
         }
       ]
     },

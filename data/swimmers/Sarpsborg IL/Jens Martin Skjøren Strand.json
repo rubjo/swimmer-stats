@@ -1,24 +1,14 @@
 {
-  "swimmerId": "54944",
+  "swimmerId": "42830",
   "name": "Jens Martin Skjøren Strand",
   "club": "Sarpsborg IL",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-07-03T22:25:18.143Z",
+  "timestamp": "2026-07-04T04:10:15.464Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "52,34",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "128",
-          "RA": "1758",
-          "pid": "3927673"
-        },
         {
           "Tid": "28,63",
           "Dato": "08.03.2026",
@@ -977,18 +967,23 @@
       ]
     },
     {
-      "distanse": "50m Bryst",
+      "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "1.00,65",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
+          "Tid": "37,10",
+          "Dato": "21.09.2024",
+          "Sted": "Horten",
           "Basseng": "25m",
           "D": "",
-          "RK": "96",
-          "RA": "1318",
-          "pid": "3927623"
-        },
+          "RK": "162",
+          "RA": "954",
+          "pid": "3522301"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
         {
           "Tid": "37,49",
           "Dato": "11.10.2025",
@@ -1184,21 +1179,6 @@
           "RA": "",
           "pid": "3209480",
           "partOf": "100m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "37,10",
-          "Dato": "21.09.2024",
-          "Sted": "Horten",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "162",
-          "RA": "954",
-          "pid": "3522301"
         }
       ]
     },
