@@ -1,34 +1,14 @@
 {
-  "swimmerId": "54726",
+  "swimmerId": "41189",
   "name": "Oliver Gundersen",
   "club": "Vågsbygd SLK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-07-04T18:49:51.740Z",
+  "timestamp": "2026-06-24T05:51:04.033Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "38,13",
-          "Dato": "25.04.2026",
-          "Sted": "Namsos",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "174",
-          "RA": "925",
-          "pid": "3938611"
-        },
-        {
-          "Tid": "38,19",
-          "Dato": "14.03.2026",
-          "Sted": "Verdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "213",
-          "RA": "1221",
-          "pid": "3887886"
-        },
         {
           "Tid": "30,92",
           "Dato": "23.11.2025",
@@ -55,8 +35,8 @@
           "Sted": "Lillesand",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "137",
+          "RA": "878",
           "pid": "3896214"
         },
         {
@@ -314,16 +294,6 @@
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "45,88",
-          "Dato": "25.04.2026",
-          "Sted": "Namsos",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "148",
-          "RA": "754",
-          "pid": "3938423"
-        },
         {
           "Tid": "36,03",
           "Dato": "14.09.2025",
@@ -645,26 +615,6 @@
       "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "46,45",
-          "Dato": "14.03.2026",
-          "Sted": "Verdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "140",
-          "RA": "743",
-          "pid": "3887804"
-        },
-        {
-          "Tid": "47,20",
-          "Dato": "25.04.2026",
-          "Sted": "Namsos",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "123",
-          "RA": "627",
-          "pid": "3938483"
-        },
-        {
           "Tid": "38,63",
           "Dato": "30.05.2025",
           "Sted": "Kristiansand",
@@ -727,22 +677,185 @@
       ]
     },
     {
-      "distanse": "100m Fri",
+      "distanse": "50m Bryst",
       "races": [
         {
-          "Tid": "1.28,22",
-          "Dato": "25.04.2026",
-          "Sted": "Namsos",
+          "Tid": "40,38",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "108",
+          "RA": "560",
+          "pid": "3896154"
+        },
+        {
+          "Tid": "43,21",
+          "Dato": "19.10.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "139",
+          "RA": "901",
+          "pid": "3793923",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "43,44",
+          "Dato": "15.03.2025",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3651374",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "44,09",
+          "Dato": "01.06.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "80",
+          "RA": "485",
+          "pid": "3706583",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "47,56",
+          "Dato": "08.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3632097",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "50,15",
+          "Dato": "24.01.2025",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3616279",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "51,57",
+          "Dato": "16.03.2024",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3431915",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "53,74",
+          "Dato": "04.05.2024",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3464855",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,57",
+          "Dato": "26.01.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "111",
+          "RA": "687",
+          "pid": "3391786",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "57,97",
+          "Dato": "10.02.2024",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3409255",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.04,57",
+          "Dato": "15.10.2023",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "203",
+          "RA": "1573",
+          "pid": "3319470",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.05,04",
+          "Dato": "17.09.2023",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3291701"
+        },
+        {
+          "Tid": "1.07,45",
+          "Dato": "14.10.2023",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3319205",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.11,40",
+          "Dato": "15.10.2022",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3099997"
+        },
+        {
+          "Tid": "1.11,40",
+          "Dato": "28.01.2023",
+          "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "165",
-          "RA": "848",
-          "pid": "3938833",
-          "splits": [
-            "",
-            ""
-          ]
+          "RK": "",
+          "RA": "",
+          "pid": "3159732"
         },
+        {
+          "Tid": "1.12,88",
+          "Dato": "09.06.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3261110",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
         {
           "Tid": "1.09,84",
           "Dato": "23.11.2025",
@@ -1026,183 +1139,6 @@
       ]
     },
     {
-      "distanse": "50m Bryst",
-      "races": [
-        {
-          "Tid": "40,38",
-          "Dato": "14.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "108",
-          "RA": "561",
-          "pid": "3896154"
-        },
-        {
-          "Tid": "43,21",
-          "Dato": "19.10.2025",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "139",
-          "RA": "901",
-          "pid": "3793923",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "43,44",
-          "Dato": "15.03.2025",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3651374",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "44,09",
-          "Dato": "01.06.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "80",
-          "RA": "485",
-          "pid": "3706583",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "47,56",
-          "Dato": "08.02.2025",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3632097",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "50,15",
-          "Dato": "24.01.2025",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3616279",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "51,57",
-          "Dato": "16.03.2024",
-          "Sted": "Sandefjord",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3431915",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "53,74",
-          "Dato": "04.05.2024",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3464855",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "54,57",
-          "Dato": "26.01.2024",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "111",
-          "RA": "687",
-          "pid": "3391786",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "57,97",
-          "Dato": "10.02.2024",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3409255",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.04,57",
-          "Dato": "15.10.2023",
-          "Sted": "Grimstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "203",
-          "RA": "1573",
-          "pid": "3319470",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.05,04",
-          "Dato": "17.09.2023",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3291701"
-        },
-        {
-          "Tid": "1.07,45",
-          "Dato": "14.10.2023",
-          "Sted": "Grimstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3319205",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "1.11,40",
-          "Dato": "15.10.2022",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3099997"
-        },
-        {
-          "Tid": "1.11,40",
-          "Dato": "28.01.2023",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3159732"
-        },
-        {
-          "Tid": "1.12,88",
-          "Dato": "09.06.2023",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3261110",
-          "partOf": "100m Bryst"
-        }
-      ]
-    },
-    {
       "distanse": "100m Individuell medley",
       "races": [
         {
@@ -1212,7 +1148,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "62",
-          "RA": "347",
+          "RA": "339",
           "pid": "3896494",
           "splits": [
             "35,11",

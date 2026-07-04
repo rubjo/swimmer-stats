@@ -251,7 +251,22 @@ async function main() {
   for (const fp of walkJsonFiles(SWIMMERS_DIR)) {
     try {
       const data = JSON.parse(fs.readFileSync(fp, "utf-8"));
-      existingDataMap.set(String(data.swimmerId), data);
+      const id = String(data.swimmerId);
+      const existing = existingDataMap.get(id);
+      if (existing) {
+        // Duplicate swimmer ID across files — keep the one with the
+        // most races (indicates more complete data).
+        const existingCount = existing.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) || 0;
+        const newCount = data.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) || 0;
+        if (newCount > existingCount) {
+          console.warn(color(C.yellow, `  ⚠ Duplicate swimmer ID ${id}: using ${fp} (${newCount} races, newer)`));
+          existingDataMap.set(id, data);
+        } else {
+          console.warn(color(C.dim, `  ⚠ Duplicate swimmer ID ${id}: skipping ${fp} (${newCount} races ≤ existing ${existingCount})`));
+        }
+      } else {
+        existingDataMap.set(id, data);
+      }
     } catch {
       /* skip corrupted */
     }
@@ -260,8 +275,6 @@ async function main() {
     color(C.dim, `  ${existingDataMap.size} swimmers with existing data on disk`),
   );
 
-  // Track swimmers saved in THIS run (used for checkpoint rebuildIndex)
-  const indexedSwimmers = new Set();
   // Track ALL swimmers successfully checked in this run (for lastChecked)
   const processedIds = new Set();
 
@@ -403,10 +416,18 @@ async function main() {
 
         if (result.saved) {
           saved++;
-          indexedSwimmers.add(sw.id);
           // successful progress resets the fatal-timeout counter
           fatalTimeouts = 0;
           swimmerOk = true;
+        } else if (result.identityMismatch) {
+          // Wrong swimmer selected — reload page and retry
+          console.log(
+            color(C.yellow, `  ⚠ ${sw.text}: Identity mismatch — reloading page for retry...`)
+          );
+          try {
+            page = await reloadPage(page, browser, BASE_URL);
+          } catch {}
+          // Don't set swimmerOk — retry loop will attempt a fresh selection
         } else {
           // No new races or grid never loaded — skip without retry.
           swimmerOk = true;
@@ -448,9 +469,6 @@ async function main() {
                 dataDir: DATA_DIR,
                 indexFile: INDEX_FILE,
                 baseUrl: BASE_URL,
-                fraDato: FRA_DATO,
-                tilDato: TIL_DATO,
-                indexedSwimmers,
                 processedIds,
               });
             } catch (e) {}
@@ -488,9 +506,6 @@ async function main() {
         dataDir: DATA_DIR,
         indexFile: INDEX_FILE,
         baseUrl: BASE_URL,
-        fraDato: FRA_DATO,
-        tilDato: TIL_DATO,
-        indexedSwimmers,
         processedIds,
       });
       gitCheckpoint(`${saved} swimmers`);
@@ -515,21 +530,17 @@ async function main() {
     dataDir: DATA_DIR,
     indexFile: INDEX_FILE,
     baseUrl: BASE_URL,
-    fraDato: FRA_DATO,
-    tilDato: TIL_DATO,
-    indexedSwimmers,
     processedIds,
   });
 
   console.log("    Pushing to GitHub…");
   gitCheckpoint(`final — ${saved} swimmers`);
 
-  const withNewRaces = indexedSwimmers.size;
   const withChecked = processedIds.size;
   console.log(
     color(
       C.green,
-      `\n  ✓ Incremental scrape complete! ${withChecked} swimmers checked, ${withNewRaces} with new races (${skipped} deferred)`,
+      `\n  ✓ Incremental scrape complete! ${withChecked} swimmers checked, ${saved} with new races (${skipped} deferred)`,
     ),
   );
 

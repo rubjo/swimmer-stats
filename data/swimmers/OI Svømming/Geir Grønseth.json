@@ -1,45 +1,14 @@
 {
-  "swimmerId": "48243",
+  "swimmerId": "22515",
   "name": "Geir Grønseth",
   "club": "OI Svømming",
   "birthYear": 1971,
   "gender": "male",
-  "timestamp": "2026-07-04T17:59:26.032Z",
+  "timestamp": "2026-06-23T05:56:24.306Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "37,24",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "168",
-          "RA": "1267",
-          "pid": "3927704"
-        },
-        {
-          "Tid": "39,04",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3927849",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "43,00",
-          "Dato": "05.04.2025",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "226",
-          "RA": "1826",
-          "pid": "3933049"
-        },
         {
           "Tid": "28,54",
           "Dato": "10.03.2019",
@@ -96,8 +65,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "211",
+          "RA": "647",
           "pid": "3900229"
         },
         {
@@ -119,6 +88,9 @@
           "RK": "",
           "RA": "",
           "pid": "2517360",
+          "splits": [
+            ""
+          ],
           "partOf": "100m Fri"
         },
         {
@@ -130,6 +102,9 @@
           "RK": "",
           "RA": "",
           "pid": "2518395",
+          "splits": [
+            ""
+          ],
           "partOf": "400m Fri"
         },
         {
@@ -141,6 +116,9 @@
           "RK": "",
           "RA": "",
           "pid": "2318829",
+          "splits": [
+            ""
+          ],
           "partOf": "1500m Fri"
         },
         {
@@ -152,6 +130,9 @@
           "RK": "",
           "RA": "",
           "pid": "3665780",
+          "splits": [
+            ""
+          ],
           "partOf": "400m Fri"
         },
         {
@@ -163,6 +144,9 @@
           "RK": "",
           "RA": "",
           "pid": "3665999",
+          "splits": [
+            ""
+          ],
           "partOf": "800m Fri"
         },
         {
@@ -174,6 +158,9 @@
           "RK": "",
           "RA": "",
           "pid": "2518689",
+          "splits": [
+            ""
+          ],
           "partOf": "800m Fri"
         },
         {
@@ -185,6 +172,9 @@
           "RK": "252",
           "RA": "1373",
           "pid": "2158487",
+          "splits": [
+            ""
+          ],
           "partOf": "800m Fri"
         },
         {
@@ -196,6 +186,9 @@
           "RK": "213",
           "RA": "1371",
           "pid": "3236066",
+          "splits": [
+            ""
+          ],
           "partOf": "800m Fri"
         },
         {
@@ -207,27 +200,55 @@
           "RK": "",
           "RA": "",
           "pid": "1714363",
+          "splits": [
+            ""
+          ],
           "partOf": "800m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "32,30",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "520",
+          "pid": "3899868"
+        },
+        {
+          "Tid": "32,95",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "747",
+          "pid": "3664104"
+        },
+        {
+          "Tid": "34,37",
+          "Dato": "03.03.2018",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "131",
+          "RA": "755",
+          "pid": "2318834",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Butterfly"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.29,58",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "165",
-          "RA": "1228",
-          "pid": "3927848",
-          "splits": [
-            "39,04",
-            "50,54"
-          ]
-        },
         {
           "Tid": "1.05,04",
           "Dato": "08.03.2019",
@@ -361,42 +382,6 @@
             "41,89"
           ],
           "partOf": "800m Fri"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Butterfly",
-      "races": [
-        {
-          "Tid": "32,30",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3899868"
-        },
-        {
-          "Tid": "32,95",
-          "Dato": "29.03.2025",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "151",
-          "RA": "747",
-          "pid": "3664104"
-        },
-        {
-          "Tid": "34,37",
-          "Dato": "03.03.2018",
-          "Sted": "Alta",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "131",
-          "RA": "755",
-          "pid": "2318834",
-          "partOf": "100m Butterfly"
         }
       ]
     },
