@@ -1,22 +1,36 @@
 {
-  "swimmerId": "53928",
+  "swimmerId": "53967",
   "name": "Jo Gravås",
   "club": "Dolphin Masters SK",
   "birthYear": 1972,
   "gender": "male",
-  "timestamp": "2026-06-22T22:09:56.852Z",
+  "timestamp": "2026-07-04T14:42:28.066Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "36,21",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "114",
+          "RA": "1196",
+          "pid": "3846913",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Fri"
+        },
         {
           "Tid": "30,79",
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "246",
-          "RA": "784",
+          "RK": "",
+          "RA": "",
           "pid": "3900178"
         },
         {
@@ -28,16 +42,42 @@
           "RK": "",
           "RA": "",
           "pid": "3900738",
-          "splits": [
-            ""
-          ],
           "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,30",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3846664"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.20,21",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3846912",
+          "splits": [
+            "36,21",
+            "44,00"
+          ]
+        },
         {
           "Tid": "1.12,24",
           "Dato": "20.03.2026",
