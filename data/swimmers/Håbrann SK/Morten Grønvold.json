@@ -1,22 +1,70 @@
 {
-  "swimmerId": "54376",
+  "swimmerId": "53397",
   "name": "Morten Grønvold",
   "club": "Håbrann SK",
   "birthYear": 1983,
   "gender": "male",
-  "timestamp": "2026-06-23T06:01:02.129Z",
+  "timestamp": "2026-07-04T15:22:15.240Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "31,49",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "82",
+          "RA": "671",
+          "pid": "3849799"
+        },
+        {
+          "Tid": "32,04",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "88",
+          "RA": "1134",
+          "pid": "3824088"
+        },
+        {
+          "Tid": "35,86",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3853356",
+          "splits": [
+            ""
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "36,55",
+          "Dato": "10.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "191",
+          "RA": "1216",
+          "pid": "3923819",
+          "splits": [
+            ""
+          ],
+          "partOf": "400m Fri"
+        },
         {
           "Tid": "39,55",
           "Dato": "22.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "323",
-          "RA": "1390",
+          "RK": "",
+          "RA": "",
           "pid": "3900191"
         },
         {
@@ -28,16 +76,157 @@
           "RK": "",
           "RA": "",
           "pid": "3902125",
+          "partOf": "1500m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "40,03",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "145",
+          "RA": "947",
+          "pid": "3921824",
           "splits": [
             ""
           ],
-          "partOf": "1500m Fri"
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "40,32",
+          "Dato": "12.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3923324",
+          "splits": [
+            ""
+          ],
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "41,21",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "121",
+          "RA": "741",
+          "pid": "3848772"
+        },
+        {
+          "Tid": "43,01",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3896274",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,10",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "74",
+          "RA": "842",
+          "pid": "3824085"
+        },
+        {
+          "Tid": "43,39",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3824097",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "44,93",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3922648",
+          "splits": [
+            ""
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "47,30",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "99",
+          "RA": "538",
+          "pid": "3851992",
+          "splits": [
+            ""
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
+        {
+          "Tid": "1.18,82",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "128",
+          "RA": "761",
+          "pid": "3853357",
+          "splits": [
+            "35,86",
+            "42,96"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.18,89",
+          "Dato": "10.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3923820",
+          "splits": [
+            "36,55",
+            "42,34"
+          ],
+          "partOf": "400m Fri"
+        },
         {
           "Tid": "1.50,00",
           "Dato": "20.03.2026",
@@ -56,16 +245,151 @@
       ]
     },
     {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.23,68",
+          "Dato": "15.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "420",
+          "pid": "3896477",
+          "splits": [
+            "40,21",
+            "43,47"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.31,80",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "658",
+          "pid": "3921823",
+          "splits": [
+            "40,03",
+            "51,77"
+          ]
+        },
+        {
+          "Tid": "1.36,03",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3896273",
+          "splits": [
+            "43,01",
+            "53,02"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,50",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "78",
+          "RA": "706",
+          "pid": "3824096",
+          "splits": [
+            "43,39",
+            "50,11"
+          ]
+        },
+        {
+          "Tid": "1.36,32",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3922649",
+          "splits": [
+            "44,93",
+            "51,39"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.41,93",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "71",
+          "RA": "386",
+          "pid": "3851993",
+          "splits": [
+            "47,30",
+            "54,63"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
       "distanse": "200m Fri",
       "races": [
+        {
+          "Tid": "2.51,40",
+          "Dato": "10.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "144",
+          "RA": "761",
+          "pid": "3923821",
+          "splits": [
+            "36,55",
+            "42,34",
+            "45,83",
+            "46,68"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.55,17",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "99",
+          "RA": "533",
+          "pid": "3853358",
+          "splits": [
+            "35,86",
+            "42,96",
+            "47,51",
+            "48,84"
+          ],
+          "partOf": "400m Fri"
+        },
         {
           "Tid": "3.46,44",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "132",
-          "RA": "1128",
+          "RK": "",
+          "RA": "",
           "pid": "3902127",
           "splits": [
             "52,89",
@@ -78,16 +402,167 @@
       ]
     },
     {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.59,82",
+          "Dato": "12.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "108",
+          "RA": "491",
+          "pid": "3923323",
+          "splits": [
+            "40,32",
+            "46,34",
+            "52,12",
+            "41,04"
+          ]
+        },
+        {
+          "Tid": "3.13,17",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "57",
+          "RA": "302",
+          "pid": "3852958",
+          "splits": [
+            "",
+            "",
+            "54,01",
+            "44,12"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.02,10",
+          "Dato": "12.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "503",
+          "pid": "3922342",
+          "splits": [
+            "42,45",
+            "48,16",
+            "47,14",
+            "44,35"
+          ]
+        },
+        {
+          "Tid": "3.08,09",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3896528",
+          "splits": [
+            "44,41",
+            "48,89",
+            "48,54",
+            "46,25"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.20,82",
+          "Dato": "11.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "107",
+          "RA": "470",
+          "pid": "3922647",
+          "splits": [
+            "44,93",
+            "51,39",
+            "52,61",
+            "51,89"
+          ]
+        },
+        {
+          "Tid": "3.31,49",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "32",
+          "RA": "178",
+          "pid": "3851991",
+          "splits": [
+            "47,30",
+            "54,63",
+            "55,49",
+            "54,07"
+          ]
+        }
+      ]
+    },
+    {
       "distanse": "400m Fri",
       "races": [
+        {
+          "Tid": "5.54,22",
+          "Dato": "10.04.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "652",
+          "pid": "3923818",
+          "splits": [
+            "36,55",
+            "42,34",
+            "45,83",
+            "46,68",
+            "48,11",
+            "45,80",
+            "46,23",
+            "42,68"
+          ]
+        },
+        {
+          "Tid": "6.07,49",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "56",
+          "RA": "308",
+          "pid": "3853355",
+          "splits": [
+            "35,86",
+            "42,96",
+            "47,51",
+            "48,84",
+            "48,95",
+            "49,79",
+            "48,50",
+            "45,08"
+          ]
+        },
         {
           "Tid": "7.40,48",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "79",
-          "RA": "870",
+          "RK": "",
+          "RA": "",
           "pid": "3902128",
           "splits": [
             "52,89",
@@ -112,8 +587,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "33",
-          "RA": "179",
+          "RK": "",
+          "RA": "",
           "pid": "3902129",
           "splits": [
             "52,89",
