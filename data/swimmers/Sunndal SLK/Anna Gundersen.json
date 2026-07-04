@@ -1,14 +1,147 @@
 {
-  "swimmerId": "43026",
+  "swimmerId": "48489",
   "name": "Anna Gundersen",
   "club": "Sunndal SLK",
   "birthYear": 2010,
   "gender": "female",
-  "timestamp": "2026-06-23T06:37:15.303Z",
+  "timestamp": "2026-07-04T16:00:53.267Z",
   "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,35",
+          "Dato": "01.02.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "1707",
+          "pid": "3861612"
+        },
+        {
+          "Tid": "46,36",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "151",
+          "RA": "1212",
+          "pid": "3961516"
+        },
+        {
+          "Tid": "50,75",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3962265",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,00",
+          "Dato": "14.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3720812",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,57",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3674640"
+        },
+        {
+          "Tid": "58,60",
+          "Dato": "30.11.2024",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2275",
+          "pid": "3585588"
+        },
+        {
+          "Tid": "1.35,32",
+          "Dato": "26.04.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1981",
+          "pid": "3935179"
+        },
+        {
+          "Tid": "1.36,12",
+          "Dato": "31.01.2026",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3859879"
+        },
+        {
+          "Tid": "2.02,69",
+          "Dato": "23.11.2025",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3822150"
+        },
+        {
+          "Tid": "2.03,69",
+          "Dato": "15.09.2024",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "288",
+          "RA": "2320",
+          "pid": "3517504"
+        },
+        {
+          "Tid": "2.49,72",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3889349"
+        }
+      ]
+    },
     {
       "distanse": "50m Rygg",
       "races": [
+        {
+          "Tid": "1.03,16",
+          "Dato": "01.02.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1074",
+          "pid": "3861492"
+        },
         {
           "Tid": "1.35,04",
           "Dato": "10.05.2025",
@@ -72,63 +205,42 @@
       ]
     },
     {
-      "distanse": "50m Fri",
-      "races": [
-        {
-          "Tid": "1.35,32",
-          "Dato": "26.04.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "171",
-          "RA": "1977",
-          "pid": "3935179"
-        },
-        {
-          "Tid": "1.36,12",
-          "Dato": "31.01.2026",
-          "Sted": "Sunndalsøra",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3859879"
-        },
-        {
-          "Tid": "2.02,69",
-          "Dato": "23.11.2025",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3822150"
-        },
-        {
-          "Tid": "2.03,69",
-          "Dato": "15.09.2024",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "288",
-          "RA": "2320",
-          "pid": "3517504"
-        },
-        {
-          "Tid": "2.49,72",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889349"
-        }
-      ]
-    },
-    {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "1.19,41",
+          "Dato": "30.11.2024",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1938",
+          "pid": "3585503"
+        },
+        {
+          "Tid": "1.20,84",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3674795",
+          "splits": [
+            ""
+          ],
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.24,64",
+          "Dato": "14.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3718299"
+        },
         {
           "Tid": "1.57,83",
           "Dato": "31.01.2026",
@@ -136,7 +248,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "155",
-          "RA": "1673",
+          "RA": "1675",
           "pid": "3859849"
         },
         {
@@ -248,6 +360,58 @@
           "RK": "",
           "RA": "",
           "pid": "3393876"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,19",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "119",
+          "RA": "1027",
+          "pid": "3962264",
+          "splits": [
+            "50,75",
+            "53,44"
+          ]
+        },
+        {
+          "Tid": "1.58,35",
+          "Dato": "14.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3720811",
+          "splits": [
+            "53,0",
+            "1.05,35"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.53,59",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3674794",
+          "splits": [
+            "1.20,84",
+            "1.32,75"
+          ]
         }
       ]
     }
