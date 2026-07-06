@@ -26,7 +26,10 @@ const TIL_DATO = process.env.TIL_DATO || "";
 // least-recently-checked first. This keeps each run well within the
 // 6-hour GitHub Actions timeout while cycling through all swimmers
 // over several runs.
-const MAX_SWIMMERS_PER_RUN = parseInt(process.env.MAX_SWIMMERS_PER_RUN || "500", 10);
+const MAX_SWIMMERS_PER_RUN = parseInt(
+  process.env.MAX_SWIMMERS_PER_RUN || "500",
+  10,
+);
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -256,13 +259,29 @@ async function main() {
       if (existing) {
         // Duplicate swimmer ID across files — keep the one with the
         // most races (indicates more complete data).
-        const existingCount = existing.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) || 0;
-        const newCount = data.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) || 0;
+        const existingCount =
+          existing.disciplines?.reduce(
+            (s, d) => s + (d.races?.length || 0),
+            0,
+          ) || 0;
+        const newCount =
+          data.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) ||
+          0;
         if (newCount > existingCount) {
-          console.warn(color(C.yellow, `  ⚠ Duplicate swimmer ID ${id}: using ${fp} (${newCount} races, newer)`));
+          console.warn(
+            color(
+              C.yellow,
+              `  ⚠ Duplicate swimmer ID ${id}: using ${fp} (${newCount} races, newer)`,
+            ),
+          );
           existingDataMap.set(id, data);
         } else {
-          console.warn(color(C.dim, `  ⚠ Duplicate swimmer ID ${id}: skipping ${fp} (${newCount} races ≤ existing ${existingCount})`));
+          console.warn(
+            color(
+              C.dim,
+              `  ⚠ Duplicate swimmer ID ${id}: skipping ${fp} (${newCount} races ≤ existing ${existingCount})`,
+            ),
+          );
         }
       } else {
         existingDataMap.set(id, data);
@@ -272,7 +291,10 @@ async function main() {
     }
   }
   console.log(
-    color(C.dim, `  ${existingDataMap.size} swimmers with existing data on disk`),
+    color(
+      C.dim,
+      `  ${existingDataMap.size} swimmers with existing data on disk`,
+    ),
   );
 
   // Track ALL swimmers successfully checked in this run (for lastChecked)
@@ -288,7 +310,10 @@ async function main() {
     }
   }
   console.log(
-    color(C.dim, `  ${lastCheckedMap.size} swimmers have lastChecked timestamps`),
+    color(
+      C.dim,
+      `  ${lastCheckedMap.size} swimmers have lastChecked timestamps`,
+    ),
   );
 
   console.log("Launching browser …");
@@ -333,7 +358,10 @@ async function main() {
   const skipped = allSwimmers.length - batch.length;
 
   console.log(
-    color(C.dim, `  Processing batch of ${batch.length} swimmers (${skipped} deferred to next run)`),
+    color(
+      C.dim,
+      `  Processing batch of ${batch.length} swimmers (${skipped} deferred to next run)`,
+    ),
   );
 
   let saved = 0;
@@ -360,7 +388,7 @@ async function main() {
           1_800_000,
           `loadUntilIdx(${currentIndex})`,
         );
-        
+
         if (!found) {
           // Index-based lookup failed. Reload page and try name-based lookup.
           page = await reloadPage(page, browser, BASE_URL);
@@ -402,10 +430,16 @@ async function main() {
         // Process the swimmer — grid parse, dedup, split extraction, merge, save
         const existingEntry = existingDataMap.get(sw.id) || null;
         const result = await withTimeout(
-          processSwimmer(page, sw, currentIndex, {
-            SWIMMERS_DIR,
-            processedInSession: processed,
-          }, existingEntry),
+          processSwimmer(
+            page,
+            sw,
+            currentIndex,
+            {
+              SWIMMERS_DIR,
+              processedInSession: processed,
+            },
+            existingEntry,
+          ),
           14_400_000,
           sw.text,
         );
@@ -415,14 +449,16 @@ async function main() {
           // successful progress resets the fatal-timeout counter
           fatalTimeouts = 0;
           swimmerOk = true;
-        } else if (result.identityMismatch) {
+        } else if (result.identityMismatch && attempts < 3) {
           // Wrong swimmer selected — reload page, look up by name, and retry
           console.log(
-            color(C.yellow, `  ⚠ ${sw.text}: Identity mismatch — reloading and re-finding by name...`)
+            color(
+              C.yellow,
+              `  ⚠ ${sw.text}: Identity mismatch — reloading and re-finding by name...`,
+            ),
           );
           try {
             page = await reloadPage(page, browser, BASE_URL);
-            // Try name-based lookup for next attempt
             const nameIdx = await withTimeout(
               findSwimmerIdx(page, sw.text),
               1_800_000,
@@ -431,13 +467,25 @@ async function main() {
             if (nameIdx !== null) {
               currentIndex = nameIdx;
               console.log(
-                color(C.yellow, `    Found by name, retrying (attempt ${attempts + 1}/3)...`)
+                color(
+                  C.yellow,
+                  `    Found by name, retrying (attempt ${attempts + 1}/3)...`,
+                ),
               );
             }
           } catch (e) {
             console.log(color(C.red, `    Name lookup failed: ${e.message}`));
           }
           // Don't set swimmerOk — retry loop will attempt again with the new index
+        } else if (result.identityMismatch) {
+          // Out of retries — give up on this swimmer
+          console.log(
+            color(
+              C.red,
+              `  ✗ ${sw.text}: Identity mismatch after ${attempts} attempts, skipping`,
+            ),
+          );
+          swimmerOk = true;
         } else {
           // No new races or grid never loaded — skip without retry.
           swimmerOk = true;
