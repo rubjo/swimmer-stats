@@ -347,24 +347,22 @@ async function main() {
   for (const sw of batch) {
     processed++;
 
-    // Retry loop (3 attempts with page reload on timeout)
+    // Retry loop (3 attempts with page reload on timeout/mismatch)
     let attempts = 0;
     let swimmerOk = false;
+    let currentIndex = sw.index;
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        // Position the combo box to this swimmer's index.
-        // ~4650 items, ~2.5s per viewport scroll, needs up to 600 scrolls
-        // for late-alphabet swimmers. 30 min timeout gives headroom even
-        // when the server is slow.
+        // Try to load by index, falling back to name lookup if that fails
         let found = await withTimeout(
-          loadUntilIdx(page, sw.index).catch(() => false),
+          loadUntilIdx(page, currentIndex).catch(() => false),
           1_800_000,
-          `loadUntilIdx(${sw.index})`,
+          `loadUntilIdx(${currentIndex})`,
         );
+        
         if (!found) {
-          // Index-based lookup failed. Reload page (may have stuck CDP),
-          // then try name-based lookup.
+          // Index-based lookup failed. Reload page and try name-based lookup.
           page = await reloadPage(page, browser, BASE_URL);
 
           const nameIdx = await withTimeout(
@@ -373,15 +371,13 @@ async function main() {
             `findSwimmerIdx(${sw.text})`,
           );
           if (nameIdx !== null) {
-            sw.index = nameIdx; // update index for future use
+            currentIndex = nameIdx; // update index for future retries
             console.log(
               color(
                 C.yellow,
                 `  ${sw.text} — found by name after reload, proceeding...`,
               ),
             );
-            // Found by name — proceed directly to processSwimmer
-            // (don't retry loadUntilIdx, which would just reload the page)
             found = true;
           } else if (attempts < 3) {
             console.log(
@@ -406,7 +402,7 @@ async function main() {
         // Process the swimmer — grid parse, dedup, split extraction, merge, save
         const existingEntry = existingDataMap.get(sw.id) || null;
         const result = await withTimeout(
-          processSwimmer(page, sw, sw.index, {
+          processSwimmer(page, sw, currentIndex, {
             SWIMMERS_DIR,
             processedInSession: processed,
           }, existingEntry),
@@ -420,14 +416,28 @@ async function main() {
           fatalTimeouts = 0;
           swimmerOk = true;
         } else if (result.identityMismatch) {
-          // Wrong swimmer selected — reload page and retry
+          // Wrong swimmer selected — reload page, look up by name, and retry
           console.log(
-            color(C.yellow, `  ⚠ ${sw.text}: Identity mismatch — reloading page for retry...`)
+            color(C.yellow, `  ⚠ ${sw.text}: Identity mismatch — reloading and re-finding by name...`)
           );
           try {
             page = await reloadPage(page, browser, BASE_URL);
-          } catch {}
-          // Don't set swimmerOk — retry loop will attempt a fresh selection
+            // Try name-based lookup for next attempt
+            const nameIdx = await withTimeout(
+              findSwimmerIdx(page, sw.text),
+              1_800_000,
+              `findSwimmerIdx(${sw.text}) after mismatch`,
+            );
+            if (nameIdx !== null) {
+              currentIndex = nameIdx;
+              console.log(
+                color(C.yellow, `    Found by name, retrying (attempt ${attempts + 1}/3)...`)
+              );
+            }
+          } catch (e) {
+            console.log(color(C.red, `    Name lookup failed: ${e.message}`));
+          }
+          // Don't set swimmerOk — retry loop will attempt again with the new index
         } else {
           // No new races or grid never loaded — skip without retry.
           swimmerOk = true;
