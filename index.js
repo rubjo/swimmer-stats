@@ -246,7 +246,16 @@ async function reloadPage(page, browser, baseUrl) {
 /* ─── Main sequential scrape loop ──────────────────────────────────── */
 
 async function main() {
-  console.log("\n=== Incremental scrape — checking for new races ===\n");
+  function toDDMMYYYY(iso) {
+    if (!iso) return "";
+    const [y, m, d] = iso.split("-");
+    return `${d}.${m}.${y}`;
+  }
+  const tilDatoDisplay = TIL_DATO || new Date().toISOString().slice(0, 10);
+  console.log(`\n=== Incremental scrape — checking for new races ===`);
+  console.log(
+    `  Date range: ${toDDMMYYYY(FRA_DATO)} → ${toDDMMYYYY(tilDatoDisplay)}${TIL_DATO ? "" : " (today)"}`,
+  );
 
   // Load ALL existing swimmer data from disk into a map keyed by swimmer ID.
   // This gives us the existing races for dedup (by PID) and merge.
