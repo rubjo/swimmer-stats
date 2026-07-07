@@ -385,77 +385,83 @@ async function main() {
     let swimmerOk = false;
     let currentIndex = sw.index;
 
+    // When true (page was reloaded, stale index is unreliable), the retry
+    // loop will skip loadUntilIdx and attempt findSwimmerIdx directly.
+    let useNameLookup = false;
+
     // If the previous swimmer's processing triggered a page reload, the
     // combo has been re-initialized and discovery indices may no longer
     // match. Use name-based lookup to re-establish the correct index.
     if (pageReloaded) {
       pageReloaded = false;
-      const nameIdx = await withTimeout(
-        findSwimmerIdx(page, sw.text),
-        1_800_000,
-        `findSwimmerIdx(${sw.text}) after page reload`,
+      useNameLookup = true;
+      console.log(
+        color(
+          C.dim,
+          `  ${sw.text} — discovering index (name lookup after reload)`,
+        ),
       );
-      if (nameIdx !== null) {
-        currentIndex = nameIdx;
-        console.log(
-          color(C.yellow, `  ${sw.text} — re-found by name after reload`),
-        );
-      } else {
-        // Name lookup failed on a freshly-loaded combo. Reload and retry.
-        page = await reloadPage(page, browser, BASE_URL);
-        await loadAllComboItems(page);
-        pageReloaded = true;
-      }
     }
 
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
-        // Try to load by index, falling back to name lookup if that fails
-        let found = await withTimeout(
-          loadUntilIdx(page, currentIndex).catch(() => false),
-          1_800_000,
-          `loadUntilIdx(${currentIndex})`,
-        );
+        let found = false;
 
-        if (!found) {
-          // Index-based lookup failed. Reload page, fully load combo items,
-          // then try name-based lookup.
-          page = await reloadPage(page, browser, BASE_URL);
-          pageReloaded = true;
-          await loadAllComboItems(page);
-
+        if (useNameLookup) {
+          // Name-based lookup: the combo was reloaded and stale indices
+          // may select the wrong swimmer, so skip loadUntilIdx entirely.
+          useNameLookup = false;
           const nameIdx = await withTimeout(
             findSwimmerIdx(page, sw.text),
             1_800_000,
             `findSwimmerIdx(${sw.text})`,
           );
           if (nameIdx !== null) {
-            currentIndex = nameIdx; // update index for future retries
+            currentIndex = nameIdx;
             console.log(
-              color(
-                C.yellow,
-                `  ${sw.text} — found by name after reload, proceeding...`,
-              ),
+              color(C.yellow, `  ${sw.text} — found by name, proceeding...`),
             );
             found = true;
-          } else if (attempts < 3) {
-            console.log(
-              color(
-                C.yellow,
-                `  ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
-              ),
-            );
-            continue;
           } else {
-            console.log(
-              color(
-                C.red,
-                `  ${sw.text} not found in combo (after 3 attempts)`,
-              ),
-            );
-            swimmerOk = true;
-            break;
+            // Name lookup failed. Reload, fully load combo, and retry.
+            page = await reloadPage(page, browser, BASE_URL);
+            await loadAllComboItems(page);
+            useNameLookup = true;
+            if (attempts < 3) {
+              console.log(
+                color(
+                  C.yellow,
+                  `  ${sw.text} not found in combo (attempt ${attempts}/3), reloading...`,
+                ),
+              );
+            } else {
+              console.log(
+                color(
+                  C.red,
+                  `  ${sw.text} not found in combo (after 3 attempts)`,
+                ),
+              );
+              swimmerOk = true;
+            }
+            continue;
+          }
+        } else {
+          // Normal index-based lookup
+          found = await withTimeout(
+            loadUntilIdx(page, currentIndex).catch(() => false),
+            1_800_000,
+            `loadUntilIdx(${currentIndex})`,
+          );
+
+          if (!found) {
+            // Index-based lookup failed. Reload, load all combo items,
+            // then try name-based lookup.
+            page = await reloadPage(page, browser, BASE_URL);
+            pageReloaded = true;
+            await loadAllComboItems(page);
+            useNameLookup = true;
+            continue;
           }
         }
 
@@ -493,6 +499,10 @@ async function main() {
             page = await reloadPage(page, browser, BASE_URL);
             pageReloaded = true;
             await loadAllComboItems(page);
+            // On the next retry, use name-based lookup (skip stale index)
+            useNameLookup = true;
+            // Also try immediately — if successful, the next retry uses the
+            // fresh index instead of wasting an attempt on stale loadUntilIdx.
             const nameIdx = await withTimeout(
               findSwimmerIdx(page, sw.text),
               1_800_000,
@@ -510,7 +520,7 @@ async function main() {
           } catch (e) {
             console.log(color(C.red, `    Name lookup failed: ${e.message}`));
           }
-          // Don't set swimmerOk — retry loop will attempt again with the new index
+          // Don't set swimmerOk — retry loop will attempt again
         } else if (result.identityMismatch) {
           // Out of retries — give up on this swimmer
           console.log(
@@ -575,6 +585,7 @@ async function main() {
             page = await reloadPage(page, browser, BASE_URL);
             pageReloaded = true;
             await loadAllComboItems(page);
+            useNameLookup = true;
             if (attempts < 3)
               console.log(color(C.dim, `    retry ${attempts}/3...`));
           } catch {
