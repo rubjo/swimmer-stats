@@ -7,6 +7,7 @@ import {
   navigateAndFilter,
   loadUntilIdx,
   findSwimmerIdx,
+  loadAllComboItems,
 } from "./lib/browser.js";
 import { processSwimmer } from "./lib/swimmer.js";
 
@@ -372,6 +373,10 @@ async function main() {
   let fatalTimeouts = 0;
   const MAX_FATAL_TIMEOUTS = 3;
 
+  // Track page reloads — after a reload the combo data store is reset and
+  // the discovery-to-processing index mapping may be invalid.
+  let pageReloaded = false;
+
   for (const sw of batch) {
     processed++;
 
@@ -379,6 +384,30 @@ async function main() {
     let attempts = 0;
     let swimmerOk = false;
     let currentIndex = sw.index;
+
+    // If the previous swimmer's processing triggered a page reload, the
+    // combo has been re-initialized and discovery indices may no longer
+    // match. Use name-based lookup to re-establish the correct index.
+    if (pageReloaded) {
+      pageReloaded = false;
+      const nameIdx = await withTimeout(
+        findSwimmerIdx(page, sw.text),
+        1_800_000,
+        `findSwimmerIdx(${sw.text}) after page reload`,
+      );
+      if (nameIdx !== null) {
+        currentIndex = nameIdx;
+        console.log(
+          color(C.yellow, `  ${sw.text} — re-found by name after reload`),
+        );
+      } else {
+        // Name lookup failed on a freshly-loaded combo. Reload and retry.
+        page = await reloadPage(page, browser, BASE_URL);
+        await loadAllComboItems(page);
+        pageReloaded = true;
+      }
+    }
+
     while (attempts < 3 && !swimmerOk) {
       attempts++;
       try {
@@ -390,8 +419,11 @@ async function main() {
         );
 
         if (!found) {
-          // Index-based lookup failed. Reload page and try name-based lookup.
+          // Index-based lookup failed. Reload page, fully load combo items,
+          // then try name-based lookup.
           page = await reloadPage(page, browser, BASE_URL);
+          pageReloaded = true;
+          await loadAllComboItems(page);
 
           const nameIdx = await withTimeout(
             findSwimmerIdx(page, sw.text),
@@ -459,6 +491,8 @@ async function main() {
           );
           try {
             page = await reloadPage(page, browser, BASE_URL);
+            pageReloaded = true;
+            await loadAllComboItems(page);
             const nameIdx = await withTimeout(
               findSwimmerIdx(page, sw.text),
               1_800_000,
@@ -539,6 +573,8 @@ async function main() {
 
           try {
             page = await reloadPage(page, browser, BASE_URL);
+            pageReloaded = true;
+            await loadAllComboItems(page);
             if (attempts < 3)
               console.log(color(C.dim, `    retry ${attempts}/3...`));
           } catch {
