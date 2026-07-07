@@ -79,8 +79,7 @@ jobs:
       - name: Run scraper
         env:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
-          FRA_DATO: 2000-01-01
-          TIL_DATO: 2026-06-18
+          FRA_DATO: 2026-06-19
         run: node index.js
 
       # Commit any leftover data not yet pushed by in-script checkpoints
