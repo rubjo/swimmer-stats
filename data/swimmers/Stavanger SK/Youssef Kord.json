@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-26T14:33:34.208Z",
+  "timestamp": "2026-07-07T18:01:27.959Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -60,6 +60,16 @@
           "RA": "",
           "pid": "3934234",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,38",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3979327"
         }
       ]
     },
@@ -167,6 +177,25 @@
           "splits": [
             "42,60",
             "46,38"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.47,26",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "692",
+          "pid": "3979677",
+          "splits": [
+            "49,09",
+            "58,17"
           ]
         }
       ]
