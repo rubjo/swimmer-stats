@@ -4,7 +4,7 @@
   "club": "Førde IL Symjing",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-06-22T23:02:52.244Z",
+  "timestamp": "2026-07-08T10:46:04.703Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -542,6 +542,27 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "28,09",
+          "Dato": "28.06.2026",
+          "Sted": "Varberg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "71",
+          "RA": "408",
+          "pid": "3981624"
+        },
+        {
+          "Tid": "29,52",
+          "Dato": "26.06.2026",
+          "Sted": "Varberg",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3981840",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -1183,6 +1204,16 @@
             ""
           ],
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "31,46",
+          "Dato": "27.06.2026",
+          "Sted": "Varberg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "84",
+          "RA": "428",
+          "pid": "3981465"
         }
       ]
     },
@@ -1761,6 +1792,20 @@
             "50,36"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.03,90",
+          "Dato": "26.06.2026",
+          "Sted": "Varberg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "80",
+          "RA": "429",
+          "pid": "3981839",
+          "splits": [
+            "29,52",
+            "34,38"
+          ]
         }
       ]
     },
@@ -3468,6 +3513,21 @@
             "50,96",
             "49,55"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "35,92",
+          "Dato": "28.06.2026",
+          "Sted": "Varberg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3981524"
         }
       ]
     }
