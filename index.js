@@ -16,6 +16,18 @@ const BASE_URL = "https://www.medley.no/svommer.aspx";
 const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
+const ROSTER_FILE = path.join(DATA_DIR, "roster.json");
+
+// How long a cached roster stays valid before a full re-discovery is forced.
+// The roster is the full {id, text, index} swimmer list from the combo box.
+// Full discovery is the slowest, flakiest part of a run, so we cache it and
+// only rebuild periodically (or when FORCE_DISCOVERY=1). Index positions can
+// drift as swimmers are added/removed server-side, but the existing identity
+// check + name-lookup retry already corrects stale indices, so a slightly
+// stale roster is safe — it never corrupts saved data.
+const ROSTER_MAX_AGE_MS =
+  parseInt(process.env.ROSTER_MAX_AGE_HOURS || "168", 10) * 3_600_000;
+const FORCE_DISCOVERY = process.env.FORCE_DISCOVERY === "1";
 
 // Date range for incremental scraping.
 // Default to 2026-06-19 (the day after the initial full scrape ended).
@@ -63,6 +75,7 @@ function gitCheckpoint(label) {
         timeout: 60_000,
       });
     } catch {
+      // Push rejected (likely remote moved) — rebase and retry once.
       execSync(`git pull --rebase origin main`, {
         stdio: "ignore",
         timeout: 30_000,
@@ -72,7 +85,13 @@ function gitCheckpoint(label) {
         timeout: 60_000,
       });
     }
-  } catch {}
+  } catch (err) {
+    // A failed checkpoint means committed progress may not be on the remote.
+    // Surface it instead of silently continuing as if the push succeeded.
+    console.warn(
+      color(C.red, `  ⚠ gitCheckpoint("${label}") failed: ${err.message}`),
+    );
+  }
 }
 
 /* ─── ANSI color helpers ─────────────────────────────────────────── */
@@ -215,6 +234,72 @@ async function discoverAllSwimmers(browser, baseUrl) {
 }
 
 /**
+ * Load the swimmer roster, preferring a cached data/roster.json over a full
+ * combo-box scroll. Full discovery runs only when the cache is missing,
+ * unreadable, older than ROSTER_MAX_AGE_MS, or FORCE_DISCOVERY=1.
+ *
+ * When a fresh discovery runs, the result is written back to roster.json.
+ * A stale roster is safe: index positions may drift, but the per-swimmer
+ * identity check and name-lookup retry correct that without touching saved
+ * race data.
+ */
+async function getRoster(browser, baseUrl) {
+  if (!FORCE_DISCOVERY) {
+    try {
+      if (fs.existsSync(ROSTER_FILE)) {
+        const raw = JSON.parse(fs.readFileSync(ROSTER_FILE, "utf-8"));
+        const ageMs = Date.now() - new Date(raw.generatedAt || 0).getTime();
+        if (
+          Array.isArray(raw.swimmers) &&
+          raw.swimmers.length > 0 &&
+          ageMs < ROSTER_MAX_AGE_MS
+        ) {
+          const ageH = Math.round(ageMs / 3_600_000);
+          console.log(
+            color(
+              C.green,
+              `  Using cached roster: ${raw.swimmers.length} swimmers (${ageH}h old)`,
+            ),
+          );
+          return raw.swimmers;
+        }
+        console.log(
+          color(C.dim, `  Roster cache stale/empty — running full discovery`),
+        );
+      }
+    } catch {
+      console.log(
+        color(C.dim, `  Roster cache unreadable — running full discovery`),
+      );
+    }
+  } else {
+    console.log(color(C.dim, `  FORCE_DISCOVERY=1 — running full discovery`));
+  }
+
+  const swimmers = await discoverAllSwimmers(browser, baseUrl);
+  if (swimmers.length > 0) {
+    try {
+      if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+      fs.writeFileSync(
+        ROSTER_FILE,
+        JSON.stringify(
+          { generatedAt: new Date().toISOString(), swimmers },
+          null,
+          2,
+        ),
+        "utf-8",
+      );
+      console.log(color(C.dim, `  Roster cached to ${ROSTER_FILE}`));
+    } catch (err) {
+      console.warn(
+        color(C.yellow, `  ⚠ Could not write roster cache: ${err.message}`),
+      );
+    }
+  }
+  return swimmers;
+}
+
+/**
  * Reload the page (navigate back to BASE_URL, re-apply filters).
  * If the page is stuck, creates a fresh one.
  */
@@ -333,10 +418,10 @@ async function main() {
     protocolTimeout: 300_000,
   });
 
-  // ── Discover all swimmers ───────────────────────────────────────
-  console.log("Discovering swimmers (scanning combo box)...");
-  const allSwimmers = await discoverAllSwimmers(browser, BASE_URL);
-  console.log(color(C.green, `  Found ${allSwimmers.length} swimmers`));
+  // ── Discover all swimmers (cached roster when fresh) ────────────
+  console.log("Loading swimmer roster…");
+  const allSwimmers = await getRoster(browser, BASE_URL);
+  console.log(color(C.green, `  ${allSwimmers.length} swimmers in roster`));
 
   // ── Create main processing page ──────────────────────────────────
   let page = await browser.newPage();
@@ -355,6 +440,12 @@ async function main() {
   //    save and shouldn't wait behind existing swimmers.
   // 2. Existing swimmers by lastChecked ascending (most overdue first),
   //    so we cycle fairly through all swimmers over multiple runs.
+  //
+  // NOTE: on warm runs `allSwimmers` comes from the cached roster, which
+  // won't include swimmers added server-side since the roster was built.
+  // Those are picked up when the roster refreshes (ROSTER_MAX_AGE_HOURS,
+  // default weekly) or on a FORCE_DISCOVERY=1 run. This delays — but never
+  // drops — brand-new swimmers, and never affects already-saved data.
   const sortedSwimmers = [...allSwimmers].sort((a, b) => {
     const aNew = existingDataMap.has(a.id) ? 1 : 0;
     const bNew = existingDataMap.has(b.id) ? 1 : 0;
@@ -377,6 +468,13 @@ async function main() {
   let saved = 0;
   let processed = 0;
   const total = batch.length;
+
+  // Checkpoint bookkeeping: rebuild index + git push whenever a new save
+  // lands OR every CHECKPOINT_EVERY processed swimmers (so lastChecked
+  // advances even when a run is mostly no-op checks).
+  const CHECKPOINT_EVERY = 25;
+  let lastCheckpointSaved = 0;
+  let lastCheckpointProcessed = 0;
 
   // Fatal timeout counter: when this reaches MAX_FATAL_TIMEOUTS we checkpoint & exit.
   let fatalTimeouts = 0;
@@ -613,8 +711,14 @@ async function main() {
     // so lastChecked is persisted in the index during the next rebuild.
     if (swimmerOk) processedIds.add(sw.id);
 
-    // Checkpoint every 10 saves: rebuild index + git commit + push
-    if (saved > 0 && saved % 10 === 0) {
+    // Checkpoint on a save boundary OR every CHECKPOINT_EVERY processed
+    // swimmers. The processed-based trigger matters because most checks
+    // find no new races (no save), so a save-only checkpoint would never
+    // advance lastChecked for those swimmers — a crash between saves would
+    // re-pick them next run and the batch could stall on the same backlog.
+    const saveBoundary = saved > 0 && saved - lastCheckpointSaved >= 10;
+    const processedBoundary = processed - lastCheckpointProcessed >= CHECKPOINT_EVERY;
+    if (saveBoundary || processedBoundary) {
       rebuildIndex({
         swimmersDir: SWIMMERS_DIR,
         dataDir: DATA_DIR,
@@ -622,8 +726,15 @@ async function main() {
         baseUrl: BASE_URL,
         processedIds,
       });
-      gitCheckpoint(`${saved} swimmers`);
-      console.log(color(C.dim, `  Checkpoint: ${saved} swimmers saved`));
+      gitCheckpoint(`${saved} saved / ${processed} checked`);
+      console.log(
+        color(
+          C.dim,
+          `  Checkpoint: ${saved} saved, ${processed} checked`,
+        ),
+      );
+      lastCheckpointSaved = saved;
+      lastCheckpointProcessed = processed;
     }
 
     // Log progress every 50 swimmers
