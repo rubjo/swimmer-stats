@@ -44,6 +44,26 @@ const MAX_SWIMMERS_PER_RUN = parseInt(
   10,
 );
 
+// Per-swimmer time budgets. A batch of 500 must fit inside the 6-hour
+// GitHub Actions ceiling (~43s/swimmer), so a single swimmer must never be
+// allowed to consume minutes/hours. These caps skip a stuck swimmer instead
+// of letting one drain the whole run before the first checkpoint lands.
+const SWIMMER_TIMEOUT_MS = parseInt(
+  process.env.SWIMMER_TIMEOUT_MS || "90000", // 90s to fully process one swimmer
+  10,
+);
+const LOOKUP_TIMEOUT_MS = parseInt(
+  process.env.LOOKUP_TIMEOUT_MS || "120000", // 120s to locate one swimmer in the combo
+  10,
+);
+
+// Global run budget: stop cleanly and checkpoint before Actions force-kills
+// the job at 6h. A clean exit lets lastChecked advance so the batch rotates.
+const RUN_BUDGET_MS = parseInt(
+  process.env.RUN_BUDGET_MS || String(5 * 3_600_000 + 20 * 60_000), // 5h20m
+  10,
+);
+
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -470,11 +490,20 @@ async function main() {
   const total = batch.length;
 
   // Checkpoint bookkeeping: rebuild index + git push whenever a new save
-  // lands OR every CHECKPOINT_EVERY processed swimmers (so lastChecked
-  // advances even when a run is mostly no-op checks).
-  const CHECKPOINT_EVERY = 25;
+  // lands OR every CHECKPOINT_EVERY processed swimmers OR every
+  // CHECKPOINT_INTERVAL_MS of wall-clock time (whichever comes first), so
+  // lastChecked advances — and progress becomes durable — long before the
+  // 6h Actions ceiling. A low interval matters because a run can be killed
+  // mid-batch; without a recent checkpoint, lastChecked never advances and
+  // the next run re-picks the same overdue swimmers, stalling on the front.
+  const CHECKPOINT_EVERY = 10;
+  const CHECKPOINT_INTERVAL_MS = 10 * 60_000; // 10 minutes
   let lastCheckpointSaved = 0;
   let lastCheckpointProcessed = 0;
+  let lastCheckpointAt = Date.now();
+
+  // Global run budget: once exceeded, checkpoint and exit cleanly.
+  const runStart = Date.now();
 
   // Fatal timeout counter: when this reaches MAX_FATAL_TIMEOUTS we checkpoint & exit.
   let fatalTimeouts = 0;
@@ -521,7 +550,7 @@ async function main() {
           useNameLookup = false;
           const nameIdx = await withTimeout(
             findSwimmerIdx(page, sw.text),
-            1_800_000,
+            LOOKUP_TIMEOUT_MS,
             `findSwimmerIdx(${sw.text})`,
           );
           if (nameIdx !== null) {
@@ -557,7 +586,7 @@ async function main() {
           // Normal index-based lookup
           found = await withTimeout(
             loadUntilIdx(page, currentIndex).catch(() => false),
-            1_800_000,
+            LOOKUP_TIMEOUT_MS,
             `loadUntilIdx(${currentIndex})`,
           );
 
@@ -585,7 +614,7 @@ async function main() {
             },
             existingEntry,
           ),
-          14_400_000,
+          SWIMMER_TIMEOUT_MS,
           sw.text,
         );
 
@@ -612,7 +641,7 @@ async function main() {
             // fresh index instead of wasting an attempt on stale loadUntilIdx.
             const nameIdx = await withTimeout(
               findSwimmerIdx(page, sw.text),
-              1_800_000,
+              LOOKUP_TIMEOUT_MS,
               `findSwimmerIdx(${sw.text}) after mismatch`,
             );
             if (nameIdx !== null) {
@@ -711,14 +740,15 @@ async function main() {
     // so lastChecked is persisted in the index during the next rebuild.
     if (swimmerOk) processedIds.add(sw.id);
 
-    // Checkpoint on a save boundary OR every CHECKPOINT_EVERY processed
-    // swimmers. The processed-based trigger matters because most checks
-    // find no new races (no save), so a save-only checkpoint would never
-    // advance lastChecked for those swimmers — a crash between saves would
-    // re-pick them next run and the batch could stall on the same backlog.
+    // Checkpoint on a save boundary, every CHECKPOINT_EVERY processed
+    // swimmers, OR every CHECKPOINT_INTERVAL_MS. Most checks find no new
+    // races (no save), so a save-only checkpoint would never advance
+    // lastChecked for those swimmers — a kill between saves would re-pick
+    // them next run and the batch would stall on the same front block.
     const saveBoundary = saved > 0 && saved - lastCheckpointSaved >= 10;
     const processedBoundary = processed - lastCheckpointProcessed >= CHECKPOINT_EVERY;
-    if (saveBoundary || processedBoundary) {
+    const timeBoundary = Date.now() - lastCheckpointAt >= CHECKPOINT_INTERVAL_MS;
+    if (saveBoundary || processedBoundary || timeBoundary) {
       rebuildIndex({
         swimmersDir: SWIMMERS_DIR,
         dataDir: DATA_DIR,
@@ -735,6 +765,29 @@ async function main() {
       );
       lastCheckpointSaved = saved;
       lastCheckpointProcessed = processed;
+      lastCheckpointAt = Date.now();
+    }
+
+    // Global run budget: stop cleanly before Actions force-kills the job so
+    // the just-written checkpoint (and lastChecked) survives and the batch
+    // rotates on the next run instead of re-processing the same front block.
+    if (Date.now() - runStart >= RUN_BUDGET_MS) {
+      console.log(
+        color(
+          C.red,
+          `  ✗ Run budget (${Math.round(RUN_BUDGET_MS / 60_000)}m) reached — checkpointing and exiting`,
+        ),
+      );
+      rebuildIndex({
+        swimmersDir: SWIMMERS_DIR,
+        dataDir: DATA_DIR,
+        indexFile: INDEX_FILE,
+        baseUrl: BASE_URL,
+        processedIds,
+      });
+      gitCheckpoint(`partial — run budget reached (${processed} checked)`);
+      await browser.close().catch(() => {});
+      process.exit(0);
     }
 
     // Log progress every 50 swimmers
