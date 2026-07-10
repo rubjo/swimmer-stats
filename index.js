@@ -7,7 +7,6 @@ import {
   navigateAndFilter,
   loadUntilIdx,
   findSwimmerIdx,
-  loadAllComboItems,
 } from "./lib/browser.js";
 import { processSwimmer } from "./lib/swimmer.js";
 
@@ -175,8 +174,12 @@ async function discoverAllSwimmers(browser, baseUrl) {
     }
 
     // Phase A: Load suffix (cursor → end)
+    let timedOut = false;
     for (let i = 0; i < 80; i++) {
-      if (Date.now() - startMs > MAX_DISCOVERY_MS) break;
+      if (Date.now() - startMs > MAX_DISCOVERY_MS) {
+        timedOut = true;
+        break;
+      }
       const prevCount = cmbUtover.GetItemCount();
       const prevScroll = d.scrollTop;
       d.scrollTop = d.scrollHeight;
@@ -186,6 +189,7 @@ async function discoverAllSwimmers(browser, baseUrl) {
       }
       if (!(await waitForGrowth(prevCount))) break;
     }
+    if (Date.now() - startMs > MAX_DISCOVERY_MS) timedOut = true;
 
     // Phase B: Reload prefix by closing & reopening
     if (Date.now() - startMs < MAX_DISCOVERY_MS) {
@@ -232,13 +236,13 @@ async function discoverAllSwimmers(browser, baseUrl) {
         break;
       }
     }
-    return { swimmers: all };
+    return { swimmers: all, timedOut, loadedCount: cmbUtover.GetItemCount() };
   });
 
   if (rawData.error) {
     console.log(color(C.red, `  Discovery error: ${rawData.error}`));
     await page.close();
-    return [];
+    return { swimmers: [], complete: false };
   }
 
   await page.evaluate(() => {
@@ -249,8 +253,26 @@ async function discoverAllSwimmers(browser, baseUrl) {
   await page.close();
 
   const swimmers = rawData.swimmers;
-  console.log(color(C.dim, `  Found ${swimmers.length} swimmers`));
-  return swimmers;
+  // A discovery is "complete" only if the scroll loop exhausted the list
+  // naturally (rather than hitting the MAX_DISCOVERY_MS ceiling). A timed-out
+  // discovery has almost certainly loaded only a prefix of the combo, so its
+  // roster must not be trusted to overwrite a good cached one.
+  const complete = !rawData.timedOut;
+  if (rawData.timedOut) {
+    console.log(
+      color(
+        C.yellow,
+        `  ⚠ Discovery hit the time limit — roster likely partial (${swimmers.length} of ~${rawData.loadedCount} loaded)`,
+      ),
+    );
+  }
+  console.log(
+    color(
+      C.dim,
+      `  Found ${swimmers.length} swimmers (${complete ? "complete" : "partial"})`,
+    ),
+  );
+  return { swimmers, complete };
 }
 
 /**
@@ -258,46 +280,62 @@ async function discoverAllSwimmers(browser, baseUrl) {
  * combo-box scroll. Full discovery runs only when the cache is missing,
  * unreadable, older than ROSTER_MAX_AGE_MS, or FORCE_DISCOVERY=1.
  *
- * When a fresh discovery runs, the result is written back to roster.json.
- * A stale roster is safe: index positions may drift, but the per-swimmer
- * identity check and name-lookup retry correct that without touching saved
- * race data.
+ * When a fresh discovery runs, the result is written back to roster.json —
+ * but only if it is trustworthy. A discovery that timed out (partial) or that
+ * returns fewer swimmers than the existing cache is NOT written over a good
+ * cache, so a truncated run can never silently drop swimmers (e.g. names near
+ * the end of the alphabet). The partial list is still used for the current run
+ * so work isn't wasted; only the persisted cache is protected.
+ *
+ * A stale-but-complete roster is safe: index positions may drift, but the
+ * per-swimmer identity check and name-lookup retry correct that without
+ * touching saved race data.
  */
 async function getRoster(browser, baseUrl) {
-  if (!FORCE_DISCOVERY) {
-    try {
-      if (fs.existsSync(ROSTER_FILE)) {
-        const raw = JSON.parse(fs.readFileSync(ROSTER_FILE, "utf-8"));
-        const ageMs = Date.now() - new Date(raw.generatedAt || 0).getTime();
-        if (
-          Array.isArray(raw.swimmers) &&
-          raw.swimmers.length > 0 &&
-          ageMs < ROSTER_MAX_AGE_MS
-        ) {
-          const ageH = Math.round(ageMs / 3_600_000);
-          console.log(
-            color(
-              C.green,
-              `  Using cached roster: ${raw.swimmers.length} swimmers (${ageH}h old)`,
-            ),
-          );
-          return raw.swimmers;
-        }
-        console.log(
-          color(C.dim, `  Roster cache stale/empty — running full discovery`),
-        );
-      }
-    } catch {
-      console.log(
-        color(C.dim, `  Roster cache unreadable — running full discovery`),
-      );
+  // Read whatever is cached (even if stale) so we can (a) return it when fresh
+  // and (b) protect it from being overwritten by a shorter/partial discovery.
+  let cached = null;
+  try {
+    if (fs.existsSync(ROSTER_FILE)) {
+      const raw = JSON.parse(fs.readFileSync(ROSTER_FILE, "utf-8"));
+      if (Array.isArray(raw.swimmers)) cached = raw;
     }
-  } else {
+  } catch {
+    console.log(
+      color(C.dim, `  Roster cache unreadable — running full discovery`),
+    );
+  }
+
+  if (!FORCE_DISCOVERY && cached && cached.swimmers.length > 0) {
+    const ageMs = Date.now() - new Date(cached.generatedAt || 0).getTime();
+    if (ageMs < ROSTER_MAX_AGE_MS) {
+      const ageH = Math.round(ageMs / 3_600_000);
+      console.log(
+        color(
+          C.green,
+          `  Using cached roster: ${cached.swimmers.length} swimmers (${ageH}h old)`,
+        ),
+      );
+      return cached.swimmers;
+    }
+    console.log(
+      color(C.dim, `  Roster cache stale — running full discovery`),
+    );
+  } else if (FORCE_DISCOVERY) {
     console.log(color(C.dim, `  FORCE_DISCOVERY=1 — running full discovery`));
   }
 
-  const swimmers = await discoverAllSwimmers(browser, baseUrl);
-  if (swimmers.length > 0) {
+  const { swimmers, complete } = await discoverAllSwimmers(browser, baseUrl);
+  const cachedCount = cached?.swimmers?.length || 0;
+
+  // Only overwrite the cache when the new discovery is at least as trustworthy
+  // as the existing one: it must be complete (didn't time out) AND not shrink
+  // the known roster. Otherwise keep the old cache but still use the fresh
+  // partial list for this run.
+  const trustworthy =
+    swimmers.length > 0 && complete && swimmers.length >= cachedCount;
+
+  if (trustworthy) {
     try {
       if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
       fs.writeFileSync(
@@ -315,6 +353,25 @@ async function getRoster(browser, baseUrl) {
         color(C.yellow, `  ⚠ Could not write roster cache: ${err.message}`),
       );
     }
+  } else if (swimmers.length > 0) {
+    console.log(
+      color(
+        C.yellow,
+        `  ⚠ Not overwriting roster cache — discovery was ${
+          !complete ? "partial" : `shorter (${swimmers.length} < cached ${cachedCount})`
+        }; using fresh list for this run only`,
+      ),
+    );
+  }
+
+  // Use the fresh list if we got one; otherwise fall back to the cached roster
+  // so a failed discovery doesn't leave the run with nothing.
+  if (swimmers.length > 0) return swimmers;
+  if (cachedCount > 0) {
+    console.log(
+      color(C.yellow, `  ⚠ Discovery empty — falling back to cached roster`),
+    );
+    return cached.swimmers;
   }
   return swimmers;
 }
@@ -560,9 +617,9 @@ async function main() {
             );
             found = true;
           } else {
-            // Name lookup failed. Reload, fully load combo, and retry.
+            // Name lookup failed. Reload and retry — findSwimmerIdx filters
+            // server-side, so no full combo pre-load is needed.
             page = await reloadPage(page, browser, BASE_URL);
-            await loadAllComboItems(page);
             useNameLookup = true;
             if (attempts < 3) {
               console.log(
@@ -591,11 +648,10 @@ async function main() {
           );
 
           if (!found) {
-            // Index-based lookup failed. Reload, load all combo items,
-            // then try name-based lookup.
+            // Index-based lookup failed. Reload, then try name-based lookup
+            // (findSwimmerIdx filters server-side — no full pre-load needed).
             page = await reloadPage(page, browser, BASE_URL);
             pageReloaded = true;
-            await loadAllComboItems(page);
             useNameLookup = true;
             continue;
           }
@@ -634,7 +690,6 @@ async function main() {
           try {
             page = await reloadPage(page, browser, BASE_URL);
             pageReloaded = true;
-            await loadAllComboItems(page);
             // On the next retry, use name-based lookup (skip stale index)
             useNameLookup = true;
             // Also try immediately — if successful, the next retry uses the
@@ -720,7 +775,6 @@ async function main() {
           try {
             page = await reloadPage(page, browser, BASE_URL);
             pageReloaded = true;
-            await loadAllComboItems(page);
             useNameLookup = true;
             if (attempts < 3)
               console.log(color(C.dim, `    retry ${attempts}/3...`));
