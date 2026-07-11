@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-30T03:42:38.683Z",
+  "timestamp": "2026-07-11T06:35:35.863Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -48,6 +48,16 @@
           "RK": "",
           "RA": "",
           "pid": "3830390"
+        },
+        {
+          "Tid": "41,14",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1431",
+          "pid": "3979380"
         }
       ]
     },
@@ -73,6 +83,17 @@
           "RK": "",
           "RA": "",
           "pid": "3830207"
+        },
+        {
+          "Tid": "51,73",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "136",
+          "RA": "1148",
+          "pid": "3979539",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -88,6 +109,25 @@
           "RK": "147",
           "RA": "1005",
           "pid": "3946418"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,01",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "939",
+          "pid": "3979538",
+          "splits": [
+            "51,73",
+            "58,28"
+          ]
         }
       ]
     }
