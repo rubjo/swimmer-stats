@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-07-01T06:53:15.213Z",
+  "timestamp": "2026-07-11T12:18:51.783Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1444,6 +1444,17 @@
           "RK": "",
           "RA": "",
           "pid": "2538238",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "27,69",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3979568",
           "partOf": "100m Fri"
         }
       ]
@@ -4020,6 +4031,20 @@
           "splits": [
             "",
             ""
+          ]
+        },
+        {
+          "Tid": "58,14",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3979567",
+          "splits": [
+            "27,69",
+            "30,45"
           ]
         }
       ]
