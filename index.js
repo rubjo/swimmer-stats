@@ -25,13 +25,19 @@ const ROSTER_FILE = path.join(DATA_DIR, "roster.json");
 // check + name-lookup retry already corrects stale indices, so a slightly
 // stale roster is safe — it never corrupts saved data.
 const ROSTER_MAX_AGE_MS =
-  parseInt(process.env.ROSTER_MAX_AGE_HOURS || "168", 10) * 3_600_000;
+  parseInt(process.env.ROSTER_MAX_AGE_HOURS || "48", 10) * 3_600_000;
 const FORCE_DISCOVERY = process.env.FORCE_DISCOVERY === "1";
 
 // Date range for incremental scraping.
-// Default to 2026-06-19 (the day after the initial full scrape ended).
-// Override via env var to narrow the window for subsequent runs.
-const FRA_DATO = process.env.FRA_DATO || "2026-06-19";
+// Trailing window: default FRA_DATO to LOOKBACK_DAYS before today so the
+// per-run grid stays small and constant instead of widening forever.
+// Dedup-by-PID makes overlap harmless; the window only needs to exceed one
+// full batch-rotation cycle so no new race can slip through between visits.
+// An explicit FRA_DATO env var still overrides (handy for one-off backfills).
+const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "30", 10);
+const FRA_DATO =
+  process.env.FRA_DATO ||
+  new Date(Date.now() - LOOKBACK_DAYS * 86_400_000).toISOString().slice(0, 10);
 const TIL_DATO = process.env.TIL_DATO || "";
 
 // Batch size: process at most this many swimmers per run, sorted by
@@ -318,9 +324,7 @@ async function getRoster(browser, baseUrl) {
       );
       return cached.swimmers;
     }
-    console.log(
-      color(C.dim, `  Roster cache stale — running full discovery`),
-    );
+    console.log(color(C.dim, `  Roster cache stale — running full discovery`));
   } else if (FORCE_DISCOVERY) {
     console.log(color(C.dim, `  FORCE_DISCOVERY=1 — running full discovery`));
   }
@@ -358,7 +362,9 @@ async function getRoster(browser, baseUrl) {
       color(
         C.yellow,
         `  ⚠ Not overwriting roster cache — discovery was ${
-          !complete ? "partial" : `shorter (${swimmers.length} < cached ${cachedCount})`
+          !complete
+            ? "partial"
+            : `shorter (${swimmers.length} < cached ${cachedCount})`
         }; using fresh list for this run only`,
       ),
     );
@@ -800,8 +806,10 @@ async function main() {
     // lastChecked for those swimmers — a kill between saves would re-pick
     // them next run and the batch would stall on the same front block.
     const saveBoundary = saved > 0 && saved - lastCheckpointSaved >= 10;
-    const processedBoundary = processed - lastCheckpointProcessed >= CHECKPOINT_EVERY;
-    const timeBoundary = Date.now() - lastCheckpointAt >= CHECKPOINT_INTERVAL_MS;
+    const processedBoundary =
+      processed - lastCheckpointProcessed >= CHECKPOINT_EVERY;
+    const timeBoundary =
+      Date.now() - lastCheckpointAt >= CHECKPOINT_INTERVAL_MS;
     if (saveBoundary || processedBoundary || timeBoundary) {
       rebuildIndex({
         swimmersDir: SWIMMERS_DIR,
@@ -812,10 +820,7 @@ async function main() {
       });
       gitCheckpoint(`${saved} saved / ${processed} checked`);
       console.log(
-        color(
-          C.dim,
-          `  Checkpoint: ${saved} saved, ${processed} checked`,
-        ),
+        color(C.dim, `  Checkpoint: ${saved} saved, ${processed} checked`),
       );
       lastCheckpointSaved = saved;
       lastCheckpointProcessed = processed;
