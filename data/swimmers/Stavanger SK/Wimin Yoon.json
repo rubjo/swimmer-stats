@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-07-03T02:45:11.908Z",
+  "timestamp": "2026-07-13T18:27:03.332Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -54,6 +54,17 @@
           "RK": "97",
           "RA": "1036",
           "pid": "3946246"
+        },
+        {
+          "Tid": "47,47",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3979423",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -154,6 +165,44 @@
             "48,77",
             "50,35",
             "47,42"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.33,28",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "57",
+          "RA": "571",
+          "pid": "3979699",
+          "splits": [
+            "45,19",
+            "48,09"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.42,18",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "669",
+          "pid": "3979422",
+          "splits": [
+            "47,47",
+            "54,71"
           ]
         }
       ]
