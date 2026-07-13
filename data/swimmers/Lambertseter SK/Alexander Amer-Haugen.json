@@ -1,9 +1,60 @@
 {
-  "swimmerId": "54010",
+  "swimmerId": "51095",
   "name": "Alexander Amer-Haugen",
   "club": "Lambertseter SK",
   "birthYear": 2014,
-  "gender": null,
-  "timestamp": "2026-07-13T17:58:34.712Z",
-  "disciplines": []
+  "gender": "male",
+  "timestamp": "2026-07-13T19:42:54.846Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,82",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "75",
+          "RA": "1075",
+          "pid": "3975611"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,43",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3976399",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,95",
+          "Dato": "14.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3976398",
+          "splits": [
+            "51,43",
+            "1.00,52"
+          ]
+        }
+      ]
+    }
+  ]
 }
