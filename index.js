@@ -101,14 +101,27 @@ function gitCheckpoint(label) {
       });
     } catch {
       // Push rejected (likely remote moved) — rebase and retry once.
-      execSync(`git pull --rebase origin main`, {
-        stdio: "ignore",
-        timeout: 30_000,
-      });
-      execSync(`git push origin HEAD:main`, {
-        stdio: "ignore",
-        timeout: 60_000,
-      });
+      try {
+        execSync(`git pull --rebase origin main`, {
+          stdio: "ignore",
+          timeout: 30_000,
+        });
+        execSync(`git push origin HEAD:main`, {
+          stdio: "ignore",
+          timeout: 60_000,
+        });
+      } catch {
+        // Rebase failed (likely merge conflict in data/index.json).
+        // Abort the rebase to leave a clean working tree, then
+        // force-push our local commit — it has the authoritative data.
+        try {
+          execSync(`git rebase --abort`, { stdio: "ignore", timeout: 10_000 });
+        } catch {}
+        execSync(`git push --force origin HEAD:main`, {
+          stdio: "ignore",
+          timeout: 60_000,
+        });
+      }
     }
   } catch (err) {
     // A failed checkpoint means committed progress may not be on the remote.
