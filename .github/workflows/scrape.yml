@@ -80,6 +80,8 @@ jobs:
         env:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
           LOOKBACK_DAYS: "30"
+          BACKFILL_ENABLED: "1"
+          BACKFILL_NEW_PER_RUN: "10"
         run: node index.js
 
       # Commit any leftover data not yet pushed by in-script checkpoints
