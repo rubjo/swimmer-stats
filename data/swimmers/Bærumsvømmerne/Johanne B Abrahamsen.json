@@ -1,0 +1,55 @@
+{
+  "swimmerId": "13706",
+  "name": "Johanne B Abrahamsen",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-08T19:18:37.844Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,17",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "225",
+          "RA": "1485",
+          "pid": "654195"
+        },
+        {
+          "Tid": "42,34",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "725781",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,46",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1302",
+          "pid": "654009",
+          "splits": [
+            "42,34",
+            "52,12"
+          ]
+        }
+      ]
+    }
+  ]
+}
