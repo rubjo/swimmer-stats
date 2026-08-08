@@ -503,7 +503,10 @@ async function runDiscoveryOnly(scope) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 300_000,
+    // The whole discovery runs inside ONE page.evaluate (CDP call), which can
+    // legitimately take up to DISCOVERY_ONLY_MAX_MS. 300s (the general default)
+    // would time it out on a large full-roster pass.
+    protocolTimeout: DISCOVERY_ONLY_MAX_MS + 60_000,
   });
   try {
     const roster = await getRoster(browser, BASE_URL, {
@@ -928,7 +931,9 @@ async function main() {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    protocolTimeout: 300_000,
+    // Backfill runs a full-roster discovery (up to MAX_FULL_DISCOVERY_MS)
+    // inside a single page.evaluate — keep the CDP timeout above that budget.
+    protocolTimeout: MAX_FULL_DISCOVERY_MS + 60_000,
   });
 
   // ── Discover all swimmers (cached roster when fresh) ────────────
