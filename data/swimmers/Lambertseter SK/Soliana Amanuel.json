@@ -1,0 +1,60 @@
+{
+  "swimmerId": "34444",
+  "name": "Soliana Amanuel",
+  "club": "Lambertseter SK",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-11T22:35:32.096Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,31",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1432",
+          "pid": "2771705"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,86",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "183",
+          "RA": "1193",
+          "pid": "2772177",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,29",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1025",
+          "pid": "2772176",
+          "splits": [
+            "51,86",
+            "59,43"
+          ]
+        }
+      ]
+    }
+  ]
+}
