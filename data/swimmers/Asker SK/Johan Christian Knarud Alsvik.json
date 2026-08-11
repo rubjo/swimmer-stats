@@ -1,0 +1,107 @@
+{
+  "swimmerId": "33807",
+  "name": "Johan Christian Knarud Alsvik",
+  "club": "Asker SK",
+  "birthYear": 2007,
+  "gender": "male",
+  "timestamp": "2026-08-11T21:58:28.496Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,36",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "155",
+          "RA": "1168",
+          "pid": "2667204"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,16",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "186",
+          "RA": "1552",
+          "pid": "2668406",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,37",
+          "Dato": "03.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2669725",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,63",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "156",
+          "RA": "1292",
+          "pid": "2668405",
+          "splits": [
+            "57,16",
+            "1.04,47"
+          ]
+        },
+        {
+          "Tid": "2.04,03",
+          "Dato": "03.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2669726",
+          "splits": [
+            "59,37",
+            "1.04,66"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.17,25",
+          "Dato": "03.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "965",
+          "pid": "2669724",
+          "splits": [
+            "59,37",
+            "1.04,66",
+            "1.07,51",
+            "1.05,71"
+          ]
+        }
+      ]
+    }
+  ]
+}
