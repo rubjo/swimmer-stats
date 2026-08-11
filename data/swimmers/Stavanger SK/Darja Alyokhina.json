@@ -1,0 +1,90 @@
+{
+  "swimmerId": "15562",
+  "name": "Darja Alyokhina",
+  "club": "Stavanger SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-11T22:34:17.435Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,12",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "283",
+          "RA": "2231",
+          "pid": "964458"
+        },
+        {
+          "Tid": "51,62",
+          "Dato": "28.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2009",
+          "pid": "810903"
+        },
+        {
+          "Tid": "51,72",
+          "Dato": "04.12.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "850500"
+        },
+        {
+          "Tid": "53,92",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1041602",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,43",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "245",
+          "RA": "1849",
+          "pid": "964677"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,10",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "243",
+          "RA": "1906",
+          "pid": "965104",
+          "splits": [
+            "53,92",
+            "1.02,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

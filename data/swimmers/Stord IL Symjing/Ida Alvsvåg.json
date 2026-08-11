@@ -1,0 +1,70 @@
+{
+  "swimmerId": "22022",
+  "name": "Ida Alvsvåg",
+  "club": "Stord IL Symjing",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-11T22:33:44.131Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,74",
+          "Dato": "07.06.2015",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "302",
+          "RA": "1924",
+          "pid": "1583070"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,19",
+          "Dato": "07.06.2015",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1410",
+          "pid": "1583245"
+        },
+        {
+          "Tid": "52,22",
+          "Dato": "07.06.2015",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1665123",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,31",
+          "Dato": "07.06.2015",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1284",
+          "pid": "1583006",
+          "splits": [
+            "52,22",
+            "59,09"
+          ]
+        }
+      ]
+    }
+  ]
+}
