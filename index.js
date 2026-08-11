@@ -581,51 +581,65 @@ function computeBackfillCandidates(full, licensed, existingIds, limit) {
  */
 
 // After navigateAndFilter toggles the "Kun lisensiert" checkbox off, the
-// full-roster combo reload is a multi-phase server callback whose in-flight
-// gaps can fool navigateAndFilter's wait loop into returning early. On top of
-// that, the page fires an INITIAL grid callback for the default swimmer's
-// full history (2000→today) that can take ~10s+ to complete. Selecting a
-// swimmer while either callback is still in flight races the selection — the
-// combo clobbers it, or the grid result gets overwritten by the slow initial
-// callback, leaving the grid header-only forever (poll times out as "never
-// loaded"). settleComboForBackfill waits until BOTH the combo (its index-1
-// item matches the first full-roster swimmer we know from the roster cache)
-// and the grid report as idle, twice in a row, before the first selection.
-async function settleComboForBackfill(page, firstFullId, timeoutMs = 60_000) {
-  const t0 = Date.now();
-  let quiet = 0;
-  while (Date.now() - t0 < timeoutMs) {
-    const ok = await page.evaluate((id) => {
-      try {
-        const item = cmbUtover.GetItem(1);
-        if (!item || String(item.value) !== String(id)) return false;
-        let gridBusy = true;
+// full-roster combo reload is a multi-phase server callback. Backfill no longer
+// selects positionally against that full combo — it filters by name+id per
+// candidate (see the loop below), which returns a tight set in seconds and
+// doesn't depend on the whole 43k-item list being loaded. The old
+// settleComboForBackfill wait loop is gone with that positional path.
+
+/**
+ * Is the backfill page still a live, usable DevExpress page? A candidate that
+ * times out (or a reload that half-fails) can leave the page wedged: the DOM
+ * is there but the `cmbUtover` combo global is gone or throws. Selecting a
+ * swimmer on such a page throws the cryptic "Cannot read properties of null
+ * (reading 'value')" from deep inside DevExpress. This check is the guard: a
+ * short, timeout-bounded probe that confirms the combo exists and answers
+ * GetItemCount() without throwing. Any throw, timeout, or missing global ⇒
+ * not alive ⇒ caller hard-recreates the page.
+ */
+async function backfillPageIsAlive(page, timeoutMs = 8_000) {
+  try {
+    return await withTimeout(
+      page.evaluate(() => {
         try {
-          gridBusy = grdRanking.InCallback();
+          return (
+            typeof cmbUtover !== "undefined" &&
+            cmbUtover != null &&
+            typeof cmbUtover.GetItemCount === "function" &&
+            cmbUtover.GetItemCount() >= 0
+          );
         } catch {
-          gridBusy = false;
+          return false;
         }
-        if (gridBusy) return false;
-        return !cmbUtover.InCallback();
-      } catch {
-        return false;
-      }
-    }, firstFullId);
-    if (ok) {
-      quiet++;
-      if (quiet >= 2) return true;
-    } else {
-      quiet = 0;
-    }
-    await new Promise((r) => setTimeout(r, 1_000));
+      }),
+      timeoutMs,
+      "backfill page liveness probe",
+    );
+  } catch {
+    // evaluate itself hung or the page/context is gone.
+    return false;
   }
-  console.log(
-    color(
-      C.yellow,
-      "  ⇠ backfill — ⚠ page never settled to idle; continuing anyway",
-    ),
+}
+
+/**
+ * Tear down the current backfill page and build a fresh one with the backfill
+ * filters (kunLisensiert:false + full date range). Used when a candidate times
+ * out or the page fails a liveness check — a soft reloadPage isn't enough for a
+ * wedged page, so we discard it entirely. Throws if a fresh page can't be
+ * brought up (caller decides whether to abort the batch).
+ */
+async function recreateBackfillPage(oldPage, browser, backfillFilters) {
+  try {
+    await oldPage.close();
+  } catch {}
+  const page = await browser.newPage();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   );
-  return false;
+  await page.setViewport({ width: 1400, height: 900 });
+  await navigateAndFilter(page, BASE_URL, backfillFilters);
+  return page;
 }
 
 /* ─── Backfill (non-licensed swimmers) ──────────────────────────── */
@@ -708,22 +722,66 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
 
   for (let i = 0; i < candidates.length; i++) {
     const sw = candidates[i];
+
+    // Before touching a candidate, make sure the page survived the previous
+    // one. A timed-out or wedged page (missing/throwing cmbUtover) would make
+    // selectSwimmer throw the cryptic null-`.value` error and cascade the
+    // failure across every remaining candidate. If the page is dead, hard-
+    // recreate it (a soft reload can't revive a wedged combo). If we can't even
+    // bring a fresh page up, the browser is likely gone — abort the batch
+    // rather than spin through the rest failing identically.
+    if (!(await backfillPageIsAlive(backfillPage))) {
+      console.log(
+        color(C.yellow, `  ⇠ backfill — page not alive, recreating before ${sw.text}`),
+      );
+      try {
+        backfillPage = await recreateBackfillPage(
+          backfillPage,
+          browser,
+          backfillFilters,
+        );
+      } catch (err) {
+        console.log(
+          color(
+            C.red,
+            `  ⇠ backfill — could not recreate page (${(err.message || String(err)).slice(0, 80)}); aborting backfill`,
+          ),
+        );
+        break;
+      }
+    }
+
     let attempt = 0;
     while (true) {
       try {
-        // The combo can still be mid full-roster reload after a fresh
-        // navigateAndFilter (or a reload retry) — wait for it to settle so
-        // the selection isn't clobbered by the combo callback.
-        const firstFullItem =
-          fullRoster.find((x) => x.index === 1) || fullRoster[0];
-        if (firstFullItem) {
-          await settleComboForBackfill(backfillPage, firstFullItem.id);
+        // Select by server-side name filter, disambiguated by id. Typing the
+        // surname makes the server return a tight candidate set in seconds, so
+        // this never depends on the full 43k-item combo being scroll-loaded
+        // (the old settleComboForBackfill path did). findSwimmerIdx prefers the
+        // item whose value === sw.id, so same-named swimmers can't collide.
+        const filterIdx = await withTimeout(
+          findSwimmerIdx(backfillPage, sw.text, { id: sw.id }),
+          LOOKUP_TIMEOUT_MS,
+          `backfill findSwimmerIdx(${sw.text})`,
+        );
+        if (filterIdx === null) {
+          // Not found via filter — leave as a candidate for a future run
+          // rather than guessing a stale positional index (which could select
+          // the wrong swimmer and pollute their file).
+          empty++;
+          console.log(
+            color(
+              C.yellow,
+              `  ⇠ backfill — ⚠ ${sw.text} — not found via filter (will retry next run)`,
+            ),
+          );
+          break;
         }
         const result = await withTimeout(
           processSwimmer(
             backfillPage,
             sw,
-            sw.index,
+            filterIdx,
             {
               SWIMMERS_DIR,
               gridPollTimeoutMs: 20_000,
@@ -773,22 +831,37 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
         break;
       } catch (err) {
         empty++;
+        const msg = err.message || String(err);
+        // A timeout almost always means the page is wedged (a slow/hung
+        // full-history load). Recovering it with a soft reload is unreliable
+        // and tends to leave a half-dead combo that poisons the next
+        // candidates — so treat a timeout as fatal to the page and hard-
+        // recreate it. Non-timeout errors get one soft reload attempt.
+        const timedOut = /timed out/i.test(msg);
         console.log(
-          color(
-            C.yellow,
-            `  ⇠ backfill — ⚠ ${sw.text}: ${(err.message || String(err)).slice(0, 80)}`,
-          ),
+          color(C.yellow, `  ⇠ backfill — ⚠ ${sw.text}: ${msg.slice(0, 80)}`),
         );
-        // Reload the backfill page (restores full mode) and continue with the
-        // next candidate — one reload, no infinite retry loop.
         try {
-          backfillPage = await reloadPage(
-            backfillPage,
-            browser,
-            BASE_URL,
-            backfillFilters,
+          backfillPage = timedOut
+            ? await recreateBackfillPage(backfillPage, browser, backfillFilters)
+            : await reloadPage(
+                backfillPage,
+                browser,
+                BASE_URL,
+                backfillFilters,
+              );
+        } catch (recErr) {
+          // Recovery failed — the page is unusable and we couldn't get a
+          // fresh one. Surface it (don't swallow) and abort the batch; the
+          // remaining candidates stay candidates for the next run.
+          console.log(
+            color(
+              C.red,
+              `  ⇠ backfill — page recovery failed (${(recErr.message || String(recErr)).slice(0, 80)}); aborting backfill`,
+            ),
           );
-        } catch {}
+          return saved;
+        }
         break;
       }
     }
@@ -1047,7 +1120,7 @@ async function main() {
           // may select the wrong swimmer, so skip loadUntilIdx entirely.
           useNameLookup = false;
           const nameIdx = await withTimeout(
-            findSwimmerIdx(page, sw.text),
+            findSwimmerIdx(page, sw.text, { id: sw.id }),
             LOOKUP_TIMEOUT_MS,
             `findSwimmerIdx(${sw.text})`,
           );
@@ -1136,7 +1209,7 @@ async function main() {
             // Also try immediately — if successful, the next retry uses the
             // fresh index instead of wasting an attempt on stale loadUntilIdx.
             const nameIdx = await withTimeout(
-              findSwimmerIdx(page, sw.text),
+              findSwimmerIdx(page, sw.text, { id: sw.id }),
               LOOKUP_TIMEOUT_MS,
               `findSwimmerIdx(${sw.text}) after mismatch`,
             );
