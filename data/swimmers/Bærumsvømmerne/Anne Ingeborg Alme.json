@@ -1,0 +1,92 @@
+{
+  "swimmerId": "25274",
+  "name": "Anne Ingeborg Alme",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-11T20:57:53.621Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,20",
+          "Dato": "08.01.2017",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "262",
+          "RA": "1520",
+          "pid": "1974373"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,47",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "254",
+          "RA": "1713",
+          "pid": "1928786",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "56,30",
+          "Dato": "07.01.2017",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "319",
+          "RA": "1798",
+          "pid": "1973123"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,04",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "243",
+          "RA": "1547",
+          "pid": "1905490",
+          "splits": [
+            "54,47",
+            "1.05,57"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.15,57",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "1225",
+          "pid": "1860161",
+          "splits": [
+            "54,47",
+            "1.05,57",
+            "1.08,63",
+            "1.06,90"
+          ]
+        }
+      ]
+    }
+  ]
+}
