@@ -1,0 +1,268 @@
+{
+  "swimmerId": "10000",
+  "name": "Aleksander Rådahl Ahlsen",
+  "club": "Haldens SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-11T19:25:04.359Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,15",
+          "Dato": "14.09.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "1396",
+          "pid": "374946"
+        },
+        {
+          "Tid": "45,64",
+          "Dato": "04.05.2008",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "358593"
+        },
+        {
+          "Tid": "45,64",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "416885",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "47,38",
+          "Dato": "04.05.2008",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "410778",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,49",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "898",
+          "pid": "382720"
+        },
+        {
+          "Tid": "51,20",
+          "Dato": "14.09.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "374893"
+        },
+        {
+          "Tid": "52,17",
+          "Dato": "14.09.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "414082",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,28",
+          "Dato": "04.05.2008",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "358499"
+        },
+        {
+          "Tid": "54,36",
+          "Dato": "04.05.2008",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "410779",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,38",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "416887",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,28",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "171",
+          "RA": "1205",
+          "pid": "416884",
+          "splits": [
+            "45,64",
+            "52,64"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.43,75",
+          "Dato": "04.05.2008",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "358450",
+          "splits": [
+            "47,38",
+            "56,37"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.47,33",
+          "Dato": "14.09.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "594",
+          "pid": "375045",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,86",
+          "Dato": "14.09.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "129",
+          "RA": "778",
+          "pid": "375078",
+          "splits": [
+            "52,17",
+            "1.01,69"
+          ]
+        },
+        {
+          "Tid": "1.57,64",
+          "Dato": "04.05.2008",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "358634",
+          "splits": [
+            "54,36",
+            "1.03,28"
+          ]
+        },
+        {
+          "Tid": "1.57,68",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "416886",
+          "splits": [
+            "55,38",
+            "1.02,30"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.39,81",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "770",
+          "pid": "383013",
+          "splits": [
+            "45,64",
+            "52,64",
+            "58,76",
+            "1.02,77"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.57,76",
+          "Dato": "11.10.2008",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "532",
+          "pid": "383298",
+          "splits": [
+            "55,38",
+            "1.02,30",
+            "1.01,58",
+            "58,50"
+          ]
+        }
+      ]
+    }
+  ]
+}
