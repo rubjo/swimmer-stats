@@ -1,0 +1,80 @@
+{
+  "swimmerId": "25153",
+  "name": "Aurora Benedicte Brinch Aleksandersen",
+  "club": "Tønsberg SK",
+  "birthYear": 2006,
+  "gender": "female",
+  "timestamp": "2026-08-11T20:21:03.036Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,06",
+          "Dato": "01.04.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "2255",
+          "pid": "2014109"
+        },
+        {
+          "Tid": "49,51",
+          "Dato": "30.10.2016",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2367",
+          "pid": "1848859"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,41",
+          "Dato": "01.04.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "210",
+          "RA": "1906",
+          "pid": "2157517",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.00,02",
+          "Dato": "30.10.2016",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1955",
+          "pid": "1848678"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.04,61",
+          "Dato": "01.04.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "183",
+          "RA": "1662",
+          "pid": "2014878",
+          "splits": [
+            "58,41",
+            "1.06,20"
+          ]
+        }
+      ]
+    }
+  ]
+}
