@@ -1,0 +1,70 @@
+{
+  "swimmerId": "13081",
+  "name": "Kevin Aksum",
+  "club": "Holmestrand IF",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-11T20:09:28.579Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,11",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "196",
+          "RA": "1637",
+          "pid": "836585"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,75",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "1278",
+          "pid": "836342"
+        },
+        {
+          "Tid": "56,68",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "909330",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,35",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1096",
+          "pid": "836451",
+          "splits": [
+            "56,68",
+            "1.05,67"
+          ]
+        }
+      ]
+    }
+  ]
+}
