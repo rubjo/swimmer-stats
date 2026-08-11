@@ -113,6 +113,15 @@ const BACKFILL_SWIMMER_TIMEOUT_MS = parseInt(
 // candidates for the next run.
 const BACKFILL_MIN_REMAINING_MS = 15 * 60_000;
 
+// Backfill-only mode: dedicate the ENTIRE run to backfilling non-licensed
+// ("old") swimmers instead of the licensed incremental batch first and a small
+// backfill tail. The licensed loop is skipped entirely — useful when there are
+// no upcoming meets (e.g. the week before the season's first event), so the
+// hourly runs drain the ~39k-candidate pool at full speed. Candidates are
+// processed until the run budget is nearly exhausted, with periodic
+// checkpoints so a kill loses only the current swimmer.
+const BACKFILL_ONLY = process.env.BACKFILL_ONLY === "1";
+
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -217,95 +226,104 @@ async function discoverAllSwimmers(browser, baseUrl, opts = {}) {
 
   const rawData = await page.evaluate(
     async ({ MAX_DISCOVERY_MS, MAX_SUFFIX_SCROLLS }) => {
-    const startMs = Date.now();
+      const startMs = Date.now();
 
-    try {
-      cmbUtover.HideDropDown();
-    } catch {}
-    await new Promise((r) => setTimeout(r, 200));
-    try {
-      cmbUtover.ShowDropDown();
-      const d = cmbUtover.GetListBoxScrollDivElement();
-      if (d) d.scrollTop = 0;
-    } catch {}
-    await new Promise((r) => setTimeout(r, 600));
-
-    const d = cmbUtover.GetListBoxScrollDivElement();
-    if (!d) return { error: "no scroll div" };
-
-    // Wait for the loaded item count to grow past prevCount, re-jumping to the
-    // bottom once mid-way to re-trigger a slow callback. Returns true when it
-    // grew, "timeout" when the discovery budget ran out, false when the count
-    // stayed flat (list fully loaded).
-    async function pump(prevCount) {
-      for (let attempt = 0; attempt < 2; attempt++) {
-        if (attempt > 0) {
-          d.scrollTop = d.scrollHeight; // re-trigger the callback
-          await new Promise((r) => setTimeout(r, 3_000));
-        }
-        if (Date.now() - startMs > MAX_DISCOVERY_MS) return "timeout";
-        // 60 × 500ms = 30s per attempt. Batches can stall well past 10 s under
-        // server throttle — a too-short wait was truncating full-roster
-        // discoveries part-way through the list.
-        for (let p = 0; p < 60; p++) {
-          await new Promise((r) => setTimeout(r, 500));
-          if (Date.now() - startMs > MAX_DISCOVERY_MS) return "timeout";
-          if (cmbUtover.GetItemCount() > prevCount) return true;
-        }
-      }
-      return false;
-    }
-
-    // Phase A: load the ENTIRE list by jumping the listbox scrollbar to the
-    // bottom repeatedly. Empirically (probed against the live site) each jump
-    // lands on the freshly-growing bottom edge and triggers DevExpress to load
-    // the NEXT sequential batch (~100 items) — the loaded store grows
-    // contiguously 0..N-1 with no gaps, and scrollHeight grows as items load.
-    // (One-viewport scrolling does NOT trigger callbacks, and the old
-    // "jump to scrollHeight skips the middle" belief does not hold here.)
-    //
-    // We are certain we reached the very last item when a bottom jump no
-    // longer moves the scrollbar AND the loaded count stays flat through pump's
-    // generous wait + re-jump retry.
-    let timedOut = false;
-    let exhausted = false;
-    for (let i = 0; i < MAX_SUFFIX_SCROLLS; i++) {
-      if (Date.now() - startMs > MAX_DISCOVERY_MS) { timedOut = true; break; }
-      const prevCount = cmbUtover.GetItemCount();
-      d.scrollTop = d.scrollHeight;
-      const grew = await pump(prevCount);
-      if (grew === "timeout") { timedOut = true; break; }
-      if (!grew) { exhausted = true; break; }
-    }
-    if (Date.now() - startMs > MAX_DISCOVERY_MS) timedOut = true;
-
-    // Phase B: read all items from the client data store. The store is
-    // cumulative — every loaded batch is retained even after the DOM scrolls
-    // away, so a single pass reading indices 0..N-1 captures everything.
-    const all = [];
-    for (let i = 0; ; i++) {
       try {
-        const item = cmbUtover.GetItem(i);
-        if (!item) {
-          if (all.length === 0) continue;
+        cmbUtover.HideDropDown();
+      } catch {}
+      await new Promise((r) => setTimeout(r, 200));
+      try {
+        cmbUtover.ShowDropDown();
+        const d = cmbUtover.GetListBoxScrollDivElement();
+        if (d) d.scrollTop = 0;
+      } catch {}
+      await new Promise((r) => setTimeout(r, 600));
+
+      const d = cmbUtover.GetListBoxScrollDivElement();
+      if (!d) return { error: "no scroll div" };
+
+      // Wait for the loaded item count to grow past prevCount, re-jumping to the
+      // bottom once mid-way to re-trigger a slow callback. Returns true when it
+      // grew, "timeout" when the discovery budget ran out, false when the count
+      // stayed flat (list fully loaded).
+      async function pump(prevCount) {
+        for (let attempt = 0; attempt < 2; attempt++) {
+          if (attempt > 0) {
+            d.scrollTop = d.scrollHeight; // re-trigger the callback
+            await new Promise((r) => setTimeout(r, 3_000));
+          }
+          if (Date.now() - startMs > MAX_DISCOVERY_MS) return "timeout";
+          // 60 × 500ms = 30s per attempt. Batches can stall well past 10 s under
+          // server throttle — a too-short wait was truncating full-roster
+          // discoveries part-way through the list.
+          for (let p = 0; p < 60; p++) {
+            await new Promise((r) => setTimeout(r, 500));
+            if (Date.now() - startMs > MAX_DISCOVERY_MS) return "timeout";
+            if (cmbUtover.GetItemCount() > prevCount) return true;
+          }
+        }
+        return false;
+      }
+
+      // Phase A: load the ENTIRE list by jumping the listbox scrollbar to the
+      // bottom repeatedly. Empirically (probed against the live site) each jump
+      // lands on the freshly-growing bottom edge and triggers DevExpress to load
+      // the NEXT sequential batch (~100 items) — the loaded store grows
+      // contiguously 0..N-1 with no gaps, and scrollHeight grows as items load.
+      // (One-viewport scrolling does NOT trigger callbacks, and the old
+      // "jump to scrollHeight skips the middle" belief does not hold here.)
+      //
+      // We are certain we reached the very last item when a bottom jump no
+      // longer moves the scrollbar AND the loaded count stays flat through pump's
+      // generous wait + re-jump retry.
+      let timedOut = false;
+      let exhausted = false;
+      for (let i = 0; i < MAX_SUFFIX_SCROLLS; i++) {
+        if (Date.now() - startMs > MAX_DISCOVERY_MS) {
+          timedOut = true;
           break;
         }
-        if (String(item.value) === "0") continue;
-        all.push({
-          id: String(item.value),
-          text: item.text.trim(),
-          index: i,
-        });
-      } catch {
-        break;
+        const prevCount = cmbUtover.GetItemCount();
+        d.scrollTop = d.scrollHeight;
+        const grew = await pump(prevCount);
+        if (grew === "timeout") {
+          timedOut = true;
+          break;
+        }
+        if (!grew) {
+          exhausted = true;
+          break;
+        }
       }
-    }
-    return {
-      swimmers: all,
-      timedOut,
-      exhausted,
-      loadedCount: cmbUtover.GetItemCount(),
-    };
+      if (Date.now() - startMs > MAX_DISCOVERY_MS) timedOut = true;
+
+      // Phase B: read all items from the client data store. The store is
+      // cumulative — every loaded batch is retained even after the DOM scrolls
+      // away, so a single pass reading indices 0..N-1 captures everything.
+      const all = [];
+      for (let i = 0; ; i++) {
+        try {
+          const item = cmbUtover.GetItem(i);
+          if (!item) {
+            if (all.length === 0) continue;
+            break;
+          }
+          if (String(item.value) === "0") continue;
+          all.push({
+            id: String(item.value),
+            text: item.text.trim(),
+            index: i,
+          });
+        } catch {
+          break;
+        }
+      }
+      return {
+        swimmers: all,
+        timedOut,
+        exhausted,
+        loadedCount: cmbUtover.GetItemCount(),
+      };
     },
     { MAX_DISCOVERY_MS: maxDiscoveryMs, MAX_SUFFIX_SCROLLS: maxSuffixScrolls },
   );
@@ -413,9 +431,13 @@ async function getRoster(browser, baseUrl, opts = {}) {
       );
       return cached.swimmers;
     }
-    console.log(color(C.dim, `  ${label} cache stale — running full discovery`));
+    console.log(
+      color(C.dim, `  ${label} cache stale — running full discovery`),
+    );
   } else if (force) {
-    console.log(color(C.dim, `  FORCE_DISCOVERY=1 — running ${label} discovery`));
+    console.log(
+      color(C.dim, `  FORCE_DISCOVERY=1 — running ${label} discovery`),
+    );
   }
 
   const { swimmers, complete } = await discoverAllSwimmers(browser, baseUrl, {
@@ -470,7 +492,10 @@ async function getRoster(browser, baseUrl, opts = {}) {
   if (swimmers.length > 0) return swimmers;
   if (cachedCount > 0) {
     console.log(
-      color(C.yellow, `  ⚠ ${label} discovery empty — falling back to cached roster`),
+      color(
+        C.yellow,
+        `  ⚠ ${label} discovery empty — falling back to cached roster`,
+      ),
     );
     return cached.swimmers;
   }
@@ -644,7 +669,18 @@ async function recreateBackfillPage(oldPage, browser, backfillFilters) {
 
 /* ─── Backfill (non-licensed swimmers) ──────────────────────────── */
 
-async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
+async function runBackfill({
+  browser,
+  licensedRoster,
+  existingIds,
+  runStart,
+  // Backfill-only mode (BACKFILL_ONLY=1): process candidates until the run
+  // budget is nearly exhausted (instead of a fixed BACKFILL_NEW_PER_RUN cap),
+  // with periodic in-loop checkpoints and lastChecked updates. Normal runs
+  // keep the current fixed-cap, no-checkpoint behavior.
+  backfillOnly = false,
+  processedIds = null,
+}) {
   if (!BACKFILL_ENABLED) return 0;
 
   const remainingMs = RUN_BUDGET_MS - (Date.now() - runStart);
@@ -686,7 +722,9 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
     fullRoster,
     licensedRoster,
     existingIds,
-    BACKFILL_NEW_PER_RUN,
+    // In backfill-only mode, take the whole pool — the budget check inside the
+    // loop stops the run. Normal mode keeps the fixed per-run cap.
+    backfillOnly ? fullRoster.length : BACKFILL_NEW_PER_RUN,
   );
   if (candidates.length === 0) {
     console.log(
@@ -703,7 +741,9 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
   console.log(
     color(
       C.dim,
-      `  ⇠ backfill: ${Math.max(0, candidatePool)} candidates, trying ${candidates.length}`,
+      backfillOnly
+        ? `  ⇠ backfill-only: ${Math.max(0, candidatePool)} candidates — processing until run budget exhausted`
+        : `  ⇠ backfill: ${Math.max(0, candidatePool)} candidates, trying ${candidates.length}`,
     ),
   );
 
@@ -720,8 +760,32 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
   let saved = 0;
   let empty = 0;
 
+  // In-loop checkpoint bookkeeping (backfill-only mode): rebuild index + git
+  // push on the same boundaries as the licensed loop — every 10 saves, every
+  // 25 processed, or every 10 minutes — so a kill (or the budget stop below)
+  // loses at most the current swimmer.
+  let lastCheckpointSaved = 0;
+  let lastCheckpointProcessed = 0;
+  let lastCheckpointAt = Date.now();
+
   for (let i = 0; i < candidates.length; i++) {
     const sw = candidates[i];
+
+    // Backfill-only mode: stop cleanly once the run budget is nearly
+    // exhausted so the final index rebuild + git push fit inside the Actions
+    // ceiling. (Normal mode keeps its fixed per-run cap.)
+    if (
+      backfillOnly &&
+      Date.now() - runStart >= RUN_BUDGET_MS - BACKFILL_MIN_REMAINING_MS
+    ) {
+      console.log(
+        color(
+          C.red,
+          `  ⇠ backfill-only — run budget nearly exhausted, stopping (${saved} saved, ${i} processed)`,
+        ),
+      );
+      break;
+    }
 
     // Before touching a candidate, make sure the page survived the previous
     // one. A timed-out or wedged page (missing/throwing cmbUtover) would make
@@ -732,7 +796,10 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
     // rather than spin through the rest failing identically.
     if (!(await backfillPageIsAlive(backfillPage))) {
       console.log(
-        color(C.yellow, `  ⇠ backfill — page not alive, recreating before ${sw.text}`),
+        color(
+          C.yellow,
+          `  ⇠ backfill — page not alive, recreating before ${sw.text}`,
+        ),
       );
       try {
         backfillPage = await recreateBackfillPage(
@@ -795,6 +862,7 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
         );
         if (result?.saved) {
           saved++;
+          processedIds?.add(sw.id);
           console.log(
             color(
               C.green,
@@ -865,6 +933,33 @@ async function runBackfill({ browser, licensedRoster, existingIds, runStart }) {
         break;
       }
     }
+
+    // Backfill-only mode: checkpoint on the same boundaries as the licensed
+    // loop — every 10 saves, every 25 processed, or every 10 minutes.
+    if (backfillOnly) {
+      const saveBoundary = saved > 0 && saved - lastCheckpointSaved >= 10;
+      const processedBoundary = i + 1 - lastCheckpointProcessed >= 25;
+      const timeBoundary = Date.now() - lastCheckpointAt >= 10 * 60_000;
+      if (saveBoundary || processedBoundary || timeBoundary) {
+        rebuildIndex({
+          swimmersDir: SWIMMERS_DIR,
+          dataDir: DATA_DIR,
+          indexFile: INDEX_FILE,
+          baseUrl: BASE_URL,
+          processedIds,
+        });
+        gitCheckpoint(`backfill-only: ${saved} saved / ${i + 1} processed`);
+        console.log(
+          color(
+            C.dim,
+            `  ⇠ backfill checkpoint: ${saved} saved, ${i + 1} processed`,
+          ),
+        );
+        lastCheckpointSaved = saved;
+        lastCheckpointProcessed = i + 1;
+        lastCheckpointAt = Date.now();
+      }
+    }
   }
 
   try {
@@ -912,11 +1007,152 @@ async function reloadPage(page, browser, baseUrl, filterOpts = {}) {
 
 /* ─── Main sequential scrape loop ──────────────────────────────────── */
 
+/**
+ * Load ALL existing swimmer data from disk into a Map keyed by swimmer ID.
+ * When a swimmer id appears in multiple files, the one with the most races
+ * wins (indicates more complete data). Corrupted files are skipped.
+ */
+function loadExistingDataMap() {
+  const map = new Map();
+  for (const fp of walkJsonFiles(SWIMMERS_DIR)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(fp, "utf-8"));
+      const id = String(data.swimmerId);
+      const existing = map.get(id);
+      if (existing) {
+        const existingCount =
+          existing.disciplines?.reduce(
+            (s, d) => s + (d.races?.length || 0),
+            0,
+          ) || 0;
+        const newCount =
+          data.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) ||
+          0;
+        if (newCount > existingCount) {
+          console.warn(
+            color(
+              C.yellow,
+              `  ⚠ Duplicate swimmer ID ${id}: using ${fp} (${newCount} races, newer)`,
+            ),
+          );
+          map.set(id, data);
+        } else {
+          console.warn(
+            color(
+              C.dim,
+              `  ⚠ Duplicate swimmer ID ${id}: skipping ${fp} (${newCount} races ≤ existing ${existingCount})`,
+            ),
+          );
+        }
+      } else {
+        map.set(id, data);
+      }
+    } catch {
+      /* skip corrupted */
+    }
+  }
+  return map;
+}
+
+/**
+ * Backfill-only run (BACKFILL_ONLY=1): dedicate the whole run budget to
+ * backfilling non-licensed swimmers instead of running the licensed
+ * incremental batch first. The licensed loop is skipped — when no meets are
+ * scheduled there are no new races to check — so every hour of the run drains
+ * the backfill candidate pool instead of checking licensed swimmers who have
+ * nothing new.
+ *
+ * Candidates = full roster − licensed roster − swimmers already on disk.
+ * They are processed with their FULL race history until the run budget is
+ * nearly exhausted, with periodic checkpoints (index rebuild + git push) so a
+ * kill loses only the current swimmer.
+ */
+async function runBackfillOnly() {
+  console.log(
+    "\n=== Backfill-only run — non-licensed swimmers, full history ===",
+  );
+  console.log(
+    color(
+      C.dim,
+      "  Licensed incremental batch skipped (BACKFILL_ONLY=1; no new races expected)",
+    ),
+  );
+
+  console.log("Loading existing swimmer data…");
+  const existingDataMap = loadExistingDataMap();
+  console.log(
+    color(
+      C.dim,
+      `  ${existingDataMap.size} swimmers with existing data on disk`,
+    ),
+  );
+
+  // Backfilled swimmers get lastChecked updated in the index. The candidate
+  // pool itself is file-based (a saved file excludes a swimmer from later
+  // runs), so this is consistency rather than rotation bookkeeping.
+  const processedIds = new Set();
+  const runStart = Date.now();
+
+  console.log("Launching browser …");
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    // Backfill runs a full-roster discovery (up to MAX_FULL_DISCOVERY_MS)
+    // inside a single page.evaluate — keep the CDP timeout above that budget.
+    protocolTimeout: MAX_FULL_DISCOVERY_MS + 60_000,
+  });
+
+  // Licensed roster (from cache) — used to exclude licensed swimmers from the
+  // backfill candidate pool, exactly as in a normal run.
+  console.log("Loading licensed roster…");
+  const licensedRoster = await getRoster(browser, BASE_URL);
+  console.log(color(C.green, `  ${licensedRoster.length} licensed swimmers`));
+
+  const saved = await runBackfill({
+    browser,
+    licensedRoster,
+    existingIds: new Set(existingDataMap.keys()),
+    runStart,
+    backfillOnly: true,
+    processedIds,
+  });
+
+  // ── Finalize ────────────────────────────────────────────────────
+  console.log("\n    Rebuilding index…");
+  rebuildIndex({
+    swimmersDir: SWIMMERS_DIR,
+    dataDir: DATA_DIR,
+    indexFile: INDEX_FILE,
+    baseUrl: BASE_URL,
+    processedIds,
+  });
+
+  console.log("    Pushing to GitHub…");
+  gitCheckpoint(`backfill-only final — ${saved} saved`);
+
+  console.log(
+    color(
+      C.green,
+      `\n  ✓ Backfill-only run complete! ${saved} swimmers saved (full history)`,
+    ),
+  );
+
+  await browser.close().catch(() => {});
+  process.exit(0);
+}
+
 async function main() {
   // Dedicated discovery-only mode: build a roster cache (full or licensed)
   // and exit without scraping. See DISCOVERY_ONLY env.
   if (DISCOVERY_ONLY === "full" || DISCOVERY_ONLY === "licensed") {
     await runDiscoveryOnly(DISCOVERY_ONLY);
+    return;
+  }
+
+  // Backfill-only mode: skip the licensed incremental batch entirely and
+  // spend the whole run backfilling non-licensed swimmers (BACKFILL_ONLY=1).
+  if (BACKFILL_ONLY) {
+    await runBackfillOnly();
     return;
   }
 
@@ -934,46 +1170,7 @@ async function main() {
   // Load ALL existing swimmer data from disk into a map keyed by swimmer ID.
   // This gives us the existing races for dedup (by PID) and merge.
   console.log("Loading existing swimmer data for dedup…");
-  const existingDataMap = new Map();
-  for (const fp of walkJsonFiles(SWIMMERS_DIR)) {
-    try {
-      const data = JSON.parse(fs.readFileSync(fp, "utf-8"));
-      const id = String(data.swimmerId);
-      const existing = existingDataMap.get(id);
-      if (existing) {
-        // Duplicate swimmer ID across files — keep the one with the
-        // most races (indicates more complete data).
-        const existingCount =
-          existing.disciplines?.reduce(
-            (s, d) => s + (d.races?.length || 0),
-            0,
-          ) || 0;
-        const newCount =
-          data.disciplines?.reduce((s, d) => s + (d.races?.length || 0), 0) ||
-          0;
-        if (newCount > existingCount) {
-          console.warn(
-            color(
-              C.yellow,
-              `  ⚠ Duplicate swimmer ID ${id}: using ${fp} (${newCount} races, newer)`,
-            ),
-          );
-          existingDataMap.set(id, data);
-        } else {
-          console.warn(
-            color(
-              C.dim,
-              `  ⚠ Duplicate swimmer ID ${id}: skipping ${fp} (${newCount} races ≤ existing ${existingCount})`,
-            ),
-          );
-        }
-      } else {
-        existingDataMap.set(id, data);
-      }
-    } catch {
-      /* skip corrupted */
-    }
-  }
+  const existingDataMap = loadExistingDataMap();
   console.log(
     color(
       C.dim,
@@ -1409,7 +1606,8 @@ async function main() {
 // main() must NOT start a scrape.
 import { fileURLToPath } from "url";
 const isMain =
-  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 if (isMain) {
   main().catch((err) => {
     console.error("\n✗ Fatal error:", err);
@@ -1421,6 +1619,8 @@ export {
   discoverAllSwimmers,
   getRoster,
   computeBackfillCandidates,
+  loadExistingDataMap,
   runBackfill,
+  runBackfillOnly,
   runDiscoveryOnly,
 };

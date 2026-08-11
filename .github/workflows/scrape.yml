@@ -82,6 +82,11 @@ jobs:
           LOOKBACK_DAYS: "30"
           BACKFILL_ENABLED: "1"
           BACKFILL_NEW_PER_RUN: "10"
+          # Backfill-only week: no meets until 2026-08-22, so skip the licensed
+          # incremental batch (nothing new to find) and spend the whole run
+          # backfilling non-licensed swimmers' full history. Set to "0" after
+          # the meet to resume normal incremental scraping.
+          BACKFILL_ONLY: "1"
         run: node index.js
 
       # Commit any leftover data not yet pushed by in-script checkpoints
