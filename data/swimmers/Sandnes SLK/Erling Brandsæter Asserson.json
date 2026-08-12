@@ -1,0 +1,102 @@
+{
+  "swimmerId": "43673",
+  "name": "Erling Brandsæter Asserson",
+  "club": "Sandnes SLK",
+  "birthYear": 1985,
+  "gender": "male",
+  "timestamp": "2026-08-12T19:30:37.020Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "35,71",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "345",
+          "pid": "3234786"
+        },
+        {
+          "Tid": "37,09",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235154",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "38,73",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235567",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.18,35",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "41",
+          "RA": "253",
+          "pid": "3235153",
+          "splits": [
+            "37,09",
+            "41,26"
+          ]
+        },
+        {
+          "Tid": "1.22,13",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235568",
+          "splits": [
+            "38,73",
+            "43,40"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "2.50,68",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3235566",
+          "splits": [
+            "38,73",
+            "43,40",
+            "44,37",
+            "44,18"
+          ]
+        }
+      ]
+    }
+  ]
+}
