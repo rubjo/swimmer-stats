@@ -1,0 +1,91 @@
+{
+  "swimmerId": "5851",
+  "name": "Desiree Andersskog",
+  "club": "Lambertseter SK",
+  "birthYear": 1993,
+  "gender": "female",
+  "timestamp": "2026-08-12T03:37:02.264Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,73",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "971",
+          "pid": "121692"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,12",
+          "Dato": "25.03.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "991",
+          "pid": "315744"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,83",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "226",
+          "RA": "1209",
+          "pid": "147547",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,09",
+          "Dato": "25.03.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "980",
+          "pid": "258022",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.55,82",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "962",
+          "pid": "121580",
+          "splits": [
+            "53,83",
+            "1.01,99"
+          ]
+        }
+      ]
+    }
+  ]
+}
