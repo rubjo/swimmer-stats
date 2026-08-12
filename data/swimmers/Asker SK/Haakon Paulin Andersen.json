@@ -1,0 +1,95 @@
+{
+  "swimmerId": "16232",
+  "name": "Haakon Paulin Andersen",
+  "club": "Asker SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-12T01:59:29.312Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,63",
+          "Dato": "06.01.2013",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "1107",
+          "pid": "1124582"
+        },
+        {
+          "Tid": "34,96",
+          "Dato": "08.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "1242",
+          "pid": "936582"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,76",
+          "Dato": "07.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "124",
+          "RA": "716",
+          "pid": "1097766",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "42,87",
+          "Dato": "05.01.2013",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "109",
+          "RA": "730",
+          "pid": "1293112",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.32,89",
+          "Dato": "05.01.2013",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "606",
+          "pid": "1123780",
+          "splits": [
+            "42,87",
+            "50,02"
+          ]
+        },
+        {
+          "Tid": "1.35,75",
+          "Dato": "07.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "654",
+          "pid": "935638",
+          "splits": [
+            "42,76",
+            "52,99"
+          ]
+        }
+      ]
+    }
+  ]
+}
