@@ -1,0 +1,172 @@
+{
+  "swimmerId": "8718",
+  "name": "Tine Aune",
+  "club": "Fet SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-12T23:54:16.570Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,51",
+          "Dato": "04.06.2011",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "117",
+          "RA": "1037",
+          "pid": "894946"
+        },
+        {
+          "Tid": "37,98",
+          "Dato": "02.03.2008",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "188",
+          "RA": "1154",
+          "pid": "441450",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,23",
+          "Dato": "04.06.2011",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "894948",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,60",
+          "Dato": "04.06.2011",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "76",
+          "RA": "669",
+          "pid": "894947",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,98",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "753",
+          "pid": "249100"
+        },
+        {
+          "Tid": "50,57",
+          "Dato": "02.03.2008",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "188",
+          "RA": "1023",
+          "pid": "404710",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.21,77",
+          "Dato": "04.06.2011",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "943",
+          "pid": "813167",
+          "splits": [
+            "39,23",
+            "42,54"
+          ]
+        },
+        {
+          "Tid": "1.24,72",
+          "Dato": "02.03.2008",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "991",
+          "pid": "347241",
+          "splits": [
+            "37,98",
+            "46,74"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.39,67",
+          "Dato": "04.06.2011",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "65",
+          "RA": "616",
+          "pid": "812928",
+          "splits": [
+            "45,60",
+            "54,07"
+          ]
+        },
+        {
+          "Tid": "1.50,10",
+          "Dato": "02.03.2008",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "176",
+          "RA": "891",
+          "pid": "404709",
+          "splits": [
+            "50,57",
+            "59,53"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.03,90",
+          "Dato": "02.03.2008",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "686",
+          "pid": "347154",
+          "splits": [
+            "50,57",
+            "59,53",
+            "1.13,74",
+            "1.00,06"
+          ]
+        }
+      ]
+    }
+  ]
+}
