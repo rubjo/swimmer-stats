@@ -1,0 +1,77 @@
+{
+  "swimmerId": "8969",
+  "name": "Kai Andersen",
+  "club": "Moss SK",
+  "birthYear": 1957,
+  "gender": "male",
+  "timestamp": "2026-08-12T02:16:53.862Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "40,59",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "469",
+          "pid": "353601"
+        },
+        {
+          "Tid": "48,02",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "156",
+          "RA": "1009",
+          "pid": "1058876",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.43,15",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "96",
+          "RA": "805",
+          "pid": "1076054",
+          "splits": [
+            "48,02",
+            "55,13"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.39,28",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "567",
+          "pid": "962182",
+          "splits": [
+            "48,02",
+            "55,13",
+            "59,55",
+            "56,58"
+          ]
+        }
+      ]
+    }
+  ]
+}
