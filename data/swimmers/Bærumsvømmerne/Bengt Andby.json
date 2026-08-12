@@ -1,0 +1,55 @@
+{
+  "swimmerId": "22356",
+  "name": "Bengt Andby",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1952,
+  "gender": "male",
+  "timestamp": "2026-08-12T01:08:24.566Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "30,13",
+          "Dato": "15.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "193",
+          "RA": "825",
+          "pid": "1558854"
+        },
+        {
+          "Tid": "33,13",
+          "Dato": "13.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1722307",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.10,61",
+          "Dato": "13.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "870",
+          "pid": "1557843",
+          "splits": [
+            "33,13",
+            "37,48"
+          ]
+        }
+      ]
+    }
+  ]
+}
