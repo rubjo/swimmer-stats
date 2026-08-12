@@ -1,0 +1,137 @@
+{
+  "swimmerId": "46998",
+  "name": "Aleksander  Andreassen",
+  "club": "Bjerkvik SK",
+  "birthYear": 1983,
+  "gender": "male",
+  "timestamp": "2026-08-12T03:50:25.826Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,13",
+          "Dato": "28.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3466586"
+        },
+        {
+          "Tid": "32,16",
+          "Dato": "26.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3466902",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,44",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3466796",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "43,26",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3467174",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.09,47",
+          "Dato": "26.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "851",
+          "pid": "3466901",
+          "splits": [
+            "32,16",
+            "37,31"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.30,72",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3466795",
+          "splits": [
+            "41,44",
+            "49,28"
+          ]
+        },
+        {
+          "Tid": "1.33,65",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3467175",
+          "splits": [
+            "43,26",
+            "50,39"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.20,48",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "36",
+          "RA": "520",
+          "pid": "3467173",
+          "splits": [
+            "43,26",
+            "50,39",
+            "53,02",
+            "53,81"
+          ]
+        }
+      ]
+    }
+  ]
+}
