@@ -1,0 +1,80 @@
+{
+  "swimmerId": "7613",
+  "name": "Jørn Grude Augustin",
+  "club": "Klepp SSK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-12T23:24:36.017Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,35",
+          "Dato": "20.11.2011",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "207",
+          "RA": "1443",
+          "pid": "847015"
+        },
+        {
+          "Tid": "1.07,37",
+          "Dato": "25.09.2011",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "904003",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.14,44",
+          "Dato": "25.09.2011",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "1897",
+          "pid": "828281"
+        },
+        {
+          "Tid": "1.14,96",
+          "Dato": "20.11.2011",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "847366"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.23,86",
+          "Dato": "25.09.2011",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1213",
+          "pid": "828422",
+          "splits": [
+            "1.07,37",
+            "1.16,49"
+          ]
+        }
+      ]
+    }
+  ]
+}

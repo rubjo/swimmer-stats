@@ -1,0 +1,80 @@
+{
+  "swimmerId": "45245",
+  "name": "Victoria Augusto Parada de Carvalho Lopes",
+  "club": "Skien SK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-08-12T23:24:48.323Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,43",
+          "Dato": "07.04.2024",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "302",
+          "RA": "2050",
+          "pid": "3439231"
+        },
+        {
+          "Tid": "49,86",
+          "Dato": "30.09.2023",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3309629"
+        },
+        {
+          "Tid": "50,35",
+          "Dato": "23.09.2023",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3297699"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,06",
+          "Dato": "07.04.2024",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "291",
+          "RA": "1808",
+          "pid": "3439417",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,44",
+          "Dato": "07.04.2024",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "270",
+          "RA": "1579",
+          "pid": "3439416",
+          "splits": [
+            "1.03,06",
+            "1.17,38"
+          ]
+        }
+      ]
+    }
+  ]
+}
