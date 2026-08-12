@@ -1,0 +1,242 @@
+{
+  "swimmerId": "23783",
+  "name": "Kristine Arne",
+  "club": "Lørenskog/Rælingen",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-12T13:13:54.409Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,59",
+          "Dato": "18.09.2016",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "337",
+          "RA": "1969",
+          "pid": "1824497"
+        },
+        {
+          "Tid": "43,26",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1860647"
+        },
+        {
+          "Tid": "46,92",
+          "Dato": "09.01.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1742460"
+        },
+        {
+          "Tid": "47,65",
+          "Dato": "06.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1765795"
+        },
+        {
+          "Tid": "49,16",
+          "Dato": "25.06.2016",
+          "Sted": "Nebbursvollen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "212",
+          "RA": "1223",
+          "pid": "1888223",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.03,83",
+          "Dato": "09.04.2016",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "311",
+          "RA": "1850",
+          "pid": "1918328",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "1.06,42",
+          "Dato": "05.11.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1894441",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.08,37",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "363",
+          "RA": "2117",
+          "pid": "1903969",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,41",
+          "Dato": "25.06.2016",
+          "Sted": "Nebbursvollen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "196",
+          "RA": "1074",
+          "pid": "1815043",
+          "splits": [
+            "49,16",
+            "50,25"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.57,00",
+          "Dato": "18.09.2016",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1260",
+          "pid": "1824316",
+          "splits": [
+            "57,34",
+            "59,66"
+          ]
+        },
+        {
+          "Tid": "2.06,70",
+          "Dato": "21.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "113",
+          "RA": "634",
+          "pid": "1793331",
+          "splits": [
+            "1.04,94",
+            "1.01,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.16,48",
+          "Dato": "05.11.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1269",
+          "pid": "1849934",
+          "splits": [
+            "1.06,42",
+            "1.10,06"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.22,66",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "314",
+          "RA": "1785",
+          "pid": "1966947",
+          "splits": [
+            "1.08,37",
+            "1.14,29"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.20,43",
+          "Dato": "09.04.2016",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "250",
+          "RA": "1353",
+          "pid": "1782724",
+          "splits": [
+            "1.03,83",
+            "1.05,96",
+            "1.13,66",
+            "56,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.45,28",
+          "Dato": "03.12.2016",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "257",
+          "RA": "1316",
+          "pid": "1860754",
+          "splits": [
+            "1.08,37",
+            "1.14,29",
+            "1.13,27",
+            "1.09,35"
+          ]
+        }
+      ]
+    }
+  ]
+}
