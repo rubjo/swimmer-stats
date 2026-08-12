@@ -1,0 +1,45 @@
+{
+  "swimmerId": "12048",
+  "name": "Marcus Andås",
+  "club": "Varodd SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-12T05:00:38.505Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,76",
+          "Dato": "06.09.2009",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1673",
+          "pid": "561082",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.00,93",
+          "Dato": "06.09.2009",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1393",
+          "pid": "512501",
+          "splits": [
+            "52,76",
+            "1.08,17"
+          ]
+        }
+      ]
+    }
+  ]
+}
