@@ -1,0 +1,111 @@
+{
+  "swimmerId": "6706",
+  "name": "Ida Pernille Andersen",
+  "club": "Haldens SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-12T02:00:53.571Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,87",
+          "Dato": "14.05.2006",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "1325",
+          "pid": "142877"
+        },
+        {
+          "Tid": "44,36",
+          "Dato": "03.06.2006",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "142886",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,20",
+          "Dato": "14.05.2006",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "1116",
+          "pid": "142876"
+        },
+        {
+          "Tid": "54,90",
+          "Dato": "03.06.2006",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "142885",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,97",
+          "Dato": "03.06.2006",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "1242",
+          "pid": "116532",
+          "splits": [
+            "44,36",
+            "54,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,20",
+          "Dato": "14.05.2006",
+          "Sted": "Halden",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "966",
+          "pid": "142878",
+          "splits": []
+        },
+        {
+          "Tid": "1.56,34",
+          "Dato": "03.06.2006",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "116366",
+          "splits": [
+            "54,90",
+            "1.01,44"
+          ]
+        }
+      ]
+    }
+  ]
+}
