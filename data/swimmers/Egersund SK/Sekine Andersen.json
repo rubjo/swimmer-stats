@@ -1,0 +1,45 @@
+{
+  "swimmerId": "20426",
+  "name": "Sekine Andersen",
+  "club": "Egersund SK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-12T03:11:21.644Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,36",
+          "Dato": "10.05.2014",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "322",
+          "RA": "2316",
+          "pid": "1480225",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,60",
+          "Dato": "10.05.2014",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "274",
+          "RA": "2001",
+          "pid": "1359348",
+          "splits": [
+            "50,36",
+            "1.01,24"
+          ]
+        }
+      ]
+    }
+  ]
+}
