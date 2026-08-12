@@ -1,9 +1,212 @@
 {
-  "swimmerId": "43729",
+  "swimmerId": "16568",
   "name": "Ingvild Angelsen",
   "club": "Øvre Eiker SK",
   "birthYear": 1999,
-  "gender": null,
-  "timestamp": "2026-08-12T08:43:10.929Z",
-  "disciplines": []
+  "gender": "female",
+  "timestamp": "2026-08-12T12:16:03.997Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,50",
+          "Dato": "17.03.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1259",
+          "pid": "1147131"
+        },
+        {
+          "Tid": "38,52",
+          "Dato": "20.01.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1255532"
+        },
+        {
+          "Tid": "38,61",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1138162"
+        },
+        {
+          "Tid": "39,23",
+          "Dato": "04.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "279",
+          "RA": "1547",
+          "pid": "1016198"
+        },
+        {
+          "Tid": "41,14",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1260882",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,33",
+          "Dato": "17.03.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "895",
+          "pid": "1147271"
+        },
+        {
+          "Tid": "46,48",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1138059"
+        },
+        {
+          "Tid": "48,07",
+          "Dato": "20.01.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1230643",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "48,63",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1262624",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,60",
+          "Dato": "04.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "213",
+          "RA": "1147",
+          "pid": "1064892",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,91",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "1303",
+          "pid": "1138334",
+          "splits": [
+            "41,14",
+            "44,77"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,33",
+          "Dato": "20.01.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "870",
+          "pid": "1130214",
+          "splits": [
+            "48,07",
+            "54,26"
+          ]
+        },
+        {
+          "Tid": "1.44,20",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1138413",
+          "splits": [
+            "48,63",
+            "55,57"
+          ]
+        },
+        {
+          "Tid": "1.45,74",
+          "Dato": "04.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "188",
+          "RA": "954",
+          "pid": "1080275",
+          "splits": [
+            "49,60",
+            "56,14"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.44,80",
+          "Dato": "04.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "751",
+          "pid": "1016528",
+          "splits": [
+            "49,60",
+            "56,14",
+            "59,51",
+            "59,55"
+          ]
+        }
+      ]
+    }
+  ]
 }
