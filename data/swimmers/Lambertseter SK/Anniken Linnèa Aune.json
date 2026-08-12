@@ -1,0 +1,107 @@
+{
+  "swimmerId": "6456",
+  "name": "Anniken Linnèa Aune",
+  "club": "Lambertseter SK",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-12T23:41:51.237Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,87",
+          "Dato": "23.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "86",
+          "RA": "1242",
+          "pid": "308093"
+        },
+        {
+          "Tid": "40,05",
+          "Dato": "28.10.2007",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "262771"
+        },
+        {
+          "Tid": "40,08",
+          "Dato": "23.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "241856"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,67",
+          "Dato": "23.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "124",
+          "RA": "1232",
+          "pid": "317610",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,33",
+          "Dato": "28.10.2007",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "985",
+          "pid": "292299",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,84",
+          "Dato": "23.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "937",
+          "pid": "242162",
+          "splits": [
+            "54,67",
+            "58,17"
+          ]
+        },
+        {
+          "Tid": "1.55,03",
+          "Dato": "28.10.2007",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "323833",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}
