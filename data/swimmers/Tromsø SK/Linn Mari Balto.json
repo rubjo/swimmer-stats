@@ -1,0 +1,102 @@
+{
+  "swimmerId": "23565",
+  "name": "Linn Mari Balto",
+  "club": "Tromsø SK",
+  "birthYear": 1987,
+  "gender": "female",
+  "timestamp": "2026-08-13T11:27:02.184Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,55",
+          "Dato": "01.05.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "2073",
+          "pid": "1790741"
+        },
+        {
+          "Tid": "1.06,22",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1869880",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.06,95",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1932518",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.26,32",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "69",
+          "RA": "1794",
+          "pid": "1889518",
+          "splits": [
+            "1.06,95",
+            "1.19,37"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.33,90",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1790421",
+          "splits": [
+            "1.06,22",
+            "1.27,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "5.15,32",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "28",
+          "RA": "1333",
+          "pid": "1790506",
+          "splits": [
+            "1.06,95",
+            "1.19,37",
+            "1.24,41",
+            "1.24,59"
+          ]
+        }
+      ]
+    }
+  ]
+}
