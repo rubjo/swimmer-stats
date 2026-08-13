@@ -1,0 +1,55 @@
+{
+  "swimmerId": "13600",
+  "name": "Anders Hovda Balchen",
+  "club": "Stord IL Symjing",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-13T11:04:26.243Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,01",
+          "Dato": "11.04.2010",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "144",
+          "RA": "1498",
+          "pid": "646758"
+        },
+        {
+          "Tid": "43,96",
+          "Dato": "10.04.2010",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "710140",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,57",
+          "Dato": "10.04.2010",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "129",
+          "RA": "1340",
+          "pid": "646001",
+          "splits": [
+            "43,96",
+            "53,61"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "swimmerId": "16719",
+  "name": "Kim Balboa Skogvold",
+  "club": "Snøgg SK",
+  "birthYear": 1987,
+  "gender": "male",
+  "timestamp": "2026-08-13T11:03:46.826Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "28,72",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "145",
+          "RA": "560",
+          "pid": "1064218"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "34,14",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "159",
+          "pid": "962490"
+        },
+        {
+          "Tid": "34,19",
+          "Dato": "09.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1032319",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "36,14",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1085955",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.15,03",
+          "Dato": "09.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "131",
+          "pid": "961824",
+          "splits": [
+            "34,19",
+            "40,84"
+          ]
+        },
+        {
+          "Tid": "1.17,37",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1034385",
+          "splits": [
+            "36,14",
+            "41,23"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "2.47,96",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "23",
+          "RA": "126",
+          "pid": "962179",
+          "splits": [
+            "36,14",
+            "41,23",
+            "43,95",
+            "46,64"
+          ]
+        }
+      ]
+    }
+  ]
+}
