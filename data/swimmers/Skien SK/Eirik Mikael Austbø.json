@@ -1,0 +1,131 @@
+{
+  "swimmerId": "6006",
+  "name": "Eirik Mikael Austbø",
+  "club": "Skien SK",
+  "birthYear": 1991,
+  "gender": "male",
+  "timestamp": "2026-08-13T00:18:48.533Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,48",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "130",
+          "RA": "864",
+          "pid": "100134"
+        },
+        {
+          "Tid": "33,79",
+          "Dato": "15.10.2006",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "194652"
+        },
+        {
+          "Tid": "35,72",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "134721",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,23",
+          "Dato": "15.10.2006",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "542",
+          "pid": "194651"
+        },
+        {
+          "Tid": "44,12",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "101545"
+        },
+        {
+          "Tid": "45,29",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "134722",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.13,77",
+          "Dato": "15.10.2006",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "731",
+          "pid": "194653",
+          "splits": []
+        },
+        {
+          "Tid": "1.14,64",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "100650",
+          "splits": [
+            "35,72",
+            "38,92"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,31",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "499",
+          "pid": "101111",
+          "splits": [
+            "45,29",
+            "52,02"
+          ]
+        }
+      ]
+    }
+  ]
+}
