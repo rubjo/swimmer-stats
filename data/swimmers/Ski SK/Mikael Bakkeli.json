@@ -1,0 +1,100 @@
+{
+  "swimmerId": "7423",
+  "name": "Mikael Bakkeli",
+  "club": "Ski SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-13T06:04:02.087Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,27",
+          "Dato": "03.06.2007",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1159",
+          "pid": "232814"
+        },
+        {
+          "Tid": "42,09",
+          "Dato": "11.02.2007",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "214689"
+        },
+        {
+          "Tid": "45,67",
+          "Dato": "02.06.2007",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "294535",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,43",
+          "Dato": "02.06.2007",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "171",
+          "RA": "1167",
+          "pid": "323659",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,79",
+          "Dato": "02.06.2007",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "1113",
+          "pid": "232624",
+          "splits": [
+            "45,67",
+            "50,12"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.17,86",
+          "Dato": "02.06.2007",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "937",
+          "pid": "232417",
+          "splits": [
+            "1.02,43",
+            "1.15,43"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "swimmerId": "9335",
+  "name": "Nicolas R Anfinsen",
+  "club": "Haugesund SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-12T08:09:26.282Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,07",
+          "Dato": "26.04.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "254",
+          "RA": "1657",
+          "pid": "499006"
+        },
+        {
+          "Tid": "52,96",
+          "Dato": "26.04.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "222",
+          "RA": "",
+          "pid": "556006",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,52",
+          "Dato": "26.04.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1373",
+          "pid": "498831",
+          "splits": [
+            "52,96",
+            "1.01,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

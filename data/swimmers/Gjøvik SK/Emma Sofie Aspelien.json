@@ -1,0 +1,55 @@
+{
+  "swimmerId": "45826",
+  "name": "Emma Sofie Aspelien",
+  "club": "Gjøvik SK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-08-12T19:21:21.132Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,22",
+          "Dato": "12.11.2023",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3344019"
+        },
+        {
+          "Tid": "45,55",
+          "Dato": "12.11.2023",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3344128",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.42,54",
+          "Dato": "12.11.2023",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3344127",
+          "splits": [
+            "45,55",
+            "56,99"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "swimmerId": "12419",
+  "name": "Simon Augustsson",
+  "club": "Skjetten Svømming",
+  "birthYear": 1968,
+  "gender": "male",
+  "timestamp": "2026-08-12T23:35:40.581Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "30,99",
+          "Dato": "14.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "759",
+          "pid": "636242"
+        },
+        {
+          "Tid": "32,17",
+          "Dato": "09.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "55",
+          "RA": "373",
+          "pid": "667374"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,22",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "433",
+          "pid": "636015"
+        },
+        {
+          "Tid": "40,45",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "703872",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "41,99",
+          "Dato": "09.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "34",
+          "RA": "216",
+          "pid": "667397"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.32,91",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "86",
+          "RA": "505",
+          "pid": "635218",
+          "splits": [
+            "40,45",
+            "52,46"
+          ]
+        }
+      ]
+    }
+  ]
+}

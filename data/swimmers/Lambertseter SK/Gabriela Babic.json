@@ -1,0 +1,85 @@
+{
+  "swimmerId": "10608",
+  "name": "Gabriela Babic",
+  "club": "Lambertseter SK",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-13T00:58:05.440Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "56,04",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "1211",
+          "pid": "486051"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,74",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "192",
+          "RA": "1424",
+          "pid": "559101",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,44",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "552468",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,03",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1080",
+          "pid": "505123",
+          "splits": [
+            "56,74",
+            "59,29"
+          ]
+        },
+        {
+          "Tid": "1.56,59",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "486259",
+          "splits": [
+            "57,44",
+            "59,15"
+          ]
+        }
+      ]
+    }
+  ]
+}
