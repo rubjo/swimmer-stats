@@ -1,0 +1,55 @@
+{
+  "swimmerId": "32421",
+  "name": "Trond Bakke",
+  "club": "Hamar IL",
+  "birthYear": 1949,
+  "gender": "male",
+  "timestamp": "2026-08-13T05:49:31.021Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,19",
+          "Dato": "10.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "350",
+          "RA": "1565",
+          "pid": "2516583"
+        },
+        {
+          "Tid": "43,01",
+          "Dato": "08.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2517279",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,89",
+          "Dato": "08.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "1550",
+          "pid": "2517278",
+          "splits": [
+            "43,01",
+            "48,88"
+          ]
+        }
+      ]
+    }
+  ]
+}
