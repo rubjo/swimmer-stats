@@ -844,6 +844,14 @@ async function runBackfill({
           );
           break;
         }
+        // A backfill candidate is by definition a swimmerId with no file of
+        // its own, so it starts from a clean slate (existingEntry = null).
+        // Duplicate medley.no profiles — a DIFFERENT id sharing this person's
+        // name+club — are handled at write time, not here: writeSwimmerFile
+        // refuses to let an empty grid clobber a populated file and routes a
+        // genuinely different id to a <name>-<id>.json path. Merging the other
+        // id's data in here instead would conflate two medley identities under
+        // one swimmerId, so we deliberately keep them separate.
         const result = await withTimeout(
           processSwimmer(
             backfillPage,
