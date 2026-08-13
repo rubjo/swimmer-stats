@@ -82,5 +82,32 @@ assert.strictEqual(
   "same id may grow its own races",
 );
 
+/* 4. A brand-new zero-race swimmer with no existing file must NOT be created. */
+const p5 = writeSwimmerFile(empty("99999"), tmp);
+assert.strictEqual(
+  p5,
+  null,
+  "brand-new zero-race swimmer must be skipped (null return)",
+);
+assert.ok(
+  !fs.existsSync(path.join(tmp, "Nykommer Ingenrace", "Nykommer Ingenrace.json")),
+  "no file should be created for a zero-race newcomer",
+);
+
+/* 4b. writeSwimmerFile computes the target from name+club, so a distinct
+ * zero-race newcomer (unique name) still yields null and creates nothing. */
+const newcomer = {
+  swimmerId: "88888",
+  name: "Nykommer Ingenrace",
+  club: "Ingen Klubb",
+  disciplines: [],
+};
+const p6 = writeSwimmerFile(newcomer, tmp);
+assert.strictEqual(p6, null, "distinct zero-race newcomer must be skipped");
+assert.ok(
+  !fs.existsSync(path.join(tmp, "Ingen Klubb")),
+  "no club dir should be created for a skipped zero-race newcomer",
+);
+
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log("✓ all write-guard regression tests passed");
