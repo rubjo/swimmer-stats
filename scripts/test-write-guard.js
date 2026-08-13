@@ -12,7 +12,7 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import assert from "assert";
-import { writeSwimmerFile } from "../lib/fs-utils.js";
+import { writeSwimmerFile, loadCheckedEmpty, saveCheckedEmpty } from "../lib/fs-utils.js";
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "swim-test-"));
 
@@ -110,4 +110,58 @@ assert.ok(
 );
 
 fs.rmSync(tmp, { recursive: true, force: true });
+
+/* ─── Checked-empty ledger ──────────────────────────────────────── */
+
+const tmp2 = fs.mkdtempSync(path.join(os.tmpdir(), "swim-ledger-"));
+const ledgerFile = path.join(tmp2, "checked-empty.json");
+
+/* 5. Missing ledger loads as an empty map. */
+const l0 = loadCheckedEmpty(ledgerFile);
+assert.strictEqual(l0.size, 0, "missing ledger must load as empty map");
+
+/* 6. Saving adds new ids and persists a readable file. */
+const added1 = saveCheckedEmpty(
+  ledgerFile,
+  l0,
+  [
+    { id: "111", name: "A", club: "Club A" },
+    { id: "222", text: "B fallback name" },
+  ],
+  tmp2,
+);
+assert.strictEqual(added1, 2, "two new ids must be added");
+assert.ok(fs.existsSync(ledgerFile), "ledger file must be written");
+const l1 = loadCheckedEmpty(ledgerFile);
+assert.strictEqual(l1.size, 2, "reloaded ledger must hold both ids");
+assert.strictEqual(l1.get("111").name, "A", "name is recorded");
+assert.strictEqual(
+  l1.get("222").name,
+  "B fallback name",
+  "text is used as name fallback",
+);
+assert.ok(l1.get("111").checkedAt, "checkedAt timestamp is recorded");
+
+/* 7. Re-saving an existing id is idempotent (no duplicate, keeps checkedAt). */
+const firstCheckedAt = l1.get("111").checkedAt;
+const added2 = saveCheckedEmpty(
+  ledgerFile,
+  l1,
+  [{ id: "111", name: "A" }, { id: "333", name: "C" }],
+  tmp2,
+);
+assert.strictEqual(added2, 1, "only the genuinely new id counts as added");
+const l2 = loadCheckedEmpty(ledgerFile);
+assert.strictEqual(l2.size, 3, "ledger now holds three ids");
+assert.strictEqual(
+  l2.get("111").checkedAt,
+  firstCheckedAt,
+  "existing id keeps its original checkedAt",
+);
+
+/* 8. force:true (FORCE_RECHECK_EMPTY) yields an empty map so all are re-queued. */
+const lForced = loadCheckedEmpty(ledgerFile, { force: true });
+assert.strictEqual(lForced.size, 0, "force must ignore the on-disk ledger");
+
+fs.rmSync(tmp2, { recursive: true, force: true });
 console.log("✓ all write-guard regression tests passed");

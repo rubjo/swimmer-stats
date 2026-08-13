@@ -2,7 +2,13 @@ import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
-import { loadIndex, rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
+import {
+  loadIndex,
+  rebuildIndex,
+  walkJsonFiles,
+  loadCheckedEmpty,
+  saveCheckedEmpty,
+} from "./lib/fs-utils.js";
 import {
   navigateAndFilter,
   loadUntilIdx,
@@ -16,6 +22,16 @@ const DATA_DIR = "data";
 const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 const ROSTER_FILE = path.join(DATA_DIR, "roster.json");
+
+// Ledger of swimmerIds checked during backfill and confirmed to have 0 races.
+// A confirmed-empty swimmer deliberately gets no swimmer file (so the index
+// counts only real racers), but without this ledger "no file" also meant the
+// swimmer was re-queued as a backfill candidate every run and re-scraped
+// forever. The ledger is the persistent "checked, confirmed empty" state:
+// subtracted from the candidate pool, never fed to the index. It is permanent
+// by design; set FORCE_RECHECK_EMPTY=1 (or delete the file) to re-queue them.
+const CHECKED_EMPTY_FILE = path.join(DATA_DIR, "checked-empty.json");
+const FORCE_RECHECK_EMPTY = process.env.FORCE_RECHECK_EMPTY === "1";
 
 // How long a cached roster stays valid before a full re-discovery is forced.
 // The roster is the full {id, text, index} swimmer list from the combo box.
@@ -573,17 +589,25 @@ async function runDiscoveryOnly(scope) {
 
 /**
  * Compute backfill candidates: full roster − licensed roster − swimmers who
- * already have a data file on disk. Returns up to `limit` candidates sorted
+ * already have a data file on disk − swimmers already checked and confirmed
+ * empty (the checked-empty ledger). Returns up to `limit` candidates sorted
  * by ascending combo index so loadUntilIdx scrolls monotonically across the
  * batch (keeping the combo's incremental batches warm).
  */
-function computeBackfillCandidates(full, licensed, existingIds, limit) {
+function computeBackfillCandidates(
+  full,
+  licensed,
+  existingIds,
+  limit,
+  checkedEmptyIds = new Set(),
+) {
   const licensedIds = new Set(licensed.map((s) => String(s.id)));
   const candidates = [];
   for (const sw of full) {
     const id = String(sw.id);
     if (licensedIds.has(id)) continue;
     if (existingIds.has(id)) continue;
+    if (checkedEmptyIds.has(id)) continue;
     candidates.push(sw);
   }
   candidates.sort((a, b) => a.index - b.index);
@@ -683,6 +707,26 @@ async function runBackfill({
 }) {
   if (!BACKFILL_ENABLED) return 0;
 
+  // Load the checked-empty ledger: swimmers already confirmed to have 0 races.
+  // Held in a Map for the whole backfill so we can (a) exclude them from the
+  // candidate pool and (b) append newly-confirmed empties before persisting.
+  const checkedEmpty = loadCheckedEmpty(CHECKED_EMPTY_FILE, {
+    force: FORCE_RECHECK_EMPTY,
+  });
+  const checkedEmptyIds = new Set(checkedEmpty.keys());
+  if (FORCE_RECHECK_EMPTY) {
+    console.log(
+      color(C.yellow, `  ⇠ backfill — FORCE_RECHECK_EMPTY=1: re-checking all previously-empty swimmers`),
+    );
+  } else if (checkedEmptyIds.size > 0) {
+    console.log(
+      color(C.dim, `  ⇠ backfill — ${checkedEmptyIds.size} swimmers in checked-empty ledger (excluded)`),
+    );
+  }
+  // Swimmers confirmed empty during THIS run, appended to the ledger at the
+  // end (and at each checkpoint in backfill-only mode).
+  const newlyEmpty = [];
+
   const remainingMs = RUN_BUDGET_MS - (Date.now() - runStart);
   if (remainingMs < BACKFILL_MIN_REMAINING_MS) {
     console.log(
@@ -725,6 +769,7 @@ async function runBackfill({
     // In backfill-only mode, take the whole pool — the budget check inside the
     // loop stops the run. Normal mode keeps the fixed per-run cap.
     backfillOnly ? fullRoster.length : BACKFILL_NEW_PER_RUN,
+    checkedEmptyIds,
   );
   if (candidates.length === 0) {
     console.log(
@@ -737,7 +782,10 @@ async function runBackfill({
   }
 
   const candidatePool =
-    fullRoster.length - licensedRoster.length - existingIds.size;
+    fullRoster.length -
+    licensedRoster.length -
+    existingIds.size -
+    checkedEmptyIds.size;
   console.log(
     color(
       C.dim,
@@ -895,12 +943,42 @@ async function runBackfill({
             backfillFilters,
           );
           continue;
-        } else {
+        } else if (result?.gridNeverLoaded) {
+          // Grid never loaded and the single retry is spent — a transient
+          // load failure, NOT a confirmed-empty swimmer. Leave them a
+          // candidate for a future run (do not add to the checked-empty
+          // ledger).
           empty++;
           console.log(
             color(
               C.dim,
-              `  ⇠ backfill — ⚠ ${sw.text} — no data / grid never loaded`,
+              `  ⇠ backfill — ⚠ ${sw.text} — grid never loaded (will retry next run)`,
+            ),
+          );
+        } else if (result?.identityMismatch) {
+          // Wrong swimmer was selected (stale index fallback picked someone
+          // else). NOT a confirmed-empty verdict for THIS id — leave them a
+          // candidate for a future run rather than poisoning the ledger.
+          empty++;
+          console.log(
+            color(
+              C.yellow,
+              `  ⇠ backfill — ⚠ ${sw.text} — identity mismatch (will retry next run)`,
+            ),
+          );
+        } else {
+          // Grid loaded and genuinely showed 0 races: the swimmer was checked
+          // and confirmed empty. Record them in the checked-empty ledger so
+          // they are not re-scraped every run, while still keeping them out of
+          // the index/total (no file was written). This is the fix for
+          // confirmed-empty swimmers being re-checked forever.
+          empty++;
+          newlyEmpty.push(sw);
+          checkedEmptyIds.add(String(sw.id));
+          console.log(
+            color(
+              C.dim,
+              `  ⇠ backfill — ⚠ ${sw.text} — 0 races, recorded as checked-empty`,
             ),
           );
         }
@@ -936,6 +1014,9 @@ async function runBackfill({
               `  ⇠ backfill — page recovery failed (${(recErr.message || String(recErr)).slice(0, 80)}); aborting backfill`,
             ),
           );
+          // Persist any empties confirmed before the page died so they aren't
+          // re-scraped next run.
+          saveCheckedEmpty(CHECKED_EMPTY_FILE, checkedEmpty, newlyEmpty, DATA_DIR);
           return saved;
         }
         break;
@@ -949,6 +1030,17 @@ async function runBackfill({
       const processedBoundary = i + 1 - lastCheckpointProcessed >= 25;
       const timeBoundary = Date.now() - lastCheckpointAt >= 10 * 60_000;
       if (saveBoundary || processedBoundary || timeBoundary) {
+        // Persist newly-confirmed empties BEFORE the git push so a kill right
+        // after the push doesn't lose the ledger update (which would re-queue
+        // those swimmers next run). saveCheckedEmpty is idempotent and only
+        // adds ids not already present.
+        const added = saveCheckedEmpty(
+          CHECKED_EMPTY_FILE,
+          checkedEmpty,
+          newlyEmpty,
+          DATA_DIR,
+        );
+        newlyEmpty.length = 0; // already folded into `checkedEmpty`
         rebuildIndex({
           swimmersDir: SWIMMERS_DIR,
           dataDir: DATA_DIR,
@@ -960,7 +1052,7 @@ async function runBackfill({
         console.log(
           color(
             C.dim,
-            `  ⇠ backfill checkpoint: ${saved} saved, ${i + 1} processed`,
+            `  ⇠ backfill checkpoint: ${saved} saved, ${i + 1} processed${added > 0 ? `, +${added} checked-empty` : ""}`,
           ),
         );
         lastCheckpointSaved = saved;
@@ -974,8 +1066,20 @@ async function runBackfill({
     await backfillPage.close();
   } catch {}
 
+  // Persist any empties confirmed since the last checkpoint (normal runs have
+  // no in-loop checkpoints, so this is where their whole ledger update lands).
+  const addedEmpty = saveCheckedEmpty(
+    CHECKED_EMPTY_FILE,
+    checkedEmpty,
+    newlyEmpty,
+    DATA_DIR,
+  );
+
   console.log(
-    color(C.dim, `  ⇠ backfill done: ${saved} saved, ${empty} empty`),
+    color(
+      C.dim,
+      `  ⇠ backfill done: ${saved} saved, ${empty} empty${addedEmpty > 0 ? ` (+${addedEmpty} newly checked-empty)` : ""}`,
+    ),
   );
   return saved;
 }
