@@ -1,0 +1,95 @@
+{
+  "swimmerId": "14283",
+  "name": "Nellie Barazandeh",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-14T07:44:46.451Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,85",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "271",
+          "RA": "1917",
+          "pid": "851040"
+        },
+        {
+          "Tid": "57,62",
+          "Dato": "04.12.2010",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2011",
+          "pid": "693030"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,86",
+          "Dato": "08.01.2011",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "288",
+          "RA": "1725",
+          "pid": "861126",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.08,50",
+          "Dato": "04.12.2010",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1677",
+          "pid": "747023",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.18,76",
+          "Dato": "08.01.2011",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "1456",
+          "pid": "770678",
+          "splits": [
+            "1.02,86",
+            "1.15,90"
+          ]
+        },
+        {
+          "Tid": "2.30,37",
+          "Dato": "04.12.2010",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1355",
+          "pid": "693136",
+          "splits": [
+            "1.08,50",
+            "1.21,87"
+          ]
+        }
+      ]
+    }
+  ]
+}
