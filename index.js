@@ -156,6 +156,15 @@ function withTimeout(promise, ms, label) {
 
 /** Commit and push data/ to the repo so progress survives a crash. */
 function gitCheckpoint(label) {
+  // Sharded mode (NO_PUSH=1): shards NEVER commit or push. N shards racing to
+  // push data/ to main would clobber each other (each holds only its own subset
+  // of swimmer files, so a push from shard B would drop shard A's just-committed
+  // files). Instead each shard leaves its written files in the working tree; the
+  // workflow uploads them as a per-shard artifact and a single final merge job
+  // collects all shards, rebuilds the index once, and does the one commit/push.
+  // Returning here is safe: the files are already on disk from writeSwimmerFile,
+  // which is all the artifact upload needs.
+  if (process.env.NO_PUSH === "1") return;
   try {
     execSync(`git add data/`, { stdio: "ignore", timeout: 30_000 });
     const out = execSync(
@@ -611,7 +620,33 @@ function computeBackfillCandidates(
     candidates.push(sw);
   }
   candidates.sort((a, b) => a.index - b.index);
-  return candidates.slice(0, limit);
+
+  // Shard filter (parallel matrix jobs): when SHARD_COUNT > 1, keep only every
+  // SHARD_COUNTth candidate offset by SHARD_INDEX. The split is disjoint by
+  // construction — no id can satisfy two different (i % N) values — so N shards
+  // running concurrently never process the same swimmer, even though they don't
+  // share progress mid-run. Applied AFTER the sort (which is by combo index) so
+  // the modulo interleaves shards across the alphabet rather than giving each a
+  // contiguous block (avoids N jobs all hammering the same combo prefix).
+  //
+  // Sharding is ONLY meaningful in backfill-only mode: the licensed loop is not
+  // sharded, so in a normal run the extra shards would only redo shard 0's work.
+  // We therefore force SHARD_COUNT to 1 unless BACKFILL_ONLY=1 — a code-side
+  // safety net so that even if the workflow's shard-skip guard is removed, a
+  // stray non-zero shard in normal mode can't mis-slice the licensed pool.
+  //
+  // SHARD_COUNT defaults to 1 (no sharding) so single-job runs are unchanged.
+  const backfillOnlyMode = process.env.BACKFILL_ONLY === "1";
+  const SHARD_COUNT = backfillOnlyMode
+    ? Math.max(1, parseInt(process.env.SHARD_COUNT || "1", 10))
+    : 1;
+  const SHARD_INDEX = parseInt(process.env.SHARD_INDEX || "0", 10);
+  const sharded =
+    SHARD_COUNT > 1
+      ? candidates.filter((_, i) => i % SHARD_COUNT === SHARD_INDEX)
+      : candidates;
+
+  return sharded.slice(0, limit);
 }
 
 /**

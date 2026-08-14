@@ -10,16 +10,43 @@ permissions:
   pages: write
   id-token: write
 
+# Only the merge job deploys Pages, so the pages concurrency group lives there.
+# The scrape matrix has its own group so overlapping scheduled runs don't stack
+# 8-shard fleets on top of each other.
 concurrency:
-  group: pages
+  group: scrape
   cancel-in-progress: false
 
+env:
+  # ┌────────────────────────────────────────────────────────────────────┐
+  # │ THE ONLY SWITCH YOU NEED TO FLIP between seasons.                     │
+  # │                                                                      │
+  # │  "1" = backfill-only week (no meets): skip the licensed loop and fan  │
+  # │        out across all shards to drain the non-licensed pool fast.     │
+  # │  "0" = normal incremental scraping (meets happening): run the         │
+  # │        licensed loop on shard 0 ONLY; shards 1–7 skip themselves.     │
+  # │                                                                      │
+  # │ Nothing else needs changing. index.js reads BACKFILL_ONLY and treats  │
+  # │ SHARD_COUNT as 1 when it is "0", so the licensed loop is never run     │
+  # │ 8× even though the matrix still lists 8 shards.                        │
+  # └────────────────────────────────────────────────────────────────────┘
+  BACKFILL_ONLY: "1"
+
+  # Fan-out width used ONLY in backfill-only mode. index.js ignores this (treats
+  # it as 1) whenever BACKFILL_ONLY != "1", so you never have to touch it when
+  # flipping the switch above. Keep it equal to the matrix.shard list length.
+  SHARD_COUNT: "8"
+
 jobs:
+  # ── Fan-out: N shards, each scraping a disjoint 1/N of the candidate pool ──
   scrape:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    strategy:
+      # One shard crashing must NOT cancel the others — each shard's work is
+      # independent and we want to keep whatever the survivors produced.
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     defaults:
@@ -70,41 +97,116 @@ jobs:
             libnss3 libatk-bridge2.0-0 libxkbcommon0 \
             libxdamage1 libgbm1 libasound2t64
 
-      # Configure git for in-script checkpoints and the commit step below
+      # git identity is only needed because rebuildIndex may shell out to
+      # `git rebase --abort` when it finds stale conflict markers; shards never
+      # commit or push (NO_PUSH=1).
       - name: Configure git
         run: |
           git config user.name "medley-bot"
           git config user.email "bot@users.noreply.github.com"
 
-      - name: Run scraper
+      # Skip the actual scrape on shards 1–7 when NOT in backfill-only mode:
+      # the licensed loop isn't sharded, so those shards would only redo shard
+      # 0's work. In backfill-only mode every shard runs and splits the pool.
+      # (env is usable in a step-level if; it is NOT usable in a job-level if.)
+      - name: Run scraper (shard ${{ matrix.shard }})
+        if: ${{ env.BACKFILL_ONLY == '1' || matrix.shard == 0 }}
         env:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
           LOOKBACK_DAYS: "30"
           BACKFILL_ENABLED: "1"
           BACKFILL_NEW_PER_RUN: "10"
-          # Backfill-only week: no meets until 2026-08-22, so skip the licensed
-          # incremental batch (nothing new to find) and spend the whole run
-          # backfilling non-licensed swimmers' full history. Set to "0" after
-          # the meet to resume normal incremental scraping.
-          BACKFILL_ONLY: "1"
+          # BACKFILL_ONLY inherits the top-level switch — do NOT hardcode it here.
+          # Sharding: this shard scrapes candidate i where i % SHARD_COUNT == SHARD_INDEX.
+          # index.js forces SHARD_COUNT to 1 when BACKFILL_ONLY != "1", so a
+          # stray non-zero shard that still ran would not mis-slice the pool.
+          SHARD_INDEX: ${{ matrix.shard }}
+          # SHARD_COUNT inherits the top-level env value.
+          # Shards write files but never push — the merge job does the single commit.
+          NO_PUSH: "1"
         run: node index.js
 
-      # Commit any leftover data not yet pushed by in-script checkpoints
-      - name: Commit data
-        if: always()
+      # Upload only THIS shard's outputs. Swimmer files are disjoint across
+      # shards; checked-empty.json is this shard's partial ledger (unioned later).
+      # Same guard as the scrape step: a skipped shard has nothing to upload.
+      - name: Upload shard data
+        if: ${{ env.BACKFILL_ONLY == '1' || matrix.shard == 0 }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: |
+            data/swimmers/**
+            data/checked-empty.json
+          if-no-files-found: ignore
+          retention-days: 1
+
+  # ── Fan-in: collect all shards, rebuild index once, single commit + deploy ──
+  merge:
+    needs: scrape
+    # Run even if some shards failed — commit the work of the ones that finished.
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # The Pages deploy happens here, so the pages concurrency group belongs here.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Configure git
+        run: |
+          git config user.name "medley-bot"
+          git config user.email "bot@users.noreply.github.com"
+
+      # Each artifact lands in /tmp/shards/<artifact-name>/ (e.g. shard-0/).
+      - name: Download all shard data
+        uses: actions/download-artifact@v4
+        with:
+          path: /tmp/shards
+
+      - name: Merge shard files into data/
+        run: |
+          set -ex
+          shopt -s nullglob
+          # Swimmer files: disjoint per shard, so a recursive copy never
+          # overwrites another shard's work. writeSwimmerFile's own guards
+          # (id-suffixed paths, empty-over-nonempty refusal) already prevented
+          # any within-shard clobber before upload.
+          for d in /tmp/shards/shard-*; do
+            if [ -d "$d/swimmers" ]; then
+              mkdir -p data/swimmers
+              cp -R "$d/swimmers/." data/swimmers/
+            fi
+          done
+          # checked-empty.json: union all shard ledgers with the committed one.
+          node scripts/merge-checked-empty.js /tmp/shards/shard-*/checked-empty.json
+
+      - name: Rebuild index once over the merged data
+        run: node scripts/rebuild-index.js
+
+      - name: Commit merged data
         run: |
           git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "scrape $(date -u +%F) [skip ci]"
+            git commit -m "sharded scrape $(date -u +%F) [skip ci]"
             git push origin HEAD:main || (
               git pull --rebase origin main &&
               git push origin HEAD:main
             ) || echo "Push skipped — continuing for deployment"
           fi
 
-      # Deploy the data directory to GitHub Pages
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
