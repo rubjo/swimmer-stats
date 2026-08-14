@@ -1,0 +1,60 @@
+{
+  "swimmerId": "5840",
+  "name": "Cecilie Knapaas Barmoen",
+  "club": "Askimsvømmerne",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-14T07:53:07.045Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,66",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "249",
+          "RA": "1755",
+          "pid": "98312"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.13,58",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "246",
+          "RA": "1536",
+          "pid": "131382",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.40,60",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1208",
+          "pid": "98399",
+          "splits": [
+            "1.13,58",
+            "1.27,02"
+          ]
+        }
+      ]
+    }
+  ]
+}
