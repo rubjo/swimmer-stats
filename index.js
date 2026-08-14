@@ -121,7 +121,7 @@ const BACKFILL_NEW_PER_RUN = parseInt(
   10,
 );
 const BACKFILL_SWIMMER_TIMEOUT_MS = parseInt(
-  process.env.BACKFILL_SWIMMER_TIMEOUT_MS || "300000",
+  process.env.BACKFILL_SWIMMER_TIMEOUT_MS || "1800000",
   10,
 );
 // Skip backfill entirely if fewer than this many ms of run budget remain — a
@@ -716,11 +716,17 @@ async function runBackfill({
   const checkedEmptyIds = new Set(checkedEmpty.keys());
   if (FORCE_RECHECK_EMPTY) {
     console.log(
-      color(C.yellow, `  ⇠ backfill — FORCE_RECHECK_EMPTY=1: re-checking all previously-empty swimmers`),
+      color(
+        C.yellow,
+        `  ⇠ backfill — FORCE_RECHECK_EMPTY=1: re-checking all previously-empty swimmers`,
+      ),
     );
   } else if (checkedEmptyIds.size > 0) {
     console.log(
-      color(C.dim, `  ⇠ backfill — ${checkedEmptyIds.size} swimmers in checked-empty ledger (excluded)`),
+      color(
+        C.dim,
+        `  ⇠ backfill — ${checkedEmptyIds.size} swimmers in checked-empty ledger (excluded)`,
+      ),
     );
   }
   // Swimmers confirmed empty during THIS run, appended to the ledger at the
@@ -1016,7 +1022,12 @@ async function runBackfill({
           );
           // Persist any empties confirmed before the page died so they aren't
           // re-scraped next run.
-          saveCheckedEmpty(CHECKED_EMPTY_FILE, checkedEmpty, newlyEmpty, DATA_DIR);
+          saveCheckedEmpty(
+            CHECKED_EMPTY_FILE,
+            checkedEmpty,
+            newlyEmpty,
+            DATA_DIR,
+          );
           return saved;
         }
         break;
