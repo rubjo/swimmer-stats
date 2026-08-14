@@ -1,0 +1,91 @@
+{
+  "swimmerId": "12772",
+  "name": "Alexander Asperheim Barsnes",
+  "club": "Årdalstangen IL",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-14T07:58:00.382Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,22",
+          "Dato": "03.04.2011",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "1133",
+          "pid": "881315"
+        },
+        {
+          "Tid": "56,14",
+          "Dato": "31.10.2010",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "97",
+          "RA": "1247",
+          "pid": "734907",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,22",
+          "Dato": "25.09.2010",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "675446"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "57,76",
+          "Dato": "26.09.2010",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1861",
+          "pid": "675633"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,49",
+          "Dato": "03.04.2011",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "931",
+          "pid": "881316",
+          "splits": []
+        },
+        {
+          "Tid": "2.04,28",
+          "Dato": "31.10.2010",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "1059",
+          "pid": "684035",
+          "splits": [
+            "56,14",
+            "1.08,14"
+          ]
+        }
+      ]
+    }
+  ]
+}

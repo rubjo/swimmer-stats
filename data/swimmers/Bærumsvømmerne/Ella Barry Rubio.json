@@ -1,0 +1,167 @@
+{
+  "swimmerId": "34624",
+  "name": "Ella Barry Rubio",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2009,
+  "gender": "female",
+  "timestamp": "2026-08-14T07:57:47.154Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,61",
+          "Dato": "11.09.2021",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "281",
+          "RA": "1606",
+          "pid": "2862381"
+        },
+        {
+          "Tid": "47,90",
+          "Dato": "05.12.2021",
+          "Sted": "Bekkestua",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2924972"
+        },
+        {
+          "Tid": "50,03",
+          "Dato": "03.07.2021",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2839781",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "52,06",
+          "Dato": "11.09.2021",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2862845",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,64",
+          "Dato": "05.12.2021",
+          "Sted": "Bekkestua",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2924642"
+        },
+        {
+          "Tid": "58,80",
+          "Dato": "11.09.2021",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2862271"
+        },
+        {
+          "Tid": "59,47",
+          "Dato": "04.12.2021",
+          "Sted": "Bekkestua",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2926275",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.50,06",
+          "Dato": "03.07.2021",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2839780",
+          "splits": [
+            "50,03",
+            "1.00,03"
+          ]
+        },
+        {
+          "Tid": "1.52,04",
+          "Dato": "11.09.2021",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2862844",
+          "splits": [
+            "52,06",
+            "59,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.04,31",
+          "Dato": "04.12.2021",
+          "Sted": "Bekkestua",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2926276",
+          "splits": [
+            "59,47",
+            "1.04,84"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.15,62",
+          "Dato": "04.12.2021",
+          "Sted": "Bekkestua",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2926274",
+          "splits": [
+            "59,47",
+            "1.04,84",
+            "1.06,28",
+            "1.05,03"
+          ]
+        }
+      ]
+    }
+  ]
+}
