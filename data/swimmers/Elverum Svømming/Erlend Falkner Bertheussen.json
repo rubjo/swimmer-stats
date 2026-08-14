@@ -1,0 +1,55 @@
+{
+  "swimmerId": "18810",
+  "name": "Erlend Falkner Bertheussen",
+  "club": "Elverum Svømming",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-14T18:13:13.344Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.00,34",
+          "Dato": "04.05.2013",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "274",
+          "RA": "1979",
+          "pid": "1157133"
+        },
+        {
+          "Tid": "1.00,83",
+          "Dato": "04.05.2013",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1303810",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.11,45",
+          "Dato": "04.05.2013",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "244",
+          "RA": "1672",
+          "pid": "1156989",
+          "splits": [
+            "1.00,83",
+            "1.10,62"
+          ]
+        }
+      ]
+    }
+  ]
+}

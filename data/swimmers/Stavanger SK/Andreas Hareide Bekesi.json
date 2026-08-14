@@ -1,0 +1,55 @@
+{
+  "swimmerId": "17004",
+  "name": "Andreas Hareide Bekesi",
+  "club": "Stavanger SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-14T16:38:02.848Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,32",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "995",
+          "pid": "964535"
+        },
+        {
+          "Tid": "36,80",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1077885",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,78",
+          "Dato": "17.03.2012",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "152",
+          "RA": "994",
+          "pid": "965155",
+          "splits": [
+            "36,80",
+            "39,98"
+          ]
+        }
+      ]
+    }
+  ]
+}

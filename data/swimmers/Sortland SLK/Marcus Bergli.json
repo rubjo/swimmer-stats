@@ -1,0 +1,216 @@
+{
+  "swimmerId": "23456",
+  "name": "Marcus Bergli",
+  "club": "Sortland SLK",
+  "birthYear": 2005,
+  "gender": "male",
+  "timestamp": "2026-08-14T17:34:01.143Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,68",
+          "Dato": "04.03.2018",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "258",
+          "RA": "1726",
+          "pid": "2243326"
+        },
+        {
+          "Tid": "46,04",
+          "Dato": "12.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "270",
+          "RA": "1977",
+          "pid": "2004104"
+        },
+        {
+          "Tid": "51,42",
+          "Dato": "11.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2184258",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "49,23",
+          "Dato": "03.03.2018",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1105",
+          "pid": "2243020"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,03",
+          "Dato": "03.03.2018",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "231",
+          "RA": "1401",
+          "pid": "2242865"
+        },
+        {
+          "Tid": "1.01,57",
+          "Dato": "12.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "248",
+          "RA": "1659",
+          "pid": "2152110",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.53,14",
+          "Dato": "11.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "268",
+          "RA": "1825",
+          "pid": "2155399",
+          "splits": [
+            "51,42",
+            "1.01,72"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,21",
+          "Dato": "12.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "210",
+          "RA": "1410",
+          "pid": "2139401",
+          "splits": [
+            "1.01,57",
+            "1.12,64"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.58,99",
+          "Dato": "11.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "207",
+          "RA": "1343",
+          "pid": "2172560",
+          "splits": [
+            "51,42",
+            "1.01,72",
+            "1.03,44",
+            "1.02,41"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.15,34",
+          "Dato": "11.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "943",
+          "pid": "2003769",
+          "splits": [
+            "1.01,04",
+            "1.06,13",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.39,83",
+          "Dato": "12.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "175",
+          "RA": "998",
+          "pid": "2003889",
+          "splits": [
+            "1.01,57",
+            "1.12,64",
+            "1.12,22",
+            "1.13,40"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "8.12,56",
+          "Dato": "11.03.2017",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1138",
+          "pid": "2003338",
+          "splits": [
+            "51,42",
+            "1.01,72",
+            "1.03,44",
+            "1.02,41",
+            "1.05,12",
+            "1.04,36",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

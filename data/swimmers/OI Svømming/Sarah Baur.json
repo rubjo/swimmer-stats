@@ -1,0 +1,105 @@
+{
+  "swimmerId": "11612",
+  "name": "Sarah Baur",
+  "club": "OI Svømming",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-14T16:33:38.093Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,76",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1367",
+          "pid": "522530"
+        },
+        {
+          "Tid": "42,79",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "559148",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "51,20",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "1095",
+          "pid": "486048"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,22",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "197",
+          "RA": "1239",
+          "pid": "564404",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,63",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "200",
+          "RA": "1207",
+          "pid": "505372",
+          "splits": [
+            "42,79",
+            "47,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,67",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1043",
+          "pid": "522428",
+          "splits": [
+            "53,22",
+            "1.01,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

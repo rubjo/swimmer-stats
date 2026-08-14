@@ -1,0 +1,151 @@
+{
+  "swimmerId": "13331",
+  "name": "Martine Berge Gundersen",
+  "club": "Risør Varden",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-14T17:21:24.641Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,16",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1549",
+          "pid": "636586"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,36",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1148",
+          "pid": "637505"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,18",
+          "Dato": "14.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1433",
+          "pid": "637907"
+        },
+        {
+          "Tid": "57,19",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "761004",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "58,29",
+          "Dato": "14.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "735270",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,07",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1412",
+          "pid": "637254",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,22",
+          "Dato": "14.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1138",
+          "pid": "638539",
+          "splits": [
+            "58,29",
+            "59,93"
+          ]
+        },
+        {
+          "Tid": "2.02,77",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "740118",
+          "splits": [
+            "57,19",
+            "1.05,58"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.13,25",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "818",
+          "pid": "637119",
+          "splits": [
+            "57,19",
+            "1.05,58",
+            "1.05,28",
+            "1.05,20"
+          ]
+        }
+      ]
+    }
+  ]
+}

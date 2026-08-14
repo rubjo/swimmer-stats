@@ -1,0 +1,60 @@
+{
+  "swimmerId": "15795",
+  "name": "Eirik Borgersen",
+  "club": "Lier SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-14T19:49:00.161Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,48",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1379",
+          "pid": "836597"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,18",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "113",
+          "RA": "900",
+          "pid": "909420",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,63",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "741",
+          "pid": "836433",
+          "splits": [
+            "47,18",
+            "55,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "swimmerId": "22287",
+  "name": "Ina Maria Berrefjord",
+  "club": "Toten SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-14T17:56:18.535Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,38",
+          "Dato": "01.02.2015",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1258",
+          "pid": "1540714"
+        },
+        {
+          "Tid": "49,81",
+          "Dato": "15.03.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1555421"
+        },
+        {
+          "Tid": "51,95",
+          "Dato": "01.02.2015",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1698693",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,62",
+          "Dato": "15.03.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1679516",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,06",
+          "Dato": "01.02.2015",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1371",
+          "pid": "1540861",
+          "splits": [
+            "51,95",
+            "1.02,11"
+          ]
+        },
+        {
+          "Tid": "1.59,37",
+          "Dato": "15.03.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1711131",
+          "splits": [
+            "56,62",
+            "1.02,75"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.01,75",
+          "Dato": "15.03.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1099",
+          "pid": "1555567",
+          "splits": [
+            "56,62",
+            "1.02,75",
+            "1.02,18",
+            "1.00,20"
+          ]
+        }
+      ]
+    }
+  ]
+}

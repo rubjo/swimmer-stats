@@ -1,0 +1,60 @@
+{
+  "swimmerId": "9102",
+  "name": "TOBIAS BRUCKI KJØNIKSEN",
+  "club": "Moss SK",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-14T20:47:23.939Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,52",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "226",
+          "RA": "1555",
+          "pid": "339237"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.10,98",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "218",
+          "RA": "1297",
+          "pid": "401535",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.32,44",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "172",
+          "RA": "999",
+          "pid": "339347",
+          "splits": [
+            "1.10,98",
+            "1.21,46"
+          ]
+        }
+      ]
+    }
+  ]
+}

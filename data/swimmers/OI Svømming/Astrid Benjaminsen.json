@@ -1,0 +1,228 @@
+{
+  "swimmerId": "24065",
+  "name": "Astrid Benjaminsen",
+  "club": "OI Svømming",
+  "birthYear": 1974,
+  "gender": "female",
+  "timestamp": "2026-08-14T16:55:06.798Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,40",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "124",
+          "RA": "1012",
+          "pid": "1958925"
+        },
+        {
+          "Tid": "34,21",
+          "Dato": "26.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "110",
+          "RA": "1135",
+          "pid": "2201005"
+        },
+        {
+          "Tid": "34,99",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1908742",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "35,90",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2126031",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,36",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1907903",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "38,37",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "913",
+          "pid": "2008765"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.12,83",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "822",
+          "pid": "1780024",
+          "splits": [
+            "34,99",
+            "37,84"
+          ]
+        },
+        {
+          "Tid": "1.16,88",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "79",
+          "RA": "1039",
+          "pid": "2125379",
+          "splits": [
+            "35,90",
+            "40,98"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.23,41",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1923498",
+          "splits": [
+            "40,36",
+            "43,05"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.26,26",
+          "Dato": "26.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "53",
+          "RA": "726",
+          "pid": "2009375",
+          "splits": [
+            "40,65",
+            "45,61"
+          ]
+        },
+        {
+          "Tid": "1.26,74",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "757",
+          "pid": "1779345",
+          "splits": [
+            "41,07",
+            "45,67"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.45,12",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "782",
+          "pid": "2008967",
+          "splits": [
+            "35,90",
+            "40,98",
+            "43,95",
+            "44,29"
+          ]
+        },
+        {
+          "Tid": "2.52,80",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "40",
+          "RA": "916",
+          "pid": "1950063",
+          "splits": [
+            "40,36",
+            "43,05",
+            "44,61",
+            "44,78"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "5.53,74",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "33",
+          "RA": "787",
+          "pid": "1779125",
+          "splits": [
+            "40,36",
+            "43,05",
+            "44,61",
+            "44,78",
+            "45,55",
+            "44,63",
+            "45,40",
+            "45,36"
+          ]
+        }
+      ]
+    }
+  ]
+}

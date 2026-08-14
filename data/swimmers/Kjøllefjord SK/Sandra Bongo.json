@@ -1,0 +1,70 @@
+{
+  "swimmerId": "17051",
+  "name": "Sandra Bongo",
+  "club": "Kjøllefjord SK",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-14T19:14:15.365Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "58,31",
+          "Dato": "24.03.2012",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "202",
+          "RA": "1529",
+          "pid": "966513"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,52",
+          "Dato": "24.03.2012",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "253",
+          "RA": "1958",
+          "pid": "1107259",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.07,00",
+          "Dato": "25.03.2012",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "966679"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.23,22",
+          "Dato": "24.03.2012",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1662",
+          "pid": "966491",
+          "splits": [
+            "1.05,52",
+            "1.17,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

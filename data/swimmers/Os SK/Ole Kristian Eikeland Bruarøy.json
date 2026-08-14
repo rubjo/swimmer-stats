@@ -1,0 +1,60 @@
+{
+  "swimmerId": "21372",
+  "name": "Ole Kristian Eikeland Bruarøy",
+  "club": "Os SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-14T20:48:37.464Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,06",
+          "Dato": "18.10.2014",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "219",
+          "RA": "1615",
+          "pid": "1404042"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,72",
+          "Dato": "19.10.2014",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "225",
+          "RA": "1547",
+          "pid": "1454187",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.18,15",
+          "Dato": "19.10.2014",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1317",
+          "pid": "1404402",
+          "splits": [
+            "1.02,72",
+            "1.15,43"
+          ]
+        }
+      ]
+    }
+  ]
+}

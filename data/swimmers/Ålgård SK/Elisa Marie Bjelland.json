@@ -1,0 +1,70 @@
+{
+  "swimmerId": "26881",
+  "name": "Elisa Marie Bjelland",
+  "club": "Ålgård SK",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-14T18:32:03.154Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,14",
+          "Dato": "21.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "2153",
+          "pid": "2075048"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,36",
+          "Dato": "21.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "214",
+          "RA": "1700",
+          "pid": "2075257"
+        },
+        {
+          "Tid": "54,53",
+          "Dato": "22.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2208464",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,12",
+          "Dato": "22.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "192",
+          "RA": "1595",
+          "pid": "2075842",
+          "splits": [
+            "54,53",
+            "1.07,59"
+          ]
+        }
+      ]
+    }
+  ]
+}

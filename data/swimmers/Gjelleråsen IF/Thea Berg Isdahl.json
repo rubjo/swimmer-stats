@@ -1,0 +1,80 @@
+{
+  "swimmerId": "23911",
+  "name": "Thea Berg Isdahl",
+  "club": "Gjelleråsen IF",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-14T17:08:26.690Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,19",
+          "Dato": "05.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "252",
+          "RA": "2259",
+          "pid": "1765111"
+        },
+        {
+          "Tid": "47,41",
+          "Dato": "16.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1746965"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,11",
+          "Dato": "05.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "80",
+          "RA": "1393",
+          "pid": "1900788",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,33",
+          "Dato": "16.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1747174"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,29",
+          "Dato": "05.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "1253",
+          "pid": "1765061",
+          "splits": [
+            "50,11",
+            "59,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

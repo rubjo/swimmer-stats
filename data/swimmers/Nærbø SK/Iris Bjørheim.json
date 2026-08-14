@@ -1,0 +1,127 @@
+{
+  "swimmerId": "33042",
+  "name": "Iris Bjørheim",
+  "club": "Nærbø SK",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-14T18:17:17.224Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,21",
+          "Dato": "15.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "173",
+          "RA": "1267",
+          "pid": "2598566",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,05",
+          "Dato": "16.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "90",
+          "RA": "729",
+          "pid": "2596478"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,94",
+          "Dato": "15.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "137",
+          "RA": "911",
+          "pid": "2596738"
+        },
+        {
+          "Tid": "59,44",
+          "Dato": "16.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2599356",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,74",
+          "Dato": "15.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "157",
+          "RA": "1126",
+          "pid": "2598565",
+          "splits": [
+            "48,21",
+            "53,53"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,30",
+          "Dato": "16.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "111",
+          "RA": "748",
+          "pid": "2599357",
+          "splits": [
+            "59,44",
+            "1.08,86"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.33,83",
+          "Dato": "16.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "80",
+          "RA": "505",
+          "pid": "2599355",
+          "splits": [
+            "59,44",
+            "1.08,86",
+            "1.15,93",
+            "1.09,60"
+          ]
+        }
+      ]
+    }
+  ]
+}

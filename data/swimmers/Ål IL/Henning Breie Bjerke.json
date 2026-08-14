@@ -1,0 +1,55 @@
+{
+  "swimmerId": "24593",
+  "name": "Henning Breie Bjerke",
+  "club": "Ål IL",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-14T17:54:24.094Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,77",
+          "Dato": "10.04.2016",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2085",
+          "pid": "1785402"
+        },
+        {
+          "Tid": "57,31",
+          "Dato": "10.04.2016",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1932215",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.59,18",
+          "Dato": "10.04.2016",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1781",
+          "pid": "1785462",
+          "splits": [
+            "57,31",
+            "1.01,87"
+          ]
+        }
+      ]
+    }
+  ]
+}

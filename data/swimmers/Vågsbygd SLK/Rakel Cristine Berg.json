@@ -1,0 +1,96 @@
+{
+  "swimmerId": "26682",
+  "name": "Rakel Cristine Berg",
+  "club": "Vågsbygd SLK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-14T16:53:53.240Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,40",
+          "Dato": "03.03.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "1254",
+          "pid": "2239868"
+        },
+        {
+          "Tid": "51,47",
+          "Dato": "03.03.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2317503",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,84",
+          "Dato": "03.03.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "247",
+          "RA": "1700",
+          "pid": "2240306",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,90",
+          "Dato": "03.03.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "213",
+          "RA": "1334",
+          "pid": "2317502",
+          "splits": [
+            "51,47",
+            "1.00,43"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.58,15",
+          "Dato": "03.03.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1080",
+          "pid": "2240227",
+          "splits": [
+            "51,47",
+            "1.00,43",
+            "1.03,46",
+            "1.02,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

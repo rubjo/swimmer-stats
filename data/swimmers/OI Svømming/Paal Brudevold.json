@@ -1,0 +1,55 @@
+{
+  "swimmerId": "5131",
+  "name": "Paal Brudevold",
+  "club": "OI Svømming",
+  "birthYear": 1991,
+  "gender": "male",
+  "timestamp": "2026-08-14T20:48:48.513Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,44",
+          "Dato": "29.10.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "175",
+          "RA": "1222",
+          "pid": "21132"
+        },
+        {
+          "Tid": "45,69",
+          "Dato": "29.10.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "45686",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,58",
+          "Dato": "29.10.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1088",
+          "pid": "21495",
+          "splits": [
+            "45,69",
+            "54,89"
+          ]
+        }
+      ]
+    }
+  ]
+}

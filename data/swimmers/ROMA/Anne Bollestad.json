@@ -1,0 +1,80 @@
+{
+  "swimmerId": "4906",
+  "name": "Anne Bollestad",
+  "club": "ROMA",
+  "birthYear": 1972,
+  "gender": "female",
+  "timestamp": "2026-08-14T19:23:42.433Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,63",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "78",
+          "RA": "865",
+          "pid": "180463"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "35,88",
+          "Dato": "17.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "379",
+          "pid": "290745"
+        },
+        {
+          "Tid": "36,04",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "39",
+          "RA": "372",
+          "pid": "111701"
+        },
+        {
+          "Tid": "39,56",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "180270",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.24,84",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "27",
+          "RA": "301",
+          "pid": "111490",
+          "splits": [
+            "39,56",
+            "45,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "swimmerId": "40000",
+  "name": "Terje Brandshaug",
+  "club": "Drøbak-Frogn IL",
+  "birthYear": 1976,
+  "gender": "male",
+  "timestamp": "2026-08-14T19:27:22.964Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,80",
+          "Dato": "03.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2992998"
+        },
+        {
+          "Tid": "33,97",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "2994286"
+        },
+        {
+          "Tid": "33,98",
+          "Dato": "07.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1218",
+          "pid": "3234851"
+        },
+        {
+          "Tid": "35,31",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235226",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,45",
+          "Dato": "03.06.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3256991",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "38,58",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2993942",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,04",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "130",
+          "RA": "945",
+          "pid": "3234745"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,60",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "1040",
+          "pid": "3235225",
+          "splits": [
+            "35,31",
+            "40,29"
+          ]
+        },
+        {
+          "Tid": "1.21,87",
+          "Dato": "03.06.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3256992",
+          "splits": [
+            "37,45",
+            "44,42"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.23,24",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2993943",
+          "splits": [
+            "38,58",
+            "44,66"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.48,43",
+          "Dato": "03.06.2023",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3256990",
+          "splits": [
+            "37,45",
+            "44,42",
+            "45,33",
+            "41,23"
+          ]
+        },
+        {
+          "Tid": "2.55,41",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2993944",
+          "splits": [
+            "38,58",
+            "44,66",
+            "45,41",
+            "46,76"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.11,35",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2993941",
+          "splits": [
+            "38,58",
+            "44,66",
+            "45,41",
+            "46,76",
+            "48,22",
+            "47,91",
+            "50,63",
+            "49,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

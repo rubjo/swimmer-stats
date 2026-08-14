@@ -1,0 +1,80 @@
+{
+  "swimmerId": "11992",
+  "name": "Anders Bråte",
+  "club": "Kråkstad IL",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-14T20:08:13.283Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,14",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "243",
+          "RA": "1585",
+          "pid": "559170",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,83",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "160",
+          "RA": "988",
+          "pid": "559169",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,74",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1270",
+          "pid": "505428",
+          "splits": [
+            "47,14",
+            "52,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,90",
+          "Dato": "06.06.2009",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "842",
+          "pid": "505147",
+          "splits": [
+            "50,83",
+            "1.02,07"
+          ]
+        }
+      ]
+    }
+  ]
+}

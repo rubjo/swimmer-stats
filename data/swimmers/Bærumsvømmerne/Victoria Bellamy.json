@@ -1,0 +1,100 @@
+{
+  "swimmerId": "16135",
+  "name": "Victoria Bellamy",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-14T16:50:34.090Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,06",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "228",
+          "RA": "1397",
+          "pid": "1021635"
+        },
+        {
+          "Tid": "42,01",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "283",
+          "RA": "1598",
+          "pid": "851035"
+        },
+        {
+          "Tid": "42,60",
+          "Dato": "18.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1101526",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,38",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "184",
+          "RA": "1015",
+          "pid": "1035317",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,03",
+          "Dato": "18.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "230",
+          "RA": "1440",
+          "pid": "1022513",
+          "splits": [
+            "42,60",
+            "48,43"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.45,00",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "918",
+          "pid": "1021751",
+          "splits": [
+            "48,38",
+            "56,62"
+          ]
+        }
+      ]
+    }
+  ]
+}

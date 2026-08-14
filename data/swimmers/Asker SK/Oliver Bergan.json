@@ -1,0 +1,70 @@
+{
+  "swimmerId": "13724",
+  "name": "Oliver Bergan",
+  "club": "Asker SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-14T17:05:21.026Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,27",
+          "Dato": "08.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1172",
+          "pid": "936580"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,07",
+          "Dato": "05.12.2010",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "900",
+          "pid": "693877"
+        },
+        {
+          "Tid": "51,86",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "700664",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,02",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "908",
+          "pid": "654107",
+          "splits": [
+            "51,86",
+            "1.01,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

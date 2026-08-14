@@ -1,0 +1,55 @@
+{
+  "swimmerId": "26481",
+  "name": "Jenny Basso",
+  "club": "Bergens SC",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-14T16:32:23.239Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,30",
+          "Dato": "16.06.2017",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "65",
+          "RA": "745",
+          "pid": "2041346"
+        },
+        {
+          "Tid": "51,82",
+          "Dato": "17.06.2017",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2148872",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,28",
+          "Dato": "17.06.2017",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "50",
+          "RA": "664",
+          "pid": "2042149",
+          "splits": [
+            "51,82",
+            "1.01,46"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "swimmerId": "34976",
+  "name": "Oliwer Borek",
+  "club": "SK Speed",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-14T19:29:32.636Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,70",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "1236",
+          "pid": "2777553"
+        },
+        {
+          "Tid": "39,93",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2777571",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,17",
+          "Dato": "20.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2777565",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,93",
+          "Dato": "20.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "1106",
+          "pid": "2777564",
+          "splits": [
+            "40,17",
+            "50,76"
+          ]
+        },
+        {
+          "Tid": "1.34,33",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2777572",
+          "splits": [
+            "39,93",
+            "54,40"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.28,01",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "916",
+          "pid": "2777570",
+          "splits": [
+            "39,93",
+            "54,40",
+            "56,89",
+            "56,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

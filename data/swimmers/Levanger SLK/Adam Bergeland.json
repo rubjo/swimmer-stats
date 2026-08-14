@@ -1,0 +1,82 @@
+{
+  "swimmerId": "27640",
+  "name": "Adam Bergeland",
+  "club": "Levanger SLK",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-14T17:01:03.969Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,38",
+          "Dato": "18.03.2018",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "1890",
+          "pid": "2252857"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,27",
+          "Dato": "18.03.2018",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "234",
+          "RA": "1616",
+          "pid": "2324319",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.06,15",
+          "Dato": "18.03.2018",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "205",
+          "RA": "1358",
+          "pid": "2324318",
+          "splits": [
+            "59,27",
+            "1.06,88"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.19,29",
+          "Dato": "18.03.2018",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "985",
+          "pid": "2252791",
+          "splits": [
+            "59,27",
+            "1.06,88",
+            "1.07,33",
+            "1.05,81"
+          ]
+        }
+      ]
+    }
+  ]
+}

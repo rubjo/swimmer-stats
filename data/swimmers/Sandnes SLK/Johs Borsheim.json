@@ -1,0 +1,127 @@
+{
+  "swimmerId": "31871",
+  "name": "Johs Borsheim",
+  "club": "Sandnes SLK",
+  "birthYear": 2005,
+  "gender": "male",
+  "timestamp": "2026-08-14T19:50:04.633Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,44",
+          "Dato": "01.02.2020",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "192",
+          "RA": "1345",
+          "pid": "2734433",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "45,14",
+          "Dato": "28.04.2019",
+          "Sted": "Giskehallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "269",
+          "RA": "1991",
+          "pid": "2555088"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,85",
+          "Dato": "01.02.2020",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "167",
+          "RA": "1003",
+          "pid": "2734836",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "57,65",
+          "Dato": "28.04.2019",
+          "Sted": "Giskehallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1214",
+          "pid": "2554761"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,35",
+          "Dato": "01.02.2020",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1137",
+          "pid": "2734432",
+          "splits": [
+            "42,44",
+            "49,91"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.55,75",
+          "Dato": "01.02.2020",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "149",
+          "RA": "838",
+          "pid": "2734837",
+          "splits": [
+            "53,85",
+            "1.01,90"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.55,05",
+          "Dato": "01.02.2020",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "608",
+          "pid": "2734835",
+          "splits": [
+            "53,85",
+            "1.01,90",
+            "1.02,61",
+            "56,69"
+          ]
+        }
+      ]
+    }
+  ]
+}

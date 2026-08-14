@@ -1,0 +1,44 @@
+{
+  "swimmerId": "4242",
+  "name": "Fanny Borchgrenvink",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1994,
+  "gender": "female",
+  "timestamp": "2026-08-14T19:06:14.616Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,50",
+          "Dato": "02.04.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1334",
+          "pid": "37982"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,88",
+          "Dato": "02.04.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "1131",
+          "pid": "6891",
+          "splits": [
+            "44,50",
+            "53,38"
+          ]
+        }
+      ]
+    }
+  ]
+}

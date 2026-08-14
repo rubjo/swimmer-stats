@@ -1,0 +1,70 @@
+{
+  "swimmerId": "5578",
+  "name": "Ida Berntsen",
+  "club": "Kongstensvømmerne",
+  "birthYear": 1991,
+  "gender": "female",
+  "timestamp": "2026-08-14T17:59:31.703Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,45",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "1056",
+          "pid": "122748"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,60",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "103",
+          "RA": "769",
+          "pid": "201736",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "48,35",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "122668"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,10",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "598",
+          "pid": "123174",
+          "splits": [
+            "47,60",
+            "54,50"
+          ]
+        }
+      ]
+    }
+  ]
+}
