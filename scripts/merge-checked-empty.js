@@ -17,7 +17,7 @@
  *
  * It only ADDS ids — it never drops one — so it cannot lose prior verdicts.
  *
- *   node scripts/merge-checked-empty.js /tmp/shards/shard-*/checked-empty.json
+ *   node scripts/merge-checked-empty.js /tmp/shards/shard-<star>/checked-empty.json
  */
 
 import fs from "fs";
