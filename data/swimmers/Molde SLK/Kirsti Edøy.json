@@ -1,0 +1,70 @@
+{
+  "swimmerId": "15290",
+  "name": "Kirsti Edøy",
+  "club": "Molde SLK",
+  "birthYear": 1969,
+  "gender": "female",
+  "timestamp": "2026-08-15T05:12:01.757Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,30",
+          "Dato": "01.04.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "66",
+          "RA": "656",
+          "pid": "880950",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "34,75",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "120",
+          "RA": "1093",
+          "pid": "1493061",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.09,86",
+          "Dato": "01.04.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "413",
+          "pid": "798289",
+          "splits": [
+            "33,30",
+            "36,56"
+          ]
+        },
+        {
+          "Tid": "1.13,24",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "748",
+          "pid": "1337894",
+          "splits": [
+            "34,75",
+            "38,49"
+          ]
+        }
+      ]
+    }
+  ]
+}

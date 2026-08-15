@@ -1,0 +1,86 @@
+{
+  "swimmerId": "6656",
+  "name": "Kjetil Børs-Lind",
+  "club": "Ås IL",
+  "birthYear": 1990,
+  "gender": "male",
+  "timestamp": "2026-08-15T02:55:55.645Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,35",
+          "Dato": "26.11.2006",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "856",
+          "pid": "201312"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,57",
+          "Dato": "26.11.2006",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "635",
+          "pid": "150202"
+        },
+        {
+          "Tid": "47,19",
+          "Dato": "03.06.2006",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "142701",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.13,37",
+          "Dato": "26.11.2006",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "708",
+          "pid": "201311",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.41,09",
+          "Dato": "03.06.2006",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "70",
+          "RA": "569",
+          "pid": "116401",
+          "splits": [
+            "47,19",
+            "53,90"
+          ]
+        }
+      ]
+    }
+  ]
+}

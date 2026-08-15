@@ -1,0 +1,299 @@
+{
+  "swimmerId": "15234",
+  "name": "Yevgen Dahl",
+  "club": "OI Svømming",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-15T03:56:47.814Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,99",
+          "Dato": "13.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "187",
+          "RA": "1389",
+          "pid": "1084309",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,16",
+          "Dato": "22.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1038054",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,18",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "183",
+          "RA": "1489",
+          "pid": "833673"
+        },
+        {
+          "Tid": "40,89",
+          "Dato": "02.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1057786",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "46,00",
+          "Dato": "20.03.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "794852"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "42,23",
+          "Dato": "13.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "720",
+          "pid": "1005390"
+        },
+        {
+          "Tid": "48,19",
+          "Dato": "02.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "978781"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,35",
+          "Dato": "22.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "113",
+          "RA": "818",
+          "pid": "1085490",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "45,29",
+          "Dato": "13.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1062159"
+        },
+        {
+          "Tid": "50,91",
+          "Dato": "02.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1114004",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,70",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1157",
+          "pid": "833380"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.18,18",
+          "Dato": "13.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "1031",
+          "pid": "1029248",
+          "splits": [
+            "36,99",
+            "41,19"
+          ]
+        },
+        {
+          "Tid": "1.24,15",
+          "Dato": "22.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1092446",
+          "splits": [
+            "38,16",
+            "45,99"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.31,80",
+          "Dato": "02.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1054159",
+          "splits": [
+            "40,89",
+            "50,91"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,52",
+          "Dato": "22.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "692",
+          "pid": "998930",
+          "splits": [
+            "44,35",
+            "53,17"
+          ]
+        },
+        {
+          "Tid": "1.49,92",
+          "Dato": "02.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "978665",
+          "splits": [
+            "50,91",
+            "59,01"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.42,44",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "88",
+          "RA": "651",
+          "pid": "833140",
+          "splits": [
+            "48,97",
+            "53,47"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.02,98",
+          "Dato": "22.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "828",
+          "pid": "999186",
+          "splits": [
+            "38,16",
+            "45,99",
+            "49,14",
+            "49,69"
+          ]
+        },
+        {
+          "Tid": "3.16,28",
+          "Dato": "02.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "978376",
+          "splits": [
+            "40,89",
+            "50,91",
+            "54,05",
+            "50,43"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.26,18",
+          "Dato": "22.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "109",
+          "RA": "580",
+          "pid": "999311",
+          "splits": [
+            "47,60",
+            "52,01",
+            "53,93",
+            "52,64"
+          ]
+        }
+      ]
+    }
+  ]
+}

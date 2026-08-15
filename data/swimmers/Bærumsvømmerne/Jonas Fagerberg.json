@@ -1,0 +1,110 @@
+{
+  "swimmerId": "15999",
+  "name": "Jonas Fagerberg",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-15T06:53:04.109Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,81",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "962",
+          "pid": "852352"
+        },
+        {
+          "Tid": "36,26",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "921801",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,01",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "547",
+          "pid": "851719"
+        },
+        {
+          "Tid": "41,10",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "921802",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,46",
+          "Dato": "05.11.2011",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "844946"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.18,16",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "997",
+          "pid": "851480",
+          "splits": [
+            "36,26",
+            "41,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.30,95",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "476",
+          "pid": "852481",
+          "splits": [
+            "41,10",
+            "49,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

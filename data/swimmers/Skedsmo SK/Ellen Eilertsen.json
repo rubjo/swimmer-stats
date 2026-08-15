@@ -1,0 +1,70 @@
+{
+  "swimmerId": "12807",
+  "name": "Ellen Eilertsen",
+  "club": "Skedsmo SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-15T05:38:43.096Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,04",
+          "Dato": "07.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1546",
+          "pid": "629031"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,97",
+          "Dato": "06.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "151",
+          "RA": "1294",
+          "pid": "718740",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,02",
+          "Dato": "07.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "629107"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,29",
+          "Dato": "06.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "991",
+          "pid": "628838",
+          "splits": [
+            "53,97",
+            "58,32"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "swimmerId": "24195",
+  "name": "Ronald Christensen",
+  "club": "Tønsberg SK",
+  "birthYear": 1970,
+  "gender": "male",
+  "timestamp": "2026-08-15T03:15:39.240Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,30",
+          "Dato": "08.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "732",
+          "pid": "1779009"
+        },
+        {
+          "Tid": "31,95",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1902516",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "35,85",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "338",
+          "pid": "1780154"
+        },
+        {
+          "Tid": "37,81",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1867615",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.06,85",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "711",
+          "pid": "1780000",
+          "splits": [
+            "31,95",
+            "34,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.20,99",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "351",
+          "pid": "1779755",
+          "splits": [
+            "37,81",
+            "43,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "swimmerId": "32008",
+  "name": "Johannes Ansnes Eliassen",
+  "club": "Steinkjer SLK",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-15T06:45:02.912Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,57",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1440",
+          "pid": "2758285"
+        },
+        {
+          "Tid": "50,25",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2758492",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "55,70",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "767",
+          "pid": "2758122"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.49,51",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "1304",
+          "pid": "2758491",
+          "splits": [
+            "50,25",
+            "59,26"
+          ]
+        }
+      ]
+    }
+  ]
+}

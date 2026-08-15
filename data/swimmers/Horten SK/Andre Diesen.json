@@ -1,0 +1,55 @@
+{
+  "swimmerId": "45840",
+  "name": "Andre Diesen",
+  "club": "Horten SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-08-15T04:45:31.393Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,03",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "2016",
+          "pid": "3662867",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "51,75",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3662674"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.52,80",
+          "Dato": "23.03.2025",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3662866",
+          "splits": [
+            "51,03",
+            "1.01,77"
+          ]
+        }
+      ]
+    }
+  ]
+}

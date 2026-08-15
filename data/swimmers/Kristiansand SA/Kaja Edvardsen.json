@@ -1,0 +1,60 @@
+{
+  "swimmerId": "31148",
+  "name": "Kaja Edvardsen",
+  "club": "Kristiansand SA",
+  "birthYear": 2009,
+  "gender": "female",
+  "timestamp": "2026-08-15T05:11:26.568Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.02,38",
+          "Dato": "16.09.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2528",
+          "pid": "2377914"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.14,75",
+          "Dato": "15.09.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "2212",
+          "pid": "2377921",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.36,96",
+          "Dato": "15.09.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1888",
+          "pid": "2377920",
+          "splits": [
+            "1.14,75",
+            "1.22,21"
+          ]
+        }
+      ]
+    }
+  ]
+}

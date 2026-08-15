@@ -1,0 +1,60 @@
+{
+  "swimmerId": "18995",
+  "name": "Vetle Elgesem Andersen",
+  "club": "Horten SK",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-15T06:35:09.363Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,47",
+          "Dato": "04.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1603",
+          "pid": "1158426"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,59",
+          "Dato": "04.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "130",
+          "RA": "948",
+          "pid": "1308117",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.41,43",
+          "Dato": "04.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "806",
+          "pid": "1255428",
+          "splits": [
+            "46,59",
+            "54,84"
+          ]
+        }
+      ]
+    }
+  ]
+}

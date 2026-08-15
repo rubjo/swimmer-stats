@@ -1,0 +1,110 @@
+{
+  "swimmerId": "19637",
+  "name": "Ellen Dalbu",
+  "club": "Hamar IL",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-15T03:34:49.756Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,64",
+          "Dato": "15.03.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "257",
+          "RA": "1917",
+          "pid": "1555633"
+        },
+        {
+          "Tid": "42,59",
+          "Dato": "12.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "190",
+          "RA": "1118",
+          "pid": "1584523"
+        },
+        {
+          "Tid": "44,57",
+          "Dato": "13.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1661513",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,22",
+          "Dato": "12.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "135",
+          "RA": "861",
+          "pid": "1719539",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.00,92",
+          "Dato": "13.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1585796"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.43,13",
+          "Dato": "13.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "170",
+          "RA": "1089",
+          "pid": "1586107",
+          "splits": [
+            "44,57",
+            "58,56"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.13,07",
+          "Dato": "12.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "105",
+          "RA": "739",
+          "pid": "1585002",
+          "splits": [
+            "58,22",
+            "1.14,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

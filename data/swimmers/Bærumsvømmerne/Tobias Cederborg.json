@@ -1,0 +1,112 @@
+{
+  "swimmerId": "6780",
+  "name": "Tobias Cederborg",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1992,
+  "gender": "male",
+  "timestamp": "2026-08-15T03:13:14.530Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,60",
+          "Dato": "23.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1308",
+          "pid": "119454"
+        },
+        {
+          "Tid": "50,17",
+          "Dato": "24.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "146136",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,05",
+          "Dato": "24.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "157",
+          "RA": "887",
+          "pid": "146138",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,87",
+          "Dato": "24.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "131",
+          "RA": "733",
+          "pid": "146137",
+          "splits": [
+            "51,05",
+            "1.01,82"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.53,38",
+          "Dato": "24.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1243",
+          "pid": "120204",
+          "splits": [
+            "50,17",
+            "1.03,21"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.57,58",
+          "Dato": "24.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "506",
+          "pid": "120423",
+          "splits": [
+            "51,05",
+            "1.01,82",
+            "1.03,79",
+            "1.00,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "swimmerId": "15809",
+  "name": "Ånund Edland",
+  "club": "OI Svømming",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-15T05:37:23.671Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,68",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "54",
+          "RA": "688",
+          "pid": "1794781"
+        },
+        {
+          "Tid": "35,21",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1942260",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,18",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "193",
+          "RA": "1536",
+          "pid": "833675"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,35",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "944",
+          "pid": "833788"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,27",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "48",
+          "RA": "659",
+          "pid": "1794425",
+          "splits": [
+            "35,21",
+            "41,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

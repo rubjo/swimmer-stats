@@ -1,0 +1,70 @@
+{
+  "swimmerId": "8599",
+  "name": "Magnus Busk",
+  "club": "Poseidon",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-15T02:38:19.876Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,15",
+          "Dato": "22.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "52",
+          "RA": "1154",
+          "pid": "241121"
+        },
+        {
+          "Tid": "41,65",
+          "Dato": "23.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "289304",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,60",
+          "Dato": "22.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "15",
+          "RA": "714",
+          "pid": "241603"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,20",
+          "Dato": "23.09.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "1026",
+          "pid": "242006",
+          "splits": [
+            "41,65",
+            "48,55"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "swimmerId": "11788",
+  "name": "Petter De Boer",
+  "club": "Madla SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-15T04:38:32.147Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "54,38",
+          "Dato": "06.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1694",
+          "pid": "506180"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,41",
+          "Dato": "06.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1329",
+          "pid": "559877",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.19,85",
+          "Dato": "06.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1055",
+          "pid": "506370",
+          "splits": [
+            "1.04,41",
+            "1.15,44"
+          ]
+        }
+      ]
+    }
+  ]
+}

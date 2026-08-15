@@ -1,0 +1,112 @@
+{
+  "swimmerId": "41329",
+  "name": "Emma Crest-Ekhaugen",
+  "club": "IL Ros",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-08-15T03:24:02.076Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,83",
+          "Dato": "11.09.2022",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3074729"
+        },
+        {
+          "Tid": "46,15",
+          "Dato": "11.09.2022",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3074733",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,95",
+          "Dato": "11.09.2022",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3074742",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,28",
+          "Dato": "11.09.2022",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3074732",
+          "splits": [
+            "46,15",
+            "53,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,42",
+          "Dato": "11.09.2022",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3074743",
+          "splits": [
+            "57,95",
+            "1.04,47"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.15,52",
+          "Dato": "11.09.2022",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3074741",
+          "splits": [
+            "57,95",
+            "1.04,47",
+            "1.05,66",
+            "1.07,44"
+          ]
+        }
+      ]
+    }
+  ]
+}

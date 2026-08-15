@@ -1,0 +1,55 @@
+{
+  "swimmerId": "23535",
+  "name": "Ariana Evanson",
+  "club": "Kirkenes SK",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-15T06:31:21.036Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,71",
+          "Dato": "05.12.2015",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "331",
+          "RA": "1995",
+          "pid": "1639033"
+        },
+        {
+          "Tid": "45,49",
+          "Dato": "05.12.2015",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1703754",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,72",
+          "Dato": "05.12.2015",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "312",
+          "RA": "1833",
+          "pid": "1639144",
+          "splits": [
+            "45,49",
+            "53,23"
+          ]
+        }
+      ]
+    }
+  ]
+}

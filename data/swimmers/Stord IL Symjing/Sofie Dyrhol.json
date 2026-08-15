@@ -1,0 +1,70 @@
+{
+  "swimmerId": "17832",
+  "name": "Sofie Dyrhol",
+  "club": "Stord IL Symjing",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-15T05:29:46.268Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,44",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "366",
+          "RA": "2142",
+          "pid": "1011417"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,03",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "315",
+          "RA": "1668",
+          "pid": "1012268"
+        },
+        {
+          "Tid": "59,73",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1092331",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.11,21",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "302",
+          "RA": "1600",
+          "pid": "1012635",
+          "splits": [
+            "59,73",
+            "1.11,48"
+          ]
+        }
+      ]
+    }
+  ]
+}

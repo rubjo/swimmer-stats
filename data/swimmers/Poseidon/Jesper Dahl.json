@@ -1,0 +1,55 @@
+{
+  "swimmerId": "20649",
+  "name": "Jesper Dahl",
+  "club": "Poseidon",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-15T03:18:47.204Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,91",
+          "Dato": "15.03.2014",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "224",
+          "RA": "1956",
+          "pid": "1343356"
+        },
+        {
+          "Tid": "52,27",
+          "Dato": "15.03.2014",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1491085",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,47",
+          "Dato": "15.03.2014",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1656",
+          "pid": "1343893",
+          "splits": [
+            "52,27",
+            "1.02,20"
+          ]
+        }
+      ]
+    }
+  ]
+}

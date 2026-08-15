@@ -1,0 +1,60 @@
+{
+  "swimmerId": "17724",
+  "name": "Helene Børrestuen",
+  "club": "Elverum Svømming",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-15T02:58:48.512Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,60",
+          "Dato": "14.10.2012",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "304",
+          "RA": "2297",
+          "pid": "1005195"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,68",
+          "Dato": "14.10.2012",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "274",
+          "RA": "1932",
+          "pid": "1033578",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.19,71",
+          "Dato": "14.10.2012",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "237",
+          "RA": "1646",
+          "pid": "1005097",
+          "splits": [
+            "1.03,68",
+            "1.16,03"
+          ]
+        }
+      ]
+    }
+  ]
+}

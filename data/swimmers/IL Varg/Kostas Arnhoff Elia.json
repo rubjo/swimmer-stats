@@ -1,0 +1,55 @@
+{
+  "swimmerId": "5010",
+  "name": "Kostas Arnhoff Elia",
+  "club": "IL Varg",
+  "birthYear": 1992,
+  "gender": "male",
+  "timestamp": "2026-08-15T05:35:48.546Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,93",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "1320",
+          "pid": "113701"
+        },
+        {
+          "Tid": "42,90",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "140103",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,06",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1169",
+          "pid": "113459",
+          "splits": [
+            "42,90",
+            "57,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

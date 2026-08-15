@@ -1,0 +1,60 @@
+{
+  "swimmerId": "13707",
+  "name": "Eline Sletbakk Bugge",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-15T02:38:37.127Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,33",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "248",
+          "RA": "1568",
+          "pid": "654198"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,87",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "239",
+          "RA": "1344",
+          "pid": "749306",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,68",
+          "Dato": "08.05.2010",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "230",
+          "RA": "1187",
+          "pid": "654056",
+          "splits": [
+            "54,87",
+            "1.05,81"
+          ]
+        }
+      ]
+    }
+  ]
+}

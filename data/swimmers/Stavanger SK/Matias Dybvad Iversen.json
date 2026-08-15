@@ -1,0 +1,80 @@
+{
+  "swimmerId": "15713",
+  "name": "Matias Dybvad Iversen",
+  "club": "Stavanger SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-15T05:22:58.953Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,70",
+          "Dato": "14.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1297",
+          "pid": "1153221"
+        },
+        {
+          "Tid": "39,64",
+          "Dato": "30.09.2012",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1576",
+          "pid": "1000632"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,31",
+          "Dato": "13.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "166",
+          "RA": "878",
+          "pid": "1310156",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,26",
+          "Dato": "04.12.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "1087",
+          "pid": "849609"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,40",
+          "Dato": "13.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "721",
+          "pid": "1152379",
+          "splits": [
+            "45,31",
+            "52,09"
+          ]
+        }
+      ]
+    }
+  ]
+}

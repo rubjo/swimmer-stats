@@ -1,0 +1,102 @@
+{
+  "swimmerId": "20618",
+  "name": "Marius Dogger",
+  "club": "Masters Sørlandet",
+  "birthYear": 1976,
+  "gender": "male",
+  "timestamp": "2026-08-15T04:17:40.184Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,39",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "519",
+          "pid": "1348629"
+        },
+        {
+          "Tid": "39,51",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1440268",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "42,59",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1474347",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.25,42",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "457",
+          "pid": "1348156",
+          "splits": [
+            "39,51",
+            "45,91"
+          ]
+        },
+        {
+          "Tid": "1.31,93",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1483523",
+          "splits": [
+            "42,59",
+            "49,34"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.18,50",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "45",
+          "RA": "515",
+          "pid": "1348814",
+          "splits": [
+            "42,59",
+            "49,34",
+            "52,78",
+            "53,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

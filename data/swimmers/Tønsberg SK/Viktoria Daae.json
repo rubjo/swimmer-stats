@@ -1,0 +1,55 @@
+{
+  "swimmerId": "10482",
+  "name": "Viktoria Daae",
+  "club": "Tønsberg SK",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-15T04:36:19.546Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "56,59",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1851",
+          "pid": "390160"
+        },
+        {
+          "Tid": "58,14",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "420591",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.05,33",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1518",
+          "pid": "390439",
+          "splits": [
+            "58,14",
+            "1.07,19"
+          ]
+        }
+      ]
+    }
+  ]
+}

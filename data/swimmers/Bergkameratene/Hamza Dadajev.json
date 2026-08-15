@@ -1,0 +1,80 @@
+{
+  "swimmerId": "17774",
+  "name": "Hamza Dadajev",
+  "club": "Bergkameratene",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-15T03:54:38.875Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,97",
+          "Dato": "15.12.2013",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1137",
+          "pid": "1221886"
+        },
+        {
+          "Tid": "37,92",
+          "Dato": "20.10.2012",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1460",
+          "pid": "1009169"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,65",
+          "Dato": "15.12.2013",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "177",
+          "RA": "952",
+          "pid": "1263099",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,06",
+          "Dato": "20.10.2012",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1258",
+          "pid": "1008981"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.38,99",
+          "Dato": "15.12.2013",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "757",
+          "pid": "1221527",
+          "splits": [
+            "46,65",
+            "52,34"
+          ]
+        }
+      ]
+    }
+  ]
+}

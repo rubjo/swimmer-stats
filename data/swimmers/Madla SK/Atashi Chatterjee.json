@@ -1,0 +1,80 @@
+{
+  "swimmerId": "22405",
+  "name": "Atashi Chatterjee",
+  "club": "Madla SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-15T03:30:20.367Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,58",
+          "Dato": "11.12.2016",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "188",
+          "RA": "1179",
+          "pid": "1865143"
+        },
+        {
+          "Tid": "35,31",
+          "Dato": "02.10.2016",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1831255"
+        },
+        {
+          "Tid": "36,38",
+          "Dato": "02.10.2016",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1897232",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "42,05",
+          "Dato": "11.12.2016",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "876",
+          "pid": "1863925"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.19,25",
+          "Dato": "02.10.2016",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1154",
+          "pid": "1831448",
+          "splits": [
+            "36,38",
+            "42,87"
+          ]
+        }
+      ]
+    }
+  ]
+}

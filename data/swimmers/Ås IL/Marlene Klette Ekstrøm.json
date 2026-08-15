@@ -1,0 +1,65 @@
+{
+  "swimmerId": "35678",
+  "name": "Marlene Klette Ekstrøm",
+  "club": "Ås IL",
+  "birthYear": 2010,
+  "gender": "female",
+  "timestamp": "2026-08-15T05:25:12.457Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,53",
+          "Dato": "11.06.2022",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3039884"
+        },
+        {
+          "Tid": "37,49",
+          "Dato": "14.05.2022",
+          "Sted": "Nordby",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3029938"
+        },
+        {
+          "Tid": "39,15",
+          "Dato": "15.05.2022",
+          "Sted": "Nordby",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3029943",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,31",
+          "Dato": "15.05.2022",
+          "Sted": "Nordby",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3029942",
+          "splits": [
+            "39,15",
+            "46,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

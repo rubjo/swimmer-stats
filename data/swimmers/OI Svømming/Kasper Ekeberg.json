@@ -1,0 +1,60 @@
+{
+  "swimmerId": "32612",
+  "name": "Kasper Ekeberg",
+  "club": "OI Svømming",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-15T05:40:34.546Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,56",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "959",
+          "pid": "2667254"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,25",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "75",
+          "RA": "1401",
+          "pid": "2668499",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,54",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "1170",
+          "pid": "2668498",
+          "splits": [
+            "53,25",
+            "1.01,29"
+          ]
+        }
+      ]
+    }
+  ]
+}

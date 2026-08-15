@@ -1,0 +1,117 @@
+{
+  "swimmerId": "33153",
+  "name": "Ingrid Løvtjernet Engen",
+  "club": "Kongsvinger SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-15T06:47:36.583Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,76",
+          "Dato": "14.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "199",
+          "RA": "1145",
+          "pid": "2601720"
+        },
+        {
+          "Tid": "44,87",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2601739",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "48,18",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2601754",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,38",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "163",
+          "RA": "931",
+          "pid": "2601716"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,41",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "186",
+          "RA": "1019",
+          "pid": "2601738",
+          "splits": [
+            "44,87",
+            "46,54"
+          ]
+        },
+        {
+          "Tid": "1.42,32",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2601755",
+          "splits": [
+            "48,18",
+            "54,14"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.26,92",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "136",
+          "RA": "722",
+          "pid": "2601753",
+          "splits": [
+            "48,18",
+            "54,14",
+            "56,67",
+            "47,93"
+          ]
+        }
+      ]
+    }
+  ]
+}

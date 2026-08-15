@@ -1,0 +1,102 @@
+{
+  "swimmerId": "16625",
+  "name": "Silje Digernes",
+  "club": "Båtsfjord SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-15T04:48:46.554Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,42",
+          "Dato": "27.01.2013",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "300",
+          "RA": "1960",
+          "pid": "1132720"
+        },
+        {
+          "Tid": "48,51",
+          "Dato": "08.06.2013",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1248708",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "49,72",
+          "Dato": "27.01.2013",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1285765",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.42,91",
+          "Dato": "08.06.2013",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "300",
+          "RA": "1829",
+          "pid": "1173832",
+          "splits": [
+            "48,51",
+            "54,40"
+          ]
+        },
+        {
+          "Tid": "1.49,63",
+          "Dato": "27.01.2013",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1244871",
+          "splits": [
+            "49,72",
+            "59,91"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.54,01",
+          "Dato": "27.01.2013",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "1429",
+          "pid": "1132816",
+          "splits": [
+            "49,72",
+            "59,91",
+            "1.02,46",
+            "1.01,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

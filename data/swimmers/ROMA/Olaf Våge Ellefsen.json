@@ -1,0 +1,55 @@
+{
+  "swimmerId": "24413",
+  "name": "Olaf Våge Ellefsen",
+  "club": "ROMA",
+  "birthYear": 1944,
+  "gender": "male",
+  "timestamp": "2026-08-15T06:46:32.317Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,37",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "155",
+          "RA": "780",
+          "pid": "1943258"
+        },
+        {
+          "Tid": "45,61",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1897458",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.36,53",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "109",
+          "RA": "751",
+          "pid": "1779737",
+          "splits": [
+            "45,61",
+            "50,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "swimmerId": "41934",
+  "name": "Lea Furuly Einbu",
+  "club": "Ullensakersvømmerne",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-15T05:31:40.856Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "41,39",
+          "Dato": "14.01.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3146450"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,22",
+          "Dato": "15.01.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3147171",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,14",
+          "Dato": "15.01.2023",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3147170",
+          "splits": [
+            "49,22",
+            "58,92"
+          ]
+        }
+      ]
+    }
+  ]
+}
