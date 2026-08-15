@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # ┌────────────────────────────────────────────────────────────────────┐
+  # ┌───────────────────────────────────────────────────────────────[...]
   # │ THE ONLY SWITCH YOU NEED TO FLIP between seasons.                     │
   # │                                                                      │
   # │  "1" = backfill-only week (no meets): skip the licensed loop and fan  │
@@ -29,7 +29,7 @@ env:
   # │ Nothing else needs changing. index.js reads BACKFILL_ONLY and treats  │
   # │ SHARD_COUNT as 1 when it is "0", so the licensed loop is never run     │
   # │ 8× even though the matrix still lists 8 shards.                        │
-  # └────────────────────────────────────────────────────────────────────┘
+  # └───────────────────────────────────────────────────────────────[...]
   BACKFILL_ONLY: "1"
 
   # Fan-out width used ONLY in backfill-only mode. index.js ignores this (treats
@@ -111,6 +111,7 @@ jobs:
       # (env is usable in a step-level if; it is NOT usable in a job-level if.)
       - name: Run scraper (shard ${{ matrix.shard }})
         if: ${{ env.BACKFILL_ONLY == '1' || matrix.shard == 0 }}
+        continue-on-error: true
         env:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
           LOOKBACK_DAYS: "30"
@@ -124,7 +125,10 @@ jobs:
           # SHARD_COUNT inherits the top-level env value.
           # Shards write files but never push — the merge job does the single commit.
           NO_PUSH: "1"
-        run: node index.js
+        run: |
+          # capture failures inside the step but don't abort the job (continue-on-error)
+          set -e
+          node index.js
 
       # Upload only THIS shard's outputs. Swimmer files are disjoint across
       # shards; checked-empty.json is this shard's partial ledger (unioned later).
@@ -175,26 +179,57 @@ jobs:
           path: /tmp/shards
 
       - name: Merge shard files into data/
+        id: merge
         run: |
           set -ex
           shopt -s nullglob
+
+          # collect shard directories
+          shards=(/tmp/shards/shard-*)
+          if [ ${#shards[@]} -eq 0 ] || [ "${shards[0]}" = "/tmp/shards/shard-*" ]; then
+            echo "No shard artifacts found. Nothing to merge."
+            echo "merged=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          merged_any=false
           # Swimmer files: disjoint per shard, so a recursive copy never
           # overwrites another shard's work. writeSwimmerFile's own guards
           # (id-suffixed paths, empty-over-nonempty refusal) already prevented
           # any within-shard clobber before upload.
-          for d in /tmp/shards/shard-*; do
+          for d in "${shards[@]}"; do
             if [ -d "$d/swimmers" ]; then
               mkdir -p data/swimmers
               cp -R "$d/swimmers/." data/swimmers/
+              merged_any=true
             fi
           done
+
           # checked-empty.json: union all shard ledgers with the committed one.
-          node scripts/merge-checked-empty.js /tmp/shards/shard-*/checked-empty.json
+          checked=(/tmp/shards/shard-*/checked-empty.json)
+          if [ ${#checked[@]} -gt 0 ] && [ "${checked[0]}" != "/tmp/shards/shard-*/checked-empty.json" ]; then
+            node scripts/merge-checked-empty.js "${checked[@]}"
+            merged_any=true
+          fi
+
+          if [ "$merged_any" = true ]; then
+            echo "merged=true" >> $GITHUB_OUTPUT
+          else
+            echo "merged=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fail when no shard outputs were merged
+        if: steps.merge.outputs.merged != 'true'
+        run: |
+          echo "No shard artifacts were produced by any shard — failing to alert."
+          exit 1
 
       - name: Rebuild index once over the merged data
+        if: steps.merge.outputs.merged == 'true'
         run: node scripts/rebuild-index.js
 
       - name: Commit merged data
+        if: steps.merge.outputs.merged == 'true'
         run: |
           git add data/
           if git diff --cached --quiet; then
@@ -208,10 +243,12 @@ jobs:
           fi
 
       - name: Upload Pages artifact
+        if: steps.merge.outputs.merged == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: data
 
       - name: Deploy to Pages
+        if: steps.merge.outputs.merged == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
