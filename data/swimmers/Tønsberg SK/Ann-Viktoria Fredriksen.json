@@ -1,0 +1,60 @@
+{
+  "swimmerId": "11549",
+  "name": "Ann-Viktoria Fredriksen",
+  "club": "Tønsberg SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-15T14:29:04.234Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,90",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "226",
+          "RA": "1565",
+          "pid": "525795"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,42",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "209",
+          "RA": "1454",
+          "pid": "565425",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,16",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1225",
+          "pid": "526457",
+          "splits": [
+            "57,42",
+            "1.07,74"
+          ]
+        }
+      ]
+    }
+  ]
+}

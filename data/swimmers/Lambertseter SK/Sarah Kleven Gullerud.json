@@ -1,0 +1,95 @@
+{
+  "swimmerId": "23771",
+  "name": "Sarah Kleven Gullerud",
+  "club": "Lambertseter SK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-15T16:57:19.523Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,10",
+          "Dato": "10.03.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "268",
+          "RA": "2048",
+          "pid": "2248208"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,04",
+          "Dato": "17.06.2017",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "290",
+          "RA": "1534",
+          "pid": "2043676"
+        },
+        {
+          "Tid": "52,76",
+          "Dato": "11.03.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "235",
+          "RA": "1616",
+          "pid": "2321174",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,60",
+          "Dato": "04.03.2017",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2141180",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,80",
+          "Dato": "11.03.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "1363",
+          "pid": "2249876",
+          "splits": [
+            "52,76",
+            "1.00,04"
+          ]
+        },
+        {
+          "Tid": "2.01,18",
+          "Dato": "04.03.2017",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1582",
+          "pid": "1998110",
+          "splits": [
+            "55,60",
+            "1.05,58"
+          ]
+        }
+      ]
+    }
+  ]
+}

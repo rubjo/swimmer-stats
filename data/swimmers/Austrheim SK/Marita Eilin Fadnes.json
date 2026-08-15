@@ -1,0 +1,100 @@
+{
+  "swimmerId": "17823",
+  "name": "Marita Eilin Fadnes",
+  "club": "Austrheim SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-15T13:10:32.962Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,29",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "353",
+          "RA": "2048",
+          "pid": "1011513"
+        },
+        {
+          "Tid": "45,69",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1051626",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,70",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1048",
+          "pid": "1012306"
+        },
+        {
+          "Tid": "54,06",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1070281",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,29",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "314",
+          "RA": "1704",
+          "pid": "1012145",
+          "splits": [
+            "45,69",
+            "54,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,82",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "249",
+          "RA": "1200",
+          "pid": "1012675",
+          "splits": [
+            "54,06",
+            "57,76"
+          ]
+        }
+      ]
+    }
+  ]
+}

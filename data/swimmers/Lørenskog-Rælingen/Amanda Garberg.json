@@ -1,0 +1,162 @@
+{
+  "swimmerId": "14598",
+  "name": "Amanda Garberg",
+  "club": "Lørenskog/Rælingen",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-15T16:00:53.382Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,31",
+          "Dato": "03.11.2013",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1231",
+          "pid": "1208537"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "45,71",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "235",
+          "RA": "1242",
+          "pid": "1238901",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "52,38",
+          "Dato": "22.01.2012",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "1423",
+          "pid": "945847"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,76",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "288",
+          "RA": "1405",
+          "pid": "1189764"
+        },
+        {
+          "Tid": "51,88",
+          "Dato": "03.11.2013",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1285745",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.01,78",
+          "Dato": "22.01.2012",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "390",
+          "RA": "1889",
+          "pid": "1110341",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.42,67",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "836",
+          "pid": "1189806",
+          "splits": [
+            "45,71",
+            "56,96"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,86",
+          "Dato": "03.11.2013",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "246",
+          "RA": "1165",
+          "pid": "1271324",
+          "splits": [
+            "51,88",
+            "57,98"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.13,76",
+          "Dato": "22.01.2012",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "331",
+          "RA": "1617",
+          "pid": "945972",
+          "splits": [
+            "1.01,78",
+            "1.11,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.50,20",
+          "Dato": "03.11.2013",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "889",
+          "pid": "1208876",
+          "splits": [
+            "51,88",
+            "57,98",
+            "1.00,13",
+            "1.00,21"
+          ]
+        }
+      ]
+    }
+  ]
+}

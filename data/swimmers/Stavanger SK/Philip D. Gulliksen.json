@@ -1,0 +1,55 @@
+{
+  "swimmerId": "13048",
+  "name": "Philip D. Gulliksen",
+  "club": "Stavanger SK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-15T17:12:08.800Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,85",
+          "Dato": "26.09.2010",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1664",
+          "pid": "675183"
+        },
+        {
+          "Tid": "46,52",
+          "Dato": "26.09.2010",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "696182",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,56",
+          "Dato": "26.09.2010",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1428",
+          "pid": "675306",
+          "splits": [
+            "46,52",
+            "58,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

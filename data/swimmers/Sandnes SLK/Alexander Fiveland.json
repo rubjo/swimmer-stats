@@ -1,0 +1,55 @@
+{
+  "swimmerId": "18869",
+  "name": "Alexander Fiveland",
+  "club": "Sandnes SLK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-15T13:37:00.855Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,97",
+          "Dato": "13.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "210",
+          "RA": "1170",
+          "pid": "1288221",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,59",
+          "Dato": "14.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1152896"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,60",
+          "Dato": "13.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1085",
+          "pid": "1152353",
+          "splits": [
+            "50,97",
+            "1.02,63"
+          ]
+        }
+      ]
+    }
+  ]
+}

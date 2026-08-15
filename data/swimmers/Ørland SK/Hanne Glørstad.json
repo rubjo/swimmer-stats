@@ -1,0 +1,137 @@
+{
+  "swimmerId": "25303",
+  "name": "Hanne Glørstad",
+  "club": "Ørland SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-15T15:43:39.127Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,59",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "200",
+          "RA": "1659",
+          "pid": "2015968"
+        },
+        {
+          "Tid": "39,50",
+          "Dato": "03.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "129",
+          "RA": "1786",
+          "pid": "1863258"
+        },
+        {
+          "Tid": "40,71",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2105533",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "44,63",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2192486",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,87",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "312",
+          "RA": "1961",
+          "pid": "2015875"
+        },
+        {
+          "Tid": "1.03,31",
+          "Dato": "03.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "267",
+          "RA": "2052",
+          "pid": "1863130"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,19",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1483",
+          "pid": "2016177",
+          "splits": [
+            "40,71",
+            "46,48"
+          ]
+        },
+        {
+          "Tid": "1.34,64",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2190017",
+          "splits": [
+            "44,63",
+            "50,01"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.15,41",
+          "Dato": "01.04.2017",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1237",
+          "pid": "2016071",
+          "splits": [
+            "44,63",
+            "50,01",
+            "51,79",
+            "48,98"
+          ]
+        }
+      ]
+    }
+  ]
+}

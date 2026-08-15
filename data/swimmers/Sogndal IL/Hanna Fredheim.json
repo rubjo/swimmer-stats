@@ -1,0 +1,136 @@
+{
+  "swimmerId": "19568",
+  "name": "Hanna Fredheim",
+  "club": "Sogndal IL",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-15T15:18:06.290Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,47",
+          "Dato": "03.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "309",
+          "RA": "1618",
+          "pid": "1207160"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,35",
+          "Dato": "02.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "254",
+          "RA": "1271",
+          "pid": "1253587",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,75",
+          "Dato": "03.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1255760"
+        },
+        {
+          "Tid": "53,80",
+          "Dato": "03.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1237354",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.29,34",
+          "Dato": "02.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "283",
+          "RA": "1448",
+          "pid": "1207045",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,17",
+          "Dato": "02.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1107",
+          "pid": "1206949",
+          "splits": [
+            "50,35",
+            "57,82"
+          ]
+        },
+        {
+          "Tid": "1.54,09",
+          "Dato": "03.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1226460",
+          "splits": [
+            "53,80",
+            "1.00,29"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.54,12",
+          "Dato": "03.11.2013",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "219",
+          "RA": "929",
+          "pid": "1207146",
+          "splits": [
+            "53,80",
+            "1.00,29",
+            "1.00,65",
+            "59,38"
+          ]
+        }
+      ]
+    }
+  ]
+}

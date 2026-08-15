@@ -1,0 +1,65 @@
+{
+  "swimmerId": "19096",
+  "name": "Hannah Furberg",
+  "club": "OI Svømming",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-15T15:12:05.806Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,33",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2079",
+          "pid": "1160460"
+        },
+        {
+          "Tid": "45,44",
+          "Dato": "12.10.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1195161"
+        },
+        {
+          "Tid": "48,90",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1302431",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.46,58",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1889",
+          "pid": "1160812",
+          "splits": [
+            "48,90",
+            "57,68"
+          ]
+        }
+      ]
+    }
+  ]
+}

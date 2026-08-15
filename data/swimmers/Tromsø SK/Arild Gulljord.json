@@ -1,0 +1,117 @@
+{
+  "swimmerId": "17738",
+  "name": "Arild Gulljord",
+  "club": "Tromsø SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-15T17:22:01.510Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,85",
+          "Dato": "05.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "246",
+          "RA": "1625",
+          "pid": "1158100"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,70",
+          "Dato": "19.01.2013",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "188",
+          "RA": "1001",
+          "pid": "1129076"
+        },
+        {
+          "Tid": "48,66",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1254754",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,36",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1275547",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,00",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "819",
+          "pid": "1157532",
+          "splits": [
+            "48,66",
+            "53,34"
+          ]
+        },
+        {
+          "Tid": "1.48,54",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1249879",
+          "splits": [
+            "51,36",
+            "57,18"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.41,64",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "647",
+          "pid": "1157623",
+          "splits": [
+            "51,36",
+            "57,18",
+            "57,77",
+            "55,33"
+          ]
+        }
+      ]
+    }
+  ]
+}

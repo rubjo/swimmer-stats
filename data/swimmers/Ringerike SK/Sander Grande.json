@@ -1,0 +1,55 @@
+{
+  "swimmerId": "18643",
+  "name": "Sander Grande",
+  "club": "Ringerike SK",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-15T16:21:54.777Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,75",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1303",
+          "pid": "1138197"
+        },
+        {
+          "Tid": "38,77",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1252096",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.22,56",
+          "Dato": "17.02.2013",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "1199",
+          "pid": "1138339",
+          "splits": [
+            "38,77",
+            "43,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

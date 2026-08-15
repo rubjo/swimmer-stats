@@ -1,0 +1,164 @@
+{
+  "swimmerId": "16226",
+  "name": "Lara Galligani",
+  "club": "OI Svømming",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-15T16:06:13.324Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,06",
+          "Dato": "21.01.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "360",
+          "RA": "2077",
+          "pid": "943990"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,12",
+          "Dato": "07.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "308",
+          "RA": "1601",
+          "pid": "1081180",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,17",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1039679",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "59,55",
+          "Dato": "21.01.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1071592",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "59,60",
+          "Dato": "07.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "261",
+          "RA": "1555",
+          "pid": "935246"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,02",
+          "Dato": "07.01.2012",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "273",
+          "RA": "1346",
+          "pid": "935077",
+          "splits": [
+            "55,12",
+            "1.01,90"
+          ]
+        },
+        {
+          "Tid": "2.00,28",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1080487",
+          "splits": [
+            "56,17",
+            "1.04,11"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.05,30",
+          "Dato": "21.01.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1047414",
+          "splits": [
+            "59,55",
+            "1.05,75"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.06,95",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "976",
+          "pid": "958769",
+          "splits": [
+            "56,17",
+            "1.04,11",
+            "1.04,32",
+            "1.02,35"
+          ]
+        },
+        {
+          "Tid": "4.13,33",
+          "Dato": "21.01.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "944072",
+          "splits": [
+            "59,55",
+            "1.05,75",
+            "1.05,78",
+            "1.02,25"
+          ]
+        }
+      ]
+    }
+  ]
+}

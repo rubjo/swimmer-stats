@@ -1,0 +1,125 @@
+{
+  "swimmerId": "2068",
+  "name": "Charlotte Lena Førde",
+  "club": "Svelgen TIF",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-15T15:27:35.383Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,02",
+          "Dato": "22.04.2012",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "1523",
+          "pid": "969686"
+        },
+        {
+          "Tid": "39,67",
+          "Dato": "21.04.2012",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1071030",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,60",
+          "Dato": "21.04.2012",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "59",
+          "RA": "1038",
+          "pid": "1039702",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,61",
+          "Dato": "22.04.2012",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "969595"
+        },
+        {
+          "Tid": "50,04",
+          "Dato": "03.06.2012",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1056095",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,31",
+          "Dato": "21.04.2012",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "1337",
+          "pid": "969505",
+          "splits": [
+            "39,67",
+            "48,64"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,27",
+          "Dato": "03.06.2012",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "976",
+          "pid": "982028",
+          "splits": [
+            "50,04",
+            "56,23"
+          ]
+        },
+        {
+          "Tid": "1.46,71",
+          "Dato": "21.04.2012",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "969343",
+          "splits": [
+            "48,60",
+            "58,11"
+          ]
+        }
+      ]
+    }
+  ]
+}

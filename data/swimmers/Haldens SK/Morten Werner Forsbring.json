@@ -1,0 +1,82 @@
+{
+  "swimmerId": "26022",
+  "name": "Morten Werner Forsbring",
+  "club": "Haldens SK",
+  "birthYear": 1980,
+  "gender": "male",
+  "timestamp": "2026-08-15T14:17:23.137Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "32,59",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "648",
+          "pid": "2008854"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,61",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "231",
+          "RA": "1134",
+          "pid": "2106441",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.09,96",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "148",
+          "RA": "865",
+          "pid": "2201087",
+          "splits": [
+            "32,61",
+            "37,35"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.28,88",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "76",
+          "RA": "579",
+          "pid": "2009010",
+          "splits": [
+            "32,61",
+            "37,35",
+            "40,03",
+            "38,89"
+          ]
+        }
+      ]
+    }
+  ]
+}

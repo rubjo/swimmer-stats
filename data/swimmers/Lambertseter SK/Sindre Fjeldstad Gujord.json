@@ -1,0 +1,60 @@
+{
+  "swimmerId": "32164",
+  "name": "Sindre Fjeldstad Gujord",
+  "club": "Lambertseter SK",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-15T17:40:09.555Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,35",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "156",
+          "RA": "1693",
+          "pid": "2540367"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,23",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "140",
+          "RA": "1493",
+          "pid": "2540963",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,18",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "1282",
+          "pid": "2540962",
+          "splits": [
+            "55,23",
+            "1.05,95"
+          ]
+        }
+      ]
+    }
+  ]
+}

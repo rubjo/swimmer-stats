@@ -1,0 +1,60 @@
+{
+  "swimmerId": "25211",
+  "name": "Ina Marie Gramstad",
+  "club": "Riska SK",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-15T17:22:20.630Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,80",
+          "Dato": "18.03.2018",
+          "Sted": "Sola",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "292",
+          "RA": "1862",
+          "pid": "2250521"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,35",
+          "Dato": "18.03.2018",
+          "Sted": "Sola",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "214",
+          "RA": "1154",
+          "pid": "2324586",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.39,39",
+          "Dato": "18.03.2018",
+          "Sted": "Sola",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "851",
+          "pid": "2250983",
+          "splits": [
+            "47,35",
+            "52,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "swimmerId": "38105",
+  "name": "Aurora Francese-Rashidi",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-08-15T14:06:33.812Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,15",
+          "Dato": "01.12.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1874",
+          "pid": "3587851"
+        },
+        {
+          "Tid": "54,38",
+          "Dato": "07.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3537410",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.59,35",
+          "Dato": "07.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1851",
+          "pid": "3537411",
+          "splits": [
+            "54,38",
+            "1.04,97"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.06,98",
+          "Dato": "07.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1456",
+          "pid": "3537409",
+          "splits": [
+            "54,38",
+            "1.04,97",
+            "1.08,50",
+            "59,13"
+          ]
+        }
+      ]
+    }
+  ]
+}

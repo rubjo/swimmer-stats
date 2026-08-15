@@ -1,0 +1,102 @@
+{
+  "swimmerId": "8736",
+  "name": "Markus Gjessing",
+  "club": "OI Svømming",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-15T15:15:43.274Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,72",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "131",
+          "RA": "1024",
+          "pid": "401494",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,01",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "82",
+          "RA": "1028",
+          "pid": "249167"
+        },
+        {
+          "Tid": "55,48",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "289976",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,85",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "823",
+          "pid": "339339",
+          "splits": [
+            "53,72",
+            "1.04,13"
+          ]
+        },
+        {
+          "Tid": "2.01,47",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "81",
+          "RA": "844",
+          "pid": "271170",
+          "splits": [
+            "55,48",
+            "1.05,99"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.14,15",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "538",
+          "pid": "249709",
+          "splits": [
+            "55,48",
+            "1.05,99",
+            "1.06,74",
+            "1.05,94"
+          ]
+        }
+      ]
+    }
+  ]
+}

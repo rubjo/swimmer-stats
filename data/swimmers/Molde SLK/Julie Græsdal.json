@@ -1,0 +1,70 @@
+{
+  "swimmerId": "20700",
+  "name": "Julie Græsdal",
+  "club": "Molde SLK",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-15T16:49:56.641Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "57,68",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2408",
+          "pid": "1337624"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,66",
+          "Dato": "08.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2036",
+          "pid": "1337166"
+        },
+        {
+          "Tid": "1.08,10",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1466447",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.25,55",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1742",
+          "pid": "1337802",
+          "splits": [
+            "1.08,10",
+            "1.17,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "swimmerId": "10557",
+  "name": "Reuben Galland",
+  "club": "Elverum Svømming",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-15T15:01:01.266Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,22",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "1077",
+          "pid": "694792"
+        },
+        {
+          "Tid": "35,20",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "766505",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "40,47",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "78",
+          "RA": "497",
+          "pid": "694593"
+        },
+        {
+          "Tid": "42,52",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "714657",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,22",
+          "Dato": "13.12.2008",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "86",
+          "RA": "718",
+          "pid": "394097"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,56",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "909",
+          "pid": "694632",
+          "splits": [
+            "35,20",
+            "41,36"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.30,21",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "440",
+          "pid": "694865",
+          "splits": [
+            "42,52",
+            "47,69"
+          ]
+        }
+      ]
+    }
+  ]
+}

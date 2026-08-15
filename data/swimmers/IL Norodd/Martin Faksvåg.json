@@ -1,0 +1,127 @@
+{
+  "swimmerId": "15137",
+  "name": "Martin Faksvåg",
+  "club": "IL Norodd",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-15T13:07:00.695Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,86",
+          "Dato": "30.10.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1203",
+          "pid": "840937"
+        },
+        {
+          "Tid": "37,50",
+          "Dato": "29.10.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "912775",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,68",
+          "Dato": "12.03.2011",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "792756"
+        },
+        {
+          "Tid": "40,75",
+          "Dato": "12.03.2011",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "877068",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,30",
+          "Dato": "29.10.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "132",
+          "RA": "838",
+          "pid": "912383"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.21,98",
+          "Dato": "29.10.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "175",
+          "RA": "1084",
+          "pid": "840611",
+          "splits": [
+            "37,50",
+            "44,48"
+          ]
+        },
+        {
+          "Tid": "1.32,21",
+          "Dato": "12.03.2011",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "877067",
+          "splits": [
+            "40,75",
+            "51,46"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.22,91",
+          "Dato": "12.03.2011",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "927",
+          "pid": "793014",
+          "splits": [
+            "40,75",
+            "51,46",
+            "56,30",
+            "54,40"
+          ]
+        }
+      ]
+    }
+  ]
+}

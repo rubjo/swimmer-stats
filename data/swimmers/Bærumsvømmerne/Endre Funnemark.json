@@ -1,0 +1,112 @@
+{
+  "swimmerId": "16143",
+  "name": "Endre Funnemark",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-15T15:44:36.118Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,52",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1383",
+          "pid": "850916"
+        },
+        {
+          "Tid": "44,19",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "921813",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,45",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "193",
+          "RA": "1378",
+          "pid": "921811",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,31",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "181",
+          "RA": "1432",
+          "pid": "921812",
+          "splits": [
+            "44,19",
+            "57,12"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,65",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1142",
+          "pid": "851086",
+          "splits": [
+            "59,45",
+            "1.09,20"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.34,29",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "976",
+          "pid": "851910",
+          "splits": [
+            "44,19",
+            "57,12",
+            "57,32",
+            "55,66"
+          ]
+        }
+      ]
+    }
+  ]
+}

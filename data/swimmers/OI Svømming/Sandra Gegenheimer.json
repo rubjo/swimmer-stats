@@ -1,0 +1,219 @@
+{
+  "swimmerId": "8735",
+  "name": "Sandra Gegenheimer",
+  "club": "OI Svømming",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-15T14:56:53.541Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,19",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "258",
+          "RA": "1671",
+          "pid": "339128"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,89",
+          "Dato": "04.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "969",
+          "pid": "358194"
+        },
+        {
+          "Tid": "52,28",
+          "Dato": "04.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "410629",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,90",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "1145",
+          "pid": "249103"
+        },
+        {
+          "Tid": "55,23",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "401493",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,81",
+          "Dato": "03.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "410628",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "59,24",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "327281",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,11",
+          "Dato": "04.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "1098",
+          "pid": "358378"
+        },
+        {
+          "Tid": "54,46",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "339367"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,59",
+          "Dato": "04.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "136",
+          "RA": "925",
+          "pid": "358258",
+          "splits": [
+            "52,28",
+            "59,31"
+          ]
+        },
+        {
+          "Tid": "1.54,51",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "339320",
+          "splits": [
+            "55,23",
+            "59,28"
+          ]
+        },
+        {
+          "Tid": "1.55,87",
+          "Dato": "03.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "410627",
+          "splits": [
+            "55,81",
+            "1.00,06"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.07,67",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "163",
+          "RA": "1163",
+          "pid": "320310",
+          "splits": [
+            "59,24",
+            "1.08,43"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.59,76",
+          "Dato": "03.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "665",
+          "pid": "357862",
+          "splits": [
+            "55,81",
+            "1.00,06",
+            "1.04,09",
+            "59,80"
+          ]
+        },
+        {
+          "Tid": "4.19,26",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "724",
+          "pid": "249649",
+          "splits": [
+            "59,24",
+            "1.08,43",
+            "1.08,52",
+            "1.03,07"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "swimmerId": "6451",
+  "name": "Rebecca Fox",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-15T14:05:55.195Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,10",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "1341",
+          "pid": "113625"
+        },
+        {
+          "Tid": "43,68",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "140199",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,78",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "1225",
+          "pid": "113394",
+          "splits": [
+            "43,68",
+            "54,10"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.50,14",
+          "Dato": "13.05.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "924",
+          "pid": "113728",
+          "splits": [
+            "53,10",
+            "57,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "swimmerId": "44175",
+  "name": "Trond Grendel",
+  "club": "Eidsvoll SK",
+  "birthYear": 1969,
+  "gender": "male",
+  "timestamp": "2026-08-15T16:30:39.778Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,42",
+          "Dato": "26.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3466505"
+        },
+        {
+          "Tid": "40,01",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "653",
+          "pid": "3234742"
+        },
+        {
+          "Tid": "41,30",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3466782",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.26,51",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3466781",
+          "splits": [
+            "41,30",
+            "45,21"
+          ]
+        }
+      ]
+    }
+  ]
+}

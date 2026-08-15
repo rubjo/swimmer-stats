@@ -1,0 +1,70 @@
+{
+  "swimmerId": "31537",
+  "name": "Lucia Grande",
+  "club": "NTNUI-Svømming",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-15T15:54:48.699Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,85",
+          "Dato": "28.10.2018",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "916",
+          "pid": "2431463"
+        },
+        {
+          "Tid": "33,87",
+          "Dato": "28.10.2018",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2431465",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "37,12",
+          "Dato": "28.10.2018",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "24",
+          "RA": "514",
+          "pid": "2431462"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.11,28",
+          "Dato": "28.10.2018",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "35",
+          "RA": "718",
+          "pid": "2431464",
+          "splits": [
+            "33,87",
+            "37,41"
+          ]
+        }
+      ]
+    }
+  ]
+}

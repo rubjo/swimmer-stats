@@ -1,0 +1,75 @@
+{
+  "swimmerId": "8535",
+  "name": "Christian Gillingsrud",
+  "club": "Kongstensvømmerne",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-15T15:06:16.154Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,76",
+          "Dato": "16.09.2007",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "93",
+          "RA": "1032",
+          "pid": "238905"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,07",
+          "Dato": "16.09.2007",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "641",
+          "pid": "239086"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,82",
+          "Dato": "16.09.2007",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "78",
+          "RA": "761",
+          "pid": "260048",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,39",
+          "Dato": "16.09.2007",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "63",
+          "RA": "585",
+          "pid": "239066",
+          "splits": [
+            "47,82",
+            "54,57"
+          ]
+        }
+      ]
+    }
+  ]
+}

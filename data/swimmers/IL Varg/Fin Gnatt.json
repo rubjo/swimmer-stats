@@ -1,0 +1,108 @@
+{
+  "swimmerId": "4773",
+  "name": "Fin Gnatt",
+  "club": "IL Varg",
+  "birthYear": 1960,
+  "gender": "male",
+  "timestamp": "2026-08-15T15:51:05.079Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "32,69",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "617",
+          "pid": "1779577"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,92",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "187",
+          "RA": "825",
+          "pid": "180172",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.09,35",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "106",
+          "RA": "613",
+          "pid": "180173",
+          "splits": [
+            "32,92",
+            "36,43"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.23,94",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "35",
+          "RA": "305",
+          "pid": "180174",
+          "splits": [
+            "32,92",
+            "36,43",
+            "37,06",
+            "37,53"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "4.59,36",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "26",
+          "RA": "251",
+          "pid": "111431",
+          "splits": [
+            "32,92",
+            "36,43",
+            "37,06",
+            "37,53",
+            "38,35",
+            "39,09",
+            "39,42",
+            "38,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

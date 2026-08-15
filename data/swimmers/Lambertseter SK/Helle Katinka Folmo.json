@@ -1,0 +1,110 @@
+{
+  "swimmerId": "32179",
+  "name": "Helle Katinka Folmo",
+  "club": "Lambertseter SK",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-15T14:26:26.984Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,14",
+          "Dato": "04.05.2019",
+          "Sted": "Skjetten Svømmehall",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1884",
+          "pid": "2560638"
+        },
+        {
+          "Tid": "41,09",
+          "Dato": "02.03.2019",
+          "Sted": "Sofiemyrhallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2513300"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,66",
+          "Dato": "04.05.2019",
+          "Sted": "Skjetten Svømmehall",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "275",
+          "RA": "1669",
+          "pid": "2560851",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,57",
+          "Dato": "02.03.2019",
+          "Sted": "Sofiemyrhallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2513623",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,60",
+          "Dato": "09.02.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "261",
+          "RA": "1722",
+          "pid": "2493185"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,48",
+          "Dato": "04.05.2019",
+          "Sted": "Skjetten Svømmehall",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "1312",
+          "pid": "2560850",
+          "splits": [
+            "52,66",
+            "58,82"
+          ]
+        },
+        {
+          "Tid": "1.56,72",
+          "Dato": "02.03.2019",
+          "Sted": "Sofiemyrhallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2513622",
+          "splits": [
+            "55,57",
+            "1.01,15"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "swimmerId": "15625",
+  "name": "Bence Erderly",
+  "club": "Vågsbygd SLK",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-15T12:44:14.661Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,93",
+          "Dato": "04.09.2011",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1347",
+          "pid": "824679"
+        },
+        {
+          "Tid": "39,69",
+          "Dato": "04.09.2011",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "900637",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,72",
+          "Dato": "04.09.2011",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "178",
+          "RA": "987",
+          "pid": "900638",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,45",
+          "Dato": "04.09.2011",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1219",
+          "pid": "824376",
+          "splits": [
+            "39,69",
+            "48,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,67",
+          "Dato": "04.09.2011",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "840",
+          "pid": "824768",
+          "splits": [
+            "48,72",
+            "57,95"
+          ]
+        }
+      ]
+    }
+  ]
+}

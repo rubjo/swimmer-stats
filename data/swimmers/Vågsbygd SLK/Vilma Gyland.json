@@ -1,0 +1,79 @@
+{
+  "swimmerId": "35632",
+  "name": "Vilma Gyland",
+  "club": "Vågsbygd SLK",
+  "birthYear": 2010,
+  "gender": "female",
+  "timestamp": "2026-08-15T17:14:17.752Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.05,06",
+          "Dato": "24.10.2020",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1906",
+          "pid": "2797998"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,17",
+          "Dato": "24.10.2020",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1612",
+          "pid": "2798004",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.34,53",
+          "Dato": "24.10.2020",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1398",
+          "pid": "2798003",
+          "splits": [
+            "1.11,17",
+            "1.23,36"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.38,71",
+          "Dato": "24.10.2020",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "853",
+          "pid": "2797999",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

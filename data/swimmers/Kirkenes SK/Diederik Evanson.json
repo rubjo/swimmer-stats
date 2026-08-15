@@ -1,0 +1,55 @@
+{
+  "swimmerId": "23536",
+  "name": "Diederik Evanson",
+  "club": "Kirkenes SK",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-15T12:52:03.686Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,30",
+          "Dato": "06.12.2015",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "1084",
+          "pid": "1639302"
+        },
+        {
+          "Tid": "34,60",
+          "Dato": "06.12.2015",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1718134",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,14",
+          "Dato": "06.12.2015",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1076",
+          "pid": "1639396",
+          "splits": [
+            "34,60",
+            "41,54"
+          ]
+        }
+      ]
+    }
+  ]
+}
