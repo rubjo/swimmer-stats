@@ -1,0 +1,95 @@
+{
+  "swimmerId": "41061",
+  "name": "Thea Bolstad Hytta",
+  "club": "Lambertseter SK",
+  "birthYear": 2010,
+  "gender": "female",
+  "timestamp": "2026-08-16T11:38:05.006Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,53",
+          "Dato": "02.12.2023",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3360057"
+        },
+        {
+          "Tid": "39,08",
+          "Dato": "23.09.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3294245"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,56",
+          "Dato": "23.09.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3294889",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,78",
+          "Dato": "26.03.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3207556",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,45",
+          "Dato": "23.09.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3294888",
+          "splits": [
+            "50,56",
+            "57,89"
+          ]
+        },
+        {
+          "Tid": "1.51,84",
+          "Dato": "26.03.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3207555",
+          "splits": [
+            "51,78",
+            "1.00,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

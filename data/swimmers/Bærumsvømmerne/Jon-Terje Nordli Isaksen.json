@@ -1,0 +1,77 @@
+{
+  "swimmerId": "22360",
+  "name": "Jon-Terje Nordli Isaksen",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1967,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:41:37.224Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,96",
+          "Dato": "14.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "287",
+          "RA": "1629",
+          "pid": "1681401"
+        },
+        {
+          "Tid": "43,62",
+          "Dato": "14.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1652264",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,98",
+          "Dato": "14.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "197",
+          "RA": "1494",
+          "pid": "1700471",
+          "splits": [
+            "43,62",
+            "48,36"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.17,36",
+          "Dato": "14.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "1081",
+          "pid": "1558317",
+          "splits": [
+            "43,62",
+            "48,36",
+            "52,15",
+            "53,23"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "swimmerId": "12786",
+  "name": "Ingrid S. Hoff",
+  "club": "Ås IL",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-16T09:53:17.208Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,65",
+          "Dato": "07.03.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "240",
+          "RA": "1589",
+          "pid": "762748"
+        },
+        {
+          "Tid": "45,23",
+          "Dato": "24.01.2010",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "627731"
+        },
+        {
+          "Tid": "46,64",
+          "Dato": "24.01.2010",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "749072",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.36,63",
+          "Dato": "07.03.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1356",
+          "pid": "763581",
+          "splits": []
+        },
+        {
+          "Tid": "1.41,79",
+          "Dato": "24.01.2010",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "627615",
+          "splits": [
+            "46,64",
+            "55,15"
+          ]
+        }
+      ]
+    }
+  ]
+}

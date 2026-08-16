@@ -1,0 +1,55 @@
+{
+  "swimmerId": "8986",
+  "name": "Fabian Jensen",
+  "club": "Arna SLK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:10:29.460Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,55",
+          "Dato": "08.03.2008",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1186",
+          "pid": "406318"
+        },
+        {
+          "Tid": "1.03,67",
+          "Dato": "19.01.2008",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "401249",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,95",
+          "Dato": "19.01.2008",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "963",
+          "pid": "338620",
+          "splits": [
+            "1.03,67",
+            "1.11,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

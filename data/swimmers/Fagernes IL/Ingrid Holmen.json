@@ -1,0 +1,151 @@
+{
+  "swimmerId": "14069",
+  "name": "Ingrid Holmen",
+  "club": "Fagernes IL",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:10:10.538Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,39",
+          "Dato": "24.10.2010",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1256",
+          "pid": "679196"
+        },
+        {
+          "Tid": "39,17",
+          "Dato": "14.11.2010",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "720034"
+        },
+        {
+          "Tid": "40,21",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "694831"
+        },
+        {
+          "Tid": "41,54",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "711662",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,23",
+          "Dato": "14.11.2010",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1252",
+          "pid": "755209"
+        },
+        {
+          "Tid": "53,56",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "694603"
+        },
+        {
+          "Tid": "54,95",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "728667",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,77",
+          "Dato": "24.10.2010",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "678990"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,00",
+          "Dato": "14.11.2010",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1058",
+          "pid": "758225",
+          "splits": []
+        },
+        {
+          "Tid": "1.27,12",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "694685",
+          "splits": [
+            "41,54",
+            "45,58"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,52",
+          "Dato": "11.12.2010",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1048",
+          "pid": "694891",
+          "splits": [
+            "54,95",
+            "59,57"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "swimmerId": "42851",
+  "name": "Linnea Høyvoll Hyler",
+  "club": "Kristiansand SA",
+  "birthYear": 2009,
+  "gender": "female",
+  "timestamp": "2026-08-16T11:33:26.919Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,49",
+          "Dato": "15.09.2024",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "249",
+          "RA": "1649",
+          "pid": "3521569"
+        },
+        {
+          "Tid": "44,46",
+          "Dato": "09.06.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3260018"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,10",
+          "Dato": "15.09.2024",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "230",
+          "RA": "1570",
+          "pid": "3521727",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,71",
+          "Dato": "09.06.2024",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "145",
+          "RA": "850",
+          "pid": "3483773"
+        },
+        {
+          "Tid": "59,17",
+          "Dato": "10.06.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3259596"
+        },
+        {
+          "Tid": "1.00,28",
+          "Dato": "28.01.2023",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3159858"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,76",
+          "Dato": "15.09.2024",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "207",
+          "RA": "1255",
+          "pid": "3521726",
+          "splits": [
+            "56,10",
+            "1.01,66"
+          ]
+        }
+      ]
+    }
+  ]
+}

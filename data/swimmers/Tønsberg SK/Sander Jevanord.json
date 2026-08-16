@@ -1,0 +1,241 @@
+{
+  "swimmerId": "22614",
+  "name": "Sander Jevanord",
+  "club": "Tønsberg SK",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:39:50.014Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,67",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "182",
+          "RA": "1365",
+          "pid": "1798565"
+        },
+        {
+          "Tid": "39,29",
+          "Dato": "14.03.2015",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "1645",
+          "pid": "1553901"
+        },
+        {
+          "Tid": "40,37",
+          "Dato": "01.11.2015",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1662352",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,14",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1896045",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "48,58",
+          "Dato": "14.03.2015",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1713941",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "47,48",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "979",
+          "pid": "1798436"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,25",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1255",
+          "pid": "1799012"
+        },
+        {
+          "Tid": "54,79",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1961944",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,00",
+          "Dato": "01.11.2015",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "207",
+          "RA": "1512",
+          "pid": "1687609",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.24,52",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1316",
+          "pid": "1798838",
+          "splits": [
+            "41,14",
+            "43,38"
+          ]
+        },
+        {
+          "Tid": "1.27,88",
+          "Dato": "01.11.2015",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "179",
+          "RA": "1402",
+          "pid": "1626976",
+          "splits": [
+            "40,37",
+            "47,51"
+          ]
+        },
+        {
+          "Tid": "1.39,07",
+          "Dato": "14.03.2015",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1554348",
+          "splits": [
+            "48,58",
+            "50,49"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.43,64",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "142",
+          "RA": "928",
+          "pid": "1799140",
+          "splits": [
+            "48,27",
+            "55,37"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,96",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1143",
+          "pid": "1798312",
+          "splits": [
+            "54,79",
+            "1.00,17"
+          ]
+        },
+        {
+          "Tid": "2.08,68",
+          "Dato": "01.11.2015",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "188",
+          "RA": "1321",
+          "pid": "1651738",
+          "splits": [
+            "58,0",
+            "1.10,68"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.32,95",
+          "Dato": "01.11.2015",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "940",
+          "pid": "1627100",
+          "splits": [
+            "58,0",
+            "1.10,68",
+            "1.15,62",
+            "1.08,65"
+          ]
+        }
+      ]
+    }
+  ]
+}

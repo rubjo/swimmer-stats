@@ -1,0 +1,55 @@
+{
+  "swimmerId": "11540",
+  "name": "Espen Johnsrud",
+  "club": "Poseidon",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:31:03.190Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,32",
+          "Dato": "15.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "201",
+          "RA": "1151",
+          "pid": "485718"
+        },
+        {
+          "Tid": "57,99",
+          "Dato": "15.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "551580",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,21",
+          "Dato": "15.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "987",
+          "pid": "485278",
+          "splits": [
+            "57,99",
+            "1.07,22"
+          ]
+        }
+      ]
+    }
+  ]
+}

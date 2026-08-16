@@ -1,0 +1,59 @@
+{
+  "swimmerId": "21349",
+  "name": "Astrid Holta",
+  "club": "OI Svømming",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:11:21.012Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,68",
+          "Dato": "11.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "147",
+          "RA": "1168",
+          "pid": "1674179",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,36",
+          "Dato": "11.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "133",
+          "RA": "1072",
+          "pid": "1615730",
+          "splits": [
+            "45,68",
+            "54,68"
+          ]
+        },
+        {
+          "Tid": "1.45,03",
+          "Dato": "12.10.2014",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "240",
+          "RA": "1898",
+          "pid": "1399523",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "swimmerId": "10240",
+  "name": "Christine Beate Husøy",
+  "club": "Sunndal SLK",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-16T11:13:00.591Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,98",
+          "Dato": "25.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "223",
+          "RA": "1782",
+          "pid": "385287"
+        },
+        {
+          "Tid": "53,20",
+          "Dato": "26.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "418072",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,60",
+          "Dato": "26.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1355",
+          "pid": "385473"
+        },
+        {
+          "Tid": "1.02,61",
+          "Dato": "25.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "418071",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,15",
+          "Dato": "09.11.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1448",
+          "pid": "388542",
+          "splits": []
+        },
+        {
+          "Tid": "1.51,74",
+          "Dato": "26.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "385553",
+          "splits": [
+            "53,20",
+            "58,54"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,70",
+          "Dato": "09.11.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "129",
+          "RA": "1093",
+          "pid": "388528",
+          "splits": []
+        },
+        {
+          "Tid": "2.11,83",
+          "Dato": "25.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "418070",
+          "splits": [
+            "1.02,61",
+            "1.09,22"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.25,09",
+          "Dato": "25.10.2008",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "86",
+          "RA": "770",
+          "pid": "385084",
+          "splits": [
+            "1.02,61",
+            "1.09,22",
+            "1.08,80",
+            "1.04,46"
+          ]
+        }
+      ]
+    }
+  ]
+}

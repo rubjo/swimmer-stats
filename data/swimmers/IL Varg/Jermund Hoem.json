@@ -1,0 +1,80 @@
+{
+  "swimmerId": "6254",
+  "name": "Jermund Hoem",
+  "club": "IL Varg",
+  "birthYear": 1975,
+  "gender": "male",
+  "timestamp": "2026-08-16T09:51:29.435Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "25,01",
+          "Dato": "02.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "24",
+          "RA": "47",
+          "pid": "112015"
+        },
+        {
+          "Tid": "25,11",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "125651"
+        },
+        {
+          "Tid": "26,23",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "156293",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "26,86",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "18",
+          "RA": "30",
+          "pid": "111613"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "55,70",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "65",
+          "pid": "111224",
+          "splits": [
+            "26,23",
+            "29,47"
+          ]
+        }
+      ]
+    }
+  ]
+}

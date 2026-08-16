@@ -1,0 +1,80 @@
+{
+  "swimmerId": "20827",
+  "name": "Hanna Heinesen",
+  "club": "Lakselv SK",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-16T09:41:52.519Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "54,13",
+          "Dato": "22.03.2014",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "380",
+          "RA": "2375",
+          "pid": "1346549"
+        },
+        {
+          "Tid": "54,42",
+          "Dato": "23.03.2014",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "1484305"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,33",
+          "Dato": "22.03.2014",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "367",
+          "RA": "2031",
+          "pid": "1431132",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,74",
+          "Dato": "23.03.2014",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1346768"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.23,41",
+          "Dato": "22.03.2014",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "326",
+          "RA": "1734",
+          "pid": "1346605",
+          "splits": [
+            "1.05,33",
+            "1.18,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

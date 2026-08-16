@@ -1,0 +1,55 @@
+{
+  "swimmerId": "32968",
+  "name": "Johannes Hammer Jacobsen",
+  "club": "Bjørkelangen SF",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:50:18.382Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,85",
+          "Dato": "27.04.2019",
+          "Sted": "Libadet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "136",
+          "RA": "992",
+          "pid": "2568542"
+        },
+        {
+          "Tid": "45,73",
+          "Dato": "27.04.2019",
+          "Sted": "Libadet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2568546",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,67",
+          "Dato": "27.04.2019",
+          "Sted": "Libadet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "820",
+          "pid": "2568545",
+          "splits": [
+            "45,73",
+            "51,94"
+          ]
+        }
+      ]
+    }
+  ]
+}

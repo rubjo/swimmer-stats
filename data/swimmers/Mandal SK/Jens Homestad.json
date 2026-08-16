@@ -1,0 +1,167 @@
+{
+  "swimmerId": "14320",
+  "name": "Jens Homestad",
+  "club": "Mandal SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:05:17.950Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,64",
+          "Dato": "28.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1031",
+          "pid": "811104"
+        },
+        {
+          "Tid": "38,27",
+          "Dato": "05.12.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "183",
+          "RA": "1344",
+          "pid": "692130"
+        },
+        {
+          "Tid": "41,50",
+          "Dato": "29.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "893872",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,45",
+          "Dato": "29.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "638",
+          "pid": "811673"
+        },
+        {
+          "Tid": "44,38",
+          "Dato": "05.12.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "67",
+          "RA": "711",
+          "pid": "691298"
+        },
+        {
+          "Tid": "44,46",
+          "Dato": "28.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "893871",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,68",
+          "Dato": "29.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "893874",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.22,34",
+          "Dato": "29.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1093",
+          "pid": "811856",
+          "splits": [
+            "41,50",
+            "40,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,60",
+          "Dato": "28.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "545",
+          "pid": "811281",
+          "splits": [
+            "44,46",
+            "49,14"
+          ]
+        },
+        {
+          "Tid": "1.47,63",
+          "Dato": "29.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "893873",
+          "splits": [
+            "50,68",
+            "56,95"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.33,81",
+          "Dato": "29.05.2011",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "479",
+          "pid": "812389",
+          "splits": [
+            "50,68",
+            "56,95",
+            "56,73",
+            "49,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

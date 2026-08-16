@@ -1,0 +1,55 @@
+{
+  "swimmerId": "11145",
+  "name": "Janne Mong Hovland",
+  "club": "Egersund SK",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:50:58.207Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,60",
+          "Dato": "06.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "137",
+          "RA": "813",
+          "pid": "602101",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,28",
+          "Dato": "15.02.2009",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "479259"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,99",
+          "Dato": "06.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "826",
+          "pid": "506298",
+          "splits": [
+            "47,60",
+            "59,39"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "swimmerId": "35224",
+  "name": "Lars Sollesnes Johannessen",
+  "club": "Bergen Vest SK",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-16T14:02:48.032Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,62",
+          "Dato": "24.10.2020",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "130",
+          "RA": "1470",
+          "pid": "2792831"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,04",
+          "Dato": "04.09.2020",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "64",
+          "RA": "1037",
+          "pid": "2767144",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,23",
+          "Dato": "04.09.2020",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "53",
+          "RA": "858",
+          "pid": "2767145",
+          "splits": [
+            "55,04",
+            "1.02,19"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.02,44",
+          "Dato": "04.09.2020",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "34",
+          "RA": "649",
+          "pid": "2767143",
+          "splits": [
+            "55,04",
+            "1.02,19",
+            "1.04,14",
+            "1.01,07"
+          ]
+        }
+      ]
+    }
+  ]
+}

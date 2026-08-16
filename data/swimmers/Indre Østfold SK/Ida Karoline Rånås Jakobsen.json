@@ -1,0 +1,70 @@
+{
+  "swimmerId": "21308",
+  "name": "Ida Karoline Rånås Jakobsen",
+  "club": "Indre Østfold SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-16T12:54:55.043Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,31",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "250",
+          "RA": "2091",
+          "pid": "1785618"
+        },
+        {
+          "Tid": "44,33",
+          "Dato": "16.01.2016",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1870464",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,14",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "1585",
+          "pid": "1785771"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,18",
+          "Dato": "16.01.2016",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "1806",
+          "pid": "1746378",
+          "splits": [
+            "44,33",
+            "52,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

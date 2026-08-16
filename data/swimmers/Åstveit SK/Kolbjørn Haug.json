@@ -1,0 +1,55 @@
+{
+  "swimmerId": "32668",
+  "name": "Kolbjørn Haug",
+  "club": "Åstveit SK",
+  "birthYear": 1976,
+  "gender": "male",
+  "timestamp": "2026-08-16T09:24:53.136Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,94",
+          "Dato": "08.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "617",
+          "pid": "2516449"
+        },
+        {
+          "Tid": "41,25",
+          "Dato": "09.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2517108",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.27,71",
+          "Dato": "09.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "556",
+          "pid": "2517107",
+          "splits": [
+            "41,25",
+            "46,46"
+          ]
+        }
+      ]
+    }
+  ]
+}

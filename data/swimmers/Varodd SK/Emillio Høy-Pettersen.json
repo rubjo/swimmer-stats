@@ -1,0 +1,55 @@
+{
+  "swimmerId": "53362",
+  "name": "Emillio Høy-Pettersen",
+  "club": "Varodd SK",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:54:40.991Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,10",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "1729",
+          "pid": "3824090"
+        },
+        {
+          "Tid": "43,68",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3824100",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,42",
+          "Dato": "23.11.2025",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3824099",
+          "splits": [
+            "43,68",
+            "50,74"
+          ]
+        }
+      ]
+    }
+  ]
+}

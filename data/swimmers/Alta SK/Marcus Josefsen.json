@@ -1,0 +1,55 @@
+{
+  "swimmerId": "19044",
+  "name": "Marcus Josefsen",
+  "club": "Alta SK",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:47:23.285Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,44",
+          "Dato": "05.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1647",
+          "pid": "1158077"
+        },
+        {
+          "Tid": "41,97",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1237961",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,25",
+          "Dato": "04.05.2013",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1459",
+          "pid": "1157780",
+          "splits": [
+            "41,97",
+            "53,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

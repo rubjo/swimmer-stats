@@ -1,0 +1,70 @@
+{
+  "swimmerId": "22296",
+  "name": "ivan jessen",
+  "club": "Svalbard Turn",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:52:38.039Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,15",
+          "Dato": "14.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1809",
+          "pid": "1541640"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,01",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "213",
+          "RA": "1563",
+          "pid": "1681979",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.01,27",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1542134"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.10,67",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1332",
+          "pid": "1542009",
+          "splits": [
+            "1.00,01",
+            "1.10,66"
+          ]
+        }
+      ]
+    }
+  ]
+}

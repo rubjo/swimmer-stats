@@ -1,0 +1,55 @@
+{
+  "swimmerId": "13900",
+  "name": "Leon Janev",
+  "club": "Larvik SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:03:05.095Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,46",
+          "Dato": "18.09.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "172",
+          "RA": "1361",
+          "pid": "671373"
+        },
+        {
+          "Tid": "43,14",
+          "Dato": "19.09.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "751276",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.42,39",
+          "Dato": "19.09.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "167",
+          "RA": "1406",
+          "pid": "671838",
+          "splits": [
+            "43,14",
+            "59,25"
+          ]
+        }
+      ]
+    }
+  ]
+}

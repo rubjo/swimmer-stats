@@ -1,0 +1,67 @@
+{
+  "swimmerId": "12947",
+  "name": "Kristian Idsø",
+  "club": "Madla SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:25:09.181Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,62",
+          "Dato": "06.06.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "132",
+          "RA": "926",
+          "pid": "733297",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.44,45",
+          "Dato": "06.06.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "106",
+          "RA": "749",
+          "pid": "754885",
+          "splits": [
+            "48,62",
+            "55,83"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.36,44",
+          "Dato": "06.06.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "485",
+          "pid": "657641",
+          "splits": [
+            "48,62",
+            "55,83",
+            "57,15",
+            "54,84"
+          ]
+        }
+      ]
+    }
+  ]
+}

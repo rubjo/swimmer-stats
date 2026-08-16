@@ -1,0 +1,225 @@
+{
+  "swimmerId": "19827",
+  "name": "Per Holmaas Johansen",
+  "club": "Stavanger SK",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:18:26.052Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,31",
+          "Dato": "26.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1675",
+          "pid": "1408421"
+        },
+        {
+          "Tid": "43,51",
+          "Dato": "16.03.2014",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1342667"
+        },
+        {
+          "Tid": "45,69",
+          "Dato": "01.06.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1367832"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "45,43",
+          "Dato": "25.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "900",
+          "pid": "1407666"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,00",
+          "Dato": "26.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "66",
+          "RA": "1029",
+          "pid": "1408266"
+        },
+        {
+          "Tid": "50,64",
+          "Dato": "25.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1485083",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,77",
+          "Dato": "01.06.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1464034",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,72",
+          "Dato": "16.03.2014",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1342390"
+        },
+        {
+          "Tid": "55,23",
+          "Dato": "02.06.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1497861",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.42,86",
+          "Dato": "26.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "71",
+          "RA": "728",
+          "pid": "1408325",
+          "splits": [
+            "50,15",
+            "52,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.45,72",
+          "Dato": "25.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "97",
+          "RA": "968",
+          "pid": "1407800",
+          "splits": [
+            "50,65",
+            "55,07"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,00",
+          "Dato": "25.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "77",
+          "RA": "942",
+          "pid": "1407730",
+          "splits": [
+            "50,64",
+            "55,36"
+          ]
+        },
+        {
+          "Tid": "1.50,14",
+          "Dato": "01.06.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1367590",
+          "splits": [
+            "50,77",
+            "59,37"
+          ]
+        },
+        {
+          "Tid": "1.55,76",
+          "Dato": "02.06.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1434771",
+          "splits": [
+            "55,23",
+            "1.00,53"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.55,31",
+          "Dato": "02.06.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "799",
+          "pid": "1368642",
+          "splits": [
+            "55,23",
+            "1.00,53",
+            "59,78",
+            "59,77"
+          ]
+        }
+      ]
+    }
+  ]
+}

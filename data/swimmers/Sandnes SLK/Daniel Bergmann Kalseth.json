@@ -1,0 +1,97 @@
+{
+  "swimmerId": "11802",
+  "name": "Daniel Bergmann Kalseth",
+  "club": "Sandnes SLK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T14:14:58.060Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,62",
+          "Dato": "06.11.2011",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1186",
+          "pid": "846001"
+        },
+        {
+          "Tid": "40,09",
+          "Dato": "11.04.2010",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1451",
+          "pid": "646803"
+        },
+        {
+          "Tid": "46,07",
+          "Dato": "19.04.2009",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "192",
+          "RA": "1555",
+          "pid": "494945"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "41,70",
+          "Dato": "06.11.2011",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "135",
+          "RA": "909",
+          "pid": "915535",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,73",
+          "Dato": "06.11.2011",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "587",
+          "pid": "845799"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.19,27",
+          "Dato": "06.11.2011",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "592",
+          "pid": "845923",
+          "splits": [
+            "41,70",
+            "49,25",
+            "57,70",
+            "50,62"
+          ]
+        }
+      ]
+    }
+  ]
+}

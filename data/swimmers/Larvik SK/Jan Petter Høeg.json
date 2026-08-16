@@ -1,0 +1,65 @@
+{
+  "swimmerId": "6262",
+  "name": "Jan Petter Høeg",
+  "club": "Larvik SK",
+  "birthYear": 1964,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:23:32.474Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "28,63",
+          "Dato": "17.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "140",
+          "pid": "293437"
+        },
+        {
+          "Tid": "29,31",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "61",
+          "RA": "172",
+          "pid": "111625"
+        },
+        {
+          "Tid": "30,75",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "180382",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.08,04",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "148",
+          "pid": "111474",
+          "splits": [
+            "30,75",
+            "37,29"
+          ]
+        }
+      ]
+    }
+  ]
+}

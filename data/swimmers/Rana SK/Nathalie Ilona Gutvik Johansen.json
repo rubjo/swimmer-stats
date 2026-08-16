@@ -1,0 +1,55 @@
+{
+  "swimmerId": "34099",
+  "name": "Nathalie Ilona Gutvik Johansen",
+  "club": "Rana SK",
+  "birthYear": 2009,
+  "gender": "female",
+  "timestamp": "2026-08-16T13:55:11.075Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,67",
+          "Dato": "23.11.2019",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1487",
+          "pid": "2689305"
+        },
+        {
+          "Tid": "50,93",
+          "Dato": "22.02.2020",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "60",
+          "RA": "1134",
+          "pid": "2754315",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.47,72",
+          "Dato": "22.02.2020",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "43",
+          "RA": "918",
+          "pid": "2754314",
+          "splits": [
+            "50,93",
+            "56,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

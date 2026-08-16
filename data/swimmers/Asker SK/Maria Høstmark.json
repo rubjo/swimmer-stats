@@ -1,0 +1,60 @@
+{
+  "swimmerId": "19229",
+  "name": "Maria Høstmark",
+  "club": "Asker SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:37:15.958Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,10",
+          "Dato": "01.11.2014",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "246",
+          "RA": "1398",
+          "pid": "1411227"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,12",
+          "Dato": "15.03.2014",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "294",
+          "RA": "1734",
+          "pid": "1498718",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,16",
+          "Dato": "15.03.2014",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1259",
+          "pid": "1339864",
+          "splits": [
+            "56,12",
+            "56,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

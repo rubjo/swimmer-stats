@@ -1,0 +1,78 @@
+{
+  "swimmerId": "21145",
+  "name": "Stian Howard",
+  "club": "Poseidon",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:23:33.184Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "32,22",
+          "Dato": "20.07.2014",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "49",
+          "RA": "317",
+          "pid": "1497209",
+          "partOf": "200m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.10,39",
+          "Dato": "20.07.2014",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "23",
+          "RA": "159",
+          "pid": "1501363",
+          "splits": [
+            "32,22",
+            "38,17"
+          ],
+          "partOf": "200m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Butterfly",
+      "races": [
+        {
+          "Tid": "2.28,68",
+          "Dato": "20.07.2014",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "6",
+          "RA": "47",
+          "pid": "1357436",
+          "splits": [
+            "32,22",
+            "38,17",
+            "39,29",
+            "39,00"
+          ]
+        },
+        {
+          "Tid": "2.29,61",
+          "Dato": "03.04.2014",
+          "Sted": "Glasgow",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1477660",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "swimmerId": "18337",
+  "name": "Patryk Haas",
+  "club": "Sandefjord SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:51:55.680Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,89",
+          "Dato": "12.01.2013",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "227",
+          "RA": "1363",
+          "pid": "1241074",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,55",
+          "Dato": "12.01.2013",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "210",
+          "RA": "1201",
+          "pid": "1305483",
+          "splits": [
+            "55,89",
+            "1.06,66"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.16,62",
+          "Dato": "12.01.2013",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "834",
+          "pid": "1128387",
+          "splits": [
+            "55,89",
+            "1.06,66",
+            "1.08,79",
+            "1.05,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

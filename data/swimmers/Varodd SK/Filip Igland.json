@@ -1,0 +1,70 @@
+{
+  "swimmerId": "22198",
+  "name": "Filip Igland",
+  "club": "Varodd SK",
+  "birthYear": 2005,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:59:36.439Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,01",
+          "Dato": "03.06.2016",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "60",
+          "RA": "942",
+          "pid": "1800966"
+        },
+        {
+          "Tid": "49,46",
+          "Dato": "04.06.2016",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1921538",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,03",
+          "Dato": "04.06.2016",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "62",
+          "RA": "717",
+          "pid": "1802352"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,08",
+          "Dato": "04.06.2016",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "71",
+          "RA": "910",
+          "pid": "1801969",
+          "splits": [
+            "49,46",
+            "1.01,62"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "swimmerId": "35573",
+  "name": "Leon Wilson Johansen",
+  "club": "Riska SK",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:39:55.581Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,50",
+          "Dato": "15.04.2023",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "1340",
+          "pid": "3210729"
+        },
+        {
+          "Tid": "41,61",
+          "Dato": "16.04.2023",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3211393",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,78",
+          "Dato": "15.04.2023",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1289",
+          "pid": "3210261"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,39",
+          "Dato": "16.04.2023",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "214",
+          "RA": "1287",
+          "pid": "3211392",
+          "splits": [
+            "41,61",
+            "43,78"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "swimmerId": "33333",
+  "name": "Trine Høivik",
+  "club": "Stavanger SK",
+  "birthYear": 1988,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:52:41.687Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "57,63",
+          "Dato": "28.09.2019",
+          "Sted": "Stavanger Svømmehall",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "307",
+          "RA": "2477",
+          "pid": "2628106"
+        },
+        {
+          "Tid": "59,36",
+          "Dato": "25.08.2019",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2611988"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,12",
+          "Dato": "25.08.2019",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "200",
+          "RA": "2001",
+          "pid": "2611993",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.08,20",
+          "Dato": "28.09.2019",
+          "Sted": "Stavanger Svømmehall",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "152",
+          "RA": "1623",
+          "pid": "2627798"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.15,18",
+          "Dato": "25.08.2019",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "1753",
+          "pid": "2611992",
+          "splits": [
+            "59,12",
+            "1.16,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

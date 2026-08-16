@@ -1,0 +1,202 @@
+{
+  "swimmerId": "6121",
+  "name": "Hans-Magnus Haaland",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1992,
+  "gender": "male",
+  "timestamp": "2026-08-16T11:10:07.998Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,27",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1100",
+          "pid": "122868"
+        },
+        {
+          "Tid": "41,53",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "167",
+          "RA": "1253",
+          "pid": "278005",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "49,31",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "100021"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,21",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "668",
+          "pid": "122732"
+        },
+        {
+          "Tid": "46,31",
+          "Dato": "05.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "701",
+          "pid": "207312"
+        },
+        {
+          "Tid": "46,63",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "329926",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,22",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "136581",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,28",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "101487"
+        },
+        {
+          "Tid": "54,82",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "136580",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,51",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "152",
+          "RA": "986",
+          "pid": "207168",
+          "splits": [
+            "41,53",
+            "45,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.40,00",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "545",
+          "pid": "206653",
+          "splits": [
+            "46,63",
+            "53,37"
+          ]
+        },
+        {
+          "Tid": "1.49,92",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "127",
+          "RA": "695",
+          "pid": "101039",
+          "splits": [
+            "51,22",
+            "58,70"
+          ]
+        },
+        {
+          "Tid": "1.57,77",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "136579",
+          "splits": [
+            "54,82",
+            "1.02,95"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.06,02",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "531",
+          "pid": "100369",
+          "splits": [
+            "54,82",
+            "1.02,95",
+            "1.03,39",
+            "1.04,86"
+          ]
+        }
+      ]
+    }
+  ]
+}

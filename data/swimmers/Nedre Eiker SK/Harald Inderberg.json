@@ -1,0 +1,55 @@
+{
+  "swimmerId": "17043",
+  "name": "Harald Inderberg",
+  "club": "Nedre Eiker SK",
+  "birthYear": 1976,
+  "gender": "male",
+  "timestamp": "2026-08-16T11:31:45.322Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "43,87",
+          "Dato": "18.03.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "783",
+          "pid": "965702"
+        },
+        {
+          "Tid": "45,20",
+          "Dato": "17.03.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1061680",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,83",
+          "Dato": "17.03.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "701",
+          "pid": "965436",
+          "splits": [
+            "45,20",
+            "52,63"
+          ]
+        }
+      ]
+    }
+  ]
+}

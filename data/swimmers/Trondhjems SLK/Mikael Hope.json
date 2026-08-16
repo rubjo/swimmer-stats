@@ -1,0 +1,55 @@
+{
+  "swimmerId": "45481",
+  "name": "Mikael Hope",
+  "club": "Trondhjems SLK",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-16T10:12:04.441Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,26",
+          "Dato": "09.11.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3571666"
+        },
+        {
+          "Tid": "41,39",
+          "Dato": "09.11.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3571961",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,45",
+          "Dato": "09.11.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1310",
+          "pid": "3571960",
+          "splits": [
+            "41,39",
+            "45,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

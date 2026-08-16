@@ -1,0 +1,60 @@
+{
+  "swimmerId": "22848",
+  "name": "Daniel Johansen",
+  "club": "Triton Lillestrøm",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:01:42.657Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "54,69",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "144",
+          "RA": "1139",
+          "pid": "1564323"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "55,91",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "249",
+          "RA": "2075",
+          "pid": "1730021",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.01,44",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1782",
+          "pid": "1564584",
+          "splits": [
+            "55,91",
+            "1.05,53"
+          ]
+        }
+      ]
+    }
+  ]
+}

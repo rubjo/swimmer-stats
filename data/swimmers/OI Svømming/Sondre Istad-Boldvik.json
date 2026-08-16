@@ -1,0 +1,55 @@
+{
+  "swimmerId": "33017",
+  "name": "Sondre Istad-Boldvik",
+  "club": "OI Svømming",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:14:07.085Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,89",
+          "Dato": "12.05.2019",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "35",
+          "RA": "1012",
+          "pid": "2576265"
+        },
+        {
+          "Tid": "43,81",
+          "Dato": "12.05.2019",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2576271",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,66",
+          "Dato": "12.05.2019",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "31",
+          "RA": "918",
+          "pid": "2576270",
+          "splits": [
+            "43,81",
+            "54,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

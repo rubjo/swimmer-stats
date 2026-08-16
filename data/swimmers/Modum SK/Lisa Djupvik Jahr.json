@@ -1,0 +1,60 @@
+{
+  "swimmerId": "22182",
+  "name": "Lisa Djupvik Jahr",
+  "club": "Modum SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-16T12:31:41.998Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.00,19",
+          "Dato": "15.02.2015",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2412",
+          "pid": "1542313"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.12,06",
+          "Dato": "15.02.2015",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "2030",
+          "pid": "1675782",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.34,46",
+          "Dato": "15.02.2015",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1760",
+          "pid": "1542568",
+          "splits": [
+            "1.12,06",
+            "1.22,40"
+          ]
+        }
+      ]
+    }
+  ]
+}

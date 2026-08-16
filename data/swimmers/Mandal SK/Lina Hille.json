@@ -1,0 +1,55 @@
+{
+  "swimmerId": "13866",
+  "name": "Lina Hille",
+  "club": "Mandal SK",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:14:22.298Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,28",
+          "Dato": "19.09.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "797",
+          "pid": "671651"
+        },
+        {
+          "Tid": "47,92",
+          "Dato": "18.09.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "762580",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.43,62",
+          "Dato": "18.09.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "715",
+          "pid": "671210",
+          "splits": [
+            "47,92",
+            "55,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

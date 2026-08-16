@@ -1,0 +1,115 @@
+{
+  "swimmerId": "2396",
+  "name": "Fredrik Jensen",
+  "club": "OI Svømming",
+  "birthYear": 1977,
+  "gender": "male",
+  "timestamp": "2026-08-16T12:48:56.602Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "27,22",
+          "Dato": "09.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "26",
+          "RA": "100",
+          "pid": "667381"
+        },
+        {
+          "Tid": "27,64",
+          "Dato": "07.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "715221",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "32,89",
+          "Dato": "08.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "34",
+          "RA": "221",
+          "pid": "667454"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "34,99",
+          "Dato": "09.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "21",
+          "RA": "70",
+          "pid": "667408"
+        },
+        {
+          "Tid": "37,29",
+          "Dato": "07.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "747922",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.02,51",
+          "Dato": "07.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "25",
+          "RA": "170",
+          "pid": "667328",
+          "splits": [
+            "27,64",
+            "34,87"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.21,85",
+          "Dato": "07.08.2010",
+          "Sted": "Göteborg",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "19",
+          "RA": "99",
+          "pid": "667340",
+          "splits": [
+            "37,29",
+            "44,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

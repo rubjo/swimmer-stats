@@ -1,0 +1,70 @@
+{
+  "swimmerId": "20541",
+  "name": "Nikolai Prytz Jakobsen",
+  "club": "Stavanger SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:03:34.398Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,43",
+          "Dato": "25.10.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "261",
+          "RA": "1848",
+          "pid": "1408165"
+        },
+        {
+          "Tid": "52,46",
+          "Dato": "28.09.2014",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1508264"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,81",
+          "Dato": "28.09.2014",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "214",
+          "RA": "1434",
+          "pid": "1488467",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,94",
+          "Dato": "28.09.2014",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "196",
+          "RA": "1247",
+          "pid": "1393438",
+          "splits": [
+            "56,81",
+            "1.09,13"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "swimmerId": "10446",
+  "name": "Truls Johannesen",
+  "club": "Sandefjord SK",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:16:11.276Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,45",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "67",
+          "RA": "729",
+          "pid": "390127"
+        },
+        {
+          "Tid": "32,37",
+          "Dato": "26.04.2009",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "100",
+          "RA": "825",
+          "pid": "595091",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "33,70",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "464958",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,10",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "545",
+          "pid": "390305"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.09,60",
+          "Dato": "26.04.2009",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "82",
+          "RA": "618",
+          "pid": "595090",
+          "splits": [
+            "32,37",
+            "37,23"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.10,84",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "654",
+          "pid": "390405",
+          "splits": [
+            "33,70",
+            "37,14"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.28,13",
+          "Dato": "26.04.2009",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "48",
+          "RA": "368",
+          "pid": "498611",
+          "splits": [
+            "32,37",
+            "37,23",
+            "40,03",
+            "38,50"
+          ]
+        }
+      ]
+    }
+  ]
+}

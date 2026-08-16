@@ -1,0 +1,80 @@
+{
+  "swimmerId": "16589",
+  "name": "Sindre Johnsen",
+  "club": "SK Speed",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-16T13:32:11.029Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,24",
+          "Dato": "04.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1783",
+          "pid": "1016301"
+        },
+        {
+          "Tid": "51,43",
+          "Dato": "03.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1107680",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "52,26",
+          "Dato": "21.01.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "944014"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.12,83",
+          "Dato": "21.01.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1590",
+          "pid": "944267"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.17,86",
+          "Dato": "03.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "1678",
+          "pid": "1015697",
+          "splits": [
+            "51,43",
+            "1.26,43"
+          ]
+        }
+      ]
+    }
+  ]
+}

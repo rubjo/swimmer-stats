@@ -1,0 +1,65 @@
+{
+  "swimmerId": "14246",
+  "name": "Kristine Johannessen",
+  "club": "Fet SK",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-16T12:49:11.926Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,13",
+          "Dato": "06.02.2011",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "301",
+          "RA": "1712",
+          "pid": "784221"
+        },
+        {
+          "Tid": "1.03,70",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "298",
+          "RA": "1627",
+          "pid": "689201"
+        },
+        {
+          "Tid": "1.04,24",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "720068",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,15",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "1336",
+          "pid": "689358",
+          "splits": [
+            "1.04,24",
+            "1.15,91"
+          ]
+        }
+      ]
+    }
+  ]
+}

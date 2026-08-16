@@ -1,0 +1,119 @@
+{
+  "swimmerId": "41980",
+  "name": "Aleksander Nestvold Hjarrand",
+  "club": "OI Svømming",
+  "birthYear": 2012,
+  "gender": "male",
+  "timestamp": "2026-08-16T09:56:40.463Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,90",
+          "Dato": "09.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "255",
+          "RA": "1906",
+          "pid": "3634816"
+        },
+        {
+          "Tid": "47,86",
+          "Dato": "29.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3667490",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,07",
+          "Dato": "08.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1476",
+          "pid": "3634526"
+        },
+        {
+          "Tid": "58,27",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3667140",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,64",
+          "Dato": "29.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3667489",
+          "splits": [
+            "47,86",
+            "56,78"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.06,49",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1291",
+          "pid": "3667139",
+          "splits": [
+            "58,27",
+            "1.08,22"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.15,86",
+          "Dato": "29.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "953",
+          "pid": "3666942",
+          "splits": [
+            "1.07,09",
+            "1.08,77"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "swimmerId": "24481",
+  "name": "Maria Ivancevic",
+  "club": "Skien SK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-16T12:20:11.512Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,25",
+          "Dato": "18.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "237",
+          "RA": "1766",
+          "pid": "1827586"
+        },
+        {
+          "Tid": "39,48",
+          "Dato": "16.10.2016",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1833067"
+        },
+        {
+          "Tid": "41,18",
+          "Dato": "16.10.2016",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1934001",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,12",
+          "Dato": "17.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "227",
+          "RA": "1801",
+          "pid": "1923667",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,24",
+          "Dato": "16.10.2016",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1833597"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,86",
+          "Dato": "16.10.2016",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1660",
+          "pid": "1833494",
+          "splits": [
+            "41,18",
+            "50,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,53",
+          "Dato": "17.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1573",
+          "pid": "1826460",
+          "splits": [
+            "56,12",
+            "1.05,41"
+          ]
+        }
+      ]
+    }
+  ]
+}

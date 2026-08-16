@@ -1,0 +1,874 @@
+{
+  "swimmerId": "999",
+  "name": "Liv Hvidsten",
+  "club": "Holmestrand IF",
+  "birthYear": 1980,
+  "gender": "female",
+  "timestamp": "2026-08-16T10:45:20.570Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "51,10",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "994",
+          "pid": "102614"
+        },
+        {
+          "Tid": "51,22",
+          "Dato": "02.12.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "151866"
+        },
+        {
+          "Tid": "51,42",
+          "Dato": "05.03.2005",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "19",
+          "RA": "927",
+          "pid": "33511"
+        },
+        {
+          "Tid": "52,43",
+          "Dato": "08.01.2005",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "30252"
+        },
+        {
+          "Tid": "54,58",
+          "Dato": "30.10.2010",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "1193",
+          "pid": "684807"
+        },
+        {
+          "Tid": "55,70",
+          "Dato": "12.02.2006",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "131439"
+        },
+        {
+          "Tid": "55,84",
+          "Dato": "07.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "44",
+          "RA": "1104",
+          "pid": "244113"
+        },
+        {
+          "Tid": "55,89",
+          "Dato": "10.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "677615"
+        },
+        {
+          "Tid": "56,71",
+          "Dato": "28.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "56",
+          "RA": "1178",
+          "pid": "380345"
+        },
+        {
+          "Tid": "58,06",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "145435"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "57,05",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "107",
+          "RA": "1781",
+          "pid": "135678",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "57,31",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "112400"
+        },
+        {
+          "Tid": "57,65",
+          "Dato": "09.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "2012",
+          "pid": "677565"
+        },
+        {
+          "Tid": "58,00",
+          "Dato": "06.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "1740",
+          "pid": "244037"
+        },
+        {
+          "Tid": "58,51",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "225728"
+        },
+        {
+          "Tid": "59,39",
+          "Dato": "08.01.2005",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "39",
+          "RA": "1535",
+          "pid": "30253"
+        },
+        {
+          "Tid": "59,57",
+          "Dato": "30.10.2010",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "684876"
+        },
+        {
+          "Tid": "59,68",
+          "Dato": "10.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "762394",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.00,12",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "145428"
+        },
+        {
+          "Tid": "1.00,56",
+          "Dato": "16.04.2005",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "8061"
+        },
+        {
+          "Tid": "1.00,84",
+          "Dato": "07.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "306149",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.00,91",
+          "Dato": "27.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "1871",
+          "pid": "380277"
+        },
+        {
+          "Tid": "1.01,15",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "145434",
+          "partOf": "50m Fri"
+        },
+        {
+          "Tid": "1.01,62",
+          "Dato": "02.12.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "151868"
+        },
+        {
+          "Tid": "1.03,63",
+          "Dato": "28.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "415640",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,02",
+          "Dato": "12.02.2006",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "67",
+          "RA": "1076",
+          "pid": "131437"
+        },
+        {
+          "Tid": "1.00,15",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "112223"
+        },
+        {
+          "Tid": "1.01,13",
+          "Dato": "08.01.2005",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "971",
+          "pid": "30251"
+        },
+        {
+          "Tid": "1.01,20",
+          "Dato": "05.03.2005",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "33512"
+        },
+        {
+          "Tid": "1.02,77",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "145432"
+        },
+        {
+          "Tid": "1.02,87",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "76",
+          "RA": "1159",
+          "pid": "225590"
+        },
+        {
+          "Tid": "1.03,60",
+          "Dato": "09.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "93",
+          "RA": "1322",
+          "pid": "677597"
+        },
+        {
+          "Tid": "1.06,62",
+          "Dato": "27.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "1223",
+          "pid": "380317"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,07",
+          "Dato": "12.02.2006",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "1484",
+          "pid": "131436"
+        },
+        {
+          "Tid": "1.04,53",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "145431",
+          "partOf": "50m Bryst"
+        },
+        {
+          "Tid": "1.04,68",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "102919"
+        },
+        {
+          "Tid": "1.05,06",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "138889",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,18",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "135677",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,62",
+          "Dato": "09.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "95",
+          "RA": "1651",
+          "pid": "697394",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,73",
+          "Dato": "16.04.2005",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "25",
+          "RA": "1326",
+          "pid": "38116"
+        },
+        {
+          "Tid": "1.06,12",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "145436"
+        },
+        {
+          "Tid": "1.06,51",
+          "Dato": "28.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "76",
+          "RA": "1556",
+          "pid": "380358"
+        },
+        {
+          "Tid": "1.07,11",
+          "Dato": "02.12.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "151870"
+        },
+        {
+          "Tid": "1.07,47",
+          "Dato": "06.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "71",
+          "RA": "1501",
+          "pid": "260264",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.07,53",
+          "Dato": "08.01.2005",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "30250"
+        },
+        {
+          "Tid": "1.07,93",
+          "Dato": "07.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "244124"
+        },
+        {
+          "Tid": "1.09,55",
+          "Dato": "27.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "415639",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.55,19",
+          "Dato": "16.04.2005",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "14",
+          "RA": "657",
+          "pid": "7982",
+          "splits": [
+            "55,78",
+            "59,41"
+          ]
+        },
+        {
+          "Tid": "1.57,08",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "34",
+          "RA": "836",
+          "pid": "225630",
+          "splits": [
+            "56,31",
+            "1.00,77"
+          ]
+        },
+        {
+          "Tid": "1.57,49",
+          "Dato": "02.12.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "28",
+          "RA": "770",
+          "pid": "151869",
+          "splits": []
+        },
+        {
+          "Tid": "1.57,90",
+          "Dato": "27.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "35",
+          "RA": "855",
+          "pid": "380294",
+          "splits": [
+            "57,27",
+            "1.00,63"
+          ]
+        },
+        {
+          "Tid": "2.01,73",
+          "Dato": "06.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "244060",
+          "splits": [
+            "58,85",
+            "1.02,88"
+          ]
+        },
+        {
+          "Tid": "2.01,96",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "145429",
+          "splits": []
+        },
+        {
+          "Tid": "2.03,59",
+          "Dato": "09.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "949",
+          "pid": "677581",
+          "splits": [
+            "54,54",
+            "1.09,05"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.59,55",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "1422",
+          "pid": "102808",
+          "splits": [
+            "57,05",
+            "1.02,50"
+          ]
+        },
+        {
+          "Tid": "2.02,97",
+          "Dato": "12.02.2006",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "131438",
+          "splits": []
+        },
+        {
+          "Tid": "2.06,55",
+          "Dato": "30.10.2010",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "85",
+          "RA": "1611",
+          "pid": "684983",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "2.06,86",
+          "Dato": "10.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "677605",
+          "splits": [
+            "59,68",
+            "1.07,18"
+          ]
+        },
+        {
+          "Tid": "2.09,75",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "145433",
+          "splits": []
+        },
+        {
+          "Tid": "2.11,32",
+          "Dato": "07.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "65",
+          "RA": "1480",
+          "pid": "244097",
+          "splits": [
+            "1.00,84",
+            "1.10,48"
+          ]
+        },
+        {
+          "Tid": "2.16,72",
+          "Dato": "28.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "1537",
+          "pid": "380328",
+          "splits": [
+            "1.03,63",
+            "1.13,09"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.09,68",
+          "Dato": "10.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "1149",
+          "pid": "677643",
+          "splits": [
+            "59,38",
+            "1.10,30"
+          ]
+        },
+        {
+          "Tid": "2.10,41",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "53",
+          "RA": "977",
+          "pid": "145437",
+          "splits": []
+        },
+        {
+          "Tid": "2.11,08",
+          "Dato": "07.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "1027",
+          "pid": "244146",
+          "splits": [
+            "59,46",
+            "1.11,62"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.16,01",
+          "Dato": "14.10.2006",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "1173",
+          "pid": "145430",
+          "splits": []
+        },
+        {
+          "Tid": "2.17,00",
+          "Dato": "16.04.2005",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "19",
+          "RA": "1034",
+          "pid": "8239",
+          "splits": [
+            "1.05,73",
+            "1.11,27"
+          ]
+        },
+        {
+          "Tid": "2.17,31",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "102697",
+          "splits": [
+            "1.05,18",
+            "1.12,13"
+          ]
+        },
+        {
+          "Tid": "2.17,99",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "112669",
+          "splits": [
+            "1.05,06",
+            "1.12,93"
+          ]
+        },
+        {
+          "Tid": "2.18,80",
+          "Dato": "30.10.2010",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "1329",
+          "pid": "684771",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "2.20,62",
+          "Dato": "09.10.2010",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "677586",
+          "splits": [
+            "1.05,62",
+            "1.15,00"
+          ]
+        },
+        {
+          "Tid": "2.20,94",
+          "Dato": "02.12.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "151867",
+          "splits": []
+        },
+        {
+          "Tid": "2.25,36",
+          "Dato": "06.10.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "1229",
+          "pid": "244068",
+          "splits": [
+            "1.07,47",
+            "1.17,89"
+          ]
+        },
+        {
+          "Tid": "2.25,49",
+          "Dato": "27.09.2008",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "53",
+          "RA": "1274",
+          "pid": "380304",
+          "splits": [
+            "1.09,55",
+            "1.15,94"
+          ]
+        }
+      ]
+    }
+  ]
+}
