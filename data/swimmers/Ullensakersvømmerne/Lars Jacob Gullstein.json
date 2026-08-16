@@ -1,0 +1,127 @@
+{
+  "swimmerId": "22068",
+  "name": "Lars Jacob Gullstein",
+  "club": "Ullensakersvømmerne",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-15T23:07:01.393Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,57",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "167",
+          "RA": "1110",
+          "pid": "1607309"
+        },
+        {
+          "Tid": "34,91",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1532668"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,26",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "719",
+          "pid": "1532320"
+        },
+        {
+          "Tid": "41,98",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1673439",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "44,70",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1738790",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.31,38",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "639",
+          "pid": "1606860",
+          "splits": [
+            "41,98",
+            "49,40"
+          ]
+        },
+        {
+          "Tid": "1.35,63",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1689015",
+          "splits": [
+            "44,70",
+            "50,93"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.17,61",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "480",
+          "pid": "1607160",
+          "splits": [
+            "44,70",
+            "50,93",
+            "53,82",
+            "48,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

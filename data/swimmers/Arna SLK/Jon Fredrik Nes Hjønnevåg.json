@@ -1,0 +1,70 @@
+{
+  "swimmerId": "21263",
+  "name": "Jon Fredrik Nes Hjønnevåg",
+  "club": "Arna SLK",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-16T03:32:58.721Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,92",
+          "Dato": "27.09.2014",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "140",
+          "RA": "889",
+          "pid": "1391433"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,14",
+          "Dato": "28.09.2014",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "75",
+          "RA": "415",
+          "pid": "1391697"
+        },
+        {
+          "Tid": "45,14",
+          "Dato": "27.09.2014",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1464041",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.39,12",
+          "Dato": "27.09.2014",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "79",
+          "RA": "403",
+          "pid": "1390905",
+          "splits": [
+            "45,14",
+            "53,98"
+          ]
+        }
+      ]
+    }
+  ]
+}

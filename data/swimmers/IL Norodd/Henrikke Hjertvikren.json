@@ -1,0 +1,77 @@
+{
+  "swimmerId": "7485",
+  "name": "Henrikke Hjertvikren",
+  "club": "IL Norodd",
+  "birthYear": 1994,
+  "gender": "female",
+  "timestamp": "2026-08-16T03:01:31.099Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,33",
+          "Dato": "11.02.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "258",
+          "RA": "1405",
+          "pid": "328054",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.00,41",
+          "Dato": "11.02.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "215563"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.04,14",
+          "Dato": "11.02.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "212",
+          "RA": "1127",
+          "pid": "327233",
+          "splits": [
+            "59,33",
+            "1.04,81"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.18,07",
+          "Dato": "11.02.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "156",
+          "RA": "721",
+          "pid": "215465",
+          "splits": [
+            "59,33",
+            "1.04,81",
+            "1.08,04",
+            "1.05,89"
+          ]
+        }
+      ]
+    }
+  ]
+}

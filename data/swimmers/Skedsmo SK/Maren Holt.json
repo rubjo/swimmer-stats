@@ -1,0 +1,60 @@
+{
+  "swimmerId": "12685",
+  "name": "Maren Holt",
+  "club": "Skedsmo SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T04:00:12.661Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,63",
+          "Dato": "07.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "229",
+          "RA": "1839",
+          "pid": "629020"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,13",
+          "Dato": "06.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "242",
+          "RA": "1633",
+          "pid": "738286",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,99",
+          "Dato": "06.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1319",
+          "pid": "628837",
+          "splits": [
+            "1.04,13",
+            "1.10,86"
+          ]
+        }
+      ]
+    }
+  ]
+}

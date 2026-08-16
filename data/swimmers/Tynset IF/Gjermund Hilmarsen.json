@@ -1,0 +1,205 @@
+{
+  "swimmerId": "3836",
+  "name": "Gjermund Hilmarsen",
+  "club": "Tynset IF",
+  "birthYear": 1992,
+  "gender": "male",
+  "timestamp": "2026-08-16T03:47:13.345Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,19",
+          "Dato": "19.03.2006",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1039",
+          "pid": "135340"
+        },
+        {
+          "Tid": "37,30",
+          "Dato": "12.02.2006",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "131969"
+        },
+        {
+          "Tid": "38,28",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "981",
+          "pid": "24317"
+        },
+        {
+          "Tid": "38,50",
+          "Dato": "13.03.2005",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "32566"
+        },
+        {
+          "Tid": "39,67",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "49240",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,59",
+          "Dato": "19.03.2006",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "136",
+          "RA": "715",
+          "pid": "135341"
+        },
+        {
+          "Tid": "47,31",
+          "Dato": "12.02.2006",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "131971"
+        },
+        {
+          "Tid": "48,66",
+          "Dato": "13.03.2005",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "717",
+          "pid": "32567"
+        },
+        {
+          "Tid": "51,21",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "49239",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.22,96",
+          "Dato": "19.03.2006",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "937",
+          "pid": "135339",
+          "splits": []
+        },
+        {
+          "Tid": "1.24,34",
+          "Dato": "12.02.2006",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "131970",
+          "splits": []
+        },
+        {
+          "Tid": "1.27,87",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "926",
+          "pid": "23952",
+          "splits": [
+            "39,67",
+            "48,20"
+          ]
+        },
+        {
+          "Tid": "1.30,47",
+          "Dato": "13.03.2005",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "32565",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,05",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "114",
+          "RA": "639",
+          "pid": "49238",
+          "splits": [
+            "51,21",
+            "58,84"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.48,93",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "84",
+          "RA": "445",
+          "pid": "23814",
+          "splits": [
+            "51,21",
+            "58,84",
+            "1.01,60",
+            "57,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

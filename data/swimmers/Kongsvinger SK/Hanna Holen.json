@@ -1,0 +1,101 @@
+{
+  "swimmerId": "8792",
+  "name": "Hanna Holen",
+  "club": "Kongsvinger SK",
+  "birthYear": 1994,
+  "gender": "female",
+  "timestamp": "2026-08-16T03:49:08.618Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,14",
+          "Dato": "01.03.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1340",
+          "pid": "348340"
+        },
+        {
+          "Tid": "41,69",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "245",
+          "RA": "1364",
+          "pid": "268484",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,38",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "859",
+          "pid": "249060"
+        },
+        {
+          "Tid": "49,09",
+          "Dato": "01.03.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "914",
+          "pid": "348275"
+        },
+        {
+          "Tid": "49,80",
+          "Dato": "04.11.2007",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "248874"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,41",
+          "Dato": "01.03.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1043",
+          "pid": "348461",
+          "splits": []
+        },
+        {
+          "Tid": "1.26,53",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1023",
+          "pid": "272333",
+          "splits": [
+            "41,69",
+            "44,84"
+          ]
+        }
+      ]
+    }
+  ]
+}

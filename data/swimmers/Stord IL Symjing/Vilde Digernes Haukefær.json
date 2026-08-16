@@ -1,0 +1,77 @@
+{
+  "swimmerId": "23401",
+  "name": "Vilde Digernes Haukefær",
+  "club": "Stord IL Symjing",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-16T01:44:48.842Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,35",
+          "Dato": "24.10.2015",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "295",
+          "RA": "2349",
+          "pid": "1625115"
+        },
+        {
+          "Tid": "51,50",
+          "Dato": "25.10.2015",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1719775",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,27",
+          "Dato": "25.10.2015",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "249",
+          "RA": "2048",
+          "pid": "1646130",
+          "splits": [
+            "51,50",
+            "1.02,77"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.02,42",
+          "Dato": "25.10.2015",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1489",
+          "pid": "1626151",
+          "splits": [
+            "51,50",
+            "1.02,77",
+            "1.06,14",
+            "1.02,01"
+          ]
+        }
+      ]
+    }
+  ]
+}

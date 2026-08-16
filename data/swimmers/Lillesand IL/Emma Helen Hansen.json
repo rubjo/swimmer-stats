@@ -1,0 +1,84 @@
+{
+  "swimmerId": "13702",
+  "name": "Emma Helen Hansen",
+  "club": "Lillesand IL",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T00:30:44.335Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,84",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1725",
+          "pid": "682330"
+        },
+        {
+          "Tid": "50,98",
+          "Dato": "02.05.2010",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "651588"
+        },
+        {
+          "Tid": "2.13,65",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "721792",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,54",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1582",
+          "pid": "682236",
+          "splits": [
+            "2.13,65",
+            "-18,89"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.13,92",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "973",
+          "pid": "682096",
+          "splits": [
+            "1.08,26",
+            "1.05,66"
+          ]
+        }
+      ]
+    }
+  ]
+}

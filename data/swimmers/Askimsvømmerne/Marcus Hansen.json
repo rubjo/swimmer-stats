@@ -1,0 +1,57 @@
+{
+  "swimmerId": "21354",
+  "name": "Marcus Hansen",
+  "club": "Askimsvømmerne",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-16T01:01:22.277Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,56",
+          "Dato": "12.10.2014",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "202",
+          "RA": "1394",
+          "pid": "1401206"
+        },
+        {
+          "Tid": "38,08",
+          "Dato": "12.10.2014",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1515294",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.01,38",
+          "Dato": "12.10.2014",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "883",
+          "pid": "1401827",
+          "splits": [
+            "38,08",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

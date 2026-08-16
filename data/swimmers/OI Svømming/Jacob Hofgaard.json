@@ -1,0 +1,70 @@
+{
+  "swimmerId": "13922",
+  "name": "Jacob Hofgaard",
+  "club": "OI Svømming",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T03:19:48.534Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "55,04",
+          "Dato": "25.09.2010",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "155",
+          "RA": "972",
+          "pid": "674822"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,50",
+          "Dato": "25.09.2010",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "201",
+          "RA": "1258",
+          "pid": "674428"
+        },
+        {
+          "Tid": "59,36",
+          "Dato": "25.09.2010",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "721163",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.04,91",
+          "Dato": "25.09.2010",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1063",
+          "pid": "674770",
+          "splits": [
+            "59,36",
+            "1.05,55"
+          ]
+        }
+      ]
+    }
+  ]
+}

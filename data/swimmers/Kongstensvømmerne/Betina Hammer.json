@@ -1,0 +1,70 @@
+{
+  "swimmerId": "9579",
+  "name": "Betina Hammer",
+  "club": "Kongstensvømmerne",
+  "birthYear": 1976,
+  "gender": "female",
+  "timestamp": "2026-08-16T00:12:54.288Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,66",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "424",
+          "pid": "353235"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,98",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "33",
+          "RA": "203",
+          "pid": "353659"
+        },
+        {
+          "Tid": "40,79",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "446150",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.27,79",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "24",
+          "RA": "211",
+          "pid": "353039",
+          "splits": [
+            "40,79",
+            "47,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

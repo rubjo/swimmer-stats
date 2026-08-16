@@ -1,0 +1,70 @@
+{
+  "swimmerId": "3134",
+  "name": "Tom Ivar Holm",
+  "club": "Modum SK",
+  "birthYear": 1976,
+  "gender": "male",
+  "timestamp": "2026-08-16T03:41:27.030Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "30,44",
+          "Dato": "02.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "152",
+          "RA": "620",
+          "pid": "111985"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,60",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "510",
+          "pid": "111747"
+        },
+        {
+          "Tid": "42,39",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "180070",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,78",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "444",
+          "pid": "111539",
+          "splits": [
+            "42,39",
+            "51,39"
+          ]
+        }
+      ]
+    }
+  ]
+}

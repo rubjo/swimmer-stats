@@ -1,0 +1,60 @@
+{
+  "swimmerId": "40262",
+  "name": "Søren Hegndal-Andersen",
+  "club": "OI Svømming",
+  "birthYear": 1977,
+  "gender": "male",
+  "timestamp": "2026-08-16T02:05:57.534Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "30,19",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2992774"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "30,19",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2993428",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.02,45",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2993427",
+          "splits": [
+            "30,19",
+            "32,26"
+          ]
+        }
+      ]
+    }
+  ]
+}

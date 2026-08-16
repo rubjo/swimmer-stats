@@ -1,0 +1,142 @@
+{
+  "swimmerId": "26830",
+  "name": "Marte Johannessen Helgeland",
+  "club": "Delfana",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-16T02:41:32.987Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,25",
+          "Dato": "02.12.2017",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "322",
+          "RA": "2215",
+          "pid": "2098931"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,71",
+          "Dato": "02.12.2017",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "310",
+          "RA": "1951",
+          "pid": "2105543",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,84",
+          "Dato": "21.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2075246"
+        },
+        {
+          "Tid": "1.01,13",
+          "Dato": "22.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2176871",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.01,57",
+          "Dato": "21.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2123266",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,24",
+          "Dato": "02.12.2017",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "262",
+          "RA": "1600",
+          "pid": "2098724",
+          "splits": [
+            "59,71",
+            "1.02,53"
+          ]
+        },
+        {
+          "Tid": "2.08,13",
+          "Dato": "22.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2075856",
+          "splits": [
+            "1.01,13",
+            "1.07,00"
+          ]
+        },
+        {
+          "Tid": "2.10,35",
+          "Dato": "21.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2116181",
+          "splits": [
+            "1.01,57",
+            "1.08,78"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.29,24",
+          "Dato": "21.10.2017",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "1244",
+          "pid": "2074908",
+          "splits": [
+            "1.01,57",
+            "1.08,78",
+            "1.10,04",
+            "1.08,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

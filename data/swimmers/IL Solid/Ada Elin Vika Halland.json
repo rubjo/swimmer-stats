@@ -1,0 +1,70 @@
+{
+  "swimmerId": "31107",
+  "name": "Ada Elin Vika Halland",
+  "club": "IL Solid",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-15T23:40:41.327Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.01,16",
+          "Dato": "20.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2522",
+          "pid": "2410464"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.06,47",
+          "Dato": "20.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2165",
+          "pid": "2410232"
+        },
+        {
+          "Tid": "1.06,79",
+          "Dato": "21.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2410915",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.27,08",
+          "Dato": "21.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1869",
+          "pid": "2410914",
+          "splits": [
+            "1.06,79",
+            "1.20,29"
+          ]
+        }
+      ]
+    }
+  ]
+}

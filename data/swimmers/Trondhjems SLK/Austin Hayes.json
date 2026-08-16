@@ -1,0 +1,127 @@
+{
+  "swimmerId": "51140",
+  "name": "Austin Hayes",
+  "club": "Trondhjems SLK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-16T01:48:57.994Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "26,75",
+          "Dato": "30.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "423",
+          "pid": "3664488"
+        },
+        {
+          "Tid": "27,40",
+          "Dato": "08.11.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3813735",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "27,86",
+          "Dato": "28.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3665056",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "28,10",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3665608",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "57,44",
+          "Dato": "08.11.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3813734",
+          "splits": [
+            "27,40",
+            "30,04"
+          ]
+        },
+        {
+          "Tid": "57,98",
+          "Dato": "28.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3665055",
+          "splits": [
+            "27,86",
+            "30,12"
+          ]
+        },
+        {
+          "Tid": "59,23",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3665609",
+          "splits": [
+            "28,10",
+            "31,13"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.04,45",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "36",
+          "RA": "164",
+          "pid": "3665607",
+          "splits": [
+            "28,10",
+            "31,13",
+            "32,04",
+            "33,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

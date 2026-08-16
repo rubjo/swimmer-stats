@@ -1,0 +1,117 @@
+{
+  "swimmerId": "47841",
+  "name": "Marius Holmemo",
+  "club": "Harstad SK",
+  "birthYear": 1990,
+  "gender": "male",
+  "timestamp": "2026-08-16T04:02:32.565Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "28,76",
+          "Dato": "28.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3466601"
+        },
+        {
+          "Tid": "29,35",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3467836"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "36,47",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3466810",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "42,91",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3467210",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.18,50",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3466809",
+          "splits": [
+            "36,47",
+            "42,03"
+          ]
+        },
+        {
+          "Tid": "1.31,25",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3467211",
+          "splits": [
+            "42,91",
+            "48,34"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.07,06",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "401",
+          "pid": "3467209",
+          "splits": [
+            "42,91",
+            "48,34",
+            "48,75",
+            "47,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

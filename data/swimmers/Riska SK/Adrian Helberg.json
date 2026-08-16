@@ -1,0 +1,92 @@
+{
+  "swimmerId": "22926",
+  "name": "Adrian Helberg",
+  "club": "Riska SK",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-16T02:20:49.742Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,53",
+          "Dato": "10.04.2016",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "257",
+          "RA": "1991",
+          "pid": "1778246"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,13",
+          "Dato": "19.11.2016",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "219",
+          "RA": "1508",
+          "pid": "1915827",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.04,83",
+          "Dato": "10.04.2016",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1778471"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,94",
+          "Dato": "19.11.2016",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "194",
+          "RA": "1260",
+          "pid": "1957195",
+          "splits": [
+            "57,13",
+            "1.05,81"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.26,59",
+          "Dato": "19.11.2016",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "991",
+          "pid": "1853997",
+          "splits": [
+            "57,13",
+            "1.05,81",
+            "1.10,95",
+            "1.12,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

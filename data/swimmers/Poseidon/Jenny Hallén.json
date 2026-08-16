@@ -1,0 +1,107 @@
+{
+  "swimmerId": "16945",
+  "name": "Jenny Hallén",
+  "club": "Poseidon",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-16T00:04:24.986Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,46",
+          "Dato": "09.03.2013",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "358",
+          "RA": "1886",
+          "pid": "1143820"
+        },
+        {
+          "Tid": "59,13",
+          "Dato": "10.03.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "445",
+          "RA": "2340",
+          "pid": "959702"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "52,58",
+          "Dato": "09.03.2013",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "295",
+          "RA": "1518",
+          "pid": "1144742"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,37",
+          "Dato": "09.03.2013",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "331",
+          "RA": "1619",
+          "pid": "1272979",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,88",
+          "Dato": "09.03.2013",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "307",
+          "RA": "1445",
+          "pid": "1276993",
+          "splits": [
+            "54,37",
+            "1.03,51"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.09,16",
+          "Dato": "09.03.2013",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "249",
+          "RA": "1070",
+          "pid": "1144351",
+          "splits": [
+            "54,37",
+            "1.03,51",
+            "1.04,20",
+            "1.07,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

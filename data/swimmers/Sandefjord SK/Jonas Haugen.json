@@ -1,0 +1,70 @@
+{
+  "swimmerId": "17964",
+  "name": "Jonas Haugen",
+  "club": "Sandefjord SK",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-16T01:51:00.295Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,44",
+          "Dato": "24.11.2012",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1861",
+          "pid": "1023385"
+        },
+        {
+          "Tid": "46,72",
+          "Dato": "24.11.2012",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1110289",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,57",
+          "Dato": "24.11.2012",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1370",
+          "pid": "1023680"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,41",
+          "Dato": "24.11.2012",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1507",
+          "pid": "1023780",
+          "splits": [
+            "46,72",
+            "52,69"
+          ]
+        }
+      ]
+    }
+  ]
+}

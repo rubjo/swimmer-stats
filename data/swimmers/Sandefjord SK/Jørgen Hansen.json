@@ -1,0 +1,55 @@
+{
+  "swimmerId": "18619",
+  "name": "Jørgen Hansen",
+  "club": "Sandefjord SK",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-16T00:42:23.451Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,39",
+          "Dato": "05.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "207",
+          "RA": "1490",
+          "pid": "1256083",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,73",
+          "Dato": "30.11.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1214887"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.23,33",
+          "Dato": "05.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1218",
+          "pid": "1159001",
+          "splits": [
+            "38,39",
+            "44,94"
+          ]
+        }
+      ]
+    }
+  ]
+}

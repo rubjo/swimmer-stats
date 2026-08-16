@@ -1,0 +1,67 @@
+{
+  "swimmerId": "11783",
+  "name": "Steffen Hagen",
+  "club": "Fauske SK",
+  "birthYear": 1995,
+  "gender": null,
+  "timestamp": "2026-08-15T23:21:40.225Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,68",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "1484",
+          "pid": "554057"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,37",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1090",
+          "pid": "554054"
+        },
+        {
+          "Tid": "54,41",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "554056",
+          "partOf": "50m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.59,02",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "937",
+          "pid": "554055",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

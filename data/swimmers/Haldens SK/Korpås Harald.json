@@ -1,0 +1,136 @@
+{
+  "swimmerId": "9089",
+  "name": "Korpås Harald",
+  "club": "Haldens SK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-16T01:14:35.365Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,41",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1564",
+          "pid": "339246"
+        },
+        {
+          "Tid": "55,05",
+          "Dato": "02.03.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "346735"
+        },
+        {
+          "Tid": "58,21",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "401526",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.02,35",
+          "Dato": "02.03.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "964",
+          "pid": "346985"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,97",
+          "Dato": "02.03.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1259",
+          "pid": "346691"
+        },
+        {
+          "Tid": "1.07,54",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "401525",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.03,63",
+          "Dato": "02.03.2008",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1352",
+          "pid": "347026",
+          "splits": []
+        },
+        {
+          "Tid": "2.08,98",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "339680",
+          "splits": [
+            "58,21",
+            "1.10,77"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.23,72",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "988",
+          "pid": "339348",
+          "splits": [
+            "1.07,54",
+            "1.16,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

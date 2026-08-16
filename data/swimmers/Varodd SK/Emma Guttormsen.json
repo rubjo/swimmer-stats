@@ -1,0 +1,80 @@
+{
+  "swimmerId": "26636",
+  "name": "Emma Guttormsen",
+  "club": "Varodd SK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-15T23:15:34.121Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,27",
+          "Dato": "10.03.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "240",
+          "RA": "1631",
+          "pid": "2248315"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,89",
+          "Dato": "11.03.2018",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1108",
+          "pid": "2249422"
+        },
+        {
+          "Tid": "52,01",
+          "Dato": "24.09.2017",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "289",
+          "RA": "1532",
+          "pid": "2058986"
+        },
+        {
+          "Tid": "53,63",
+          "Dato": "24.09.2017",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2205006",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,16",
+          "Dato": "24.09.2017",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "271",
+          "RA": "1402",
+          "pid": "2059395",
+          "splits": [
+            "53,63",
+            "1.00,53"
+          ]
+        }
+      ]
+    }
+  ]
+}

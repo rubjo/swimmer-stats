@@ -1,0 +1,100 @@
+{
+  "swimmerId": "10919",
+  "name": "Vegard Gurrik",
+  "club": "Moss SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-15T23:18:49.546Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,81",
+          "Dato": "20.09.2009",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1665",
+          "pid": "520088"
+        },
+        {
+          "Tid": "53,23",
+          "Dato": "08.02.2009",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "476945"
+        },
+        {
+          "Tid": "56,26",
+          "Dato": "05.04.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "490628"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,70",
+          "Dato": "20.09.2009",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1232",
+          "pid": "520046"
+        },
+        {
+          "Tid": "57,81",
+          "Dato": "05.04.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "490924"
+        },
+        {
+          "Tid": "1.01,21",
+          "Dato": "05.04.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "553587",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,11",
+          "Dato": "05.04.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1003",
+          "pid": "490748",
+          "splits": [
+            "1.01,21",
+            "1.05,90"
+          ]
+        }
+      ]
+    }
+  ]
+}

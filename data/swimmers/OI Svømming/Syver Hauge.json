@@ -1,0 +1,80 @@
+{
+  "swimmerId": "6126",
+  "name": "Syver Hauge",
+  "club": "OI Svømming",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-16T01:23:48.656Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,50",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "1405",
+          "pid": "121755"
+        },
+        {
+          "Tid": "50,88",
+          "Dato": "11.03.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "136413"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,28",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "99",
+          "RA": "989",
+          "pid": "147558",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,53",
+          "Dato": "11.03.2006",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "136412"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,86",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "732",
+          "pid": "121603",
+          "splits": [
+            "54,28",
+            "58,58"
+          ]
+        }
+      ]
+    }
+  ]
+}

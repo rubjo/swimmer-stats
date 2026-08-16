@@ -1,0 +1,95 @@
+{
+  "swimmerId": "16000",
+  "name": "Filip Hagen",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-15T23:23:49.618Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,69",
+          "Dato": "14.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "915",
+          "pid": "1006236"
+        },
+        {
+          "Tid": "35,97",
+          "Dato": "04.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1217",
+          "pid": "852346"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "38,53",
+          "Dato": "14.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "876",
+          "pid": "1006654"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,77",
+          "Dato": "14.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "86",
+          "RA": "523",
+          "pid": "1059779",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "44,21",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "727",
+          "pid": "851734"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.27,30",
+          "Dato": "14.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "422",
+          "pid": "1006429",
+          "splits": [
+            "39,77",
+            "47,53"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "swimmerId": "10166",
+  "name": "Didrik Hanseid",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T00:07:36.504Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,51",
+          "Dato": "20.09.2008",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "1126",
+          "pid": "376400"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,77",
+          "Dato": "20.09.2008",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "47",
+          "RA": "951",
+          "pid": "414724",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,72",
+          "Dato": "20.09.2008",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "750",
+          "pid": "376761",
+          "splits": [
+            "51,77",
+            "59,95"
+          ]
+        }
+      ]
+    }
+  ]
+}

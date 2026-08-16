@@ -1,0 +1,65 @@
+{
+  "swimmerId": "14461",
+  "name": "Vebjørn Holm",
+  "club": "Moss SK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-16T03:40:13.864Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,58",
+          "Dato": "01.06.2013",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "82",
+          "RA": "607",
+          "pid": "1164623"
+        },
+        {
+          "Tid": "37,08",
+          "Dato": "10.11.2013",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1406",
+          "pid": "1209668"
+        },
+        {
+          "Tid": "39,84",
+          "Dato": "02.06.2013",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1302811",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,17",
+          "Dato": "02.06.2013",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "79",
+          "RA": "558",
+          "pid": "1165186",
+          "splits": [
+            "39,84",
+            "47,33"
+          ]
+        }
+      ]
+    }
+  ]
+}

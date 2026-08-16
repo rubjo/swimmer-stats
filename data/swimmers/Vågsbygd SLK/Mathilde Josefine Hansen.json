@@ -1,0 +1,80 @@
+{
+  "swimmerId": "33505",
+  "name": "Mathilde Josefine Hansen",
+  "club": "Vågsbygd SLK",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-16T01:01:44.020Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,79",
+          "Dato": "20.10.2019",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "242",
+          "RA": "2204",
+          "pid": "2651944"
+        },
+        {
+          "Tid": "50,13",
+          "Dato": "01.09.2019",
+          "Sted": "Mandalshallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2640810"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,55",
+          "Dato": "19.10.2019",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "256",
+          "RA": "2051",
+          "pid": "2651864"
+        },
+        {
+          "Tid": "1.07,85",
+          "Dato": "01.09.2019",
+          "Sted": "Mandalshallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2640815",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.27,00",
+          "Dato": "01.09.2019",
+          "Sted": "Mandalshallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "251",
+          "RA": "1796",
+          "pid": "2640814",
+          "splits": [
+            "1.07,85",
+            "1.19,15"
+          ]
+        }
+      ]
+    }
+  ]
+}

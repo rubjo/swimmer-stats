@@ -1,0 +1,60 @@
+{
+  "swimmerId": "31696",
+  "name": "Martin Hellerud",
+  "club": "Sandefjord SK",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-16T02:24:04.652Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,08",
+          "Dato": "24.11.2018",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "1414",
+          "pid": "2451307"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "43,88",
+          "Dato": "24.11.2018",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "116",
+          "RA": "932",
+          "pid": "2451314",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,00",
+          "Dato": "24.11.2018",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "699",
+          "pid": "2451313",
+          "splits": [
+            "43,88",
+            "49,12"
+          ]
+        }
+      ]
+    }
+  ]
+}

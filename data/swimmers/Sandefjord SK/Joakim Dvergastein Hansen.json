@@ -1,0 +1,136 @@
+{
+  "swimmerId": "27007",
+  "name": "Joakim Dvergastein Hansen",
+  "club": "Sandefjord SK",
+  "birthYear": 2004,
+  "gender": "male",
+  "timestamp": "2026-08-16T00:22:41.040Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,13",
+          "Dato": "14.04.2018",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "242",
+          "RA": "1681",
+          "pid": "2263033"
+        },
+        {
+          "Tid": "40,83",
+          "Dato": "25.11.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1746",
+          "pid": "2090642"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,84",
+          "Dato": "14.04.2018",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "225",
+          "RA": "1308",
+          "pid": "2263579"
+        },
+        {
+          "Tid": "55,92",
+          "Dato": "25.11.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "227",
+          "RA": "1492",
+          "pid": "2200192",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,56",
+          "Dato": "14.04.2018",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1246",
+          "pid": "2263229"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.36,34",
+          "Dato": "25.11.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "223",
+          "RA": "1610",
+          "pid": "2090975",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,63",
+          "Dato": "25.11.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "198",
+          "RA": "1243",
+          "pid": "2113772",
+          "splits": [
+            "55,92",
+            "1.01,71"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.02,88",
+          "Dato": "25.11.2017",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "892",
+          "pid": "2090706",
+          "splits": [
+            "55,92",
+            "1.01,71",
+            "1.02,42",
+            "1.02,83"
+          ]
+        }
+      ]
+    }
+  ]
+}
