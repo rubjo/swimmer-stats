@@ -29,3 +29,25 @@ delete `data/checked-empty.json`.
 `scripts/prune-zero-race.js --apply` removes any legacy zero-race files created
 by older runs and seeds their ids into this ledger, so pruning them doesn't
 re-expose them as candidates.
+
+## data/index.json and merge driver
+
+The file `data/index.json` is a generated artifact. To avoid merge conflicts in
+commits produced by concurrent CI jobs, this repository now declares a merge
+strategy for the generated index.
+
+- The repository includes a `.gitattributes` entry that marks `data/index.json`
+  to use the `ours` merge driver on merges.
+
+- To enable the driver locally (and make merge behavior consistent), add the
+  following to your local git config (or to `.git/config`):
+
+```ini
+[merge "ours"]
+  name = Keep ours during merge
+  driver = true
+```
+
+This tells Git to keep the current branch's copy of `data/index.json` during a
+merge, which is appropriate because `data/index.json` is rebuilt by the merge
+job and is not hand-edited.
