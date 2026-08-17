@@ -1,0 +1,80 @@
+{
+  "swimmerId": "47678",
+  "name": "Mattie Vinnes  Nilssen",
+  "club": "Stegaberg IL",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-17T19:12:05.121Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,28",
+          "Dato": "08.03.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "303",
+          "RA": "1944",
+          "pid": "3830687"
+        },
+        {
+          "Tid": "48,14",
+          "Dato": "09.03.2024",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3419635"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,17",
+          "Dato": "09.03.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1408",
+          "pid": "3830657"
+        },
+        {
+          "Tid": "1.01,50",
+          "Dato": "08.03.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3830731",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,53",
+          "Dato": "08.03.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "1239",
+          "pid": "3830730",
+          "splits": [
+            "1.01,50",
+            "1.00,03"
+          ]
+        }
+      ]
+    }
+  ]
+}

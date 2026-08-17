@@ -1,0 +1,77 @@
+{
+  "swimmerId": "23351",
+  "name": "Sigrid Forshei Nielsen",
+  "club": "Brønnøysund IL",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-17T19:38:07.337Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,66",
+          "Dato": "17.10.2015",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1708",
+          "pid": "1619107"
+        },
+        {
+          "Tid": "57,60",
+          "Dato": "18.10.2015",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1658409",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.03,36",
+          "Dato": "18.10.2015",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "175",
+          "RA": "1572",
+          "pid": "1726620",
+          "splits": [
+            "57,60",
+            "1.05,76"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.19,61",
+          "Dato": "18.10.2015",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "1216",
+          "pid": "1619374",
+          "splits": [
+            "57,60",
+            "1.05,76",
+            "1.08,64",
+            "1.07,61"
+          ]
+        }
+      ]
+    }
+  ]
+}

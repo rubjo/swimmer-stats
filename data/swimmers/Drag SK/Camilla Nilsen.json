@@ -1,0 +1,85 @@
+{
+  "swimmerId": "18789",
+  "name": "Camilla Nilsen",
+  "club": "Drag SK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-17T18:33:51.718Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.13,40",
+          "Dato": "10.03.2013",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1653",
+          "pid": "1143414"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.17,39",
+          "Dato": "09.03.2013",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2056",
+          "pid": "1143048"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.19,53",
+          "Dato": "10.03.2013",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2383",
+          "pid": "1143296"
+        },
+        {
+          "Tid": "1.23,50",
+          "Dato": "10.03.2013",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1251132",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.56,67",
+          "Dato": "10.03.2013",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2051",
+          "pid": "1143533",
+          "splits": [
+            "1.23,50",
+            "1.33,17"
+          ]
+        }
+      ]
+    }
+  ]
+}

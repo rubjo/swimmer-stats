@@ -1,0 +1,70 @@
+{
+  "swimmerId": "26029",
+  "name": "Bjørg Pas",
+  "club": "Elverum Svømming",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-17T21:05:28.378Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,50",
+          "Dato": "12.03.2017",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "299",
+          "RA": "1839",
+          "pid": "2007589"
+        },
+        {
+          "Tid": "42,40",
+          "Dato": "12.03.2017",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2121346",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,74",
+          "Dato": "12.03.2017",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "248",
+          "RA": "1436",
+          "pid": "2007275"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,86",
+          "Dato": "12.03.2017",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "297",
+          "RA": "1693",
+          "pid": "2007422",
+          "splits": [
+            "42,40",
+            "50,46"
+          ]
+        }
+      ]
+    }
+  ]
+}

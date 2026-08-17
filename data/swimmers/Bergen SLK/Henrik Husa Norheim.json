@@ -1,0 +1,127 @@
+{
+  "swimmerId": "15577",
+  "name": "Henrik Husa Norheim",
+  "club": "Bergen SLK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-17T20:03:53.219Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,09",
+          "Dato": "30.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1592",
+          "pid": "841514"
+        },
+        {
+          "Tid": "47,53",
+          "Dato": "05.06.2011",
+          "Sted": "Førde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "814334"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,91",
+          "Dato": "29.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "142",
+          "RA": "1077",
+          "pid": "913188",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "52,09",
+          "Dato": "30.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "913189",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,41",
+          "Dato": "29.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "841256"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,58",
+          "Dato": "29.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "118",
+          "RA": "891",
+          "pid": "913187",
+          "splits": [
+            "50,91",
+            "58,67"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.51,59",
+          "Dato": "30.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "841648",
+          "splits": [
+            "52,09",
+            "59,50"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.50,10",
+          "Dato": "29.10.2011",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "107",
+          "RA": "609",
+          "pid": "841078",
+          "splits": [
+            "50,91",
+            "58,67",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

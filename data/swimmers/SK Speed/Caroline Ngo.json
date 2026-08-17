@@ -1,0 +1,45 @@
+{
+  "swimmerId": "23450",
+  "name": "Caroline Ngo",
+  "club": "SK Speed",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-17T18:30:02.614Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,27",
+          "Dato": "06.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "259",
+          "RA": "1403",
+          "pid": "1876609",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,47",
+          "Dato": "06.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "269",
+          "RA": "1349",
+          "pid": "1765720",
+          "splits": [
+            "50,27",
+            "1.02,20"
+          ]
+        }
+      ]
+    }
+  ]
+}

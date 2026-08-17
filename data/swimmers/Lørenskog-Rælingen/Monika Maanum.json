@@ -1,0 +1,85 @@
+{
+  "swimmerId": "4901",
+  "name": "Monika Maanum",
+  "club": "Lørenskog/Rælingen",
+  "birthYear": 1972,
+  "gender": "female",
+  "timestamp": "2026-08-17T18:07:40.637Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,73",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "55",
+          "RA": "524",
+          "pid": "180261",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "32,92",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "90",
+          "RA": "811",
+          "pid": "1444883",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "38,39",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "30",
+          "RA": "325",
+          "pid": "180451"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.08,94",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "486",
+          "pid": "1426724",
+          "splits": [
+            "32,92",
+            "36,02"
+          ]
+        },
+        {
+          "Tid": "1.10,95",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "37",
+          "RA": "423",
+          "pid": "111317",
+          "splits": [
+            "32,73",
+            "38,22"
+          ]
+        }
+      ]
+    }
+  ]
+}

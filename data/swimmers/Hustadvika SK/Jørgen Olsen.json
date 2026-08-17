@@ -1,0 +1,80 @@
+{
+  "swimmerId": "13083",
+  "name": "Jørgen Olsen",
+  "club": "Hustadvika SK",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-17T21:13:47.320Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,99",
+          "Dato": "12.03.2011",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "1733",
+          "pid": "792745"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,19",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "174",
+          "RA": "1355",
+          "pid": "1069865",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,92",
+          "Dato": "12.03.2011",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "1286",
+          "pid": "792573"
+        },
+        {
+          "Tid": "1.09,80",
+          "Dato": "06.03.2010",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1439",
+          "pid": "634454"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,81",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1131",
+          "pid": "963977",
+          "splits": [
+            "55,19",
+            "1.05,62"
+          ]
+        }
+      ]
+    }
+  ]
+}

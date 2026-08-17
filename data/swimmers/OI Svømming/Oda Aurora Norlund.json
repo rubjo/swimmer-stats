@@ -1,0 +1,92 @@
+{
+  "swimmerId": "14427",
+  "name": "Oda Aurora Norlund",
+  "club": "OI Svømming",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-17T19:19:29.407Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,08",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "263",
+          "RA": "1384",
+          "pid": "865730",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,79",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "865729",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,49",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "1110",
+          "pid": "779914",
+          "splits": [
+            "54,08",
+            "59,41"
+          ]
+        },
+        {
+          "Tid": "2.00,56",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "865728",
+          "splits": [
+            "58,79",
+            "1.01,77"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.09,14",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "863",
+          "pid": "779714",
+          "splits": [
+            "58,79",
+            "1.01,77",
+            "1.04,50",
+            "1.04,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

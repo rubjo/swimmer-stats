@@ -1,0 +1,60 @@
+{
+  "swimmerId": "14446",
+  "name": "Mathias Myklebust",
+  "club": "Brattvåg SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-17T17:34:50.245Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,59",
+          "Dato": "13.11.2011",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "236",
+          "RA": "1754",
+          "pid": "846277"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,88",
+          "Dato": "13.11.2011",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "190",
+          "RA": "1117",
+          "pid": "916950",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,71",
+          "Dato": "13.11.2011",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "875",
+          "pid": "846251",
+          "splits": [
+            "51,88",
+            "56,83"
+          ]
+        }
+      ]
+    }
+  ]
+}

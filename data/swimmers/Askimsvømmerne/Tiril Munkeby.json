@@ -1,0 +1,60 @@
+{
+  "swimmerId": "32945",
+  "name": "Tiril Munkeby",
+  "club": "Askimsvømmerne",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-17T17:22:20.269Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "58,13",
+          "Dato": "26.05.2019",
+          "Sted": "Langhus Bad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "393",
+          "RA": "2479",
+          "pid": "2570179"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,40",
+          "Dato": "26.05.2019",
+          "Sted": "Langhus Bad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "363",
+          "RA": "2150",
+          "pid": "2570519",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,72",
+          "Dato": "26.05.2019",
+          "Sted": "Langhus Bad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "318",
+          "RA": "1776",
+          "pid": "2570518",
+          "splits": [
+            "1.07,40",
+            "1.13,32"
+          ]
+        }
+      ]
+    }
+  ]
+}

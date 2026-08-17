@@ -1,0 +1,137 @@
+{
+  "swimmerId": "46226",
+  "name": "Herman Lie Omdahl",
+  "club": "Lier SK",
+  "birthYear": 2011,
+  "gender": "male",
+  "timestamp": "2026-08-17T21:22:03.389Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,80",
+          "Dato": "18.02.2024",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3411248"
+        },
+        {
+          "Tid": "44,84",
+          "Dato": "25.11.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1806",
+          "pid": "3354461"
+        },
+        {
+          "Tid": "46,14",
+          "Dato": "26.04.2024",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "148",
+          "RA": "1091",
+          "pid": "3459062"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,54",
+          "Dato": "18.02.2024",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3411195"
+        },
+        {
+          "Tid": "56,92",
+          "Dato": "25.11.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "169",
+          "RA": "1417",
+          "pid": "3354468",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,72",
+          "Dato": "18.02.2024",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3411479",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,73",
+          "Dato": "25.11.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "1151",
+          "pid": "3354467",
+          "splits": [
+            "56,92",
+            "1.04,81"
+          ]
+        },
+        {
+          "Tid": "2.07,17",
+          "Dato": "18.02.2024",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3411480",
+          "splits": [
+            "59,72",
+            "1.07,45"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.21,45",
+          "Dato": "18.02.2024",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "172",
+          "RA": "931",
+          "pid": "3411478",
+          "splits": [
+            "59,72",
+            "1.07,45",
+            "1.08,16",
+            "1.06,12"
+          ]
+        }
+      ]
+    }
+  ]
+}

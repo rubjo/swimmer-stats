@@ -1,0 +1,221 @@
+{
+  "swimmerId": "20604",
+  "name": "Tommy Nguyen",
+  "club": "Ås IL",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-17T18:54:55.145Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,72",
+          "Dato": "31.01.2016",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "183",
+          "RA": "1369",
+          "pid": "1866983"
+        },
+        {
+          "Tid": "37,41",
+          "Dato": "31.01.2016",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "1921149"
+        },
+        {
+          "Tid": "38,64",
+          "Dato": "22.05.2016",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1957227",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,23",
+          "Dato": "06.03.2016",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1921466",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "41,97",
+          "Dato": "31.01.2016",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1877641",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "43,78",
+          "Dato": "22.05.2016",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "854",
+          "pid": "1795051"
+        },
+        {
+          "Tid": "44,43",
+          "Dato": "31.01.2016",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1760429"
+        },
+        {
+          "Tid": "44,74",
+          "Dato": "06.03.2016",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1764560"
+        },
+        {
+          "Tid": "46,38",
+          "Dato": "22.05.2016",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1916353",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.20,85",
+          "Dato": "22.05.2016",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1203",
+          "pid": "1795216",
+          "splits": [
+            "38,64",
+            "42,21"
+          ]
+        },
+        {
+          "Tid": "1.27,56",
+          "Dato": "31.01.2016",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1760374",
+          "splits": [
+            "41,97",
+            "45,59"
+          ]
+        },
+        {
+          "Tid": "1.28,57",
+          "Dato": "06.03.2016",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1910480",
+          "splits": [
+            "41,23",
+            "47,34"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.38,10",
+          "Dato": "06.03.2016",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "861",
+          "pid": "1764780",
+          "splits": [
+            "49,13",
+            "48,97"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.38,99",
+          "Dato": "22.05.2016",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "814",
+          "pid": "1795306",
+          "splits": [
+            "46,38",
+            "52,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.10,37",
+          "Dato": "06.03.2016",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1058",
+          "pid": "1764980",
+          "splits": [
+            "41,23",
+            "47,34",
+            "51,30",
+            "50,50"
+          ]
+        }
+      ]
+    }
+  ]
+}

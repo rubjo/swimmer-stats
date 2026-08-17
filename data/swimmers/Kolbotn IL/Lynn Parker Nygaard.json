@@ -1,0 +1,128 @@
+{
+  "swimmerId": "9992",
+  "name": "Lynn Parker Nygaard",
+  "club": "Kolbotn IL",
+  "birthYear": 1964,
+  "gender": "female",
+  "timestamp": "2026-08-17T20:20:59.492Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,97",
+          "Dato": "03.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "820",
+          "pid": "357961"
+        },
+        {
+          "Tid": "35,79",
+          "Dato": "03.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "448718",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,25",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "118",
+          "RA": "1317",
+          "pid": "609111",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,14",
+          "Dato": "03.05.2008",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "52",
+          "RA": "666",
+          "pid": "357783",
+          "splits": [
+            "35,79",
+            "40,35"
+          ]
+        },
+        {
+          "Tid": "1.23,02",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "58",
+          "RA": "974",
+          "pid": "609112",
+          "splits": [
+            "39,25",
+            "43,77"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.54,63",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "24",
+          "RA": "637",
+          "pid": "609113",
+          "splits": [
+            "39,25",
+            "43,77",
+            "45,52",
+            "46,09"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "5.59,01",
+          "Dato": "11.10.2009",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "13",
+          "RA": "539",
+          "pid": "522354",
+          "splits": [
+            "39,25",
+            "43,77",
+            "45,52",
+            "46,09",
+            "46,53",
+            "46,49",
+            "46,34",
+            "45,02"
+          ]
+        }
+      ]
+    }
+  ]
+}

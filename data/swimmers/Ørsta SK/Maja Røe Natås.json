@@ -1,0 +1,80 @@
+{
+  "swimmerId": "24372",
+  "name": "Maja Røe Natås",
+  "club": "Ørsta SK",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-17T18:11:08.746Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "49,77",
+          "Dato": "09.04.2016",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1352",
+          "pid": "1783971"
+        },
+        {
+          "Tid": "51,93",
+          "Dato": "12.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1774459"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,62",
+          "Dato": "09.04.2016",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "298",
+          "RA": "1874",
+          "pid": "1783714"
+        },
+        {
+          "Tid": "1.01,17",
+          "Dato": "12.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1871330",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.19,36",
+          "Dato": "12.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "304",
+          "RA": "1769",
+          "pid": "1774351",
+          "splits": [
+            "1.01,17",
+            "1.18,19"
+          ]
+        }
+      ]
+    }
+  ]
+}

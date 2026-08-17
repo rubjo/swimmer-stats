@@ -1,0 +1,60 @@
+{
+  "swimmerId": "17367",
+  "name": "Oda D Nilsen",
+  "club": "Risør Varden",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-17T19:02:16.457Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,69",
+          "Dato": "13.05.2012",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "414",
+          "RA": "2183",
+          "pid": "976362"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,03",
+          "Dato": "13.05.2012",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "311",
+          "RA": "1597",
+          "pid": "1067055",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,28",
+          "Dato": "13.05.2012",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "250",
+          "RA": "1327",
+          "pid": "976143",
+          "splits": [
+            "55,03",
+            "1.01,25"
+          ]
+        }
+      ]
+    }
+  ]
+}

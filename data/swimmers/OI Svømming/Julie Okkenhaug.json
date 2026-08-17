@@ -1,0 +1,60 @@
+{
+  "swimmerId": "10529",
+  "name": "Julie Okkenhaug",
+  "club": "OI Svømming",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-17T20:55:31.038Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,65",
+          "Dato": "06.12.2008",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "1370",
+          "pid": "391532"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,96",
+          "Dato": "06.12.2008",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "78",
+          "RA": "1103",
+          "pid": "421284",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,04",
+          "Dato": "06.12.2008",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "911",
+          "pid": "391595",
+          "splits": [
+            "51,96",
+            "59,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

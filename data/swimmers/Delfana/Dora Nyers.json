@@ -1,0 +1,112 @@
+{
+  "swimmerId": "31826",
+  "name": "Dora Nyers",
+  "club": "Delfana",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-17T19:23:41.615Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,55",
+          "Dato": "11.05.2019",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "249",
+          "RA": "1830",
+          "pid": "2567071"
+        },
+        {
+          "Tid": "42,62",
+          "Dato": "11.05.2019",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2567786",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,30",
+          "Dato": "11.05.2019",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "222",
+          "RA": "1458",
+          "pid": "2568074",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,93",
+          "Dato": "11.05.2019",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "243",
+          "RA": "1856",
+          "pid": "2567785",
+          "splits": [
+            "42,62",
+            "55,31"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,17",
+          "Dato": "11.05.2019",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "199",
+          "RA": "1345",
+          "pid": "2568075",
+          "splits": [
+            "50,30",
+            "1.01,87"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.05,89",
+          "Dato": "11.05.2019",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1211",
+          "pid": "2568073",
+          "splits": [
+            "50,30",
+            "1.01,87",
+            "1.07,14",
+            "1.06,58"
+          ]
+        }
+      ]
+    }
+  ]
+}

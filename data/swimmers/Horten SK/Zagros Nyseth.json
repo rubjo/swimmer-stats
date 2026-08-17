@@ -1,0 +1,130 @@
+{
+  "swimmerId": "19423",
+  "name": "Zagros Nyseth",
+  "club": "Horten SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-17T19:38:47.121Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,69",
+          "Dato": "15.09.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "225",
+          "RA": "1837",
+          "pid": "1181586"
+        },
+        {
+          "Tid": "51,82",
+          "Dato": "15.09.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1307737",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,12",
+          "Dato": "13.10.2013",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1584",
+          "pid": "1193739",
+          "splits": []
+        },
+        {
+          "Tid": "1.58,74",
+          "Dato": "15.09.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1254110",
+          "splits": [
+            "51,82",
+            "1.06,92"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,71",
+          "Dato": "13.10.2013",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1237",
+          "pid": "1193787",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.17,30",
+          "Dato": "15.09.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "159",
+          "RA": "1139",
+          "pid": "1232371",
+          "splits": [
+            "51,82",
+            "1.06,92",
+            "1.07,42",
+            "1.11,14"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "8.54,89",
+          "Dato": "15.09.2013",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "950",
+          "pid": "1300286",
+          "splits": [
+            "51,82",
+            "1.06,92",
+            "1.07,42",
+            "1.11,14",
+            "",
+            "",
+            "1.09,43",
+            "1.06,20"
+          ]
+        }
+      ]
+    }
+  ]
+}

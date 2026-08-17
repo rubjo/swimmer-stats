@@ -1,0 +1,220 @@
+{
+  "swimmerId": "11263",
+  "name": "Christian Normann",
+  "club": "Fet SK",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-17T20:04:33.472Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,75",
+          "Dato": "06.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "98",
+          "RA": "952",
+          "pid": "656062"
+        },
+        {
+          "Tid": "34,51",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "1011",
+          "pid": "504739"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,79",
+          "Dato": "06.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "408",
+          "pid": "655872"
+        },
+        {
+          "Tid": "39,02",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "689228"
+        },
+        {
+          "Tid": "40,03",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "449",
+          "pid": "530615"
+        },
+        {
+          "Tid": "40,27",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "504868"
+        },
+        {
+          "Tid": "40,70",
+          "Dato": "14.02.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "478963"
+        },
+        {
+          "Tid": "43,04",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "597708",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "43,26",
+          "Dato": "14.02.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "547521",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "43,41",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "567261",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.31,01",
+          "Dato": "11.04.2010",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "463",
+          "pid": "708731",
+          "splits": []
+        },
+        {
+          "Tid": "1.33,74",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "79",
+          "RA": "482",
+          "pid": "597707",
+          "splits": [
+            "43,04",
+            "50,70"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.33,98",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "613466",
+          "splits": [
+            "43,41",
+            "50,57"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.34,99",
+          "Dato": "14.02.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "478988",
+          "splits": [
+            "43,26",
+            "51,73"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.22,33",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "322",
+          "pid": "530933",
+          "splits": [
+            "43,41",
+            "50,57",
+            "53,10",
+            "55,25"
+          ]
+        },
+        {
+          "Tid": "3.22,40",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "504667",
+          "splits": [
+            "43,04",
+            "50,70",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

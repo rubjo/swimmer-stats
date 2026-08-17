@@ -1,0 +1,60 @@
+{
+  "swimmerId": "5967",
+  "name": "Amalie Nordstrand",
+  "club": "Moss SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-17T20:25:34.396Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,94",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "111",
+          "RA": "1329",
+          "pid": "98275"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,08",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "196",
+          "RA": "1380",
+          "pid": "131297",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,12",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "144",
+          "RA": "1058",
+          "pid": "98407",
+          "splits": [
+            "58,08",
+            "1.04,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

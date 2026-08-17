@@ -1,0 +1,70 @@
+{
+  "swimmerId": "20259",
+  "name": "Kari Nyland",
+  "club": "Haugesund Triatlonklubb",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-17T20:27:21.221Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "35,69",
+          "Dato": "12.01.2019",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "651",
+          "pid": "2468888"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,78",
+          "Dato": "11.01.2014",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "360",
+          "RA": "2350",
+          "pid": "1317073"
+        },
+        {
+          "Tid": "51,93",
+          "Dato": "12.01.2014",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1516277",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,92",
+          "Dato": "12.01.2014",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "319",
+          "RA": "2007",
+          "pid": "1317437",
+          "splits": [
+            "51,93",
+            "59,99"
+          ]
+        }
+      ]
+    }
+  ]
+}

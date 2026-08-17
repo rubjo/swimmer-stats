@@ -1,0 +1,85 @@
+{
+  "swimmerId": "23935",
+  "name": "Katrine Olsen",
+  "club": "Skjetten Svømming",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-17T21:13:58.562Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,78",
+          "Dato": "16.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "326",
+          "RA": "1900",
+          "pid": "1746975"
+        },
+        {
+          "Tid": "41,87",
+          "Dato": "17.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1909417",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "49,65",
+          "Dato": "16.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "231",
+          "RA": "1347",
+          "pid": "1747156"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,81",
+          "Dato": "17.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "284",
+          "RA": "1609",
+          "pid": "1747716"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,98",
+          "Dato": "17.01.2016",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "305",
+          "RA": "1721",
+          "pid": "1747551",
+          "splits": [
+            "41,87",
+            "52,11"
+          ]
+        }
+      ]
+    }
+  ]
+}

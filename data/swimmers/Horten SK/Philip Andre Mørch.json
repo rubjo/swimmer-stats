@@ -1,0 +1,70 @@
+{
+  "swimmerId": "8146",
+  "name": "Philip Andre Mørch",
+  "club": "Horten SK",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-17T17:50:24.041Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,77",
+          "Dato": "14.10.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "712",
+          "pid": "1006204"
+        },
+        {
+          "Tid": "47,00",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1418",
+          "pid": "225671"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,54",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "144",
+          "RA": "1193",
+          "pid": "271373",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.17,15",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "933",
+          "pid": "225853",
+          "splits": [
+            "1.05,54",
+            "1.11,61"
+          ]
+        }
+      ]
+    }
+  ]
+}

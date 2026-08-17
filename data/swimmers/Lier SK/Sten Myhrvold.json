@@ -1,0 +1,80 @@
+{
+  "swimmerId": "9627",
+  "name": "Sten Myhrvold",
+  "club": "Lier SK",
+  "birthYear": 1949,
+  "gender": "male",
+  "timestamp": "2026-08-17T17:12:06.773Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,13",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "861",
+          "pid": "635968"
+        },
+        {
+          "Tid": "51,11",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "717930",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,93",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "134",
+          "RA": "1003",
+          "pid": "408095",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,96",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "856",
+          "pid": "635228",
+          "splits": [
+            "51,11",
+            "58,85"
+          ]
+        },
+        {
+          "Tid": "1.50,01",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "727",
+          "pid": "352988",
+          "splits": [
+            "52,93",
+            "57,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

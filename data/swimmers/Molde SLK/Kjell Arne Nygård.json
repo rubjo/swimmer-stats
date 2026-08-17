@@ -1,0 +1,55 @@
+{
+  "swimmerId": "6603",
+  "name": "Kjell Arne Nygård",
+  "club": "Molde SLK",
+  "birthYear": 1963,
+  "gender": "male",
+  "timestamp": "2026-08-17T20:18:07.625Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,53",
+          "Dato": "29.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "780",
+          "pid": "1349737"
+        },
+        {
+          "Tid": "43,59",
+          "Dato": "30.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1488644",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.32,75",
+          "Dato": "30.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "640",
+          "pid": "1349947",
+          "splits": [
+            "43,59",
+            "49,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

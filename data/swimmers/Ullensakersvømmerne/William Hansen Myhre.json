@@ -1,0 +1,85 @@
+{
+  "swimmerId": "23942",
+  "name": "William Hansen Myhre",
+  "club": "Ullensakersvømmerne",
+  "birthYear": 2005,
+  "gender": "male",
+  "timestamp": "2026-08-17T17:36:48.448Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,12",
+          "Dato": "05.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "2033",
+          "pid": "1765169"
+        },
+        {
+          "Tid": "49,46",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1785639"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.01,47",
+          "Dato": "06.03.2016",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "1492",
+          "pid": "1765541"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.10,63",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "197",
+          "RA": "1687",
+          "pid": "1932129",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.29,13",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "1401",
+          "pid": "1785686",
+          "splits": [
+            "1.10,63",
+            "1.18,50"
+          ]
+        }
+      ]
+    }
+  ]
+}

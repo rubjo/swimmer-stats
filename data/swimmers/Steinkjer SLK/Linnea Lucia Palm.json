@@ -1,0 +1,100 @@
+{
+  "swimmerId": "27130",
+  "name": "Linnea Lucia Palm",
+  "club": "Steinkjer SLK",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-17T21:03:13.085Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,75",
+          "Dato": "10.02.2024",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "1326",
+          "pid": "3401205"
+        },
+        {
+          "Tid": "40,06",
+          "Dato": "10.02.2024",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3401325",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,40",
+          "Dato": "10.02.2024",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "1143",
+          "pid": "3401159"
+        },
+        {
+          "Tid": "52,25",
+          "Dato": "10.02.2024",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3401274",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.24,25",
+          "Dato": "10.02.2024",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "1166",
+          "pid": "3401324",
+          "splits": [
+            "40,06",
+            "44,19"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,31",
+          "Dato": "10.02.2024",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "1172",
+          "pid": "3401273",
+          "splits": [
+            "52,25",
+            "1.02,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

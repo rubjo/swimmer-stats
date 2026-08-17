@@ -1,0 +1,102 @@
+{
+  "swimmerId": "44452",
+  "name": "Ellie Falck Møstad",
+  "club": "Tønsberg SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-08-17T17:55:13.928Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,49",
+          "Dato": "25.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3701785"
+        },
+        {
+          "Tid": "49,16",
+          "Dato": "02.11.2024",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2111",
+          "pid": "3561224"
+        },
+        {
+          "Tid": "55,35",
+          "Dato": "25.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3702438",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,80",
+          "Dato": "25.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1367",
+          "pid": "3701634"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.55,51",
+          "Dato": "25.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1906",
+          "pid": "3702439",
+          "splits": [
+            "55,35",
+            "1.00,16"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.53,46",
+          "Dato": "25.05.2025",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3702437",
+          "splits": [
+            "55,35",
+            "1.00,16",
+            "58,24",
+            "59,71"
+          ]
+        }
+      ]
+    }
+  ]
+}

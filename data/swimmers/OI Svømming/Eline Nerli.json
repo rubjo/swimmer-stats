@@ -1,0 +1,228 @@
+{
+  "swimmerId": "42091",
+  "name": "Eline Nerli",
+  "club": "OI Svømming",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-08-17T18:33:58.435Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,04",
+          "Dato": "01.12.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2191",
+          "pid": "3587707"
+        },
+        {
+          "Tid": "53,11",
+          "Dato": "26.10.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3554081"
+        },
+        {
+          "Tid": "55,66",
+          "Dato": "06.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3436782",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.03,73",
+          "Dato": "09.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3636989",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.01,76",
+          "Dato": "01.12.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1775",
+          "pid": "3590109",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.06,53",
+          "Dato": "26.10.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3554540",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.11,46",
+          "Dato": "06.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1685",
+          "pid": "3435365"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,32",
+          "Dato": "06.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1834",
+          "pid": "3436781",
+          "splits": [
+            "55,66",
+            "1.00,66"
+          ]
+        },
+        {
+          "Tid": "2.11,08",
+          "Dato": "09.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "237",
+          "RA": "1970",
+          "pid": "3636990",
+          "splits": [
+            "1.03,73",
+            "1.07,35"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.13,04",
+          "Dato": "01.12.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1504",
+          "pid": "3590110",
+          "splits": [
+            "1.01,76",
+            "1.11,28"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.17,77",
+          "Dato": "26.10.2024",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3554539",
+          "splits": [
+            "1.06,53",
+            "1.11,24"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.17,08",
+          "Dato": "06.04.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1136",
+          "pid": "3436003",
+          "splits": [
+            "1.06,55",
+            "1.10,53"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.15,09",
+          "Dato": "09.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3636988",
+          "splits": [
+            "1.03,73",
+            "1.07,35",
+            "1.05,77",
+            "58,24"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.35,78",
+          "Dato": "01.12.2024",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1171",
+          "pid": "3590108",
+          "splits": [
+            "1.01,76",
+            "1.11,28",
+            "1.11,36",
+            "1.11,38"
+          ]
+        }
+      ]
+    }
+  ]
+}

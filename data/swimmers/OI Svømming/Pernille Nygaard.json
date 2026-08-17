@@ -1,0 +1,70 @@
+{
+  "swimmerId": "23315",
+  "name": "Pernille Nygaard",
+  "club": "OI Svømming",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-17T20:26:01.009Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,61",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "78",
+          "RA": "947",
+          "pid": "1794395"
+        },
+        {
+          "Tid": "40,63",
+          "Dato": "11.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "52",
+          "RA": "1066",
+          "pid": "1711259",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,29",
+          "Dato": "10.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "55",
+          "RA": "823",
+          "pid": "1614834"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,42",
+          "Dato": "11.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "61",
+          "RA": "1038",
+          "pid": "1615689",
+          "splits": [
+            "40,63",
+            "54,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

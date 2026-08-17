@@ -1,0 +1,45 @@
+{
+  "swimmerId": "34396",
+  "name": "Mons Henne Myklatun",
+  "club": "Bergen Vest SK",
+  "birthYear": 2010,
+  "gender": "male",
+  "timestamp": "2026-08-17T17:12:18.687Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.01,18",
+          "Dato": "04.09.2020",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1160",
+          "pid": "2762838",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,82",
+          "Dato": "04.09.2020",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "953",
+          "pid": "2762837",
+          "splits": [
+            "1.01,18",
+            "1.07,64"
+          ]
+        }
+      ]
+    }
+  ]
+}
