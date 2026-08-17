@@ -1,0 +1,80 @@
+{
+  "swimmerId": "26256",
+  "name": "Louise Andrea Tagseth Klæth",
+  "club": "Stjørdals-Blink IL",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-16T21:44:54.712Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,93",
+          "Dato": "02.10.2021",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "224",
+          "RA": "1377",
+          "pid": "2886516"
+        },
+        {
+          "Tid": "50,23",
+          "Dato": "25.10.2020",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "310",
+          "RA": "1811",
+          "pid": "2795804"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,54",
+          "Dato": "03.10.2021",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2886753",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,17",
+          "Dato": "20.06.2021",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2841126"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,26",
+          "Dato": "03.10.2021",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2886752",
+          "splits": [
+            "49,54",
+            "59,72"
+          ]
+        }
+      ]
+    }
+  ]
+}

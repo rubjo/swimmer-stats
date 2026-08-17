@@ -1,0 +1,136 @@
+{
+  "swimmerId": "15502",
+  "name": "Helene Lane",
+  "club": "OI Svømming",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:11:37.226Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,67",
+          "Dato": "14.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "237",
+          "RA": "1910",
+          "pid": "807316"
+        },
+        {
+          "Tid": "51,24",
+          "Dato": "15.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "890178",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "51,63",
+          "Dato": "15.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "890176",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "58,61",
+          "Dato": "15.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "172",
+          "RA": "1376",
+          "pid": "808082"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,18",
+          "Dato": "15.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "221",
+          "RA": "1584",
+          "pid": "807913",
+          "splits": [
+            "51,63",
+            "52,55"
+          ]
+        },
+        {
+          "Tid": "1.49,89",
+          "Dato": "15.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "890177",
+          "splits": [
+            "51,24",
+            "58,65"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.11,23",
+          "Dato": "14.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "1084",
+          "pid": "807178",
+          "splits": [
+            "1.03,27",
+            "1.07,96"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.42,51",
+          "Dato": "15.05.2011",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "1112",
+          "pid": "808298",
+          "splits": [
+            "51,24",
+            "58,65",
+            "59,30",
+            "53,32"
+          ]
+        }
+      ]
+    }
+  ]
+}

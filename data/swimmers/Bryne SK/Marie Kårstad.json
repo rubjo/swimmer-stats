@@ -1,0 +1,90 @@
+{
+  "swimmerId": "10588",
+  "name": "Marie Kårstad",
+  "club": "Bryne SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:40:26.209Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,50",
+          "Dato": "15.02.2009",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1748",
+          "pid": "479415"
+        },
+        {
+          "Tid": "46,54",
+          "Dato": "10.01.2009",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "470046"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,44",
+          "Dato": "15.02.2009",
+          "Sted": "Randaberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1360",
+          "pid": "479272"
+        },
+        {
+          "Tid": "57,87",
+          "Dato": "11.01.2009",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "470383"
+        },
+        {
+          "Tid": "58,53",
+          "Dato": "10.01.2009",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "543624",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,79",
+          "Dato": "10.01.2009",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1193",
+          "pid": "470149",
+          "splits": [
+            "58,53",
+            "1.04,26"
+          ]
+        }
+      ]
+    }
+  ]
+}

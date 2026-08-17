@@ -1,0 +1,60 @@
+{
+  "swimmerId": "13568",
+  "name": "Kristine Kvålsvoll",
+  "club": "Orkanger IF",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-17T00:09:25.194Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,83",
+          "Dato": "11.04.2010",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1958",
+          "pid": "645654"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,55",
+          "Dato": "11.04.2010",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1692",
+          "pid": "710214",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.36,24",
+          "Dato": "11.04.2010",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1362",
+          "pid": "645745",
+          "splits": [
+            "1.11,55",
+            "1.24,69"
+          ]
+        }
+      ]
+    }
+  ]
+}

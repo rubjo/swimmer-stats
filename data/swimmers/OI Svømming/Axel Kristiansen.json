@@ -1,0 +1,55 @@
+{
+  "swimmerId": "15812",
+  "name": "Axel Kristiansen",
+  "club": "OI Svømming",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-16T22:09:48.836Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,45",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "1331",
+          "pid": "833376"
+        },
+        {
+          "Tid": "1.00,52",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "921792",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,76",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "1144",
+          "pid": "851065",
+          "splits": [
+            "1.00,52",
+            "1.08,24"
+          ]
+        }
+      ]
+    }
+  ]
+}

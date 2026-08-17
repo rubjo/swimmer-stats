@@ -1,0 +1,100 @@
+{
+  "swimmerId": "18578",
+  "name": "Fredrik Kolden",
+  "club": "Skjetten Svømming",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-16T21:38:54.296Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,42",
+          "Dato": "30.11.2013",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "255",
+          "RA": "1829",
+          "pid": "1216138"
+        },
+        {
+          "Tid": "47,15",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1161043"
+        },
+        {
+          "Tid": "50,41",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1243260",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.01,34",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "236",
+          "RA": "1497",
+          "pid": "1268514",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.52,69",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "1632",
+          "pid": "1161339",
+          "splits": [
+            "50,41",
+            "1.02,28"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.12,22",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1276",
+          "pid": "1189987",
+          "splits": [
+            "1.01,34",
+            "1.10,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

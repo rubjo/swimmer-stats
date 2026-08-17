@@ -1,0 +1,112 @@
+{
+  "swimmerId": "8757",
+  "name": "Katrin Kolev",
+  "club": "IL Varg",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-16T21:58:48.760Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,16",
+          "Dato": "12.01.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "212",
+          "RA": "1271",
+          "pid": "434520",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,04",
+          "Dato": "17.11.2007",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "756",
+          "pid": "249105"
+        },
+        {
+          "Tid": "48,79",
+          "Dato": "12.01.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "156",
+          "RA": "896",
+          "pid": "434519",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.19,76",
+          "Dato": "25.01.2008",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "815",
+          "pid": "436620",
+          "splits": []
+        },
+        {
+          "Tid": "1.21,16",
+          "Dato": "12.01.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "336948",
+          "splits": [
+            "39,16",
+            "42,00"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.41,09",
+          "Dato": "25.01.2008",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "605",
+          "pid": "436594",
+          "splits": []
+        },
+        {
+          "Tid": "1.43,72",
+          "Dato": "12.01.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "336665",
+          "splits": [
+            "48,79",
+            "54,93"
+          ]
+        }
+      ]
+    }
+  ]
+}

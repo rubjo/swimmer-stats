@@ -1,0 +1,80 @@
+{
+  "swimmerId": "48222",
+  "name": "Liepa Kavaliauskaite",
+  "club": "Molde SLK",
+  "birthYear": 2013,
+  "gender": "female",
+  "timestamp": "2026-08-16T20:56:09.385Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,03",
+          "Dato": "01.03.2025",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3645668"
+        },
+        {
+          "Tid": "42,41",
+          "Dato": "20.10.2024",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1786",
+          "pid": "3553455"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,76",
+          "Dato": "01.03.2025",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3645526"
+        },
+        {
+          "Tid": "1.04,99",
+          "Dato": "20.10.2024",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "245",
+          "RA": "1839",
+          "pid": "3553457",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.21,17",
+          "Dato": "20.10.2024",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "221",
+          "RA": "1584",
+          "pid": "3553456",
+          "splits": [
+            "1.04,99",
+            "1.16,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

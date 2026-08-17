@@ -1,0 +1,90 @@
+{
+  "swimmerId": "41230",
+  "name": "Mylene Labbe",
+  "club": "OI Svømming",
+  "birthYear": 1973,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:06:44.695Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,06",
+          "Dato": "28.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "89",
+          "RA": "529",
+          "pid": "3466661"
+        },
+        {
+          "Tid": "31,28",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3467849"
+        },
+        {
+          "Tid": "32,12",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3235376",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "33,97",
+          "Dato": "06.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3234654"
+        },
+        {
+          "Tid": "35,57",
+          "Dato": "27.04.2024",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "546",
+          "pid": "3466433"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.10,94",
+          "Dato": "05.05.2023",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3235375",
+          "splits": [
+            "32,12",
+            "38,82"
+          ]
+        }
+      ]
+    }
+  ]
+}

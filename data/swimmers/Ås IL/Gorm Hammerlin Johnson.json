@@ -1,0 +1,95 @@
+{
+  "swimmerId": "25813",
+  "name": "Gorm Hammerlin Johnson",
+  "club": "Ås IL",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-16T19:54:06.078Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,13",
+          "Dato": "22.01.2017",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1984",
+          "pid": "1979760"
+        },
+        {
+          "Tid": "47,94",
+          "Dato": "20.05.2017",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2163796",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "50,43",
+          "Dato": "22.01.2017",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2182757",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.09,15",
+          "Dato": "22.01.2017",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "202",
+          "RA": "1736",
+          "pid": "1979505"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,28",
+          "Dato": "20.05.2017",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1749",
+          "pid": "2100844",
+          "splits": [
+            "47,94",
+            "56,34"
+          ]
+        },
+        {
+          "Tid": "1.47,43",
+          "Dato": "22.01.2017",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1979930",
+          "splits": [
+            "50,43",
+            "57,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

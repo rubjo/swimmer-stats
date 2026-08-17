@@ -1,0 +1,109 @@
+{
+  "swimmerId": "12200",
+  "name": "Kristine Kristiansen",
+  "club": "Bardufoss SK",
+  "birthYear": 1997,
+  "gender": null,
+  "timestamp": "2026-08-16T22:27:54.025Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,42",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "257",
+          "RA": "1745",
+          "pid": "566747"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,65",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "147",
+          "RA": "1056",
+          "pid": "566742",
+          "partOf": "50m Bryst"
+        },
+        {
+          "Tid": "51,59",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "566744",
+          "partOf": "50m Bryst"
+        },
+        {
+          "Tid": "51,83",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "566746"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,99",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "914",
+          "pid": "566741",
+          "splits": []
+        },
+        {
+          "Tid": "1.52,91",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "566745",
+          "splits": [
+            "",
+            ""
+          ],
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.02,05",
+          "Dato": "31.10.2009",
+          "Sted": "Bardufoss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "127",
+          "RA": "727",
+          "pid": "566743",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

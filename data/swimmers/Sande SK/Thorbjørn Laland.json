@@ -1,0 +1,55 @@
+{
+  "swimmerId": "7473",
+  "name": "Thorbjørn Laland",
+  "club": "Sande SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-16T23:20:45.176Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,33",
+          "Dato": "16.09.2007",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1165",
+          "pid": "240518"
+        },
+        {
+          "Tid": "1.05,38",
+          "Dato": "15.09.2007",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "263913",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.23,01",
+          "Dato": "15.09.2007",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "947",
+          "pid": "240216",
+          "splits": [
+            "1.05,38",
+            "1.17,63"
+          ]
+        }
+      ]
+    }
+  ]
+}

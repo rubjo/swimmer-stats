@@ -1,0 +1,107 @@
+{
+  "swimmerId": "12092",
+  "name": "Hallvard Kårstad",
+  "club": "Volda TIL",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-17T00:14:56.456Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,40",
+          "Dato": "06.12.2009",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "915",
+          "pid": "534943"
+        },
+        {
+          "Tid": "34,49",
+          "Dato": "20.09.2009",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "515929"
+        },
+        {
+          "Tid": "37,95",
+          "Dato": "20.09.2009",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "562022",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,69",
+          "Dato": "20.09.2009",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "703",
+          "pid": "515664"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.17,25",
+          "Dato": "05.12.2009",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "859",
+          "pid": "534606",
+          "splits": []
+        },
+        {
+          "Tid": "1.20,20",
+          "Dato": "20.09.2009",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "515763",
+          "splits": [
+            "37,95",
+            "42,25"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.29,67",
+          "Dato": "06.12.2009",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "607",
+          "pid": "534889",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "swimmerId": "23774",
+  "name": "Marte Kiland",
+  "club": "Lambertseter SK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-16T20:55:07.909Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,96",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1534",
+          "pid": "2540528"
+        },
+        {
+          "Tid": "37,40",
+          "Dato": "26.11.2017",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1549",
+          "pid": "2089867"
+        },
+        {
+          "Tid": "39,35",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2541559",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.21,71",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1291",
+          "pid": "2541558",
+          "splits": [
+            "39,35",
+            "42,36"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.37,25",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "105",
+          "RA": "937",
+          "pid": "2542939",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

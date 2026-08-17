@@ -1,0 +1,60 @@
+{
+  "swimmerId": "8895",
+  "name": "Ida Knutsen",
+  "club": "Madla SK",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-16T22:09:33.254Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.03,77",
+          "Dato": "09.03.2008",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1881",
+          "pid": "349403"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.09,16",
+          "Dato": "09.03.2008",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1577",
+          "pid": "406653",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.31,19",
+          "Dato": "09.03.2008",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1289",
+          "pid": "349250",
+          "splits": [
+            "1.09,16",
+            "1.22,03"
+          ]
+        }
+      ]
+    }
+  ]
+}

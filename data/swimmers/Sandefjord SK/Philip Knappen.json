@@ -1,0 +1,105 @@
+{
+  "swimmerId": "38617",
+  "name": "Philip Knappen",
+  "club": "Sandefjord SK",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-16T21:26:32.607Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,24",
+          "Dato": "11.02.2023",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "1748",
+          "pid": "3166801"
+        },
+        {
+          "Tid": "46,60",
+          "Dato": "26.11.2022",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3128797"
+        },
+        {
+          "Tid": "52,11",
+          "Dato": "20.11.2021",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2915628"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,89",
+          "Dato": "11.02.2023",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "230",
+          "RA": "1568",
+          "pid": "3166936",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,59",
+          "Dato": "26.11.2022",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3128683"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.16,07",
+          "Dato": "20.11.2021",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2915472"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,45",
+          "Dato": "11.02.2023",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1277",
+          "pid": "3166935",
+          "splits": [
+            "1.03,89",
+            "1.16,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

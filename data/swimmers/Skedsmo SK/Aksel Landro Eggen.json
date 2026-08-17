@@ -1,0 +1,177 @@
+{
+  "swimmerId": "48002",
+  "name": "Aksel  Landro Eggen",
+  "club": "Skedsmo SK",
+  "birthYear": 2013,
+  "gender": "male",
+  "timestamp": "2026-08-16T23:51:54.788Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,42",
+          "Dato": "18.10.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "183",
+          "RA": "1836",
+          "pid": "3788422"
+        },
+        {
+          "Tid": "43,86",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "90",
+          "RA": "1054",
+          "pid": "3709740"
+        },
+        {
+          "Tid": "47,91",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3674590"
+        },
+        {
+          "Tid": "48,87",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3674860",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,35",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "127",
+          "RA": "1338",
+          "pid": "3674477"
+        },
+        {
+          "Tid": "56,17",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "69",
+          "RA": "736",
+          "pid": "3709505"
+        },
+        {
+          "Tid": "56,69",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3710310",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.00,48",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711049",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.42,34",
+          "Dato": "05.04.2025",
+          "Sted": "Nittedal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3674859",
+          "splits": [
+            "48,87",
+            "53,47"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,39",
+          "Dato": "01.06.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "53",
+          "RA": "552",
+          "pid": "3710309",
+          "splits": [
+            "56,69",
+            "1.04,70"
+          ]
+        },
+        {
+          "Tid": "2.06,32",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3711050",
+          "splits": [
+            "1.00,48",
+            "1.05,84"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.18,06",
+          "Dato": "31.05.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "28",
+          "RA": "320",
+          "pid": "3711048",
+          "splits": [
+            "1.00,48",
+            "1.05,84",
+            "1.06,83",
+            "1.04,91"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "swimmerId": "8680",
+  "name": "May Linda Kolle",
+  "club": "Delfana",
+  "birthYear": 1991,
+  "gender": "female",
+  "timestamp": "2026-08-16T21:39:07.192Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,43",
+          "Dato": "28.10.2007",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "1703",
+          "pid": "248250"
+        },
+        {
+          "Tid": "56,06",
+          "Dato": "27.10.2007",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "315604",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.57,28",
+          "Dato": "27.10.2007",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "97",
+          "RA": "1443",
+          "pid": "247987",
+          "splits": [
+            "56,06",
+            "1.01,22"
+          ]
+        }
+      ]
+    }
+  ]
+}

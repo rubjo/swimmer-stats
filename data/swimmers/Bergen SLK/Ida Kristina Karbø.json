@@ -1,0 +1,112 @@
+{
+  "swimmerId": "24150",
+  "name": "Ida Kristina Karbø",
+  "club": "Bergen SLK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T20:17:02.437Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "42,00",
+          "Dato": "09.04.2016",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "97",
+          "RA": "1147",
+          "pid": "1780350"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,18",
+          "Dato": "21.02.2016",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "78",
+          "RA": "959",
+          "pid": "1763551"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,35",
+          "Dato": "09.04.2016",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "122",
+          "RA": "2168",
+          "pid": "1912529",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.21,91",
+          "Dato": "21.02.2016",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "1274",
+          "pid": "1763695",
+          "splits": []
+        },
+        {
+          "Tid": "1.35,35",
+          "Dato": "09.04.2016",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1898806",
+          "splits": [
+            "44,35",
+            "51,00"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.03,33",
+          "Dato": "09.04.2016",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "1200",
+          "pid": "1780671",
+          "splits": [
+            "44,35",
+            "51,00",
+            "58,69",
+            "",
+            "",
+            "54,50",
+            "53,93",
+            "53,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

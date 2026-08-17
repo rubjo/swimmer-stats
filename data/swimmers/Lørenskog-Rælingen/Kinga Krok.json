@@ -1,0 +1,150 @@
+{
+  "swimmerId": "14303",
+  "name": "Kinga Krok",
+  "club": "Lørenskog/Rælingen",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:14:04.445Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,99",
+          "Dato": "19.03.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "223",
+          "RA": "1312",
+          "pid": "877787",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,07",
+          "Dato": "20.11.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "192",
+          "RA": "1103",
+          "pid": "918115",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,03",
+          "Dato": "19.03.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1065",
+          "pid": "794253"
+        },
+        {
+          "Tid": "51,00",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "921641",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,39",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "865720",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,10",
+          "Dato": "19.03.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1096",
+          "pid": "794036",
+          "splits": [
+            "38,99",
+            "47,11"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.44,22",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "792",
+          "pid": "851137",
+          "splits": [
+            "51,0",
+            "53,22"
+          ]
+        },
+        {
+          "Tid": "1.55,60",
+          "Dato": "23.01.2011",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "779927",
+          "splits": [
+            "54,39",
+            "1.01,21"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.54,07",
+          "Dato": "20.11.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "790",
+          "pid": "846917",
+          "splits": [
+            "48,07",
+            "1.06,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

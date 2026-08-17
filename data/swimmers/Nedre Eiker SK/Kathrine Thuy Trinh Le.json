@@ -1,0 +1,82 @@
+{
+  "swimmerId": "31141",
+  "name": "Kathrine Thuy Trinh Le",
+  "club": "Nedre Eiker SK",
+  "birthYear": 2006,
+  "gender": "female",
+  "timestamp": "2026-08-17T00:25:16.372Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,31",
+          "Dato": "06.01.2019",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "332",
+          "RA": "2381",
+          "pid": "2478816"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,10",
+          "Dato": "06.01.2019",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "266",
+          "RA": "1709",
+          "pid": "2478870",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,79",
+          "Dato": "06.01.2019",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "217",
+          "RA": "1328",
+          "pid": "2478871",
+          "splits": [
+            "53,10",
+            "58,69"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.02,84",
+          "Dato": "06.01.2019",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1187",
+          "pid": "2478869",
+          "splits": [
+            "53,10",
+            "58,69",
+            "1.02,34",
+            "1.08,71"
+          ]
+        }
+      ]
+    }
+  ]
+}

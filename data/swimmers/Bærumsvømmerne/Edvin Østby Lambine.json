@@ -1,0 +1,134 @@
+{
+  "swimmerId": "7045",
+  "name": "Edvin Østby Lambine",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-17T00:20:16.346Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,55",
+          "Dato": "25.03.2007",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "1117",
+          "pid": "221508"
+        },
+        {
+          "Tid": "40,51",
+          "Dato": "24.03.2007",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "313463",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,95",
+          "Dato": "24.03.2007",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "107",
+          "RA": "899",
+          "pid": "274924",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,68",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "297657",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,57",
+          "Dato": "24.03.2007",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "98",
+          "RA": "951",
+          "pid": "221038",
+          "splits": [
+            "40,51",
+            "45,06"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.43,07",
+          "Dato": "24.03.2007",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "77",
+          "RA": "714",
+          "pid": "220811",
+          "splits": [
+            "50,36",
+            "52,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,02",
+          "Dato": "24.03.2007",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "76",
+          "RA": "641",
+          "pid": "220888",
+          "splits": [
+            "50,95",
+            "55,07"
+          ]
+        },
+        {
+          "Tid": "1.57,26",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "206626",
+          "splits": [
+            "53,68",
+            "1.03,58"
+          ]
+        }
+      ]
+    }
+  ]
+}

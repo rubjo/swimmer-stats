@@ -1,0 +1,65 @@
+{
+  "swimmerId": "12166",
+  "name": "Marta Labuzek",
+  "club": "Hamar IL",
+  "birthYear": 1993,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:42:47.655Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,41",
+          "Dato": "12.12.2009",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "1043",
+          "pid": "537952"
+        },
+        {
+          "Tid": "39,03",
+          "Dato": "11.10.2009",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "522205"
+        },
+        {
+          "Tid": "41,31",
+          "Dato": "12.12.2009",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "569763",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,51",
+          "Dato": "12.12.2009",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1158",
+          "pid": "537701",
+          "splits": [
+            "41,31",
+            "47,20"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "swimmerId": "33370",
+  "name": "Maria Knudsen",
+  "club": "Lambertseter SK",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-16T21:49:13.270Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "59,77",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "219",
+          "RA": "1577",
+          "pid": "2643817"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,18",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "248",
+          "RA": "2035",
+          "pid": "2644026"
+        },
+        {
+          "Tid": "1.01,68",
+          "Dato": "09.02.2020",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "263",
+          "RA": "1536",
+          "pid": "2740998",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.04,58",
+          "Dato": "11.01.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2714167",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.04,85",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2645939",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,11",
+          "Dato": "09.02.2020",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "224",
+          "RA": "1278",
+          "pid": "2740997",
+          "splits": [
+            "1.01,68",
+            "1.05,43"
+          ]
+        },
+        {
+          "Tid": "2.17,00",
+          "Dato": "11.01.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2714168",
+          "splits": [
+            "1.04,58",
+            "1.12,42"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.18,06",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "241",
+          "RA": "1764",
+          "pid": "2645940",
+          "splits": [
+            "1.04,85",
+            "1.13,21"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.37,30",
+          "Dato": "11.01.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "202",
+          "RA": "990",
+          "pid": "2714166",
+          "splits": [
+            "1.04,58",
+            "1.12,42",
+            "1.11,15",
+            "1.09,15"
+          ]
+        },
+        {
+          "Tid": "4.42,22",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1339",
+          "pid": "2645938",
+          "splits": [
+            "1.04,85",
+            "1.13,21",
+            "1.13,00",
+            "1.11,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

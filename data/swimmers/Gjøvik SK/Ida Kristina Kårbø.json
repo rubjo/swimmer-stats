@@ -1,0 +1,92 @@
+{
+  "swimmerId": "47181",
+  "name": "Ida Kristina Kårbø",
+  "club": "Gjøvik SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:04:44.662Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,65",
+          "Dato": "10.02.2024",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "74",
+          "RA": "884",
+          "pid": "3394972"
+        },
+        {
+          "Tid": "45,83",
+          "Dato": "10.02.2024",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3395271",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "45,47",
+          "Dato": "10.02.2024",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "65",
+          "RA": "764",
+          "pid": "3394793"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,84",
+          "Dato": "10.02.2024",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "58",
+          "RA": "981",
+          "pid": "3395272",
+          "splits": [
+            "45,83",
+            "49,01"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.12,95",
+          "Dato": "10.02.2024",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "35",
+          "RA": "547",
+          "pid": "3395270",
+          "splits": [
+            "45,83",
+            "49,01",
+            "51,19",
+            "46,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

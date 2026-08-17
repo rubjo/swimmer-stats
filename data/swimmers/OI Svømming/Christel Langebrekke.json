@@ -1,0 +1,90 @@
+{
+  "swimmerId": "9233",
+  "name": "Christel Langebrekke",
+  "club": "OI Svømming",
+  "birthYear": 1978,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:12:15.277Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,86",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "29",
+          "RA": "184",
+          "pid": "425132"
+        },
+        {
+          "Tid": "30,11",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "353193"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "31,65",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "19",
+          "RA": "92",
+          "pid": "353450"
+        },
+        {
+          "Tid": "32,49",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "425142",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,60",
+          "Dato": "09.03.2008",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "424611"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.15,53",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "23",
+          "RA": "168",
+          "pid": "352909",
+          "splits": [
+            "32,49",
+            "43,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "swimmerId": "45399",
+  "name": "Mateo Latorre",
+  "club": "OI Svømming",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-08-17T00:28:34.386Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,67",
+          "Dato": "09.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1904",
+          "pid": "3634823"
+        },
+        {
+          "Tid": "46,24",
+          "Dato": "01.03.2025",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3646566"
+        },
+        {
+          "Tid": "47,85",
+          "Dato": "13.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "39",
+          "RA": "1086",
+          "pid": "3718525"
+        },
+        {
+          "Tid": "52,51",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3667496",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.02,18",
+          "Dato": "10.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1293",
+          "pid": "3401944"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,22",
+          "Dato": "14.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "38",
+          "RA": "794",
+          "pid": "3718197"
+        },
+        {
+          "Tid": "1.06,16",
+          "Dato": "01.03.2025",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "153",
+          "RA": "1667",
+          "pid": "3646838",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.07,22",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3667136",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.09,37",
+          "Dato": "13.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3719703",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.18,56",
+          "Dato": "15.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "26",
+          "RA": "910",
+          "pid": "3717677"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,83",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3667495",
+          "splits": [
+            "52,51",
+            "59,32"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.09,72",
+          "Dato": "09.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "1247",
+          "pid": "3635920",
+          "splits": [
+            "1.04,69",
+            "1.05,03"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,56",
+          "Dato": "01.03.2025",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "1357",
+          "pid": "3646837",
+          "splits": [
+            "1.06,16",
+            "1.08,40"
+          ]
+        },
+        {
+          "Tid": "2.17,94",
+          "Dato": "13.06.2025",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "30",
+          "RA": "599",
+          "pid": "3719702",
+          "splits": [
+            "1.09,37",
+            "1.08,57"
+          ]
+        },
+        {
+          "Tid": "2.20,58",
+          "Dato": "30.03.2025",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3667135",
+          "splits": [
+            "1.07,22",
+            "1.13,36"
+          ]
+        }
+      ]
+    }
+  ]
+}

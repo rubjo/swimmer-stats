@@ -1,0 +1,55 @@
+{
+  "swimmerId": "31944",
+  "name": "Zlatan Kobaslic",
+  "club": "Asker SK",
+  "birthYear": 1974,
+  "gender": "male",
+  "timestamp": "2026-08-16T22:16:04.603Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "37,63",
+          "Dato": "28.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "109",
+          "RA": "557",
+          "pid": "3664257"
+        },
+        {
+          "Tid": "40,96",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3664741",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.30,48",
+          "Dato": "29.03.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "82",
+          "RA": "627",
+          "pid": "3664740",
+          "splits": [
+            "40,96",
+            "49,52"
+          ]
+        }
+      ]
+    }
+  ]
+}

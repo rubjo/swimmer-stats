@@ -1,0 +1,80 @@
+{
+  "swimmerId": "6259",
+  "name": "Dag Simen Kristoffersen",
+  "club": "Modum SK",
+  "birthYear": 1977,
+  "gender": "male",
+  "timestamp": "2026-08-16T22:32:27.089Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "30,99",
+          "Dato": "02.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "665",
+          "pid": "111982"
+        },
+        {
+          "Tid": "31,83",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "759",
+          "pid": "353056"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,04",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "85",
+          "RA": "355",
+          "pid": "353586"
+        },
+        {
+          "Tid": "40,25",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "446068",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.26,14",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "56",
+          "RA": "320",
+          "pid": "352984",
+          "splits": [
+            "40,25",
+            "45,89"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "swimmerId": "27489",
+  "name": "Jasmin Raz Karterud",
+  "club": "Toten SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-16T20:34:48.830Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,27",
+          "Dato": "12.03.2018",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "219",
+          "RA": "1410",
+          "pid": "2247380"
+        },
+        {
+          "Tid": "38,28",
+          "Dato": "27.10.2018",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2414456"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,39",
+          "Dato": "27.10.2018",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "266",
+          "RA": "1507",
+          "pid": "2419318",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,47",
+          "Dato": "27.10.2018",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "240",
+          "RA": "1265",
+          "pid": "2419317",
+          "splits": [
+            "51,39",
+            "58,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

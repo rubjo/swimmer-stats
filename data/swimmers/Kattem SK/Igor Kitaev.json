@@ -1,0 +1,55 @@
+{
+  "swimmerId": "50235",
+  "name": "Igor Kitaev",
+  "club": "Kattem SK",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-08-16T21:01:54.578Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,19",
+          "Dato": "27.09.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "1480",
+          "pid": "3776053"
+        },
+        {
+          "Tid": "59,50",
+          "Dato": "13.09.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3749681",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,16",
+          "Dato": "13.09.2025",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "1280",
+          "pid": "3749680",
+          "splits": [
+            "59,50",
+            "1.05,66"
+          ]
+        }
+      ]
+    }
+  ]
+}

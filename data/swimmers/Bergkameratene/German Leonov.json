@@ -1,0 +1,70 @@
+{
+  "swimmerId": "24576",
+  "name": "German Leonov",
+  "club": "Bergkameratene",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-17T00:42:10.699Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,75",
+          "Dato": "16.04.2016",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1473",
+          "pid": "1787960"
+        },
+        {
+          "Tid": "39,98",
+          "Dato": "16.04.2016",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1889569",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,45",
+          "Dato": "16.04.2016",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "788",
+          "pid": "1787721"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.22,85",
+          "Dato": "16.04.2016",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1270",
+          "pid": "1787792",
+          "splits": [
+            "39,98",
+            "42,87"
+          ]
+        }
+      ]
+    }
+  ]
+}

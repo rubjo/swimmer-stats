@@ -1,0 +1,211 @@
+{
+  "swimmerId": "22849",
+  "name": "Martins Lacars",
+  "club": "Skjetten Svømming",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-17T00:15:41.386Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,00",
+          "Dato": "10.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "62",
+          "RA": "690",
+          "pid": "1739625",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,83",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "156",
+          "RA": "1478",
+          "pid": "1708127",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,81",
+          "Dato": "01.11.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1668077",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,12",
+          "Dato": "10.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "52",
+          "RA": "432",
+          "pid": "1614876"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.17,78",
+          "Dato": "10.10.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "73",
+          "RA": "695",
+          "pid": "1615000",
+          "splits": [
+            "34,0",
+            "43,78"
+          ]
+        },
+        {
+          "Tid": "1.20,82",
+          "Dato": "27.06.2015",
+          "Sted": "Nebbursvollen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1594501",
+          "splits": []
+        },
+        {
+          "Tid": "1.21,94",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "1265",
+          "pid": "1564585",
+          "splits": [
+            "36,83",
+            "45,11"
+          ]
+        },
+        {
+          "Tid": "1.24,06",
+          "Dato": "01.11.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1649506",
+          "splits": [
+            "37,81",
+            "46,25"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.33,95",
+          "Dato": "27.06.2015",
+          "Sted": "Nebbursvollen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1682930",
+          "splits": [
+            "1.33,95",
+            "1.39,65"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.35,87",
+          "Dato": "01.11.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "680",
+          "pid": "1630503",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "1.45,32",
+          "Dato": "27.06.2015",
+          "Sted": "Nebbursvollen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "52",
+          "RA": "406",
+          "pid": "1594757",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.13,60",
+          "Dato": "27.06.2015",
+          "Sted": "Nebbursvollen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "67",
+          "RA": "534",
+          "pid": "1594877",
+          "splits": [
+            "1.33,95",
+            "1.39,65"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.48,39",
+          "Dato": "01.11.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "931",
+          "pid": "1630442",
+          "splits": [
+            "37,81",
+            "46,25",
+            "",
+            "",
+            "",
+            "",
+            "54,17",
+            "58,33"
+          ]
+        }
+      ]
+    }
+  ]
+}

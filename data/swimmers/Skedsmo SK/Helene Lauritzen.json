@@ -1,0 +1,45 @@
+{
+  "swimmerId": "12687",
+  "name": "Helene Lauritzen",
+  "club": "Skedsmo SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-17T00:21:56.009Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,40",
+          "Dato": "06.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "147",
+          "RA": "1126",
+          "pid": "717954",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,10",
+          "Dato": "06.02.2010",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "917",
+          "pid": "628836",
+          "splits": [
+            "51,40",
+            "58,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

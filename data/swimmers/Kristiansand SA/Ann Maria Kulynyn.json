@@ -1,0 +1,85 @@
+{
+  "swimmerId": "31965",
+  "name": "Ann Maria Kulynyn",
+  "club": "Kristiansand SA",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:19:14.385Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,42",
+          "Dato": "14.06.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "115",
+          "RA": "1066",
+          "pid": "2597081"
+        },
+        {
+          "Tid": "44,57",
+          "Dato": "26.01.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2480435"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,17",
+          "Dato": "27.01.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "91",
+          "RA": "784",
+          "pid": "2481229",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,97",
+          "Dato": "26.01.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "94",
+          "RA": "745",
+          "pid": "2479770"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,51",
+          "Dato": "27.01.2019",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "76",
+          "RA": "613",
+          "pid": "2481228",
+          "splits": [
+            "52,17",
+            "1.01,34"
+          ]
+        }
+      ]
+    }
+  ]
+}

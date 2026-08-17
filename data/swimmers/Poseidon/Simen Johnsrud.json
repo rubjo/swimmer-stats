@@ -1,0 +1,55 @@
+{
+  "swimmerId": "11541",
+  "name": "Simen Johnsrud",
+  "club": "Poseidon",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T20:03:43.441Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,15",
+          "Dato": "15.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "154",
+          "RA": "1214",
+          "pid": "551581",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,58",
+          "Dato": "15.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "485719"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.06,15",
+          "Dato": "15.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "994",
+          "pid": "485265",
+          "splits": [
+            "57,15",
+            "1.09,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

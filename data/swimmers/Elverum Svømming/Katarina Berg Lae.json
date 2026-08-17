@@ -1,0 +1,219 @@
+{
+  "swimmerId": "23194",
+  "name": "Katarina Berg Lae",
+  "club": "Elverum Svømming",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:45:44.940Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,67",
+          "Dato": "18.10.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "377",
+          "RA": "2266",
+          "pid": "1620029"
+        },
+        {
+          "Tid": "49,73",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1645563"
+        },
+        {
+          "Tid": "50,34",
+          "Dato": "18.10.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1688444",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,99",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1737892",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,54",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "302",
+          "RA": "1696",
+          "pid": "1694568",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,07",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1694525",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,52",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1651501",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,83",
+          "Dato": "18.10.2015",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "342",
+          "RA": "1987",
+          "pid": "1619860",
+          "splits": [
+            "50,34",
+            "57,49"
+          ]
+        },
+        {
+          "Tid": "2.00,41",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1656852",
+          "splits": [
+            "53,99",
+            "1.06,42"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,95",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "268",
+          "RA": "1483",
+          "pid": "1645421",
+          "splits": [
+            "55,54",
+            "1.03,41"
+          ]
+        },
+        {
+          "Tid": "2.06,12",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1606544",
+          "splits": [
+            "58,07",
+            "1.08,05"
+          ]
+        },
+        {
+          "Tid": "2.12,23",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1697526",
+          "splits": [
+            "58,52",
+            "1.13,71"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.14,25",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "258",
+          "RA": "1506",
+          "pid": "1645706",
+          "splits": [
+            "53,99",
+            "1.06,42",
+            "1.08,45",
+            "1.05,39"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.38,68",
+          "Dato": "19.09.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "266",
+          "RA": "1275",
+          "pid": "1607206",
+          "splits": [
+            "58,52",
+            "1.13,71",
+            "1.14,67",
+            "1.11,78"
+          ]
+        }
+      ]
+    }
+  ]
+}

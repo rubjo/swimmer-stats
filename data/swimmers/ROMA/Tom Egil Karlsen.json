@@ -1,0 +1,85 @@
+{
+  "swimmerId": "12900",
+  "name": "Tom Egil Karlsen",
+  "club": "ROMA",
+  "birthYear": 1963,
+  "gender": "male",
+  "timestamp": "2026-08-16T20:39:40.847Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,06",
+          "Dato": "14.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "543",
+          "pid": "636284"
+        },
+        {
+          "Tid": "32,04",
+          "Dato": "06.06.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "731595",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "32,65",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "451",
+          "pid": "635681"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "35,83",
+          "Dato": "14.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "77",
+          "RA": "345",
+          "pid": "636412"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.07,09",
+          "Dato": "06.06.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "578",
+          "pid": "657205",
+          "splits": [
+            "32,04",
+            "35,05"
+          ]
+        }
+      ]
+    }
+  ]
+}

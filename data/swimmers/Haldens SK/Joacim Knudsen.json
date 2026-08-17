@@ -1,0 +1,55 @@
+{
+  "swimmerId": "8003",
+  "name": "Joacim Knudsen",
+  "club": "Haldens SK",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-16T22:13:36.349Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,57",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1558",
+          "pid": "339252"
+        },
+        {
+          "Tid": "52,38",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "401439",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,81",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "1322",
+          "pid": "339675",
+          "splits": [
+            "52,38",
+            "1.02,43"
+          ]
+        }
+      ]
+    }
+  ]
+}

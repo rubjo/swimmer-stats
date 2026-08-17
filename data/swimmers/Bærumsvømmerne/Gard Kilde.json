@@ -1,0 +1,55 @@
+{
+  "swimmerId": "35273",
+  "name": "Gard Kilde",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-16T21:14:31.038Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,87",
+          "Dato": "05.09.2020",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "1445",
+          "pid": "2767172"
+        },
+        {
+          "Tid": "49,86",
+          "Dato": "05.09.2020",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2767216",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.49,34",
+          "Dato": "05.09.2020",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "1303",
+          "pid": "2767215",
+          "splits": [
+            "49,86",
+            "59,48"
+          ]
+        }
+      ]
+    }
+  ]
+}

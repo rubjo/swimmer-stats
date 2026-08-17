@@ -1,0 +1,70 @@
+{
+  "swimmerId": "4858",
+  "name": "Bård Larsen",
+  "club": "Trondhjems SLK",
+  "birthYear": 1967,
+  "gender": "male",
+  "timestamp": "2026-08-17T00:03:05.548Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "28,17",
+          "Dato": "08.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "566",
+          "pid": "1778990"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "34,39",
+          "Dato": "10.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "241",
+          "pid": "1780142"
+        },
+        {
+          "Tid": "36,29",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1949293",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.17,21",
+          "Dato": "09.04.2016",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "58",
+          "RA": "251",
+          "pid": "1779754",
+          "splits": [
+            "36,29",
+            "40,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

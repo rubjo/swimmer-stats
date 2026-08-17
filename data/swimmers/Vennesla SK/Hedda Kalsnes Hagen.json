@@ -1,0 +1,137 @@
+{
+  "swimmerId": "14127",
+  "name": "Hedda Kalsnes Hagen",
+  "club": "Vennesla SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T20:28:13.610Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,70",
+          "Dato": "14.11.2010",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1771",
+          "pid": "722809"
+        },
+        {
+          "Tid": "47,82",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "682368"
+        },
+        {
+          "Tid": "49,42",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "762002",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "50,13",
+          "Dato": "13.11.2010",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "755083",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,46",
+          "Dato": "13.11.2010",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "1234",
+          "pid": "688025"
+        },
+        {
+          "Tid": "54,53",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "682126"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.49,42",
+          "Dato": "24.10.2010",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1534",
+          "pid": "682194",
+          "splits": [
+            "49,42",
+            "1.00,00"
+          ]
+        },
+        {
+          "Tid": "1.51,36",
+          "Dato": "13.11.2010",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "719729",
+          "splits": [
+            "50,13",
+            "1.01,23"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.59,80",
+          "Dato": "13.11.2010",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "1035",
+          "pid": "687734",
+          "splits": [
+            "50,13",
+            "1.01,23",
+            "1.05,90",
+            "1.02,54"
+          ]
+        }
+      ]
+    }
+  ]
+}

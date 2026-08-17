@@ -1,0 +1,55 @@
+{
+  "swimmerId": "10486",
+  "name": "Emma Louise Larsen",
+  "club": "Larvik HIL",
+  "birthYear": 1992,
+  "gender": "female",
+  "timestamp": "2026-08-17T00:12:07.685Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,82",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "129",
+          "RA": "1618",
+          "pid": "390184"
+        },
+        {
+          "Tid": "49,70",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "420596",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.46,58",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "1440",
+          "pid": "390440",
+          "splits": [
+            "49,70",
+            "56,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

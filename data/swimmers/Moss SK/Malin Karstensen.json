@@ -1,0 +1,95 @@
+{
+  "swimmerId": "12309",
+  "name": "Malin Karstensen",
+  "club": "Moss SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-16T20:48:30.681Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,45",
+          "Dato": "06.03.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "118",
+          "RA": "934",
+          "pid": "874301",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "48,63",
+          "Dato": "06.02.2011",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "871769",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,65",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "69",
+          "RA": "1069",
+          "pid": "714360",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.43,34",
+          "Dato": "06.03.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "761",
+          "pid": "788797",
+          "splits": [
+            "48,45",
+            "54,89"
+          ]
+        },
+        {
+          "Tid": "1.44,89",
+          "Dato": "06.02.2011",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "784441",
+          "splits": [
+            "48,63",
+            "56,26"
+          ]
+        },
+        {
+          "Tid": "1.48,57",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "874",
+          "pid": "655373",
+          "splits": [
+            "50,65",
+            "57,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

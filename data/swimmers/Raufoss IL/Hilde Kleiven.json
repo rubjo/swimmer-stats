@@ -1,0 +1,70 @@
+{
+  "swimmerId": "35072",
+  "name": "Hilde Kleiven",
+  "club": "Raufoss IL",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-16T21:21:58.438Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,35",
+          "Dato": "10.03.2020",
+          "Sted": "Moelv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "1552",
+          "pid": "2759238"
+        },
+        {
+          "Tid": "44,48",
+          "Dato": "10.03.2020",
+          "Sted": "Moelv",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2759382",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,09",
+          "Dato": "10.03.2020",
+          "Sted": "Moelv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "154",
+          "RA": "1163",
+          "pid": "2759129"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,02",
+          "Dato": "10.03.2020",
+          "Sted": "Moelv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "196",
+          "RA": "1312",
+          "pid": "2759381",
+          "splits": [
+            "44,48",
+            "48,54"
+          ]
+        }
+      ]
+    }
+  ]
+}

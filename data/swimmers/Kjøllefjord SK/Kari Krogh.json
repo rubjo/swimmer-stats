@@ -1,0 +1,55 @@
+{
+  "swimmerId": "9652",
+  "name": "Kari Krogh",
+  "club": "Kjøllefjord SK",
+  "birthYear": 1972,
+  "gender": "female",
+  "timestamp": "2026-08-16T23:12:35.487Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,36",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "63",
+          "RA": "795",
+          "pid": "353666"
+        },
+        {
+          "Tid": "48,94",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "446158",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.43,57",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "45",
+          "RA": "671",
+          "pid": "353041",
+          "splits": [
+            "48,94",
+            "54,63"
+          ]
+        }
+      ]
+    }
+  ]
+}
