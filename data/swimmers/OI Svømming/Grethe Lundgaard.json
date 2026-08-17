@@ -1,0 +1,60 @@
+{
+  "swimmerId": "19955",
+  "name": "Grethe Lundgaard",
+  "club": "OI Svømming",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-17T07:55:25.580Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,23",
+          "Dato": "30.11.2013",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "361",
+          "RA": "2247",
+          "pid": "1266899"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.06,14",
+          "Dato": "30.11.2013",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "339",
+          "RA": "2008",
+          "pid": "1306265",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.25,32",
+          "Dato": "30.11.2013",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "310",
+          "RA": "1757",
+          "pid": "1215792",
+          "splits": [
+            "1.06,14",
+            "1.19,18"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "swimmerId": "16795",
+  "name": "Kristian Alster Mathisen",
+  "club": "Austevoll IK",
+  "birthYear": 1998,
+  "gender": null,
+  "timestamp": "2026-08-17T09:51:19.908Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,06",
+          "Dato": "07.07.2012",
+          "Sted": "Stockholm",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "81",
+          "RA": "561",
+          "pid": "1064098",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,06",
+          "Dato": "06.07.2012",
+          "Sted": "Stockholm",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "56",
+          "RA": "360",
+          "pid": "989516"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,53",
+          "Dato": "14.04.2012",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1403",
+          "pid": "1073679",
+          "splits": []
+        },
+        {
+          "Tid": "1.35,18",
+          "Dato": "07.07.2012",
+          "Sted": "Stockholm",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "78",
+          "RA": "495",
+          "pid": "989716",
+          "splits": [
+            "43,06",
+            "52,12"
+          ]
+        }
+      ]
+    }
+  ]
+}

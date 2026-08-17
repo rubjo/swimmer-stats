@@ -1,0 +1,95 @@
+{
+  "swimmerId": "6281",
+  "name": "David B. Madsen",
+  "club": "OI Svømming",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-17T09:04:28.187Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,41",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "1258",
+          "pid": "121748"
+        },
+        {
+          "Tid": "43,50",
+          "Dato": "25.03.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "136065"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,07",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "53",
+          "RA": "867",
+          "pid": "121499"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,18",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "42",
+          "RA": "781",
+          "pid": "147560",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,19",
+          "Dato": "25.03.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "136064"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,58",
+          "Dato": "28.10.2006",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "637",
+          "pid": "121604",
+          "splits": [
+            "48,18",
+            "58,40"
+          ]
+        }
+      ]
+    }
+  ]
+}

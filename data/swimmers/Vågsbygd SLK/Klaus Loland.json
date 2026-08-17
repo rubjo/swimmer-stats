@@ -1,0 +1,107 @@
+{
+  "swimmerId": "31503",
+  "name": "Klaus Loland",
+  "club": "Vågsbygd SLK",
+  "birthYear": 2007,
+  "gender": "male",
+  "timestamp": "2026-08-17T07:13:14.623Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,00",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "195",
+          "RA": "2012",
+          "pid": "2430493",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "51,44",
+          "Dato": "25.11.2018",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2443833",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,83",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1700",
+          "pid": "2429817"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.50,69",
+          "Dato": "25.11.2018",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "1744",
+          "pid": "2443832",
+          "splits": [
+            "51,44",
+            "59,25"
+          ]
+        },
+        {
+          "Tid": "1.55,02",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2430494",
+          "splits": [
+            "50,0",
+            "1.05,02"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.01,95",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "132",
+          "RA": "1345",
+          "pid": "2430492",
+          "splits": [
+            "50,0",
+            "1.05,02",
+            "1.06,92",
+            "1.00,01"
+          ]
+        }
+      ]
+    }
+  ]
+}

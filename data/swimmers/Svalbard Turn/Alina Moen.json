@@ -1,0 +1,122 @@
+{
+  "swimmerId": "20578",
+  "name": "Alina Moen",
+  "club": "Svalbard Turn",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-17T10:49:28.405Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.00,94",
+          "Dato": "22.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "389",
+          "RA": "2431",
+          "pid": "1332008"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.06,96",
+          "Dato": "23.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "267",
+          "RA": "1648",
+          "pid": "1332226"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.09,63",
+          "Dato": "23.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "370",
+          "RA": "2058",
+          "pid": "1485980",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.10,29",
+          "Dato": "22.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1447000",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.38,63",
+          "Dato": "23.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "329",
+          "RA": "1763",
+          "pid": "1461152",
+          "splits": [
+            "1.09,63",
+            "1.29,00"
+          ]
+        },
+        {
+          "Tid": "2.41,03",
+          "Dato": "22.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1451724",
+          "splits": [
+            "1.10,29",
+            "1.30,74"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "5.43,21",
+          "Dato": "22.02.2014",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "248",
+          "RA": "1277",
+          "pid": "1331947",
+          "splits": [
+            "1.10,29",
+            "1.30,74",
+            "1.33,31",
+            "1.28,87"
+          ]
+        }
+      ]
+    }
+  ]
+}

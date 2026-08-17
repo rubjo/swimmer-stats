@@ -1,0 +1,55 @@
+{
+  "swimmerId": "11270",
+  "name": "Nicola Medic",
+  "club": "IL Varg",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-17T09:57:00.108Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,95",
+          "Dato": "14.02.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "136",
+          "RA": "1234",
+          "pid": "479017"
+        },
+        {
+          "Tid": "39,42",
+          "Dato": "14.02.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "547523",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,15",
+          "Dato": "14.02.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1102",
+          "pid": "479121",
+          "splits": [
+            "39,42",
+            "47,73"
+          ]
+        }
+      ]
+    }
+  ]
+}

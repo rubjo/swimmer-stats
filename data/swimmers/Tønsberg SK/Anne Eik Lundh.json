@@ -1,0 +1,217 @@
+{
+  "swimmerId": "7987",
+  "name": "Anne Eik Lundh",
+  "club": "Tønsberg SK",
+  "birthYear": 1959,
+  "gender": "female",
+  "timestamp": "2026-08-17T07:31:31.031Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,65",
+          "Dato": "18.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "751",
+          "pid": "312557"
+        },
+        {
+          "Tid": "35,50",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "119",
+          "RA": "969",
+          "pid": "696748",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,39",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "742577",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "40,92",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "77",
+          "RA": "766",
+          "pid": "744516",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,10",
+          "Dato": "16.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "619",
+          "pid": "289829",
+          "splits": []
+        },
+        {
+          "Tid": "1.15,57",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "57",
+          "RA": "692",
+          "pid": "635531",
+          "splits": [
+            "35,50",
+            "40,07"
+          ]
+        },
+        {
+          "Tid": "1.21,20",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "734070",
+          "splits": [
+            "38,39",
+            "42,81"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.26,95",
+          "Dato": "18.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "542",
+          "pid": "276759",
+          "splits": []
+        },
+        {
+          "Tid": "1.28,45",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "622",
+          "pid": "635895",
+          "splits": [
+            "41,27",
+            "47,18"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.49,84",
+          "Dato": "17.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "24",
+          "RA": "535",
+          "pid": "288048",
+          "splits": []
+        },
+        {
+          "Tid": "2.52,11",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "24",
+          "RA": "627",
+          "pid": "695300",
+          "splits": [
+            "38,39",
+            "42,81",
+            "45,10",
+            "45,81"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.11,18",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "514",
+          "pid": "635166",
+          "splits": [
+            "40,92",
+            "50,42",
+            "57,31",
+            "42,53"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "5.51,27",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "21",
+          "RA": "494",
+          "pid": "635650",
+          "splits": [
+            "38,39",
+            "42,81",
+            "45,10",
+            "45,81",
+            "45,52",
+            "45,39",
+            "44,60",
+            "43,65"
+          ]
+        }
+      ]
+    }
+  ]
+}

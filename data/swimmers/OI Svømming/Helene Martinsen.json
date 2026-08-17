@@ -1,0 +1,80 @@
+{
+  "swimmerId": "3329",
+  "name": "Helene Martinsen",
+  "club": "OI Svømming",
+  "birthYear": 1990,
+  "gender": "female",
+  "timestamp": "2026-08-17T09:47:57.184Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,64",
+          "Dato": "04.02.2005",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "669",
+          "pid": "62512"
+        },
+        {
+          "Tid": "36,13",
+          "Dato": "02.04.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "75329"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "42,44",
+          "Dato": "02.04.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "526",
+          "pid": "6539"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.17,46",
+          "Dato": "04.02.2005",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "132",
+          "RA": "626",
+          "pid": "62551",
+          "splits": []
+        },
+        {
+          "Tid": "1.18,78",
+          "Dato": "02.04.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "6920",
+          "splits": [
+            "36,13",
+            "42,65"
+          ]
+        }
+      ]
+    }
+  ]
+}

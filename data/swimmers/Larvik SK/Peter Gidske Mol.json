@@ -1,0 +1,95 @@
+{
+  "swimmerId": "6479",
+  "name": "Peter Gidske Mol",
+  "club": "Larvik SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-17T10:49:52.654Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,92",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "1433",
+          "pid": "112322"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,97",
+          "Dato": "11.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "103",
+          "RA": "928",
+          "pid": "308767",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,37",
+          "Dato": "11.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "217851"
+        },
+        {
+          "Tid": "58,89",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "118",
+          "RA": "1090",
+          "pid": "139052",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.52,26",
+          "Dato": "11.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "725",
+          "pid": "217431",
+          "splits": [
+            "51,97",
+            "1.00,29"
+          ]
+        },
+        {
+          "Tid": "2.03,38",
+          "Dato": "29.04.2006",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "833",
+          "pid": "112639",
+          "splits": [
+            "58,89",
+            "1.04,49"
+          ]
+        }
+      ]
+    }
+  ]
+}

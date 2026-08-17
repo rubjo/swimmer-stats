@@ -1,0 +1,85 @@
+{
+  "swimmerId": "16922",
+  "name": "Thor-Olav Moe",
+  "club": "Molde SLK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-17T11:12:20.066Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,29",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "223",
+          "RA": "1622",
+          "pid": "963803"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "47,49",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "914",
+          "pid": "964253"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,71",
+          "Dato": "10.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "155",
+          "RA": "1045",
+          "pid": "963337"
+        },
+        {
+          "Tid": "52,13",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1093551",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,53",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1031",
+          "pid": "963981",
+          "splits": [
+            "52,13",
+            "1.02,40"
+          ]
+        }
+      ]
+    }
+  ]
+}

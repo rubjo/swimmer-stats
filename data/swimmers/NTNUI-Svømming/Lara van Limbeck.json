@@ -1,0 +1,90 @@
+{
+  "swimmerId": "42172",
+  "name": "Lara van Limbeck",
+  "club": "NTNUI-Svømming",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-17T07:02:21.536Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,82",
+          "Dato": "19.11.2022",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3124976"
+        },
+        {
+          "Tid": "36,36",
+          "Dato": "19.11.2022",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3125197",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,24",
+          "Dato": "19.11.2022",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3125125",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.18,33",
+          "Dato": "19.11.2022",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3125196",
+          "splits": [
+            "36,36",
+            "41,97"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.34,30",
+          "Dato": "19.11.2022",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3125124",
+          "splits": [
+            "44,24",
+            "50,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

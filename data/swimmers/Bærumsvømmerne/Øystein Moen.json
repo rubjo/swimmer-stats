@@ -1,0 +1,92 @@
+{
+  "swimmerId": "32394",
+  "name": "Øystein Moen",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1965,
+  "gender": "male",
+  "timestamp": "2026-08-17T10:29:47.797Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,90",
+          "Dato": "08.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "344",
+          "RA": "1455",
+          "pid": "2517247",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,91",
+          "Dato": "09.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2518027",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,26",
+          "Dato": "08.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "1130",
+          "pid": "2517246",
+          "splits": [
+            "35,90",
+            "40,36"
+          ]
+        },
+        {
+          "Tid": "1.27,81",
+          "Dato": "09.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2518028",
+          "splits": [
+            "41,91",
+            "45,90"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.00,50",
+          "Dato": "09.03.2019",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "999",
+          "pid": "2518026",
+          "splits": [
+            "41,91",
+            "45,90",
+            "44,72",
+            "47,97"
+          ]
+        }
+      ]
+    }
+  ]
+}

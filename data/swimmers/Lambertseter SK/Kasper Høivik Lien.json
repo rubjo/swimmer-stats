@@ -1,0 +1,112 @@
+{
+  "swimmerId": "22149",
+  "name": "Kasper Høivik Lien",
+  "club": "Lambertseter SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-17T06:35:44.178Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,56",
+          "Dato": "19.06.2016",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "761",
+          "pid": "1814377"
+        },
+        {
+          "Tid": "30,10",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "820",
+          "pid": "1645208"
+        },
+        {
+          "Tid": "31,79",
+          "Dato": "25.10.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1668243",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "33,55",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1665488",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.08,89",
+          "Dato": "25.10.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "798",
+          "pid": "1624208",
+          "splits": [
+            "31,79",
+            "37,10"
+          ]
+        },
+        {
+          "Tid": "1.13,16",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1668412",
+          "splits": [
+            "33,55",
+            "39,61"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.35,21",
+          "Dato": "14.12.2015",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "661",
+          "pid": "1645326",
+          "splits": [
+            "33,55",
+            "39,61",
+            "41,78",
+            "40,27"
+          ]
+        }
+      ]
+    }
+  ]
+}

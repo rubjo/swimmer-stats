@@ -1,0 +1,65 @@
+{
+  "swimmerId": "25267",
+  "name": "Vanessa Moen",
+  "club": "Kirkenes SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-17T10:48:06.798Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,12",
+          "Dato": "29.01.2017",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "353",
+          "RA": "2378",
+          "pid": "1991382"
+        },
+        {
+          "Tid": "53,63",
+          "Dato": "03.12.2016",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "310",
+          "RA": "2450",
+          "pid": "1859440"
+        },
+        {
+          "Tid": "58,83",
+          "Dato": "03.12.2016",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1959827",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.11,26",
+          "Dato": "03.12.2016",
+          "Sted": "Lakselv",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "271",
+          "RA": "2128",
+          "pid": "1859572",
+          "splits": [
+            "58,83",
+            "1.12,43"
+          ]
+        }
+      ]
+    }
+  ]
+}

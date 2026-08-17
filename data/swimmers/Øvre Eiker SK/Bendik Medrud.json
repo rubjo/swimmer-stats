@@ -1,0 +1,55 @@
+{
+  "swimmerId": "6378",
+  "name": "Bendik Medrud",
+  "club": "Øvre Eiker SK",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-17T09:57:12.275Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.06,34",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1163",
+          "pid": "140463",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.06,56",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "102957"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.19,32",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "896",
+          "pid": "102731",
+          "splits": [
+            "1.06,34",
+            "1.12,98"
+          ]
+        }
+      ]
+    }
+  ]
+}

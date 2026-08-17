@@ -1,0 +1,60 @@
+{
+  "swimmerId": "21914",
+  "name": "Emilie Alderin Låtun",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-17T09:06:55.036Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,95",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "281",
+          "RA": "1763",
+          "pid": "1549426"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,43",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "208",
+          "RA": "1163",
+          "pid": "1731762",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,13",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "203",
+          "RA": "1084",
+          "pid": "1549310",
+          "splits": [
+            "48,43",
+            "57,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

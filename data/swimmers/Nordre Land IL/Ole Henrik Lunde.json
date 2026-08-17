@@ -1,0 +1,70 @@
+{
+  "swimmerId": "24062",
+  "name": "Ole Henrik Lunde",
+  "club": "Nordre Land IL",
+  "birthYear": 2005,
+  "gender": "male",
+  "timestamp": "2026-08-17T07:54:22.224Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "56,44",
+          "Dato": "05.02.2017",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "301",
+          "RA": "2132",
+          "pid": "2143048",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.03,05",
+          "Dato": "31.01.2016",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "242",
+          "RA": "2119",
+          "pid": "1959561",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,55",
+          "Dato": "05.02.2017",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "271",
+          "RA": "1841",
+          "pid": "1991868",
+          "splits": [
+            "56,44",
+            "1.00,11"
+          ]
+        },
+        {
+          "Tid": "2.15,33",
+          "Dato": "31.01.2016",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "203",
+          "RA": "1809",
+          "pid": "1760650",
+          "splits": [
+            "1.03,05",
+            "1.12,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

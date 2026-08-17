@@ -1,0 +1,60 @@
+{
+  "swimmerId": "44953",
+  "name": "Teodor Lorens-Thommesen",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-08-17T07:16:41.930Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,61",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1800",
+          "pid": "3799604"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,56",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1562",
+          "pid": "3800094",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.09,79",
+          "Dato": "25.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1320",
+          "pid": "3800093",
+          "splits": [
+            "59,56",
+            "1.10,23"
+          ]
+        }
+      ]
+    }
+  ]
+}

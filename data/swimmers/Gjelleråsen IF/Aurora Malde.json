@@ -1,0 +1,55 @@
+{
+  "swimmerId": "24577",
+  "name": "Aurora Malde",
+  "club": "Gjelleråsen IF",
+  "birthYear": 2006,
+  "gender": "female",
+  "timestamp": "2026-08-17T09:05:07.720Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.01,10",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2494",
+          "pid": "1785597"
+        },
+        {
+          "Tid": "1.02,90",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1916953",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.14,75",
+          "Dato": "03.04.2016",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2133",
+          "pid": "1785721",
+          "splits": [
+            "1.02,90",
+            "1.11,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

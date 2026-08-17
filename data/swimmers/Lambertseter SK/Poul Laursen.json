@@ -1,0 +1,55 @@
+{
+  "swimmerId": "5184",
+  "name": "Poul Laursen",
+  "club": "Lambertseter SK",
+  "birthYear": 1966,
+  "gender": "male",
+  "timestamp": "2026-08-17T06:13:25.567Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,59",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "78",
+          "RA": "355",
+          "pid": "111741"
+        },
+        {
+          "Tid": "40,82",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "180312",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.26,12",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "56",
+          "RA": "295",
+          "pid": "111540",
+          "splits": [
+            "40,82",
+            "45,30"
+          ]
+        }
+      ]
+    }
+  ]
+}

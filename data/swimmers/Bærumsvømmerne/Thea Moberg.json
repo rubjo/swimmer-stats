@@ -1,0 +1,95 @@
+{
+  "swimmerId": "6753",
+  "name": "Thea Moberg",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-17T11:06:40.906Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,29",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1636",
+          "pid": "122810"
+        },
+        {
+          "Tid": "47,31",
+          "Dato": "24.09.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "120167"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,65",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "138",
+          "RA": "1269",
+          "pid": "285923",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,36",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1318",
+          "pid": "150473",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,77",
+          "Dato": "06.01.2007",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "1119",
+          "pid": "206559",
+          "splits": [
+            "55,65",
+            "1.07,12"
+          ]
+        },
+        {
+          "Tid": "2.04,67",
+          "Dato": "03.12.2006",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1092",
+          "pid": "123198",
+          "splits": [
+            "56,36",
+            "1.08,31"
+          ]
+        }
+      ]
+    }
+  ]
+}

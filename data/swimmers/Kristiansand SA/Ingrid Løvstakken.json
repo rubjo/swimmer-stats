@@ -1,0 +1,55 @@
+{
+  "swimmerId": "22134",
+  "name": "Ingrid Løvstakken",
+  "club": "Kristiansand SA",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-17T08:18:29.613Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,15",
+          "Dato": "08.03.2015",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2210",
+          "pid": "1551559"
+        },
+        {
+          "Tid": "51,73",
+          "Dato": "07.03.2015",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1655064",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,58",
+          "Dato": "07.03.2015",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2032",
+          "pid": "1551308",
+          "splits": [
+            "51,73",
+            "59,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

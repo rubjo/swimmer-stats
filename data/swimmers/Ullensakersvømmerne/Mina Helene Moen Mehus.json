@@ -1,0 +1,60 @@
+{
+  "swimmerId": "9197",
+  "name": "Mina Helene Moen Mehus",
+  "club": "Ullensakersvømmerne",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-17T09:43:07.578Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,16",
+          "Dato": "02.11.2008",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "271",
+          "RA": "1712",
+          "pid": "386586"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,41",
+          "Dato": "02.11.2008",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "197",
+          "RA": "1075",
+          "pid": "419034",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,15",
+          "Dato": "02.11.2008",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "895",
+          "pid": "386460",
+          "splits": [
+            "51,41",
+            "58,74"
+          ]
+        }
+      ]
+    }
+  ]
+}

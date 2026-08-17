@@ -1,0 +1,198 @@
+{
+  "swimmerId": "9653",
+  "name": "Petter Rynning Lien",
+  "club": "Skjetten Svømming",
+  "birthYear": 1961,
+  "gender": "male",
+  "timestamp": "2026-08-17T06:36:02.357Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,66",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "808",
+          "pid": "353118"
+        },
+        {
+          "Tid": "36,16",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "275",
+          "RA": "1216",
+          "pid": "704626",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,37",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "727714",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "41,71",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "577",
+          "pid": "635946"
+        },
+        {
+          "Tid": "43,29",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "115",
+          "RA": "606",
+          "pid": "408097",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "44,07",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "765523",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,09",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "871",
+          "pid": "635402",
+          "splits": [
+            "36,16",
+            "38,93"
+          ]
+        },
+        {
+          "Tid": "1.24,88",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "761205",
+          "splits": [
+            "40,37",
+            "44,51"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.31,18",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "65",
+          "RA": "402",
+          "pid": "352994",
+          "splits": [
+            "43,29",
+            "47,89"
+          ]
+        },
+        {
+          "Tid": "1.33,19",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "510",
+          "pid": "635204",
+          "splits": [
+            "44,07",
+            "49,12"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.55,76",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "69",
+          "RA": "677",
+          "pid": "698400",
+          "splits": [
+            "40,37",
+            "44,51",
+            "45,51",
+            "45,37"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "5.56,89",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "525",
+          "pid": "635624",
+          "splits": [
+            "40,37",
+            "44,51",
+            "45,51",
+            "45,37",
+            "45,49",
+            "46,20",
+            "45,55",
+            "43,89"
+          ]
+        }
+      ]
+    }
+  ]
+}

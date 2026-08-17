@@ -1,0 +1,60 @@
+{
+  "swimmerId": "42238",
+  "name": "Mateusz Lesniak",
+  "club": "Elverum Svømming",
+  "birthYear": 2010,
+  "gender": "male",
+  "timestamp": "2026-08-17T06:25:49.541Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,90",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3129841"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,80",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3129975",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.16,82",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3129974",
+          "splits": [
+            "1.03,80",
+            "1.13,02"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "swimmerId": "40261",
+  "name": "Erik Mikkelsen",
+  "club": "OI Svømming",
+  "birthYear": 1980,
+  "gender": "male",
+  "timestamp": "2026-08-17T10:13:58.871Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "39,43",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "2994342"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "40,56",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2994080",
+          "partOf": "400m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.29,43",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2994081",
+          "splits": [
+            "40,56",
+            "48,87"
+          ],
+          "partOf": "400m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Individuell medley",
+      "races": [
+        {
+          "Tid": "6.48,30",
+          "Dato": "01.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2994079",
+          "splits": [
+            "40,56",
+            "48,87",
+            "50,83",
+            "53,16",
+            "55,47",
+            "57,56",
+            "50,86",
+            "50,99"
+          ]
+        }
+      ]
+    }
+  ]
+}

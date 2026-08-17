@@ -1,0 +1,60 @@
+{
+  "swimmerId": "33964",
+  "name": "Signe Melgård",
+  "club": "Kolvereid IL",
+  "birthYear": 2009,
+  "gender": "female",
+  "timestamp": "2026-08-17T09:46:30.137Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,50",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "223",
+          "RA": "1847",
+          "pid": "2758348"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.06,24",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "203",
+          "RA": "1590",
+          "pid": "2758438",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,02",
+          "Dato": "29.02.2020",
+          "Sted": "Levanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1367",
+          "pid": "2758437",
+          "splits": [
+            "1.06,24",
+            "1.13,78"
+          ]
+        }
+      ]
+    }
+  ]
+}

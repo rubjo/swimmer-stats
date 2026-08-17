@@ -1,0 +1,115 @@
+{
+  "swimmerId": "25980",
+  "name": "Marius Moe",
+  "club": "IL Varg",
+  "birthYear": 1980,
+  "gender": "male",
+  "timestamp": "2026-08-17T11:07:26.716Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "25,99",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "71",
+          "RA": "222",
+          "pid": "2204848"
+        },
+        {
+          "Tid": "26,01",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2009259"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "31,34",
+          "Dato": "24.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "35",
+          "RA": "84",
+          "pid": "2008615"
+        },
+        {
+          "Tid": "31,88",
+          "Dato": "04.03.2017",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1996290"
+        },
+        {
+          "Tid": "32,96",
+          "Dato": "04.03.2017",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2130084",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "33,80",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2130198",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,71",
+          "Dato": "04.03.2017",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "138",
+          "pid": "1996210",
+          "splits": [
+            "32,96",
+            "38,75"
+          ]
+        },
+        {
+          "Tid": "1.11,86",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2155966",
+          "splits": [
+            "33,80",
+            "38,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

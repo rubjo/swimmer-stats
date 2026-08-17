@@ -1,0 +1,70 @@
+{
+  "swimmerId": "40488",
+  "name": "Kiren-Alice Mortøen",
+  "club": "Holmestrand IF",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-17T11:10:06.849Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,81",
+          "Dato": "03.06.2023",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3253371"
+        },
+        {
+          "Tid": "40,78",
+          "Dato": "05.05.2023",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3237974"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,04",
+          "Dato": "03.06.2023",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3253474",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,82",
+          "Dato": "03.06.2023",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3253473",
+          "splits": [
+            "49,04",
+            "57,78"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "swimmerId": "12450",
+  "name": "Runa Ludvigsen",
+  "club": "Eidsvoll SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-17T07:55:25.533Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,76",
+          "Dato": "04.02.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "1121",
+          "pid": "949705"
+        },
+        {
+          "Tid": "36,77",
+          "Dato": "10.01.2010",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "156",
+          "RA": "1099",
+          "pid": "625784"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,94",
+          "Dato": "18.03.2012",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "43",
+          "RA": "502",
+          "pid": "966048"
+        },
+        {
+          "Tid": "46,98",
+          "Dato": "04.02.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1031365",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "49,22",
+          "Dato": "10.01.2010",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "140",
+          "RA": "960",
+          "pid": "695585",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "44,09",
+          "Dato": "18.03.2012",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "60",
+          "RA": "894",
+          "pid": "966109"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.19,25",
+          "Dato": "18.03.2012",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "71",
+          "RA": "940",
+          "pid": "966141",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.41,10",
+          "Dato": "04.02.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "46",
+          "RA": "749",
+          "pid": "1054449",
+          "splits": [
+            "46,98",
+            "54,12"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.46,76",
+          "Dato": "10.01.2010",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "121",
+          "RA": "829",
+          "pid": "718567",
+          "splits": [
+            "49,22",
+            "57,54"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.32,95",
+          "Dato": "04.02.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "20",
+          "RA": "563",
+          "pid": "949510",
+          "splits": [
+            "46,98",
+            "54,12",
+            "56,51",
+            "55,34"
+          ]
+        },
+        {
+          "Tid": "3.42,59",
+          "Dato": "10.01.2010",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "579",
+          "pid": "625947",
+          "splits": [
+            "49,22",
+            "57,54",
+            "59,36",
+            "56,47"
+          ]
+        }
+      ]
+    }
+  ]
+}

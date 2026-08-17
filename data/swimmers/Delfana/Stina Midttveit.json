@@ -1,0 +1,95 @@
+{
+  "swimmerId": "32228",
+  "name": "Stina Midttveit",
+  "club": "Delfana",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-17T10:05:56.035Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,38",
+          "Dato": "08.09.2019",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "387",
+          "RA": "2428",
+          "pid": "2622497"
+        },
+        {
+          "Tid": "52,58",
+          "Dato": "07.12.2019",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2704793"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.00,93",
+          "Dato": "07.09.2019",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "255",
+          "RA": "1592",
+          "pid": "2622364"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,64",
+          "Dato": "07.12.2019",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "362",
+          "RA": "2137",
+          "pid": "2705339",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.10,87",
+          "Dato": "08.09.2019",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2622413"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.24,63",
+          "Dato": "07.12.2019",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "322",
+          "RA": "1791",
+          "pid": "2705338",
+          "splits": [
+            "1.05,64",
+            "1.18,99"
+          ]
+        }
+      ]
+    }
+  ]
+}

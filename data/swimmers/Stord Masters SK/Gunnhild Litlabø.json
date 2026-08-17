@@ -1,0 +1,70 @@
+{
+  "swimmerId": "4949",
+  "name": "Gunnhild Litlabø",
+  "club": "Stord Masters SK",
+  "birthYear": 1980,
+  "gender": "female",
+  "timestamp": "2026-08-17T07:00:56.524Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,94",
+          "Dato": "19.02.2012",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "74",
+          "RA": "697",
+          "pid": "951652"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "36,63",
+          "Dato": "19.02.2012",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "54",
+          "RA": "523",
+          "pid": "1093571",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "37,26",
+          "Dato": "10.03.2012",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "962329"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.20,36",
+          "Dato": "19.02.2012",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "21",
+          "RA": "277",
+          "pid": "951621",
+          "splits": [
+            "36,63",
+            "43,73"
+          ]
+        }
+      ]
+    }
+  ]
+}

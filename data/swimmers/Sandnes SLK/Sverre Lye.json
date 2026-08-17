@@ -1,0 +1,110 @@
+{
+  "swimmerId": "32454",
+  "name": "Sverre Lye",
+  "club": "Sandnes SLK",
+  "birthYear": 2007,
+  "gender": "male",
+  "timestamp": "2026-08-17T08:24:28.294Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,85",
+          "Dato": "31.03.2019",
+          "Sted": "Dysjaland-Sola",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "1597",
+          "pid": "2537898"
+        },
+        {
+          "Tid": "40,23",
+          "Dato": "27.04.2019",
+          "Sted": "Giskehallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2555853",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,16",
+          "Dato": "31.03.2019",
+          "Sted": "Dysjaland-Sola",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "1207",
+          "pid": "2537777"
+        },
+        {
+          "Tid": "49,92",
+          "Dato": "17.02.2019",
+          "Sted": "Hundvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2502501"
+        },
+        {
+          "Tid": "53,05",
+          "Dato": "27.04.2019",
+          "Sted": "Giskehallen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2555570",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,92",
+          "Dato": "27.04.2019",
+          "Sted": "Giskehallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1395",
+          "pid": "2555852",
+          "splits": [
+            "40,23",
+            "45,69"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,29",
+          "Dato": "27.04.2019",
+          "Sted": "Giskehallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "1150",
+          "pid": "2555569",
+          "splits": [
+            "53,05",
+            "1.00,24"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "swimmerId": "21259",
+  "name": "Fredrik Lundring",
+  "club": "Ullensakersvømmerne",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-17T07:55:50.018Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,63",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1459",
+          "pid": "1549358"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,99",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "164",
+          "RA": "995",
+          "pid": "1685888",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "48,47",
+          "Dato": "12.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "106",
+          "RA": "548",
+          "pid": "1653409",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.38,06",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "146",
+          "RA": "815",
+          "pid": "1549269",
+          "splits": [
+            "45,99",
+            "52,07"
+          ]
+        },
+        {
+          "Tid": "1.42,17",
+          "Dato": "12.06.2015",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "76",
+          "RA": "403",
+          "pid": "1584916",
+          "splits": [
+            "48,47",
+            "53,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

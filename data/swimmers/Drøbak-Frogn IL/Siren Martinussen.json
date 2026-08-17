@@ -1,0 +1,106 @@
+{
+  "swimmerId": "17146",
+  "name": "Siren Martinussen",
+  "club": "Drøbak-Frogn IL",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-17T09:23:55.838Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,41",
+          "Dato": "18.10.2015",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1142",
+          "pid": "1621255"
+        },
+        {
+          "Tid": "34,93",
+          "Dato": "15.11.2015",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1632406"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,50",
+          "Dato": "17.10.2015",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "218",
+          "RA": "1347",
+          "pid": "1678299",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,45",
+          "Dato": "15.11.2015",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "1101",
+          "pid": "1632453",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "1.48,56",
+          "Dato": "17.10.2015",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1709625",
+          "splits": [
+            "50,50",
+            "58,06"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.46,52",
+          "Dato": "17.10.2015",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "931",
+          "pid": "1621162",
+          "splits": [
+            "50,50",
+            "58,06",
+            "59,27",
+            "58,69"
+          ]
+        }
+      ]
+    }
+  ]
+}

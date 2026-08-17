@@ -1,0 +1,153 @@
+{
+  "swimmerId": "18030",
+  "name": "Maria Moe",
+  "club": "Herd",
+  "birthYear": 1997,
+  "gender": "female",
+  "timestamp": "2026-08-17T10:45:28.440Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,82",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "180",
+          "RA": "1601",
+          "pid": "1067355",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,87",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1110365",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,45",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "160",
+          "RA": "1415",
+          "pid": "1049046",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.20,57",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "993",
+          "pid": "1027917",
+          "splits": [
+            "39,82",
+            "40,75"
+          ]
+        },
+        {
+          "Tid": "1.31,37",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1103913",
+          "splits": [
+            "43,87",
+            "47,50"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,53",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "1187",
+          "pid": "1027753",
+          "splits": [
+            "52,45",
+            "59,08"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.13,17",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "133",
+          "RA": "990",
+          "pid": "1082907",
+          "splits": [
+            "43,87",
+            "47,50",
+            "50,29",
+            "51,51"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.32,61",
+          "Dato": "08.12.2012",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "857",
+          "pid": "1027677",
+          "splits": [
+            "43,87",
+            "47,50",
+            "50,29",
+            "51,51",
+            "51,89",
+            "49,65",
+            "50,72",
+            "47,18"
+          ]
+        }
+      ]
+    }
+  ]
+}
