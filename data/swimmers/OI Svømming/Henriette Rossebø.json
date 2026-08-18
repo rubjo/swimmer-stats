@@ -1,0 +1,117 @@
+{
+  "swimmerId": "9080",
+  "name": "Henriette Rossebø",
+  "club": "OI Svømming",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-18T05:30:17.100Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,19",
+          "Dato": "09.03.2008",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "227",
+          "RA": "1549",
+          "pid": "407094"
+        },
+        {
+          "Tid": "43,75",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "339163"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,85",
+          "Dato": "09.03.2008",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1153",
+          "pid": "407095"
+        },
+        {
+          "Tid": "55,41",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "401519",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,09",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "231",
+          "RA": "1375",
+          "pid": "401518",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,90",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1098",
+          "pid": "339317",
+          "splits": [
+            "57,09",
+            "1.03,81"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.58,38",
+          "Dato": "27.01.2008",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "767",
+          "pid": "339469",
+          "splits": [
+            "55,41",
+            "1.04,24",
+            "1.06,48",
+            "52,25"
+          ]
+        }
+      ]
+    }
+  ]
+}

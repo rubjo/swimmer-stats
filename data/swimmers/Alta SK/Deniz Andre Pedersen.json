@@ -1,0 +1,112 @@
+{
+  "swimmerId": "34727",
+  "name": "Deniz Andre Pedersen",
+  "club": "Alta SK",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-18T01:31:27.527Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,69",
+          "Dato": "29.02.2020",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "172",
+          "RA": "1442",
+          "pid": "2755607"
+        },
+        {
+          "Tid": "51,58",
+          "Dato": "01.03.2020",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2755860",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.08,81",
+          "Dato": "29.02.2020",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "166",
+          "RA": "1226",
+          "pid": "2755713",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,80",
+          "Dato": "01.03.2020",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "165",
+          "RA": "1314",
+          "pid": "2755861",
+          "splits": [
+            "51,58",
+            "1.00,22"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.19,14",
+          "Dato": "29.02.2020",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "989",
+          "pid": "2755712",
+          "splits": [
+            "1.08,81",
+            "1.10,33"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.51,51",
+          "Dato": "01.03.2020",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "989",
+          "pid": "2755859",
+          "splits": [
+            "51,58",
+            "1.00,22",
+            "1.02,37",
+            "57,34"
+          ]
+        }
+      ]
+    }
+  ]
+}

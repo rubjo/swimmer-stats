@@ -1,0 +1,55 @@
+{
+  "swimmerId": "10203",
+  "name": "ANDREA ROMDAL",
+  "club": "Skien SK",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-18T05:29:26.660Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,96",
+          "Dato": "14.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1195",
+          "pid": "484192"
+        },
+        {
+          "Tid": "38,90",
+          "Dato": "14.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "590273",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.23,78",
+          "Dato": "14.03.2009",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "1008",
+          "pid": "484679",
+          "splits": [
+            "38,90",
+            "44,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "swimmerId": "21031",
+  "name": "MATHIAS OLIVARES",
+  "club": "Fagernes IL",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-18T00:55:50.451Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,06",
+          "Dato": "13.06.2014",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "57",
+          "RA": "927",
+          "pid": "1373723"
+        },
+        {
+          "Tid": "47,19",
+          "Dato": "27.04.2014",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1895",
+          "pid": "1357892"
+        },
+        {
+          "Tid": "53,52",
+          "Dato": "14.06.2014",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1464696",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,92",
+          "Dato": "14.06.2014",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "42",
+          "RA": "653",
+          "pid": "1374902"
+        },
+        {
+          "Tid": "1.01,03",
+          "Dato": "27.04.2014",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "146",
+          "RA": "1528",
+          "pid": "1358002"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.53,62",
+          "Dato": "27.04.2014",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "167",
+          "RA": "1650",
+          "pid": "1357938",
+          "splits": []
+        },
+        {
+          "Tid": "1.56,25",
+          "Dato": "14.06.2014",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "51",
+          "RA": "831",
+          "pid": "1375194",
+          "splits": [
+            "53,52",
+            "1.02,73"
+          ]
+        }
+      ]
+    }
+  ]
+}

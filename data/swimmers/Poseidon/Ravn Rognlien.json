@@ -1,0 +1,125 @@
+{
+  "swimmerId": "16948",
+  "name": "Ravn Rognlien",
+  "club": "Poseidon",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-18T05:50:10.108Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,33",
+          "Dato": "10.03.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1671",
+          "pid": "959840"
+        },
+        {
+          "Tid": "43,53",
+          "Dato": "15.09.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "993456"
+        },
+        {
+          "Tid": "47,02",
+          "Dato": "10.03.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1036485",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,25",
+          "Dato": "16.09.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "184",
+          "RA": "1220",
+          "pid": "1057129",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,88",
+          "Dato": "11.03.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1113738",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,72",
+          "Dato": "10.03.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "203",
+          "RA": "1530",
+          "pid": "960422",
+          "splits": [
+            "47,02",
+            "54,70"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.47,84",
+          "Dato": "16.09.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "910",
+          "pid": "994027",
+          "splits": [
+            "52,25",
+            "55,59"
+          ]
+        },
+        {
+          "Tid": "1.59,97",
+          "Dato": "11.03.2012",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "961570",
+          "splits": [
+            "56,88",
+            "1.03,09"
+          ]
+        }
+      ]
+    }
+  ]
+}

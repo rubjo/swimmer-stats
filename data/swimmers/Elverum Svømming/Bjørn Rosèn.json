@@ -1,0 +1,138 @@
+{
+  "swimmerId": "20569",
+  "name": "Bjørn Rosèn",
+  "club": "Elverum Svømming",
+  "birthYear": 1946,
+  "gender": "male",
+  "timestamp": "2026-08-18T05:37:35.295Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,58",
+          "Dato": "30.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "280",
+          "RA": "1318",
+          "pid": "1472882"
+        },
+        {
+          "Tid": "48,86",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1497606",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,34",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "173",
+          "RA": "1234",
+          "pid": "1482631",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.46,88",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "200",
+          "RA": "1606",
+          "pid": "1515885",
+          "splits": [
+            "48,86",
+            "58,02"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,33",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "1047",
+          "pid": "1348138",
+          "splits": [
+            "51,34",
+            "59,99"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.44,20",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "67",
+          "RA": "1135",
+          "pid": "1491354",
+          "splits": [
+            "48,86",
+            "58,02",
+            "1.00,20",
+            "57,12"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.23,31",
+          "Dato": "29.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "60",
+          "RA": "952",
+          "pid": "1348484",
+          "splits": [
+            "48,86",
+            "58,02",
+            "1.00,20",
+            "57,12",
+            "56,01",
+            "55,69",
+            "56,81",
+            "50,60"
+          ]
+        }
+      ]
+    }
+  ]
+}

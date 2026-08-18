@@ -1,0 +1,55 @@
+{
+  "swimmerId": "40260",
+  "name": "Andre Riseng",
+  "club": "OI Svømming",
+  "birthYear": 1979,
+  "gender": "male",
+  "timestamp": "2026-08-18T05:09:14.608Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "37,35",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2992779"
+        },
+        {
+          "Tid": "47,47",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2993154",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.41,41",
+          "Dato": "02.04.2022",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2993153",
+          "splits": [
+            "47,47",
+            "53,94"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "swimmerId": "24652",
+  "name": "Sandra Rikardsen",
+  "club": "Andøya SLK",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-18T04:54:03.398Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,56",
+          "Dato": "01.05.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "259",
+          "RA": "2275",
+          "pid": "1790929"
+        },
+        {
+          "Tid": "49,57",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1944611",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,03",
+          "Dato": "01.05.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "2131",
+          "pid": "1790772"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.00,28",
+          "Dato": "30.04.2016",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "242",
+          "RA": "2099",
+          "pid": "1790640",
+          "splits": [
+            "49,57",
+            "1.10,71"
+          ]
+        }
+      ]
+    }
+  ]
+}

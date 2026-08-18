@@ -1,0 +1,115 @@
+{
+  "swimmerId": "15484",
+  "name": "Simen Olsen",
+  "club": "Fauske SK",
+  "birthYear": 2001,
+  "gender": null,
+  "timestamp": "2026-08-18T00:59:47.268Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,47",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1750",
+          "pid": "888677"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,30",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1227",
+          "pid": "888672",
+          "partOf": "50m Bryst"
+        },
+        {
+          "Tid": "1.02,42",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "888674",
+          "partOf": "50m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.50,59",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "923",
+          "pid": "888676",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,29",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1024",
+          "pid": "888671",
+          "splits": []
+        },
+        {
+          "Tid": "2.10,20",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "888675",
+          "splits": [
+            "",
+            ""
+          ],
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.19,39",
+          "Dato": "07.05.2011",
+          "Sted": "Harstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "743",
+          "pid": "888673",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

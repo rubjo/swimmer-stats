@@ -1,0 +1,110 @@
+{
+  "swimmerId": "10214",
+  "name": "Tormod Rogne",
+  "club": "SK Føniks",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-18T05:13:54.986Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,11",
+          "Dato": "21.09.2008",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "167",
+          "RA": "1574",
+          "pid": "378894"
+        },
+        {
+          "Tid": "52,68",
+          "Dato": "21.09.2008",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "415238",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "57,03",
+          "Dato": "12.10.2008",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "416041",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.01,83",
+          "Dato": "12.10.2008",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "960",
+          "pid": "380820"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.10,10",
+          "Dato": "21.09.2008",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1294",
+          "pid": "378658"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,74",
+          "Dato": "21.09.2008",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "1331",
+          "pid": "378747",
+          "splits": [
+            "52,68",
+            "1.04,06"
+          ]
+        },
+        {
+          "Tid": "2.04,00",
+          "Dato": "12.10.2008",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "380850",
+          "splits": [
+            "57,03",
+            "1.06,97"
+          ]
+        }
+      ]
+    }
+  ]
+}

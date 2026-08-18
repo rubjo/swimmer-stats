@@ -1,0 +1,55 @@
+{
+  "swimmerId": "27511",
+  "name": "Jon Røkenes",
+  "club": "Alta SK",
+  "birthYear": 1954,
+  "gender": "male",
+  "timestamp": "2026-08-18T05:43:54.247Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,43",
+          "Dato": "02.03.2018",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "971",
+          "pid": "2241875"
+        },
+        {
+          "Tid": "47,23",
+          "Dato": "03.03.2018",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2318930",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.44,37",
+          "Dato": "03.03.2018",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "980",
+          "pid": "2242097",
+          "splits": [
+            "47,23",
+            "57,14"
+          ]
+        }
+      ]
+    }
+  ]
+}

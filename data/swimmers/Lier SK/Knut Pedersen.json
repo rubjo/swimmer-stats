@@ -1,0 +1,134 @@
+{
+  "swimmerId": "11597",
+  "name": "Knut Pedersen",
+  "club": "Lier SK",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-18T02:38:20.527Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,72",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "1025",
+          "pid": "636770"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "40,79",
+          "Dato": "14.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "57",
+          "RA": "511",
+          "pid": "638049"
+        },
+        {
+          "Tid": "43,89",
+          "Dato": "22.03.2009",
+          "Sted": "Lier",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "658",
+          "pid": "488055"
+        },
+        {
+          "Tid": "44,26",
+          "Dato": "18.04.2009",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "554298"
+        },
+        {
+          "Tid": "47,40",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "764793",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.38,78",
+          "Dato": "18.04.2009",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "592",
+          "pid": "554297",
+          "splits": []
+        },
+        {
+          "Tid": "1.41,24",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "65",
+          "RA": "700",
+          "pid": "759515",
+          "splits": [
+            "47,40",
+            "53,84"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.42,73",
+          "Dato": "22.03.2009",
+          "Sted": "Lier",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "488173",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.31,22",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "443",
+          "pid": "637154",
+          "splits": [
+            "47,40",
+            "53,84",
+            "56,10",
+            "53,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

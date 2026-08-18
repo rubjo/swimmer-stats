@@ -1,0 +1,55 @@
+{
+  "swimmerId": "42135",
+  "name": "Anine Halligard Pettersen",
+  "club": "Mosjøen SK",
+  "birthYear": 2011,
+  "gender": "female",
+  "timestamp": "2026-08-18T02:15:00.328Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,59",
+          "Dato": "19.11.2022",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3121149"
+        },
+        {
+          "Tid": "53,98",
+          "Dato": "19.11.2022",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3121334",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.01,05",
+          "Dato": "19.11.2022",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3121333",
+          "splits": [
+            "53,98",
+            "1.07,07"
+          ]
+        }
+      ]
+    }
+  ]
+}

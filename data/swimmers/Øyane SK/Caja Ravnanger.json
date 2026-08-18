@@ -1,0 +1,90 @@
+{
+  "swimmerId": "34437",
+  "name": "Caja Ravnanger",
+  "club": "Øyane SK",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-18T04:52:13.766Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,09",
+          "Dato": "11.01.2020",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "263",
+          "RA": "1487",
+          "pid": "2712034"
+        },
+        {
+          "Tid": "48,36",
+          "Dato": "11.01.2020",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2712549",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,45",
+          "Dato": "11.01.2020",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "270",
+          "RA": "1387",
+          "pid": "2712370",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,03",
+          "Dato": "11.01.2020",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "257",
+          "RA": "1375",
+          "pid": "2712548",
+          "splits": [
+            "48,36",
+            "48,67"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.59,40",
+          "Dato": "11.01.2020",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "247",
+          "RA": "1177",
+          "pid": "2712369",
+          "splits": [
+            "56,45",
+            "1.02,95"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "swimmerId": "15818",
+  "name": "Signe Riddervold",
+  "club": "OI Svømming",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-18T04:48:48.779Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,34",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "201",
+          "RA": "1455",
+          "pid": "833560"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,96",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "169",
+          "RA": "1205",
+          "pid": "921795",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "52,40",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "851293"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.10,77",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "324",
+          "RA": "1804",
+          "pid": "921796",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.46,19",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "146",
+          "RA": "889",
+          "pid": "851405",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.30,70",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "272",
+          "RA": "1484",
+          "pid": "851129",
+          "splits": [
+            "1.10,77",
+            "1.19,93"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.15,33",
+          "Dato": "03.12.2011",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "960",
+          "pid": "850840",
+          "splits": [
+            "50,96",
+            "1.04,80",
+            "1.19,22",
+            "1.00,35"
+          ]
+        }
+      ]
+    }
+  ]
+}

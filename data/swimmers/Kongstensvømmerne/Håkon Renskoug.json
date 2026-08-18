@@ -1,0 +1,77 @@
+{
+  "swimmerId": "50313",
+  "name": "Håkon Renskoug",
+  "club": "Kongstensvømmerne",
+  "birthYear": 1977,
+  "gender": "male",
+  "timestamp": "2026-08-18T04:30:50.374Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,82",
+          "Dato": "08.02.2025",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "647",
+          "pid": "3634501"
+        },
+        {
+          "Tid": "42,00",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3602718",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.31,18",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "83",
+          "RA": "641",
+          "pid": "3602719",
+          "splits": [
+            "42,0",
+            "49,18"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.18,04",
+          "Dato": "04.01.2025",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "526",
+          "pid": "3602717",
+          "splits": [
+            "42,0",
+            "49,18",
+            "54,71",
+            "52,15"
+          ]
+        }
+      ]
+    }
+  ]
+}

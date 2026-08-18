@@ -1,0 +1,100 @@
+{
+  "swimmerId": "47528",
+  "name": "Anna Ruud",
+  "club": "Eid SK",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-08-18T05:27:30.306Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,20",
+          "Dato": "24.11.2024",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2213",
+          "pid": "3580520"
+        },
+        {
+          "Tid": "54,03",
+          "Dato": "23.11.2024",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3580621",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,46",
+          "Dato": "23.11.2024",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1830",
+          "pid": "3580502"
+        },
+        {
+          "Tid": "1.09,31",
+          "Dato": "24.11.2024",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3580584",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.01,54",
+          "Dato": "23.11.2024",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1864",
+          "pid": "3580620",
+          "splits": [
+            "54,03",
+            "1.07,51"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.25,42",
+          "Dato": "24.11.2024",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1595",
+          "pid": "3580583",
+          "splits": [
+            "1.09,31",
+            "1.16,11"
+          ]
+        }
+      ]
+    }
+  ]
+}

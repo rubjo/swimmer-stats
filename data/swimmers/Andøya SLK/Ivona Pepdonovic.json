@@ -1,0 +1,70 @@
+{
+  "swimmerId": "22500",
+  "name": "Ivona Pepdonovic",
+  "club": "Andøya SLK",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-18T02:04:42.236Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,30",
+          "Dato": "07.03.2015",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "262",
+          "RA": "2253",
+          "pid": "1552918"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,42",
+          "Dato": "08.03.2015",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1072",
+          "pid": "1553541"
+        },
+        {
+          "Tid": "51,29",
+          "Dato": "07.03.2015",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1736986",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.49,93",
+          "Dato": "08.03.2015",
+          "Sted": "Narvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1237",
+          "pid": "1553438",
+          "splits": [
+            "51,29",
+            "58,64"
+          ]
+        }
+      ]
+    }
+  ]
+}

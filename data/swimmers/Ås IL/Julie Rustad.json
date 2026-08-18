@@ -1,0 +1,91 @@
+{
+  "swimmerId": "12316",
+  "name": "Julie Rustad",
+  "club": "Ås IL",
+  "birthYear": 1998,
+  "gender": "female",
+  "timestamp": "2026-08-18T05:13:03.547Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,15",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "283",
+          "RA": "1742",
+          "pid": "689269"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,38",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1190",
+          "pid": "689207"
+        },
+        {
+          "Tid": "53,73",
+          "Dato": "31.10.2010",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "684537"
+        },
+        {
+          "Tid": "56,98",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "729088",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,39",
+          "Dato": "31.10.2010",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "928",
+          "pid": "684429",
+          "splits": []
+        },
+        {
+          "Tid": "1.59,86",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "689345",
+          "splits": [
+            "56,98",
+            "1.02,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

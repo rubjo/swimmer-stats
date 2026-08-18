@@ -1,0 +1,91 @@
+{
+  "swimmerId": "6304",
+  "name": "Natalie A. Ranheim",
+  "club": "Øvre Eiker SK",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-18T03:38:10.144Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,17",
+          "Dato": "18.02.2007",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "1487",
+          "pid": "284355"
+        },
+        {
+          "Tid": "49,51",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1680",
+          "pid": "135900",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,94",
+          "Dato": "18.02.2007",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "1281",
+          "pid": "283100"
+        },
+        {
+          "Tid": "59,64",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1414",
+          "pid": "102912"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,25",
+          "Dato": "18.02.2007",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "1322",
+          "pid": "313648",
+          "splits": []
+        },
+        {
+          "Tid": "1.47,70",
+          "Dato": "25.03.2006",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1343",
+          "pid": "102809",
+          "splits": [
+            "49,51",
+            "58,19"
+          ]
+        }
+      ]
+    }
+  ]
+}

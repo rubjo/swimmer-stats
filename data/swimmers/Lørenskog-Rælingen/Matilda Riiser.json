@@ -1,0 +1,100 @@
+{
+  "swimmerId": "44695",
+  "name": "Matilda Riiser",
+  "club": "Lørenskog/Rælingen",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-08-18T04:24:20.300Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,14",
+          "Dato": "11.05.2024",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2193",
+          "pid": "3468850"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.03,41",
+          "Dato": "11.05.2024",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1569",
+          "pid": "3468526"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,40",
+          "Dato": "15.06.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1847",
+          "pid": "3489951",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,67",
+          "Dato": "11.05.2024",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3469206",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,03",
+          "Dato": "15.06.2024",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1574",
+          "pid": "3489950",
+          "splits": [
+            "1.05,40",
+            "1.14,63"
+          ]
+        },
+        {
+          "Tid": "2.28,05",
+          "Dato": "11.05.2024",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3469205",
+          "splits": [
+            "1.05,67",
+            "1.22,38"
+          ]
+        }
+      ]
+    }
+  ]
+}

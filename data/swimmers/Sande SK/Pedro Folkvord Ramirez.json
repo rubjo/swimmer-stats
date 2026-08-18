@@ -1,0 +1,55 @@
+{
+  "swimmerId": "20740",
+  "name": "Pedro Folkvord Ramirez",
+  "club": "Sande SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-18T03:26:21.673Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,42",
+          "Dato": "16.03.2014",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1384",
+          "pid": "1342695"
+        },
+        {
+          "Tid": "39,62",
+          "Dato": "16.03.2014",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1488032",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,81",
+          "Dato": "16.03.2014",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1284",
+          "pid": "1342961",
+          "splits": [
+            "39,62",
+            "46,19"
+          ]
+        }
+      ]
+    }
+  ]
+}
