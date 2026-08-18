@@ -15,7 +15,7 @@ permissions:
 # 8-shard fleets on top of each other.
 concurrency:
   group: scrape
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 env:
   # ┌───────────────────────────────────────────────────────────────[...]
