@@ -446,12 +446,17 @@ async function getRoster(browser, baseUrl, opts = {}) {
 
   if (!force && cached && cached.swimmers.length > 0) {
     const ageMs = Date.now() - new Date(cached.generatedAt || 0).getTime();
-    if (ageMs < maxAgeMs) {
+    // During backfill the roster is complete and cannot go stale (we only add
+    // historical race data, never new swimmers), so trust any non-empty cache
+    // regardless of age and skip the ~2–3 min rediscovery on every shard.
+    if (BACKFILL_ONLY || ageMs < maxAgeMs) {
       const ageH = Math.round(ageMs / 3_600_000);
       console.log(
         color(
           C.green,
-          `  Using cached ${label}: ${cached.swimmers.length} swimmers (${ageH}h old)`,
+          BACKFILL_ONLY
+            ? `  Using cached ${label}: ${cached.swimmers.length} swimmers (backfill — discovery skipped)`
+            : `  Using cached ${label}: ${cached.swimmers.length} swimmers (${ageH}h old)`,
         ),
       );
       return cached.swimmers;
