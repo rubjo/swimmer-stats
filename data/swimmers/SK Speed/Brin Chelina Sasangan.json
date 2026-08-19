@@ -1,0 +1,85 @@
+{
+  "swimmerId": "17055",
+  "name": "Brin Chelina Sasangan",
+  "club": "SK Speed",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-19T08:12:30.641Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,49",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "366",
+          "RA": "1924",
+          "pid": "1189736"
+        },
+        {
+          "Tid": "1.03,39",
+          "Dato": "03.11.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "399",
+          "RA": "1926",
+          "pid": "1015423"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.02,23",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "307",
+          "RA": "1620",
+          "pid": "1189600"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.06,28",
+          "Dato": "24.03.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "447",
+          "RA": "2359",
+          "pid": "1074098",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.28,61",
+          "Dato": "24.03.2012",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "374",
+          "RA": "1973",
+          "pid": "967426",
+          "splits": [
+            "1.06,28",
+            "1.22,33"
+          ]
+        }
+      ]
+    }
+  ]
+}

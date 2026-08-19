@@ -1,0 +1,77 @@
+{
+  "swimmerId": "35395",
+  "name": "Agnes Salvesen",
+  "club": "Lambertseter SK",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-19T07:11:08.726Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,86",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1627",
+          "pid": "2771669"
+        },
+        {
+          "Tid": "47,53",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2773141",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,60",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "262",
+          "RA": "1451",
+          "pid": "2773142",
+          "splits": [
+            "47,53",
+            "54,07"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.32,96",
+          "Dato": "19.09.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "1100",
+          "pid": "2773140",
+          "splits": [
+            "47,53",
+            "54,07",
+            "56,15",
+            "55,21"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "swimmerId": "18931",
+  "name": "Julie Skoglund",
+  "club": "Skjetten Svømming",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-19T10:14:57.148Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,51",
+          "Dato": "14.04.2013",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "323",
+          "RA": "2301",
+          "pid": "1235182",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,23",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "290",
+          "RA": "1874",
+          "pid": "1189872"
+        },
+        {
+          "Tid": "59,96",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1228255",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,99",
+          "Dato": "14.04.2013",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1153373"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,58",
+          "Dato": "14.04.2013",
+          "Sted": "Slattum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "287",
+          "RA": "1988",
+          "pid": "1153429",
+          "splits": [
+            "52,51",
+            "1.04,07"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.11,95",
+          "Dato": "22.09.2013",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "265",
+          "RA": "1689",
+          "pid": "1189997",
+          "splits": [
+            "59,96",
+            "1.11,99"
+          ]
+        }
+      ]
+    }
+  ]
+}

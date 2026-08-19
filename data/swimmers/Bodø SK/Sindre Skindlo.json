@@ -1,0 +1,85 @@
+{
+  "swimmerId": "33594",
+  "name": "Sindre Skindlo",
+  "club": "Bodø SK",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-19T09:46:00.192Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,56",
+          "Dato": "05.10.2019",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "188",
+          "RA": "2104",
+          "pid": "2641152"
+        },
+        {
+          "Tid": "55,99",
+          "Dato": "05.10.2019",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2641419",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.00,09",
+          "Dato": "05.10.2019",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "1232",
+          "pid": "2641066"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,10",
+          "Dato": "06.10.2019",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1688",
+          "pid": "2641100"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.01,59",
+          "Dato": "05.10.2019",
+          "Sted": "Bodø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1826",
+          "pid": "2641418",
+          "splits": [
+            "55,99",
+            "1.05,60"
+          ]
+        }
+      ]
+    }
+  ]
+}

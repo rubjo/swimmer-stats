@@ -1,0 +1,100 @@
+{
+  "swimmerId": "12491",
+  "name": "Filip Selvig",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-19T09:22:40.918Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,09",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "859",
+          "pid": "1021569"
+        },
+        {
+          "Tid": "33,31",
+          "Dato": "18.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1080856",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "38,39",
+          "Dato": "18.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "437",
+          "pid": "1022763"
+        },
+        {
+          "Tid": "39,04",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1056355",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.11,02",
+          "Dato": "18.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "805",
+          "pid": "1022553",
+          "splits": [
+            "33,31",
+            "37,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.23,97",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "27",
+          "RA": "328",
+          "pid": "1051302",
+          "splits": [
+            "39,04",
+            "44,93"
+          ]
+        }
+      ]
+    }
+  ]
+}

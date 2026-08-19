@@ -1,0 +1,70 @@
+{
+  "swimmerId": "15981",
+  "name": "Odin G. Skjolde",
+  "club": "Stord IL Symjing",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-19T09:12:15.872Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,63",
+          "Dato": "22.10.2011",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "231",
+          "RA": "1796",
+          "pid": "838518"
+        },
+        {
+          "Tid": "51,86",
+          "Dato": "23.10.2011",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "911790",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.01,74",
+          "Dato": "22.10.2011",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1102",
+          "pid": "838800"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.00,45",
+          "Dato": "23.10.2011",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1543",
+          "pid": "839044",
+          "splits": [
+            "51,86",
+            "1.08,59"
+          ]
+        }
+      ]
+    }
+  ]
+}

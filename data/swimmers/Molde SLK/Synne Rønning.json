@@ -1,0 +1,125 @@
+{
+  "swimmerId": "17810",
+  "name": "Synne Rønning",
+  "club": "Molde SLK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-19T06:24:26.049Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,71",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "223",
+          "RA": "1678",
+          "pid": "1337642"
+        },
+        {
+          "Tid": "40,38",
+          "Dato": "30.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1350061"
+        },
+        {
+          "Tid": "41,41",
+          "Dato": "29.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1466892",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "49,98",
+          "Dato": "09.03.2014",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1329",
+          "pid": "1338024"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,18",
+          "Dato": "30.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "193",
+          "RA": "1291",
+          "pid": "1435086",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,29",
+          "Dato": "29.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1349758"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.31,64",
+          "Dato": "29.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "207",
+          "RA": "1554",
+          "pid": "1349691",
+          "splits": [
+            "41,41",
+            "50,23"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,39",
+          "Dato": "30.03.2014",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "182",
+          "RA": "1193",
+          "pid": "1349970",
+          "splits": [
+            "50,18",
+            "1.00,21"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "swimmerId": "35075",
+  "name": "Carl Henrik Schiller",
+  "club": "NTNUI-Svømming",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-19T08:00:48.846Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "28,23",
+          "Dato": "07.03.2020",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "457",
+          "pid": "2760441"
+        },
+        {
+          "Tid": "28,69",
+          "Dato": "07.03.2020",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2760459"
+        },
+        {
+          "Tid": "29,89",
+          "Dato": "07.03.2020",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2760642",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.03,68",
+          "Dato": "07.03.2020",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "449",
+          "pid": "2760641",
+          "splits": [
+            "29,89",
+            "33,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

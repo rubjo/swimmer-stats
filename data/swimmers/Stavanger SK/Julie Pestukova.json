@@ -1,0 +1,135 @@
+{
+  "swimmerId": "9529",
+  "name": "Julie Pestukova",
+  "club": "Stavanger SK",
+  "birthYear": 1994,
+  "gender": "female",
+  "timestamp": "2026-08-19T06:45:43.256Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,04",
+          "Dato": "09.03.2008",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "232",
+          "RA": "1536",
+          "pid": "349421"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,82",
+          "Dato": "12.04.2008",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "204",
+          "RA": "1171",
+          "pid": "408562",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,31",
+          "Dato": "29.03.2008",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "407534",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,89",
+          "Dato": "07.06.2008",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "412625",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "59,60",
+          "Dato": "09.03.2008",
+          "Sted": "Dysjaland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1223",
+          "pid": "349507"
+        },
+        {
+          "Tid": "1.03,09",
+          "Dato": "12.04.2008",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "353991"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,86",
+          "Dato": "12.04.2008",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "932",
+          "pid": "353947",
+          "splits": [
+            "52,82",
+            "59,04"
+          ]
+        },
+        {
+          "Tid": "1.53,24",
+          "Dato": "07.06.2008",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "364731",
+          "splits": [
+            "53,89",
+            "59,35"
+          ]
+        },
+        {
+          "Tid": "1.57,13",
+          "Dato": "29.03.2008",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "351518",
+          "splits": [
+            "53,31",
+            "1.03,82"
+          ]
+        }
+      ]
+    }
+  ]
+}

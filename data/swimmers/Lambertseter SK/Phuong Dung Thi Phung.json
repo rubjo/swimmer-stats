@@ -1,0 +1,55 @@
+{
+  "swimmerId": "32734",
+  "name": "Phuong Dung Thi Phung",
+  "club": "Lambertseter SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-19T05:54:01.735Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,82",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "303",
+          "RA": "2144",
+          "pid": "2540516"
+        },
+        {
+          "Tid": "44,77",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2541516",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,36",
+          "Dato": "31.03.2019",
+          "Sted": "Oslo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1847",
+          "pid": "2541515",
+          "splits": [
+            "44,77",
+            "52,59"
+          ]
+        }
+      ]
+    }
+  ]
+}

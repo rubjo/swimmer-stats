@@ -1,0 +1,77 @@
+{
+  "swimmerId": "12265",
+  "name": "Jørgen Seglem",
+  "club": "Årdalstangen IL",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-19T08:33:28.787Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,44",
+          "Dato": "03.04.2011",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1679",
+          "pid": "881313"
+        },
+        {
+          "Tid": "52,65",
+          "Dato": "30.10.2010",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "183",
+          "RA": "1819",
+          "pid": "751351",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.58,58",
+          "Dato": "03.04.2011",
+          "Sted": "Fagernes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "206",
+          "RA": "1538",
+          "pid": "881314",
+          "splits": []
+        },
+        {
+          "Tid": "2.03,74",
+          "Dato": "30.10.2010",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "1504",
+          "pid": "683533",
+          "splits": [
+            "52,65",
+            "1.11,09"
+          ]
+        },
+        {
+          "Tid": "2.18,15",
+          "Dato": "07.02.2010",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "766021",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

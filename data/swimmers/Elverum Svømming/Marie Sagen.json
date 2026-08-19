@@ -1,0 +1,115 @@
+{
+  "swimmerId": "22913",
+  "name": "Marie Sagen",
+  "club": "Elverum Svømming",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-19T07:36:42.362Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,53",
+          "Dato": "31.10.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "296",
+          "RA": "2351",
+          "pid": "1683537",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "54,44",
+          "Dato": "09.05.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "104",
+          "RA": "1210",
+          "pid": "1571011"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,22",
+          "Dato": "31.10.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "243",
+          "RA": "1898",
+          "pid": "1730881",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.03,15",
+          "Dato": "09.05.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "92",
+          "RA": "907",
+          "pid": "1653234",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,26",
+          "Dato": "31.10.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "2028",
+          "pid": "1629287",
+          "splits": [
+            "51,53",
+            "59,73"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.06,82",
+          "Dato": "31.10.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1637",
+          "pid": "1629359",
+          "splits": [
+            "1.00,22",
+            "1.06,60"
+          ]
+        },
+        {
+          "Tid": "2.13,72",
+          "Dato": "09.05.2015",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "75",
+          "RA": "741",
+          "pid": "1570807",
+          "splits": [
+            "1.03,15",
+            "1.10,57"
+          ]
+        }
+      ]
+    }
+  ]
+}

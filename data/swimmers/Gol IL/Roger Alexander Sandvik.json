@@ -1,0 +1,55 @@
+{
+  "swimmerId": "24059",
+  "name": "Roger Alexander Sandvik",
+  "club": "Gol IL",
+  "birthYear": 1974,
+  "gender": "male",
+  "timestamp": "2026-08-19T07:47:27.969Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,83",
+          "Dato": "31.01.2016",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1100",
+          "pid": "1760611"
+        },
+        {
+          "Tid": "49,33",
+          "Dato": "31.01.2016",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1902316",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.44,30",
+          "Dato": "31.01.2016",
+          "Sted": "Dokka",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "927",
+          "pid": "1760722",
+          "splits": [
+            "49,33",
+            "54,97"
+          ]
+        }
+      ]
+    }
+  ]
+}

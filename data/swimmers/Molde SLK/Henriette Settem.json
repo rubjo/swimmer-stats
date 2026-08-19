@@ -1,0 +1,114 @@
+{
+  "swimmerId": "22050",
+  "name": "Henriette Settem",
+  "club": "Molde SLK",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-19T09:00:05.775Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.07,99",
+          "Dato": "17.10.2015",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "323",
+          "RA": "2431",
+          "pid": "1620387"
+        },
+        {
+          "Tid": "1.09,09",
+          "Dato": "01.11.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1628797"
+        },
+        {
+          "Tid": "1.11,03",
+          "Dato": "15.11.2015",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1633976"
+        },
+        {
+          "Tid": "1.14,49",
+          "Dato": "17.10.2015",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1704099",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.19,62",
+          "Dato": "01.11.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1697609",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.49,23",
+          "Dato": "17.10.2015",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "271",
+          "RA": "2109",
+          "pid": "1620504",
+          "splits": [
+            "1.14,49",
+            "1.34,74"
+          ]
+        },
+        {
+          "Tid": "2.49,44",
+          "Dato": "01.11.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1628879",
+          "splits": [
+            "1.19,62",
+            "1.29,82"
+          ]
+        },
+        {
+          "Tid": "2.49,95",
+          "Dato": "15.11.2015",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1634101",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

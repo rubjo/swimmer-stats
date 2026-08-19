@@ -1,0 +1,80 @@
+{
+  "swimmerId": "25046",
+  "name": "Elise Bekkelund Skouen",
+  "club": "Stavanger SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-19T09:52:49.090Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,93",
+          "Dato": "30.04.2017",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "167",
+          "RA": "1485",
+          "pid": "2020548"
+        },
+        {
+          "Tid": "42,13",
+          "Dato": "23.10.2016",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "2006",
+          "pid": "1840000"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,80",
+          "Dato": "19.02.2017",
+          "Sted": "Hundvåg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "249",
+          "RA": "1668",
+          "pid": "2129656",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,29",
+          "Dato": "23.10.2016",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1706",
+          "pid": "1839878"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,01",
+          "Dato": "19.02.2017",
+          "Sted": "Hundvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "1363",
+          "pid": "1992153",
+          "splits": [
+            "53,80",
+            "59,21"
+          ]
+        }
+      ]
+    }
+  ]
+}

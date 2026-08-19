@@ -1,0 +1,117 @@
+{
+  "swimmerId": "9085",
+  "name": "Markus Rud Toverud",
+  "club": "Askimsvømmerne",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-19T07:07:10.087Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,15",
+          "Dato": "06.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "1505",
+          "pid": "656051"
+        },
+        {
+          "Tid": "42,79",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "741886",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "44,67",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "719571",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,53",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "116",
+          "RA": "921",
+          "pid": "655513"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,61",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "98",
+          "RA": "1192",
+          "pid": "655723",
+          "splits": [
+            "42,79",
+            "45,82"
+          ]
+        },
+        {
+          "Tid": "1.35,95",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "739787",
+          "splits": [
+            "44,67",
+            "51,28"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.22,82",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "847",
+          "pid": "655217",
+          "splits": [
+            "44,67",
+            "51,28",
+            "53,59",
+            "53,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

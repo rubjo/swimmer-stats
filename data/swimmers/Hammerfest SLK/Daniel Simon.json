@@ -1,0 +1,147 @@
+{
+  "swimmerId": "21491",
+  "name": "Daniel Simon",
+  "club": "Hammerfest SLK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-19T09:11:29.296Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,35",
+          "Dato": "24.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1431",
+          "pid": "1624603"
+        },
+        {
+          "Tid": "40,75",
+          "Dato": "25.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1675388",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,94",
+          "Dato": "25.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "942",
+          "pid": "1624785"
+        },
+        {
+          "Tid": "46,19",
+          "Dato": "25.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1659301",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "47,29",
+          "Dato": "24.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1669347",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,03",
+          "Dato": "25.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1405",
+          "pid": "1624826",
+          "splits": [
+            "40,75",
+            "47,28"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.39,88",
+          "Dato": "25.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "127",
+          "RA": "844",
+          "pid": "1624714",
+          "splits": [
+            "46,19",
+            "53,69"
+          ]
+        },
+        {
+          "Tid": "1.43,90",
+          "Dato": "24.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1714290",
+          "splits": [
+            "47,29",
+            "56,61"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.38,99",
+          "Dato": "24.10.2015",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "107",
+          "RA": "672",
+          "pid": "1624556",
+          "splits": [
+            "47,29",
+            "56,61",
+            "57,16",
+            "57,93"
+          ]
+        }
+      ]
+    }
+  ]
+}

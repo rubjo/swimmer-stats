@@ -1,0 +1,100 @@
+{
+  "swimmerId": "33433",
+  "name": "Tomine Skoie Skaug",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-19T09:19:23.114Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,43",
+          "Dato": "13.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "388",
+          "RA": "2431",
+          "pid": "2644309"
+        },
+        {
+          "Tid": "55,43",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2645305",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,70",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "366",
+          "RA": "2170",
+          "pid": "2644068"
+        },
+        {
+          "Tid": "1.14,10",
+          "Dato": "13.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2644809",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.06,09",
+          "Dato": "12.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "343",
+          "RA": "2130",
+          "pid": "2645304",
+          "splits": [
+            "55,43",
+            "1.10,66"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.36,57",
+          "Dato": "13.10.2019",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "325",
+          "RA": "1808",
+          "pid": "2644808",
+          "splits": [
+            "1.14,10",
+            "1.22,47"
+          ]
+        }
+      ]
+    }
+  ]
+}

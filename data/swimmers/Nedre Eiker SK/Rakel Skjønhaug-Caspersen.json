@@ -1,0 +1,55 @@
+{
+  "swimmerId": "32911",
+  "name": "Rakel Skjønhaug-Caspersen",
+  "club": "Nedre Eiker SK",
+  "birthYear": 2006,
+  "gender": "female",
+  "timestamp": "2026-08-19T09:34:38.245Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,58",
+          "Dato": "06.04.2019",
+          "Sted": "Furumo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "316",
+          "RA": "2185",
+          "pid": "2552393"
+        },
+        {
+          "Tid": "48,53",
+          "Dato": "06.04.2019",
+          "Sted": "Furumo",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2552401",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,16",
+          "Dato": "06.04.2019",
+          "Sted": "Furumo",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "295",
+          "RA": "2012",
+          "pid": "2552400",
+          "splits": [
+            "48,53",
+            "58,63"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "swimmerId": "53359",
+  "name": "Erik Sjøflot",
+  "club": "Brønnøysund IL",
+  "birthYear": 2012,
+  "gender": "male",
+  "timestamp": "2026-08-19T10:02:58.953Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,14",
+          "Dato": "23.11.2025",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "265",
+          "RA": "2000",
+          "pid": "3824047"
+        },
+        {
+          "Tid": "59,66",
+          "Dato": "22.11.2025",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3824062",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.58,69",
+          "Dato": "22.11.2025",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3824061",
+          "splits": [
+            "59,66",
+            "59,03"
+          ]
+        }
+      ]
+    }
+  ]
+}

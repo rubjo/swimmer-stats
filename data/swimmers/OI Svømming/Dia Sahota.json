@@ -1,0 +1,60 @@
+{
+  "swimmerId": "24039",
+  "name": "Dia Sahota",
+  "club": "OI Svømming",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-19T07:40:09.903Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.04,72",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "180",
+          "RA": "1256",
+          "pid": "1794384"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.09,31",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "153",
+          "RA": "959",
+          "pid": "1963483",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.23,32",
+          "Dato": "22.05.2016",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "126",
+          "RA": "755",
+          "pid": "1866931",
+          "splits": [
+            "1.09,31",
+            "1.14,01"
+          ]
+        }
+      ]
+    }
+  ]
+}

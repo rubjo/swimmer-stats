@@ -1,0 +1,112 @@
+{
+  "swimmerId": "19109",
+  "name": "Emma Olsen",
+  "club": "Lyngdal IL",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-19T05:41:29.137Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,88",
+          "Dato": "23.03.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "142",
+          "RA": "1785",
+          "pid": "1347680"
+        },
+        {
+          "Tid": "41,52",
+          "Dato": "07.12.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1423421"
+        },
+        {
+          "Tid": "45,38",
+          "Dato": "22.11.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1485136",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,54",
+          "Dato": "07.12.2014",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "1359",
+          "pid": "1422317"
+        },
+        {
+          "Tid": "50,99",
+          "Dato": "23.03.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1347867"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,28",
+          "Dato": "22.11.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "180",
+          "RA": "1754",
+          "pid": "1472276",
+          "splits": [
+            "45,38",
+            "52,90"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.05,26",
+          "Dato": "22.11.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "60",
+          "RA": "1053",
+          "pid": "1418618",
+          "splits": [
+            "45,38",
+            "52,90",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

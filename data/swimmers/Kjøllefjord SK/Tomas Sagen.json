@@ -1,0 +1,55 @@
+{
+  "swimmerId": "9578",
+  "name": "Tomas Sagen",
+  "club": "Kjøllefjord SK",
+  "birthYear": 1966,
+  "gender": "male",
+  "timestamp": "2026-08-19T07:49:32.357Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "43,18",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "597",
+          "pid": "353626"
+        },
+        {
+          "Tid": "44,05",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "408088",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,10",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "504",
+          "pid": "353002",
+          "splits": [
+            "44,05",
+            "53,05"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "swimmerId": "6204",
+  "name": "Knut Egil Rød",
+  "club": "Malvik IL",
+  "birthYear": 1972,
+  "gender": "male",
+  "timestamp": "2026-08-19T06:27:19.390Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "28,54",
+          "Dato": "02.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "427",
+          "pid": "111989"
+        },
+        {
+          "Tid": "28,77",
+          "Dato": "18.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "456",
+          "pid": "288216"
+        },
+        {
+          "Tid": "30,45",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "180334",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,18",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "82",
+          "RA": "384",
+          "pid": "180335",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.05,29",
+          "Dato": "16.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "458",
+          "pid": "316075",
+          "splits": []
+        },
+        {
+          "Tid": "1.05,67",
+          "Dato": "31.03.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "470",
+          "pid": "111249",
+          "splits": [
+            "30,45",
+            "35,22"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.22,44",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "226",
+          "pid": "111557",
+          "splits": [
+            "39,18",
+            "43,26"
+          ]
+        },
+        {
+          "Tid": "1.23,21",
+          "Dato": "17.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "261",
+          "pid": "293889",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.35,39",
+          "Dato": "17.03.2007",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "399",
+          "pid": "327252",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

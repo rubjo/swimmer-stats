@@ -1,0 +1,55 @@
+{
+  "swimmerId": "12887",
+  "name": "Sølve Schau",
+  "club": "Larvik SK",
+  "birthYear": 1962,
+  "gender": "male",
+  "timestamp": "2026-08-19T08:46:28.266Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,45",
+          "Dato": "02.04.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "638",
+          "pid": "798773"
+        },
+        {
+          "Tid": "46,87",
+          "Dato": "01.04.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "880863",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.38,19",
+          "Dato": "01.04.2011",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "82",
+          "RA": "638",
+          "pid": "798277",
+          "splits": [
+            "46,87",
+            "51,32"
+          ]
+        }
+      ]
+    }
+  ]
+}

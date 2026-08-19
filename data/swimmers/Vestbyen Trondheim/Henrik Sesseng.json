@@ -1,0 +1,131 @@
+{
+  "swimmerId": "21247",
+  "name": "Henrik Sesseng",
+  "club": "Vestbyen Trondheim",
+  "birthYear": 2004,
+  "gender": "male",
+  "timestamp": "2026-08-19T08:17:30.086Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,65",
+          "Dato": "16.11.2019",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "179",
+          "RA": "1159",
+          "pid": "2685325"
+        },
+        {
+          "Tid": "33,75",
+          "Dato": "27.04.2019",
+          "Sted": "Husebybadet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2569020"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,73",
+          "Dato": "15.09.2018",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "181",
+          "RA": "991",
+          "pid": "2364112",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "44,76",
+          "Dato": "29.09.2019",
+          "Sted": "Husebybadet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "180",
+          "RA": "989",
+          "pid": "2637506",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,84",
+          "Dato": "29.09.2019",
+          "Sted": "Husebybadet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "158",
+          "RA": "822",
+          "pid": "2637507",
+          "splits": [
+            "44,76",
+            "53,08"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.38,45",
+          "Dato": "15.09.2018",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "165",
+          "RA": "853",
+          "pid": "2364111",
+          "splits": [
+            "44,73",
+            "53,72"
+          ]
+        },
+        {
+          "Tid": "1.38,47",
+          "Dato": "16.11.2019",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2685485",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.36,48",
+          "Dato": "29.09.2019",
+          "Sted": "Husebybadet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "732",
+          "pid": "2637505",
+          "splits": [
+            "44,76",
+            "53,08",
+            "57,91",
+            "1.00,73"
+          ]
+        }
+      ]
+    }
+  ]
+}

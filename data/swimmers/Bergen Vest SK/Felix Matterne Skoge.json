@@ -1,0 +1,55 @@
+{
+  "swimmerId": "43449",
+  "name": "Felix Matterne Skoge",
+  "club": "Bergen Vest SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-08-19T10:41:32.519Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.01,54",
+          "Dato": "02.02.2025",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2104",
+          "pid": "3624550"
+        },
+        {
+          "Tid": "1.01,62",
+          "Dato": "02.02.2025",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3624552",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.07,78",
+          "Dato": "02.02.2025",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3624551",
+          "splits": [
+            "1.01,62",
+            "1.06,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

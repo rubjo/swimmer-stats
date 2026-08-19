@@ -1,0 +1,85 @@
+{
+  "swimmerId": "17998",
+  "name": "Marielle Schjølberg",
+  "club": "Elverum Svømming",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-19T08:34:14.466Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,04",
+          "Dato": "08.12.2012",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "257",
+          "RA": "2130",
+          "pid": "1025851"
+        },
+        {
+          "Tid": "50,97",
+          "Dato": "08.12.2012",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1045626",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,53",
+          "Dato": "08.12.2012",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1386",
+          "pid": "1025458"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.01,42",
+          "Dato": "08.12.2012",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "258",
+          "RA": "1878",
+          "pid": "1025629"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,76",
+          "Dato": "08.12.2012",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "1834",
+          "pid": "1025687",
+          "splits": [
+            "50,97",
+            "56,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

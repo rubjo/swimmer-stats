@@ -1,0 +1,60 @@
+{
+  "swimmerId": "14176",
+  "name": "Julie Helen Richman",
+  "club": "Kristiansund SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-19T07:01:11.611Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "55,64",
+          "Dato": "30.10.2010",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "282",
+          "RA": "1987",
+          "pid": "685363"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.14,32",
+          "Dato": "30.10.2010",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "262",
+          "RA": "1701",
+          "pid": "731803",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.40,84",
+          "Dato": "30.10.2010",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1364",
+          "pid": "685291",
+          "splits": [
+            "1.14,32",
+            "1.26,52"
+          ]
+        }
+      ]
+    }
+  ]
+}

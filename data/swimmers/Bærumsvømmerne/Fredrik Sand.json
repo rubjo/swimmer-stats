@@ -1,0 +1,117 @@
+{
+  "swimmerId": "9593",
+  "name": "Fredrik Sand",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1979,
+  "gender": "male",
+  "timestamp": "2026-08-19T07:40:46.906Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,52",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "562",
+          "pid": "353165"
+        },
+        {
+          "Tid": "39,53",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "408089",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.08,14",
+          "Dato": "04.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "561",
+          "pid": "352644",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "1.22,08",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "408090",
+          "splits": [
+            "39,53",
+            "42,55"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.50,35",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "44",
+          "RA": "521",
+          "pid": "408091",
+          "splits": [
+            "39,53",
+            "42,55",
+            "43,86",
+            "44,41"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "5.47,12",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "447",
+          "pid": "352839",
+          "splits": [
+            "39,53",
+            "42,55",
+            "43,86",
+            "44,41",
+            "44,60",
+            "45,52",
+            "44,65",
+            "42,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

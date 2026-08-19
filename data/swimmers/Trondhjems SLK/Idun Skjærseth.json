@@ -1,0 +1,157 @@
+{
+  "swimmerId": "15600",
+  "name": "Idun Skjærseth",
+  "club": "Trondhjems SLK",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-19T09:56:04.300Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "55,57",
+          "Dato": "18.06.2011",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "336",
+          "RA": "2060",
+          "pid": "898592"
+        },
+        {
+          "Tid": "55,79",
+          "Dato": "03.12.2011",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "922501",
+          "partOf": "50m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,71",
+          "Dato": "18.06.2011",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "301",
+          "RA": "1760",
+          "pid": "898747",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.50,26",
+          "Dato": "03.12.2011",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "231",
+          "RA": "1656",
+          "pid": "922500",
+          "splits": []
+        },
+        {
+          "Tid": "2.01,01",
+          "Dato": "18.06.2011",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "898593",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,03",
+          "Dato": "18.06.2011",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "229",
+          "RA": "1439",
+          "pid": "898746",
+          "splits": [
+            "1.05,71",
+            "1.08,32"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.20,98",
+          "Dato": "03.12.2011",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "968",
+          "pid": "922502",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.30,74",
+          "Dato": "18.06.2011",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "951",
+          "pid": "818856",
+          "splits": [
+            "1.05,71",
+            "1.08,32",
+            "1.09,50",
+            "1.07,21"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.42,77",
+          "Dato": "18.06.2011",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "858",
+          "pid": "818632",
+          "splits": [
+            "1.06,30",
+            "1.11,38",
+            "1.12,95",
+            "1.12,14"
+          ]
+        }
+      ]
+    }
+  ]
+}

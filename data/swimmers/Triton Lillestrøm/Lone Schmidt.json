@@ -1,0 +1,120 @@
+{
+  "swimmerId": "33232",
+  "name": "Lone Schmidt",
+  "club": "Triton Lillestrøm",
+  "birthYear": 2009,
+  "gender": "female",
+  "timestamp": "2026-08-19T08:22:03.231Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,41",
+          "Dato": "02.02.2020",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1757",
+          "pid": "2736403"
+        },
+        {
+          "Tid": "49,66",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2384",
+          "pid": "2667638"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,55",
+          "Dato": "02.02.2020",
+          "Sted": "Rælingen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "1311",
+          "pid": "2736366"
+        },
+        {
+          "Tid": "1.01,01",
+          "Dato": "11.01.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2713545",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.02,16",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "2088",
+          "pid": "2668595",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "59,76",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1576",
+          "pid": "2667288"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.06,67",
+          "Dato": "11.01.2020",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "1274",
+          "pid": "2713544",
+          "splits": [
+            "1.01,01",
+            "1.05,66"
+          ]
+        },
+        {
+          "Tid": "2.14,98",
+          "Dato": "02.11.2019",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1751",
+          "pid": "2668594",
+          "splits": [
+            "1.02,16",
+            "1.12,82"
+          ]
+        }
+      ]
+    }
+  ]
+}
