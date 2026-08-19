@@ -5,6 +5,16 @@ on:
     - cron: "0 * * * *" # every hour
   workflow_dispatch: # manual trigger
 
+# Concurrency belongs at the WORKFLOW level so the group scopes the whole run.
+# Only ONE Scrape run executes at a time; a run scheduled while one is in
+# progress is queued and starts after it finishes (cancel-in-progress: false).
+# Putting this on the matrix `scrape` job instead made all 8 shards share one
+# group, so each starting shard evicted the others ("higher priority waiting
+# request for scrape-queue") — only one shard survived.
+concurrency:
+  group: scrape-queue
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pages: write
@@ -39,12 +49,6 @@ jobs:
         shard: [0, 1, 2, 3, 4, 5, 6, 7]
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    # Concurrency: only ONE scrape workflow can run at a time.
-    # If a new one is scheduled while scraping is in progress, it will be queued
-    # and will run after the current one completes (cancel-in-progress: false).
-    concurrency:
-      group: scrape-queue
-      cancel-in-progress: false
     defaults:
       run:
         working-directory: ./
