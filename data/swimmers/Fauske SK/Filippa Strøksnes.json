@@ -1,0 +1,55 @@
+{
+  "swimmerId": "53431",
+  "name": "Filippa Strøksnes",
+  "club": "Fauske SK",
+  "birthYear": 2013,
+  "gender": "female",
+  "timestamp": "2026-08-19T19:01:14.685Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,30",
+          "Dato": "23.11.2025",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3824055"
+        },
+        {
+          "Tid": "52,09",
+          "Dato": "22.11.2025",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3824066",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.58,48",
+          "Dato": "22.11.2025",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "307",
+          "RA": "1930",
+          "pid": "3824065",
+          "splits": [
+            "52,09",
+            "1.06,39"
+          ]
+        }
+      ]
+    }
+  ]
+}

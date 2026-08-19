@@ -1,0 +1,55 @@
+{
+  "swimmerId": "37588",
+  "name": "Ingrid Aslaksen Svardal",
+  "club": "Åstveit SK",
+  "birthYear": 2010,
+  "gender": "female",
+  "timestamp": "2026-08-19T20:34:58.925Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,15",
+          "Dato": "22.10.2023",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3327386"
+        },
+        {
+          "Tid": "43,41",
+          "Dato": "21.10.2023",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3327413",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,41",
+          "Dato": "21.10.2023",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3327412",
+          "splits": [
+            "43,41",
+            "50,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

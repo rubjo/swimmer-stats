@@ -1,0 +1,125 @@
+{
+  "swimmerId": "31728",
+  "name": "Ådne Sætre",
+  "club": "Ørsta SK",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-19T20:22:06.438Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,71",
+          "Dato": "02.12.2018",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "255",
+          "RA": "1900",
+          "pid": "2451447"
+        },
+        {
+          "Tid": "47,16",
+          "Dato": "02.02.2019",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "296",
+          "RA": "2043",
+          "pid": "2568410",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,19",
+          "Dato": "02.02.2019",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "213",
+          "RA": "1310",
+          "pid": "2568399"
+        },
+        {
+          "Tid": "54,40",
+          "Dato": "02.03.2019",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2568435",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,58",
+          "Dato": "02.02.2019",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2568404",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,38",
+          "Dato": "02.02.2019",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "273",
+          "RA": "1742",
+          "pid": "2568409",
+          "splits": [
+            "47,16",
+            "57,22"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,39",
+          "Dato": "02.02.2019",
+          "Sted": "Brattvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "230",
+          "RA": "1285",
+          "pid": "2568403",
+          "splits": [
+            "57,58",
+            "1.03,81"
+          ]
+        },
+        {
+          "Tid": "2.01,93",
+          "Dato": "02.03.2019",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2568434",
+          "splits": [
+            "54,40",
+            "1.07,53"
+          ]
+        }
+      ]
+    }
+  ]
+}

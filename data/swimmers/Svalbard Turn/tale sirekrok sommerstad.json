@@ -1,0 +1,85 @@
+{
+  "swimmerId": "22299",
+  "name": "tale sirekrok sommerstad",
+  "club": "Svalbard Turn",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-19T17:34:47.905Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.06,65",
+          "Dato": "14.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "319",
+          "RA": "2426",
+          "pid": "1541685"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.12,32",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1646",
+          "pid": "1541925"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.12,40",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "290",
+          "RA": "2031",
+          "pid": "1675537",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.13,39",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1542122"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.32,90",
+          "Dato": "15.02.2015",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "247",
+          "RA": "1759",
+          "pid": "1541973",
+          "splits": [
+            "1.12,40",
+            "1.20,50"
+          ]
+        }
+      ]
+    }
+  ]
+}

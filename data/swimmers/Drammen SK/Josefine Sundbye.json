@@ -1,0 +1,100 @@
+{
+  "swimmerId": "16357",
+  "name": "Josefine Sundbye",
+  "club": "Drammen SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-19T20:35:05.726Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,58",
+          "Dato": "28.04.2012",
+          "Sted": "Drammen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "84",
+          "RA": "577",
+          "pid": "952614"
+        },
+        {
+          "Tid": "38,59",
+          "Dato": "15.01.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "260",
+          "RA": "1472",
+          "pid": "943392"
+        },
+        {
+          "Tid": "39,48",
+          "Dato": "15.01.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1103944",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,23",
+          "Dato": "15.01.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "301",
+          "RA": "1558",
+          "pid": "1089298",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,37",
+          "Dato": "15.01.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "1252",
+          "pid": "943098",
+          "splits": [
+            "39,48",
+            "46,89"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.59,39",
+          "Dato": "15.01.2012",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "281",
+          "RA": "1415",
+          "pid": "943369",
+          "splits": [
+            "54,23",
+            "1.05,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

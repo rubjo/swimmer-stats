@@ -1,0 +1,70 @@
+{
+  "swimmerId": "21250",
+  "name": "Mathea Svensson",
+  "club": "Kongstensvømmerne",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-19T20:56:50.748Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,03",
+          "Dato": "21.09.2014",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "280",
+          "RA": "1701",
+          "pid": "1388662"
+        },
+        {
+          "Tid": "41,70",
+          "Dato": "21.09.2014",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1443086",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,00",
+          "Dato": "21.09.2014",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "1362",
+          "pid": "1388590"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,14",
+          "Dato": "21.09.2014",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "273",
+          "RA": "1576",
+          "pid": "1389144",
+          "splits": [
+            "41,70",
+            "50,44"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "swimmerId": "6227",
+  "name": "Ola Slåtten",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1947,
+  "gender": "male",
+  "timestamp": "2026-08-19T16:36:59.512Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,01",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "899",
+          "pid": "353167"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,42",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "417",
+          "pid": "353624"
+        },
+        {
+          "Tid": "39,79",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "89",
+          "RA": "426",
+          "pid": "111753"
+        },
+        {
+          "Tid": "45,22",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "408069",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,60",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "138485",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.31,50",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "66",
+          "RA": "408",
+          "pid": "353012",
+          "splits": [
+            "45,22",
+            "46,28"
+          ]
+        },
+        {
+          "Tid": "1.33,66",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "67",
+          "RA": "439",
+          "pid": "111538",
+          "splits": [
+            "46,60",
+            "47,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

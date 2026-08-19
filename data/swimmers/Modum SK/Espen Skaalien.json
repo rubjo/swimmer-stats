@@ -1,0 +1,55 @@
+{
+  "swimmerId": "903",
+  "name": "Espen Skaalien",
+  "club": "Modum SK",
+  "birthYear": 1980,
+  "gender": "male",
+  "timestamp": "2026-08-19T16:28:52.401Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "34,04",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "40",
+          "RA": "135",
+          "pid": "156295",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "35,19",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "111765"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.14,20",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "29",
+          "RA": "103",
+          "pid": "111559",
+          "splits": [
+            "34,04",
+            "40,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

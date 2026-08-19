@@ -1,0 +1,70 @@
+{
+  "swimmerId": "12597",
+  "name": "Christian Sundstrøm",
+  "club": "Moss SK",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-19T20:18:42.179Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,50",
+          "Dato": "14.11.2010",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "1174",
+          "pid": "687196"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,14",
+          "Dato": "14.11.2010",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "606",
+          "pid": "687447"
+        },
+        {
+          "Tid": "45,66",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "698125",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.36,18",
+          "Dato": "05.06.2010",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "61",
+          "RA": "589",
+          "pid": "655427",
+          "splits": [
+            "45,66",
+            "50,52"
+          ]
+        }
+      ]
+    }
+  ]
+}

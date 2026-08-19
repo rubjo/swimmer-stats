@@ -1,0 +1,60 @@
+{
+  "swimmerId": "19063",
+  "name": "Dennis Sørensen",
+  "club": "Sandefjord SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-19T21:01:12.413Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,18",
+          "Dato": "04.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "252",
+          "RA": "1801",
+          "pid": "1158390"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.06,16",
+          "Dato": "04.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "238",
+          "RA": "1557",
+          "pid": "1246637",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.24,16",
+          "Dato": "04.05.2013",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1311",
+          "pid": "1158665",
+          "splits": [
+            "1.06,16",
+            "1.18,00"
+          ]
+        }
+      ]
+    }
+  ]
+}

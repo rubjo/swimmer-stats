@@ -1,0 +1,70 @@
+{
+  "swimmerId": "23883",
+  "name": "Ulrik Sørnes",
+  "club": "Tverlandet IL",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-19T21:13:02.022Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,62",
+          "Dato": "09.01.2016",
+          "Sted": "Tverlandet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "266",
+          "RA": "2083",
+          "pid": "1744636"
+        },
+        {
+          "Tid": "57,84",
+          "Dato": "10.01.2016",
+          "Sted": "Tverlandet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1868408",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,75",
+          "Dato": "09.01.2016",
+          "Sted": "Tverlandet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "233",
+          "RA": "1678",
+          "pid": "1744542"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.02,59",
+          "Dato": "10.01.2016",
+          "Sted": "Tverlandet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "246",
+          "RA": "1791",
+          "pid": "1744860",
+          "splits": [
+            "57,84",
+            "1.04,75"
+          ]
+        }
+      ]
+    }
+  ]
+}

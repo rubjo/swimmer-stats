@@ -1,0 +1,55 @@
+{
+  "swimmerId": "38078",
+  "name": "Kristin Daniela Solberg",
+  "club": "Froland SLG",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-19T16:49:31.234Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "47,14",
+          "Dato": "11.02.2023",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3169545"
+        },
+        {
+          "Tid": "50,36",
+          "Dato": "16.10.2021",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2891401",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,10",
+          "Dato": "16.10.2021",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2891400",
+          "splits": [
+            "50,36",
+            "1.05,74"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "swimmerId": "22233",
+  "name": "Gita Soltani",
+  "club": "Kirkenes SK",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-19T17:07:00.002Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "51,33",
+          "Dato": "31.05.2015",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "392",
+          "RA": "2347",
+          "pid": "1578225"
+        },
+        {
+          "Tid": "55,00",
+          "Dato": "25.01.2015",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1540612"
+        },
+        {
+          "Tid": "56,43",
+          "Dato": "07.03.2015",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1549790"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,25",
+          "Dato": "30.05.2015",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "288",
+          "RA": "1625",
+          "pid": "1708271",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,75",
+          "Dato": "31.05.2015",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1578055"
+        },
+        {
+          "Tid": "58,81",
+          "Dato": "08.03.2015",
+          "Sted": "Karasjok",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1550005"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,30",
+          "Dato": "30.05.2015",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "282",
+          "RA": "1529",
+          "pid": "1577869",
+          "splits": [
+            "54,25",
+            "1.07,05"
+          ]
+        }
+      ]
+    }
+  ]
+}

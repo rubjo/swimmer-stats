@@ -1,0 +1,55 @@
+{
+  "swimmerId": "33140",
+  "name": "Anna Skånhaug",
+  "club": "Skånland SK",
+  "birthYear": 2006,
+  "gender": "female",
+  "timestamp": "2026-08-19T16:32:14.610Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,09",
+          "Dato": "15.06.2019",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "318",
+          "RA": "2220",
+          "pid": "2601666"
+        },
+        {
+          "Tid": "47,66",
+          "Dato": "16.06.2019",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2601689",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.44,48",
+          "Dato": "16.06.2019",
+          "Sted": "Fauske",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "294",
+          "RA": "1985",
+          "pid": "2601688",
+          "splits": [
+            "47,66",
+            "56,82"
+          ]
+        }
+      ]
+    }
+  ]
+}

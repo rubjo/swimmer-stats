@@ -1,0 +1,57 @@
+{
+  "swimmerId": "36172",
+  "name": "Karoline Strømhaug Jensen",
+  "club": "Kirkenes SK",
+  "birthYear": 2010,
+  "gender": "female",
+  "timestamp": "2026-08-19T19:35:02.793Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "57,16",
+          "Dato": "14.03.2021",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "1746",
+          "pid": "2808496"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.21,57",
+          "Dato": "14.03.2021",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2808521",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "2.21,57",
+          "Dato": "14.03.2021",
+          "Sted": "Kirkenes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2808522",
+          "partOf": "100m Bryst"
+        }
+      ]
+    }
+  ]
+}

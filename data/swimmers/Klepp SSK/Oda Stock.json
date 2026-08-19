@@ -1,0 +1,85 @@
+{
+  "swimmerId": "23084",
+  "name": "Oda Stock",
+  "club": "Klepp SSK",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-19T18:26:43.038Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,49",
+          "Dato": "20.11.2016",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "324",
+          "RA": "2113",
+          "pid": "1854422"
+        },
+        {
+          "Tid": "1.07,17",
+          "Dato": "13.06.2015",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "321",
+          "RA": "2428",
+          "pid": "1591036"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,37",
+          "Dato": "20.11.2016",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "1453",
+          "pid": "1854750"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,86",
+          "Dato": "14.11.2015",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "285",
+          "RA": "2011",
+          "pid": "1671926",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.22,01",
+          "Dato": "14.11.2015",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "242",
+          "RA": "1740",
+          "pid": "1633026",
+          "splits": [
+            "1.07,86",
+            "1.14,15"
+          ]
+        }
+      ]
+    }
+  ]
+}

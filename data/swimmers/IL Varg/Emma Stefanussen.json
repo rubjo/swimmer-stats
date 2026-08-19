@@ -1,0 +1,100 @@
+{
+  "swimmerId": "15480",
+  "name": "Emma Stefanussen",
+  "club": "IL Varg",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-19T18:18:13.615Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,83",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1945",
+          "pid": "1021040"
+        },
+        {
+          "Tid": "44,23",
+          "Dato": "23.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "999885"
+        },
+        {
+          "Tid": "49,36",
+          "Dato": "03.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "979427"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,32",
+          "Dato": "23.09.2012",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1404",
+          "pid": "1000096"
+        },
+        {
+          "Tid": "52,89",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1097232",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,73",
+          "Dato": "03.06.2012",
+          "Sted": "Askim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "979156"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.47,79",
+          "Dato": "17.11.2012",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "1048",
+          "pid": "1021209",
+          "splits": [
+            "52,89",
+            "54,90"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "swimmerId": "42795",
+  "name": "Eray Abdullah Tatu",
+  "club": "Moss SK",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-19T21:25:34.792Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,27",
+          "Dato": "26.03.2023",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1391",
+          "pid": "3209356"
+        },
+        {
+          "Tid": "40,37",
+          "Dato": "11.02.2023",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3166990",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,66",
+          "Dato": "11.02.2023",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1295",
+          "pid": "3166989",
+          "splits": [
+            "40,37",
+            "45,29"
+          ]
+        }
+      ]
+    }
+  ]
+}

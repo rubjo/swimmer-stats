@@ -1,0 +1,85 @@
+{
+  "swimmerId": "31465",
+  "name": "Siri Solveig Yi Standnes",
+  "club": "Delfana",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-19T17:23:45.009Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,70",
+          "Dato": "20.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "340",
+          "RA": "2159",
+          "pid": "2462824"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,48",
+          "Dato": "21.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "273",
+          "RA": "1724",
+          "pid": "2462821"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,48",
+          "Dato": "20.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "305",
+          "RA": "1799",
+          "pid": "2462823"
+        },
+        {
+          "Tid": "55,57",
+          "Dato": "21.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2462826",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,21",
+          "Dato": "21.10.2018",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "288",
+          "RA": "1685",
+          "pid": "2462825",
+          "splits": [
+            "55,57",
+            "1.09,64"
+          ]
+        }
+      ]
+    }
+  ]
+}

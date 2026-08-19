@@ -1,0 +1,79 @@
+{
+  "swimmerId": "33105",
+  "name": "Ida Linnéa Svedin",
+  "club": "Nordreisa IL",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-19T20:39:54.458Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,99",
+          "Dato": "25.05.2019",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "354",
+          "RA": "2216",
+          "pid": "2576640"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,05",
+          "Dato": "25.05.2019",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "225",
+          "RA": "1516",
+          "pid": "2576833",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.43,76",
+          "Dato": "26.05.2019",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "319",
+          "RA": "1974",
+          "pid": "2576980",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,61",
+          "Dato": "25.05.2019",
+          "Sted": "Alta",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "202",
+          "RA": "1274",
+          "pid": "2576832",
+          "splits": [
+            "51,05",
+            "59,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

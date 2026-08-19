@@ -1,0 +1,77 @@
+{
+  "swimmerId": "10483",
+  "name": "Svein Odvar Spanien",
+  "club": "Larvik HIL",
+  "birthYear": 1969,
+  "gender": "male",
+  "timestamp": "2026-08-19T17:13:09.231Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,77",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "1071",
+          "pid": "390301"
+        },
+        {
+          "Tid": "54,93",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "420593",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.59,94",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "87",
+          "RA": "855",
+          "pid": "420592",
+          "splits": [
+            "54,93",
+            "1.05,01"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.26,00",
+          "Dato": "22.11.2008",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "612",
+          "pid": "390075",
+          "splits": [
+            "54,93",
+            "1.05,01",
+            "1.13,18",
+            "1.12,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

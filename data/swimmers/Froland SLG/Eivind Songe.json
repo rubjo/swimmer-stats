@@ -1,0 +1,77 @@
+{
+  "swimmerId": "35001",
+  "name": "Eivind Songe",
+  "club": "Froland SLG",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-19T17:12:49.522Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,64",
+          "Dato": "16.10.2021",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2891709",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "38,13",
+          "Dato": "01.03.2020",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1159",
+          "pid": "2759012"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.21,97",
+          "Dato": "16.10.2021",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2891710",
+          "splits": [
+            "37,64",
+            "44,33"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.57,80",
+          "Dato": "16.10.2021",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2891708",
+          "splits": [
+            "37,64",
+            "44,33",
+            "47,87",
+            "47,96"
+          ]
+        }
+      ]
+    }
+  ]
+}
