@@ -1,0 +1,102 @@
+{
+  "swimmerId": "52711",
+  "name": "Endre Wetting",
+  "club": "Tromsø SK",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-08-20T16:36:46.589Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,14",
+          "Dato": "27.09.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "1830",
+          "pid": "3757724"
+        },
+        {
+          "Tid": "45,53",
+          "Dato": "28.09.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3758736"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,23",
+          "Dato": "27.09.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "1376",
+          "pid": "3757618"
+        },
+        {
+          "Tid": "55,87",
+          "Dato": "28.09.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3758258",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,53",
+          "Dato": "28.09.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "89",
+          "RA": "1254",
+          "pid": "3758259",
+          "splits": [
+            "55,87",
+            "1.06,66"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.17,16",
+          "Dato": "28.09.2025",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "66",
+          "RA": "959",
+          "pid": "3758257",
+          "splits": [
+            "55,87",
+            "1.06,66",
+            "1.07,67",
+            "1.06,96"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "swimmerId": "23943",
+  "name": "Oleg Zhilyaev",
+  "club": "Varodd SK",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:43:33.807Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,54",
+          "Dato": "17.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "1601",
+          "pid": "1826640"
+        },
+        {
+          "Tid": "40,35",
+          "Dato": "18.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1889140",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,66",
+          "Dato": "17.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "172",
+          "RA": "1189",
+          "pid": "1825790"
+        },
+        {
+          "Tid": "52,47",
+          "Dato": "18.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1946863",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,15",
+          "Dato": "18.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "219",
+          "RA": "1522",
+          "pid": "1827100",
+          "splits": [
+            "40,35",
+            "52,80"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,91",
+          "Dato": "18.09.2016",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1141",
+          "pid": "1827398",
+          "splits": [
+            "52,47",
+            "1.02,44"
+          ]
+        }
+      ]
+    }
+  ]
+}

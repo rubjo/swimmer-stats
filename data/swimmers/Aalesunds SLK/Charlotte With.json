@@ -1,0 +1,135 @@
+{
+  "swimmerId": "21227",
+  "name": "Charlotte With",
+  "club": "Aalesunds SLK",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-20T17:17:32.237Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,96",
+          "Dato": "07.03.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "85",
+          "RA": "706",
+          "pid": "1676436"
+        },
+        {
+          "Tid": "36,70",
+          "Dato": "08.03.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1552241"
+        },
+        {
+          "Tid": "37,87",
+          "Dato": "19.04.2015",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1566025"
+        },
+        {
+          "Tid": "40,44",
+          "Dato": "08.03.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1703751",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,66",
+          "Dato": "07.03.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "275",
+          "RA": "1512",
+          "pid": "1663906",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,69",
+          "Dato": "19.04.2015",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1718228",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,70",
+          "Dato": "08.03.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "228",
+          "RA": "1381",
+          "pid": "1552534",
+          "splits": [
+            "40,44",
+            "45,26"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,25",
+          "Dato": "07.03.2015",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "1280",
+          "pid": "1551874",
+          "splits": [
+            "52,66",
+            "58,59"
+          ]
+        },
+        {
+          "Tid": "1.51,75",
+          "Dato": "19.04.2015",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1566086",
+          "splits": [
+            "54,69",
+            "57,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

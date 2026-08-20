@@ -1,0 +1,55 @@
+{
+  "swimmerId": "36871",
+  "name": "Arn Berg Vennatrø",
+  "club": "Stjørdals-Blink IL",
+  "birthYear": 2010,
+  "gender": null,
+  "timestamp": "2026-08-20T14:52:05.221Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,97",
+          "Dato": "20.06.2021",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2841139"
+        },
+        {
+          "Tid": "47,65",
+          "Dato": "20.06.2021",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2841161",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.46,14",
+          "Dato": "20.06.2021",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2841160",
+          "splits": [
+            "47,65",
+            "58,49"
+          ]
+        }
+      ]
+    }
+  ]
+}

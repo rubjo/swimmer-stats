@@ -1,0 +1,85 @@
+{
+  "swimmerId": "23387",
+  "name": "Gabriel Østem",
+  "club": "Lund SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:32:26.349Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,20",
+          "Dato": "17.10.2015",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "190",
+          "RA": "1352",
+          "pid": "1622768"
+        },
+        {
+          "Tid": "38,28",
+          "Dato": "25.10.2015",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1687600",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,74",
+          "Dato": "17.10.2015",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "136",
+          "RA": "836",
+          "pid": "1622653"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,76",
+          "Dato": "17.10.2015",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1034",
+          "pid": "1622375"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,19",
+          "Dato": "25.10.2015",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1342",
+          "pid": "1626476",
+          "splits": [
+            "38,28",
+            "46,91"
+          ]
+        }
+      ]
+    }
+  ]
+}

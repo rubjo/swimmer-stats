@@ -1,0 +1,105 @@
+{
+  "swimmerId": "50813",
+  "name": "Amalie Westgård",
+  "club": "Vågsbygd SLK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-08-20T16:24:25.651Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "59,64",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675569"
+        },
+        {
+          "Tid": "1.03,33",
+          "Dato": "09.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3631666"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,90",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675502"
+        },
+        {
+          "Tid": "1.08,01",
+          "Dato": "09.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3631839",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.10,24",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3675690",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.25,11",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675689",
+          "splits": [
+            "1.10,24",
+            "1.14,87"
+          ]
+        },
+        {
+          "Tid": "2.28,62",
+          "Dato": "09.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3631838",
+          "splits": [
+            "1.08,01",
+            "1.20,61"
+          ]
+        }
+      ]
+    }
+  ]
+}

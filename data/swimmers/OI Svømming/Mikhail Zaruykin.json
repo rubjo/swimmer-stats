@@ -1,0 +1,112 @@
+{
+  "swimmerId": "16885",
+  "name": "Mikhail Zaruykin",
+  "club": "OI Svømming",
+  "birthYear": 2000,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:56:12.668Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,14",
+          "Dato": "10.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1814",
+          "pid": "958182"
+        },
+        {
+          "Tid": "51,63",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1087238",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,95",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "191",
+          "RA": "1409",
+          "pid": "1075781",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.57,93",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1631",
+          "pid": "959339",
+          "splits": [
+            "51,63",
+            "1.06,30"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,52",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "164",
+          "RA": "1170",
+          "pid": "1115504",
+          "splits": [
+            "56,95",
+            "1.08,57"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.27,22",
+          "Dato": "11.03.2012",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "132",
+          "RA": "797",
+          "pid": "958794",
+          "splits": [
+            "56,95",
+            "1.08,57",
+            "1.12,37",
+            "1.09,33"
+          ]
+        }
+      ]
+    }
+  ]
+}

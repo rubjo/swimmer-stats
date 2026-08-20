@@ -1,0 +1,115 @@
+{
+  "swimmerId": "10185",
+  "name": "Jonatan Zetterdahl",
+  "club": "IL Varg",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-20T18:15:45.882Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,07",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "111",
+          "RA": "881",
+          "pid": "530856"
+        },
+        {
+          "Tid": "36,18",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "567189",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,23",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "552407",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,30",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "113",
+          "RA": "783",
+          "pid": "552408",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.15,85",
+          "Dato": "07.11.2009",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "815",
+          "pid": "531030",
+          "splits": [
+            "36,18",
+            "39,67"
+          ]
+        },
+        {
+          "Tid": "1.20,41",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "486207",
+          "splits": [
+            "37,23",
+            "43,18"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.40,38",
+          "Dato": "21.03.2009",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "625",
+          "pid": "486331",
+          "splits": [
+            "46,30",
+            "54,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "swimmerId": "15808",
+  "name": "Tomine Ødegård",
+  "club": "Fet SK",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-20T18:23:44.501Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,47",
+          "Dato": "04.03.2012",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "356",
+          "RA": "2057",
+          "pid": "957630"
+        },
+        {
+          "Tid": "54,20",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "348",
+          "RA": "2045",
+          "pid": "833623"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,83",
+          "Dato": "04.03.2012",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "328",
+          "RA": "1758",
+          "pid": "1109937",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,51",
+          "Dato": "15.10.2011",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "298",
+          "RA": "1652",
+          "pid": "833324"
+        },
+        {
+          "Tid": "1.01,52",
+          "Dato": "20.11.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "846511"
+        },
+        {
+          "Tid": "1.03,70",
+          "Dato": "20.11.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "918162",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,20",
+          "Dato": "04.03.2012",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1441",
+          "pid": "957678",
+          "splits": [
+            "57,83",
+            "1.02,37"
+          ]
+        },
+        {
+          "Tid": "2.12,72",
+          "Dato": "20.11.2011",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "263",
+          "RA": "1430",
+          "pid": "846673",
+          "splits": [
+            "1.03,70",
+            "1.09,02"
+          ]
+        }
+      ]
+    }
+  ]
+}

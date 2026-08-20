@@ -1,0 +1,65 @@
+{
+  "swimmerId": "9628",
+  "name": "Trygve Wist",
+  "club": "Bryne SK",
+  "birthYear": 1962,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:16:22.375Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "34,01",
+          "Dato": "06.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "134",
+          "pid": "353603"
+        },
+        {
+          "Tid": "34,66",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "52",
+          "RA": "169",
+          "pid": "636016"
+        },
+        {
+          "Tid": "36,80",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "446155",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.18,54",
+          "Dato": "05.04.2008",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "176",
+          "pid": "353003",
+          "splits": [
+            "36,80",
+            "41,74"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "swimmerId": "5129",
+  "name": "Sigve Tømta Sletten",
+  "club": "Eidsvoll SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-20T14:35:19.677Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,78",
+          "Dato": "29.10.2005",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "905",
+          "pid": "21365"
+        },
+        {
+          "Tid": "55,63",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "49257",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.00,38",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "733",
+          "pid": "49256",
+          "splits": [
+            "55,63",
+            "1.04,75"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.07,00",
+          "Dato": "10.12.2005",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "511",
+          "pid": "23816",
+          "splits": [
+            "55,63",
+            "1.04,75",
+            "1.05,55",
+            "1.01,07"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "swimmerId": "8223",
+  "name": "Birger Binfield Wang",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1992,
+  "gender": "male",
+  "timestamp": "2026-08-20T15:58:07.513Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "41,44",
+          "Dato": "22.04.2007",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "509",
+          "pid": "225156"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,98",
+          "Dato": "22.04.2007",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "129",
+          "RA": "692",
+          "pid": "253932",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,67",
+          "Dato": "22.04.2007",
+          "Sted": "Nadderud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "109",
+          "RA": "589",
+          "pid": "225215",
+          "splits": [
+            "45,98",
+            "56,69"
+          ]
+        }
+      ]
+    }
+  ]
+}

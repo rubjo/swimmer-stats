@@ -1,0 +1,122 @@
+{
+  "swimmerId": "42246",
+  "name": "Silas Stokke Ørmen",
+  "club": "Lillehammer SK",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:30:12.773Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,40",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3129857"
+        },
+        {
+          "Tid": "45,49",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3130034",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,50",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3129809"
+        },
+        {
+          "Tid": "52,98",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3130115",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,88",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3130033",
+          "splits": [
+            "45,49",
+            "50,39"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,87",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3130116",
+          "splits": [
+            "52,98",
+            "58,89"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.49,74",
+          "Dato": "03.12.2022",
+          "Sted": "Elverum",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3130114",
+          "splits": [
+            "52,98",
+            "58,89",
+            "1.00,27",
+            "57,60"
+          ]
+        }
+      ]
+    }
+  ]
+}

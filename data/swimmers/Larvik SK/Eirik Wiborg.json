@@ -1,0 +1,60 @@
+{
+  "swimmerId": "8188",
+  "name": "Eirik Wiborg",
+  "club": "Larvik SK",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-20T16:53:04.567Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,04",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1367",
+          "pid": "225673"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,06",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "173",
+          "RA": "1172",
+          "pid": "320607",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,89",
+          "Dato": "28.04.2007",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "920",
+          "pid": "225851",
+          "splits": [
+            "1.03,06",
+            "1.11,83"
+          ]
+        }
+      ]
+    }
+  ]
+}

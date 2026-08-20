@@ -1,0 +1,85 @@
+{
+  "swimmerId": "15619",
+  "name": "Anders Aavatsmark",
+  "club": "Lier SK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-20T18:45:37.108Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "57,45",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "1065",
+          "pid": "836482"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.05,32",
+          "Dato": "11.09.2011",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "1244",
+          "pid": "824015"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.09,02",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "201",
+          "RA": "1477",
+          "pid": "836346"
+        },
+        {
+          "Tid": "1.12,14",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "909409",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.33,49",
+          "Dato": "22.10.2011",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1220",
+          "pid": "836449",
+          "splits": [
+            "1.12,14",
+            "1.21,35"
+          ]
+        }
+      ]
+    }
+  ]
+}

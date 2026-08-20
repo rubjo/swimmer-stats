@@ -1,0 +1,127 @@
+{
+  "swimmerId": "20419",
+  "name": "Louis Eric Torbjørn Voisin",
+  "club": "Bærumsvømmerne",
+  "birthYear": 1963,
+  "gender": "male",
+  "timestamp": "2026-08-20T15:13:01.566Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,43",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "267",
+          "RA": "1664",
+          "pid": "2141001",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "42,80",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1201",
+          "pid": "2008898"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "43,28",
+          "Dato": "15.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "844",
+          "pid": "1559002"
+        },
+        {
+          "Tid": "43,72",
+          "Dato": "14.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1651888",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.24,18",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "173",
+          "RA": "1323",
+          "pid": "2120154",
+          "splits": [
+            "39,43",
+            "44,75"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.37,81",
+          "Dato": "14.03.2015",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "809",
+          "pid": "1558123",
+          "splits": [
+            "43,72",
+            "54,09"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.53,59",
+          "Dato": "25.03.2017",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "911",
+          "pid": "2009050",
+          "splits": [
+            "39,43",
+            "44,75",
+            "45,35",
+            "44,06"
+          ]
+        }
+      ]
+    }
+  ]
+}
