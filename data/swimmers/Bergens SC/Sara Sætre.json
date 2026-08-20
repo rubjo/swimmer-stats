@@ -1,0 +1,100 @@
+{
+  "swimmerId": "22274",
+  "name": "Sara Sætre",
+  "club": "Bergens SC",
+  "birthYear": 2003,
+  "gender": "female",
+  "timestamp": "2026-08-20T05:07:00.112Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,56",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "297",
+          "RA": "1913",
+          "pid": "1608770"
+        },
+        {
+          "Tid": "44,38",
+          "Dato": "19.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1682422",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,85",
+          "Dato": "19.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "307",
+          "RA": "1718",
+          "pid": "1607890"
+        },
+        {
+          "Tid": "56,79",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1692916",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,75",
+          "Dato": "19.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "274",
+          "RA": "1719",
+          "pid": "1608070",
+          "splits": [
+            "44,38",
+            "50,37"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,45",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "285",
+          "RA": "1535",
+          "pid": "1608489",
+          "splits": [
+            "56,79",
+            "1.04,66"
+          ]
+        }
+      ]
+    }
+  ]
+}

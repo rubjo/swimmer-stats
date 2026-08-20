@@ -1,0 +1,81 @@
+{
+  "swimmerId": "16979",
+  "name": "erik torgalsbøen",
+  "club": "Hustadvika SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-20T07:17:49.653Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,87",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1900",
+          "pid": "963861"
+        },
+        {
+          "Tid": "51,65",
+          "Dato": "21.04.2012",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "968850"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,82",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "163",
+          "RA": "1552",
+          "pid": "1049868",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.21,74",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "1255",
+          "pid": "963976",
+          "splits": [
+            "1.04,82",
+            "1.16,92"
+          ]
+        },
+        {
+          "Tid": "2.21,97",
+          "Dato": "21.04.2012",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "968806",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

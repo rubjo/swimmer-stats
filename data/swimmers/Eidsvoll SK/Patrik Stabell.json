@@ -1,0 +1,80 @@
+{
+  "swimmerId": "24715",
+  "name": "Patrik Stabell",
+  "club": "Eidsvoll SK",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-20T04:25:29.842Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,14",
+          "Dato": "22.05.2016",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "191",
+          "RA": "1499",
+          "pid": "1917848"
+        },
+        {
+          "Tid": "37,59",
+          "Dato": "04.06.2016",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "110",
+          "RA": "829",
+          "pid": "1805674"
+        },
+        {
+          "Tid": "40,65",
+          "Dato": "05.06.2016",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1958452",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,36",
+          "Dato": "05.06.2016",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "99",
+          "RA": "604",
+          "pid": "1806425"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,97",
+          "Dato": "05.06.2016",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "111",
+          "RA": "788",
+          "pid": "1806164",
+          "splits": [
+            "40,65",
+            "46,32"
+          ]
+        }
+      ]
+    }
+  ]
+}

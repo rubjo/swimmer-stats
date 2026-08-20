@@ -1,0 +1,100 @@
+{
+  "swimmerId": "12816",
+  "name": "Jørgen Sørå Gulbrandsen",
+  "club": "Fet SK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-20T04:54:56.531Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,14",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1533",
+          "pid": "802231"
+        },
+        {
+          "Tid": "44,15",
+          "Dato": "21.11.2010",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1635",
+          "pid": "689332"
+        },
+        {
+          "Tid": "53,23",
+          "Dato": "06.03.2010",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "632415"
+        },
+        {
+          "Tid": "59,24",
+          "Dato": "23.01.2010",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "631085"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,13",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1348",
+          "pid": "802407"
+        },
+        {
+          "Tid": "58,35",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "886070",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.06,37",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "1118",
+          "pid": "802183",
+          "splits": [
+            "58,35",
+            "1.08,02"
+          ]
+        }
+      ]
+    }
+  ]
+}

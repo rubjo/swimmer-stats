@@ -1,0 +1,75 @@
+{
+  "swimmerId": "12231",
+  "name": "Eline Trondsen",
+  "club": "Skjetten Svømming",
+  "birthYear": 1999,
+  "gender": "female",
+  "timestamp": "2026-08-20T07:25:46.946Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,55",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1544",
+          "pid": "525786"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,77",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1085",
+          "pid": "526230"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,87",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1344",
+          "pid": "565453",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.59,66",
+          "Dato": "24.10.2009",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1149",
+          "pid": "526460",
+          "splits": [
+            "54,87",
+            "1.04,79"
+          ]
+        }
+      ]
+    }
+  ]
+}

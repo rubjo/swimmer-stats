@@ -1,0 +1,117 @@
+{
+  "swimmerId": "8672",
+  "name": "Rune Trettenes",
+  "club": "ROMA",
+  "birthYear": 1969,
+  "gender": "male",
+  "timestamp": "2026-08-20T08:22:58.951Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "30,36",
+          "Dato": "05.12.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "281",
+          "pid": "691781"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "35,34",
+          "Dato": "05.12.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "211",
+          "pid": "691297"
+        },
+        {
+          "Tid": "35,57",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "720689",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "37,53",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "721135",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.16,05",
+          "Dato": "12.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "135",
+          "pid": "635198",
+          "splits": [
+            "35,57",
+            "40,48"
+          ]
+        },
+        {
+          "Tid": "1.19,90",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "705349",
+          "splits": [
+            "37,53",
+            "42,37"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "2.50,70",
+          "Dato": "13.03.2010",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "136",
+          "pid": "635370",
+          "splits": [
+            "37,53",
+            "42,37",
+            "44,49",
+            "46,31"
+          ]
+        }
+      ]
+    }
+  ]
+}

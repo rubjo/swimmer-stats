@@ -1,0 +1,101 @@
+{
+  "swimmerId": "23215",
+  "name": "Preben Friis Thomassen",
+  "club": "Radøy SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-20T06:39:13.034Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "30,06",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "82",
+          "RA": "817",
+          "pid": "1608707"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,54",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "140",
+          "RA": "923",
+          "pid": "1667462",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.16,54",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "169",
+          "RA": "1089",
+          "pid": "1717687",
+          "splits": [
+            "",
+            ""
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.33,87",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "703",
+          "pid": "1608414",
+          "splits": [
+            "44,54",
+            "49,33"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.58,75",
+          "Dato": "20.09.2015",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "923",
+          "pid": "1609010",
+          "splits": [
+            "",
+            "",
+            "45,39",
+            "56,82"
+          ]
+        }
+      ]
+    }
+  ]
+}

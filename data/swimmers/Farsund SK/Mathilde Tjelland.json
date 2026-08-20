@@ -1,0 +1,70 @@
+{
+  "swimmerId": "7966",
+  "name": "Mathilde Tjelland",
+  "club": "Farsund SK",
+  "birthYear": 1995,
+  "gender": "female",
+  "timestamp": "2026-08-20T06:22:07.990Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,42",
+          "Dato": "10.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1283",
+          "pid": "216319"
+        },
+        {
+          "Tid": "43,42",
+          "Dato": "10.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "305202",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.03,47",
+          "Dato": "11.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "256",
+          "RA": "1478",
+          "pid": "217732"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.37,65",
+          "Dato": "10.03.2007",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1268",
+          "pid": "216844",
+          "splits": [
+            "43,42",
+            "54,23"
+          ]
+        }
+      ]
+    }
+  ]
+}

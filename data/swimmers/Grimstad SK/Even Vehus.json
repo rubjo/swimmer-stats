@@ -1,0 +1,112 @@
+{
+  "swimmerId": "17394",
+  "name": "Even Vehus",
+  "club": "Grimstad SK",
+  "birthYear": 1998,
+  "gender": "male",
+  "timestamp": "2026-08-20T08:50:03.595Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,58",
+          "Dato": "13.05.2012",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "165",
+          "RA": "1285",
+          "pid": "1053031",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,31",
+          "Dato": "17.11.2012",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "867",
+          "pid": "1018513"
+        },
+        {
+          "Tid": "46,84",
+          "Dato": "17.11.2012",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1109750",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.20,69",
+          "Dato": "13.05.2012",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "166",
+          "RA": "1118",
+          "pid": "1100784",
+          "splits": [
+            "35,58",
+            "45,11"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.40,06",
+          "Dato": "17.11.2012",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "743",
+          "pid": "1018777",
+          "splits": [
+            "46,84",
+            "53,22"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.01,19",
+          "Dato": "13.05.2012",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "813",
+          "pid": "976087",
+          "splits": [
+            "35,58",
+            "45,11",
+            "50,38",
+            "50,12"
+          ]
+        }
+      ]
+    }
+  ]
+}

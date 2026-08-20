@@ -1,0 +1,132 @@
+{
+  "swimmerId": "15494",
+  "name": "Anna Valberg Valle",
+  "club": "Hustadvika SK",
+  "birthYear": 2002,
+  "gender": "female",
+  "timestamp": "2026-08-20T08:57:58.136Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,72",
+          "Dato": "03.03.2013",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "1529",
+          "pid": "1141008"
+        },
+        {
+          "Tid": "40,23",
+          "Dato": "21.04.2013",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1156111"
+        },
+        {
+          "Tid": "45,40",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2054",
+          "pid": "963763"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,24",
+          "Dato": "03.03.2013",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "78",
+          "RA": "1261",
+          "pid": "1277377",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,41",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1564",
+          "pid": "1115309",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,53",
+          "Dato": "21.04.2013",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "1567",
+          "pid": "1156172",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,47",
+          "Dato": "03.03.2013",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "66",
+          "RA": "1114",
+          "pid": "1141136",
+          "splits": [
+            "50,24",
+            "58,23"
+          ]
+        },
+        {
+          "Tid": "1.48,85",
+          "Dato": "21.04.2013",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1156068",
+          "splits": []
+        },
+        {
+          "Tid": "1.55,96",
+          "Dato": "11.03.2012",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1319",
+          "pid": "963877",
+          "splits": [
+            "54,41",
+            "1.01,55"
+          ]
+        }
+      ]
+    }
+  ]
+}

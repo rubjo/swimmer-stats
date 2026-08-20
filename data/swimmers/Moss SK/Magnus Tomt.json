@@ -1,0 +1,229 @@
+{
+  "swimmerId": "5523",
+  "name": "Magnus Tomt",
+  "club": "Moss SK",
+  "birthYear": 1994,
+  "gender": "male",
+  "timestamp": "2026-08-20T06:33:34.667Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "33,54",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "23",
+          "RA": "867",
+          "pid": "98335"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,84",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "40",
+          "RA": "632",
+          "pid": "131388"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "44,88",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "38",
+          "RA": "815",
+          "pid": "131372",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "45,21",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "131369",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,50",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "49",
+          "RA": "798",
+          "pid": "131371",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.35,97",
+          "Dato": "15.01.2006",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "27",
+          "RA": "448",
+          "pid": "129727",
+          "splits": []
+        },
+        {
+          "Tid": "1.37,94",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "98691",
+          "splits": [
+            "44,88",
+            "53,06"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.43,33",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "34",
+          "RA": "595",
+          "pid": "131370",
+          "splits": [
+            "48,50",
+            "54,83"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.09,93",
+          "Dato": "15.01.2006",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "26",
+          "RA": "441",
+          "pid": "129726",
+          "splits": []
+        },
+        {
+          "Tid": "3.17,49",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "98517",
+          "splits": [
+            "45,21",
+            "52,07",
+            "57,44",
+            "42,77"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.14,21",
+          "Dato": "14.01.2006",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "29",
+          "RA": "368",
+          "pid": "129724",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.38,17",
+          "Dato": "14.01.2006",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "32",
+          "RA": "406",
+          "pid": "129725",
+          "splits": []
+        },
+        {
+          "Tid": "3.38,79",
+          "Dato": "12.02.2006",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "98676",
+          "splits": [
+            "48,50",
+            "54,83",
+            "57,78",
+            "57,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "5.55,08",
+          "Dato": "14.01.2006",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "493",
+          "pid": "165774",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

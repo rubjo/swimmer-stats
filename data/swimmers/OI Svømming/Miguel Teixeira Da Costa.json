@@ -1,0 +1,100 @@
+{
+  "swimmerId": "45962",
+  "name": "Miguel Teixeira Da Costa",
+  "club": "OI Svømming",
+  "birthYear": 2013,
+  "gender": "male",
+  "timestamp": "2026-08-20T06:01:53.380Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "55,42",
+          "Dato": "11.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3402541"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,38",
+          "Dato": "20.01.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3378927",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.02,01",
+          "Dato": "11.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3403477",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.06,46",
+          "Dato": "10.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1317",
+          "pid": "3401947"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.09,25",
+          "Dato": "20.01.2024",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3378926",
+          "splits": [
+            "1.00,38",
+            "1.08,87"
+          ]
+        },
+        {
+          "Tid": "2.10,25",
+          "Dato": "11.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3403476",
+          "splits": [
+            "1.02,01",
+            "1.08,24"
+          ]
+        }
+      ]
+    }
+  ]
+}

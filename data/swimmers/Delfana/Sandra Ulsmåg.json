@@ -1,0 +1,430 @@
+{
+  "swimmerId": "17828",
+  "name": "Sandra Ulsmåg",
+  "club": "Delfana",
+  "birthYear": 2001,
+  "gender": "female",
+  "timestamp": "2026-08-20T08:11:50.820Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,47",
+          "Dato": "25.05.2013",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1498",
+          "pid": "1309230"
+        },
+        {
+          "Tid": "40,03",
+          "Dato": "30.04.2013",
+          "Sted": "Garnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1156876"
+        },
+        {
+          "Tid": "41,62",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1261840",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "42,33",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "168",
+          "RA": "1840",
+          "pid": "1042456",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,37",
+          "Dato": "10.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "204",
+          "RA": "1435",
+          "pid": "1268836",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "51,90",
+          "Dato": "08.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1291041",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,54",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1387",
+          "pid": "1011775"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,39",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "269",
+          "RA": "1672",
+          "pid": "1224123",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "58,42",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "225",
+          "RA": "1787",
+          "pid": "1052857",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,51",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "192",
+          "RA": "1412",
+          "pid": "1251195",
+          "splits": [
+            "41,62",
+            "46,89"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.31,53",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "1458",
+          "pid": "1012123",
+          "splits": [
+            "42,33",
+            "49,20"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.40,60",
+          "Dato": "25.05.2013",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1105",
+          "pid": "1269126",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.54,56",
+          "Dato": "25.05.2013",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "214",
+          "RA": "1336",
+          "pid": "1296639",
+          "splits": []
+        },
+        {
+          "Tid": "1.55,71",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1286238",
+          "splits": [
+            "55,39",
+            "1.00,32"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.04,94",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "191",
+          "RA": "1526",
+          "pid": "1037858",
+          "splits": [
+            "58,42",
+            "1.06,52"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.54,81",
+          "Dato": "08.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "988",
+          "pid": "1119508",
+          "splits": [
+            "51,90",
+            "1.02,91"
+          ]
+        },
+        {
+          "Tid": "2.16,16",
+          "Dato": "13.01.2013",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1127550",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.12,10",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "157",
+          "RA": "1124",
+          "pid": "1286469",
+          "splits": [
+            "41,62",
+            "46,89",
+            "51,28",
+            "52,31"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.29,39",
+          "Dato": "10.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "964",
+          "pid": "1120671",
+          "splits": [
+            "50,37",
+            "57,34",
+            "55,53",
+            "46,15"
+          ]
+        },
+        {
+          "Tid": "3.49,47",
+          "Dato": "08.12.2012",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "1013",
+          "pid": "1082717",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.37,47",
+          "Dato": "10.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "966",
+          "pid": "1120403",
+          "splits": [
+            "51,85",
+            "54,30",
+            "56,86",
+            "54,46"
+          ]
+        },
+        {
+          "Tid": "3.56,95",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "940",
+          "pid": "1012402",
+          "splits": [
+            "55,03",
+            "59,84",
+            "1.02,77",
+            "59,31"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.00,91",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1000",
+          "pid": "1120098",
+          "splits": [
+            "55,39",
+            "1.00,32",
+            "1.02,07",
+            "1.03,13"
+          ]
+        },
+        {
+          "Tid": "4.20,03",
+          "Dato": "09.12.2012",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "140",
+          "RA": "1054",
+          "pid": "1065993",
+          "splits": []
+        },
+        {
+          "Tid": "4.26,41",
+          "Dato": "20.10.2012",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1011267",
+          "splits": [
+            "58,42",
+            "1.06,52",
+            "1.10,06",
+            "1.11,41"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.39,93",
+          "Dato": "09.02.2013",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "156",
+          "RA": "1000",
+          "pid": "1119818",
+          "splits": [
+            "41,62",
+            "46,89",
+            "51,28",
+            "52,31",
+            "53,13",
+            "52,87",
+            "52,46",
+            "49,37"
+          ]
+        },
+        {
+          "Tid": "7.50,62",
+          "Dato": "08.12.2012",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "1100",
+          "pid": "1093162",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

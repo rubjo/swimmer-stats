@@ -1,0 +1,110 @@
+{
+  "swimmerId": "8033",
+  "name": "Ida Thire",
+  "club": "Lambertseter SK",
+  "birthYear": 1993,
+  "gender": "female",
+  "timestamp": "2026-08-20T05:46:32.660Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "48,45",
+          "Dato": "17.03.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "242",
+          "RA": "1632",
+          "pid": "218222"
+        },
+        {
+          "Tid": "50,01",
+          "Dato": "11.02.2007",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "214590"
+        },
+        {
+          "Tid": "51,74",
+          "Dato": "11.02.2007",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "253316",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,23",
+          "Dato": "17.03.2007",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "925",
+          "pid": "218447"
+        },
+        {
+          "Tid": "54,09",
+          "Dato": "11.02.2007",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "298827",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,55",
+          "Dato": "11.02.2007",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "961",
+          "pid": "214754",
+          "splits": [
+            "54,09",
+            "59,46"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,98",
+          "Dato": "11.02.2007",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1430",
+          "pid": "215038",
+          "splits": [
+            "51,74",
+            "1.03,24"
+          ]
+        }
+      ]
+    }
+  ]
+}

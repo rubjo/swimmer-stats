@@ -1,0 +1,60 @@
+{
+  "swimmerId": "44019",
+  "name": "Iben Bjørnstad Stein",
+  "club": "Delfana",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-08-20T05:19:09.461Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,67",
+          "Dato": "07.12.2024",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2152",
+          "pid": "3594216"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,33",
+          "Dato": "07.12.2024",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1791",
+          "pid": "3594677",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.09,76",
+          "Dato": "07.12.2024",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1473",
+          "pid": "3594676",
+          "splits": [
+            "1.02,33",
+            "1.07,43"
+          ]
+        }
+      ]
+    }
+  ]
+}

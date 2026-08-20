@@ -1,0 +1,135 @@
+{
+  "swimmerId": "19102",
+  "name": "Alma Maria Thindberg",
+  "club": "OI Svømming",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-20T05:50:49.816Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,95",
+          "Dato": "15.03.2014",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "256",
+          "RA": "1498",
+          "pid": "1343194"
+        },
+        {
+          "Tid": "38,55",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "283",
+          "RA": "1509",
+          "pid": "1160464"
+        },
+        {
+          "Tid": "41,31",
+          "Dato": "12.10.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1195130"
+        },
+        {
+          "Tid": "42,40",
+          "Dato": "11.05.2014",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "203",
+          "RA": "1066",
+          "pid": "1486237",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "43,32",
+          "Dato": "15.03.2014",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1115",
+          "pid": "1343996"
+        },
+        {
+          "Tid": "50,25",
+          "Dato": "12.10.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "280",
+          "RA": "1431",
+          "pid": "1225883",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,23",
+          "Dato": "16.03.2014",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "294",
+          "RA": "1795",
+          "pid": "1344381"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.29,39",
+          "Dato": "11.05.2014",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "176",
+          "RA": "884",
+          "pid": "1361465",
+          "splits": [
+            "42,40",
+            "46,99"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.51,77",
+          "Dato": "12.10.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "965",
+          "pid": "1194885",
+          "splits": [
+            "50,25",
+            "1.01,52"
+          ]
+        }
+      ]
+    }
+  ]
+}

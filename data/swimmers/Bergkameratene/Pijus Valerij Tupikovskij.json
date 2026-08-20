@@ -1,0 +1,102 @@
+{
+  "swimmerId": "33935",
+  "name": "Pijus Valerij Tupikovskij",
+  "club": "Bergkameratene",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-20T07:53:13.890Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,18",
+          "Dato": "26.10.2019",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "33",
+          "RA": "1210",
+          "pid": "2675437"
+        },
+        {
+          "Tid": "50,45",
+          "Dato": "26.10.2019",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2675445",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,87",
+          "Dato": "23.11.2019",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2690935",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,10",
+          "Dato": "26.10.2019",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "32",
+          "RA": "1035",
+          "pid": "2675444",
+          "splits": [
+            "50,45",
+            "57,65"
+          ]
+        },
+        {
+          "Tid": "1.54,90",
+          "Dato": "23.11.2019",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2690936",
+          "splits": [
+            "52,87",
+            "1.02,03"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.02,28",
+          "Dato": "23.11.2019",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "52",
+          "RA": "902",
+          "pid": "2690934",
+          "splits": [
+            "52,87",
+            "1.02,03",
+            "1.04,05",
+            "1.03,33"
+          ]
+        }
+      ]
+    }
+  ]
+}

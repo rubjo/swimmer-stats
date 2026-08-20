@@ -1,0 +1,137 @@
+{
+  "swimmerId": "6155",
+  "name": "Tobias Tønnessen",
+  "club": "Varodd SK",
+  "birthYear": 1990,
+  "gender": "male",
+  "timestamp": "2026-08-20T07:31:58.960Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,91",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "745",
+          "pid": "100020"
+        },
+        {
+          "Tid": "37,87",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "136593",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "42,41",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "74",
+          "RA": "549",
+          "pid": "177063",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "45,72",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "136592",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.17,72",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "108",
+          "RA": "826",
+          "pid": "100542",
+          "splits": [
+            "37,87",
+            "39,85"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.28,17",
+          "Dato": "12.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "337",
+          "pid": "101040",
+          "splits": [
+            "42,41",
+            "45,76"
+          ]
+        },
+        {
+          "Tid": "1.39,49",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "136591",
+          "splits": [
+            "45,72",
+            "53,77"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.21,20",
+          "Dato": "11.03.2006",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "306",
+          "pid": "100370",
+          "splits": [
+            "45,72",
+            "53,77",
+            "53,88",
+            "47,83"
+          ]
+        }
+      ]
+    }
+  ]
+}

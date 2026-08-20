@@ -1,0 +1,55 @@
+{
+  "swimmerId": "18871",
+  "name": "Eirik Schøien",
+  "club": "Sandnes SLK",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-20T03:59:09.115Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,77",
+          "Dato": "14.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "250",
+          "RA": "1750",
+          "pid": "1153174"
+        },
+        {
+          "Tid": "44,62",
+          "Dato": "13.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1243291",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,32",
+          "Dato": "13.04.2013",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "229",
+          "RA": "1447",
+          "pid": "1151758",
+          "splits": [
+            "44,62",
+            "49,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

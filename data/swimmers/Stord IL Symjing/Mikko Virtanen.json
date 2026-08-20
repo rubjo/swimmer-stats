@@ -1,0 +1,87 @@
+{
+  "swimmerId": "12002",
+  "name": "Mikko Virtanen",
+  "club": "Stord IL Symjing",
+  "birthYear": 1993,
+  "gender": "male",
+  "timestamp": "2026-08-20T08:45:40.783Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,62",
+          "Dato": "06.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "1217",
+          "pid": "506138"
+        },
+        {
+          "Tid": "40,48",
+          "Dato": "07.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "559884",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,87",
+          "Dato": "07.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "559883",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,49",
+          "Dato": "07.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "1063",
+          "pid": "507101",
+          "splits": [
+            "40,48",
+            "45,01"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.09,83",
+          "Dato": "07.06.2009",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "749",
+          "pid": "506589",
+          "splits": [
+            "42,87",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

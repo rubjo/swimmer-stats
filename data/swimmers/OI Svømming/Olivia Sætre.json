@@ -1,0 +1,45 @@
+{
+  "swimmerId": "39898",
+  "name": "Olivia Sætre",
+  "club": "OI Svømming",
+  "birthYear": 2011,
+  "gender": "female",
+  "timestamp": "2026-08-20T04:39:50.618Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,81",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3800227",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,42",
+          "Dato": "26.10.2025",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3800226",
+          "splits": [
+            "48,81",
+            "53,61"
+          ]
+        }
+      ]
+    }
+  ]
+}

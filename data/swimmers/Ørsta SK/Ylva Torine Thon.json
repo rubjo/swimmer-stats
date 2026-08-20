@@ -1,0 +1,55 @@
+{
+  "swimmerId": "31727",
+  "name": "Ylva Torine Thon",
+  "club": "Ørsta SK",
+  "birthYear": 2007,
+  "gender": "female",
+  "timestamp": "2026-08-20T05:49:20.666Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,58",
+          "Dato": "01.12.2018",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1665",
+          "pid": "2451445"
+        },
+        {
+          "Tid": "53,98",
+          "Dato": "01.12.2018",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2451458",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,84",
+          "Dato": "01.12.2018",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "1484",
+          "pid": "2451457",
+          "splits": [
+            "53,98",
+            "1.02,86"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "swimmerId": "2009",
+  "name": "Audun Tofte",
+  "club": "IL Trio",
+  "birthYear": 1988,
+  "gender": "male",
+  "timestamp": "2026-08-20T07:02:05.171Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "27,92",
+          "Dato": "18.10.2014",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "491",
+          "pid": "1404009"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,30",
+          "Dato": "19.10.2014",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "129",
+          "RA": "585",
+          "pid": "1439643",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.21,81",
+          "Dato": "19.10.2014",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "354",
+          "pid": "1404401",
+          "splits": [
+            "39,30",
+            "42,51"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "swimmerId": "44484",
+  "name": "Isak Elander Vatne Tjessem",
+  "club": "Stavanger Vannpoloklubb",
+  "birthYear": 2009,
+  "gender": "male",
+  "timestamp": "2026-08-20T06:22:32.714Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,31",
+          "Dato": "17.06.2023",
+          "Sted": "Hundvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "238",
+          "RA": "1567",
+          "pid": "3275123"
+        },
+        {
+          "Tid": "43,30",
+          "Dato": "17.06.2023",
+          "Sted": "Hundvåg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3275455",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,46",
+          "Dato": "17.06.2023",
+          "Sted": "Hundvåg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "232",
+          "RA": "1450",
+          "pid": "3275454",
+          "splits": [
+            "43,30",
+            "50,16"
+          ]
+        }
+      ]
+    }
+  ]
+}

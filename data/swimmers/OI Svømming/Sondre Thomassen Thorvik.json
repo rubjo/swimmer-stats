@@ -1,0 +1,209 @@
+{
+  "swimmerId": "21902",
+  "name": "Sondre Thomassen Thorvik",
+  "club": "OI Svømming",
+  "birthYear": 2002,
+  "gender": "male",
+  "timestamp": "2026-08-20T05:57:15.508Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "41,96",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1799",
+          "pid": "1532072"
+        },
+        {
+          "Tid": "42,58",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1549367"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,89",
+          "Dato": "11.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "1063",
+          "pid": "1533261"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,98",
+          "Dato": "11.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "181",
+          "RA": "1327",
+          "pid": "1691523",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,15",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1662800",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "53,92",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1531964"
+        },
+        {
+          "Tid": "53,96",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1727858",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "54,03",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1682919",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,99",
+          "Dato": "11.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1114",
+          "pid": "1533200",
+          "splits": [
+            "52,98",
+            "59,01"
+          ]
+        },
+        {
+          "Tid": "1.53,12",
+          "Dato": "08.03.2015",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1549252",
+          "splits": [
+            "54,03",
+            "59,09"
+          ]
+        },
+        {
+          "Tid": "1.54,43",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1694596",
+          "splits": [
+            "53,96",
+            "1.00,47"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.55,18",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1654817",
+          "splits": [
+            "53,15",
+            "1.02,03"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.56,46",
+          "Dato": "18.04.2015",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "146",
+          "RA": "807",
+          "pid": "1564491",
+          "splits": [
+            "53,96",
+            "1.00,47",
+            "1.02,40",
+            "59,63"
+          ]
+        },
+        {
+          "Tid": "3.59,36",
+          "Dato": "10.01.2015",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1531886",
+          "splits": [
+            "53,15",
+            "1.02,03",
+            "1.01,63",
+            "1.02,55"
+          ]
+        }
+      ]
+    }
+  ]
+}

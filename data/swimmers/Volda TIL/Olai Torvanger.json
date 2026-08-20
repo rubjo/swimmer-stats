@@ -1,0 +1,92 @@
+{
+  "swimmerId": "24351",
+  "name": "Olai Torvanger",
+  "club": "Volda TIL",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-20T06:30:59.043Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "31,11",
+          "Dato": "13.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "954",
+          "pid": "1774741"
+        },
+        {
+          "Tid": "38,49",
+          "Dato": "13.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1904593",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "35,91",
+          "Dato": "03.12.2016",
+          "Sted": "Volda",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "130",
+          "RA": "816",
+          "pid": "1858553"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.21,35",
+          "Dato": "13.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "184",
+          "RA": "1217",
+          "pid": "1936068",
+          "splits": [
+            "38,49",
+            "42,86"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.45,84",
+          "Dato": "13.03.2016",
+          "Sted": "Eid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "815",
+          "pid": "1774823",
+          "splits": [
+            "38,49",
+            "42,86",
+            "44,36",
+            "40,13"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "swimmerId": "32749",
+  "name": "Bjørn Olav Terland",
+  "club": "Egersund SK",
+  "birthYear": 1996,
+  "gender": "male",
+  "timestamp": "2026-08-20T05:53:09.997Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,48",
+          "Dato": "23.03.2019",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "369",
+          "RA": "2030",
+          "pid": "2539839"
+        },
+        {
+          "Tid": "52,82",
+          "Dato": "24.03.2019",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2539908",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.05,18",
+          "Dato": "23.03.2019",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "1251",
+          "pid": "2539804"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,92",
+          "Dato": "24.03.2019",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "228",
+          "RA": "1728",
+          "pid": "2539821"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.51,90",
+          "Dato": "24.03.2019",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "261",
+          "RA": "1795",
+          "pid": "2539907",
+          "splits": [
+            "52,82",
+            "59,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "swimmerId": "42385",
+  "name": "Sondre Saanum",
+  "club": "OI Svømming",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-08-20T05:27:24.067Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,25",
+          "Dato": "10.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3404295",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.17,80",
+          "Dato": "10.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3404296",
+          "splits": [
+            "1.05,25",
+            "1.12,55"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.43,05",
+          "Dato": "10.02.2024",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "984",
+          "pid": "3404294",
+          "splits": [
+            "1.05,25",
+            "1.12,55",
+            "1.13,80",
+            "1.11,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

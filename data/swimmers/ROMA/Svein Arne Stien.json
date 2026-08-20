@@ -1,0 +1,55 @@
+{
+  "swimmerId": "4919",
+  "name": "Svein Arne Stien",
+  "club": "ROMA",
+  "birthYear": 1964,
+  "gender": "male",
+  "timestamp": "2026-08-20T04:36:57.147Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,49",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "85",
+          "RA": "404",
+          "pid": "111788"
+        },
+        {
+          "Tid": "39,58",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "180280",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.26,08",
+          "Dato": "01.04.2006",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "293",
+          "pid": "111561",
+          "splits": [
+            "39,58",
+            "46,50"
+          ]
+        }
+      ]
+    }
+  ]
+}
