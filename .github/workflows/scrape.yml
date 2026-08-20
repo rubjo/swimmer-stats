@@ -104,6 +104,11 @@ jobs:
         run: |
           git config user.name "medley-bot"
           git config user.email "bot@users.noreply.github.com"
+          # Register the driver referenced by `.gitattributes` (data/index.json
+          # merge=ours). Without this the attribute is a no-op and every rebase
+          # 3-way-merges the whole-file-rewritten index.json, conflicting and
+          # dropping the push. `true` = keep ours, always succeed.
+          git config merge.ours.driver true
 
       # Skip the actual scrape on shards 1–7 when NOT in backfill-only mode:
       # the licensed loop isn't sharded, so those shards would only redo shard
@@ -171,6 +176,10 @@ jobs:
         run: |
           git config user.name "medley-bot"
           git config user.email "bot@users.noreply.github.com"
+          # Register the merge=ours driver (see .gitattributes) so the commit
+          # step's `git pull --rebase` doesn't conflict on index.json and drop
+          # the push. This is the job that actually commits + pushes.
+          git config merge.ours.driver true
 
       # Each artifact lands in /tmp/shards/<artifact-name>/ (e.g. shard-0/).
       - name: Download all shard data
@@ -236,17 +245,26 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "sharded scrape $(date -u +%F) [skip ci]"
+            # Do NOT swallow a failed push. With the merge=ours driver registered
+            # (Configure git step) the rebase no longer conflicts on index.json,
+            # so a failure here is a real problem and should fail the run rather
+            # than deploying an un-pushed tree with the commit silently dropped.
             git push origin HEAD:main || (
               git pull --rebase origin main &&
               git push origin HEAD:main
-            ) || echo "Push skipped — continuing for deployment"
+            )
           fi
 
       - name: Upload Pages artifact
         if: steps.merge.outputs.merged == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: data
+          # Deploy the REPO ROOT, not data/. The landing page (index.html) lives
+          # at the root and redirects to data/index.json, and the app fetches
+          # data/index.json. Uploading `data` hoisted its contents to the site
+          # root, so index.json was served at /index.json (not /data/index.json)
+          # and index.html never shipped — the "index.json not available" symptom.
+          path: .
 
       - name: Deploy to Pages
         if: steps.merge.outputs.merged == 'true'
