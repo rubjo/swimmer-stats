@@ -2,7 +2,7 @@ name: Scrape
 
 on:
   schedule:
-    - cron: "0 */2 * * *" # every two hours
+    - cron: "0 */6 * * *" # every six hours
   workflow_dispatch: # manual trigger
 
 # Concurrency belongs at the WORKFLOW level so the group scopes the whole run.
