@@ -1,0 +1,70 @@
+{
+  "swimmerId": "32377",
+  "name": "Ravn Åsheim",
+  "club": "Tromsø SK",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-21T01:41:44.750Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "54,24",
+          "Dato": "10.02.2019",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1179",
+          "pid": "2500020"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "56,92",
+          "Dato": "10.02.2019",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "304",
+          "RA": "2133",
+          "pid": "2500193"
+        },
+        {
+          "Tid": "58,87",
+          "Dato": "09.02.2019",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2500593",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.23,39",
+          "Dato": "09.02.2019",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "278",
+          "RA": "1852",
+          "pid": "2500592",
+          "splits": [
+            "58,87",
+            "1.24,52"
+          ]
+        }
+      ]
+    }
+  ]
+}

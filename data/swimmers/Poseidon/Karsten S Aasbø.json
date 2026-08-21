@@ -1,0 +1,60 @@
+{
+  "swimmerId": "10201",
+  "name": "Karsten S Aasbø",
+  "club": "Poseidon",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-21T01:15:55.514Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,03",
+          "Dato": "20.09.2008",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "188",
+          "RA": "1389",
+          "pid": "376456"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,25",
+          "Dato": "20.09.2008",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "139",
+          "RA": "931",
+          "pid": "414749",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.46,52",
+          "Dato": "20.09.2008",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "672",
+          "pid": "376806",
+          "splits": [
+            "51,25",
+            "55,27"
+          ]
+        }
+      ]
+    }
+  ]
+}

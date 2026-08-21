@@ -1,0 +1,55 @@
+{
+  "swimmerId": "20614",
+  "name": "Øyvind Øi",
+  "club": "Hamar IL",
+  "birthYear": 1950,
+  "gender": "male",
+  "timestamp": "2026-08-21T01:06:45.278Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "35,83",
+          "Dato": "30.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "282",
+          "RA": "1335",
+          "pid": "1349542"
+        },
+        {
+          "Tid": "39,94",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1511550",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,30",
+          "Dato": "28.03.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1324",
+          "pid": "1348241",
+          "splits": [
+            "39,94",
+            "47,36"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "swimmerId": "10675",
+  "name": "Sebastian Aastorp Andersen",
+  "club": "Kongstensvømmerne",
+  "birthYear": 1995,
+  "gender": "male",
+  "timestamp": "2026-08-21T01:25:53.377Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "34,39",
+          "Dato": "06.02.2011",
+          "Sted": "Moss",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "1101",
+          "pid": "784389"
+        },
+        {
+          "Tid": "34,60",
+          "Dato": "16.01.2011",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "778046"
+        },
+        {
+          "Tid": "36,98",
+          "Dato": "16.01.2011",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "863090",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.20,09",
+          "Dato": "16.01.2011",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "140",
+          "RA": "1046",
+          "pid": "863089",
+          "splits": [
+            "36,98",
+            "43,11"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.42,25",
+          "Dato": "16.01.2011",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "86",
+          "RA": "593",
+          "pid": "778112",
+          "splits": [
+            "36,98",
+            "43,11",
+            "42,71",
+            "39,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

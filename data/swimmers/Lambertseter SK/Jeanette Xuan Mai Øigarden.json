@@ -1,0 +1,107 @@
+{
+  "swimmerId": "24814",
+  "name": "Jeanette Xuan Mai Øigarden",
+  "club": "Lambertseter SK",
+  "birthYear": 2004,
+  "gender": "female",
+  "timestamp": "2026-08-21T01:07:25.922Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "42,58",
+          "Dato": "04.03.2017",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "937",
+          "pid": "1997971"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,84",
+          "Dato": "04.03.2017",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "233",
+          "RA": "1365",
+          "pid": "2125588",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,26",
+          "Dato": "20.05.2017",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "151",
+          "RA": "839",
+          "pid": "2179198",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,77",
+          "Dato": "20.05.2017",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "110",
+          "RA": "607",
+          "pid": "2206144",
+          "splits": [
+            "52,26",
+            "56,51"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.49,01",
+          "Dato": "04.03.2017",
+          "Sted": "Kolbotn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "1244",
+          "pid": "1998073",
+          "splits": [
+            "49,84",
+            "59,17"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.43,17",
+          "Dato": "20.05.2017",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "70",
+          "RA": "348",
+          "pid": "2026350",
+          "splits": [
+            "52,26",
+            "56,51",
+            "59,14",
+            "55,26"
+          ]
+        }
+      ]
+    }
+  ]
+}

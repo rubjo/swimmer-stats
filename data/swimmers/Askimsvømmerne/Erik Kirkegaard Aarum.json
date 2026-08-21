@@ -1,0 +1,92 @@
+{
+  "swimmerId": "15420",
+  "name": "Erik Kirkegaard Aarum",
+  "club": "Askimsvømmerne",
+  "birthYear": 1999,
+  "gender": "male",
+  "timestamp": "2026-08-21T01:14:28.622Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,58",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "1509",
+          "pid": "802256"
+        },
+        {
+          "Tid": "47,92",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "886114",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "51,62",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "980",
+          "pid": "802296"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.41,81",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "183",
+          "RA": "1439",
+          "pid": "886113",
+          "splits": [
+            "47,92",
+            "53,89"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.28,77",
+          "Dato": "10.04.2011",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "959",
+          "pid": "802368",
+          "splits": [
+            "47,92",
+            "53,89",
+            "54,40",
+            "52,56"
+          ]
+        }
+      ]
+    }
+  ]
+}
