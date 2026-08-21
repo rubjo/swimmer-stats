@@ -1,0 +1,137 @@
+{
+  "swimmerId": "31091",
+  "name": "Levi Vatland",
+  "club": "Kvinesdal SK",
+  "birthYear": 2008,
+  "gender": "male",
+  "timestamp": "2026-08-20T14:47:44.730Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,89",
+          "Dato": "01.09.2018",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1911",
+          "pid": "2377774"
+        },
+        {
+          "Tid": "46,29",
+          "Dato": "25.11.2018",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2443788",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "47,97",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2430433",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,34",
+          "Dato": "01.09.2018",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1284",
+          "pid": "2377764"
+        },
+        {
+          "Tid": "51,12",
+          "Dato": "25.11.2018",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2443520"
+        },
+        {
+          "Tid": "51,35",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2429783"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,38",
+          "Dato": "25.11.2018",
+          "Sted": "Farsund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1615",
+          "pid": "2443787",
+          "splits": [
+            "46,29",
+            "52,09"
+          ]
+        },
+        {
+          "Tid": "1.43,69",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2430434",
+          "splits": [
+            "47,97",
+            "55,72"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.33,44",
+          "Dato": "27.10.2018",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1269",
+          "pid": "2430432",
+          "splits": [
+            "47,97",
+            "55,72",
+            "56,25",
+            "53,50"
+          ]
+        }
+      ]
+    }
+  ]
+}

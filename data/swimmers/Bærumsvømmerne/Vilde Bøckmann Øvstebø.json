@@ -1,0 +1,60 @@
+{
+  "swimmerId": "38501",
+  "name": "Vilde Bøckmann Øvstebø",
+  "club": "Bærumsvømmerne",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-20T18:20:49.692Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.16,40",
+          "Dato": "20.11.2021",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "1791",
+          "pid": "2913745"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.48,23",
+          "Dato": "20.11.2021",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2913768",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "3.46,01",
+          "Dato": "20.11.2021",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "2913767",
+          "splits": [
+            "1.48,23",
+            "1.57,78"
+          ]
+        }
+      ]
+    }
+  ]
+}

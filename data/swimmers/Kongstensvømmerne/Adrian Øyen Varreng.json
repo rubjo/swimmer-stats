@@ -1,0 +1,60 @@
+{
+  "swimmerId": "24721",
+  "name": "Adrian Øyen Varreng",
+  "club": "Kongstensvømmerne",
+  "birthYear": 2005,
+  "gender": "male",
+  "timestamp": "2026-08-20T14:36:48.473Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,35",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "188",
+          "RA": "1936",
+          "pid": "1798573"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,43",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "113",
+          "RA": "1442",
+          "pid": "1966480",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,31",
+          "Dato": "28.05.2016",
+          "Sted": "Asker",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "1198",
+          "pid": "1798284",
+          "splits": [
+            "55,43",
+            "1.02,88"
+          ]
+        }
+      ]
+    }
+  ]
+}

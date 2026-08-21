@@ -1,0 +1,90 @@
+{
+  "swimmerId": "25300",
+  "name": "Jørgen Nautnes Aasen",
+  "club": "IL Norodd",
+  "birthYear": 2003,
+  "gender": "male",
+  "timestamp": "2026-08-21T01:13:10.048Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,46",
+          "Dato": "03.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "241",
+          "RA": "1825",
+          "pid": "1863352"
+        },
+        {
+          "Tid": "44,27",
+          "Dato": "04.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "1955691",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,04",
+          "Dato": "03.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "222",
+          "RA": "1536",
+          "pid": "1951453",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,40",
+          "Dato": "04.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1575",
+          "pid": "1863759",
+          "splits": [
+            "44,27",
+            "51,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.05,30",
+          "Dato": "03.12.2016",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1291",
+          "pid": "1863406",
+          "splits": [
+            "58,04",
+            "1.07,26"
+          ]
+        }
+      ]
+    }
+  ]
+}

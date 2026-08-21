@@ -1,0 +1,91 @@
+{
+  "swimmerId": "35830",
+  "name": "Ola Tiller Wetterstad",
+  "club": "Bergkameratene",
+  "birthYear": 2010,
+  "gender": "male",
+  "timestamp": "2026-08-20T16:26:49.191Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "32,23",
+          "Dato": "16.04.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "1064",
+          "pid": "3212982"
+        },
+        {
+          "Tid": "41,85",
+          "Dato": "16.04.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3214025",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.25,09",
+          "Dato": "15.04.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1281",
+          "pid": "3213454",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "1.28,57",
+          "Dato": "16.04.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3214026",
+          "splits": [
+            "41,85",
+            "46,72"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.58,96",
+          "Dato": "16.04.2023",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3214024",
+          "splits": [
+            "41,85",
+            "46,72",
+            "47,33",
+            "43,06"
+          ]
+        }
+      ]
+    }
+  ]
+}

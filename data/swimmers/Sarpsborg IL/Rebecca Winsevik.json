@@ -1,0 +1,60 @@
+{
+  "swimmerId": "18258",
+  "name": "Rebecca Winsevik",
+  "club": "Sarpsborg IL",
+  "birthYear": 2000,
+  "gender": "female",
+  "timestamp": "2026-08-20T16:47:56.178Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,67",
+          "Dato": "12.10.2013",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1519",
+          "pid": "1196482"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,50",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "264",
+          "RA": "1290",
+          "pid": "1234872",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.45,28",
+          "Dato": "25.05.2013",
+          "Sted": "Sognsvann",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "211",
+          "RA": "996",
+          "pid": "1160746",
+          "splits": [
+            "50,50",
+            "54,78"
+          ]
+        }
+      ]
+    }
+  ]
+}

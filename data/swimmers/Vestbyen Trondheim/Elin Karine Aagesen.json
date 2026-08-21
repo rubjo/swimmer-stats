@@ -1,0 +1,142 @@
+{
+  "swimmerId": "2518",
+  "name": "Elin Karine Aagesen",
+  "club": "Vestbyen Trondheim",
+  "birthYear": 1991,
+  "gender": "female",
+  "timestamp": "2026-08-20T18:54:27.018Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,27",
+          "Dato": "10.03.2007",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "98",
+          "RA": "1030",
+          "pid": "289373"
+        },
+        {
+          "Tid": "37,37",
+          "Dato": "25.03.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "222897"
+        },
+        {
+          "Tid": "40,63",
+          "Dato": "25.03.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "280953",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "51,83",
+          "Dato": "10.03.2007",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "1089",
+          "pid": "259602"
+        },
+        {
+          "Tid": "52,87",
+          "Dato": "18.03.2007",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "305893"
+        },
+        {
+          "Tid": "55,17",
+          "Dato": "24.03.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "285038",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.23,94",
+          "Dato": "18.03.2007",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "93",
+          "RA": "945",
+          "pid": "281901",
+          "splits": []
+        },
+        {
+          "Tid": "1.25,98",
+          "Dato": "25.03.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "223220",
+          "splits": [
+            "40,63",
+            "45,35"
+          ]
+        },
+        {
+          "Tid": "1.26,43",
+          "Dato": "10.03.2007",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "313374",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,82",
+          "Dato": "24.03.2007",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "1039",
+          "pid": "222787",
+          "splits": [
+            "55,17",
+            "1.02,65"
+          ]
+        }
+      ]
+    }
+  ]
+}

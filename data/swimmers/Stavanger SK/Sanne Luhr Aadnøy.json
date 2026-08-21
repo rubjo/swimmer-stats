@@ -1,0 +1,60 @@
+{
+  "swimmerId": "40931",
+  "name": "Sanne Luhr Aadnøy",
+  "club": "Stavanger SK",
+  "birthYear": 2013,
+  "gender": "female",
+  "timestamp": "2026-08-20T18:40:01.945Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "53,31",
+          "Dato": "29.06.2024",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "293",
+          "RA": "2216",
+          "pid": "3500545"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,16",
+          "Dato": "29.06.2024",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "254",
+          "RA": "1872",
+          "pid": "3500743",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.17,75",
+          "Dato": "29.06.2024",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "1558",
+          "pid": "3500742",
+          "splits": [
+            "1.07,16",
+            "1.10,59"
+          ]
+        }
+      ]
+    }
+  ]
+}

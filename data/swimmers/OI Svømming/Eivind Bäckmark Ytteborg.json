@@ -1,0 +1,135 @@
+{
+  "swimmerId": "40259",
+  "name": "Eivind Bäckmark Ytteborg",
+  "club": "OI Svømming",
+  "birthYear": 2012,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:44:19.929Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,22",
+          "Dato": "25.03.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "1931",
+          "pid": "3206918"
+        },
+        {
+          "Tid": "51,76",
+          "Dato": "12.02.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3178006"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.01,71",
+          "Dato": "26.03.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "150",
+          "RA": "1541",
+          "pid": "3207390",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.03,58",
+          "Dato": "12.02.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3178878",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,20",
+          "Dato": "21.01.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3158820",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.08,86",
+          "Dato": "21.01.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "1517",
+          "pid": "3158806"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.12,52",
+          "Dato": "26.03.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1242",
+          "pid": "3207389",
+          "splits": [
+            "1.01,71",
+            "1.10,81"
+          ]
+        },
+        {
+          "Tid": "2.13,37",
+          "Dato": "12.02.2023",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3178877",
+          "splits": [
+            "1.03,58",
+            "1.09,79"
+          ]
+        },
+        {
+          "Tid": "2.13,92",
+          "Dato": "21.01.2023",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3158819",
+          "splits": [
+            "1.05,20",
+            "1.08,72"
+          ]
+        }
+      ]
+    }
+  ]
+}

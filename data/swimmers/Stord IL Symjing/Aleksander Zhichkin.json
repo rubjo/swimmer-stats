@@ -1,0 +1,60 @@
+{
+  "swimmerId": "10310",
+  "name": "Aleksander Zhichkin",
+  "club": "Stord IL Symjing",
+  "birthYear": 1997,
+  "gender": "male",
+  "timestamp": "2026-08-20T17:56:19.324Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "55,53",
+          "Dato": "26.10.2008",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "176",
+          "RA": "1601",
+          "pid": "385845"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,48",
+          "Dato": "27.10.2008",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "90",
+          "RA": "1110",
+          "pid": "418274",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,56",
+          "Dato": "27.10.2008",
+          "Sted": "Stord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "76",
+          "RA": "878",
+          "pid": "386200",
+          "splits": [
+            "56,48",
+            "1.05,08"
+          ]
+        }
+      ]
+    }
+  ]
+}

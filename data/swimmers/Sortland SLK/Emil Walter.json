@@ -1,0 +1,83 @@
+{
+  "swimmerId": "11774",
+  "name": "Emil Walter",
+  "club": "Sortland SLK",
+  "birthYear": 1996,
+  "gender": null,
+  "timestamp": "2026-08-20T15:27:03.745Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,30",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "232",
+          "RA": "1532",
+          "pid": "554099"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,37",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "969",
+          "pid": "554096"
+        },
+        {
+          "Tid": "51,07",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "554098",
+          "partOf": "50m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.50,29",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "799",
+          "pid": "554097",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.13,53",
+          "Dato": "18.04.2009",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "129",
+          "RA": "600",
+          "pid": "554100",
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

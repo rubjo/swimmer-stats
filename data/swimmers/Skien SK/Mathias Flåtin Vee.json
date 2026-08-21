@@ -1,0 +1,90 @@
+{
+  "swimmerId": "32974",
+  "name": "Mathias Flåtin Vee",
+  "club": "Skien SK",
+  "birthYear": 2006,
+  "gender": "male",
+  "timestamp": "2026-08-20T14:47:40.621Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,14",
+          "Dato": "18.01.2020",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "204",
+          "RA": "1043",
+          "pid": "2717041"
+        },
+        {
+          "Tid": "42,65",
+          "Dato": "27.04.2019",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "281",
+          "RA": "1873",
+          "pid": "2568592",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,66",
+          "Dato": "27.04.2019",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "209",
+          "RA": "1280",
+          "pid": "2568580",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,62",
+          "Dato": "27.04.2019",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "225",
+          "RA": "1419",
+          "pid": "2568591",
+          "splits": [
+            "42,65",
+            "43,97"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.47,58",
+          "Dato": "27.04.2019",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1019",
+          "pid": "2568579",
+          "splits": [
+            "50,66",
+            "56,92"
+          ]
+        }
+      ]
+    }
+  ]
+}

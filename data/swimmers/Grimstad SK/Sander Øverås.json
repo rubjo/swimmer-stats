@@ -1,0 +1,110 @@
+{
+  "swimmerId": "16091",
+  "name": "Sander Øverås",
+  "club": "Grimstad SK",
+  "birthYear": 2001,
+  "gender": "male",
+  "timestamp": "2026-08-20T18:37:53.470Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,18",
+          "Dato": "22.03.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "259",
+          "RA": "1843",
+          "pid": "1504090",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "46,27",
+          "Dato": "24.11.2013",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "223",
+          "RA": "1826",
+          "pid": "1214588"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,85",
+          "Dato": "23.03.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "215",
+          "RA": "1439",
+          "pid": "1477372",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,75",
+          "Dato": "23.11.2013",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1448",
+          "pid": "1213850"
+        },
+        {
+          "Tid": "59,26",
+          "Dato": "07.06.2014",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "111",
+          "RA": "665",
+          "pid": "1371412"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,77",
+          "Dato": "22.03.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1542",
+          "pid": "1347351",
+          "splits": [
+            "45,18",
+            "54,59"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,66",
+          "Dato": "23.03.2014",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "1257",
+          "pid": "1347605",
+          "splits": [
+            "56,85",
+            "1.10,81"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "swimmerId": "31332",
+  "name": "Haakon Hartløv Aalstad",
+  "club": "Hamar IL",
+  "birthYear": 2007,
+  "gender": "male",
+  "timestamp": "2026-08-20T18:56:47.774Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,30",
+          "Dato": "14.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "98",
+          "RA": "1013",
+          "pid": "2585428"
+        },
+        {
+          "Tid": "43,53",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2587226",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "50,23",
+          "Dato": "21.10.2018",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "2017",
+          "pid": "2405742"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "52,85",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "58",
+          "RA": "682",
+          "pid": "2585196"
+        },
+        {
+          "Tid": "58,56",
+          "Dato": "21.10.2018",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "131",
+          "RA": "1593",
+          "pid": "2405815",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,78",
+          "Dato": "14.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2586546",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.36,06",
+          "Dato": "15.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "84",
+          "RA": "904",
+          "pid": "2587225",
+          "splits": [
+            "43,53",
+            "52,53"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,07",
+          "Dato": "21.10.2018",
+          "Sted": "Gjøvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "1307",
+          "pid": "2405814",
+          "splits": [
+            "58,56",
+            "1.03,51"
+          ]
+        },
+        {
+          "Tid": "2.04,16",
+          "Dato": "14.06.2019",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "72",
+          "RA": "583",
+          "pid": "2586545",
+          "splits": [
+            "59,78",
+            "1.04,38"
+          ]
+        }
+      ]
+    }
+  ]
+}

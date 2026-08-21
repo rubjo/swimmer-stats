@@ -1,0 +1,100 @@
+{
+  "swimmerId": "12086",
+  "name": "Oda Emilie Øystese",
+  "club": "Poseidon",
+  "birthYear": 1996,
+  "gender": "female",
+  "timestamp": "2026-08-20T18:51:19.428Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,76",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "221",
+          "RA": "1293",
+          "pid": "636598"
+        },
+        {
+          "Tid": "40,64",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "719061",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,88",
+          "Dato": "21.11.2009",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "250",
+          "RA": "1450",
+          "pid": "532509"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,62",
+          "Dato": "14.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "185",
+          "RA": "993",
+          "pid": "740336",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,12",
+          "Dato": "13.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1200",
+          "pid": "637198",
+          "splits": [
+            "40,64",
+            "49,48"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.47,15",
+          "Dato": "14.03.2010",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "840",
+          "pid": "638538",
+          "splits": [
+            "49,62",
+            "57,53"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "swimmerId": "22140",
+  "name": "Sarah Wolfenstein",
+  "club": "Kristiansand SA",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-20T17:20:22.274Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,52",
+          "Dato": "21.11.2015",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1909",
+          "pid": "1648243",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,37",
+          "Dato": "21.11.2015",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1646",
+          "pid": "1634809",
+          "splits": [
+            "1.00,52",
+            "1.06,85"
+          ]
+        }
+      ]
+    }
+  ]
+}

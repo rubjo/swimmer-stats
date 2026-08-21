@@ -1,0 +1,128 @@
+{
+  "swimmerId": "31776",
+  "name": "Christina Hundsnes Årreberg",
+  "club": "Stavanger SK",
+  "birthYear": 2008,
+  "gender": "female",
+  "timestamp": "2026-08-20T19:24:47.679Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,14",
+          "Dato": "23.02.2019",
+          "Sted": "Bryne symjehall",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "2093",
+          "pid": "2509855"
+        },
+        {
+          "Tid": "50,01",
+          "Dato": "26.05.2019",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2573885",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,08",
+          "Dato": "23.02.2019",
+          "Sted": "Bryne symjehall",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2510649",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.42,28",
+          "Dato": "26.05.2019",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1951",
+          "pid": "2573884",
+          "splits": [
+            "50,01",
+            "52,27"
+          ]
+        },
+        {
+          "Tid": "1.51,50",
+          "Dato": "23.02.2019",
+          "Sted": "Bryne symjehall",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "2510650",
+          "splits": [
+            "53,08",
+            "58,42"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.53,29",
+          "Dato": "23.02.2019",
+          "Sted": "Bryne symjehall",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "201",
+          "RA": "1567",
+          "pid": "2510651",
+          "splits": [
+            "53,08",
+            "58,42",
+            "1.00,06",
+            "1.01,73"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.59,17",
+          "Dato": "23.02.2019",
+          "Sted": "Bryne symjehall",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1408",
+          "pid": "2510648",
+          "splits": [
+            "53,08",
+            "58,42",
+            "1.00,06",
+            "1.01,73",
+            "1.02,64",
+            "1.00,40",
+            "1.02,28",
+            "1.00,56"
+          ]
+        }
+      ]
+    }
+  ]
+}

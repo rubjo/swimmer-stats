@@ -1,0 +1,92 @@
+{
+  "swimmerId": "22183",
+  "name": "Siri Økland",
+  "club": "Modum SK",
+  "birthYear": 2005,
+  "gender": "female",
+  "timestamp": "2026-08-20T18:28:28.490Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "52,21",
+          "Dato": "18.04.2015",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "2361",
+          "pid": "1567472"
+        },
+        {
+          "Tid": "58,39",
+          "Dato": "15.02.2015",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "1542345"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,51",
+          "Dato": "18.04.2015",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1908",
+          "pid": "1656190",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,68",
+          "Dato": "18.04.2015",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1649",
+          "pid": "1714097",
+          "splits": [
+            "1.00,51",
+            "1.07,17"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.32,32",
+          "Dato": "18.04.2015",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1262",
+          "pid": "1566915",
+          "splits": [
+            "1.00,51",
+            "1.07,17",
+            "1.14,60",
+            "1.10,04"
+          ]
+        }
+      ]
+    }
+  ]
+}

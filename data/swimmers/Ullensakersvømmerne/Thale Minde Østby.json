@@ -1,0 +1,131 @@
+{
+  "swimmerId": "11972",
+  "name": "Thale Minde Østby",
+  "club": "Ullensakersvømmerne",
+  "birthYear": 1992,
+  "gender": "female",
+  "timestamp": "2026-08-21T01:15:17.156Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,37",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "1237",
+          "pid": "504730"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "45,20",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "52",
+          "RA": "620",
+          "pid": "597681",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.24,62",
+          "Dato": "01.03.2008",
+          "Sted": "Garnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "986",
+          "pid": "348035",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.40,41",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "41",
+          "RA": "610",
+          "pid": "597680",
+          "splits": [
+            "45,20",
+            "55,21"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.41,50",
+          "Dato": "01.03.2008",
+          "Sted": "Garnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "619",
+          "pid": "347908",
+          "splits": []
+        },
+        {
+          "Tid": "1.46,17",
+          "Dato": "08.12.2007",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "783",
+          "pid": "329501",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.40,41",
+          "Dato": "09.12.2007",
+          "Sted": "Slåtthaughallen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "94",
+          "RA": "502",
+          "pid": "255479",
+          "splits": []
+        },
+        {
+          "Tid": "3.41,54",
+          "Dato": "10.05.2009",
+          "Sted": "Gjelleråsen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "27",
+          "RA": "556",
+          "pid": "504655",
+          "splits": [
+            "45,20",
+            "55,21",
+            "59,78",
+            "1.01,35"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "swimmerId": "50812",
+  "name": "Elise Westgård",
+  "club": "Vågsbygd SLK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-08-20T16:19:58.575Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.03,79",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675578"
+        },
+        {
+          "Tid": "1.04,10",
+          "Dato": "09.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3631667"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,05",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675509"
+        },
+        {
+          "Tid": "1.05,12",
+          "Dato": "09.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3631841",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.12,68",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3675695",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.28,38",
+          "Dato": "09.02.2025",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3631840",
+          "splits": [
+            "1.05,12",
+            "1.23,26"
+          ]
+        },
+        {
+          "Tid": "2.29,22",
+          "Dato": "05.04.2025",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3675694",
+          "splits": [
+            "1.12,68",
+            "1.16,54"
+          ]
+        }
+      ]
+    }
+  ]
+}
