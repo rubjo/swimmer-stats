@@ -2,13 +2,7 @@ import fs from "fs";
 import { execSync } from "child_process";
 import puppeteer from "puppeteer";
 import path from "path";
-import {
-  loadIndex,
-  rebuildIndex,
-  walkJsonFiles,
-  loadCheckedEmpty,
-  saveCheckedEmpty,
-} from "./lib/fs-utils.js";
+import { loadIndex, rebuildIndex, walkJsonFiles } from "./lib/fs-utils.js";
 import {
   navigateAndFilter,
   loadUntilIdx,
@@ -23,52 +17,70 @@ const SWIMMERS_DIR = path.join(DATA_DIR, "swimmers");
 const INDEX_FILE = path.join(DATA_DIR, "index.json");
 const ROSTER_FILE = path.join(DATA_DIR, "roster.json");
 
-// Ledger of swimmerIds checked during backfill and confirmed to have 0 races.
-// A confirmed-empty swimmer deliberately gets no swimmer file (so the index
-// counts only real racers), but without this ledger "no file" also meant the
-// swimmer was re-queued as a backfill candidate every run and re-scraped
-// forever. The ledger is the persistent "checked, confirmed empty" state:
-// subtracted from the candidate pool, never fed to the index. It is permanent
-// by design; set FORCE_RECHECK_EMPTY=1 (or delete the file) to re-queue them.
-const CHECKED_EMPTY_FILE = path.join(DATA_DIR, "checked-empty.json");
-const FORCE_RECHECK_EMPTY = process.env.FORCE_RECHECK_EMPTY === "1";
-
 // How long a cached roster stays valid before a full re-discovery is forced.
-// The roster is the full {id, text, index} swimmer list from the combo box.
-// Full discovery is the slowest, flakiest part of a run, so we cache it and
+// The roster is the full {id, text, index} licensed-swimmer list from the combo
+// box. Full discovery is the slowest, flakiest part of a run, so we cache it and
 // only rebuild periodically (or when FORCE_DISCOVERY=1). Index positions can
 // drift as swimmers are added/removed server-side, but the existing identity
 // check + name-lookup retry already corrects stale indices, so a slightly
-// stale roster is safe — it never corrupts saved data.
+// stale roster is safe — it never corrupts saved data. A stale roster only
+// delays picking up brand-new swimmers, never drops data.
 const ROSTER_MAX_AGE_MS =
   parseInt(process.env.ROSTER_MAX_AGE_HOURS || "48", 10) * 3_600_000;
 const FORCE_DISCOVERY = process.env.FORCE_DISCOVERY === "1";
 
-// Date range for incremental scraping.
-// Trailing window: default FRA_DATO to LOOKBACK_DAYS before today so the
-// per-run grid stays small and constant instead of widening forever.
-// Dedup-by-PID makes overlap harmless; the window only needs to exceed one
-// full batch-rotation cycle so no new race can slip through between visits.
-// An explicit FRA_DATO env var still overrides (handy for one-off backfills).
-const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "30", 10);
+// Date range for the incremental check.
+// Trailing window: default FRA_DATO to LOOKBACK_DAYS before today so each run
+// asks the site for only the recent slice — a short list of none-or-a-few
+// races per swimmer. Dedup-by-PID makes overlap harmless; the window only needs
+// to comfortably exceed one full shard-rotation cycle so no new race can slip
+// through between two visits to the same swimmer. An explicit FRA_DATO env var
+// still overrides (handy for a one-off wider re-check).
+const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "90", 10);
 const FRA_DATO =
   process.env.FRA_DATO ||
   new Date(Date.now() - LOOKBACK_DAYS * 86_400_000).toISOString().slice(0, 10);
-const TIL_DATO = process.env.TIL_DATO || "";
+const TIL_DATO = process.env.TIL_DATO || ""; // empty ⇒ site's "today"
 
-// Batch size: process at most this many swimmers per run, sorted by
-// least-recently-checked first. This keeps each run well within the
-// 6-hour GitHub Actions timeout while cycling through all swimmers
-// over several runs.
+// Sharding: split the licensed roster across N parallel jobs. Shard i processes
+// roster swimmer j where j % SHARD_COUNT === SHARD_INDEX. The split is disjoint
+// by construction — no swimmer can satisfy two different (j % N) values — so N
+// shards running concurrently never touch the same swimmer, even though they
+// don't share progress mid-run. Each shard writes its own disjoint set of
+// swimmer files and NEVER pushes (NO_PUSH=1); the workflow's merge job collects
+// every shard's files, rebuilds the index once, and does the single commit.
+//
+// SHARD_COUNT defaults to 1 (no sharding) so a plain `node index.js` processes
+// the whole roster in one job, unchanged.
+const SHARD_COUNT = Math.max(1, parseInt(process.env.SHARD_COUNT || "1", 10));
+const SHARD_INDEX = parseInt(process.env.SHARD_INDEX || "0", 10);
+
+// Sharded runs write files but never push (NO_PUSH=1) — the workflow's merge
+// job does the single commit. A shard also reports which swimmers it checked
+// (see writeProcessedIds) so the merge job can advance their lastChecked; the
+// file is per-shard so concurrent shards never collide on it.
+const NO_PUSH = process.env.NO_PUSH === "1";
+const PROCESSED_FILE = path.join(
+  DATA_DIR,
+  `processed-shard-${SHARD_INDEX}.json`,
+);
+
+// Batch size: process at most this many swimmers per run, least-recently-checked
+// first. The default is high enough that a single shard (~roster/SHARD_COUNT
+// swimmers, almost all with zero new races and therefore fast) finishes its
+// whole slice in one run. RUN_BUDGET_MS is the real safety valve — if a run
+// can't finish, it checkpoints and exits, and lastChecked-ascending ordering
+// resumes the overdue swimmers on the next run. Lower this to cap a run, or
+// leave it: the roster is small enough (a few thousand licensed swimmers) that
+// one sharded run normally covers everyone.
 const MAX_SWIMMERS_PER_RUN = parseInt(
-  process.env.MAX_SWIMMERS_PER_RUN || "500",
+  process.env.MAX_SWIMMERS_PER_RUN || "10000",
   10,
 );
 
-// Per-swimmer time budgets. A batch of 500 must fit inside the 6-hour
-// GitHub Actions ceiling (~43s/swimmer), so a single swimmer must never be
-// allowed to consume minutes/hours. These caps skip a stuck swimmer instead
-// of letting one drain the whole run before the first checkpoint lands.
+// Per-swimmer time budgets. A single stuck swimmer must never be allowed to
+// drain a whole run before the first checkpoint lands — these caps skip it
+// instead.
 const SWIMMER_TIMEOUT_MS = parseInt(
   process.env.SWIMMER_TIMEOUT_MS || "90000", // 90s to fully process one swimmer
   10,
@@ -78,65 +90,12 @@ const LOOKUP_TIMEOUT_MS = parseInt(
   10,
 );
 
-// Global run budget: stop cleanly and checkpoint before Actions force-kills
-// the job at 6h. A clean exit lets lastChecked advance so the batch rotates.
+// Global run budget: stop cleanly and checkpoint before Actions force-kills the
+// job at 6h. A clean exit lets lastChecked advance so the batch rotates.
 const RUN_BUDGET_MS = parseInt(
   process.env.RUN_BUDGET_MS || String(5 * 3_600_000 + 20 * 60_000), // 5h20m
   10,
 );
-
-// Full (unlicensed-inclusive) roster — used by the gradual backfill of
-// non-licensed ("old") swimmers. Discovered the same way as the licensed
-// roster but with the "Kun lisensiert" checkbox OFF, so it lists every swimmer
-// ever registered. It is several times larger than the licensed list, so it
-// gets its own cache file, TTL, discovery budget, and a growth-friendly cache
-// trust rule (see getRoster opts.trustRule).
-const FULL_ROSTER_FILE = path.join(DATA_DIR, "roster-full.json");
-const FULL_ROSTER_MAX_AGE_MS =
-  parseInt(process.env.FULL_ROSTER_MAX_AGE_HOURS || "168", 10) * 3_600_000;
-const FORCE_FULL_DISCOVERY = process.env.FORCE_FULL_DISCOVERY === "1";
-const MAX_FULL_DISCOVERY_MS = parseInt(
-  process.env.MAX_FULL_DISCOVERY_MS || `${30 * 60_000}`,
-  10,
-);
-const MAX_FULL_SUFFIX_SCROLLS = 600;
-
-// Dedicated discovery-only mode: run with DISCOVERY_ONLY=full|licensed to
-// build a roster cache in a single long pass — scrolling the combo until the
-// very last item is reached — then exit without scraping. Used mainly to grow
-// the full roster, which is far too large to discover during a normal
-// incremental run. DISCOVERY_ONLY_MAX_MS caps the pass (default 3 h — a
-// multi-thousand-swimmer list at ~100 items/batch takes ~15-30 min).
-const DISCOVERY_ONLY = (process.env.DISCOVERY_ONLY || "").toLowerCase();
-const DISCOVERY_ONLY_MAX_MS = parseInt(
-  process.env.DISCOVERY_ONLY_MAX_MS || String(3 * 3_600_000),
-  10,
-);
-
-// Backfill of non-licensed ("old") swimmers: after the licensed batch, scrape
-// up to BACKFILL_NEW_PER_RUN candidates with their FULL race history.
-const BACKFILL_ENABLED = process.env.BACKFILL_ENABLED !== "0";
-const BACKFILL_NEW_PER_RUN = parseInt(
-  process.env.BACKFILL_NEW_PER_RUN || "10",
-  10,
-);
-const BACKFILL_SWIMMER_TIMEOUT_MS = parseInt(
-  process.env.BACKFILL_SWIMMER_TIMEOUT_MS || "1800000",
-  10,
-);
-// Skip backfill entirely if fewer than this many ms of run budget remain — a
-// kill mid-backfill would lose the unsaved files anyway, and candidates stay
-// candidates for the next run.
-const BACKFILL_MIN_REMAINING_MS = 15 * 60_000;
-
-// Backfill-only mode: dedicate the ENTIRE run to backfilling non-licensed
-// ("old") swimmers instead of the licensed incremental batch first and a small
-// backfill tail. The licensed loop is skipped entirely — useful when there are
-// no upcoming meets (e.g. the week before the season's first event), so the
-// hourly runs drain the ~39k-candidate pool at full speed. Candidates are
-// processed until the run budget is nearly exhausted, with periodic
-// checkpoints so a kill loses only the current swimmer.
-const BACKFILL_ONLY = process.env.BACKFILL_ONLY === "1";
 
 /* ─── Helpers ────────────────────────────────────────────────────── */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -224,8 +183,8 @@ const color = (code, s) => `${code}${s}${C.reset}`;
 /* ─── Swimmer discovery ───────────────────────────────────────────── */
 
 /**
- * Discover all swimmers in the combo box by loading ALL items into the
- * DevExpress client data store, then reading them via GetItem().
+ * Discover all licensed swimmers in the combo box by loading ALL items into
+ * the DevExpress client data store, then reading them via GetItem().
  *
  * Returns an array of { id, text, index } for every swimmer.
  */
@@ -399,8 +358,8 @@ async function discoverAllSwimmers(browser, baseUrl, opts = {}) {
 }
 
 /**
- * Load the swimmer roster, preferring a cached data/roster.json over a full
- * combo-box scroll. Full discovery runs only when the cache is missing,
+ * Load the licensed swimmer roster, preferring a cached data/roster.json over a
+ * full combo-box scroll. Full discovery runs only when the cache is missing,
  * unreadable, older than ROSTER_MAX_AGE_MS, or FORCE_DISCOVERY=1.
  *
  * When a fresh discovery runs, the result is written back to roster.json —
@@ -422,12 +381,6 @@ async function getRoster(browser, baseUrl, opts = {}) {
     kunLisensiert = true,
     label = "roster",
     discovery = {},
-    // "strict" (licensed roster): overwrite cache only when the discovery is
-    // complete AND at least as large as the cached copy.
-    // "growth" (full roster): overwrite when complete OR when it returned MORE
-    // swimmers than the cached copy — lets the cached full roster grow across
-    // runs even when individual discoveries time out part-way.
-    trustRule = "strict",
   } = opts;
 
   // Read whatever is cached (even if stale) so we can (a) return it when fresh
@@ -446,17 +399,12 @@ async function getRoster(browser, baseUrl, opts = {}) {
 
   if (!force && cached && cached.swimmers.length > 0) {
     const ageMs = Date.now() - new Date(cached.generatedAt || 0).getTime();
-    // During backfill the roster is complete and cannot go stale (we only add
-    // historical race data, never new swimmers), so trust any non-empty cache
-    // regardless of age and skip the ~2–3 min rediscovery on every shard.
-    if (BACKFILL_ONLY || ageMs < maxAgeMs) {
+    if (ageMs < maxAgeMs) {
       const ageH = Math.round(ageMs / 3_600_000);
       console.log(
         color(
           C.green,
-          BACKFILL_ONLY
-            ? `  Using cached ${label}: ${cached.swimmers.length} swimmers (backfill — discovery skipped)`
-            : `  Using cached ${label}: ${cached.swimmers.length} swimmers (${ageH}h old)`,
+          `  Using cached ${label}: ${cached.swimmers.length} swimmers (${ageH}h old)`,
         ),
       );
       return cached.swimmers;
@@ -481,10 +429,7 @@ async function getRoster(browser, baseUrl, opts = {}) {
   // the known roster. Otherwise keep the old cache but still use the fresh
   // partial list for this run.
   const trustworthy =
-    swimmers.length > 0 &&
-    (trustRule === "growth"
-      ? complete || swimmers.length > cachedCount
-      : complete && swimmers.length >= cachedCount);
+    swimmers.length > 0 && complete && swimmers.length >= cachedCount;
 
   if (trustworthy) {
     try {
@@ -533,620 +478,27 @@ async function getRoster(browser, baseUrl, opts = {}) {
 }
 
 /**
- * Dedicated discovery-only run: build a roster cache (full or licensed) in a
- * single long pass and exit without scraping. Used mainly to grow the full
- * roster, which is too large to discover during a normal incremental run.
- *
- * The combo is scrolled until the scrollbar stops advancing AND the loaded
- * item count stops growing — i.e. until we are certain we reached the very
- * last name (see discoverAllSwimmers). The cache is committed so subsequent
- * scrape runs reuse it.
+ * Keep only this shard's slice of the roster. Shard i owns swimmer j where
+ * j % SHARD_COUNT === SHARD_INDEX. The modulo is applied over the roster sorted
+ * by combo index, so the shards interleave across the alphabet rather than each
+ * taking a contiguous block (avoids N jobs all hammering the same combo prefix).
+ * With SHARD_COUNT === 1 the whole roster is returned unchanged.
  */
-async function runDiscoveryOnly(scope) {
-  const isFull = scope === "full";
-  const label = isFull ? "full roster" : "roster";
-  const cacheFile = isFull ? FULL_ROSTER_FILE : ROSTER_FILE;
-
-  console.log(`\n=== Roster discovery only (${label}) ===`);
-  console.log(
-    color(
-      C.dim,
-      `  Scope: "Kun lisensiert" ${isFull ? "OFF (every swimmer ever)" : "ON (current year)"}`,
-    ),
-  );
-
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    // The whole discovery runs inside ONE page.evaluate (CDP call), which can
-    // legitimately take up to DISCOVERY_ONLY_MAX_MS. 300s (the general default)
-    // would time it out on a large full-roster pass.
-    protocolTimeout: DISCOVERY_ONLY_MAX_MS + 60_000,
-  });
-  try {
-    const roster = await getRoster(browser, BASE_URL, {
-      cacheFile,
-      maxAgeMs: 0, // always rediscover in dedicated mode
-      force: true,
-      kunLisensiert: !isFull,
-      label,
-      trustRule: isFull ? "growth" : "strict",
-      discovery: {
-        maxDiscoveryMs: DISCOVERY_ONLY_MAX_MS,
-        maxSuffixScrolls: isFull ? 3000 : 500,
-      },
-    });
-
-    if (roster.length === 0) {
-      console.log(color(C.red, `  ✗ ${label} discovery returned no swimmers`));
-      return;
-    }
-    const first = roster[0];
-    const last = roster[roster.length - 1];
-    console.log(
-      color(
-        C.green,
-        `  ✓ ${label}: ${roster.length} swimmers cached to ${cacheFile}`,
-      ),
-    );
-    console.log(`    first: ${first.text} (id ${first.id})`);
-    console.log(`    last:  ${last.text} (id ${last.id})`);
-
-    // Persist the roster for future runs (data-only; [skip ci] stops the
-    // Scrape workflow re-triggering on the commit).
-    console.log("    Committing roster…");
-    gitCheckpoint(`roster discovery: ${label} (${roster.length} swimmers)`);
-  } finally {
-    await browser.close().catch(() => {});
-  }
+function shardRoster(roster) {
+  if (SHARD_COUNT <= 1) return roster;
+  const ordered = [...roster].sort((a, b) => a.index - b.index);
+  return ordered.filter((_, i) => i % SHARD_COUNT === SHARD_INDEX);
 }
 
 /**
- * Compute backfill candidates: full roster − licensed roster − swimmers who
- * already have a data file on disk − swimmers already checked and confirmed
- * empty (the checked-empty ledger). Returns up to `limit` candidates sorted
- * by ascending combo index so loadUntilIdx scrolls monotonically across the
- * batch (keeping the combo's incremental batches warm).
- */
-function computeBackfillCandidates(
-  full,
-  licensed,
-  existingIds,
-  limit,
-  checkedEmptyIds = new Set(),
-) {
-  const licensedIds = new Set(licensed.map((s) => String(s.id)));
-  const candidates = [];
-  for (const sw of full) {
-    const id = String(sw.id);
-    if (licensedIds.has(id)) continue;
-    if (existingIds.has(id)) continue;
-    if (checkedEmptyIds.has(id)) continue;
-    candidates.push(sw);
-  }
-  candidates.sort((a, b) => a.index - b.index);
-
-  // Shard filter (parallel matrix jobs): when SHARD_COUNT > 1, keep only every
-  // SHARD_COUNTth candidate offset by SHARD_INDEX. The split is disjoint by
-  // construction — no id can satisfy two different (i % N) values — so N shards
-  // running concurrently never process the same swimmer, even though they don't
-  // share progress mid-run. Applied AFTER the sort (which is by combo index) so
-  // the modulo interleaves shards across the alphabet rather than giving each a
-  // contiguous block (avoids N jobs all hammering the same combo prefix).
-  //
-  // Sharding is ONLY meaningful in backfill-only mode: the licensed loop is not
-  // sharded, so in a normal run the extra shards would only redo shard 0's work.
-  // We therefore force SHARD_COUNT to 1 unless BACKFILL_ONLY=1 — a code-side
-  // safety net so that even if the workflow's shard-skip guard is removed, a
-  // stray non-zero shard in normal mode can't mis-slice the licensed pool.
-  //
-  // SHARD_COUNT defaults to 1 (no sharding) so single-job runs are unchanged.
-  const backfillOnlyMode = process.env.BACKFILL_ONLY === "1";
-  const SHARD_COUNT = backfillOnlyMode
-    ? Math.max(1, parseInt(process.env.SHARD_COUNT || "1", 10))
-    : 1;
-  const SHARD_INDEX = parseInt(process.env.SHARD_INDEX || "0", 10);
-  const sharded =
-    SHARD_COUNT > 1
-      ? candidates.filter((_, i) => i % SHARD_COUNT === SHARD_INDEX)
-      : candidates;
-
-  return sharded.slice(0, limit);
-}
-
-/**
- * Backfill non-licensed ("old") swimmers after the licensed batch.
- *
- * Runs on a dedicated page with the "Kun lisensiert" checkbox OFF and an
- * empty date range (2000-01-01 → today), so each candidate gets its FULL race
- * history in one pass. Candidates are processed with the normal per-swimmer
- * pipeline (processSwimmer) — stable-id selection, grid parse, PID dedup
- * against an existing file, split extraction — and written under data/swimmers/.
- *
- * Skipped when the run budget is nearly exhausted (a kill mid-backfill would
- * lose unsaved files anyway; candidates stay candidates and are retried later).
- *
- * Returns the number of swimmers saved with new data.
- */
-
-// After navigateAndFilter toggles the "Kun lisensiert" checkbox off, the
-// full-roster combo reload is a multi-phase server callback. Backfill no longer
-// selects positionally against that full combo — it filters by name+id per
-// candidate (see the loop below), which returns a tight set in seconds and
-// doesn't depend on the whole 43k-item list being loaded. The old
-// settleComboForBackfill wait loop is gone with that positional path.
-
-/**
- * Is the backfill page still a live, usable DevExpress page? A candidate that
- * times out (or a reload that half-fails) can leave the page wedged: the DOM
- * is there but the `cmbUtover` combo global is gone or throws. Selecting a
- * swimmer on such a page throws the cryptic "Cannot read properties of null
- * (reading 'value')" from deep inside DevExpress. This check is the guard: a
- * short, timeout-bounded probe that confirms the combo exists and answers
- * GetItemCount() without throwing. Any throw, timeout, or missing global ⇒
- * not alive ⇒ caller hard-recreates the page.
- */
-async function backfillPageIsAlive(page, timeoutMs = 8_000) {
-  try {
-    return await withTimeout(
-      page.evaluate(() => {
-        try {
-          return (
-            typeof cmbUtover !== "undefined" &&
-            cmbUtover != null &&
-            typeof cmbUtover.GetItemCount === "function" &&
-            cmbUtover.GetItemCount() >= 0
-          );
-        } catch {
-          return false;
-        }
-      }),
-      timeoutMs,
-      "backfill page liveness probe",
-    );
-  } catch {
-    // evaluate itself hung or the page/context is gone.
-    return false;
-  }
-}
-
-/**
- * Tear down the current backfill page and build a fresh one with the backfill
- * filters (kunLisensiert:false + full date range). Used when a candidate times
- * out or the page fails a liveness check — a soft reloadPage isn't enough for a
- * wedged page, so we discard it entirely. Throws if a fresh page can't be
- * brought up (caller decides whether to abort the batch).
- */
-async function recreateBackfillPage(oldPage, browser, backfillFilters) {
-  try {
-    await oldPage.close();
-  } catch {}
-  const page = await browser.newPage();
-  await page.setUserAgent(
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
-      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  );
-  await page.setViewport({ width: 1400, height: 900 });
-  await navigateAndFilter(page, BASE_URL, backfillFilters);
-  return page;
-}
-
-/* ─── Backfill (non-licensed swimmers) ──────────────────────────── */
-
-async function runBackfill({
-  browser,
-  licensedRoster,
-  existingIds,
-  runStart,
-  // Backfill-only mode (BACKFILL_ONLY=1): process candidates until the run
-  // budget is nearly exhausted (instead of a fixed BACKFILL_NEW_PER_RUN cap),
-  // with periodic in-loop checkpoints and lastChecked updates. Normal runs
-  // keep the current fixed-cap, no-checkpoint behavior.
-  backfillOnly = false,
-  processedIds = null,
-}) {
-  if (!BACKFILL_ENABLED) return 0;
-
-  // Load the checked-empty ledger: swimmers already confirmed to have 0 races.
-  // Held in a Map for the whole backfill so we can (a) exclude them from the
-  // candidate pool and (b) append newly-confirmed empties before persisting.
-  const checkedEmpty = loadCheckedEmpty(CHECKED_EMPTY_FILE, {
-    force: FORCE_RECHECK_EMPTY,
-  });
-  const checkedEmptyIds = new Set(checkedEmpty.keys());
-  if (FORCE_RECHECK_EMPTY) {
-    console.log(
-      color(
-        C.yellow,
-        `  ⇠ backfill — FORCE_RECHECK_EMPTY=1: re-checking all previously-empty swimmers`,
-      ),
-    );
-  } else if (checkedEmptyIds.size > 0) {
-    console.log(
-      color(
-        C.dim,
-        `  ⇠ backfill — ${checkedEmptyIds.size} swimmers in checked-empty ledger (excluded)`,
-      ),
-    );
-  }
-  // Swimmers confirmed empty during THIS run, appended to the ledger at the
-  // end (and at each checkpoint in backfill-only mode).
-  const newlyEmpty = [];
-
-  const remainingMs = RUN_BUDGET_MS - (Date.now() - runStart);
-  if (remainingMs < BACKFILL_MIN_REMAINING_MS) {
-    console.log(
-      color(
-        C.dim,
-        `  ⇠ backfill skipped — only ${Math.round(remainingMs / 60_000)}m of run budget left`,
-      ),
-    );
-    return 0;
-  }
-
-  // Load the full (unlicensed-inclusive) roster. This may trigger a slow
-  // discovery on a cold cache (data/roster-full.json); on later runs the
-  // cache makes it fast. Loading it here — after the licensed batch — means a
-  // cold full discovery never delays the licensed swimmers.
-  console.log("Loading full roster for backfill…");
-  const fullRoster = await getRoster(browser, BASE_URL, {
-    cacheFile: FULL_ROSTER_FILE,
-    maxAgeMs: FULL_ROSTER_MAX_AGE_MS,
-    force: FORCE_FULL_DISCOVERY,
-    kunLisensiert: false,
-    label: "full roster",
-    trustRule: "growth",
-    discovery: {
-      maxDiscoveryMs: MAX_FULL_DISCOVERY_MS,
-      maxSuffixScrolls: MAX_FULL_SUFFIX_SCROLLS,
-    },
-  });
-  if (fullRoster.length === 0) {
-    console.log(
-      color(C.yellow, `  ⇠ backfill skipped — full roster unavailable`),
-    );
-    return 0;
-  }
-
-  const candidates = computeBackfillCandidates(
-    fullRoster,
-    licensedRoster,
-    existingIds,
-    // In backfill-only mode, take the whole pool — the budget check inside the
-    // loop stops the run. Normal mode keeps the fixed per-run cap.
-    backfillOnly ? fullRoster.length : BACKFILL_NEW_PER_RUN,
-    checkedEmptyIds,
-  );
-  if (candidates.length === 0) {
-    console.log(
-      color(
-        C.dim,
-        `  ⇠ backfill: no candidates (all non-licensed swimmers already on disk)`,
-      ),
-    );
-    return 0;
-  }
-
-  const candidatePool =
-    fullRoster.length -
-    licensedRoster.length -
-    existingIds.size -
-    checkedEmptyIds.size;
-  console.log(
-    color(
-      C.dim,
-      backfillOnly
-        ? `  ⇠ backfill-only: ${Math.max(0, candidatePool)} candidates — processing until run budget exhausted`
-        : `  ⇠ backfill: ${Math.max(0, candidatePool)} candidates, trying ${candidates.length}`,
-    ),
-  );
-
-  let backfillPage = await browser.newPage();
-  await backfillPage.setUserAgent(
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
-      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  );
-  await backfillPage.setViewport({ width: 1400, height: 900 });
-  // kunLisensiert:false + empty date range ⇒ full roster and FULL history.
-  const backfillFilters = { kunLisensiert: false, fraDato: "", tilDato: "" };
-  await navigateAndFilter(backfillPage, BASE_URL, backfillFilters);
-
-  let saved = 0;
-  let empty = 0;
-
-  // In-loop checkpoint bookkeeping (backfill-only mode): rebuild index + git
-  // push on the same boundaries as the licensed loop — every 10 saves, every
-  // 25 processed, or every 10 minutes — so a kill (or the budget stop below)
-  // loses at most the current swimmer.
-  let lastCheckpointSaved = 0;
-  let lastCheckpointProcessed = 0;
-  let lastCheckpointAt = Date.now();
-
-  for (let i = 0; i < candidates.length; i++) {
-    const sw = candidates[i];
-
-    // Backfill-only mode: stop cleanly once the run budget is nearly
-    // exhausted so the final index rebuild + git push fit inside the Actions
-    // ceiling. (Normal mode keeps its fixed per-run cap.)
-    if (
-      backfillOnly &&
-      Date.now() - runStart >= RUN_BUDGET_MS - BACKFILL_MIN_REMAINING_MS
-    ) {
-      console.log(
-        color(
-          C.red,
-          `  ⇠ backfill-only — run budget nearly exhausted, stopping (${saved} saved, ${i} processed)`,
-        ),
-      );
-      break;
-    }
-
-    // Before touching a candidate, make sure the page survived the previous
-    // one. A timed-out or wedged page (missing/throwing cmbUtover) would make
-    // selectSwimmer throw the cryptic null-`.value` error and cascade the
-    // failure across every remaining candidate. If the page is dead, hard-
-    // recreate it (a soft reload can't revive a wedged combo). If we can't even
-    // bring a fresh page up, the browser is likely gone — abort the batch
-    // rather than spin through the rest failing identically.
-    if (!(await backfillPageIsAlive(backfillPage))) {
-      console.log(
-        color(
-          C.yellow,
-          `  ⇠ backfill — page not alive, recreating before ${sw.text}`,
-        ),
-      );
-      try {
-        backfillPage = await recreateBackfillPage(
-          backfillPage,
-          browser,
-          backfillFilters,
-        );
-      } catch (err) {
-        console.log(
-          color(
-            C.red,
-            `  ⇠ backfill — could not recreate page (${(err.message || String(err)).slice(0, 80)}); aborting backfill`,
-          ),
-        );
-        break;
-      }
-    }
-
-    let attempt = 0;
-    while (true) {
-      try {
-        // Select by server-side name filter, disambiguated by id. Typing the
-        // surname makes the server return a tight candidate set in seconds, so
-        // this never depends on the full 43k-item combo being scroll-loaded
-        // (the old settleComboForBackfill path did). findSwimmerIdx prefers the
-        // item whose value === sw.id, so same-named swimmers can't collide.
-        const filterIdx = await withTimeout(
-          findSwimmerIdx(backfillPage, sw.text, { id: sw.id }),
-          LOOKUP_TIMEOUT_MS,
-          `backfill findSwimmerIdx(${sw.text})`,
-        );
-        if (filterIdx === null) {
-          // Not found via filter — leave as a candidate for a future run
-          // rather than guessing a stale positional index (which could select
-          // the wrong swimmer and pollute their file).
-          empty++;
-          console.log(
-            color(
-              C.yellow,
-              `  ⇠ backfill — ⚠ ${sw.text} — not found via filter (will retry next run)`,
-            ),
-          );
-          break;
-        }
-        // A backfill candidate is by definition a swimmerId with no file of
-        // its own, so it starts from a clean slate (existingEntry = null).
-        // Duplicate medley.no profiles — a DIFFERENT id sharing this person's
-        // name+club — are handled at write time, not here: writeSwimmerFile
-        // refuses to let an empty grid clobber a populated file and routes a
-        // genuinely different id to a <name>-<id>.json path. Merging the other
-        // id's data in here instead would conflate two medley identities under
-        // one swimmerId, so we deliberately keep them separate.
-        const result = await withTimeout(
-          processSwimmer(
-            backfillPage,
-            sw,
-            filterIdx,
-            {
-              SWIMMERS_DIR,
-              gridPollTimeoutMs: 20_000,
-              skipIfGridNeverLoaded: true,
-              processedInSession: i + 1,
-            },
-            null,
-          ),
-          BACKFILL_SWIMMER_TIMEOUT_MS,
-          `backfill ${sw.text}`,
-        );
-        if (result?.saved) {
-          saved++;
-          processedIds?.add(sw.id);
-          console.log(
-            color(
-              C.green,
-              `  ⇠ backfill — ✓ ${i}: ${sw.text} — +${result.totalNewRaces} races (${result.totalRaces} total)`,
-            ),
-          );
-        } else if (result?.gridNeverLoaded && attempt < 1) {
-          // Grid hiccuped on a full-history load — reload the backfill page
-          // (restores full mode) and retry once. If it fails again, the
-          // swimmer is left as a candidate for a future run.
-          attempt++;
-          console.log(
-            color(
-              C.yellow,
-              `  ⇠ backfill — ${sw.text}: grid never loaded, retrying (${attempt})`,
-            ),
-          );
-          backfillPage = await reloadPage(
-            backfillPage,
-            browser,
-            BASE_URL,
-            backfillFilters,
-          );
-          continue;
-        } else if (result?.gridNeverLoaded) {
-          // Grid never loaded and the single retry is spent — a transient
-          // load failure, NOT a confirmed-empty swimmer. Leave them a
-          // candidate for a future run (do not add to the checked-empty
-          // ledger).
-          empty++;
-          console.log(
-            color(
-              C.dim,
-              `  ⇠ backfill — ⚠ ${sw.text} — grid never loaded (will retry next run)`,
-            ),
-          );
-        } else if (result?.identityMismatch) {
-          // Wrong swimmer was selected (stale index fallback picked someone
-          // else). NOT a confirmed-empty verdict for THIS id — leave them a
-          // candidate for a future run rather than poisoning the ledger.
-          empty++;
-          console.log(
-            color(
-              C.yellow,
-              `  ⇠ backfill — ⚠ ${sw.text} — identity mismatch (will retry next run)`,
-            ),
-          );
-        } else {
-          // Grid loaded and genuinely showed 0 races: the swimmer was checked
-          // and confirmed empty. Record them in the checked-empty ledger so
-          // they are not re-scraped every run, while still keeping them out of
-          // the index/total (no file was written). This is the fix for
-          // confirmed-empty swimmers being re-checked forever.
-          empty++;
-          newlyEmpty.push(sw);
-          checkedEmptyIds.add(String(sw.id));
-          console.log(
-            color(
-              C.dim,
-              `  ⇠ backfill — ⚠ ${sw.text} — 0 races, recorded as checked-empty`,
-            ),
-          );
-        }
-        break;
-      } catch (err) {
-        empty++;
-        const msg = err.message || String(err);
-        // A timeout almost always means the page is wedged (a slow/hung
-        // full-history load). Recovering it with a soft reload is unreliable
-        // and tends to leave a half-dead combo that poisons the next
-        // candidates — so treat a timeout as fatal to the page and hard-
-        // recreate it. Non-timeout errors get one soft reload attempt.
-        const timedOut = /timed out/i.test(msg);
-        console.log(
-          color(C.yellow, `  ⇠ backfill — ⚠ ${sw.text}: ${msg.slice(0, 80)}`),
-        );
-        try {
-          backfillPage = timedOut
-            ? await recreateBackfillPage(backfillPage, browser, backfillFilters)
-            : await reloadPage(
-                backfillPage,
-                browser,
-                BASE_URL,
-                backfillFilters,
-              );
-        } catch (recErr) {
-          // Recovery failed — the page is unusable and we couldn't get a
-          // fresh one. Surface it (don't swallow) and abort the batch; the
-          // remaining candidates stay candidates for the next run.
-          console.log(
-            color(
-              C.red,
-              `  ⇠ backfill — page recovery failed (${(recErr.message || String(recErr)).slice(0, 80)}); aborting backfill`,
-            ),
-          );
-          // Persist any empties confirmed before the page died so they aren't
-          // re-scraped next run.
-          saveCheckedEmpty(
-            CHECKED_EMPTY_FILE,
-            checkedEmpty,
-            newlyEmpty,
-            DATA_DIR,
-          );
-          return saved;
-        }
-        break;
-      }
-    }
-
-    // Backfill-only mode: checkpoint on the same boundaries as the licensed
-    // loop — every 10 saves, every 25 processed, or every 10 minutes.
-    if (backfillOnly) {
-      const saveBoundary = saved > 0 && saved - lastCheckpointSaved >= 10;
-      const processedBoundary = i + 1 - lastCheckpointProcessed >= 25;
-      const timeBoundary = Date.now() - lastCheckpointAt >= 10 * 60_000;
-      if (saveBoundary || processedBoundary || timeBoundary) {
-        // Persist newly-confirmed empties BEFORE the git push so a kill right
-        // after the push doesn't lose the ledger update (which would re-queue
-        // those swimmers next run). saveCheckedEmpty is idempotent and only
-        // adds ids not already present.
-        const added = saveCheckedEmpty(
-          CHECKED_EMPTY_FILE,
-          checkedEmpty,
-          newlyEmpty,
-          DATA_DIR,
-        );
-        newlyEmpty.length = 0; // already folded into `checkedEmpty`
-        rebuildIndex({
-          swimmersDir: SWIMMERS_DIR,
-          dataDir: DATA_DIR,
-          indexFile: INDEX_FILE,
-          baseUrl: BASE_URL,
-          processedIds,
-        });
-        gitCheckpoint(`backfill-only: ${saved} saved / ${i + 1} processed`);
-        console.log(
-          color(
-            C.dim,
-            `  ⇠ backfill checkpoint: ${saved} saved, ${i + 1} processed${added > 0 ? `, +${added} checked-empty` : ""}`,
-          ),
-        );
-        lastCheckpointSaved = saved;
-        lastCheckpointProcessed = i + 1;
-        lastCheckpointAt = Date.now();
-      }
-    }
-  }
-
-  try {
-    await backfillPage.close();
-  } catch {}
-
-  // Persist any empties confirmed since the last checkpoint (normal runs have
-  // no in-loop checkpoints, so this is where their whole ledger update lands).
-  const addedEmpty = saveCheckedEmpty(
-    CHECKED_EMPTY_FILE,
-    checkedEmpty,
-    newlyEmpty,
-    DATA_DIR,
-  );
-
-  console.log(
-    color(
-      C.dim,
-      `  ⇠ backfill done: ${saved} saved, ${empty} empty${addedEmpty > 0 ? ` (+${addedEmpty} newly checked-empty)` : ""}`,
-    ),
-  );
-  return saved;
-}
-
-/**
- * Reload the page (navigate back to BASE_URL, re-apply filters).
+ * Reload the page (navigate back to BASE_URL, re-apply the incremental filters).
  * If the page is stuck, creates a fresh one.
- * filterOpts overrides the default licensed incremental filters (e.g. the
- * backfill page needs kunLisensiert:false + full date range on reload).
  */
-async function reloadPage(page, browser, baseUrl, filterOpts = {}) {
+async function reloadPage(page, browser, baseUrl) {
   try {
     await navigateAndFilter(page, baseUrl, {
       fraDato: FRA_DATO,
       tilDato: TIL_DATO,
-      ...filterOpts,
     });
     return page;
   } catch {
@@ -1162,7 +514,6 @@ async function reloadPage(page, browser, baseUrl, filterOpts = {}) {
     await navigateAndFilter(newPage, baseUrl, {
       fraDato: FRA_DATO,
       tilDato: TIL_DATO,
-      ...filterOpts,
     });
     return newPage;
   }
@@ -1217,108 +568,7 @@ function loadExistingDataMap() {
   return map;
 }
 
-/**
- * Backfill-only run (BACKFILL_ONLY=1): dedicate the whole run budget to
- * backfilling non-licensed swimmers instead of running the licensed
- * incremental batch first. The licensed loop is skipped — when no meets are
- * scheduled there are no new races to check — so every hour of the run drains
- * the backfill candidate pool instead of checking licensed swimmers who have
- * nothing new.
- *
- * Candidates = full roster − licensed roster − swimmers already on disk.
- * They are processed with their FULL race history until the run budget is
- * nearly exhausted, with periodic checkpoints (index rebuild + git push) so a
- * kill loses only the current swimmer.
- */
-async function runBackfillOnly() {
-  console.log(
-    "\n=== Backfill-only run — non-licensed swimmers, full history ===",
-  );
-  console.log(
-    color(
-      C.dim,
-      "  Licensed incremental batch skipped (BACKFILL_ONLY=1; no new races expected)",
-    ),
-  );
-
-  console.log("Loading existing swimmer data…");
-  const existingDataMap = loadExistingDataMap();
-  console.log(
-    color(
-      C.dim,
-      `  ${existingDataMap.size} swimmers with existing data on disk`,
-    ),
-  );
-
-  // Backfilled swimmers get lastChecked updated in the index. The candidate
-  // pool itself is file-based (a saved file excludes a swimmer from later
-  // runs), so this is consistency rather than rotation bookkeeping.
-  const processedIds = new Set();
-  const runStart = Date.now();
-
-  console.log("Launching browser …");
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    // Backfill runs a full-roster discovery (up to MAX_FULL_DISCOVERY_MS)
-    // inside a single page.evaluate — keep the CDP timeout above that budget.
-    protocolTimeout: MAX_FULL_DISCOVERY_MS + 60_000,
-  });
-
-  // Licensed roster (from cache) — used to exclude licensed swimmers from the
-  // backfill candidate pool, exactly as in a normal run.
-  console.log("Loading licensed roster…");
-  const licensedRoster = await getRoster(browser, BASE_URL);
-  console.log(color(C.green, `  ${licensedRoster.length} licensed swimmers`));
-
-  const saved = await runBackfill({
-    browser,
-    licensedRoster,
-    existingIds: new Set(existingDataMap.keys()),
-    runStart,
-    backfillOnly: true,
-    processedIds,
-  });
-
-  // ── Finalize ────────────────────────────────────────────────────
-  console.log("\n    Rebuilding index…");
-  rebuildIndex({
-    swimmersDir: SWIMMERS_DIR,
-    dataDir: DATA_DIR,
-    indexFile: INDEX_FILE,
-    baseUrl: BASE_URL,
-    processedIds,
-  });
-
-  console.log("    Pushing to GitHub…");
-  gitCheckpoint(`backfill-only final — ${saved} saved`);
-
-  console.log(
-    color(
-      C.green,
-      `\n  ✓ Backfill-only run complete! ${saved} swimmers saved (full history)`,
-    ),
-  );
-
-  await browser.close().catch(() => {});
-  process.exit(0);
-}
-
 async function main() {
-  // Dedicated discovery-only mode: build a roster cache (full or licensed)
-  // and exit without scraping. See DISCOVERY_ONLY env.
-  if (DISCOVERY_ONLY === "full" || DISCOVERY_ONLY === "licensed") {
-    await runDiscoveryOnly(DISCOVERY_ONLY);
-    return;
-  }
-
-  // Backfill-only mode: skip the licensed incremental batch entirely and
-  // spend the whole run backfilling non-licensed swimmers (BACKFILL_ONLY=1).
-  if (BACKFILL_ONLY) {
-    await runBackfillOnly();
-    return;
-  }
-
   function toDDMMYYYY(iso) {
     if (!iso) return "";
     const [y, m, d] = iso.split("-");
@@ -1329,6 +579,11 @@ async function main() {
   console.log(
     `  Date range: ${toDDMMYYYY(FRA_DATO)} → ${toDDMMYYYY(tilDatoDisplay)}${TIL_DATO ? "" : " (today)"}`,
   );
+  if (SHARD_COUNT > 1) {
+    console.log(
+      color(C.dim, `  Shard ${SHARD_INDEX + 1}/${SHARD_COUNT}`),
+    );
+  }
 
   // Load ALL existing swimmer data from disk into a map keyed by swimmer ID.
   // This gives us the existing races for dedup (by PID) and merge.
@@ -1343,6 +598,41 @@ async function main() {
 
   // Track ALL swimmers successfully checked in this run (for lastChecked)
   const processedIds = new Set();
+
+  // Persist this shard's checked-swimmer ids so the merge job can advance their
+  // lastChecked when it rebuilds the index over the union of all shards. Written
+  // eagerly (even empty, before the loop) so the file exists for the artifact
+  // upload even if the run crashes early.
+  const writeProcessedIds = () => {
+    try {
+      if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+      fs.writeFileSync(PROCESSED_FILE, JSON.stringify([...processedIds]), "utf-8");
+    } catch (err) {
+      console.warn(
+        color(C.yellow, `  ⚠ Could not write ${PROCESSED_FILE}: ${err.message}`),
+      );
+    }
+  };
+
+  // A checkpoint always refreshes the processed-ids file. In a sharded run
+  // (NO_PUSH) that is the ONLY durable output beyond the swimmer files already
+  // on disk — the index is rebuilt once by the merge job, so we skip the
+  // expensive per-shard rebuild + push here. A standalone run (SHARD_COUNT=1,
+  // no NO_PUSH) rebuilds and pushes its own index as before.
+  const checkpoint = (label) => {
+    writeProcessedIds();
+    if (!NO_PUSH) {
+      rebuildIndex({
+        swimmersDir: SWIMMERS_DIR,
+        dataDir: DATA_DIR,
+        indexFile: INDEX_FILE,
+        baseUrl: BASE_URL,
+        processedIds,
+      });
+      gitCheckpoint(label);
+    }
+  };
+  writeProcessedIds();
 
   // Load the existing index to get lastChecked timestamps for batch rotation.
   console.log("Loading index for batch rotation…");
@@ -1364,15 +654,26 @@ async function main() {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    // Backfill runs a full-roster discovery (up to MAX_FULL_DISCOVERY_MS)
-    // inside a single page.evaluate — keep the CDP timeout above that budget.
-    protocolTimeout: MAX_FULL_DISCOVERY_MS + 60_000,
+    // Roster discovery runs inside a single page.evaluate that can legitimately
+    // take a couple of minutes; keep the CDP protocol timeout above that.
+    protocolTimeout: 300_000,
   });
 
-  // ── Discover all swimmers (cached roster when fresh) ────────────
+  // ── Discover all licensed swimmers (cached roster when fresh) ──────
   console.log("Loading swimmer roster…");
   const allSwimmers = await getRoster(browser, BASE_URL);
   console.log(color(C.green, `  ${allSwimmers.length} swimmers in roster`));
+
+  // Keep only this shard's slice (whole roster when unsharded).
+  const myShard = shardRoster(allSwimmers);
+  if (SHARD_COUNT > 1) {
+    console.log(
+      color(
+        C.dim,
+        `  This shard owns ${myShard.length} of ${allSwimmers.length} swimmers`,
+      ),
+    );
+  }
 
   // ── Create main processing page ──────────────────────────────────
   let page = await browser.newPage();
@@ -1386,18 +687,18 @@ async function main() {
     tilDato: TIL_DATO,
   });
 
-  // Sort swimmers:
+  // Sort this shard's swimmers:
   // 1. Brand-new swimmers (no data file on disk) first — they need a full
   //    save and shouldn't wait behind existing swimmers.
   // 2. Existing swimmers by lastChecked ascending (most overdue first),
-  //    so we cycle fairly through all swimmers over multiple runs.
+  //    so we cycle fairly through everyone over multiple runs.
   //
   // NOTE: on warm runs `allSwimmers` comes from the cached roster, which
-  // won't include swimmers added server-side since the roster was built.
+  // won't include swimmers licensed server-side since the roster was built.
   // Those are picked up when the roster refreshes (ROSTER_MAX_AGE_HOURS,
-  // default weekly) or on a FORCE_DISCOVERY=1 run. This delays — but never
+  // default 48h) or on a FORCE_DISCOVERY=1 run. This delays — but never
   // drops — brand-new swimmers, and never affects already-saved data.
-  const sortedSwimmers = [...allSwimmers].sort((a, b) => {
+  const sortedSwimmers = [...myShard].sort((a, b) => {
     const aNew = existingDataMap.has(a.id) ? 1 : 0;
     const bNew = existingDataMap.has(b.id) ? 1 : 0;
     if (aNew !== bNew) return aNew - bNew; // no-data (brand-new) comes first
@@ -1405,10 +706,9 @@ async function main() {
     const bChecked = lastCheckedMap.get(b.id) || "";
     return aChecked.localeCompare(bChecked);
   });
-  // Take only the first batch to keep runtime within timeout limits.
+  // Cap the run at MAX_SWIMMERS_PER_RUN (normally covers the whole shard).
   const batch = sortedSwimmers.slice(0, MAX_SWIMMERS_PER_RUN);
-  const skipped = allSwimmers.length - batch.length;
-
+  const skipped = sortedSwimmers.length - batch.length;
   console.log(
     color(
       C.dim,
@@ -1427,6 +727,8 @@ async function main() {
   // 6h Actions ceiling. A low interval matters because a run can be killed
   // mid-batch; without a recent checkpoint, lastChecked never advances and
   // the next run re-picks the same overdue swimmers, stalling on the front.
+  // (In sharded mode gitCheckpoint is a no-op — NO_PUSH=1 — but the index
+  // rebuild still runs so a shard's own files stay consistent.)
   const CHECKPOINT_EVERY = 10;
   const CHECKPOINT_INTERVAL_MS = 10 * 60_000; // 10 minutes
   let lastCheckpointSaved = 0;
@@ -1630,17 +932,7 @@ async function main() {
               ),
             );
             try {
-              // Rebuild index and push what's been saved so far.
-              rebuildIndex({
-                swimmersDir: SWIMMERS_DIR,
-                dataDir: DATA_DIR,
-                indexFile: INDEX_FILE,
-                baseUrl: BASE_URL,
-                processedIds,
-              });
-            } catch (e) {}
-            try {
-              gitCheckpoint(`partial — fatal timeouts (${fatalTimeouts})`);
+              checkpoint(`partial — fatal timeouts (${fatalTimeouts})`);
             } catch (e) {}
             // Exit cleanly so next scheduled run can pick up.
             process.exit(0);
@@ -1679,14 +971,7 @@ async function main() {
     const timeBoundary =
       Date.now() - lastCheckpointAt >= CHECKPOINT_INTERVAL_MS;
     if (saveBoundary || processedBoundary || timeBoundary) {
-      rebuildIndex({
-        swimmersDir: SWIMMERS_DIR,
-        dataDir: DATA_DIR,
-        indexFile: INDEX_FILE,
-        baseUrl: BASE_URL,
-        processedIds,
-      });
-      gitCheckpoint(`${saved} saved / ${processed} checked`);
+      checkpoint(`${saved} saved / ${processed} checked`);
       console.log(
         color(C.dim, `  Checkpoint: ${saved} saved, ${processed} checked`),
       );
@@ -1705,14 +990,7 @@ async function main() {
           `  ✗ Run budget (${Math.round(RUN_BUDGET_MS / 60_000)}m) reached — checkpointing and exiting`,
         ),
       );
-      rebuildIndex({
-        swimmersDir: SWIMMERS_DIR,
-        dataDir: DATA_DIR,
-        indexFile: INDEX_FILE,
-        baseUrl: BASE_URL,
-        processedIds,
-      });
-      gitCheckpoint(`partial — run budget reached (${processed} checked)`);
+      checkpoint(`partial — run budget reached (${processed} checked)`);
       await browser.close().catch(() => {});
       process.exit(0);
     }
@@ -1724,33 +1002,17 @@ async function main() {
     }
   }
 
-  // ── Backfill non-licensed swimmers (after the licensed batch) ──
-  // Adds old swimmers' full history a few at a time. Runs after the licensed
-  // loop so it never delays or interrupts the regular incremental batch.
-  const backfillSaved = await runBackfill({
-    browser,
-    licensedRoster: allSwimmers,
-    existingIds: new Set(existingDataMap.keys()),
-    runStart,
-  });
-  saved += backfillSaved;
-
   // ── Finalize ────────────────────────────────────────────────────
   try {
     await page.close();
   } catch {}
 
-  console.log("\n    Rebuilding index…");
-  rebuildIndex({
-    swimmersDir: SWIMMERS_DIR,
-    dataDir: DATA_DIR,
-    indexFile: INDEX_FILE,
-    baseUrl: BASE_URL,
-    processedIds,
-  });
-
-  console.log("    Pushing to GitHub…");
-  gitCheckpoint(`final — ${saved} swimmers`);
+  console.log(
+    NO_PUSH
+      ? "\n    Writing shard results (merge job rebuilds the index)…"
+      : "\n    Rebuilding index and pushing…",
+  );
+  checkpoint(`final — ${saved} swimmers`);
 
   const withChecked = processedIds.size;
   console.log(
@@ -1765,8 +1027,7 @@ async function main() {
 }
 
 // Only auto-run when invoked directly (`node index.js`). When imported (e.g. a
-// test importing getRoster/discoverAllSwimmers/computeBackfillCandidates),
-// main() must NOT start a scrape.
+// test importing getRoster/discoverAllSwimmers), main() must NOT start a scrape.
 import { fileURLToPath } from "url";
 const isMain =
   process.argv[1] &&
@@ -1781,9 +1042,6 @@ if (isMain) {
 export {
   discoverAllSwimmers,
   getRoster,
-  computeBackfillCandidates,
+  shardRoster,
   loadExistingDataMap,
-  runBackfill,
-  runBackfillOnly,
-  runDiscoveryOnly,
 };

@@ -1,3 +1,8 @@
 node_modules/
 _dl/
 .DS_Store
+
+# Per-shard "swimmers checked this run" lists. These are run-scoped: each shard
+# writes one, the workflow uploads it as part of the shard artifact, and the
+# merge job reads it to advance lastChecked. They must never be committed.
+data/processed-shard-*.json

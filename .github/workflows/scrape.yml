@@ -2,7 +2,7 @@ name: Scrape
 
 on:
   schedule:
-    - cron: "0 * * * *" # every hour
+    - cron: "0 */2 * * *" # every two hours
   workflow_dispatch: # manual trigger
 
 # Concurrency belongs at the WORKFLOW level so the group scopes the whole run.
@@ -21,23 +21,9 @@ permissions:
   id-token: write
 
 env:
-  # ┌───────────────────────────────────────────────────────────────[...]
-  # │ THE ONLY SWITCH YOU NEED TO FLIP between seasons.                     │
-  # │                                                                      │
-  # │  "1" = backfill-only week (no meets): skip the licensed loop and fan  │
-  # │        out across all shards to drain the non-licensed pool fast.     │
-  # │  "0" = normal incremental scraping (meets happening): run the         │
-  # │        licensed loop on shard 0 ONLY; shards 1–7 skip themselves.     │
-  # │                                                                      │
-  # │ Nothing else needs changing. index.js reads BACKFILL_ONLY and treats  │
-  # │ SHARD_COUNT as 1 when it is "0", so the licensed loop is never run     │
-  # │ 8× even though the matrix still lists 8 shards.                        │
-  # └───────────────────────────────────────────────────────────────[...]
-  BACKFILL_ONLY: "1"
-
-  # Fan-out width used ONLY in backfill-only mode. index.js ignores this (treats
-  # it as 1) whenever BACKFILL_ONLY != "1", so you never have to touch it when
-  # flipping the switch above. Keep it equal to the matrix.shard list length.
+  # Fan-out width: the licensed roster is split across this many parallel shards
+  # (shard i scrapes swimmer j where j % SHARD_COUNT == SHARD_INDEX). Keep this
+  # equal to the matrix.shard list length below.
   SHARD_COUNT: "8"
 
 jobs:
@@ -110,22 +96,15 @@ jobs:
           # dropping the push. `true` = keep ours, always succeed.
           git config merge.ours.driver true
 
-      # Skip the actual scrape on shards 1–7 when NOT in backfill-only mode:
-      # the licensed loop isn't sharded, so those shards would only redo shard
-      # 0's work. In backfill-only mode every shard runs and splits the pool.
-      # (env is usable in a step-level if; it is NOT usable in a job-level if.)
+      # Every shard runs and scrapes its disjoint slice of the licensed roster
+      # (shard i owns swimmer j where j % SHARD_COUNT == SHARD_INDEX).
       - name: Run scraper (shard ${{ matrix.shard }})
-        if: ${{ env.BACKFILL_ONLY == '1' || matrix.shard == 0 }}
         continue-on-error: true
         env:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
-          LOOKBACK_DAYS: "30"
-          BACKFILL_ENABLED: "1"
-          BACKFILL_NEW_PER_RUN: "10"
-          # BACKFILL_ONLY inherits the top-level switch — do NOT hardcode it here.
-          # Sharding: this shard scrapes candidate i where i % SHARD_COUNT == SHARD_INDEX.
-          # index.js forces SHARD_COUNT to 1 when BACKFILL_ONLY != "1", so a
-          # stray non-zero shard that still ran would not mis-slice the pool.
+          # Trailing window: check from today back this many days for new races.
+          LOOKBACK_DAYS: "90"
+          # Sharding: this shard scrapes swimmer j where j % SHARD_COUNT == SHARD_INDEX.
           SHARD_INDEX: ${{ matrix.shard }}
           # SHARD_COUNT inherits the top-level env value.
           # Shards write files but never push — the merge job does the single commit.
@@ -136,16 +115,18 @@ jobs:
           node index.js
 
       # Upload only THIS shard's outputs. Swimmer files are disjoint across
-      # shards; checked-empty.json is this shard's partial ledger (unioned later).
-      # Same guard as the scrape step: a skipped shard has nothing to upload.
+      # shards, so the merge job can copy them all together without clobbering.
+      # processed-shard-<i>.json lists the swimmers this shard checked (for the
+      # merge job's lastChecked update). Keeping both paths also roots the
+      # artifact at data/ (least-common-ancestor), so the files land at
+      # /tmp/shards/shard-<i>/swimmers/… exactly as the merge step expects.
       - name: Upload shard data
-        if: ${{ env.BACKFILL_ONLY == '1' || matrix.shard == 0 }}
         uses: actions/upload-artifact@v4
         with:
           name: shard-${{ matrix.shard }}
           path: |
             data/swimmers/**
-            data/checked-empty.json
+            data/processed-shard-${{ matrix.shard }}.json
           if-no-files-found: ignore
           retention-days: 1
 
@@ -214,13 +195,6 @@ jobs:
             fi
           done
 
-          # checked-empty.json: union all shard ledgers with the committed one.
-          checked=(/tmp/shards/shard-*/checked-empty.json)
-          if [ ${#checked[@]} -gt 0 ] && [ "${checked[0]}" != "/tmp/shards/shard-*/checked-empty.json" ]; then
-            node scripts/merge-checked-empty.js "${checked[@]}"
-            merged_any=true
-          fi
-
           if [ "$merged_any" = true ]; then
             echo "merged=true" >> $GITHUB_OUTPUT
           else
@@ -235,6 +209,11 @@ jobs:
 
       - name: Rebuild index once over the merged data
         if: steps.merge.outputs.merged == 'true'
+        env:
+          # Scan the downloaded shard artifacts for each shard's
+          # processed-shard-<i>.json so lastChecked advances for every swimmer
+          # checked this run (drives the least-recently-checked-first rotation).
+          PROCESSED_SCAN_DIR: /tmp/shards
         run: node scripts/rebuild-index.js
 
       - name: Commit merged data
