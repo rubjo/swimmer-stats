@@ -1,0 +1,55 @@
+{
+  "swimmerId": "55784",
+  "name": "Nils Carré",
+  "club": "Kolbotn IL",
+  "birthYear": 2013,
+  "gender": "male",
+  "timestamp": "2026-08-23T01:44:27.816Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,57",
+          "Dato": "22.08.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1453",
+          "pid": "3987054"
+        },
+        {
+          "Tid": "41,81",
+          "Dato": "22.08.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3987506",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.35,76",
+          "Dato": "22.08.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1342",
+          "pid": "3987505",
+          "splits": [
+            "41,81",
+            "53,95"
+          ]
+        }
+      ]
+    }
+  ]
+}
