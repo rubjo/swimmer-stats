@@ -4,7 +4,7 @@
   "club": "Nesodden-Drøbak SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-23T02:34:19.353Z",
+  "timestamp": "2026-08-31T23:17:47.703Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -48,6 +48,17 @@
           "RK": "",
           "RA": "",
           "pid": "3880452"
+        },
+        {
+          "Tid": "47,41",
+          "Dato": "22.08.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3987640",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -186,6 +197,44 @@
           "splits": [
             "1.01,19",
             "1.05,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,35",
+          "Dato": "22.08.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987639",
+          "splits": [
+            "47,41",
+            "51,94"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.50,34",
+          "Dato": "22.08.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987375",
+          "splits": [
+            "52,41",
+            "57,93"
           ]
         }
       ]
