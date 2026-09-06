@@ -1,0 +1,77 @@
+{
+  "swimmerId": "53597",
+  "name": "Maria Lunde Hoddevik",
+  "club": "Sandnes SLK",
+  "birthYear": 2013,
+  "gender": "female",
+  "timestamp": "2026-09-06T20:18:24.472Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "56,92",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988093"
+        },
+        {
+          "Tid": "57,43",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988502",
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.04,80",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988503",
+          "splits": [
+            "57,43",
+            "1.07,37"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.28,70",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988501",
+          "splits": [
+            "57,43",
+            "1.07,37",
+            "1.08,14",
+            "1.15,76"
+          ]
+        }
+      ]
+    }
+  ]
+}
