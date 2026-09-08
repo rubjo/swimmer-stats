@@ -168,6 +168,18 @@ jobs:
         with:
           path: /tmp/shards
 
+      - name: Debug artifact structure
+        run: |
+          echo "=== Contents of /tmp/shards ==="
+          ls -la /tmp/shards/ | head -20
+          echo ""
+          echo "=== Contents of shard-0 (if exists) ==="
+          if [ -d /tmp/shards/shard-0 ]; then
+            find /tmp/shards/shard-0 -type f | head -20
+          else
+            echo "shard-0 dir does not exist"
+          fi
+
       - name: Merge shard files into data/
         id: merge
         run: |
@@ -188,10 +200,20 @@ jobs:
           # (id-suffixed paths, empty-over-nonempty refusal) already prevented
           # any within-shard clobber before upload.
           for d in "${shards[@]}"; do
+            echo "Checking $d for swimmers directory..."
             if [ -d "$d/data/swimmers" ]; then
+              echo "  Found $d/data/swimmers — merging"
               mkdir -p data/swimmers
               cp -R "$d/data/swimmers/." data/swimmers/
               merged_any=true
+            elif [ -d "$d/swimmers" ]; then
+              echo "  Found $d/swimmers — merging"
+              mkdir -p data/swimmers
+              cp -R "$d/swimmers/." data/swimmers/
+              merged_any=true
+            else
+              echo "  No swimmers directory in $d"
+              ls -la "$d" 2>/dev/null | head -10 || true
             fi
           done
 
