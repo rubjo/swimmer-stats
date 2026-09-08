@@ -168,18 +168,6 @@ jobs:
         with:
           path: /tmp/shards
 
-      - name: Debug artifact structure
-        run: |
-          echo "=== Contents of /tmp/shards ==="
-          ls -la /tmp/shards/ | head -20
-          echo ""
-          echo "=== Contents of shard-0 (if exists) ==="
-          if [ -d /tmp/shards/shard-0 ]; then
-            find /tmp/shards/shard-0 -type f | head -20
-          else
-            echo "shard-0 dir does not exist"
-          fi
-
       - name: Merge shard files into data/
         id: merge
         run: |
@@ -200,22 +188,19 @@ jobs:
           # (id-suffixed paths, empty-over-nonempty refusal) already prevented
           # any within-shard clobber before upload.
           for d in "${shards[@]}"; do
-            echo "Checking $d for swimmers directory..."
-            if [ -d "$d/data/swimmers" ]; then
-              echo "  Found $d/data/swimmers — merging"
-              mkdir -p data/swimmers
-              cp -R "$d/data/swimmers/." data/swimmers/
-              merged_any=true
-            elif [ -d "$d/swimmers" ]; then
-              echo "  Found $d/swimmers — merging"
+            if [ -d "$d/swimmers" ]; then
               mkdir -p data/swimmers
               cp -R "$d/swimmers/." data/swimmers/
               merged_any=true
-            else
-              echo "  No swimmers directory in $d"
-              ls -la "$d" 2>/dev/null | head -10 || true
             fi
           done
+
+          # checked-empty.json: union all shard ledgers with the committed one.
+          checked=(/tmp/shards/shard-*/processed-shard-*.json)
+          if [ ${#checked[@]} -gt 0 ] && [ "${checked[0]}" != "/tmp/shards/shard-*/processed-shard-*.json" ]; then
+            node scripts/merge-processed-shards.js "${checked[@]}"
+            merged_any=true
+          fi
 
           if [ "$merged_any" = true ]; then
             echo "merged=true" >> $GITHUB_OUTPUT
@@ -261,12 +246,7 @@ jobs:
         if: steps.merge.outputs.merged == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          # Deploy the REPO ROOT, not data/. The landing page (index.html) lives
-          # at the root and redirects to data/index.json, and the app fetches
-          # data/index.json. Uploading `data` hoisted its contents to the site
-          # root, so index.json was served at /index.json (not /data/index.json)
-          # and index.html never shipped — the "index.json not available" symptom.
-          path: .
+          path: data
 
       - name: Deploy to Pages
         if: steps.merge.outputs.merged == 'true'
