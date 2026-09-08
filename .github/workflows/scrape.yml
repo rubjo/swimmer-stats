@@ -251,7 +251,8 @@ jobs:
             # so a failure here is a real problem and should fail the run rather
             # than deploying an un-pushed tree with the commit silently dropped.
             git push origin HEAD:main || (
-              git pull --rebase origin main &&
+              git fetch origin main &&
+              git merge origin/main &&
               git push origin HEAD:main
             )
           fi
