@@ -119,7 +119,7 @@ jobs:
       # processed-shard-<i>.json lists the swimmers this shard checked (for the
       # merge job's lastChecked update). Keeping both paths also roots the
       # artifact at data/ (least-common-ancestor), so the files land at
-      # /tmp/shards/shard-<i>/swimmers/… exactly as the merge step expects.
+      # /tmp/shards/shard-<i>/data/swimmers/… exactly as the merge step expects.
       - name: Upload shard data
         uses: actions/upload-artifact@v4
         with:
@@ -188,9 +188,9 @@ jobs:
           # (id-suffixed paths, empty-over-nonempty refusal) already prevented
           # any within-shard clobber before upload.
           for d in "${shards[@]}"; do
-            if [ -d "$d/swimmers" ]; then
+            if [ -d "$d/data/swimmers" ]; then
               mkdir -p data/swimmers
-              cp -R "$d/swimmers/." data/swimmers/
+              cp -R "$d/data/swimmers/." data/swimmers/
               merged_any=true
             fi
           done
