@@ -4,7 +4,7 @@
   "club": "Bergkameratene",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-27T09:33:03.819Z",
+  "timestamp": "2026-09-08T18:04:06.181Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -122,6 +122,17 @@
           "RK": "",
           "RA": "",
           "pid": "3314947"
+        },
+        {
+          "Tid": "33,83",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988844",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -200,6 +211,17 @@
           "RA": "",
           "pid": "3562274",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "40,75",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988743",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -333,6 +355,20 @@
             "41,95"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.10,64",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988843",
+          "splits": [
+            "33,83",
+            "36,81"
+          ]
         }
       ]
     },
@@ -513,6 +549,25 @@
             "47,02",
             "46,88",
             "43,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.27,94",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "419",
+          "pid": "3988742",
+          "splits": [
+            "40,75",
+            "47,19"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Haugesund Triatlonklubb",
   "birthYear": 1977,
   "gender": "female",
-  "timestamp": "2026-06-23T17:01:14.915Z",
+  "timestamp": "2026-09-08T17:02:01.337Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -68,6 +68,27 @@
           "RK": "65",
           "RA": "465",
           "pid": "3507153"
+        },
+        {
+          "Tid": "31,62",
+          "Dato": "21.08.2026",
+          "Sted": "Samorin",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987836"
+        },
+        {
+          "Tid": "35,37",
+          "Dato": "24.08.2026",
+          "Sted": "Samorin",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3987839",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -113,6 +134,35 @@
           "RK": "",
           "RA": "579",
           "pid": "3664175"
+        },
+        {
+          "Tid": "35,71",
+          "Dato": "23.08.2026",
+          "Sted": "Samorin",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "406",
+          "pid": "3987831"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.13,25",
+          "Dato": "24.08.2026",
+          "Sted": "Samorin",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987838",
+          "splits": [
+            "35,37",
+            "37,88"
+          ]
         }
       ]
     }

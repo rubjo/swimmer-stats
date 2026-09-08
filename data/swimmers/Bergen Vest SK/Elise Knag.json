@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-26T11:23:21.823Z",
+  "timestamp": "2026-09-08T17:49:05.520Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -81,6 +81,16 @@
           "RA": "",
           "pid": "3740256",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,40",
+          "Dato": "06.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3989367"
         }
       ]
     },
@@ -180,6 +190,28 @@
           "RK": "",
           "RA": "",
           "pid": "3712313",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,97",
+          "Dato": "05.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3990380",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "58,29",
+          "Dato": "06.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3989898",
           "partOf": "100m Bryst"
         }
       ]
@@ -337,6 +369,56 @@
           "splits": [
             "1.02,41",
             "1.14,15"
+          ]
+        },
+        {
+          "Tid": "2.05,65",
+          "Dato": "05.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3990381",
+          "splits": [
+            "57,97",
+            "1.07,68"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.05,99",
+          "Dato": "06.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3989897",
+          "splits": [
+            "58,29",
+            "1.07,70"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.23,21",
+          "Dato": "05.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3990379",
+          "splits": [
+            "57,97",
+            "1.07,68",
+            "1.08,75",
+            "1.08,81"
           ]
         }
       ]
