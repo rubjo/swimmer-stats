@@ -4,7 +4,7 @@
   "club": "Karmøy SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-27T16:18:44.491Z",
+  "timestamp": "2026-09-09T09:32:18.847Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -38,6 +38,27 @@
           "RK": "",
           "RA": "",
           "pid": "3950071",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "35,53",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "1185",
+          "pid": "3988077"
+        },
+        {
+          "Tid": "37,42",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988258",
           "partOf": "100m Fri"
         }
       ]
@@ -83,6 +104,35 @@
             "38,89",
             "42,88"
           ]
+        },
+        {
+          "Tid": "1.21,00",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "1062",
+          "pid": "3988257",
+          "splits": [
+            "37,42",
+            "43,58"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "45,26",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "1119",
+          "pid": "3987929"
         }
       ]
     }

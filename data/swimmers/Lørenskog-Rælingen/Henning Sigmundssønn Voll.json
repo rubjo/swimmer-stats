@@ -4,7 +4,7 @@
   "club": "Lørenskog/Rælingen",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-07-02T20:24:14.587Z",
+  "timestamp": "2026-09-09T10:31:36.113Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,17 @@
           "RA": "",
           "pid": "3949218",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "52,84",
+          "Dato": "05.09.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3991926",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -77,6 +88,95 @@
           "splits": [
             "52,47",
             "56,69"
+          ]
+        },
+        {
+          "Tid": "1.53,71",
+          "Dato": "05.09.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3991927",
+          "splits": [
+            "52,84",
+            "1.00,87"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,61",
+          "Dato": "05.09.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "1298",
+          "pid": "3991025"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.53,79",
+          "Dato": "05.09.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "592",
+          "pid": "3991466",
+          "splits": [
+            "54,50",
+            "59,29"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.54,97",
+          "Dato": "04.09.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "845",
+          "pid": "3991839",
+          "splits": [
+            "53,94",
+            "1.01,03"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.52,68",
+          "Dato": "05.09.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "1163",
+          "pid": "3991925",
+          "splits": [
+            "52,84",
+            "1.00,87",
+            "1.02,09",
+            "56,88"
           ]
         }
       ]

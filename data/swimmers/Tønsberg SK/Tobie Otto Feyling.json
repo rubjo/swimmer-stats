@@ -4,7 +4,7 @@
   "club": "Tønsberg SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-22T04:48:00.286Z",
+  "timestamp": "2026-09-09T08:41:34.737Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -112,6 +112,17 @@
             ""
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "35,82",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993395",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -187,6 +198,28 @@
           "RK": "",
           "RA": "1330",
           "pid": "3560795"
+        },
+        {
+          "Tid": "40,28",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993980",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "44,62",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993005",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -299,6 +332,17 @@
             ""
           ],
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "47,45",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993743",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -391,6 +435,20 @@
             "46,05"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.15,69",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3993394",
+          "splits": [
+            "35,82",
+            "39,87"
+          ]
         }
       ]
     },
@@ -437,6 +495,20 @@
           "splits": [
             "47,53",
             "53,21"
+          ]
+        },
+        {
+          "Tid": "1.22,19",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "466",
+          "pid": "3993593",
+          "splits": [
+            "38,68",
+            "43,51"
           ]
         }
       ]
@@ -518,6 +590,21 @@
             "50,39",
             "59,20"
           ]
+        },
+        {
+          "Tid": "1.44,50",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993744",
+          "splits": [
+            "47,45",
+            "57,05"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -570,6 +657,67 @@
             "46,05",
             "46,33",
             "43,29"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.39,48",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "6",
+          "RA": "754",
+          "pid": "3993004",
+          "splits": [
+            "44,62",
+            "54,86"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.07,31",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "564",
+          "pid": "3993979",
+          "splits": [
+            "40,28",
+            "49,33",
+            "57,67",
+            "40,03"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.37,49",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "5",
+          "RA": "614",
+          "pid": "3993742",
+          "splits": [
+            "47,45",
+            "57,05",
+            "58,57",
+            "54,42"
           ]
         }
       ]

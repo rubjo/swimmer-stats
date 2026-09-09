@@ -4,7 +4,7 @@
   "club": "Larvik SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-07-01T13:41:42.633Z",
+  "timestamp": "2026-09-09T10:11:32.231Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -70,6 +70,16 @@
           "RK": "",
           "RA": "",
           "pid": "2768512"
+        },
+        {
+          "Tid": "28,30",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "71",
+          "RA": "523",
+          "pid": "3994427"
         }
       ]
     },
@@ -105,6 +115,28 @@
           "RK": "",
           "RA": "1074",
           "pid": "2794658"
+        },
+        {
+          "Tid": "33,01",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "92",
+          "RA": "599",
+          "pid": "3992977",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "33,59",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993952",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -207,6 +239,65 @@
           "splits": [
             "31,40",
             "36,94"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.14,67",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "80",
+          "RA": "383",
+          "pid": "3992976",
+          "splits": [
+            "33,01",
+            "41,66"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.18,12",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "66",
+          "RA": "386",
+          "pid": "3993560",
+          "splits": [
+            "33,70",
+            "44,42"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.51,99",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "111",
+          "RA": "416",
+          "pid": "3993951",
+          "splits": [
+            "33,59",
+            "45,90",
+            "51,79",
+            "40,71"
           ]
         }
       ]

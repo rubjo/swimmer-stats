@@ -4,7 +4,7 @@
   "club": "Karmøy SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-07-01T01:30:37.035Z",
+  "timestamp": "2026-09-09T10:03:42.262Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,6 +28,27 @@
           "RK": "",
           "RA": "",
           "pid": "3843598"
+        },
+        {
+          "Tid": "31,18",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988078"
+        },
+        {
+          "Tid": "33,70",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988260",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -63,6 +84,16 @@
           "RK": "",
           "RA": "",
           "pid": "3843505"
+        },
+        {
+          "Tid": "35,97",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "19",
+          "RA": "407",
+          "pid": "3987972"
         }
       ]
     },
@@ -92,6 +123,39 @@
           "RK": "",
           "RA": "",
           "pid": "3843916",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "1.10,11",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "743",
+          "pid": "3988259",
+          "splits": [
+            "33,70",
+            "36,41"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.28,95",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "39",
+          "RA": "379",
+          "pid": "3988152",
           "splits": [
             "",
             ""

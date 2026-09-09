@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-07-01T13:38:17.208Z",
+  "timestamp": "2026-09-09T10:14:16.263Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -41,6 +41,16 @@
           "RA": "",
           "pid": "3893397",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "46,90",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3994439"
         }
       ]
     },
@@ -86,6 +96,38 @@
           "RK": "",
           "RA": "",
           "pid": "3893004"
+        },
+        {
+          "Tid": "49,35",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1183",
+          "pid": "3992562"
+        },
+        {
+          "Tid": "55,59",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993038",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "56,18",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3994006",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -144,6 +186,17 @@
           "RA": "",
           "pid": "3860488",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,93",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993804",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -312,6 +365,21 @@
             "1.03,88",
             "1.12,21"
           ]
+        },
+        {
+          "Tid": "1.56,93",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993805",
+          "splits": [
+            "54,93",
+            "1.02,00"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -381,6 +449,88 @@
             "1.02,71",
             "1.02,73",
             "59,92"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.01,77",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "951",
+          "pid": "3993037",
+          "splits": [
+            "55,59",
+            "1.06,18"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.56,13",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3994005",
+          "splits": [
+            "56,18",
+            "1.03,57",
+            "1.00,94",
+            "55,44"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.56,91",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3993803",
+          "splits": [
+            "54,93",
+            "1.02,00",
+            "1.01,37",
+            "58,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.01,02",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "910",
+          "pid": "3993703",
+          "splits": [
+            "56,55",
+            "1.02,49",
+            "1.04,36",
+            "57,62"
           ]
         }
       ]

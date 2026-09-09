@@ -4,7 +4,7 @@
   "club": "Øvre Eiker SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-25T21:13:05.873Z",
+  "timestamp": "2026-09-09T09:07:33.564Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,6 +39,16 @@
           "RA": "",
           "pid": "3897861",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "46,42",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1696",
+          "pid": "3988693"
         }
       ]
     },
@@ -64,6 +74,27 @@
           "RK": "",
           "RA": "",
           "pid": "3897753",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,48",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1257",
+          "pid": "3988641"
+        },
+        {
+          "Tid": "59,43",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988766",
           "partOf": "100m Bryst"
         }
       ]
@@ -103,6 +134,35 @@
             "1.03,41",
             "1.14,08"
           ]
+        },
+        {
+          "Tid": "2.04,42",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "1077",
+          "pid": "3988765",
+          "splits": [
+            "59,43",
+            "1.04,99"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,21",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "98",
+          "RA": "887",
+          "pid": "3988608"
         }
       ]
     }

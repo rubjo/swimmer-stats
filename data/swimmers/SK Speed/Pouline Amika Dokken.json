@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-21T17:02:56.794Z",
+  "timestamp": "2026-09-09T08:34:09.243Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -252,6 +252,16 @@
           "RK": "",
           "RA": "",
           "pid": "3627557"
+        },
+        {
+          "Tid": "39,89",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3992919"
         }
       ]
     },
@@ -366,6 +376,27 @@
           "RK": "",
           "RA": "",
           "pid": "3781628"
+        },
+        {
+          "Tid": "46,13",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1052",
+          "pid": "3992566"
+        },
+        {
+          "Tid": "49,39",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993042",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -1220,6 +1251,25 @@
             "1.01,84",
             "1.03,49",
             "1.01,70"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.54,34",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "878",
+          "pid": "3993041",
+          "splits": [
+            "49,39",
+            "1.04,95"
           ]
         }
       ]

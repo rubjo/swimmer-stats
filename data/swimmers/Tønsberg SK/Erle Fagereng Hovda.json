@@ -4,7 +4,7 @@
   "club": "Tønsberg SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-24T06:59:54.803Z",
+  "timestamp": "2026-09-09T09:04:38.871Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,16 @@
           "RA": "",
           "pid": "3873236",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,03",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3992910"
         }
       ]
     },
@@ -44,6 +54,27 @@
           "RK": "171",
           "RA": "1521",
           "pid": "3950657"
+        },
+        {
+          "Tid": "56,62",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3992779"
+        },
+        {
+          "Tid": "1.02,06",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3993261",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -76,6 +107,55 @@
           "splits": [
             "47,63",
             "54,91"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,12",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3992678"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.02,17",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1440",
+          "pid": "3992548"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,10",
+          "Dato": "05.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3993260",
+          "splits": [
+            "1.02,06",
+            "1.05,04"
           ]
         }
       ]

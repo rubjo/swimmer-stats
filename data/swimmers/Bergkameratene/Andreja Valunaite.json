@@ -4,7 +4,7 @@
   "club": "Bergkameratene",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-07-02T13:14:45.142Z",
+  "timestamp": "2026-09-09T10:24:46.543Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -259,6 +259,27 @@
           "RK": "",
           "RA": "",
           "pid": "3512558"
+        },
+        {
+          "Tid": "33,27",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988719"
+        },
+        {
+          "Tid": "34,38",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988840",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -358,6 +379,16 @@
           "RA": "",
           "pid": "3803465",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "37,80",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "605",
+          "pid": "3988597"
         }
       ]
     },
@@ -811,6 +842,20 @@
             "48,49"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.13,16",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988839",
+          "splits": [
+            "34,38",
+            "38,78"
+          ]
         }
       ]
     },
@@ -1394,6 +1439,25 @@
             "53,97",
             "55,19",
             "50,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.29,34",
+          "Dato": "06.09.2026",
+          "Sted": "Hokksund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "537",
+          "pid": "3988883",
+          "splits": [
+            "41,23",
+            "48,11"
           ]
         }
       ]
