@@ -4,7 +4,7 @@
   "club": "Karmøy SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-07-03T07:01:30.415Z",
+  "timestamp": "2026-09-09T13:38:52.549Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -76,6 +76,27 @@
           "RK": "",
           "RA": "",
           "pid": "3843565"
+        },
+        {
+          "Tid": "45,37",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988045"
+        },
+        {
+          "Tid": "45,83",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3988189",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -127,6 +148,39 @@
           "splits": [
             "47,92",
             "55,34"
+          ]
+        },
+        {
+          "Tid": "1.41,51",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3988188",
+          "splits": [
+            "45,83",
+            "55,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.31,26",
+          "Dato": "05.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "595",
+          "pid": "3988359",
+          "splits": [
+            "41,34",
+            "49,92"
           ]
         }
       ]
