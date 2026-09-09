@@ -114,19 +114,43 @@ jobs:
           set -e
           node index.js
 
-      # Upload only THIS shard's outputs. Swimmer files are disjoint across
-      # shards, so the merge job can copy them all together without clobbering.
-      # processed-shard-<i>.json lists the swimmers this shard checked (for the
-      # merge job's lastChecked update). Keeping both paths also roots the
-      # artifact at data/ (least-common-ancestor), so the files land at
-      # /tmp/shards/shard-<i>/data/swimmers/… exactly as the merge step expects.
+      # Stage ONLY the files this shard changed. The checkout populated
+      # data/swimmers with the FULL committed roster and the scraper only
+      # rewrites files for swimmers with new races. Uploading all of
+      # data/swimmers/** would make every shard's artifact carry a stale copy of
+      # every OTHER shard's swimmers; the merge job's last-wins `cp -R` would
+      # then revert most fresh updates back to the committed base (the shards are
+      # NOT disjoint if each ships the whole tree). Diffing against HEAD keeps
+      # each artifact to this shard's genuine deltas, which is what the merge
+      # job's disjoint-copy assumption requires.
+      - name: Stage this shard's changed files
+        if: always()
+        run: |
+          set -ex
+          rm -rf /tmp/shard-out
+          mkdir -p /tmp/shard-out/data
+          git add -A data/swimmers
+          # Added/copied/modified/renamed swimmer files (skip deletions), NUL-safe.
+          git diff --cached --name-only -z --diff-filter=ACMR -- data/swimmers \
+            > /tmp/changed.txt || true
+          while IFS= read -r -d '' f; do
+            mkdir -p "/tmp/shard-out/$(dirname "$f")"
+            cp "$f" "/tmp/shard-out/$f"
+          done < /tmp/changed.txt
+          if [ -f "data/processed-shard-${{ matrix.shard }}.json" ]; then
+            cp "data/processed-shard-${{ matrix.shard }}.json" /tmp/shard-out/data/
+          fi
+
+      # Upload only this shard's deltas. Rooting the artifact at /tmp/shard-out/data
+      # means it extracts to /tmp/shards/shard-<i>/swimmers/… and
+      # /tmp/shards/shard-<i>/processed-shard-<i>.json — exactly what the merge
+      # step reads. Because the files are now genuinely disjoint across shards,
+      # the merge job's recursive copy can no longer clobber another shard's work.
       - name: Upload shard data
         uses: actions/upload-artifact@v4
         with:
           name: shard-${{ matrix.shard }}
-          path: |
-            data/swimmers/**
-            data/processed-shard-${{ matrix.shard }}.json
+          path: /tmp/shard-out/data
           if-no-files-found: ignore
           retention-days: 1
 
