@@ -195,12 +195,10 @@ jobs:
             fi
           done
 
-          # checked-empty.json: union all shard ledgers with the committed one.
-          checked=(/tmp/shards/shard-*/processed-shard-*.json)
-          if [ ${#checked[@]} -gt 0 ] && [ "${checked[0]}" != "/tmp/shards/shard-*/processed-shard-*.json" ]; then
-            node scripts/merge-processed-shards.js "${checked[@]}"
-            merged_any=true
-          fi
+          # The per-shard processed-shard-<i>.json ledgers need no merge step here:
+          # rebuild-index.js unions them itself (PROCESSED_SCAN_DIR=/tmp/shards) to
+          # advance lastChecked. Nothing reads a combined ledger, so there is no
+          # merge-processed-shards.js to run.
 
           if [ "$merged_any" = true ]; then
             echo "merged=true" >> $GITHUB_OUTPUT
