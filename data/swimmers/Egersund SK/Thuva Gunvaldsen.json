@@ -4,7 +4,7 @@
   "club": "Egersund SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-24T05:52:04.791Z",
+  "timestamp": "2026-09-13T12:05:33.559Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -48,6 +48,27 @@
           "RK": "",
           "RA": "",
           "pid": "3808804"
+        },
+        {
+          "Tid": "43,02",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997756"
+        },
+        {
+          "Tid": "47,45",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3998093",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -73,6 +94,35 @@
           "RK": "",
           "RA": "",
           "pid": "3808639"
+        },
+        {
+          "Tid": "1.04,54",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997655"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,12",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3998092",
+          "splits": [
+            "47,45",
+            "51,67"
+          ]
         }
       ]
     }

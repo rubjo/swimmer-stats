@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-23T13:15:07.320Z",
+  "timestamp": "2026-09-13T12:13:25.143Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -83,6 +83,46 @@
           "RK": "",
           "RA": "",
           "pid": "3879513"
+        },
+        {
+          "Tid": "55,17",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1217",
+          "pid": "3996776"
+        },
+        {
+          "Tid": "56,11",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3996970",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,90",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1010",
+          "pid": "3996969",
+          "splits": [
+            "56,11",
+            "1.01,79"
+          ]
         }
       ]
     }

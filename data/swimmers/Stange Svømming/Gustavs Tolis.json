@@ -4,7 +4,7 @@
   "club": "Stange Svømming",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-07-02T07:59:47.746Z",
+  "timestamp": "2026-09-13T13:45:55.723Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -225,6 +225,27 @@
           "RK": "55",
           "RA": "1102",
           "pid": "3600750"
+        },
+        {
+          "Tid": "34,97",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "1170",
+          "pid": "3998965"
+        },
+        {
+          "Tid": "38,54",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3999050",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -544,6 +565,20 @@
           "splits": [
             "44,55",
             "52,67"
+          ]
+        },
+        {
+          "Tid": "1.17,98",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "997",
+          "pid": "3999049",
+          "splits": [
+            "38,54",
+            "39,44"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Riska SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-29T22:02:27.069Z",
+  "timestamp": "2026-09-13T13:03:02.296Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -161,6 +161,27 @@
           "RA": "",
           "pid": "3745457",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "42,06",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "45",
+          "RA": "680",
+          "pid": "3997582"
+        },
+        {
+          "Tid": "45,03",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3998219",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -300,6 +321,21 @@
           "splits": [
             "54,87",
             "1.02,68"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.37,09",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "60",
+          "RA": "641",
+          "pid": "3998220",
+          "splits": [
+            "45,03",
+            "52,06"
           ],
           "partOf": "200m Bryst"
         }
@@ -449,6 +485,37 @@
             "1.02,13",
             "1.01,64"
           ]
+        },
+        {
+          "Tid": "3.19,84",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "470",
+          "pid": "3998218",
+          "splits": [
+            "45,03",
+            "52,06",
+            "52,01",
+            "50,74"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "45,38",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "1133",
+          "pid": "3997454"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-30T14:08:09.983Z",
+  "timestamp": "2026-09-13T12:35:37.939Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -50,6 +50,27 @@
           "RA": "",
           "pid": "3962591",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "33,34",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "148",
+          "RA": "1048",
+          "pid": "3998949"
+        },
+        {
+          "Tid": "35,42",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3999040",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -109,6 +130,20 @@
             "44,99"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.16,53",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "950",
+          "pid": "3999039",
+          "splits": [
+            "35,42",
+            "41,11"
+          ]
         }
       ]
     },
@@ -149,6 +184,21 @@
             "47,75",
             "42,64"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,41",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "982",
+          "pid": "3998918"
         }
       ]
     }

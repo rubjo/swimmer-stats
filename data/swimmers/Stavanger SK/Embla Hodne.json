@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-25T04:32:26.079Z",
+  "timestamp": "2026-09-13T12:19:17.653Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,28 @@
           "RA": "",
           "pid": "3934308",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,75",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3998034",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,24",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3998445",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -95,6 +117,35 @@
             "44,16",
             "50,06"
           ]
+        },
+        {
+          "Tid": "1.23,82",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3998033",
+          "splits": [
+            "39,75",
+            "44,07"
+          ]
+        },
+        {
+          "Tid": "1.30,03",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3998446",
+          "splits": [
+            "42,24",
+            "47,79"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -127,6 +178,61 @@
           "splits": [
             "51,98",
             "58,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,26",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997482"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.35,90",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3998139",
+          "splits": [
+            "47,31",
+            "48,59"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.01,30",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3998444",
+          "splits": [
+            "42,24",
+            "47,79",
+            "47,39",
+            "43,88"
           ]
         }
       ]

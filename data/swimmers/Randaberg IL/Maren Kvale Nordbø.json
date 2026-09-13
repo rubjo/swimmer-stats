@@ -4,7 +4,7 @@
   "club": "Randaberg IL",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-26T21:11:13.267Z",
+  "timestamp": "2026-09-13T12:40:51.623Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -59,6 +59,37 @@
           "RA": "",
           "pid": "3947587",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "44,41",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997735"
+        },
+        {
+          "Tid": "44,59",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "3998869"
+        },
+        {
+          "Tid": "46,47",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3998063",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -74,6 +105,16 @@
           "RK": "145",
           "RA": "991",
           "pid": "3946060"
+        },
+        {
+          "Tid": "53,44",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997554"
         }
       ]
     },
@@ -109,6 +150,17 @@
           "RK": "",
           "RA": "",
           "pid": "3830227"
+        },
+        {
+          "Tid": "58,04",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3997914",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -127,6 +179,39 @@
           "splits": [
             "48,74",
             "1.00,26"
+          ]
+        },
+        {
+          "Tid": "1.37,83",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3998062",
+          "splits": [
+            "46,47",
+            "51,36"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,49",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997913",
+          "splits": [
+            "58,04",
+            "1.03,45"
           ]
         }
       ]

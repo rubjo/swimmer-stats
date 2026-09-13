@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-30T13:03:47.383Z",
+  "timestamp": "2026-09-13T12:12:43.443Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -68,6 +68,27 @@
           "RK": "",
           "RA": "",
           "pid": "3889694",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,38",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3996887"
+        },
+        {
+          "Tid": "45,17",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3997103",
           "partOf": "100m Fri"
         }
       ]
@@ -203,6 +224,20 @@
             "47,63",
             "58,23"
           ]
+        },
+        {
+          "Tid": "1.34,37",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997102",
+          "splits": [
+            "45,17",
+            "49,20"
+          ]
         }
       ]
     },
@@ -252,6 +287,25 @@
           "RA": "1226",
           "pid": "3889572",
           "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.51,97",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3997181",
+          "splits": [
+            "53,45",
+            "58,52"
+          ]
         }
       ]
     }
