@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2007,
   "gender": "female",
-  "timestamp": "2026-07-08T11:18:59.544Z",
+  "timestamp": "2026-09-13T20:43:56.543Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1709,6 +1709,27 @@
           "RK": "",
           "RA": "",
           "pid": "3985782"
+        },
+        {
+          "Tid": "27,13",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001545"
+        },
+        {
+          "Tid": "28,77",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002239",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -4103,6 +4124,20 @@
           "RA": "",
           "pid": "3985783",
           "splits": []
+        },
+        {
+          "Tid": "59,61",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002238",
+          "splits": [
+            "28,77",
+            "30,84"
+          ]
         }
       ]
     },
@@ -4700,6 +4735,20 @@
           "splits": [
             "43,41",
             "54,73"
+          ]
+        },
+        {
+          "Tid": "1.08,39",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002420",
+          "splits": [
+            "31,41",
+            "36,98"
           ]
         }
       ]

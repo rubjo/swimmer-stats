@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-07-08T09:27:12.310Z",
+  "timestamp": "2026-09-13T22:08:17.766Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -89,6 +89,17 @@
           "RK": "",
           "RA": "",
           "pid": "3983704",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "31,66",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002079",
           "partOf": "100m Fri"
         }
       ]
@@ -197,6 +208,39 @@
           "splits": [
             "32,85",
             "39,16"
+          ]
+        },
+        {
+          "Tid": "1.08,06",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002078",
+          "splits": [
+            "31,66",
+            "36,40"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.21,53",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001770",
+          "splits": [
+            "38,32",
+            "43,21"
           ]
         }
       ]

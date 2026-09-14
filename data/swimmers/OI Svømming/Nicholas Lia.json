@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2001,
   "gender": "male",
-  "timestamp": "2026-09-09T09:24:05.175Z",
+  "timestamp": "2026-09-13T21:31:18.286Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -3639,6 +3639,28 @@
           "RK": "",
           "RA": "",
           "pid": "3986210"
+        },
+        {
+          "Tid": "23,54",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002212",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "24,17",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002214",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -10517,6 +10539,34 @@
             "55,45"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "50,03",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002211",
+          "splits": [
+            "23,54",
+            "26,49"
+          ]
+        },
+        {
+          "Tid": "50,60",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002213",
+          "splits": [
+            "24,17",
+            "26,43"
+          ]
         }
       ]
     },

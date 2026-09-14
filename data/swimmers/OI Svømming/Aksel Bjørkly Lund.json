@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-27T14:59:57.509Z",
+  "timestamp": "2026-09-13T22:05:14.804Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -242,6 +242,16 @@
           "RA": "",
           "pid": "3493382",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,05",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001526"
         }
       ]
     },
@@ -677,6 +687,16 @@
           "RA": "",
           "pid": "3836056",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "45,22",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001361"
         }
       ]
     },
@@ -1765,6 +1785,44 @@
             "59,70",
             "57,81",
             "55,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.33,40",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002406",
+          "splits": [
+            "42,50",
+            "50,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.35,88",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001801",
+          "splits": [
+            "46,34",
+            "49,54"
           ]
         }
       ]

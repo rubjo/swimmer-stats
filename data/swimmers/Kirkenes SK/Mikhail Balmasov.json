@@ -4,7 +4,7 @@
   "club": "Kirkenes SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-23T03:47:05.955Z",
+  "timestamp": "2026-09-13T20:43:14.762Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -146,6 +146,16 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,62",
+          "Dato": "12.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3999391"
         }
       ]
     },
@@ -387,6 +397,99 @@
             "57,68",
             "59,22",
             "57,63"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.02,57",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3999267"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,60",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3999747",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,89",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3999748",
+          "splits": [
+            "1.04,60",
+            "1.16,29"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.02,56",
+          "Dato": "12.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3999721",
+          "splits": [
+            "55,13",
+            "1.02,10",
+            "1.01,41",
+            "1.03,92"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "5.00,39",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3999746",
+          "splits": [
+            "1.04,60",
+            "1.16,29",
+            "1.20,39",
+            "1.19,11"
           ]
         }
       ]

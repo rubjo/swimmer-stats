@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-20T12:30:44.511Z",
+  "timestamp": "2026-09-13T20:50:49.446Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -80,6 +80,27 @@
             ""
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,40",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002993"
+        },
+        {
+          "Tid": "42,88",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003160",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -183,6 +204,17 @@
             ""
           ],
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,58",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003287",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -232,6 +264,20 @@
             "54,38"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.31,77",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003159",
+          "splits": [
+            "42,88",
+            "48,89"
+          ]
         }
       ]
     },
@@ -331,6 +377,21 @@
             "54,42",
             "1.02,41"
           ]
+        },
+        {
+          "Tid": "1.54,72",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003288",
+          "splits": [
+            "52,58",
+            "1.02,14"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -367,6 +428,27 @@
             "54,38",
             "57,57",
             "52,05"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.59,10",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003286",
+          "splits": [
+            "52,58",
+            "1.02,14",
+            "1.02,14",
+            "1.02,24"
           ]
         }
       ]

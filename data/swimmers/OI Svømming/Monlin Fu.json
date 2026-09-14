@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-09-09T08:47:50.657Z",
+  "timestamp": "2026-09-13T21:18:39.164Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -580,6 +580,27 @@
           "RK": "",
           "RA": "",
           "pid": "3987173"
+        },
+        {
+          "Tid": "30,88",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001551"
+        },
+        {
+          "Tid": "35,21",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002630",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -1481,6 +1502,16 @@
           "RK": "",
           "RA": "",
           "pid": "3986914"
+        },
+        {
+          "Tid": "40,78",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001382"
         }
       ]
     },
@@ -1836,6 +1867,21 @@
             "51,74"
           ],
           "partOf": "1500m Fri"
+        },
+        {
+          "Tid": "1.16,25",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002631",
+          "splits": [
+            "35,21",
+            "41,04"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -2663,6 +2709,22 @@
             "50,72"
           ],
           "partOf": "1500m Fri"
+        },
+        {
+          "Tid": "2.35,24",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002629",
+          "splits": [
+            "35,21",
+            "41,04",
+            "40,53",
+            "38,46"
+          ]
         }
       ]
     },

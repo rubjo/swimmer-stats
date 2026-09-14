@@ -4,7 +4,7 @@
   "club": "Kristiansund SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-24T17:41:57.741Z",
+  "timestamp": "2026-09-13T21:22:42.180Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -49,6 +49,27 @@
           "RA": "",
           "pid": "3882158",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,79",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000197"
+        },
+        {
+          "Tid": "42,87",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000391",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -74,6 +95,17 @@
           "RK": "122",
           "RA": "1569",
           "pid": "3822053"
+        },
+        {
+          "Tid": "1.03,92",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000294",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -92,6 +124,54 @@
           "splits": [
             "45,94",
             "52,42"
+          ]
+        },
+        {
+          "Tid": "1.29,95",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000390",
+          "splits": [
+            "42,87",
+            "47,08"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,40",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000071"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.12,99",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000293",
+          "splits": [
+            "1.03,92",
+            "1.09,07"
           ]
         }
       ]

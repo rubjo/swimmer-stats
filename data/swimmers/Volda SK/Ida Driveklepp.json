@@ -4,7 +4,7 @@
   "club": "Volda SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-22T01:59:06.964Z",
+  "timestamp": "2026-09-13T20:49:13.228Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -32,6 +32,27 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,70",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000242"
+        },
+        {
+          "Tid": "40,07",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000410",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -51,6 +72,20 @@
             "43,85",
             "50,36"
           ]
+        },
+        {
+          "Tid": "1.28,33",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000409",
+          "splits": [
+            "40,07",
+            "48,26"
+          ]
         }
       ]
     },
@@ -69,6 +104,85 @@
           "splits": [
             "52,24",
             "58,37"
+          ]
+        },
+        {
+          "Tid": "1.42,42",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000489",
+          "splits": [
+            "46,05",
+            "56,37"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "47,56",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000095"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "48,82",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000129"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,44",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000323",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,07",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000322",
+          "splits": [
+            "53,44",
+            "1.03,63"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Asker SK",
   "birthYear": 2007,
   "gender": "male",
-  "timestamp": "2026-07-09T04:01:24.856Z",
+  "timestamp": "2026-09-13T21:28:04.976Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1678,6 +1678,17 @@
           "RK": "62",
           "RA": "90",
           "pid": "3985842"
+        },
+        {
+          "Tid": "25,15",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002074",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -3604,6 +3615,16 @@
           "RA": "137",
           "pid": "3984722",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "25,69",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000961"
         }
       ]
     },
@@ -5885,6 +5906,20 @@
           "RA": "33",
           "pid": "3985843",
           "splits": []
+        },
+        {
+          "Tid": "52,31",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002073",
+          "splits": [
+            "25,15",
+            "27,16"
+          ]
         }
       ]
     },

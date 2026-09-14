@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-08-23T01:45:32.864Z",
+  "timestamp": "2026-09-13T21:05:46.231Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -34,6 +34,59 @@
           "RA": "269",
           "pid": "3987329",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "31,81",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001067"
+        },
+        {
+          "Tid": "31,84",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001068"
+        },
+        {
+          "Tid": "32,28",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4001706",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,60",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4001708",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "34,17",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002677",
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -53,6 +106,49 @@
             "33,40",
             "38,68"
           ]
+        },
+        {
+          "Tid": "1.09,79",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001705",
+          "splits": [
+            "32,28",
+            "37,51"
+          ]
+        },
+        {
+          "Tid": "1.11,30",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001707",
+          "splits": [
+            "32,60",
+            "38,70"
+          ]
+        },
+        {
+          "Tid": "1.14,21",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4002678",
+          "splits": [
+            "34,17",
+            "40,04"
+          ],
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -71,6 +167,89 @@
           "splits": [
             "34,95",
             "39,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "39,40",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001385"
+        },
+        {
+          "Tid": "39,76",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001384"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.13,43",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001809",
+          "splits": [
+            "35,44",
+            "37,99"
+          ]
+        },
+        {
+          "Tid": "1.15,31",
+          "Dato": "12.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001810",
+          "splits": [
+            "36,43",
+            "38,88"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Individuell medley",
+      "races": [
+        {
+          "Tid": "5.38,12",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002676",
+          "splits": [
+            "34,17",
+            "40,04",
+            "43,51",
+            "43,78",
+            "49,45",
+            "49,15",
+            "39,60",
+            "38,42"
           ]
         }
       ]

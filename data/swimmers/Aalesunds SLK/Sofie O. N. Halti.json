@@ -4,7 +4,7 @@
   "club": "Aalesunds SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-29T13:40:14.984Z",
+  "timestamp": "2026-09-13T22:18:20.279Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,38 @@
           "RA": "",
           "pid": "3935356",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,49",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000218"
+        },
+        {
+          "Tid": "44,62",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000444",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "49,82",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000677",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -59,6 +91,16 @@
           "RK": "189",
           "RA": "1327",
           "pid": "3935110"
+        },
+        {
+          "Tid": "53,46",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000164"
         }
       ]
     },
@@ -92,6 +134,75 @@
           "splits": [
             "45,07",
             "52,07"
+          ]
+        },
+        {
+          "Tid": "1.36,46",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000443",
+          "splits": [
+            "44,62",
+            "51,84"
+          ]
+        },
+        {
+          "Tid": "1.46,18",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000678",
+          "splits": [
+            "49,82",
+            "56,36"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.53,99",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000498",
+          "splits": [
+            "54,63",
+            "59,36"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.39,84",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000676",
+          "splits": [
+            "49,82",
+            "56,36",
+            "56,87",
+            "56,79"
           ]
         }
       ]

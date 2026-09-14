@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-08-23T02:53:22.482Z",
+  "timestamp": "2026-09-13T20:57:44.935Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -897,6 +897,28 @@
           "RK": "",
           "RA": "",
           "pid": "3987455",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "40,02",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4001950",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "40,50",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4001952",
           "partOf": "100m Bryst"
         }
       ]
@@ -1841,6 +1863,34 @@
           "splits": [
             "41,01",
             "46,11"
+          ]
+        },
+        {
+          "Tid": "1.25,23",
+          "Dato": "11.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001949",
+          "splits": [
+            "40,02",
+            "45,21"
+          ]
+        },
+        {
+          "Tid": "1.25,90",
+          "Dato": "13.09.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4001951",
+          "splits": [
+            "40,50",
+            "45,40"
           ]
         }
       ]

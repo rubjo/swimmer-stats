@@ -1,0 +1,112 @@
+{
+  "swimmerId": "51132",
+  "name": "Alise Berge  Johansen",
+  "club": "Kristiansund SK",
+  "birthYear": 2013,
+  "gender": "female",
+  "timestamp": "2026-09-13T20:39:03.416Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,77",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000426",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,88",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000599",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "49,90",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000190"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,22",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000425",
+          "splits": [
+            "44,77",
+            "49,45"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.47,77",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000600",
+          "splits": [
+            "48,88",
+            "58,89"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.50,67",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000598",
+          "splits": [
+            "48,88",
+            "58,89",
+            "1.01,96",
+            "1.00,94"
+          ]
+        }
+      ]
+    }
+  ]
+}

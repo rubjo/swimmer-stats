@@ -4,7 +4,7 @@
   "club": "Ytre Søre Sunnmøre SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-23T03:06:01.306Z",
+  "timestamp": "2026-09-13T20:44:49.268Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -598,6 +598,27 @@
           "RK": "",
           "RA": "",
           "pid": "3205901"
+        },
+        {
+          "Tid": "36,38",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000155"
+        },
+        {
+          "Tid": "36,86",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000302",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -1008,6 +1029,20 @@
           "splits": [
             "57,45",
             "1.05,46"
+          ]
+        },
+        {
+          "Tid": "1.19,58",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000301",
+          "splits": [
+            "36,86",
+            "42,72"
           ]
         }
       ]
@@ -1768,6 +1803,40 @@
             "45,07",
             "43,99",
             "38,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "35,89",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000112"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.13,29",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000484",
+          "splits": [
+            "34,64",
+            "38,65"
           ]
         }
       ]

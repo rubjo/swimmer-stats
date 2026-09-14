@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-29T09:12:11.000Z",
+  "timestamp": "2026-09-13T22:15:28.682Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,27 @@
           "RK": "118",
           "RA": "1478",
           "pid": "3884450",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,54",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002941"
+        },
+        {
+          "Tid": "43,17",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003108",
           "partOf": "100m Fri"
         }
       ]
@@ -53,6 +74,35 @@
             "41,42",
             "48,76"
           ]
+        },
+        {
+          "Tid": "1.33,96",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003107",
+          "splits": [
+            "43,17",
+            "50,79"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,89",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4002904"
         }
       ]
     }

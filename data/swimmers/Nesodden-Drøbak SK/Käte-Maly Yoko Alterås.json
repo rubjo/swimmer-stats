@@ -4,7 +4,7 @@
   "club": "Nesodden-Drøbak SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-08-31T23:14:31.146Z",
+  "timestamp": "2026-09-13T20:42:30.532Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -171,6 +171,17 @@
           "RA": "",
           "pid": "3987642",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,65",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003465",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -261,6 +272,17 @@
           "RA": "",
           "pid": "3982108",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "49,41",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003016",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -552,6 +574,21 @@
             "41,95",
             "43,68"
           ]
+        },
+        {
+          "Tid": "1.31,18",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003466",
+          "splits": [
+            "42,65",
+            "48,53"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -886,6 +923,23 @@
             "",
             ""
           ]
+        },
+        {
+          "Tid": "3.12,96",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003467",
+          "splits": [
+            "42,65",
+            "48,53",
+            "50,91",
+            "50,87"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -922,6 +976,50 @@
             "50,70",
             "59,42",
             "43,27"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.46,52",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003015",
+          "splits": [
+            "49,41",
+            "57,11"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.31,13",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003464",
+          "splits": [
+            "42,65",
+            "48,53",
+            "50,91",
+            "50,87",
+            "51,93",
+            "51,52",
+            "49,51",
+            "45,21"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Kraken SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-22T06:07:10.179Z",
+  "timestamp": "2026-09-13T21:14:35.757Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -21,6 +21,27 @@
           "splits": [
             ""
           ],
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "45,77",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000194"
+        },
+        {
+          "Tid": "51,51",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000381",
           "partOf": "100m Fri"
         }
       ]
@@ -52,6 +73,17 @@
           "RK": "",
           "RA": "",
           "pid": "3940646"
+        },
+        {
+          "Tid": "1.03,76",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000551",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -70,6 +102,80 @@
           "splits": [
             "50,77",
             "1.00,33"
+          ]
+        },
+        {
+          "Tid": "1.49,90",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000380",
+          "splits": [
+            "51,51",
+            "58,39"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.00,09",
+          "Dato": "13.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000275",
+          "splits": [
+            "58,34",
+            "1.01,75"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.13,43",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4000552",
+          "splits": [
+            "1.03,76",
+            "1.09,67"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.28,39",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4000550",
+          "splits": [
+            "1.03,76",
+            "1.09,67",
+            "1.08,26",
+            "1.06,70"
           ]
         }
       ]
