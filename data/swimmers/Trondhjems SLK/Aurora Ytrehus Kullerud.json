@@ -1,0 +1,70 @@
+{
+  "swimmerId": "52016",
+  "name": "Aurora Ytrehus Kullerud",
+  "club": "Trondhjems SLK",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-09-14T21:48:53.330Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,96",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "230",
+          "RA": "1687",
+          "pid": "4003554"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,34",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "1111",
+          "pid": "4003547"
+        },
+        {
+          "Tid": "52,50",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003560",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.55,69",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1136",
+          "pid": "4003559",
+          "splits": [
+            "52,50",
+            "1.03,19"
+          ]
+        }
+      ]
+    }
+  ]
+}

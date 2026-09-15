@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-08-16T20:08:13.192Z",
+  "timestamp": "2026-09-14T21:49:24.537Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,16 @@
           "RK": "173",
           "RA": "1786",
           "pid": "3744143"
+        },
+        {
+          "Tid": "35,24",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "1213",
+          "pid": "4003552"
         }
       ]
     },
@@ -33,6 +43,40 @@
           "RK": "148",
           "RA": "1497",
           "pid": "3744138"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "44,42",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "93",
+          "RA": "736",
+          "pid": "4003542"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.39,18",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "57",
+          "RA": "515",
+          "pid": "4003558",
+          "splits": [
+            "49,11",
+            "50,07"
+          ]
         }
       ]
     }
