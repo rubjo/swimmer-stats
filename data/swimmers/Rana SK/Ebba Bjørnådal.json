@@ -4,7 +4,7 @@
   "club": "Rana SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-20T15:53:24.501Z",
+  "timestamp": "2026-09-15T21:35:01.842Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,27 @@
           "RK": "223",
           "RA": "1906",
           "pid": "3879259"
+        },
+        {
+          "Tid": "52,14",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003791"
+        },
+        {
+          "Tid": "55,26",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004047",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -33,6 +54,109 @@
           "RK": "204",
           "RA": "1642",
           "pid": "3879250"
+        },
+        {
+          "Tid": "1.04,46",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003718"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.01,88",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003603"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.04,60",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003649"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.59,41",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004046",
+          "splits": [
+            "55,26",
+            "1.04,15"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.13,88",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004124",
+          "splits": [
+            "1.04,01",
+            "1.09,87"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "9.35,96",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004434",
+          "splits": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     }

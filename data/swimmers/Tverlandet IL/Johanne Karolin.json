@@ -4,7 +4,7 @@
   "club": "Tverlandet IL",
   "birthYear": 1989,
   "gender": "female",
-  "timestamp": "2026-06-26T08:30:41.366Z",
+  "timestamp": "2026-09-15T22:27:27.695Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -48,6 +48,17 @@
           "RK": "225",
           "RA": "1118",
           "pid": "3845404"
+        },
+        {
+          "Tid": "41,11",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004039",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -147,6 +158,20 @@
           "RA": "",
           "pid": "61354",
           "splits": []
+        },
+        {
+          "Tid": "1.30,58",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004038",
+          "splits": [
+            "41,11",
+            "49,47"
+          ]
         }
       ]
     },

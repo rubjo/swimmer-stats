@@ -1,44 +1,45 @@
 {
-  "swimmerId": "55546",
-  "name": "Sverre Kristian Aga-Johansen",
-  "club": "Rana SK",
+  "swimmerId": "55582",
+  "name": "Julia Cojocaru",
+  "club": "Bodø SK",
   "birthYear": 2014,
-  "gender": "male",
-  "timestamp": "2026-09-15T21:13:07.599Z",
+  "gender": "female",
+  "timestamp": "2026-09-15T21:07:50.180Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
         {
-          "Tid": "57,53",
-          "Dato": "06.06.2026",
-          "Sted": "Fauske",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "197",
-          "RA": "1782",
-          "pid": "3986191"
-        },
-        {
-          "Tid": "49,29",
+          "Tid": "1.03,54",
           "Dato": "12.09.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4003757"
+          "pid": "4003819"
         },
         {
-          "Tid": "52,19",
+          "Tid": "1.08,55",
           "Dato": "13.09.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4004028",
+          "pid": "4004092",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.09,94",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004334",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -46,40 +47,14 @@
       "distanse": "50m Bryst",
       "races": [
         {
-          "Tid": "53,60",
+          "Tid": "1.24,08",
           "Dato": "13.09.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "1195",
-          "pid": "4003695"
-        },
-        {
-          "Tid": "56,84",
-          "Dato": "13.09.2026",
-          "Sted": "Mo i Rana",
-          "Basseng": "25m",
-          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4003920",
-          "partOf": "100m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
-        {
-          "Tid": "57,12",
-          "Dato": "12.09.2026",
-          "Sted": "Mo i Rana",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "995",
-          "pid": "4003635"
+          "pid": "4003737"
         }
       ]
     },
@@ -87,55 +62,53 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.49,98",
+          "Tid": "2.27,81",
           "Dato": "13.09.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4004027",
+          "pid": "4004091",
           "splits": [
-            "52,19",
-            "57,79"
+            "1.08,55",
+            "1.19,26"
           ]
+        },
+        {
+          "Tid": "2.40,06",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004335",
+          "splits": [
+            "1.09,94",
+            "1.30,12"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
     {
-      "distanse": "100m Bryst",
+      "distanse": "200m Fri",
       "races": [
         {
-          "Tid": "1.59,39",
+          "Tid": "5.28,75",
           "Dato": "13.09.2026",
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4003919",
+          "pid": "4004333",
           "splits": [
-            "56,84",
-            "1.02,55"
-          ]
-        }
-      ]
-    },
-    {
-      "distanse": "100m Individuell medley",
-      "races": [
-        {
-          "Tid": "2.04,16",
-          "Dato": "13.09.2026",
-          "Sted": "Mo i Rana",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4004110",
-          "splits": [
-            "1.05,03",
-            "59,13"
+            "1.09,94",
+            "1.30,12",
+            "1.27,59",
+            "1.21,10"
           ]
         }
       ]

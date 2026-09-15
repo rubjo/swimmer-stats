@@ -4,7 +4,7 @@
   "club": "Bodø SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-07-02T20:57:12.498Z",
+  "timestamp": "2026-09-15T23:29:44.941Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,6 +28,27 @@
           "RK": "",
           "RA": "",
           "pid": "3894087"
+        },
+        {
+          "Tid": "49,67",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003745"
+        },
+        {
+          "Tid": "50,12",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4003993",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -47,6 +68,35 @@
             "",
             ""
           ]
+        },
+        {
+          "Tid": "2.00,62",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003992",
+          "splits": [
+            "50,12",
+            "1.10,50"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,35",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1453",
+          "pid": "4003680"
         }
       ]
     }

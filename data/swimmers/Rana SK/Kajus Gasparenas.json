@@ -4,7 +4,7 @@
   "club": "Rana SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-22T20:11:08.389Z",
+  "timestamp": "2026-09-15T21:38:37.519Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -80,6 +80,17 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,71",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004414",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -130,6 +141,17 @@
           "RK": "",
           "RA": "",
           "pid": "3965010"
+        },
+        {
+          "Tid": "42,92",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004195",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -176,6 +198,167 @@
           "splits": [
             "37,02",
             "47,63"
+          ]
+        },
+        {
+          "Tid": "1.25,20",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004415",
+          "splits": [
+            "38,71",
+            "46,49"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "36,72",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "847",
+          "pid": "4004356",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.35,59",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004196",
+          "splits": [
+            "42,92",
+            "52,67"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.05,48",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004416",
+          "splits": [
+            "38,71",
+            "46,49",
+            "49,75",
+            "50,53"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.16,58",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004149",
+          "splits": [
+            "40,67",
+            "49,60",
+            "53,25",
+            "53,06"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.16,82",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004355",
+          "splits": [
+            "36,72",
+            "47,60",
+            "1.01,47",
+            "51,03"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.38,11",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004194",
+          "splits": [
+            "42,92",
+            "52,67",
+            "1.00,01",
+            "1.02,51"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.35,71",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004413",
+          "splits": [
+            "38,71",
+            "46,49",
+            "49,75",
+            "50,53",
+            "51,18",
+            "53,19",
+            "54,35",
+            "51,51"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Rana SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-23T06:35:18.365Z",
+  "timestamp": "2026-09-15T22:01:39.674Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -33,6 +33,46 @@
           "RK": "",
           "RA": "1682",
           "pid": "3824043"
+        },
+        {
+          "Tid": "1.00,80",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1384",
+          "pid": "4003924",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.02,90",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003699"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.13,54",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003923",
+          "splits": [
+            "1.00,80",
+            "1.12,74"
+          ]
         }
       ]
     }

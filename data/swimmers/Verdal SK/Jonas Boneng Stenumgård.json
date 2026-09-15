@@ -4,7 +4,7 @@
   "club": "Verdal SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-07-01T13:19:05.345Z",
+  "timestamp": "2026-09-15T23:27:56.995Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -133,6 +133,37 @@
           "RK": "",
           "RA": "",
           "pid": "3888146",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "33,07",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003774"
+        },
+        {
+          "Tid": "34,88",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4004525"
+        },
+        {
+          "Tid": "37,60",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004426",
           "partOf": "400m Fri"
         }
       ]
@@ -324,6 +355,21 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.20,87",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004427",
+          "splits": [
+            "37,60",
+            "43,27"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -463,6 +509,23 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.55,47",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004428",
+          "splits": [
+            "37,60",
+            "43,27",
+            "47,28",
+            "47,32"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -528,6 +591,101 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "Tid": "6.04,35",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004425",
+          "splits": [
+            "37,60",
+            "43,27",
+            "47,28",
+            "47,32",
+            "48,20",
+            "49,33",
+            "48,21",
+            "43,14"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "46,87",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1188",
+          "pid": "4003840",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.38,23",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004118",
+          "splits": [
+            "46,49",
+            "51,74"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.50,52",
+          "Dato": "12.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4003839",
+          "splits": [
+            "46,87",
+            "1.03,65"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.31,62",
+          "Dato": "13.09.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004154",
+          "splits": [
+            "47,65",
+            "53,86",
+            "56,89",
+            "53,22"
           ]
         }
       ]
