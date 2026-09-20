@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-09-04T16:48:59.732Z",
+  "timestamp": "2026-09-20T17:44:42.799Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -72,6 +72,17 @@
           "RA": "1315",
           "pid": "3987406",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,57",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4004921",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -104,6 +115,20 @@
           "splits": [
             "50,33",
             "58,20"
+          ]
+        },
+        {
+          "Tid": "1.44,42",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005137",
+          "splits": [
+            "46,77",
+            "57,65"
           ]
         }
       ]
@@ -191,6 +216,20 @@
             "59,84",
             "1.06,02"
           ]
+        },
+        {
+          "Tid": "2.06,73",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004920",
+          "splits": [
+            "59,57",
+            "1.07,16"
+          ]
         }
       ]
     },
@@ -227,6 +266,43 @@
             "1.02,86",
             "1.07,09",
             "1.02,12"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "54,49",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4005307",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.58,73",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005306",
+          "splits": [
+            "54,49",
+            "58,97",
+            "1.10,58",
+            "54,69"
           ]
         }
       ]

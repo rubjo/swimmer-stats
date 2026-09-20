@@ -4,7 +4,7 @@
   "club": "Lørenskog/Rælingen",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-09-09T10:31:36.113Z",
+  "timestamp": "2026-09-20T18:07:01.138Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -70,6 +70,17 @@
           "RK": "118",
           "RA": "1422",
           "pid": "3959628"
+        },
+        {
+          "Tid": "1.13,52",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1481",
+          "pid": "4004969",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -177,6 +188,25 @@
             "1.00,87",
             "1.02,09",
             "56,88"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.34,30",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1223",
+          "pid": "4004968",
+          "splits": [
+            "1.13,52",
+            "1.20,78"
           ]
         }
       ]
