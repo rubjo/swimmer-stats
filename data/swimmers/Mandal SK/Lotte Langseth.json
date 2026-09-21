@@ -4,7 +4,7 @@
   "club": "Mandal SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-26T22:45:56.727Z",
+  "timestamp": "2026-09-21T13:49:36.209Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -144,6 +144,28 @@
           "RK": "86",
           "RA": "997",
           "pid": "3864115"
+        },
+        {
+          "Tid": "1.02,66",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007012",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "1.11,58",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006708",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -364,6 +386,71 @@
             "1.48,55",
             "1.54,03",
             "1.54,15"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.38,19",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006707",
+          "splits": [
+            "1.11,58",
+            "1.26,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.36,30",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4007011",
+          "splits": [
+            "1.02,66",
+            "1.13,82",
+            "1.19,94",
+            "59,88"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "8.19,36",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4007123",
+          "splits": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Arendal SLK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-07-01T18:47:20.877Z",
+  "timestamp": "2026-09-21T14:25:24.982Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,6 +28,16 @@
           "RK": "",
           "RA": "",
           "pid": "3879294"
+        },
+        {
+          "Tid": "44,38",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "272",
+          "RA": "1727",
+          "pid": "4006657"
         }
       ]
     },
@@ -78,6 +88,46 @@
           "RK": "",
           "RA": "",
           "pid": "3879293"
+        },
+        {
+          "Tid": "56,42",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "256",
+          "RA": "1471",
+          "pid": "4006577"
+        },
+        {
+          "Tid": "58,39",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006804",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.03,11",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "237",
+          "RA": "1302",
+          "pid": "4006803",
+          "splits": [
+            "58,39",
+            "1.04,72"
+          ]
         }
       ]
     }

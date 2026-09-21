@@ -4,7 +4,7 @@
   "club": "Lillesand IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-08-31T22:44:24.907Z",
+  "timestamp": "2026-09-21T13:35:54.908Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,43 @@
           "RK": "152",
           "RA": "1162",
           "pid": "3987887"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,80",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1333",
+          "pid": "4006975",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.14,23",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "832",
+          "pid": "4006974",
+          "splits": [
+            "53,80",
+            "1.08,02",
+            "1.17,64",
+            "54,77"
+          ]
         }
       ]
     }

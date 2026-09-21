@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-06-28T03:28:51.253Z",
+  "timestamp": "2026-09-21T12:40:11.735Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -34,6 +34,28 @@
           "RA": "",
           "pid": "3958496",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "1.03,43",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1422",
+          "pid": "4006981",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "1.06,05",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006667",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -89,6 +111,41 @@
             "1.09,59",
             "1.21,95",
             "58,73"
+          ]
+        },
+        {
+          "Tid": "4.16,86",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "833",
+          "pid": "4006980",
+          "splits": [
+            "1.03,43",
+            "1.04,89",
+            "1.12,34",
+            "56,20"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.19,95",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "953",
+          "pid": "4006666",
+          "splits": [
+            "1.06,05",
+            "1.13,90"
           ]
         }
       ]

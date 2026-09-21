@@ -4,7 +4,7 @@
   "club": "Mandal SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-30T05:50:31.140Z",
+  "timestamp": "2026-09-21T13:31:40.747Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -217,6 +217,16 @@
           "RA": "",
           "pid": "3675762",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,09",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006608"
         }
       ]
     },
@@ -287,6 +297,28 @@
           "RK": "",
           "RA": "1586",
           "pid": "3748954"
+        },
+        {
+          "Tid": "52,79",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1316",
+          "pid": "4006996",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "57,55",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006695",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -1029,6 +1061,67 @@
             "1.00,15",
             "1.00,69",
             "50,75"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.10,58",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "941",
+          "pid": "4006694",
+          "splits": [
+            "57,55",
+            "1.13,03"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.44,63",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "775",
+          "pid": "4006950",
+          "splits": [
+            "54,36",
+            "57,70",
+            "59,06",
+            "53,51"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.51,00",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "795",
+          "pid": "4006995",
+          "splits": [
+            "52,79",
+            "55,42",
+            "1.11,43",
+            "51,36"
           ]
         }
       ]

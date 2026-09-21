@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-20T17:13:16.837Z",
+  "timestamp": "2026-09-21T12:40:17.515Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -521,6 +521,53 @@
             "53,42",
             "53,60",
             "52,91"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "38,80",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006513"
+        },
+        {
+          "Tid": "40,27",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007022",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.11,28",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4007021",
+          "splits": [
+            "40,27",
+            "48,64",
+            "55,61",
+            "46,76"
           ]
         }
       ]
