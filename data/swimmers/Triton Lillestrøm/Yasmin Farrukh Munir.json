@@ -4,7 +4,7 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-28T09:57:37.921Z",
+  "timestamp": "2026-09-20T22:20:45.873Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,17 @@
           "RA": "",
           "pid": "3886470",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "42,37",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4005105",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -44,6 +55,26 @@
           "RK": "43",
           "RA": "750",
           "pid": "3935872"
+        },
+        {
+          "Tid": "45,16",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004713"
+        },
+        {
+          "Tid": "47,06",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4005441"
         }
       ]
     },
@@ -143,6 +174,20 @@
             "1.00,73"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.27,70",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005104",
+          "splits": [
+            "42,37",
+            "45,33"
+          ]
         }
       ]
     },
@@ -182,6 +227,25 @@
             "1.00,73",
             "1.01,26",
             "56,19"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.54,26",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004868",
+          "splits": [
+            "",
+            ""
           ]
         }
       ]

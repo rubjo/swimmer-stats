@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-08-29T08:15:25.185Z",
+  "timestamp": "2026-09-20T22:07:59.707Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -30,6 +30,17 @@
           "RA": "1796",
           "pid": "3936724",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "49,62",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1821",
+          "pid": "4005071",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -80,6 +91,20 @@
             "1.15,30"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.48,38",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1572",
+          "pid": "4005070",
+          "splits": [
+            "49,62",
+            "58,76"
+          ]
         }
       ]
     },
@@ -183,6 +208,50 @@
             "1.02,64",
             "1.07,02"
           ]
+        },
+        {
+          "Tid": "2.01,52",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "925",
+          "pid": "4005136",
+          "splits": [
+            "56,10",
+            "1.05,42"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.02,05",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1412",
+          "pid": "4004745"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.04,22",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1417",
+          "pid": "4004636"
         }
       ]
     }

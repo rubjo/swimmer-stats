@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-07-14T21:41:47.905Z",
+  "timestamp": "2026-09-20T20:47:07.005Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -34,6 +34,17 @@
           "RA": "",
           "pid": "3976399",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,75",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1086",
+          "pid": "4004937",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -53,6 +64,35 @@
             "51,43",
             "1.00,52"
           ]
+        },
+        {
+          "Tid": "1.53,27",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "966",
+          "pid": "4004936",
+          "splits": [
+            "50,75",
+            "1.02,52"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,60",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "946",
+          "pid": "4004692"
         }
       ]
     }

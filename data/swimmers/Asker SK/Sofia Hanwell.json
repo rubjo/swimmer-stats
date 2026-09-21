@@ -1,0 +1,111 @@
+{
+  "swimmerId": "54660",
+  "name": "Sofia Hanwell",
+  "club": "Asker SK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-09-20T20:38:42.059Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "37,48",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005747"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "46,51",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005632"
+        },
+        {
+          "Tid": "51,40",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006164",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.38,19",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006065",
+          "splits": [
+            "49,64",
+            "48,55"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,55",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006165",
+          "splits": [
+            "51,40",
+            "1.00,15"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.52,50",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006163",
+          "splits": [
+            "51,40",
+            "1.00,15",
+            "1.02,46",
+            "58,49"
+          ]
+        }
+      ]
+    }
+  ]
+}

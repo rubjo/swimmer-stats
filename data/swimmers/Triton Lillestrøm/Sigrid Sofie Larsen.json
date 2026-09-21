@@ -4,7 +4,7 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-09-09T17:05:35.686Z",
+  "timestamp": "2026-09-20T22:07:56.766Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -61,6 +61,27 @@
           "RA": "",
           "pid": "3995568",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,18",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004822"
+        },
+        {
+          "Tid": "42,16",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4005265",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -181,6 +202,21 @@
             "42,21",
             "51,48"
           ]
+        },
+        {
+          "Tid": "1.33,97",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4005266",
+          "splits": [
+            "42,16",
+            "51,81"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -335,6 +371,83 @@
             "59,58",
             "1.00,02",
             "59,07"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,02",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4005337",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.52,07",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004869",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.17,45",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005264",
+          "splits": [
+            "42,16",
+            "51,81",
+            "54,75",
+            "48,73"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.30,64",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005336",
+          "splits": [
+            "49,02",
+            "56,82",
+            "58,20",
+            "46,60"
           ]
         }
       ]

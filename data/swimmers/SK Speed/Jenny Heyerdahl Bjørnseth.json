@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-20T15:42:40.410Z",
+  "timestamp": "2026-09-20T21:01:00.974Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -32,6 +32,16 @@
           "RK": "",
           "RA": "",
           "pid": "3893130"
+        },
+        {
+          "Tid": "41,01",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004828"
         }
       ]
     },
@@ -60,6 +70,27 @@
           "splits": [
             ""
           ],
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,98",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4004780"
+        },
+        {
+          "Tid": "56,28",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4005003",
           "partOf": "100m Bryst"
         }
       ]
@@ -99,6 +130,35 @@
             "59,79",
             "1.02,99"
           ]
+        },
+        {
+          "Tid": "2.00,11",
+          "Dato": "19.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4005002",
+          "splits": [
+            "56,28",
+            "1.03,83"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "51,27",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4005443"
         }
       ]
     }

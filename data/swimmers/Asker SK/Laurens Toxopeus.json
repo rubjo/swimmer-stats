@@ -4,7 +4,7 @@
   "club": "Asker SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-08-23T01:47:48.631Z",
+  "timestamp": "2026-09-20T23:55:41.421Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,16 @@
           "RA": "",
           "pid": "3987533",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "34,89",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1194",
+          "pid": "4005646"
         }
       ]
     },
@@ -66,6 +76,84 @@
           "splits": [
             "43,0",
             "51,01"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,79",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1333",
+          "pid": "4006106",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.02,79",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1094",
+          "pid": "4006107",
+          "splits": [
+            "57,79",
+            "1.05,00"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.26,09",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "694",
+          "pid": "4006081",
+          "splits": [
+            "48,85",
+            "51,28",
+            "53,49",
+            "52,47"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.07,32",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "790",
+          "pid": "4006105",
+          "splits": [
+            "57,79",
+            "1.05,00",
+            "1.02,20",
+            "1.02,33"
           ]
         }
       ]
