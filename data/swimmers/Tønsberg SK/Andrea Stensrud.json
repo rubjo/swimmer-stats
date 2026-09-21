@@ -4,7 +4,7 @@
   "club": "Tønsberg SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-07-01T13:15:08.331Z",
+  "timestamp": "2026-09-21T06:33:15.378Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -106,6 +106,17 @@
           "RK": "",
           "RA": "",
           "pid": "3937163"
+        },
+        {
+          "Tid": "1.00,39",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006275",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -147,6 +158,17 @@
           "RA": "1656",
           "pid": "3950967",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.10,50",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006122",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -212,6 +234,63 @@
           "splits": [
             "1.15,79",
             "1.25,02"
+          ]
+        },
+        {
+          "Tid": "2.33,23",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4006123",
+          "splits": [
+            "1.10,50",
+            "1.22,73"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.34,72",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006274",
+          "splits": [
+            "1.00,39",
+            "1.20,66",
+            "1.15,11",
+            "58,56"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "5.10,88",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4006121",
+          "splits": [
+            "1.10,50",
+            "1.22,73",
+            "1.19,81",
+            "1.17,84"
           ]
         }
       ]
