@@ -1,0 +1,100 @@
+{
+  "swimmerId": "51854",
+  "name": "Ole-Johannes Christensen",
+  "club": "Tønsberg SK",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-09-24T04:05:11.918Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,04",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "182",
+          "RA": "1731",
+          "pid": "4007219"
+        },
+        {
+          "Tid": "48,50",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007223",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,30",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1304",
+          "pid": "4007218"
+        },
+        {
+          "Tid": "59,45",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007221",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.45,87",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1558",
+          "pid": "4007222",
+          "splits": [
+            "48,50",
+            "57,37"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,52",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "144",
+          "RA": "1144",
+          "pid": "4007220",
+          "splits": [
+            "59,45",
+            "1.08,07"
+          ]
+        }
+      ]
+    }
+  ]
+}
