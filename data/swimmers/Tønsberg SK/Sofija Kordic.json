@@ -1,0 +1,70 @@
+{
+  "swimmerId": "55420",
+  "name": "Sofija Kordic",
+  "club": "Tønsberg SK",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-09-25T21:24:48.657Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "38,72",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "1336",
+          "pid": "4007247"
+        },
+        {
+          "Tid": "42,42",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007249",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "47,36",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "118",
+          "RA": "1138",
+          "pid": "4007244"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.30,18",
+          "Dato": "19.09.2026",
+          "Sted": "Horten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "1253",
+          "pid": "4007248",
+          "splits": [
+            "42,42",
+            "47,76"
+          ]
+        }
+      ]
+    }
+  ]
+}
