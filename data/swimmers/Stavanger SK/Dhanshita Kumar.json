@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-07-07T18:08:33.825Z",
+  "timestamp": "2026-09-27T18:11:32.691Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -96,6 +96,17 @@
           "RK": "",
           "RA": "",
           "pid": "3865448"
+        },
+        {
+          "Tid": "57,61",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010569",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -159,6 +170,17 @@
           "RA": "1499",
           "pid": "3979503",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.00,38",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010150",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -297,6 +319,21 @@
             "59,10",
             "1.06,82"
           ]
+        },
+        {
+          "Tid": "2.10,82",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010151",
+          "splits": [
+            "1.00,38",
+            "1.10,44"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -317,6 +354,48 @@
             "1.07,07",
             "1.04,41",
             "1.00,49"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.01,75",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4010568",
+          "splits": [
+            "57,61",
+            "1.02,66",
+            "1.06,28",
+            "55,20"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.27,67",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4010149",
+          "splits": [
+            "1.00,38",
+            "1.10,44",
+            "1.10,46",
+            "1.06,39"
           ]
         }
       ]

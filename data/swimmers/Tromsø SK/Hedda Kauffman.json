@@ -4,7 +4,7 @@
   "club": "Tromsø SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-26T08:37:21.732Z",
+  "timestamp": "2026-09-27T17:25:45.319Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,6 +28,17 @@
           "RK": "",
           "RA": "",
           "pid": "3757734"
+        },
+        {
+          "Tid": "51,30",
+          "Dato": "27.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007902",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -53,6 +64,25 @@
           "RK": "",
           "RA": "",
           "pid": "3757623"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.22,47",
+          "Dato": "27.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4007901",
+          "splits": [
+            "51,30",
+            "1.31,17"
+          ]
         }
       ]
     }

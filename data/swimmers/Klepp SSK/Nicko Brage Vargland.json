@@ -4,7 +4,7 @@
   "club": "Klepp SSK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-09-13T12:42:37.278Z",
+  "timestamp": "2026-09-27T19:22:33.627Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -359,6 +359,16 @@
           "RK": "",
           "RA": "",
           "pid": "3997525"
+        },
+        {
+          "Tid": "44,43",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "775",
+          "pid": "4008813"
         }
       ]
     },
@@ -394,6 +404,17 @@
           "RK": "",
           "RA": "",
           "pid": "3737872"
+        },
+        {
+          "Tid": "58,52",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010549",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -933,6 +954,27 @@
             "1.10,75",
             "1.11,45",
             "1.09,19"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.01,95",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "847",
+          "pid": "4010548",
+          "splits": [
+            "58,52",
+            "56,95",
+            "1.14,88",
+            "51,60"
           ]
         }
       ]

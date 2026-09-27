@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-23T12:10:02.180Z",
+  "timestamp": "2026-09-27T17:14:38.280Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -106,6 +106,28 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,21",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4009821",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,50",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010480",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -258,6 +280,27 @@
             ""
           ],
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,58",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009029"
+        },
+        {
+          "Tid": "52,71",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4009560",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -291,6 +334,35 @@
             "48,03",
             "54,58"
           ]
+        },
+        {
+          "Tid": "1.22,13",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009820",
+          "splits": [
+            "40,21",
+            "41,92"
+          ]
+        },
+        {
+          "Tid": "1.29,30",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010481",
+          "splits": [
+            "42,50",
+            "46,80"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -337,6 +409,41 @@
           "splits": [
             "58,71",
             "1.03,11"
+          ]
+        },
+        {
+          "Tid": "1.49,40",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009559",
+          "splits": [
+            "52,71",
+            "56,69"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.01,32",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4010479",
+          "splits": [
+            "42,50",
+            "46,80",
+            "47,57",
+            "44,45"
           ]
         }
       ]

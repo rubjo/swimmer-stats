@@ -4,7 +4,7 @@
   "club": "Tromsøstudentenes IL",
   "birthYear": 2001,
   "gender": "male",
-  "timestamp": "2026-06-21T15:55:40.778Z",
+  "timestamp": "2026-09-27T17:17:23.873Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -31,6 +31,27 @@
           "splits": [
             ""
           ],
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "27,08",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "397",
+          "pid": "4007516"
+        },
+        {
+          "Tid": "27,94",
+          "Dato": "27.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4007871",
           "partOf": "100m Fri"
         }
       ]
@@ -61,6 +82,39 @@
             ""
           ],
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,80",
+          "Dato": "27.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "189",
+          "RA": "634",
+          "pid": "4007593",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "36,03",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4008541",
+          "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "36,19",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4008019",
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -80,6 +134,20 @@
             "28,49",
             "32,03"
           ]
+        },
+        {
+          "Tid": "59,02",
+          "Dato": "27.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "280",
+          "pid": "4007870",
+          "splits": [
+            "27,94",
+            "31,08"
+          ]
         }
       ]
     },
@@ -98,6 +166,96 @@
           "splits": [
             "32,92",
             "40,27"
+          ]
+        },
+        {
+          "Tid": "1.11,08",
+          "Dato": "27.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "324",
+          "pid": "4007592",
+          "splits": [
+            "32,80",
+            "38,28"
+          ]
+        },
+        {
+          "Tid": "1.19,18",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4008542",
+          "splits": [
+            "36,03",
+            "43,15"
+          ],
+          "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "1.19,99",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4008020",
+          "splits": [
+            "36,19",
+            "43,80"
+          ],
+          "partOf": "200m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Butterfly",
+      "races": [
+        {
+          "Tid": "2.52,14",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "76",
+          "pid": "4008018",
+          "splits": [
+            "36,19",
+            "43,80",
+            "45,82",
+            "46,33"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Individuell medley",
+      "races": [
+        {
+          "Tid": "5.41,55",
+          "Dato": "26.09.2026",
+          "Sted": "Tromsø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "101",
+          "pid": "4008540",
+          "splits": [
+            "36,03",
+            "43,15",
+            "42,59",
+            "42,09",
+            "50,09",
+            "51,40",
+            "39,67",
+            "36,53"
           ]
         }
       ]

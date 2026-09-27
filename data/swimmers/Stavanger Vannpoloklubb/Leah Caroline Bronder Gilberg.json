@@ -4,7 +4,7 @@
   "club": "Stavanger Vannpoloklubb",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-09-09T08:24:09.417Z",
+  "timestamp": "2026-09-27T17:09:23.588Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -93,6 +93,27 @@
           "RK": "",
           "RA": "",
           "pid": "3988321",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,88",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009166"
+        },
+        {
+          "Tid": "47,00",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4009745",
           "partOf": "100m Fri"
         }
       ]
@@ -195,6 +216,20 @@
             "45,89",
             "48,36"
           ]
+        },
+        {
+          "Tid": "1.39,34",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009744",
+          "splits": [
+            "47,0",
+            "52,34"
+          ]
         }
       ]
     },
@@ -232,6 +267,46 @@
           "splits": [
             "51,57",
             "51,82"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.45,08",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009932",
+          "splits": [
+            "51,19",
+            "53,89"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.36,09",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4010039",
+          "splits": [
+            "50,36",
+            "55,67",
+            "56,55",
+            "53,51"
           ]
         }
       ]

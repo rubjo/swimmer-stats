@@ -4,7 +4,7 @@
   "club": "Bryne SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-09-13T13:24:46.629Z",
+  "timestamp": "2026-09-27T19:08:43.250Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -130,6 +130,17 @@
           "RK": "",
           "RA": "",
           "pid": "3998483",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "49,23",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "52",
+          "RA": "1283",
+          "pid": "4010551",
           "partOf": "200m Individuell medley"
         }
       ]
@@ -538,6 +549,22 @@
             "1.07,64",
             "46,57"
           ]
+        },
+        {
+          "Tid": "3.29,23",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "750",
+          "pid": "4010550",
+          "splits": [
+            "49,23",
+            "50,06",
+            "1.05,87",
+            "44,07"
+          ]
         }
       ]
     },
@@ -615,6 +642,27 @@
           "RK": "",
           "RA": "707",
           "pid": "3997514"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.12,92",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "610",
+          "pid": "4010027",
+          "splits": [
+            "44,51",
+            "49,84",
+            "50,47",
+            "48,10"
+          ]
         }
       ]
     }

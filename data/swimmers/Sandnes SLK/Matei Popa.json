@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-09-13T13:16:19.979Z",
+  "timestamp": "2026-09-27T18:06:09.011Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -164,6 +164,17 @@
           "RK": "",
           "RA": "",
           "pid": "3987934"
+        },
+        {
+          "Tid": "59,79",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4010529",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -442,6 +453,20 @@
             "58,20",
             "55,81"
           ]
+        },
+        {
+          "Tid": "1.48,92",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "870",
+          "pid": "4009911",
+          "splits": [
+            "53,18",
+            "55,74"
+          ]
         }
       ]
     },
@@ -584,6 +609,27 @@
             "1.09,10",
             "1.08,98",
             "1.07,79"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.45,65",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "796",
+          "pid": "4010528",
+          "splits": [
+            "59,79",
+            "54,47",
+            "1.03,86",
+            "47,53"
           ]
         }
       ]

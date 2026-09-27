@@ -4,7 +4,7 @@
   "club": "Randaberg IL",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-30T14:31:32.985Z",
+  "timestamp": "2026-09-27T18:34:38.927Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,6 +39,27 @@
           "RK": "",
           "RA": "",
           "pid": "3946777"
+        },
+        {
+          "Tid": "40,33",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009219"
+        },
+        {
+          "Tid": "43,03",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4009835",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -99,6 +120,17 @@
           "RK": "",
           "RA": "",
           "pid": "3837520"
+        },
+        {
+          "Tid": "53,01",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4009574",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -131,6 +163,54 @@
           "splits": [
             "46,88",
             "58,27"
+          ]
+        },
+        {
+          "Tid": "1.29,22",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009834",
+          "splits": [
+            "43,03",
+            "46,19"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "43,92",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4008769"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,89",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4009573",
+          "splits": [
+            "53,01",
+            "58,88"
           ]
         }
       ]
