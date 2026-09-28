@@ -1,0 +1,115 @@
+{
+  "swimmerId": "55576",
+  "name": "Johan Røvde",
+  "club": "IL Solid",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-09-27T21:15:45.793Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "45,62",
+          "Dato": "25.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1790",
+          "pid": "4011810"
+        },
+        {
+          "Tid": "46,86",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4012990",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "54,87",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "1025",
+          "pid": "4011395"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,57",
+          "Dato": "25.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1346",
+          "pid": "4011604"
+        },
+        {
+          "Tid": "1.05,06",
+          "Dato": "26.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4012551",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,35",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1546",
+          "pid": "4012989",
+          "splits": [
+            "46,86",
+            "53,49"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.14,11",
+          "Dato": "26.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1213",
+          "pid": "4012550",
+          "splits": [
+            "1.05,06",
+            "1.09,05"
+          ]
+        }
+      ]
+    }
+  ]
+}

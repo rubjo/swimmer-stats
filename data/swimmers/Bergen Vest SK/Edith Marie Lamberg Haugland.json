@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-26T22:32:29.870Z",
+  "timestamp": "2026-09-27T22:40:40.219Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -43,6 +43,40 @@
           "RK": "211",
           "RA": "1656",
           "pid": "3951669"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.04,24",
+          "Dato": "26.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1532",
+          "pid": "4011306"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.17,93",
+          "Dato": "26.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4013484",
+          "splits": [
+            "1.06,25",
+            "1.11,68"
+          ]
         }
       ]
     }

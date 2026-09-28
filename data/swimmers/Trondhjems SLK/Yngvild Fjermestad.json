@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-09-14T21:45:09.952Z",
+  "timestamp": "2026-09-27T21:44:31.168Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,27 @@
           "RA": "",
           "pid": "4003566",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,09",
+          "Dato": "26.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4016430"
+        },
+        {
+          "Tid": "48,30",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4017107",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -62,6 +83,97 @@
           "splits": [
             "43,29",
             "50,60"
+          ]
+        },
+        {
+          "Tid": "1.46,43",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4017108",
+          "splits": [
+            "48,30",
+            "58,13"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "48,79",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4016267"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.54,44",
+          "Dato": "26.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4016556",
+          "splits": [
+            "53,51",
+            "1.00,93"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.36,31",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4017106",
+          "splits": [
+            "48,30",
+            "58,13",
+            "57,87",
+            "52,01"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.11,10",
+          "Dato": "26.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4016834",
+          "splits": [
+            "1.00,92",
+            "1.05,88",
+            "1.06,34",
+            "57,96"
           ]
         }
       ]
