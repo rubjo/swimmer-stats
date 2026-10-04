@@ -1,0 +1,55 @@
+{
+  "swimmerId": "42340",
+  "name": "Aron Eieland",
+  "club": "Lakselv SK",
+  "birthYear": 2011,
+  "gender": "male",
+  "timestamp": "2026-10-04T05:14:15.106Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "29,90",
+          "Dato": "12.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "807",
+          "pid": "4018897"
+        },
+        {
+          "Tid": "33,80",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4018899",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.10,83",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "852",
+          "pid": "4018898",
+          "splits": [
+            "33,80",
+            "37,03"
+          ]
+        }
+      ]
+    }
+  ]
+}
