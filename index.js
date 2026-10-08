@@ -37,9 +37,21 @@ const FORCE_DISCOVERY = process.env.FORCE_DISCOVERY === "1";
 // through between two visits to the same swimmer. An explicit FRA_DATO env var
 // still overrides (handy for a one-off wider re-check).
 const LOOKBACK_DAYS = parseInt(process.env.LOOKBACK_DAYS || "90", 10);
+// Rank-refresh mode: a race's class/total rank (RK/RA) keeps drifting through
+// the current season as other swimmers post faster times. Setting REFRESH_RANKS=1
+// extends the window back to Jan 1 of the current year so every current-year race
+// is present in the grid and its RK/RA can be re-read (see processSwimmer). The
+// extra rows are already-indexed PIDs, so no extra split fetches — only a larger
+// grid parse. Intended for a less-frequent (e.g. weekly) run; daily runs can keep
+// the lean trailing window.
+const REFRESH_RANKS = process.env.REFRESH_RANKS === "1";
+const _trailing = new Date(Date.now() - LOOKBACK_DAYS * 86_400_000)
+  .toISOString()
+  .slice(0, 10);
+const _yearStart = `${new Date().getFullYear()}-01-01`;
 const FRA_DATO =
   process.env.FRA_DATO ||
-  new Date(Date.now() - LOOKBACK_DAYS * 86_400_000).toISOString().slice(0, 10);
+  (REFRESH_RANKS && _yearStart < _trailing ? _yearStart : _trailing);
 const TIL_DATO = process.env.TIL_DATO || ""; // empty ⇒ site's "today"
 
 // Sharding: split the licensed roster across N parallel jobs. Shard i processes

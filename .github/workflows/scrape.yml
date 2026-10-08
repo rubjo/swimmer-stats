@@ -2,8 +2,14 @@ name: Scrape
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every six hours
+    - cron: "0 */6 * * *" # every six hours — lean incremental (90-day window)
+    - cron: "0 3 * * 1" # Mondays 03:00 UTC — rank-refresh backfill (whole current year)
   workflow_dispatch: # manual trigger
+    inputs:
+      refresh_ranks:
+        description: "Backfill current-year RK/RA (widen window to Jan 1 of this year)"
+        type: boolean
+        default: false
 
 # Concurrency belongs at the WORKFLOW level so the group scopes the whole run.
 # Only ONE Scrape run executes at a time; a run scheduled while one is in
@@ -104,6 +110,12 @@ jobs:
           PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
           # Trailing window: check from today back this many days for new races.
           LOOKBACK_DAYS: "90"
+          # Rank-refresh backfill: on the Monday cron (or a manual run with the
+          # refresh_ranks toggle) widen the window back to Jan 1 so every
+          # current-year race is re-read and its RK/RA updated. Off ("0") on the
+          # 6-hourly runs, which stay on the lean 90-day window. No extra split
+          # fetches either way — only already-indexed rows get re-read.
+          REFRESH_RANKS: ${{ (github.event.schedule == '0 3 * * 1' || github.event.inputs.refresh_ranks == 'true') && '1' || '0' }}
           # Sharding: this shard scrapes swimmer j where j % SHARD_COUNT == SHARD_INDEX.
           SHARD_INDEX: ${{ matrix.shard }}
           # SHARD_COUNT inherits the top-level env value.
