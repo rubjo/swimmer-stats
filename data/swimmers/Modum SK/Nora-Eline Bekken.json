@@ -4,7 +4,7 @@
   "club": "Modum SK",
   "birthYear": 2009,
   "gender": "female",
-  "timestamp": "2026-09-20T20:50:20.242Z",
+  "timestamp": "2026-10-11T21:51:49.571Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -286,6 +286,27 @@
           "RA": "",
           "pid": "4006002",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "29,47",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "240",
+          "pid": "4019607"
+        },
+        {
+          "Tid": "32,56",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019952",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -450,12 +471,26 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "42",
+          "RA": "229",
           "pid": "4006001",
           "splits": [
             "31,55",
             "34,50"
+          ]
+        },
+        {
+          "Tid": "1.06,42",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019951",
+          "splits": [
+            "32,56",
+            "33,86"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Glitre SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-09-13T20:52:31.934Z",
+  "timestamp": "2026-10-11T21:54:10.537Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -377,8 +377,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "56",
+          "RA": "654",
           "pid": "4002313",
           "partOf": "100m Fri"
         }
@@ -991,6 +991,38 @@
           "RA": "",
           "pid": "3983611",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "35,24",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "56",
+          "pid": "4019509"
+        },
+        {
+          "Tid": "35,81",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019828",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "36,50",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019822",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -1104,6 +1136,26 @@
             ""
           ],
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "33,67",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "16",
+          "RA": "331",
+          "pid": "4019407"
+        },
+        {
+          "Tid": "34,24",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019406"
         }
       ]
     },
@@ -1359,8 +1411,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "21",
+          "RA": "340",
           "pid": "4002312",
           "splits": [
             "32,25",
@@ -1759,6 +1811,34 @@
           "splits": [
             "36,29",
             "42,48"
+          ]
+        },
+        {
+          "Tid": "1.16,61",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "32",
+          "pid": "4019821",
+          "splits": [
+            "36,50",
+            "40,11"
+          ]
+        },
+        {
+          "Tid": "1.16,87",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019827",
+          "splits": [
+            "35,81",
+            "41,06"
           ]
         }
       ]
@@ -2350,6 +2430,25 @@
             "55,35",
             "56,84",
             "55,07"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.15,73",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "11",
+          "RA": "191",
+          "pid": "4020004",
+          "splits": [
+            "35,43",
+            "40,30"
           ]
         }
       ]

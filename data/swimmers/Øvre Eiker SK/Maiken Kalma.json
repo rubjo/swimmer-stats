@@ -4,7 +4,7 @@
   "club": "Øvre Eiker SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-09-09T09:08:56.972Z",
+  "timestamp": "2026-10-11T23:01:18.714Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -35,8 +35,8 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "F",
-          "RK": "",
-          "RA": "",
+          "RK": "255",
+          "RA": "1637",
           "pid": "3989027"
         },
         {
@@ -48,6 +48,16 @@
           "RK": "",
           "RA": "",
           "pid": "3988695"
+        },
+        {
+          "Tid": "42,73",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019590"
         }
       ]
     },
@@ -83,6 +93,61 @@
           "RK": "",
           "RA": "",
           "pid": "3988644"
+        },
+        {
+          "Tid": "52,43",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "235",
+          "RA": "1310",
+          "pid": "4019801",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,88",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019799",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,29",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1203",
+          "pid": "4019800",
+          "splits": [
+            "52,43",
+            "1.03,86"
+          ]
+        },
+        {
+          "Tid": "2.01,71",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019798",
+          "splits": [
+            "57,88",
+            "1.03,83"
+          ]
         }
       ]
     }

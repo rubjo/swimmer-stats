@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-08-29T08:38:20.009Z",
+  "timestamp": "2026-10-11T23:46:50.966Z",
   "disciplines": [
     {
       "distanse": "100m Rygg",
@@ -29,8 +29,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "148",
+          "RA": "859",
           "pid": "3987381",
           "splits": [
             "53,82",
@@ -48,9 +48,49 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "268",
-          "RA": "1685",
+          "RK": "283",
+          "RA": "1827",
           "pid": "3987269"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.56,49",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1186",
+          "pid": "4022977",
+          "splits": [
+            "54,75",
+            "1.01,74"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.25,18",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "1012",
+          "pid": "4023062",
+          "splits": [
+            "59,74",
+            "1.10,26",
+            "",
+            ""
+          ]
         }
       ]
     }

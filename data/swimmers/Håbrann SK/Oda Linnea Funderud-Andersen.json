@@ -4,7 +4,7 @@
   "club": "Håbrann SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-08-25T01:43:36.364Z",
+  "timestamp": "2026-10-11T22:15:23.873Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -59,9 +59,19 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "117",
-          "RA": "1241",
+          "RK": "",
+          "RA": "",
           "pid": "3987267"
+        },
+        {
+          "Tid": "36,07",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "1148",
+          "pid": "4019622"
         }
       ]
     },
@@ -137,8 +147,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "56",
-          "RA": "747",
+          "RK": "",
+          "RA": "",
           "pid": "3986999"
         },
         {
@@ -151,6 +161,39 @@
           "RA": "",
           "pid": "3987481",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,26",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "66",
+          "RA": "811",
+          "pid": "4019805",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,67",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019803",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,33",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4020089",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -188,6 +231,20 @@
           "splits": [
             "46,64",
             "50,92"
+          ]
+        },
+        {
+          "Tid": "1.31,07",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "709",
+          "pid": "4020001",
+          "splits": [
+            "42,93",
+            "48,14"
           ]
         }
       ]
@@ -229,12 +286,101 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "56",
-          "RA": "671",
+          "RK": "",
+          "RA": "",
           "pid": "3987480",
           "splits": [
             "49,22",
             "53,07"
+          ]
+        },
+        {
+          "Tid": "1.38,82",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "618",
+          "pid": "4019802",
+          "splits": [
+            "46,67",
+            "52,15"
+          ]
+        },
+        {
+          "Tid": "1.39,26",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019804",
+          "splits": [
+            "46,26",
+            "53,00"
+          ]
+        },
+        {
+          "Tid": "1.46,90",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4020090",
+          "splits": [
+            "51,33",
+            "55,57"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "43,59",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "1016",
+          "pid": "4019398"
+        },
+        {
+          "Tid": "44,35",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019397"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.34,64",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "60",
+          "RA": "582",
+          "pid": "4020088",
+          "splits": [
+            "51,33",
+            "55,57",
+            "55,78",
+            "51,96"
           ]
         }
       ]

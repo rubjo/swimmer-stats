@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-08-29T07:30:24.182Z",
+  "timestamp": "2026-10-11T22:37:02.290Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -88,9 +88,20 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "183",
-          "RA": "1244",
+          "RK": "203",
+          "RA": "1360",
           "pid": "3987223"
+        },
+        {
+          "Tid": "39,50",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022867",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -188,9 +199,19 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
+          "RK": "146",
+          "RA": "929",
+          "pid": "3986963"
+        },
+        {
+          "Tid": "48,74",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3986963"
+          "pid": "4022245"
         }
       ]
     },
@@ -206,6 +227,17 @@
           "RK": "",
           "RA": "",
           "pid": "3935820"
+        },
+        {
+          "Tid": "45,18",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "173",
+          "RA": "1092",
+          "pid": "4023500",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -292,6 +324,20 @@
           "splits": [
             "48,04",
             "53,81"
+          ]
+        },
+        {
+          "Tid": "1.24,20",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1104",
+          "pid": "4022866",
+          "splits": [
+            "39,50",
+            "44,70"
           ]
         }
       ]
@@ -435,6 +481,27 @@
             "",
             "54,26",
             "53,89"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.29,64",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "819",
+          "pid": "4023499",
+          "splits": [
+            "45,18",
+            "55,11",
+            "58,95",
+            "50,40"
           ]
         }
       ]

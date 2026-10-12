@@ -4,7 +4,7 @@
   "club": "Askimsvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-06-30T12:42:10.248Z",
+  "timestamp": "2026-10-11T23:28:02.296Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,6 +28,17 @@
           "RK": "",
           "RA": "",
           "pid": "3514606"
+        },
+        {
+          "Tid": "35,42",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "195",
+          "RA": "1277",
+          "pid": "4022678",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -74,6 +85,39 @@
           "RA": "683",
           "pid": "3963429",
           "splits": []
+        },
+        {
+          "Tid": "1.12,71",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "919",
+          "pid": "4022677",
+          "splits": [
+            "35,42",
+            "37,29"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.30,27",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "700",
+          "pid": "4022935",
+          "splits": [
+            "41,49",
+            "48,78"
+          ]
         }
       ]
     }

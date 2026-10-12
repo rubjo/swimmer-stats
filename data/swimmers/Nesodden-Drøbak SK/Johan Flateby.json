@@ -4,7 +4,7 @@
   "club": "Nesodden-Drøbak SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-09-13T20:37:52.494Z",
+  "timestamp": "2026-10-11T22:03:12.275Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,20 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
+          "RK": "206",
+          "RA": "1841",
+          "pid": "4002945"
+        },
+        {
+          "Tid": "47,92",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4002945"
+          "pid": "4022746",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,12 +41,31 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "95",
+          "RA": "700",
           "pid": "4003031",
           "splits": [
             "57,26",
             "56,57"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.39,26",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1568",
+          "pid": "4022745",
+          "splits": [
+            "47,92",
+            "51,34"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-09-20T21:12:13.641Z",
+  "timestamp": "2026-10-11T22:26:37.732Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -94,6 +94,17 @@
           "RK": "",
           "RA": "",
           "pid": "3685901"
+        },
+        {
+          "Tid": "39,92",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "183",
+          "RA": "1572",
+          "pid": "4022724",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -181,9 +192,20 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "1045",
+          "RK": "102",
+          "RA": "1084",
           "pid": "4004638"
+        },
+        {
+          "Tid": "45,19",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4023423",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -353,6 +375,20 @@
             "41,36",
             "47,81"
           ]
+        },
+        {
+          "Tid": "1.29,00",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4022723",
+          "splits": [
+            "39,92",
+            "49,08"
+          ]
         }
       ]
     },
@@ -473,8 +509,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "932",
+          "RK": "134",
+          "RA": "971",
           "pid": "4004959",
           "splits": [
             "53,72",
@@ -500,6 +536,27 @@
             "1.00,57",
             "59,75",
             "59,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.37,34",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "804",
+          "pid": "4023422",
+          "splits": [
+            "45,19",
+            "1.00,51",
+            "1.02,26",
+            "49,38"
           ]
         }
       ]

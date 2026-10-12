@@ -4,7 +4,7 @@
   "club": "Skien SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-09-20T22:04:35.963Z",
+  "timestamp": "2026-10-11T23:02:21.039Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -768,7 +768,7 @@
           "Basseng": "25m",
           "D": "F",
           "RK": "",
-          "RA": "355",
+          "RA": "",
           "pid": "4006451"
         },
         {
@@ -790,6 +790,27 @@
           "RK": "",
           "RA": "",
           "pid": "4005960",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "26,48",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "28",
+          "RA": "343",
+          "pid": "4022312"
+        },
+        {
+          "Tid": "28,45",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022780",
           "partOf": "100m Fri"
         }
       ]
@@ -1079,6 +1100,16 @@
           "RA": "",
           "pid": "3523282",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "30,48",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "58",
+          "RA": "473",
+          "pid": "4022026"
         }
       ]
     },
@@ -1987,6 +2018,20 @@
           "splits": [
             "29,28",
             "31,90"
+          ]
+        },
+        {
+          "Tid": "58,52",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "29",
+          "RA": "281",
+          "pid": "4022779",
+          "splits": [
+            "28,45",
+            "30,07"
           ]
         }
       ]

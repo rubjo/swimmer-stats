@@ -4,7 +4,7 @@
   "club": "Ringerike SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-29T20:22:45.584Z",
+  "timestamp": "2026-10-11T23:26:35.928Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -34,6 +34,17 @@
           "RK": "183",
           "RA": "1163",
           "pid": "3738906"
+        },
+        {
+          "Tid": "43,56",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "144",
+          "RA": "805",
+          "pid": "4019785",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -52,6 +63,25 @@
           "splits": [
             "44,10",
             "56,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.38,27",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "142",
+          "RA": "715",
+          "pid": "4019784",
+          "splits": [
+            "43,56",
+            "54,71"
           ]
         }
       ]

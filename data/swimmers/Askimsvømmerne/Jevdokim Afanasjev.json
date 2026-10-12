@@ -4,7 +4,7 @@
   "club": "Askimsvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-09-09T16:25:25.052Z",
+  "timestamp": "2026-10-11T21:49:59.382Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -81,8 +81,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "80",
+          "RA": "797",
           "pid": "3994938"
         },
         {
@@ -106,6 +106,16 @@
           "RA": "",
           "pid": "3996200",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "29,84",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4022279"
         }
       ]
     },
@@ -141,6 +151,27 @@
           "RK": "",
           "RA": "",
           "pid": "3994580"
+        },
+        {
+          "Tid": "33,71",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "78",
+          "RA": "711",
+          "pid": "4021991"
+        },
+        {
+          "Tid": "37,13",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022382",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -215,8 +246,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "93",
+          "RA": "764",
           "pid": "3995427",
           "splits": [
             "31,90",
@@ -291,8 +322,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "105",
+          "RA": "586",
           "pid": "3995665",
           "splits": [
             "36,50",
@@ -346,8 +377,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "153",
+          "RA": "839",
           "pid": "3996202",
           "splits": [
             "37,77",
@@ -388,8 +419,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "142",
+          "RA": "682",
           "pid": "3996199",
           "splits": [
             "37,77",
@@ -400,6 +431,25 @@
             "46,59",
             "46,14",
             "39,62"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.24,68",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "615",
+          "pid": "4022381",
+          "splits": [
+            "37,13",
+            "47,55"
           ]
         }
       ]

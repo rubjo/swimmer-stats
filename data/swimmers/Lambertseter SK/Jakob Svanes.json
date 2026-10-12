@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-09-20T17:57:09.353Z",
+  "timestamp": "2026-10-11T23:56:12.090Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -208,8 +208,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "44",
-          "RA": "1029",
+          "RK": "",
+          "RA": "",
           "pid": "3986460"
         },
         {
@@ -218,9 +218,20 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "1072",
+          "RK": "54",
+          "RA": "1116",
           "pid": "4004641"
+        },
+        {
+          "Tid": "45,87",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4023449",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -243,8 +254,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "844",
+          "RK": "92",
+          "RA": "911",
           "pid": "4004699"
         }
       ]
@@ -395,8 +406,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "1202",
+          "RK": "127",
+          "RA": "1249",
           "pid": "4004943",
           "partOf": "100m Bryst"
         }
@@ -614,8 +625,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "913",
+          "RK": "79",
+          "RA": "950",
           "pid": "4004942",
           "splits": [
             "53,58",
@@ -676,6 +687,48 @@
             "55,26",
             "1.00,70",
             "1.03,45"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.35,49",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "796",
+          "pid": "4023448",
+          "splits": [
+            "45,87",
+            "58,48",
+            "1.02,47",
+            "48,67"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.45,82",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "809",
+          "pid": "4023005",
+          "splits": [
+            "52,19",
+            "59,71",
+            "57,52",
+            "56,40"
           ]
         }
       ]
