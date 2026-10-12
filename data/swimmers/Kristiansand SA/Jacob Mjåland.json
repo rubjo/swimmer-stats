@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-28T04:11:18.666Z",
+  "timestamp": "2026-10-12T11:50:58.567Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "117",
+          "RA": "1037",
           "pid": "3849811"
         },
         {
@@ -28,6 +28,27 @@
           "RK": "176",
           "RA": "1802",
           "pid": "3842140"
+        },
+        {
+          "Tid": "33,83",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "1165",
+          "pid": "4024227"
+        },
+        {
+          "Tid": "38,04",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4024472",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -40,8 +61,8 @@
           "Sted": "Lillesand",
           "Basseng": "25m",
           "D": "",
-          "RK": "94",
-          "RA": "918",
+          "RK": "115",
+          "RA": "1020",
           "pid": "3896131"
         },
         {
@@ -50,9 +71,28 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "72",
-          "RA": "603",
+          "RK": "77",
+          "RA": "632",
           "pid": "3849440"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.19,00",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "1105",
+          "pid": "4024471",
+          "splits": [
+            "38,04",
+            "40,96"
+          ]
         }
       ]
     }

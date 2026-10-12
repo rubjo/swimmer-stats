@@ -4,7 +4,7 @@
   "club": "Lillesand IL",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T22:44:36.357Z",
+  "timestamp": "2026-10-12T12:01:57.360Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -26,7 +26,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "246",
-          "RA": "2087",
+          "RA": "2094",
           "pid": "4006640"
         }
       ]
@@ -41,11 +41,56 @@
           "Basseng": "25m",
           "D": "",
           "RK": "208",
-          "RA": "1765",
+          "RA": "1775",
           "pid": "4006887",
           "splits": [
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.07,69",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "224",
+          "RA": "1765",
+          "pid": "4024212"
+        },
+        {
+          "Tid": "1.12,26",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4024466",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.32,34",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1516",
+          "pid": "4024465",
+          "splits": [
+            "1.12,26",
+            "1.20,08"
           ]
         }
       ]

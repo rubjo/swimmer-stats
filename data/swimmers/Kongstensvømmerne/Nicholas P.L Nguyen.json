@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-11T23:14:28.322Z",
+  "timestamp": "2026-10-12T11:08:22.964Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "148",
-          "RA": "1617",
+          "RK": "152",
+          "RA": "1624",
           "pid": "4002948"
         },
         {
@@ -28,6 +28,27 @@
           "RK": "",
           "RA": "",
           "pid": "4022706",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,53",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987911"
+        },
+        {
+          "Tid": "49,97",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "3987905",
           "partOf": "100m Fri"
         }
       ]
@@ -41,9 +62,19 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "137",
-          "RA": "1269",
+          "RK": "139",
+          "RA": "1273",
           "pid": "4002908"
+        },
+        {
+          "Tid": "57,33",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987910"
         }
       ]
     },
@@ -56,8 +87,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "78",
-          "RA": "1210",
+          "RK": "80",
+          "RA": "1214",
           "pid": "4022002"
         }
       ]
@@ -71,12 +102,26 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "145",
-          "RA": "1476",
+          "RK": "148",
+          "RA": "1484",
           "pid": "4022705",
           "splits": [
             "43,25",
             "51,14"
+          ]
+        },
+        {
+          "Tid": "1.45,59",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987904",
+          "splits": [
+            "49,97",
+            "55,62"
           ]
         }
       ]
@@ -90,12 +135,66 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "68",
-          "RA": "608",
+          "RK": "69",
+          "RA": "610",
           "pid": "4022473",
           "splits": [
             "49,91",
             "53,26"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,71",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "780",
+          "pid": "3987909"
+        },
+        {
+          "Tid": "46,05",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987908"
+        },
+        {
+          "Tid": "51,03",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "3987902"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.53,51",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "957",
+          "pid": "3987906",
+          "splits": [
+            "53,85",
+            "59,66"
           ]
         }
       ]

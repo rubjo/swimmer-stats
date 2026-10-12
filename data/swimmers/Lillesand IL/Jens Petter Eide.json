@@ -4,7 +4,7 @@
   "club": "Lillesand IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-10-11T21:56:28.210Z",
+  "timestamp": "2026-10-12T10:36:59.830Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -16,8 +16,19 @@
           "Basseng": "50m",
           "D": "",
           "RK": "152",
-          "RA": "1162",
+          "RA": "1164",
           "pid": "3987887"
+        },
+        {
+          "Tid": "52,96",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "205",
+          "RA": "1951",
+          "pid": "4025013",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -31,8 +42,30 @@
           "Basseng": "25m",
           "D": "D",
           "RK": "178",
-          "RA": "1379",
+          "RA": "1383",
           "pid": "4006975",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "55,68",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4024304",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "59,47",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4024937",
           "partOf": "200m Individuell medley"
         }
       ]
@@ -47,13 +80,193 @@
           "Basseng": "25m",
           "D": "",
           "RK": "152",
-          "RA": "887",
+          "RA": "891",
           "pid": "4006974",
           "splits": [
             "53,80",
             "1.08,02",
             "1.17,64",
             "54,77"
+          ]
+        },
+        {
+          "Tid": "4.32,41",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4024936",
+          "splits": [
+            "59,47",
+            "1.10,42",
+            "1.24,95",
+            "57,57"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.11,12",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "187",
+          "RA": "1543",
+          "pid": "4024698",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,36",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "196",
+          "RA": "1693",
+          "pid": "4025014",
+          "splits": [
+            "52,96",
+            "1.01,40"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "2.06,00",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "972",
+          "pid": "4024303",
+          "splits": [
+            "55,68",
+            "1.10,32"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.33,77",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "170",
+          "RA": "1280",
+          "pid": "4024699",
+          "splits": [
+            "1.11,12",
+            "1.22,65"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.59,76",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "173",
+          "RA": "1292",
+          "pid": "4025015",
+          "splits": [
+            "52,96",
+            "1.01,40",
+            "1.02,04",
+            "1.03,36"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.20,03",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "865",
+          "pid": "4024661",
+          "splits": [
+            "59,73",
+            "1.08,46",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "5.17,39",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "918",
+          "pid": "4024697",
+          "splits": [
+            "1.11,12",
+            "1.22,65",
+            "1.24,05",
+            "1.19,57"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.57,06",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "1006",
+          "pid": "4025012",
+          "splits": [
+            "52,96",
+            "1.01,40",
+            "1.02,04",
+            "1.03,36",
+            "1.00,75",
+            "1.01,02",
+            "1.00,54",
+            "54,99"
           ]
         }
       ]
