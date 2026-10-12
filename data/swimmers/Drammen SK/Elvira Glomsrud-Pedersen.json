@@ -4,7 +4,7 @@
   "club": "Drammen SK",
   "birthYear": 2008,
   "gender": "female",
-  "timestamp": "2026-10-11T05:53:05.851Z",
+  "timestamp": "2026-10-11T22:34:42.873Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1292,6 +1292,27 @@
           "RK": "",
           "RA": "",
           "pid": "3995072"
+        },
+        {
+          "Tid": "31,32",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019636"
+        },
+        {
+          "Tid": "34,30",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019964",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -2474,9 +2495,19 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "39",
-          "RA": "448",
+          "RK": "40",
+          "RA": "456",
           "pid": "3994726"
+        },
+        {
+          "Tid": "37,17",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019411"
         }
       ]
     },
@@ -4031,6 +4062,20 @@
             "1.11,84"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.11,97",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4019963",
+          "splits": [
+            "34,30",
+            "37,67"
+          ]
         }
       ]
     },

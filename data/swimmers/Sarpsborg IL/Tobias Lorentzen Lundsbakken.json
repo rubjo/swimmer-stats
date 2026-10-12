@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-10T22:39:24.067Z",
+  "timestamp": "2026-10-11T23:20:04.706Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -26,8 +26,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "100",
-          "RA": "1447",
+          "RK": "",
+          "RA": "",
           "pid": "4002957"
         },
         {
@@ -40,6 +40,38 @@
           "RA": "",
           "pid": "4003126",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,90",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "84",
+          "RA": "1393",
+          "pid": "4022301"
+        },
+        {
+          "Tid": "41,24",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022768",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,78",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4023288",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -81,12 +113,77 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "102",
-          "RA": "1320",
+          "RK": "",
+          "RA": "",
           "pid": "4003125",
           "splits": [
             "42,08",
             "45,69"
+          ]
+        },
+        {
+          "Tid": "1.22,77",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "1207",
+          "pid": "4022767",
+          "splits": [
+            "41,24",
+            "41,53"
+          ]
+        },
+        {
+          "Tid": "1.30,27",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4023289",
+          "splits": [
+            "42,78",
+            "47,49"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "44,49",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "60",
+          "RA": "805",
+          "pid": "4022119"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.10,48",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "85",
+          "RA": "1033",
+          "pid": "4023287",
+          "splits": [
+            "42,78",
+            "47,49",
+            "47,05",
+            "53,16"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Øvre Eiker SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-07-02T08:04:51.672Z",
+  "timestamp": "2026-10-12T00:14:24.396Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -28,6 +28,27 @@
           "RK": "",
           "RA": "",
           "pid": "3844618"
+        },
+        {
+          "Tid": "40,18",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1507",
+          "pid": "4019589"
+        },
+        {
+          "Tid": "45,82",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019922",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -58,6 +79,25 @@
           "RK": "270",
           "RA": "1627",
           "pid": "3844544"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,42",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "259",
+          "RA": "1555",
+          "pid": "4019921",
+          "splits": [
+            "45,82",
+            "54,60"
+          ]
         }
       ]
     }

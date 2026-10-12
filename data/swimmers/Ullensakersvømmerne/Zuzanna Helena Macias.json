@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2009,
   "gender": "female",
-  "timestamp": "2026-10-11T06:27:26.506Z",
+  "timestamp": "2026-10-11T22:59:13.194Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -556,8 +556,8 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "48",
-          "RA": "242",
+          "RK": "50",
+          "RA": "249",
           "pid": "3991322"
         },
         {
@@ -1301,6 +1301,17 @@
           "RA": "",
           "pid": "3991418",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,65",
+          "Dato": "11.10.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4021827",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -3635,14 +3646,30 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "12",
-          "RA": "161",
+          "RK": "",
+          "RA": "",
           "pid": "3992038",
           "splits": [
             "33,30",
             "40,83",
             "51,44",
             "37,57"
+          ]
+        },
+        {
+          "Tid": "2.40,70",
+          "Dato": "11.10.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "11",
+          "RA": "133",
+          "pid": "4021826",
+          "splits": [
+            "32,65",
+            "40,69",
+            "50,86",
+            "36,50"
           ]
         }
       ]

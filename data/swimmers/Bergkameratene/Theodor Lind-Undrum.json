@@ -4,7 +4,7 @@
   "club": "Bergkameratene",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-06-27T09:56:05.209Z",
+  "timestamp": "2026-10-11T22:54:47.429Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -52,6 +52,17 @@
           "RA": "",
           "pid": "3739203",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "41,24",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "68",
+          "RA": "1637",
+          "pid": "4019861",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -87,6 +98,28 @@
           "RK": "",
           "RA": "",
           "pid": "3897432"
+        },
+        {
+          "Tid": "43,33",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "20",
+          "RA": "1135",
+          "pid": "4019666",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "45,41",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4020107",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -179,6 +212,20 @@
             "58,61"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.23,69",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "28",
+          "RA": "1231",
+          "pid": "4019860",
+          "splits": [
+            "41,24",
+            "42,45"
+          ]
         }
       ]
     },
@@ -457,6 +504,46 @@
             "1.01,43",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.34,97",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "7",
+          "RA": "759",
+          "pid": "4019665",
+          "splits": [
+            "43,33",
+            "51,64"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.26,99",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "753",
+          "pid": "4020106",
+          "splits": [
+            "45,41",
+            "53,88",
+            "1.01,39",
+            "46,31"
           ]
         }
       ]

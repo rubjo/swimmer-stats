@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-20T15:42:09.301Z",
+  "timestamp": "2026-10-11T21:54:50.743Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,27 @@
           "RK": "186",
           "RA": "1570",
           "pid": "3861573"
+        },
+        {
+          "Tid": "36,77",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "1381",
+          "pid": "4022314"
+        },
+        {
+          "Tid": "37,28",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022778",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -96,6 +117,27 @@
             ""
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "48,18",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "1030",
+          "pid": "4022213"
+        },
+        {
+          "Tid": "50,56",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022568",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -130,6 +172,20 @@
             "1.03,89"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.50,45",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4022567",
+          "splits": [
+            "50,56",
+            "59,89"
+          ]
         }
       ]
     },
@@ -150,6 +206,25 @@
             "1.03,89",
             "1.06,80",
             "1.07,62"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.20,21",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "1135",
+          "pid": "4022777",
+          "splits": [
+            "37,28",
+            "42,93"
           ]
         }
       ]

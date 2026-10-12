@@ -1,0 +1,75 @@
+{
+  "swimmerId": "45075",
+  "name": "Cornelia Bentzen Rieck",
+  "club": "Kongstensvømmerne",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-10-11T21:48:41.811Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "42,42",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1672",
+          "pid": "4022350"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "45,61",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "889",
+          "pid": "4022158"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,49",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "220",
+          "RA": "1471",
+          "pid": "4022640",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,13",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1244",
+          "pid": "4022639",
+          "splits": [
+            "55,49",
+            "1.02,64"
+          ]
+        }
+      ]
+    }
+  ]
+}

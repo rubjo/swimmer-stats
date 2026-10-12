@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-10-08T07:08:58.956Z",
+  "timestamp": "2026-10-11T23:48:28.241Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -763,8 +763,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "88",
-          "RA": "525",
+          "RK": "",
+          "RA": "",
           "pid": "4002947"
         },
         {
@@ -776,6 +776,27 @@
           "RK": "",
           "RA": "",
           "pid": "4003087",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "27,71",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "89",
+          "RA": "530",
+          "pid": "4022290"
+        },
+        {
+          "Tid": "29,78",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022712",
           "partOf": "100m Fri"
         }
       ]
@@ -1085,6 +1106,16 @@
           "RA": "",
           "pid": "3360298",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "29,73",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "397",
+          "pid": "4022004"
         }
       ]
     },
@@ -1926,6 +1957,20 @@
           "splits": [
             "28,75",
             "32,20"
+          ]
+        },
+        {
+          "Tid": "1.00,90",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4022711",
+          "splits": [
+            "29,78",
+            "31,12"
           ]
         }
       ]

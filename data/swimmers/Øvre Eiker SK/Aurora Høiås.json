@@ -4,7 +4,7 @@
   "club": "Øvre Eiker SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T06:10:04.319Z",
+  "timestamp": "2026-10-11T22:39:15.162Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -55,9 +55,30 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "169",
-          "RA": "1831",
+          "RK": "",
+          "RA": "",
           "pid": "3988697"
+        },
+        {
+          "Tid": "44,29",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1781",
+          "pid": "4019586"
+        },
+        {
+          "Tid": "47,67",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019920",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -90,9 +111,58 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "194",
-          "RA": "1644",
+          "RK": "195",
+          "RA": "1654",
           "pid": "3988645"
+        },
+        {
+          "Tid": "1.05,12",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019797",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,97",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "1563",
+          "pid": "4019919",
+          "splits": [
+            "47,67",
+            "53,30"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.20,71",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1489",
+          "pid": "4019796",
+          "splits": [
+            "1.05,12",
+            "1.15,59"
+          ]
         }
       ]
     }

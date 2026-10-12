@@ -4,7 +4,7 @@
   "club": "Bergkameratene",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-10-10T23:50:21.336Z",
+  "timestamp": "2026-10-12T00:03:11.350Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "247",
-          "RA": "1768",
+          "RK": "",
+          "RA": "",
           "pid": "3994575"
         },
         {
@@ -28,6 +28,27 @@
           "RK": "",
           "RA": "",
           "pid": "3994577",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,69",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "245",
+          "RA": "1713",
+          "pid": "4019534"
+        },
+        {
+          "Tid": "48,03",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4019872",
           "partOf": "100m Fri"
         }
       ]
@@ -41,9 +62,19 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "160",
-          "RA": "1099",
+          "RK": "",
+          "RA": "",
           "pid": "3994574"
+        },
+        {
+          "Tid": "55,83",
+          "Dato": "11.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1071",
+          "pid": "4019439"
         }
       ]
     },
@@ -56,12 +87,26 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "236",
-          "RA": "1579",
+          "RK": "",
+          "RA": "",
           "pid": "3994576",
           "splits": [
             "47,42",
             "54,71"
+          ]
+        },
+        {
+          "Tid": "1.40,86",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "1584",
+          "pid": "4019871",
+          "splits": [
+            "48,03",
+            "52,83"
           ]
         }
       ]

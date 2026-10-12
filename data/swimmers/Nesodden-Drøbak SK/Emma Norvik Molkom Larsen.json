@@ -4,7 +4,7 @@
   "club": "Nesodden-Drøbak SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T06:42:25.784Z",
+  "timestamp": "2026-10-11T23:05:08.941Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -46,9 +46,20 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "128",
-          "RA": "1632",
+          "RK": "131",
+          "RA": "1647",
           "pid": "4002981"
+        },
+        {
+          "Tid": "49,76",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4023804",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -71,8 +82,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "189",
-          "RA": "1630",
+          "RK": "190",
+          "RA": "1640",
           "pid": "4002922"
         }
       ]
@@ -107,6 +118,60 @@
           "splits": [
             "48,48",
             "52,50"
+          ]
+        },
+        {
+          "Tid": "1.38,38",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "127",
+          "RA": "1516",
+          "pid": "4022832",
+          "splits": [
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "1.46,69",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4023805",
+          "splits": [
+            "49,76",
+            "56,93"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.16,29",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "1050",
+          "pid": "4023803",
+          "splits": [
+            "49,76",
+            "56,93",
+            "57,62",
+            "",
+            "",
+            "",
+            "",
+            "50,61"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Lørenskog/Rælingen",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-10-11T05:10:16.046Z",
+  "timestamp": "2026-10-11T21:51:39.517Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,10 +15,31 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "301",
-          "RA": "2043",
+          "RK": "",
+          "RA": "",
           "pid": "4005280",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "49,99",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "298",
+          "RA": "2001",
+          "pid": "4022340"
+        },
+        {
+          "Tid": "55,35",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022861",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -31,14 +52,28 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "278",
-          "RA": "1740",
+          "RK": "",
+          "RA": "",
           "pid": "4005281",
           "splits": [
             "53,85",
             "1.05,74"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.55,99",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "279",
+          "RA": "1739",
+          "pid": "4022860",
+          "splits": [
+            "55,35",
+            "1.00,64"
+          ]
         }
       ]
     },
@@ -52,7 +87,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "235",
-          "RA": "1407",
+          "RA": "1424",
           "pid": "4005279",
           "splits": [
             "53,85",
@@ -60,6 +95,36 @@
             "1.08,74",
             "1.11,29"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.03,66",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "252",
+          "RA": "1548",
+          "pid": "4022064"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,91",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "280",
+          "RA": "1727",
+          "pid": "4022235"
         }
       ]
     }

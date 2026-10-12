@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-08T07:03:16.585Z",
+  "timestamp": "2026-10-11T23:14:28.322Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,20 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "145",
-          "RA": "1604",
+          "RK": "148",
+          "RA": "1617",
           "pid": "4002948"
+        },
+        {
+          "Tid": "43,25",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4022706",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,9 +41,62 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "1263",
+          "RK": "137",
+          "RA": "1269",
           "pid": "4002908"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "45,75",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "78",
+          "RA": "1210",
+          "pid": "4022002"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,39",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "1476",
+          "pid": "4022705",
+          "splits": [
+            "43,25",
+            "51,14"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.43,17",
+          "Dato": "11.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "608",
+          "pid": "4022473",
+          "splits": [
+            "49,91",
+            "53,26"
+          ]
         }
       ]
     }
