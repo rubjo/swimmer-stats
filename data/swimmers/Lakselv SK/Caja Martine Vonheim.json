@@ -4,7 +4,7 @@
   "club": "Lakselv SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-12T12:00:56.827Z",
+  "timestamp": "2026-10-18T18:12:55.257Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -210,6 +210,27 @@
           "RK": "",
           "RA": "",
           "pid": "3647990"
+        },
+        {
+          "Tid": "54,17",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4029288"
+        },
+        {
+          "Tid": "56,50",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029458",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -317,6 +338,39 @@
           "splits": [
             "1.01,22",
             "1.14,73"
+          ]
+        },
+        {
+          "Tid": "1.56,88",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "182",
+          "RA": "1229",
+          "pid": "4029457",
+          "splits": [
+            "56,50",
+            "1.00,38"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.55,76",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1224",
+          "pid": "4029622",
+          "splits": [
+            "56,45",
+            "59,31"
           ]
         }
       ]
