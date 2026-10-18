@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-16T04:31:46.686Z",
+  "timestamp": "2026-10-18T21:12:50.302Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "118",
-          "RA": "1836",
+          "RK": "121",
+          "RA": "1848",
           "pid": "4009138"
         }
       ]
@@ -30,9 +30,20 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "83",
-          "RA": "1363",
+          "RK": "85",
+          "RA": "1384",
           "pid": "4008969"
+        },
+        {
+          "Tid": "59,66",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027161",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -45,9 +56,50 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "90",
+          "RA": "1140",
           "pid": "4008835"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.10,67",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "98",
+          "RA": "1235",
+          "pid": "4027162",
+          "splits": [
+            "59,66",
+            "1.11,01"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.35,50",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "53",
+          "RA": "913",
+          "pid": "4027160",
+          "splits": [
+            "59,66",
+            "1.11,01",
+            "1.13,66",
+            "1.11,17"
+          ]
         }
       ]
     }

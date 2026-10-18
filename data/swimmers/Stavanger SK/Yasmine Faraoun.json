@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-10-16T04:32:08.890Z",
+  "timestamp": "2026-10-18T20:55:42.745Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,30 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "228",
-          "RA": "1483",
+          "RK": "",
+          "RA": "",
           "pid": "4009790",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,75",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1321",
+          "pid": "4026125"
+        },
+        {
+          "Tid": "40,65",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4026795",
           "partOf": "100m Fri"
         }
       ]
@@ -31,13 +52,57 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "225",
-          "RA": "1327",
+          "RK": "",
+          "RA": "",
           "pid": "4009789",
           "splits": [
             "39,79",
             "50,62"
           ]
+        },
+        {
+          "Tid": "1.28,70",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "214",
+          "RA": "1273",
+          "pid": "4026794",
+          "splits": [
+            "40,65",
+            "48,05"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "47,76",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1006",
+          "pid": "4025854"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,96",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "260",
+          "RA": "1512",
+          "pid": "4025986"
         }
       ]
     }

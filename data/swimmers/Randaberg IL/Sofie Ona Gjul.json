@@ -4,7 +4,7 @@
   "club": "Randaberg IL",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-16T04:38:08.454Z",
+  "timestamp": "2026-10-18T21:16:08.277Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Egersund",
           "Basseng": "25m",
           "D": "",
-          "RK": "86",
-          "RA": "1469",
+          "RK": "88",
+          "RA": "1482",
           "pid": "3997734"
         },
         {
@@ -28,6 +28,16 @@
           "RK": "",
           "RA": "",
           "pid": "4009223"
+        },
+        {
+          "Tid": "40,46",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4026165"
         }
       ]
     },
@@ -50,9 +60,19 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "78",
-          "RA": "1000",
+          "RK": "82",
+          "RA": "1017",
           "pid": "4008894"
+        },
+        {
+          "Tid": "49,20",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4025876"
         }
       ]
     },
@@ -76,8 +96,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "154",
-          "RA": "1529",
+          "RK": "165",
+          "RA": "1553",
           "pid": "4009046"
         }
       ]
@@ -91,12 +111,46 @@
           "Sted": "Egersund",
           "Basseng": "25m",
           "D": "",
-          "RK": "148",
-          "RA": "1351",
+          "RK": "152",
+          "RA": "1364",
           "pid": "3997917",
           "splits": [
             "57,74",
             "1.06,34"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,04",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "1233",
+          "pid": "4025759"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.42,02",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "85",
+          "RA": "1013",
+          "pid": "4026971",
+          "splits": [
+            "46,24",
+            "55,78"
           ]
         }
       ]

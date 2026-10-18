@@ -4,7 +4,7 @@
   "club": "Lakselv SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-10-16T04:28:19.843Z",
+  "timestamp": "2026-10-18T20:51:33.439Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Vardø",
           "Basseng": "25m",
           "D": "",
-          "RK": "124",
-          "RA": "821",
+          "RK": "",
+          "RA": "",
           "pid": "4018897"
         },
         {
@@ -49,6 +49,27 @@
           "RK": "",
           "RA": "",
           "pid": "4018896"
+        },
+        {
+          "Tid": "29,39",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "767",
+          "pid": "4029325"
+        },
+        {
+          "Tid": "34,27",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029762",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -61,12 +82,63 @@
           "Sted": "Vardø",
           "Basseng": "25m",
           "D": "",
-          "RK": "145",
-          "RA": "867",
+          "RK": "148",
+          "RA": "888",
           "pid": "4018898",
           "splits": [
             "33,80",
             "37,03"
+          ]
+        },
+        {
+          "Tid": "1.17,70",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029763",
+          "splits": [
+            "34,27",
+            "43,43"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "35,62",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "467",
+          "pid": "4029216"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "2.42,36",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "142",
+          "RA": "747",
+          "pid": "4029761",
+          "splits": [
+            "34,27",
+            "43,43",
+            "42,66",
+            "42,00"
           ]
         }
       ]

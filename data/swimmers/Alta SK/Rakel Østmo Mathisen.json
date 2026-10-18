@@ -4,7 +4,7 @@
   "club": "Alta SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-12T11:48:11.142Z",
+  "timestamp": "2026-10-18T21:58:50.344Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -61,6 +61,27 @@
           "RA": "",
           "pid": "3939713",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "50,39",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4029364"
+        },
+        {
+          "Tid": "50,98",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029598",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -109,6 +130,20 @@
             "55,88",
             "1.05,78"
           ]
+        },
+        {
+          "Tid": "1.53,33",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "199",
+          "RA": "1745",
+          "pid": "4029597",
+          "splits": [
+            "50,98",
+            "1.02,35"
+          ]
         }
       ]
     },
@@ -129,6 +164,75 @@
             "1.02,55",
             "1.07,79",
             "1.04,72"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.11,52",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1405",
+          "pid": "4029243"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.15,13",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "246",
+          "RA": "1840",
+          "pid": "4029485",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.24,34",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "180",
+          "RA": "1024",
+          "pid": "4029422",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.35,48",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "201",
+          "RA": "1544",
+          "pid": "4029484",
+          "splits": [
+            "1.15,13",
+            "1.20,35"
           ]
         }
       ]

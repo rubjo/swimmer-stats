@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-16T05:04:13.616Z",
+  "timestamp": "2026-10-18T21:44:46.978Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -15,10 +15,20 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
-          "RK": "178",
-          "RA": "1616",
+          "RK": "",
+          "RA": "",
           "pid": "4004602",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,37",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1581",
+          "pid": "4030262"
         }
       ]
     },
@@ -31,12 +41,31 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "1307",
+          "RK": "140",
+          "RA": "1318",
           "pid": "4004601",
           "splits": [
             "58,65",
             "1.02,66"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.10,00",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "992",
+          "pid": "4030385",
+          "splits": [
+            "",
+            ""
           ]
         }
       ]

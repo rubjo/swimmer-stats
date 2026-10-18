@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-16T04:18:51.168Z",
+  "timestamp": "2026-10-18T20:59:10.244Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -59,6 +59,27 @@
           "RA": "",
           "pid": "4016660",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "46,79",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1865",
+          "pid": "4031863"
+        },
+        {
+          "Tid": "56,09",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032418",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -101,8 +122,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "148",
-          "RA": "1313",
+          "RK": "",
+          "RA": "",
           "pid": "3996776"
         },
         {
@@ -125,6 +146,27 @@
           "RK": "",
           "RA": "",
           "pid": "4016565",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,63",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "1190",
+          "pid": "4031785"
+        },
+        {
+          "Tid": "53,03",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032021",
           "partOf": "100m Bryst"
         }
       ]
@@ -159,6 +201,20 @@
             "57,28",
             "1.03,08"
           ]
+        },
+        {
+          "Tid": "1.53,06",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "1023",
+          "pid": "4032020",
+          "splits": [
+            "53,03",
+            "1.00,03"
+          ]
         }
       ]
     },
@@ -171,12 +227,48 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "201",
-          "RA": "1702",
+          "RK": "203",
+          "RA": "1719",
           "pid": "4016659",
           "splits": [
             "51,78",
             "1.03,45"
+          ]
+        },
+        {
+          "Tid": "2.04,50",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032419",
+          "splits": [
+            "56,09",
+            "1.08,41"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.19,09",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1337",
+          "pid": "4032417",
+          "splits": [
+            "56,09",
+            "1.08,41",
+            "1.05,57",
+            "1.09,02"
           ]
         }
       ]

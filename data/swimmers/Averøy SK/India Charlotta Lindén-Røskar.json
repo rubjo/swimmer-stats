@@ -4,7 +4,7 @@
   "club": "Averøy SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-16T05:21:55.028Z",
+  "timestamp": "2026-10-18T21:50:04.434Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -48,6 +48,27 @@
           "RK": "",
           "RA": "",
           "pid": "3645690"
+        },
+        {
+          "Tid": "37,45",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "1286",
+          "pid": "4031917"
+        },
+        {
+          "Tid": "41,52",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032152",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -152,8 +173,8 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "115",
-          "RA": "1069",
+          "RK": "124",
+          "RA": "1091",
           "pid": "4017503"
         },
         {
@@ -166,6 +187,38 @@
           "RA": "",
           "pid": "4017723",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,86",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4031835"
+        },
+        {
+          "Tid": "50,66",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032053",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,60",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032334",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -221,13 +274,42 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "111",
-          "RA": "923",
+          "RK": "",
+          "RA": "",
           "pid": "4017722",
           "splits": [
             "50,05",
             "56,78"
           ]
+        },
+        {
+          "Tid": "1.46,29",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "108",
+          "RA": "911",
+          "pid": "4032052",
+          "splits": [
+            "50,66",
+            "55,63"
+          ]
+        },
+        {
+          "Tid": "1.51,51",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032335",
+          "splits": [
+            "51,60",
+            "59,91"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -248,6 +330,41 @@
             "1.00,50",
             "1.02,49",
             "59,74"
+          ]
+        },
+        {
+          "Tid": "3.49,86",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "118",
+          "RA": "819",
+          "pid": "4032333",
+          "splits": [
+            "51,60",
+            "59,91",
+            "1.00,33",
+            "58,02"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,23",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1232",
+          "pid": "4032151",
+          "splits": [
+            "41,52",
+            "45,71"
           ]
         }
       ]

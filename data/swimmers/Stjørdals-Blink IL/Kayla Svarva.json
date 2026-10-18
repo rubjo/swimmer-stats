@@ -1,0 +1,70 @@
+{
+  "swimmerId": "56399",
+  "name": "Kayla Svarva",
+  "club": "Stjørdals-Blink IL",
+  "birthYear": 2013,
+  "gender": "female",
+  "timestamp": "2026-10-18T20:30:12.943Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,24",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "188",
+          "RA": "1128",
+          "pid": "4028172"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "50,94",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "303",
+          "RA": "2046",
+          "pid": "4028297"
+        },
+        {
+          "Tid": "52,84",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4028524",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.52,24",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "280",
+          "RA": "1739",
+          "pid": "4028523",
+          "splits": [
+            "52,84",
+            "59,40"
+          ]
+        }
+      ]
+    }
+  ]
+}

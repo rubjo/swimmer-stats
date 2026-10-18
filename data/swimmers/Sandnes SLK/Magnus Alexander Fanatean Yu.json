@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-16T04:31:53.937Z",
+  "timestamp": "2026-10-18T21:44:24.988Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,41 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "125",
-          "RA": "1549",
+          "RK": "",
+          "RA": "",
           "pid": "4009112"
+        },
+        {
+          "Tid": "39,06",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "1540",
+          "pid": "4026083"
+        },
+        {
+          "Tid": "42,31",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4026640",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,48",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027254",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -30,12 +62,142 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "87",
+          "RA": "905",
           "pid": "4009906",
           "splits": [
             "47,25",
             "55,78"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,22",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "995",
+          "pid": "4025805"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,12",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "1388",
+          "pid": "4025687"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,21",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1339",
+          "pid": "4025934"
+        },
+        {
+          "Tid": "1.00,29",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4026416",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.29,02",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "118",
+          "RA": "1390",
+          "pid": "4026639",
+          "splits": [
+            "42,31",
+            "46,71"
+          ]
+        },
+        {
+          "Tid": "1.32,81",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027255",
+          "splits": [
+            "42,48",
+            "50,33"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,68",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1212",
+          "pid": "4026415",
+          "splits": [
+            "1.00,29",
+            "1.07,39"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.11,99",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "1058",
+          "pid": "4027253",
+          "splits": [
+            "42,48",
+            "50,33",
+            "52,32",
+            "46,86"
           ]
         }
       ]

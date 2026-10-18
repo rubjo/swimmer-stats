@@ -4,7 +4,7 @@
   "club": "Vadsø SK",
   "birthYear": 2007,
   "gender": "male",
-  "timestamp": "2026-10-16T04:24:32.078Z",
+  "timestamp": "2026-10-18T21:32:23.870Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1612,9 +1612,30 @@
           "Sted": "Vardø",
           "Basseng": "25m",
           "D": "",
-          "RK": "148",
-          "RA": "327",
+          "RK": "",
+          "RA": "",
           "pid": "3999403"
+        },
+        {
+          "Tid": "26,29",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "143",
+          "RA": "313",
+          "pid": "4029331"
+        },
+        {
+          "Tid": "27,68",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029542",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -2846,6 +2867,27 @@
           "RA": "",
           "pid": "3999457",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "28,87",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4029185"
+        },
+        {
+          "Tid": "29,86",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029382",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -2948,8 +2990,8 @@
           "Sted": "Vardø",
           "Basseng": "25m",
           "D": "F",
-          "RK": "",
-          "RA": "",
+          "RK": "88",
+          "RA": "280",
           "pid": "4000044"
         }
       ]
@@ -4569,6 +4611,20 @@
             "31,65"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "57,99",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "246",
+          "pid": "4029541",
+          "splits": [
+            "27,68",
+            "30,31"
+          ]
         }
       ]
     },
@@ -5182,6 +5238,20 @@
           "splits": [
             "29,84",
             "34,10"
+          ]
+        },
+        {
+          "Tid": "1.04,50",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4029381",
+          "splits": [
+            "29,86",
+            "34,64"
           ]
         }
       ]

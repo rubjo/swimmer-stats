@@ -1,0 +1,60 @@
+{
+  "swimmerId": "55482",
+  "name": "Andrea Serine Borgenvik",
+  "club": "Stavanger SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-10-18T20:26:01.574Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "48,88",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "1073",
+          "pid": "4025855"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.00,60",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "204",
+          "RA": "1680",
+          "pid": "4026510",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.08,84",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1423",
+          "pid": "4026509",
+          "splits": [
+            "1.00,60",
+            "1.08,24"
+          ]
+        }
+      ]
+    }
+  ]
+}

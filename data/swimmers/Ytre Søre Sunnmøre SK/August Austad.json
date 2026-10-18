@@ -4,7 +4,7 @@
   "club": "Ytre Søre Sunnmøre SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-16T04:05:29.993Z",
+  "timestamp": "2026-10-18T21:09:59.738Z",
   "disciplines": [
     {
       "distanse": "50m Rygg",
@@ -64,9 +64,20 @@
           "Sted": "Ålesund",
           "Basseng": "25m",
           "D": "",
-          "RK": "108",
-          "RA": "1193",
+          "RK": "115",
+          "RA": "1217",
           "pid": "4000156"
+        },
+        {
+          "Tid": "52,91",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032267",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -104,10 +115,20 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "D",
-          "RK": "190",
-          "RA": "1778",
+          "RK": "",
+          "RA": "",
           "pid": "4013014",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,03",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "1656",
+          "pid": "4031870"
         }
       ]
     },
@@ -150,8 +171,8 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "134",
-          "RA": "1447",
+          "RK": "138",
+          "RA": "1463",
           "pid": "4013013",
           "splits": [
             "44,12",
@@ -195,6 +216,21 @@
             "58,42",
             "1.06,35"
           ]
+        },
+        {
+          "Tid": "1.53,91",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "111",
+          "RA": "1038",
+          "pid": "4032268",
+          "splits": [
+            "52,91",
+            "1.01,00"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -242,8 +278,8 @@
           "Sted": "Ålesund",
           "Basseng": "25m",
           "D": "D",
-          "RK": "125",
-          "RA": "1161",
+          "RK": "134",
+          "RA": "1179",
           "pid": "4000756",
           "splits": [
             "46,05",
@@ -264,8 +300,8 @@
           "Sted": "Ålesund",
           "Basseng": "25m",
           "D": "",
-          "RK": "107",
-          "RA": "818",
+          "RK": "113",
+          "RA": "841",
           "pid": "4000519",
           "splits": [
             "",
@@ -285,8 +321,8 @@
           "Sted": "Ålesund",
           "Basseng": "25m",
           "D": "",
-          "RK": "103",
-          "RA": "921",
+          "RK": "108",
+          "RA": "936",
           "pid": "4000753",
           "splits": [
             "46,05",
@@ -297,6 +333,64 @@
             "54,55",
             "53,47",
             "49,58"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,26",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "130",
+          "RA": "1390",
+          "pid": "4032514",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.46,75",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "103",
+          "RA": "857",
+          "pid": "4032513",
+          "splits": [
+            "53,26",
+            "1.01,64",
+            "59,78",
+            "52,07"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.54,95",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "88",
+          "RA": "786",
+          "pid": "4032266",
+          "splits": [
+            "52,91",
+            "1.01,00",
+            "1.00,39",
+            "1.00,65"
           ]
         }
       ]

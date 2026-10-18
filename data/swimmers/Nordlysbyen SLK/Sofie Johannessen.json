@@ -4,7 +4,7 @@
   "club": "Nordlysbyen SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-12T11:18:38.370Z",
+  "timestamp": "2026-10-18T21:21:54.118Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -372,6 +372,27 @@
           "RA": "",
           "pid": "3527717",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "35,50",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4029347"
+        },
+        {
+          "Tid": "37,45",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029569",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -498,6 +519,27 @@
           "RK": "",
           "RA": "",
           "pid": "3560057"
+        },
+        {
+          "Tid": "43,10",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "84",
+          "RA": "1004",
+          "pid": "4029194"
+        },
+        {
+          "Tid": "46,48",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4029389",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -1032,6 +1074,20 @@
             "1.01,65"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.20,47",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "84",
+          "RA": "971",
+          "pid": "4029568",
+          "splits": [
+            "37,45",
+            "43,02"
+          ]
         }
       ]
     },
@@ -1415,6 +1471,46 @@
             "1.01,13",
             "1.01,55",
             "56,14"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.45,02",
+          "Dato": "18.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "85",
+          "RA": "794",
+          "pid": "4029388",
+          "splits": [
+            "46,48",
+            "58,54"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.25,97",
+          "Dato": "17.10.2026",
+          "Sted": "Hammerfest",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "112",
+          "RA": "774",
+          "pid": "4029653",
+          "splits": [
+            "47,81",
+            "54,04",
+            "54,63",
+            "49,49"
           ]
         }
       ]

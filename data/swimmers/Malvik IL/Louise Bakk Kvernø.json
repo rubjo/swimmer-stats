@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-10-16T05:15:08.414Z",
+  "timestamp": "2026-10-18T21:39:18.365Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -88,8 +88,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "233",
-          "RA": "1500",
+          "RK": "",
+          "RA": "",
           "pid": "3996913"
         },
         {
@@ -101,6 +101,27 @@
           "RK": "",
           "RA": "",
           "pid": "3997133",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,87",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "1505",
+          "pid": "4031898"
+        },
+        {
+          "Tid": "44,88",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032136",
           "partOf": "100m Fri"
         }
       ]
@@ -163,6 +184,20 @@
             "43,39",
             "52,12"
           ]
+        },
+        {
+          "Tid": "1.34,52",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4032135",
+          "splits": [
+            "44,88",
+            "49,64"
+          ]
         }
       ]
     },
@@ -175,9 +210,19 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "224",
-          "RA": "1346",
+          "RK": "225",
+          "RA": "1361",
           "pid": "3996722"
+        },
+        {
+          "Tid": "52,64",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4031713"
         }
       ]
     }

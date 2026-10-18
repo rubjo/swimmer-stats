@@ -4,7 +4,7 @@
   "club": "Åstveit SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-16T05:22:15.762Z",
+  "timestamp": "2026-10-18T20:30:51.411Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -26,8 +26,8 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "137",
-          "RA": "1358",
+          "RK": "142",
+          "RA": "1372",
           "pid": "3989281"
         }
       ]
@@ -51,8 +51,8 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "153",
-          "RA": "1074",
+          "RK": "160",
+          "RA": "1094",
           "pid": "3989088"
         },
         {
@@ -144,6 +144,40 @@
             "1.00,36",
             "1.00,43",
             "57,95"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,00",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "1073",
+          "pid": "4030181"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.50,08",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "851",
+          "pid": "4030336",
+          "splits": [
+            "53,08",
+            "57,00"
           ]
         }
       ]

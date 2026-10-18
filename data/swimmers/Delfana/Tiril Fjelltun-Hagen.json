@@ -4,7 +4,7 @@
   "club": "Delfana",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-16T04:11:07.580Z",
+  "timestamp": "2026-10-18T21:01:02.871Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "194",
-          "RA": "1920",
+          "RK": "",
+          "RA": "",
           "pid": "3989333"
         },
         {
@@ -29,6 +29,27 @@
           "RA": "",
           "pid": "3990694",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "41,03",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "116",
+          "RA": "1608",
+          "pid": "4031643"
+        },
+        {
+          "Tid": "49,25",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4030556",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -41,8 +62,8 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "150",
-          "RA": "1277",
+          "RK": "158",
+          "RA": "1301",
           "pid": "3989127"
         }
       ]
@@ -56,10 +77,20 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
-          "RK": "227",
-          "RA": "1775",
+          "RK": "",
+          "RA": "",
           "pid": "3989846",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.02,98",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1744",
+          "pid": "4030232"
         }
       ]
     },
@@ -72,14 +103,28 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
-          "RK": "210",
-          "RA": "1785",
+          "RK": "",
+          "RA": "",
           "pid": "3990695",
           "splits": [
             "55,96",
             "1.05,54"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.41,05",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "1589",
+          "pid": "4030555",
+          "splits": [
+            "49,25",
+            "51,80"
+          ]
         }
       ]
     },
@@ -92,8 +137,8 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "191",
-          "RA": "1503",
+          "RK": "195",
+          "RA": "1520",
           "pid": "3989845",
           "splits": [
             "1.08,51",
@@ -111,14 +156,67 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "173",
+          "RA": "1436",
           "pid": "3990693",
           "splits": [
             "55,96",
             "1.05,54",
             "1.11,32",
             "1.00,18"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,11",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "157",
+          "RA": "1521",
+          "pid": "4030060"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.00,99",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1262",
+          "pid": "4030693",
+          "splits": [
+            "59,65",
+            "1.01,34"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.02,17",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "152",
+          "RA": "953",
+          "pid": "4030366",
+          "splits": [
+            "1.02,56",
+            "59,61"
           ]
         }
       ]

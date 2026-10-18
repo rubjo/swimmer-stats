@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-16T05:00:11.550Z",
+  "timestamp": "2026-10-18T22:09:28.493Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -16,8 +16,30 @@
           "Basseng": "25m",
           "D": "",
           "RK": "44",
-          "RA": "1489",
+          "RA": "1503",
           "pid": "4009116"
+        },
+        {
+          "Tid": "40,31",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027245",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,94",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4026652",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,9 +52,94 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "52",
-          "RA": "1255",
+          "RK": "55",
+          "RA": "1282",
           "pid": "4008953"
+        },
+        {
+          "Tid": "57,04",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4026422",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,78",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "50",
+          "RA": "1386",
+          "pid": "4026651",
+          "splits": [
+            "40,94",
+            "47,84"
+          ]
+        },
+        {
+          "Tid": "1.31,12",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027246",
+          "splits": [
+            "40,31",
+            "50,81"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,32",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "53",
+          "RA": "1076",
+          "pid": "4026421",
+          "splits": [
+            "57,04",
+            "59,28"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.12,75",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "1068",
+          "pid": "4027244",
+          "splits": [
+            "40,31",
+            "50,81",
+            "51,48",
+            "50,15"
+          ]
         }
       ]
     }

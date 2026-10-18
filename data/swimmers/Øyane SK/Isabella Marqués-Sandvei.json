@@ -4,7 +4,7 @@
   "club": "Øyane SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-12T10:59:22.677Z",
+  "timestamp": "2026-10-18T21:52:08.519Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -19,6 +19,17 @@
           "RA": "1920",
           "pid": "3859409",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "49,93",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4030509",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -39,6 +50,20 @@
             "57,80"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.50,42",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4030508",
+          "splits": [
+            "49,93",
+            "1.00,49"
+          ]
         }
       ]
     },
@@ -60,6 +85,21 @@
             "1.02,05",
             "1.15,28"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "48,67",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "1053",
+          "pid": "4030189"
         }
       ]
     }

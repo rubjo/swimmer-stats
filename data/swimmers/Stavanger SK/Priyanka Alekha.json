@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-16T04:04:16.602Z",
+  "timestamp": "2026-10-18T20:30:29.665Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,19 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "173",
-          "RA": "1849",
+          "RK": "",
+          "RA": "",
           "pid": "4009192"
+        },
+        {
+          "Tid": "44,50",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1818",
+          "pid": "4026128"
         }
       ]
     },
@@ -30,8 +40,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "136",
-          "RA": "1449",
+          "RK": "139",
+          "RA": "1462",
           "pid": "4008748"
         }
       ]
@@ -45,8 +55,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "183",
-          "RA": "1632",
+          "RK": "193",
+          "RA": "1656",
           "pid": "4009014"
         }
       ]
@@ -60,13 +70,28 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "151",
-          "RA": "1212",
+          "RK": "159",
+          "RA": "1253",
           "pid": "4009943",
           "splits": [
             "57,32",
             "1.00,82"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "55,04",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "153",
+          "RA": "1264",
+          "pid": "4025856"
         }
       ]
     }

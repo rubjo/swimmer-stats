@@ -4,7 +4,7 @@
   "club": "Sykkylven IL",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-10-16T05:10:39.644Z",
+  "timestamp": "2026-10-18T21:38:20.605Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -196,6 +196,38 @@
           "RA": "",
           "pid": "4018013",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "34,89",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4031873"
+        },
+        {
+          "Tid": "37,02",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032122",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,21",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032391",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -288,9 +320,19 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "112",
-          "RA": "1139",
+          "RK": "114",
+          "RA": "1155",
           "pid": "4017381"
+        },
+        {
+          "Tid": "43,98",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4031697"
         }
       ]
     },
@@ -486,6 +528,35 @@
             "44,95"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.16,90",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4032121",
+          "splits": [
+            "37,02",
+            "39,88"
+          ]
+        },
+        {
+          "Tid": "1.22,20",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4032392",
+          "splits": [
+            "38,21",
+            "43,99"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -550,14 +621,30 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "99",
-          "RA": "880",
+          "RK": "",
+          "RA": "",
           "pid": "4018012",
           "splits": [
             "38,84",
             "44,95",
             "46,37",
             "45,03"
+          ]
+        },
+        {
+          "Tid": "2.52,29",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "855",
+          "pid": "4032390",
+          "splits": [
+            "38,21",
+            "43,99",
+            "45,68",
+            "44,41"
           ]
         }
       ]

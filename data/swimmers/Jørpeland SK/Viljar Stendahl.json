@@ -4,7 +4,7 @@
   "club": "Jørpeland SK",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-10-12T12:28:49.781Z",
+  "timestamp": "2026-10-18T22:26:18.339Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -216,6 +216,16 @@
           "RA": "",
           "pid": "3261559",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "28,45",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "635",
+          "pid": "4026054"
         }
       ]
     },
@@ -301,6 +311,17 @@
           "RK": "160",
           "RA": "1204",
           "pid": "3339703"
+        },
+        {
+          "Tid": "32,96",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "125",
+          "RA": "670",
+          "pid": "4026214",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -758,6 +779,25 @@
             "44,24",
             "44,93",
             "42,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.16,27",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "459",
+          "pid": "4026213",
+          "splits": [
+            "32,96",
+            "43,31"
           ]
         }
       ]

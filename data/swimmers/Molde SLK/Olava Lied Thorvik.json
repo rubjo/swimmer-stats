@@ -4,7 +4,7 @@
   "club": "Molde SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-16T00:43:19.621Z",
+  "timestamp": "2026-10-18T22:29:43.701Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -40,6 +40,17 @@
           "RA": "",
           "pid": "4017809",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,32",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "252",
+          "RA": "2092",
+          "pid": "4032146",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -66,12 +77,26 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "200",
-          "RA": "1755",
+          "RK": "",
+          "RA": "",
           "pid": "4017808",
           "splits": [
             "54,52",
             "1.01,83"
+          ]
+        },
+        {
+          "Tid": "1.51,51",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "1735",
+          "pid": "4032145",
+          "splits": [
+            "53,32",
+            "58,19"
           ]
         }
       ]
@@ -85,8 +110,8 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "186",
-          "RA": "1636",
+          "RK": "196",
+          "RA": "1660",
           "pid": "4017489"
         }
       ]

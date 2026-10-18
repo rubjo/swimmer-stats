@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-16T00:51:35.455Z",
+  "timestamp": "2026-10-18T23:11:27.057Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -48,8 +48,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "148",
-          "RA": "1766",
+          "RK": "153",
+          "RA": "1779",
           "pid": "4010761",
           "partOf": "400m Fri"
         }
@@ -77,6 +77,17 @@
           "RK": "",
           "RA": "",
           "pid": "3865443"
+        },
+        {
+          "Tid": "55,49",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027532",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -228,8 +239,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "124",
-          "RA": "1505",
+          "RK": "126",
+          "RA": "1519",
           "pid": "4010762",
           "splits": [
             "43,87",
@@ -323,8 +334,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "147",
-          "RA": "1347",
+          "RK": "151",
+          "RA": "1360",
           "pid": "4010144",
           "splits": [
             "57,36",
@@ -375,8 +386,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "92",
+          "RA": "1195",
           "pid": "4010763",
           "splits": [
             "43,87",
@@ -397,8 +408,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "89",
-          "RA": "1053",
+          "RK": "95",
+          "RA": "1064",
           "pid": "4010142",
           "splits": [
             "57,36",
@@ -418,8 +429,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "44",
-          "RA": "953",
+          "RK": "50",
+          "RA": "968",
           "pid": "4010760",
           "splits": [
             "43,87",
@@ -430,6 +441,48 @@
             "52,76",
             "52,61",
             "46,27"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.31,35",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "822",
+          "pid": "4027060",
+          "splits": [
+            "50,57",
+            "55,50",
+            "55,29",
+            "49,99"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.01,35",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "1051",
+          "pid": "4027531",
+          "splits": [
+            "55,49",
+            "59,49",
+            "1.09,17",
+            "57,20"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-10-16T04:30:28.628Z",
+  "timestamp": "2026-10-18T21:05:41.695Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,30 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "176",
-          "RA": "1537",
+          "RK": "",
+          "RA": "",
           "pid": "4009667",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,83",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "1406",
+          "pid": "4026082"
+        },
+        {
+          "Tid": "38,74",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4026646",
           "partOf": "100m Fri"
         }
       ]
@@ -31,12 +52,112 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "155",
-          "RA": "1291",
+          "RK": "",
+          "RA": "",
           "pid": "4009666",
           "splits": [
             "39,22",
             "46,14"
+          ]
+        },
+        {
+          "Tid": "1.23,59",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1256",
+          "pid": "4026645",
+          "splits": [
+            "38,74",
+            "44,85"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,37",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "1104",
+          "pid": "4025935"
+        },
+        {
+          "Tid": "52,21",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4027104",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.40,73",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "120",
+          "RA": "886",
+          "pid": "4026906",
+          "splits": [
+            "51,15",
+            "49,58"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,53",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "142",
+          "RA": "1032",
+          "pid": "4027105",
+          "splits": [
+            "52,21",
+            "1.01,32"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.58,35",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "803",
+          "pid": "4027103",
+          "splits": [
+            "52,21",
+            "1.01,32",
+            "1.03,41",
+            "1.01,41"
           ]
         }
       ]

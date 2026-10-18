@@ -4,7 +4,7 @@
   "club": "Bergens SC",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-07-01T02:28:31.963Z",
+  "timestamp": "2026-10-18T22:36:13.477Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -30,6 +30,17 @@
           "RA": "",
           "pid": "3671434",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "45,58",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "180",
+          "RA": "1864",
+          "pid": "4031532",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -77,6 +88,123 @@
           "splits": [
             "48,53",
             "58,59"
+          ]
+        },
+        {
+          "Tid": "1.39,24",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "138",
+          "RA": "1558",
+          "pid": "4031533",
+          "splits": [
+            "45,58",
+            "53,66"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "51,46",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "1354",
+          "pid": "4030070"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.45,43",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "108",
+          "RA": "1091",
+          "pid": "4030695",
+          "splits": [
+            "49,32",
+            "56,11"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.32,53",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "118",
+          "RA": "1277",
+          "pid": "4031534",
+          "splits": [
+            "45,58",
+            "53,66",
+            "56,90",
+            "56,39"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.38,04",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "882",
+          "pid": "4030813",
+          "splits": [
+            "50,39",
+            "56,78",
+            "57,43",
+            "53,44"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.07,24",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "1049",
+          "pid": "4031531",
+          "splits": [
+            "45,58",
+            "53,66",
+            "56,90",
+            "56,39",
+            "55,62",
+            "55,59",
+            "53,95",
+            "49,55"
           ]
         }
       ]
