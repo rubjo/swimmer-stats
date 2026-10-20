@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2008,
   "gender": "male",
-  "timestamp": "2026-10-18T22:05:59.021Z",
+  "timestamp": "2026-10-19T23:35:39.642Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -475,8 +475,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "26",
-          "RA": "222",
+          "RK": "",
+          "RA": "",
           "pid": "4001516"
         }
       ]
@@ -1624,8 +1624,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "14",
-          "RA": "93",
+          "RK": "15",
+          "RA": "97",
           "pid": "4001352"
         },
         {
@@ -1637,6 +1637,27 @@
           "RK": "",
           "RA": "",
           "pid": "4001904",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "31,83",
+          "Dato": "17.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4033112"
+        },
+        {
+          "Tid": "32,38",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4033887",
           "partOf": "100m Bryst"
         }
       ]
@@ -2384,7 +2405,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "24",
-          "RA": "142",
+          "RA": "155",
           "pid": "3987704",
           "splits": [
             "31,29",
@@ -3108,12 +3129,26 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "13",
-          "RA": "78",
+          "RK": "",
+          "RA": "",
           "pid": "4001903",
           "splits": [
             "32,69",
             "37,35"
+          ]
+        },
+        {
+          "Tid": "1.09,50",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "12",
+          "RA": "79",
+          "pid": "4033886",
+          "splits": [
+            "32,38",
+            "37,12"
           ]
         }
       ]

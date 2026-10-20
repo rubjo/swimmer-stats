@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-10-19T08:43:20.478Z",
+  "timestamp": "2026-10-19T23:53:32.945Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -654,8 +654,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "1",
-          "RA": "15",
+          "RK": "",
+          "RA": "",
           "pid": "3987128"
         }
       ]
@@ -1867,9 +1867,51 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "1",
-          "RA": "11",
+          "RK": "",
+          "RA": "",
           "pid": "3986880"
+        },
+        {
+          "Tid": "28,09",
+          "Dato": "17.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "9",
+          "pid": "4033130"
+        },
+        {
+          "Tid": "28,19",
+          "Dato": "17.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4033125"
+        },
+        {
+          "Tid": "28,86",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4033912",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "28,92",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4033910",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -2743,6 +2785,34 @@
             "39,25"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.01,24",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "5",
+          "pid": "4033909",
+          "splits": [
+            "28,92",
+            "32,32"
+          ]
+        },
+        {
+          "Tid": "1.02,60",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4033911",
+          "splits": [
+            "28,86",
+            "33,74"
+          ]
         }
       ]
     },

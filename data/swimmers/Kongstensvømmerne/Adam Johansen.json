@@ -4,7 +4,7 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-10-19T09:05:26.915Z",
+  "timestamp": "2026-10-19T23:41:13.618Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -912,8 +912,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "17",
-          "RA": "123",
+          "RK": "",
+          "RA": "",
           "pid": "4022291"
         }
       ]
@@ -3076,7 +3076,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "1",
-          "RA": "14",
+          "RA": "15",
           "pid": "4022184"
         },
         {
@@ -3088,6 +3088,28 @@
           "RK": "",
           "RA": "",
           "pid": "4022541",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "29,18",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4033877",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "29,29",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4033879",
           "partOf": "100m Bryst"
         }
       ]
@@ -4474,8 +4496,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "4",
-          "RA": "17",
+          "RK": "5",
+          "RA": "21",
           "pid": "4022940",
           "splits": [
             "28,55",
@@ -5933,12 +5955,40 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "1",
-          "RA": "6",
+          "RK": "",
+          "RA": "",
           "pid": "4022540",
           "splits": [
             "29,37",
             "32,61"
+          ]
+        },
+        {
+          "Tid": "1.01,85",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "8",
+          "pid": "4033876",
+          "splits": [
+            "29,18",
+            "32,67"
+          ]
+        },
+        {
+          "Tid": "1.02,41",
+          "Dato": "18.10.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4033878",
+          "splits": [
+            "29,29",
+            "33,12"
           ]
         }
       ]
