@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-10-25T06:33:12.153Z",
+  "timestamp": "2026-10-25T23:19:04.237Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -370,6 +370,16 @@
           "RA": "",
           "pid": "3992314",
           "partOf": "800m Fri"
+        },
+        {
+          "Tid": "29,76",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "92",
+          "RA": "840",
+          "pid": "4040714"
         }
       ]
     },
@@ -569,6 +579,28 @@
           "RA": "",
           "pid": "4021824",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "35,44",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4040957",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "36,64",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4043387",
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -1071,7 +1103,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "127",
-          "RA": "889",
+          "RA": "895",
           "pid": "3991668",
           "splits": [
             "33,69",
@@ -1189,8 +1221,8 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "75",
-          "RA": "533",
+          "RK": "",
+          "RA": "",
           "pid": "3991390",
           "splits": [
             "34,57",
@@ -1210,6 +1242,35 @@
             "36,39",
             "48,97"
           ]
+        },
+        {
+          "Tid": "1.17,92",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "67",
+          "RA": "504",
+          "pid": "4040956",
+          "splits": [
+            "35,44",
+            "42,48"
+          ]
+        },
+        {
+          "Tid": "1.24,26",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4043388",
+          "splits": [
+            "36,64",
+            "47,62"
+          ],
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -1875,8 +1936,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "71",
+          "RA": "403",
           "pid": "4021823",
           "splits": [
             "34,54",
@@ -2305,8 +2366,8 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "43",
-          "RA": "232",
+          "RK": "44",
+          "RA": "237",
           "pid": "3992313",
           "splits": [
             "37,87",
@@ -2325,6 +2386,31 @@
             "43,58",
             "42,31",
             "39,09"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Individuell medley",
+      "races": [
+        {
+          "Tid": "5.58,55",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "29",
+          "RA": "163",
+          "pid": "4043386",
+          "splits": [
+            "36,64",
+            "47,62",
+            "44,80",
+            "42,80",
+            "53,89",
+            "54,34",
+            "40,37",
+            "38,09"
           ]
         }
       ]

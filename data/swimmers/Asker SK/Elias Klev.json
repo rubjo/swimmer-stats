@@ -4,7 +4,7 @@
   "club": "Asker SK",
   "birthYear": 2006,
   "gender": "male",
-  "timestamp": "2026-10-22T22:55:22.900Z",
+  "timestamp": "2026-10-25T21:43:34.606Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1525,8 +1525,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "F",
-          "RK": "3",
-          "RA": "4",
+          "RK": "8",
+          "RA": "9",
           "pid": "4036201"
         },
         {
@@ -3958,7 +3958,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "1",
-          "RA": "1",
+          "RA": "2",
           "pid": "4032715"
         },
         {
@@ -3991,6 +3991,48 @@
           "RK": "",
           "RA": "",
           "pid": "4033482",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "23,47",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037090"
+        },
+        {
+          "Tid": "23,73",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037089"
+        },
+        {
+          "Tid": "24,67",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4037861",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "25,23",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4037863",
           "partOf": "100m Butterfly"
         }
       ]
@@ -4284,8 +4326,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "3",
-          "RA": "4",
+          "RK": "4",
+          "RA": "5",
           "pid": "4032940"
         },
         {
@@ -5820,8 +5862,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "9",
-          "RA": "12",
+          "RK": "12",
+          "RA": "16",
           "pid": "4034069",
           "splits": [
             "23,99",
@@ -7637,8 +7679,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "1",
-          "RA": "3",
+          "RK": "",
+          "RA": "",
           "pid": "4033479",
           "splits": [
             "24,62",
@@ -7657,6 +7699,34 @@
           "splits": [
             "24,67",
             "29,74"
+          ]
+        },
+        {
+          "Tid": "53,19",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "3",
+          "pid": "4037860",
+          "splits": [
+            "24,67",
+            "28,52"
+          ]
+        },
+        {
+          "Tid": "54,58",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037862",
+          "splits": [
+            "25,23",
+            "29,35"
           ]
         }
       ]

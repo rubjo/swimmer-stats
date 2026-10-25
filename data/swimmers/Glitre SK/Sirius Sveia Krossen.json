@@ -4,7 +4,7 @@
   "club": "Glitre SK",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-10-23T12:34:00.816Z",
+  "timestamp": "2026-10-25T21:51:34.147Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -767,9 +767,19 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "29",
-          "RA": "172",
+          "RK": "",
+          "RA": "",
           "pid": "3988669"
+        },
+        {
+          "Tid": "24,77",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "12",
+          "RA": "109",
+          "pid": "4037683"
         }
       ]
     },
@@ -1688,9 +1698,30 @@
           "Sted": "Hokksund",
           "Basseng": "25m",
           "D": "",
-          "RK": "11",
-          "RA": "79",
+          "RK": "",
+          "RA": "",
           "pid": "3988624"
+        },
+        {
+          "Tid": "29,91",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "6",
+          "RA": "47",
+          "pid": "4037506"
+        },
+        {
+          "Tid": "32,18",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038165",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -2710,6 +2741,20 @@
           "splits": [
             "58,45",
             "1.07,52"
+          ]
+        },
+        {
+          "Tid": "1.08,54",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "9",
+          "RA": "66",
+          "pid": "4038164",
+          "splits": [
+            "32,18",
+            "36,36"
           ]
         }
       ]

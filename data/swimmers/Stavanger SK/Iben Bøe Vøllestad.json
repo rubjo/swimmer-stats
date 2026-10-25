@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2006,
   "gender": "female",
-  "timestamp": "2026-10-19T15:24:12.620Z",
+  "timestamp": "2026-10-25T23:17:50.312Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1291,8 +1291,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "F",
-          "RK": "8",
-          "RA": "13",
+          "RK": "",
+          "RA": "",
           "pid": "4011043"
         },
         {
@@ -1315,6 +1315,26 @@
           "RA": "",
           "pid": "4009751",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "25,85",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "4",
+          "RA": "7",
+          "pid": "4037774"
+        },
+        {
+          "Tid": "25,89",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037767"
         }
       ]
     },
@@ -2722,8 +2742,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "7",
-          "RA": "12",
+          "RK": "",
+          "RA": "",
           "pid": "4008733"
         },
         {
@@ -2735,6 +2755,48 @@
           "RK": "",
           "RA": "",
           "pid": "4009320",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "27,14",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "5",
+          "pid": "4037189"
+        },
+        {
+          "Tid": "27,39",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037188"
+        },
+        {
+          "Tid": "28,04",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4037946",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "28,95",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4037942",
           "partOf": "100m Butterfly"
         }
       ]
@@ -4805,12 +4867,40 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "3",
-          "RA": "3",
+          "RK": "",
+          "RA": "",
           "pid": "4009319",
           "splits": [
             "28,44",
             "32,79"
+          ]
+        },
+        {
+          "Tid": "1.01,03",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "3",
+          "pid": "4037945",
+          "splits": [
+            "28,04",
+            "32,99"
+          ]
+        },
+        {
+          "Tid": "1.01,94",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037941",
+          "splits": [
+            "28,95",
+            "32,99"
           ]
         }
       ]

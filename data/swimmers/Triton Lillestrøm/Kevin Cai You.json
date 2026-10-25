@@ -4,7 +4,7 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-23T00:08:05.227Z",
+  "timestamp": "2026-10-25T23:23:18.678Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "178",
-          "RA": "1732",
+          "RK": "181",
+          "RA": "1751",
           "pid": "4004810"
         }
       ]
@@ -30,9 +30,20 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "1283",
+          "RK": "136",
+          "RA": "1292",
           "pid": "4004767"
+        },
+        {
+          "Tid": "54,90",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041278",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -45,12 +56,52 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "125",
-          "RA": "1051",
+          "RK": "127",
+          "RA": "1069",
           "pid": "4005135",
           "splits": [
             "58,97",
             "58,79"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.55,58",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "124",
+          "RA": "1083",
+          "pid": "4041277",
+          "splits": [
+            "54,90",
+            "1.00,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.04,28",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "892",
+          "pid": "4041750",
+          "splits": [
+            "56,34",
+            "1.03,71",
+            "1.04,82",
+            "59,41"
           ]
         }
       ]

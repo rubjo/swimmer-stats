@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2007,
   "gender": "male",
-  "timestamp": "2026-10-25T12:48:52.618Z",
+  "timestamp": "2026-10-25T22:22:10.168Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1691,6 +1691,16 @@
           "RA": "",
           "pid": "4014961",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "24,22",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4039992"
         }
       ]
     },
@@ -4243,6 +4253,60 @@
           "RA": "",
           "pid": "4012001",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "25,40",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "21",
+          "RA": "28",
+          "pid": "4037093"
+        },
+        {
+          "Tid": "26,12",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4037869",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "26,39",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4037867",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "27,55",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038796",
+          "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "28,14",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038799",
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -4748,6 +4812,16 @@
           "RK": "",
           "RA": "",
           "pid": "4016139"
+        },
+        {
+          "Tid": "27,55",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4040074"
         }
       ]
     },
@@ -9050,6 +9124,64 @@
             "26,79",
             "29,98"
           ]
+        },
+        {
+          "Tid": "55,77",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037868",
+          "splits": [
+            "26,12",
+            "29,65"
+          ]
+        },
+        {
+          "Tid": "57,21",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037866",
+          "splits": [
+            "26,39",
+            "30,82"
+          ]
+        },
+        {
+          "Tid": "58,67",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038797",
+          "splits": [
+            "27,55",
+            "31,12"
+          ],
+          "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "59,78",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038800",
+          "splits": [
+            "28,14",
+            "31,64"
+          ],
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -11610,8 +11742,8 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "34",
+          "RA": "59",
           "pid": "3990478",
           "splits": [
             "29,44",
@@ -12531,6 +12663,38 @@
             "31,86",
             "33,10",
             "33,80"
+          ]
+        },
+        {
+          "Tid": "2.03,03",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "2",
+          "pid": "4038795",
+          "splits": [
+            "27,55",
+            "31,12",
+            "31,29",
+            "33,07"
+          ]
+        },
+        {
+          "Tid": "2.06,11",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4038798",
+          "splits": [
+            "28,14",
+            "31,64",
+            "32,39",
+            "33,94"
           ]
         }
       ]

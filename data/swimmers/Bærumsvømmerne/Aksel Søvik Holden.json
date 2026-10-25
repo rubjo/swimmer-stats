@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2008,
   "gender": "male",
-  "timestamp": "2026-10-25T04:52:24.232Z",
+  "timestamp": "2026-10-25T21:34:16.994Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -3305,8 +3305,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "2",
-          "RA": "6",
+          "RK": "",
+          "RA": "",
           "pid": "4033076"
         },
         {
@@ -3351,6 +3351,70 @@
           "RK": "",
           "RA": "",
           "pid": "4034846",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "27,53",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "2",
+          "pid": "4037493"
+        },
+        {
+          "Tid": "27,59",
+          "Dato": "25.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4037492"
+        },
+        {
+          "Tid": "28,29",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038155",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "28,43",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4038157",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "29,37",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4039068",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "29,54",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4039071",
           "partOf": "200m Bryst"
         }
       ]
@@ -6902,6 +6966,35 @@
             "33,88"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.00,07",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "1",
+          "pid": "4038156",
+          "splits": [
+            "28,43",
+            "31,64"
+          ]
+        },
+        {
+          "Tid": "1.02,50",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4039072",
+          "splits": [
+            "29,54",
+            "32,96"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -9244,6 +9337,38 @@
             "33,88",
             "39,26",
             "36,31"
+          ]
+        },
+        {
+          "Tid": "2.10,65",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "1",
+          "RA": "1",
+          "pid": "4039067",
+          "splits": [
+            "29,37",
+            "33,13",
+            "33,78",
+            "34,37"
+          ]
+        },
+        {
+          "Tid": "2.10,89",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4039070",
+          "splits": [
+            "29,54",
+            "32,96",
+            "33,72",
+            "34,67"
           ]
         }
       ]
