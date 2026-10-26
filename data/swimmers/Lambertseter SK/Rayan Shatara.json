@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-10-25T22:55:12.021Z",
+  "timestamp": "2026-10-26T06:13:04.107Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "219",
-          "RA": "1855",
+          "RK": "",
+          "RA": "",
           "pid": "4004796"
         },
         {
@@ -25,9 +25,20 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
+          "RK": "190",
+          "RA": "1628",
+          "pid": "4040658"
+        },
+        {
+          "Tid": "41,50",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4040658"
+          "pid": "4041419",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -40,9 +51,28 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "174",
+          "RA": "1367",
           "pid": "4040462"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.29,15",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "1407",
+          "pid": "4041418",
+          "splits": [
+            "41,50",
+            "47,65"
+          ]
         }
       ]
     }

@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-10-25T22:26:32.020Z",
+  "timestamp": "2026-10-26T05:29:38.457Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -286,9 +286,20 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "54",
-          "RA": "413",
+          "RK": "55",
+          "RA": "414",
           "pid": "4033341"
+        },
+        {
+          "Tid": "32,69",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041476",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -480,6 +491,28 @@
           "RA": "",
           "pid": "2887524",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "36,96",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4040988",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "39,37",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041678",
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -622,8 +655,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "30",
-          "RA": "194",
+          "RK": "31",
+          "RA": "195",
           "pid": "4033000"
         }
       ]
@@ -994,6 +1027,20 @@
             "52,77"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.07,04",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "331",
+          "pid": "4041475",
+          "splits": [
+            "32,69",
+            "34,35"
+          ]
         }
       ]
     },
@@ -1155,6 +1202,35 @@
             "37,76",
             "44,61"
           ]
+        },
+        {
+          "Tid": "1.19,06",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "264",
+          "pid": "4040987",
+          "splits": [
+            "36,96",
+            "42,10"
+          ]
+        },
+        {
+          "Tid": "1.27,50",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041679",
+          "splits": [
+            "39,37",
+            "48,13"
+          ],
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -1768,6 +1844,27 @@
             "56,04",
             "54,63",
             "49,56"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Butterfly",
+      "races": [
+        {
+          "Tid": "3.14,79",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "13",
+          "RA": "68",
+          "pid": "4041677",
+          "splits": [
+            "39,37",
+            "48,13",
+            "53,25",
+            "54,04"
           ]
         }
       ]

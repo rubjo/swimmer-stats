@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2006,
   "gender": "male",
-  "timestamp": "2026-10-25T20:52:04.874Z",
+  "timestamp": "2026-10-26T04:16:01.717Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -2849,7 +2849,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "186",
-          "RA": "555",
+          "RA": "556",
           "pid": "4001057"
         },
         {
@@ -2861,6 +2861,17 @@
           "RK": "",
           "RA": "",
           "pid": "4001692",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,11",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4040929",
           "partOf": "100m Butterfly"
         }
       ]
@@ -5946,12 +5957,26 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "86",
-          "RA": "317",
+          "RK": "",
+          "RA": "",
           "pid": "4001691",
           "splits": [
             "32,79",
             "36,89"
+          ]
+        },
+        {
+          "Tid": "1.08,02",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "285",
+          "pid": "4040928",
+          "splits": [
+            "32,11",
+            "35,91"
           ]
         }
       ]
@@ -6063,8 +6088,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "84",
-          "RA": "367",
+          "RK": "86",
+          "RA": "371",
           "pid": "4002404",
           "splits": [
             "33,67",

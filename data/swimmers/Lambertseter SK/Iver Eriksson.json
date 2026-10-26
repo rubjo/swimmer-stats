@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-25T21:22:08.580Z",
+  "timestamp": "2026-10-26T04:38:48.593Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -37,8 +37,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "126",
-          "RA": "1874",
+          "RK": "130",
+          "RA": "1886",
           "pid": "3987074"
         }
       ]
@@ -73,10 +73,21 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "46",
-          "RA": "1226",
+          "RK": "47",
+          "RA": "1234",
           "pid": "4004929",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,51",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041883",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -136,13 +147,28 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "34",
-          "RA": "996",
+          "RK": "35",
+          "RA": "1004",
           "pid": "4004928",
           "splits": [
             "52,35",
             "58,51"
           ]
+        },
+        {
+          "Tid": "2.02,27",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041884",
+          "splits": [
+            "59,51",
+            "1.02,76"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -174,9 +200,49 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "88",
-          "RA": "1456",
+          "RK": "91",
+          "RA": "1466",
           "pid": "4004637"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.58,21",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "84",
+          "RA": "796",
+          "pid": "4041092",
+          "splits": [
+            "59,05",
+            "59,16"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.03,30",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "36",
+          "RA": "846",
+          "pid": "4041882",
+          "splits": [
+            "59,51",
+            "1.02,76",
+            "1.02,22",
+            "58,81"
+          ]
         }
       ]
     }

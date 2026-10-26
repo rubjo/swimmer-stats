@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-25T20:49:22.332Z",
+  "timestamp": "2026-10-26T04:24:31.582Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -47,8 +47,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "61",
-          "RA": "1340",
+          "RK": "",
+          "RA": "",
           "pid": "3987237"
         },
         {
@@ -72,6 +72,16 @@
           "RA": "",
           "pid": "4023353",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "36,13",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "32",
+          "RA": "1187",
+          "pid": "4040817"
         }
       ]
     },
@@ -247,8 +257,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "119",
-          "RA": "1269",
+          "RK": "130",
+          "RA": "1285",
           "pid": "4005046",
           "splits": [
             "56,06",
@@ -266,8 +276,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "75",
-          "RA": "1122",
+          "RK": "76",
+          "RA": "1129",
           "pid": "4023352",
           "splits": [
             "45,30",
@@ -304,8 +314,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "53",
-          "RA": "873",
+          "RK": "57",
+          "RA": "886",
           "pid": "4023042",
           "splits": [
             "51,19",
@@ -325,8 +335,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "58",
-          "RA": "989",
+          "RK": "64",
+          "RA": "1006",
           "pid": "4023839",
           "splits": [
             "43,32",
@@ -338,6 +348,21 @@
             "51,28",
             "48,84"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,16",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "1256",
+          "pid": "4040287"
         }
       ]
     }

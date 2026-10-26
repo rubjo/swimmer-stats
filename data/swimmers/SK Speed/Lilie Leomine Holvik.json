@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-19T09:10:48.637Z",
+  "timestamp": "2026-10-26T05:09:02.234Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -34,6 +34,27 @@
           "RK": "",
           "RA": "",
           "pid": "3903094"
+        },
+        {
+          "Tid": "44,48",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "7",
+          "RA": "689",
+          "pid": "4040539"
+        },
+        {
+          "Tid": "47,95",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4042079",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -52,6 +73,105 @@
           "splits": [
             "43,92",
             "49,42"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "51,38",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "116",
+          "RA": "1378",
+          "pid": "4042716",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.42,19",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "16",
+          "RA": "765",
+          "pid": "4042080",
+          "splits": [
+            "47,95",
+            "54,24"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.22,80",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "27",
+          "RA": "751",
+          "pid": "4041772",
+          "splits": [
+            "47,67",
+            "52,94",
+            "51,48",
+            "50,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.27,72",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "37",
+          "RA": "849",
+          "pid": "4042715",
+          "splits": [
+            "51,38",
+            "52,81",
+            "55,22",
+            "48,31"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.33,46",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "10",
+          "RA": "594",
+          "pid": "4042078",
+          "splits": [
+            "47,95",
+            "54,24",
+            "55,54",
+            "55,73"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-25T20:51:58.562Z",
+  "timestamp": "2026-10-26T04:15:56.486Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -140,10 +140,21 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "204",
-          "RA": "1448",
+          "RK": "207",
+          "RA": "1463",
           "pid": "4005049",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,01",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4042169",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -231,12 +242,48 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "172",
-          "RA": "1200",
+          "RK": "174",
+          "RA": "1213",
           "pid": "4005048",
           "splits": [
             "54,21",
             "1.00,86"
+          ]
+        },
+        {
+          "Tid": "2.01,14",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4042170",
+          "splits": [
+            "57,01",
+            "1.04,13"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.10,11",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "179",
+          "RA": "1056",
+          "pid": "4042168",
+          "splits": [
+            "57,01",
+            "1.04,13",
+            "1.04,51",
+            "1.04,46"
           ]
         }
       ]

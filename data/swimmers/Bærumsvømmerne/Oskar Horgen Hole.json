@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-10-25T21:40:12.269Z",
+  "timestamp": "2026-10-26T04:46:44.963Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -111,8 +111,8 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "143",
-          "RA": "1378",
+          "RK": "144",
+          "RA": "1389",
           "pid": "3991255"
         },
         {
@@ -124,6 +124,17 @@
           "RK": "",
           "RA": "",
           "pid": "3991625",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,76",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041397",
           "partOf": "100m Fri"
         }
       ]
@@ -225,9 +236,19 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "109",
-          "RA": "990",
+          "RK": "110",
+          "RA": "996",
           "pid": "3991137"
+        },
+        {
+          "Tid": "47,29",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4040446"
         }
       ]
     },
@@ -383,12 +404,26 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "144",
-          "RA": "1281",
+          "RK": "146",
+          "RA": "1286",
           "pid": "3991624",
           "splits": [
             "39,48",
             "44,73"
+          ]
+        },
+        {
+          "Tid": "1.25,93",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4041396",
+          "splits": [
+            "39,76",
+            "46,17"
           ]
         }
       ]

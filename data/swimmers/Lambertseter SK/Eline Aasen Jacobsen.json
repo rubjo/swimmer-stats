@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-10-19T09:31:29.297Z",
+  "timestamp": "2026-10-26T04:53:42.675Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -29,6 +29,17 @@
           "RA": "1112",
           "pid": "3906120",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "41,62",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "259",
+          "RA": "1680",
+          "pid": "4041512",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -55,6 +66,16 @@
           "RA": "",
           "pid": "3904434",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,42",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4040564"
         }
       ]
     },
@@ -75,6 +96,20 @@
             "49,54"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.28,19",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "228",
+          "RA": "1276",
+          "pid": "4041511",
+          "splits": [
+            "41,62",
+            "46,57"
+          ]
         }
       ]
     },

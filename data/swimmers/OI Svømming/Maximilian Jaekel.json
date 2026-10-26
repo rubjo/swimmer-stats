@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-25T21:47:54.653Z",
+  "timestamp": "2026-10-26T05:15:04.737Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,20 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "D": "",
-          "RK": "97",
-          "RA": "1761",
+          "RK": "100",
+          "RA": "1772",
           "pid": "4036315"
+        },
+        {
+          "Tid": "43,77",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4042990",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -30,8 +41,8 @@
           "Sted": "Horten",
           "Basseng": "25m",
           "D": "",
-          "RK": "53",
-          "RA": "668",
+          "RK": "56",
+          "RA": "684",
           "pid": "4036316",
           "splits": [
             "50,12",
@@ -50,11 +61,191 @@
           "Basseng": "25m",
           "D": "",
           "RK": "63",
-          "RA": "974",
+          "RA": "985",
           "pid": "4036317",
           "splits": [
             "48,31",
             "59,44"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "53,66",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "77",
+          "RA": "1419",
+          "pid": "4040908",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "56,99",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "97",
+          "RA": "1419",
+          "pid": "4041898",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.34,27",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "74",
+          "RA": "1515",
+          "pid": "4042991",
+          "splits": [
+            "43,77",
+            "50,50"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.56,36",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "36",
+          "RA": "973",
+          "pid": "4040907",
+          "splits": [
+            "53,66",
+            "1.02,70"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.01,21",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "70",
+          "RA": "1158",
+          "pid": "4041899",
+          "splits": [
+            "56,99",
+            "1.04,22"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.17,83",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "56",
+          "RA": "1128",
+          "pid": "4042992",
+          "splits": [
+            "43,77",
+            "50,50",
+            "52,05",
+            "51,51"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.29,72",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "32",
+          "RA": "785",
+          "pid": "4041741",
+          "splits": [
+            "50,13",
+            "53,95",
+            "55,04",
+            "50,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.14,94",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "898",
+          "pid": "4041897",
+          "splits": [
+            "56,99",
+            "1.04,22",
+            "1.06,83",
+            "1.06,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.36,95",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "34",
+          "RA": "895",
+          "pid": "4042989",
+          "splits": [
+            "43,77",
+            "50,50",
+            "52,05",
+            "51,51",
+            "51,05",
+            "50,87",
+            "50,55",
+            "46,65"
           ]
         }
       ]

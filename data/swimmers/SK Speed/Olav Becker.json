@@ -1,0 +1,111 @@
+{
+  "swimmerId": "55289",
+  "name": "Olav  Becker",
+  "club": "SK Speed",
+  "birthYear": 2014,
+  "gender": "male",
+  "timestamp": "2026-10-26T04:07:27.837Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,87",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "200",
+          "RA": "1837",
+          "pid": "4040681"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "58,89",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "183",
+          "RA": "1470",
+          "pid": "4040481"
+        },
+        {
+          "Tid": "1.01,26",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041951",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.05,16",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "1098",
+          "pid": "4041561",
+          "splits": [
+            "1.00,23",
+            "1.04,93"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.12,82",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "175",
+          "RA": "1283",
+          "pid": "4041952",
+          "splits": [
+            "1.01,26",
+            "1.11,56"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.37,13",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "949",
+          "pid": "4041950",
+          "splits": [
+            "1.01,26",
+            "1.11,56",
+            "1.12,37",
+            "1.11,94"
+          ]
+        }
+      ]
+    }
+  ]
+}

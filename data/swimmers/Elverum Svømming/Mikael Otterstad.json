@@ -4,7 +4,7 @@
   "club": "Elverum Svømming",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-10-25T22:38:18.514Z",
+  "timestamp": "2026-10-26T05:55:38.025Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -176,7 +176,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "124",
-          "RA": "763",
+          "RA": "767",
           "pid": "3998897"
         }
       ]
@@ -343,6 +343,16 @@
           "RA": "",
           "pid": "3999115",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "45,94",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "174",
+          "RA": "969",
+          "pid": "4040456"
         }
       ]
     },
@@ -722,8 +732,8 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "145",
-          "RA": "648",
+          "RK": "146",
+          "RA": "653",
           "pid": "3999114",
           "splits": [
             "48,0",
@@ -768,9 +778,41 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "140",
-          "RA": "969",
+          "RK": "142",
+          "RA": "974",
           "pid": "3998877"
+        },
+        {
+          "Tid": "41,68",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4042603",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.26,27",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "786",
+          "pid": "4042602",
+          "splits": [
+            "41,68",
+            "58,69",
+            "57,49",
+            "48,41"
+          ]
         }
       ]
     }

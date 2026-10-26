@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-10-25T21:17:29.765Z",
+  "timestamp": "2026-10-26T04:56:19.770Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -25,8 +25,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "11",
-          "RA": "103",
+          "RK": "12",
+          "RA": "104",
           "pid": "4033372"
         }
       ]
@@ -129,6 +129,28 @@
           "RA": "",
           "pid": "4035897",
           "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "32,48",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4042737",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "35,14",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041685",
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -220,6 +242,21 @@
             "39,79"
           ],
           "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "1.15,06",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041686",
+          "splits": [
+            "35,14",
+            "39,92"
+          ],
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -233,7 +270,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "25",
-          "RA": "176",
+          "RA": "177",
           "pid": "3987759",
           "splits": [
             "34,95",
@@ -252,7 +289,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "47",
-          "RA": "310",
+          "RA": "313",
           "pid": "4001385"
         },
         {
@@ -355,6 +392,84 @@
             "48,40",
             "37,75",
             "37,24"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "33,78",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "26",
+          "RA": "172",
+          "pid": "4040392"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.37,55",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "20",
+          "RA": "112",
+          "pid": "4042736",
+          "splits": [
+            "32,48",
+            "40,28",
+            "47,28",
+            "37,51"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "2.39,32",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "125",
+          "pid": "4041787",
+          "splits": [
+            "36,78",
+            "40,45",
+            "41,69",
+            "40,40"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Butterfly",
+      "races": [
+        {
+          "Tid": "2.39,85",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "5",
+          "RA": "27",
+          "pid": "4041684",
+          "splits": [
+            "35,14",
+            "39,92",
+            "41,43",
+            "43,36"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-10-25T22:50:15.458Z",
+  "timestamp": "2026-10-26T05:52:42.553Z",
   "disciplines": [
     {
       "distanse": "100m Rygg",
@@ -29,8 +29,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "158",
-          "RA": "926",
+          "RK": "160",
+          "RA": "949",
           "pid": "3987381",
           "splits": [
             "53,82",
@@ -48,9 +48,20 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "292",
-          "RA": "1869",
+          "RK": "294",
+          "RA": "1899",
           "pid": "3987269"
+        },
+        {
+          "Tid": "47,93",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041519",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -63,8 +74,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "208",
-          "RA": "1254",
+          "RK": "210",
+          "RA": "1274",
           "pid": "4022977",
           "splits": [
             "54,75",
@@ -82,14 +93,33 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "214",
-          "RA": "1055",
+          "RK": "215",
+          "RA": "1070",
           "pid": "4023062",
           "splits": [
             "59,74",
             "1.10,26",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.45,19",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "274",
+          "RA": "1684",
+          "pid": "4041518",
+          "splits": [
+            "47,93",
+            "57,26"
           ]
         }
       ]

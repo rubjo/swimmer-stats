@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-25T22:43:30.442Z",
+  "timestamp": "2026-10-26T05:45:59.248Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -15,10 +15,21 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "99",
-          "RA": "1437",
+          "RK": "103",
+          "RA": "1449",
           "pid": "4036410",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,91",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041926",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -31,12 +42,63 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "92",
-          "RA": "1235",
+          "RK": "95",
+          "RA": "1250",
           "pid": "4036409",
           "splits": [
             "58,41",
             "1.10,60"
+          ]
+        },
+        {
+          "Tid": "2.09,02",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4041927",
+          "splits": [
+            "58,91",
+            "1.10,11"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "46,49",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "128",
+          "RA": "1879",
+          "pid": "4040696"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.28,11",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "934",
+          "pid": "4041925",
+          "splits": [
+            "58,91",
+            "1.10,11",
+            "1.08,83",
+            "1.10,26"
           ]
         }
       ]

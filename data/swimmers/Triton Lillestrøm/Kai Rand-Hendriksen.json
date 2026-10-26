@@ -4,7 +4,7 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-25T22:38:11.018Z",
+  "timestamp": "2026-10-26T05:45:25.278Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "110",
-          "RA": "1810",
+          "RK": "",
+          "RA": "",
           "pid": "4004619"
         },
         {
@@ -50,6 +50,16 @@
           "RA": "",
           "pid": "4005101",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,28",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "1778",
+          "pid": "4040710"
         }
       ]
     },
@@ -62,8 +72,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "112",
-          "RA": "1480",
+          "RK": "115",
+          "RA": "1495",
           "pid": "4004617"
         },
         {
@@ -101,8 +111,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "80",
-          "RA": "1545",
+          "RK": "81",
+          "RA": "1552",
           "pid": "4005100",
           "splits": [
             "45,02",
@@ -120,8 +130,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "82",
-          "RA": "783",
+          "RK": "85",
+          "RA": "800",
           "pid": "4004621",
           "splits": [
             "55,84",
@@ -140,12 +150,27 @@
           "Basseng": "25m",
           "D": "",
           "RK": "76",
-          "RA": "1022",
+          "RA": "1033",
           "pid": "4005162",
           "splits": [
             "54,46",
             "58,93"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,33",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "70",
+          "RA": "1066",
+          "pid": "4040353"
         }
       ]
     }

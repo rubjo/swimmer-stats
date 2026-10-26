@@ -4,7 +4,7 @@
   "club": "Toten SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-19T09:45:40.167Z",
+  "timestamp": "2026-10-26T06:06:30.678Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,6 +39,16 @@
           "RA": "",
           "pid": "3977101",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "45,44",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "1856",
+          "pid": "4040701"
         }
       ]
     },
@@ -91,6 +101,17 @@
           "RA": "",
           "pid": "3864796",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,29",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "87",
+          "RA": "1391",
+          "pid": "4041997",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -142,6 +163,63 @@
           "splits": [
             "1.01,12",
             "1.11,37"
+          ]
+        },
+        {
+          "Tid": "1.58,65",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "62",
+          "RA": "1128",
+          "pid": "4041998",
+          "splits": [
+            "56,29",
+            "1.02,36"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.05,13",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "860",
+          "pid": "4041996",
+          "splits": [
+            "56,29",
+            "1.02,36",
+            "1.05,03",
+            "1.01,45"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.10,51",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "907",
+          "pid": "4041755",
+          "splits": [
+            "1.01,08",
+            "",
+            "",
+            "1.00,86"
           ]
         }
       ]

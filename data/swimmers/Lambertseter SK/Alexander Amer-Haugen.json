@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-25T20:48:01.747Z",
+  "timestamp": "2026-10-26T04:13:57.720Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -50,6 +50,16 @@
           "RA": "",
           "pid": "3886345",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "42,03",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "178",
+          "RA": "1737",
+          "pid": "4040650"
         }
       ]
     },
@@ -73,8 +83,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "D",
-          "RK": "89",
-          "RA": "1160",
+          "RK": "91",
+          "RA": "1169",
           "pid": "4004937",
           "partOf": "100m Bryst"
         },
@@ -115,7 +125,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "106",
-          "RA": "1036",
+          "RA": "1043",
           "pid": "4004936",
           "splits": [
             "50,75",
@@ -147,8 +157,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "123",
-          "RA": "1059",
+          "RK": "126",
+          "RA": "1071",
           "pid": "4004692"
         },
         {
@@ -233,6 +243,40 @@
             "55,79",
             "57,23",
             "58,14"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "47,13",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "93",
+          "RA": "1286",
+          "pid": "4040193"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.54,94",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "105",
+          "RA": "781",
+          "pid": "4041087",
+          "splits": [
+            "54,99",
+            "59,95"
           ]
         }
       ]
