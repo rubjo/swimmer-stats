@@ -4,7 +4,7 @@
   "club": "Eid SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-31T19:21:34.370Z",
+  "timestamp": "2026-11-01T23:52:18.723Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,6 +39,38 @@
           "RK": "",
           "RA": "",
           "pid": "4025455"
+        },
+        {
+          "Tid": "38,71",
+          "Dato": "01.11.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "54",
+          "RA": "1560",
+          "pid": "4045794"
+        },
+        {
+          "Tid": "42,14",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4045865",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "51,38",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4045945",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -54,6 +86,16 @@
           "RK": "",
           "RA": "",
           "pid": "4011596"
+        },
+        {
+          "Tid": "53,48",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "58",
+          "RA": "1295",
+          "pid": "4045771"
         }
       ]
     },
@@ -66,13 +108,42 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "49",
+          "RA": "1380",
           "pid": "4012966",
           "splits": [
             "42,49",
             "45,38"
           ]
+        },
+        {
+          "Tid": "1.30,39",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4045864",
+          "splits": [
+            "42,14",
+            "48,25"
+          ]
+        },
+        {
+          "Tid": "1.47,85",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4045946",
+          "splits": [
+            "51,38",
+            "56,47"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -85,12 +156,48 @@
           "Sted": "Førde",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "71",
+          "RA": "751",
           "pid": "4025485",
           "splits": [
             "53,65",
             "58,08"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,46",
+          "Dato": "01.11.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "1042",
+          "pid": "4045756"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.42,06",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "1294",
+          "pid": "4045944",
+          "splits": [
+            "51,38",
+            "56,47",
+            "59,38",
+            "54,83"
           ]
         }
       ]

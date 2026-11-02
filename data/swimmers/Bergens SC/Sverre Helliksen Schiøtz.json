@@ -4,7 +4,7 @@
   "club": "Bergens SC",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-10-31T22:04:31.678Z",
+  "timestamp": "2026-11-01T22:59:00.604Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -19,6 +19,16 @@
           "RA": "",
           "pid": "4043625",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,60",
+          "Dato": "31.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "224",
+          "RA": "1486",
+          "pid": "4045182"
         }
       ]
     },
@@ -31,13 +41,28 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "221",
+          "RA": "1403",
           "pid": "4043624",
           "splits": [
             "42,80",
             "46,03"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,76",
+          "Dato": "31.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "206",
+          "RA": "1354",
+          "pid": "4044695"
         }
       ]
     }

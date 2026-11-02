@@ -4,7 +4,7 @@
   "club": "Delfana",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-31T21:51:00.173Z",
+  "timestamp": "2026-11-01T22:25:20.299Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,10 +15,20 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "D",
-          "RK": "266",
-          "RA": "2172",
+          "RK": "",
+          "RA": "",
           "pid": "4030542",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "42,18",
+          "Dato": "01.11.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "1725",
+          "pid": "4045316"
         }
       ]
     },
@@ -32,7 +42,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "155",
-          "RA": "1011",
+          "RA": "1013",
           "pid": "4030356",
           "splits": [
             "1.00,74",
@@ -50,8 +60,8 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "222",
-          "RA": "1852",
+          "RK": "223",
+          "RA": "1856",
           "pid": "4030541",
           "splits": [
             "54,05",
@@ -69,13 +79,42 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "184",
-          "RA": "1344",
+          "RK": "",
+          "RA": "",
           "pid": "4030684",
           "splits": [
             "1.09,19",
             "1.01,56"
           ]
+        },
+        {
+          "Tid": "1.57,84",
+          "Dato": "01.11.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1294",
+          "pid": "4045469",
+          "splits": [
+            "56,24",
+            "1.01,60"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,79",
+          "Dato": "31.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1206",
+          "pid": "4044947"
         }
       ]
     }

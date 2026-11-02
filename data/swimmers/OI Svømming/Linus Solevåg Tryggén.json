@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-10-31T19:40:31.118Z",
+  "timestamp": "2026-11-02T00:05:47.272Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -972,8 +972,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "50",
+          "RA": "287",
           "pid": "4033302"
         },
         {
@@ -997,6 +997,17 @@
           "RA": "",
           "pid": "4035210",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "27,10",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4044171",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -2610,6 +2621,20 @@
             "31,46"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "56,03",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "29",
+          "RA": "172",
+          "pid": "4044170",
+          "splits": [
+            "27,10",
+            "28,93"
+          ]
         }
       ]
     },

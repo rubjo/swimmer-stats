@@ -4,7 +4,7 @@
   "club": "Sandane TIL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-26T10:44:04.285Z",
+  "timestamp": "2026-11-01T23:53:53.967Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -145,6 +145,16 @@
           "RK": "",
           "RA": "",
           "pid": "3645042"
+        },
+        {
+          "Tid": "37,38",
+          "Dato": "01.11.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "1473",
+          "pid": "4045787"
         }
       ]
     },
@@ -170,6 +180,16 @@
           "RK": "82",
           "RA": "1179",
           "pid": "3708020"
+        },
+        {
+          "Tid": "48,79",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4045980"
         }
       ]
     },
@@ -225,6 +245,38 @@
           "RK": "",
           "RA": "",
           "pid": "3708123"
+        },
+        {
+          "Tid": "55,77",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1387",
+          "pid": "4045762"
+        },
+        {
+          "Tid": "1.01,01",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4045901",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.01,09",
+          "Dato": "01.11.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4045831",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -385,6 +437,61 @@
             "51,00",
             "53,09",
             "48,43"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,18",
+          "Dato": "01.11.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1235",
+          "pid": "4045830",
+          "splits": [
+            "1.01,09",
+            "1.06,09"
+          ]
+        },
+        {
+          "Tid": "2.09,35",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4045902",
+          "splits": [
+            "1.01,01",
+            "1.08,34"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.23,39",
+          "Dato": "31.10.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "130",
+          "RA": "925",
+          "pid": "4045900",
+          "splits": [
+            "1.01,01",
+            "1.08,34",
+            "1.07,91",
+            "1.06,13"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Poseidon",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-10-31T23:21:39.149Z",
+  "timestamp": "2026-11-01T23:27:16.679Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1486,7 +1486,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "22",
-          "RA": "165",
+          "RA": "166",
           "pid": "4032804"
         },
         {
@@ -1498,6 +1498,27 @@
           "RK": "",
           "RA": "",
           "pid": "4033559",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "27,62",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4043726"
+        },
+        {
+          "Tid": "29,22",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4044058",
           "partOf": "100m Butterfly"
         }
       ]
@@ -2942,8 +2963,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "36",
+          "RA": "212",
           "pid": "4034257",
           "splits": [
             "27,06",
@@ -3349,12 +3370,26 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "33",
-          "RA": "158",
+          "RK": "",
+          "RA": "",
           "pid": "4033558",
           "splits": [
             "28,86",
             "35,00"
+          ]
+        },
+        {
+          "Tid": "1.03,21",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "29",
+          "RA": "144",
+          "pid": "4044057",
+          "splits": [
+            "29,22",
+            "33,99"
           ]
         }
       ]
