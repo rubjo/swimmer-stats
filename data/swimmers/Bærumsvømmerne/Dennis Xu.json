@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-02T00:33:37.580Z",
+  "timestamp": "2026-11-02T12:27:17.041Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -16,8 +16,42 @@
           "Basseng": "25m",
           "D": "",
           "RK": "53",
-          "RA": "1263",
+          "RA": "1264",
           "pid": "4043612"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,39",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "33",
+          "RA": "922",
+          "pid": "4043600"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.04,68",
+          "Dato": "13.06.2026",
+          "Sted": "Rud",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "34",
+          "RA": "524",
+          "pid": "4043603",
+          "splits": [
+            "1.00,07",
+            "1.04,61"
+          ]
         }
       ]
     }
