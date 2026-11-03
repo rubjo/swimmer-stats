@@ -4,7 +4,7 @@
   "club": "Tromsø SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-02T15:50:30.329Z",
+  "timestamp": "2026-11-03T01:16:04.593Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,19 @@
           "Sted": "Tromsø",
           "Basseng": "25m",
           "D": "",
+          "RK": "313",
+          "RA": "2213",
+          "pid": "4036416"
+        },
+        {
+          "Tid": "56,72",
+          "Dato": "31.10.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4036416"
+          "pid": "4048369"
         }
       ]
     },
@@ -30,9 +40,39 @@
           "Sted": "Tromsø",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "287",
+          "RA": "1866",
           "pid": "4036415"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.01,48",
+          "Dato": "31.10.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "229",
+          "RA": "1595",
+          "pid": "4048221"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.05,58",
+          "Dato": "31.10.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "218",
+          "RA": "1448",
+          "pid": "4048256"
         }
       ]
     }

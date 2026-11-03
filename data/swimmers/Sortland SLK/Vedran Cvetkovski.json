@@ -4,7 +4,7 @@
   "club": "Sortland SLK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-21T14:35:04.475Z",
+  "timestamp": "2026-11-03T01:19:12.674Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -42,6 +42,16 @@
           "RK": "",
           "RA": "",
           "pid": "3566875"
+        },
+        {
+          "Tid": "34,76",
+          "Dato": "31.10.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "1288",
+          "pid": "4048345"
         }
       ]
     },
@@ -57,6 +67,27 @@
           "RK": "157",
           "RA": "1446",
           "pid": "3805424"
+        },
+        {
+          "Tid": "42,59",
+          "Dato": "01.11.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "64",
+          "RA": "797",
+          "pid": "4048284"
+        },
+        {
+          "Tid": "45,79",
+          "Dato": "01.11.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4048478",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -90,6 +121,25 @@
           "splits": [
             "48,30",
             "58,99"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.40,62",
+          "Dato": "01.11.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "804",
+          "pid": "4048477",
+          "splits": [
+            "45,79",
+            "54,83"
           ]
         }
       ]
