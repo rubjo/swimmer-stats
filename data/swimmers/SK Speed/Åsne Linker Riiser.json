@@ -1,0 +1,82 @@
+{
+  "swimmerId": "46391",
+  "name": "Åsne  Linker Riiser",
+  "club": "SK Speed",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-11-03T14:00:47.997Z",
+  "disciplines": [
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "47,29",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "89",
+          "RA": "1048",
+          "pid": "4050178"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,58",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "135",
+          "RA": "1442",
+          "pid": "4050182",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,58",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "124",
+          "RA": "1256",
+          "pid": "4050183",
+          "splits": [
+            "53,58",
+            "1.03,00"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.00,98",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "974",
+          "pid": "4050181",
+          "splits": [
+            "53,58",
+            "1.03,00",
+            "1.04,32",
+            "1.00,08"
+          ]
+        }
+      ]
+    }
+  ]
+}
