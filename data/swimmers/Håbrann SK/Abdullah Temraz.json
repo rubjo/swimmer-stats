@@ -1,0 +1,55 @@
+{
+  "swimmerId": "55259",
+  "name": "Abdullah Temraz",
+  "club": "Håbrann SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-11-03T23:10:38.058Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "40,49",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "76",
+          "RA": "1679",
+          "pid": "4050252"
+        },
+        {
+          "Tid": "45,95",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4050261",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.38,81",
+          "Dato": "10.10.2026",
+          "Sted": "Kongsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "101",
+          "RA": "1618",
+          "pid": "4050260",
+          "splits": [
+            "45,95",
+            "52,86"
+          ]
+        }
+      ]
+    }
+  ]
+}
