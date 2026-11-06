@@ -1,0 +1,70 @@
+{
+  "swimmerId": "56621",
+  "name": "Alexander Rødsand",
+  "club": "Sortland SLK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-11-06T14:07:04.113Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.05,98",
+          "Dato": "31.10.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "182",
+          "RA": "2101",
+          "pid": "4050338"
+        },
+        {
+          "Tid": "1.18,00",
+          "Dato": "01.11.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4050351",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.21,02",
+          "Dato": "31.10.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "107",
+          "RA": "1243",
+          "pid": "4050329"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "2.49,18",
+          "Dato": "01.11.2026",
+          "Sted": "Sortland",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "158",
+          "RA": "1836",
+          "pid": "4050350",
+          "splits": [
+            "1.18,0",
+            "1.31,18"
+          ]
+        }
+      ]
+    }
+  ]
+}
