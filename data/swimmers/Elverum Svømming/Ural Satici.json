@@ -4,7 +4,7 @@
   "club": "Elverum Svømming",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-07T14:35:49.785Z",
+  "timestamp": "2026-11-08T15:08:10.111Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -71,6 +71,16 @@
           "RA": "",
           "pid": "3999036",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "33,64",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "39",
+          "RA": "1216",
+          "pid": "4052782"
         }
       ]
     },
@@ -103,8 +113,8 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "56",
+          "RA": "832",
           "pid": "3998898"
         }
       ]
@@ -163,6 +173,27 @@
           "RA": "",
           "pid": "3999016",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "42,61",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "21",
+          "RA": "812",
+          "pid": "4052648"
+        },
+        {
+          "Tid": "47,29",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053239",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -203,8 +234,8 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "58",
+          "RA": "1163",
           "pid": "3999035",
           "splits": [
             "37,19",
@@ -255,12 +286,26 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "42",
-          "RA": "783",
+          "RK": "43",
+          "RA": "795",
           "pid": "3999015",
           "splits": [
             "47,32",
             "52,40"
+          ]
+        },
+        {
+          "Tid": "1.45,71",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4053238",
+          "splits": [
+            "47,29",
+            "58,42"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-07T23:35:06.355Z",
+  "timestamp": "2026-11-08T15:02:57.293Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -35,9 +35,19 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "174",
-          "RA": "1856",
+          "RK": "",
+          "RA": "",
           "pid": "4040796"
+        },
+        {
+          "Tid": "42,15",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "150",
+          "RA": "1754",
+          "pid": "4052880"
         }
       ]
     },
@@ -50,8 +60,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "238",
-          "RA": "1788",
+          "RK": "239",
+          "RA": "1814",
           "pid": "4025628"
         },
         {
@@ -63,6 +73,17 @@
           "RK": "",
           "RA": "",
           "pid": "4041344",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.06,42",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053418",
           "partOf": "100m Bryst"
         }
       ]
@@ -76,8 +97,8 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "129",
-          "RA": "942",
+          "RK": "131",
+          "RA": "967",
           "pid": "4041154",
           "splits": [
             "54,46",
@@ -95,12 +116,26 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "210",
-          "RA": "1550",
+          "RK": "",
+          "RA": "",
           "pid": "4041343",
           "splits": [
             "1.06,77",
             "1.14,38"
+          ]
+        },
+        {
+          "Tid": "2.16,81",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "206",
+          "RA": "1544",
+          "pid": "4053417",
+          "splits": [
+            "1.06,42",
+            "1.10,39"
           ]
         }
       ]

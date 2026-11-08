@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-07T15:16:07.557Z",
+  "timestamp": "2026-11-08T15:44:54.394Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -445,8 +445,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "195",
+          "RA": "1317",
           "pid": "4002959"
         },
         {
@@ -513,6 +513,27 @@
           "RA": "",
           "pid": "4023710",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "36,15",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4052121"
+        },
+        {
+          "Tid": "38,60",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4052242",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -872,8 +893,8 @@
           "Sted": "Uddevalla",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "170",
+          "RA": "959",
           "pid": "4019187",
           "partOf": "100m Bryst"
         },
@@ -938,8 +959,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "151",
+          "RA": "901",
           "pid": "4002883"
         }
       ]
@@ -1431,8 +1452,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "187",
+          "RA": "1166",
           "pid": "4022787",
           "splits": [
             "37,0",
@@ -1453,6 +1474,20 @@
             "45,82"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.23,23",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4052241",
+          "splits": [
+            "38,60",
+            "44,63"
+          ]
         }
       ]
     },
@@ -1669,8 +1704,8 @@
           "Sted": "Uddevalla",
           "Basseng": "25m",
           "D": "",
-          "RK": "147",
-          "RA": "746",
+          "RK": "150",
+          "RA": "755",
           "pid": "4019186",
           "splits": [
             "45,37",
@@ -1722,6 +1757,20 @@
           "splits": [
             "45,56",
             "49,50"
+          ]
+        },
+        {
+          "Tid": "1.32,17",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "545",
+          "pid": "4052160",
+          "splits": [
+            "44,11",
+            "48,06"
           ]
         }
       ]

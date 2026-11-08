@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-07T14:35:51.738Z",
+  "timestamp": "2026-11-08T15:09:12.480Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -25,10 +25,31 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "154",
+          "RA": "1980",
           "pid": "4036664",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "48,80",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053530",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "1.03,42",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4052778"
         }
       ]
     },
@@ -41,10 +62,20 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "144",
+          "RA": "1629",
           "pid": "4036620",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.13,59",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4052646"
         }
       ]
     },
@@ -57,12 +88,26 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "126",
+          "RA": "1710",
           "pid": "4036663",
           "splits": [
             "48,63",
             "57,13"
+          ]
+        },
+        {
+          "Tid": "1.48,74",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4053529",
+          "splits": [
+            "48,80",
+            "59,94"
           ]
         }
       ]
@@ -76,13 +121,28 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "D": "",
-          "RK": "124",
-          "RA": "1354",
+          "RK": "127",
+          "RA": "1368",
           "pid": "4036619",
           "splits": [
             "1.08,91",
             "1.26,75"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "52,72",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "1123",
+          "pid": "4052574"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-07T14:58:21.158Z",
+  "timestamp": "2026-11-08T15:00:13.317Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -25,9 +25,40 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "234",
-          "RA": "2057",
+          "RK": "",
+          "RA": "",
           "pid": "4040726"
+        },
+        {
+          "Tid": "46,30",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "213",
+          "RA": "1992",
+          "pid": "4052836"
+        },
+        {
+          "Tid": "46,85",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4055342"
+        },
+        {
+          "Tid": "56,87",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053607",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -40,8 +71,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "193",
-          "RA": "1462",
+          "RK": "197",
+          "RA": "1495",
           "pid": "4022169"
         }
       ]
@@ -65,9 +96,19 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "260",
-          "RA": "1880",
+          "RK": "261",
+          "RA": "1909",
           "pid": "4040510"
+        },
+        {
+          "Tid": "1.14,33",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4052685"
         }
       ]
     },
@@ -80,12 +121,31 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "194",
-          "RA": "1380",
+          "RK": "196",
+          "RA": "1410",
           "pid": "4022983",
           "splits": [
             "1.10,56",
             "1.18,35"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,54",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "217",
+          "RA": "1849",
+          "pid": "4053606",
+          "splits": [
+            "56,87",
+            "59,67"
           ]
         }
       ]

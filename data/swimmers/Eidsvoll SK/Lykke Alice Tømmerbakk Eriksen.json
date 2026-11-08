@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-07T15:06:06.166Z",
+  "timestamp": "2026-11-08T15:34:32.458Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,30 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "D": "",
-          "RK": "226",
-          "RA": "2033",
+          "RK": "",
+          "RA": "",
           "pid": "4036575"
+        },
+        {
+          "Tid": "46,75",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "2011",
+          "pid": "4052924"
+        },
+        {
+          "Tid": "47,69",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053675",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,9 +51,43 @@
           "Sted": "Hagan",
           "Basseng": "25m",
           "D": "",
-          "RK": "222",
-          "RA": "1726",
+          "RK": "226",
+          "RA": "1753",
           "pid": "4036531"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "55,85",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1372",
+          "pid": "4052622"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,27",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "191",
+          "RA": "1753",
+          "pid": "4053674",
+          "splits": [
+            "47,69",
+            "59,58"
+          ]
         }
       ]
     }
