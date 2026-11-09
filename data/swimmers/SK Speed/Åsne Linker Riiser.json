@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-08T23:21:15.825Z",
+  "timestamp": "2026-11-09T11:04:05.618Z",
   "disciplines": [
     {
       "distanse": "50m Rygg",
@@ -18,6 +18,26 @@
           "RK": "91",
           "RA": "1078",
           "pid": "4050178"
+        },
+        {
+          "Tid": "52,16",
+          "Dato": "26.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4050177"
+        },
+        {
+          "Tid": "58,88",
+          "Dato": "01.02.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4050169"
         }
       ]
     },
@@ -34,6 +54,16 @@
           "RA": "1464",
           "pid": "4050182",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.00,52",
+          "Dato": "01.03.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4050173"
         }
       ]
     },
@@ -74,6 +104,55 @@
             "1.03,00",
             "1.04,32",
             "1.00,08"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "44,15",
+          "Dato": "01.03.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "182",
+          "RA": "1891",
+          "pid": "4050174"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "52,66",
+          "Dato": "26.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "1450",
+          "pid": "4050176"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.00,76",
+          "Dato": "01.02.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "173",
+          "RA": "1341",
+          "pid": "4050172",
+          "splits": [
+            "59,93",
+            "1.00,83"
           ]
         }
       ]
