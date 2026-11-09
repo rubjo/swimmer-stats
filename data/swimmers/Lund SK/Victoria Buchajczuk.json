@@ -4,7 +4,7 @@
   "club": "Lund SK",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-11-06T14:12:27.628Z",
+  "timestamp": "2026-11-08T22:20:36.771Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,19 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "182",
-          "RA": "1365",
+          "RK": "",
+          "RA": "",
           "pid": "4036377"
+        },
+        {
+          "Tid": "34,94",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "164",
+          "RA": "1089",
+          "pid": "4055726"
         }
       ]
     },
@@ -30,9 +40,43 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "129",
-          "RA": "975",
+          "RK": "134",
+          "RA": "998",
           "pid": "4036364"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "44,31",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "700",
+          "pid": "4055600"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.34,65",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "895",
+          "pid": "4056071",
+          "splits": [
+            "43,67",
+            "50,98"
+          ]
         }
       ]
     }

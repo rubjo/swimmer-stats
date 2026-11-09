@@ -4,7 +4,7 @@
   "club": "Austrheim SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-08-16T03:39:38.784Z",
+  "timestamp": "2026-11-08T22:57:36.501Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,91 @@
           "RK": "",
           "RA": "",
           "pid": "3327395"
+        },
+        {
+          "Tid": "38,76",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1477",
+          "pid": "4051217"
+        },
+        {
+          "Tid": "39,78",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4052004"
+        },
+        {
+          "Tid": "44,32",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4051552",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "50,49",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1255",
+          "pid": "4051390",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.32,38",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1443",
+          "pid": "4051551",
+          "splits": [
+            "44,32",
+            "48,06"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.51,01",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "1105",
+          "pid": "4051389",
+          "splits": [
+            "50,49",
+            "1.00,52"
+          ]
         }
       ]
     }

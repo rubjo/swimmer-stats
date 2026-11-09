@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-07T22:25:08.048Z",
+  "timestamp": "2026-11-08T22:52:09.321Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -66,8 +66,8 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "225",
+          "RA": "1939",
           "pid": "4031863"
         },
         {
@@ -80,6 +80,27 @@
           "RA": "",
           "pid": "4032418",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "47,44",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4058142"
+        },
+        {
+          "Tid": "48,22",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4058447",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -168,6 +189,27 @@
           "RA": "",
           "pid": "4032021",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "48,58",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4058080"
+        },
+        {
+          "Tid": "51,51",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4058618",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -208,13 +250,28 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "D": "",
-          "RK": "107",
-          "RA": "1048",
+          "RK": "",
+          "RA": "",
           "pid": "4032020",
           "splits": [
             "53,03",
             "1.00,03"
           ]
+        },
+        {
+          "Tid": "1.51,24",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4058619",
+          "splits": [
+            "51,51",
+            "59,73"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -249,6 +306,20 @@
             "1.08,41"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.45,68",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4058446",
+          "splits": [
+            "48,22",
+            "57,46"
+          ]
         }
       ]
     },
@@ -261,14 +332,35 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "186",
+          "RA": "1389",
           "pid": "4032417",
           "splits": [
             "56,09",
             "1.08,41",
             "1.05,57",
             "1.09,02"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.56,16",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4058617",
+          "splits": [
+            "51,51",
+            "59,73",
+            "1.04,28",
+            "1.00,64"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-07T22:23:21.605Z",
+  "timestamp": "2026-11-08T22:45:38.246Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,30 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "290",
-          "RA": "1998",
+          "RK": "",
+          "RA": "",
           "pid": "4004630"
+        },
+        {
+          "Tid": "45,88",
+          "Dato": "07.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "286",
+          "RA": "1976",
+          "pid": "4056938"
+        },
+        {
+          "Tid": "47,83",
+          "Dato": "08.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4057261",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,8 +51,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "207",
-          "RA": "1464",
+          "RK": "214",
+          "RA": "1490",
           "pid": "4004629"
         },
         {
@@ -44,6 +65,28 @@
           "RA": "",
           "pid": "4004632",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "56,47",
+          "Dato": "08.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4057168",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,11",
+          "Dato": "07.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4057454",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -56,12 +99,96 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "198",
-          "RA": "1318",
+          "RK": "",
+          "RA": "",
           "pid": "4004631",
           "splits": [
             "58,35",
             "1.01,39"
+          ]
+        },
+        {
+          "Tid": "1.58,32",
+          "Dato": "08.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1312",
+          "pid": "4057167",
+          "splits": [
+            "56,47",
+            "1.01,85"
+          ]
+        },
+        {
+          "Tid": "2.04,48",
+          "Dato": "07.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4057455",
+          "splits": [
+            "58,11",
+            "1.06,37"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "53,53",
+          "Dato": "08.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "205",
+          "RA": "1324",
+          "pid": "4056809"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.40,39",
+          "Dato": "08.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "239",
+          "RA": "1645",
+          "pid": "4057260",
+          "splits": [
+            "47,83",
+            "52,56"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.19,54",
+          "Dato": "07.11.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "207",
+          "RA": "1136",
+          "pid": "4057453",
+          "splits": [
+            "58,11",
+            "1.06,37",
+            "1.09,34",
+            "1.05,72"
           ]
         }
       ]

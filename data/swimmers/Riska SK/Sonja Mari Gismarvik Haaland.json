@@ -4,7 +4,7 @@
   "club": "Riska SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-06T15:10:49.413Z",
+  "timestamp": "2026-11-08T22:56:35.968Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -136,6 +136,16 @@
           "RA": "",
           "pid": "4026823",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "34,99",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4055724"
         }
       ]
     },
@@ -277,8 +287,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "166",
-          "RA": "1020",
+          "RK": "",
+          "RA": "",
           "pid": "4009037"
         },
         {
@@ -415,8 +425,8 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "127",
-          "RA": "951",
+          "RK": "",
+          "RA": "",
           "pid": "4026822",
           "splits": [
             "37,96",
@@ -675,8 +685,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "176",
-          "RA": "863",
+          "RK": "",
+          "RA": "",
           "pid": "4010185",
           "splits": [
             "51,79",
@@ -696,8 +706,8 @@
           "Sted": "Egersund",
           "Basseng": "25m",
           "D": "",
-          "RK": "161",
-          "RA": "895",
+          "RK": "",
+          "RA": "",
           "pid": "3998669",
           "splits": [
             "43,38",
@@ -721,14 +731,51 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "185",
-          "RA": "913",
+          "RK": "",
+          "RA": "",
           "pid": "4027077",
           "splits": [
             "52,17",
             "55,49",
             "57,01",
             "53,65"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,61",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "1349",
+          "pid": "4056436",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.27,04",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4056435",
+          "splits": [
+            "49,61",
+            "55,39",
+            "57,80",
+            "44,24"
           ]
         }
       ]

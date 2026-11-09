@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-07T22:04:10.892Z",
+  "timestamp": "2026-11-08T22:30:05.283Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -69,9 +69,19 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
+          "RK": "94",
+          "RA": "1768",
+          "pid": "4040637"
+        },
+        {
+          "Tid": "41,97",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4040637"
+          "pid": "4052798"
         }
       ]
     },
@@ -94,8 +104,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "54",
+          "RA": "1334",
           "pid": "3986444"
         },
         {
@@ -191,8 +201,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "40",
+          "RA": "950",
           "pid": "4022106"
         }
       ]
@@ -206,14 +216,35 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "76",
+          "RA": "1245",
           "pid": "4023269",
           "splits": [
             "46,37",
             "53,53",
             "55,79",
             "52,83"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.31,05",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "806",
+          "pid": "4053852",
+          "splits": [
+            "50,47",
+            "54,49",
+            "53,50",
+            "52,59"
           ]
         }
       ]

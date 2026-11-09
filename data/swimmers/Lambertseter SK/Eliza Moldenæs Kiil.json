@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-08T14:17:25.466Z",
+  "timestamp": "2026-11-08T23:17:28.079Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,31 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "272",
-          "RA": "1891",
+          "RK": "275",
+          "RA": "1913",
           "pid": "4040827"
+        },
+        {
+          "Tid": "48,89",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053649",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "52,62",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4054584",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -30,9 +52,64 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "221",
-          "RA": "1502",
+          "RK": "228",
+          "RA": "1527",
           "pid": "4040567"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,27",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "261",
+          "RA": "1758",
+          "pid": "4053648",
+          "splits": [
+            "48,89",
+            "58,38"
+          ]
+        },
+        {
+          "Tid": "1.54,72",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4054585",
+          "splits": [
+            "52,62",
+            "1.02,10"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.56,82",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "231",
+          "RA": "1466",
+          "pid": "4054583",
+          "splits": [
+            "52,62",
+            "1.02,10",
+            "1.03,64",
+            "58,46"
+          ]
         }
       ]
     }

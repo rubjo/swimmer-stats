@@ -4,7 +4,7 @@
   "club": "Kattem SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-08-17T11:05:27.994Z",
+  "timestamp": "2026-11-08T23:39:11.710Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,70 @@
           "RK": "192",
           "RA": "2101",
           "pid": "3813562"
+        },
+        {
+          "Tid": "46,03",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1917",
+          "pid": "4058135"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,41",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "157",
+          "RA": "1350",
+          "pid": "4058352",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.48,33",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "744",
+          "pid": "4058309",
+          "splits": [
+            "53,69",
+            "54,64"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,90",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1147",
+          "pid": "4058351",
+          "splits": [
+            "54,41",
+            "1.04,49"
+          ]
         }
       ]
     }

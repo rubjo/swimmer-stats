@@ -4,7 +4,7 @@
   "club": "Lørenskog/Rælingen",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-07T22:41:03.620Z",
+  "timestamp": "2026-11-08T23:03:51.816Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,19 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "252",
-          "RA": "2130",
+          "RK": "",
+          "RA": "",
           "pid": "4022343"
+        },
+        {
+          "Tid": "48,75",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "240",
+          "RA": "2100",
+          "pid": "4052863"
         }
       ]
     },
@@ -30,8 +40,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "186",
-          "RA": "1425",
+          "RK": "189",
+          "RA": "1464",
           "pid": "4022147"
         }
       ]
@@ -45,9 +55,54 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "253",
-          "RA": "1843",
+          "RK": "255",
+          "RA": "1876",
           "pid": "4022242"
+        },
+        {
+          "Tid": "1.14,67",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053408",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.02,20",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1632",
+          "pid": "4052516"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.42,23",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "222",
+          "RA": "1617",
+          "pid": "4053407",
+          "splits": [
+            "1.14,67",
+            "1.27,56"
+          ]
         }
       ]
     }

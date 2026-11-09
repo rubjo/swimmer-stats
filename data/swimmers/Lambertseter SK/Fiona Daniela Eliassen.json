@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-06T14:29:25.078Z",
+  "timestamp": "2026-11-08T22:35:48.655Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -150,6 +150,16 @@
           "RA": "",
           "pid": "4023824",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "36,04",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "1199",
+          "pid": "4052896"
         }
       ]
     },
@@ -172,8 +182,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "117",
-          "RA": "944",
+          "RK": "120",
+          "RA": "967",
           "pid": "4022152"
         }
       ]
@@ -266,9 +276,30 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "141",
-          "RA": "1154",
+          "RK": "",
+          "RA": "",
           "pid": "4022244"
+        },
+        {
+          "Tid": "46,40",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "86",
+          "RA": "891",
+          "pid": "4052733"
+        },
+        {
+          "Tid": "50,61",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4054255",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -491,13 +522,28 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "154",
-          "RA": "1105",
+          "RK": "",
+          "RA": "",
           "pid": "4005053",
           "splits": [
             "55,19",
             "56,42"
           ]
+        },
+        {
+          "Tid": "1.47,10",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "130",
+          "RA": "974",
+          "pid": "4054256",
+          "splits": [
+            "50,61",
+            "56,49"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -543,8 +589,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "123",
-          "RA": "1063",
+          "RK": "127",
+          "RA": "1074",
           "pid": "4005291",
           "splits": [
             "45,02",
@@ -633,8 +679,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "166",
-          "RA": "1081",
+          "RK": "175",
+          "RA": "1100",
           "pid": "4023823",
           "splits": [
             "49,01",
@@ -645,6 +691,62 @@
             "55,18",
             "53,52",
             "49,17"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "47,32",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "147",
+          "RA": "1251",
+          "pid": "4053087",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.47,97",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "867",
+          "pid": "4053086",
+          "splits": [
+            "47,32",
+            "1.00,65"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.40,34",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "97",
+          "RA": "718",
+          "pid": "4054254",
+          "splits": [
+            "50,61",
+            "56,49",
+            "57,83",
+            "55,41"
           ]
         }
       ]

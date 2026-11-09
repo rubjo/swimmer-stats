@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-11-02T12:05:45.882Z",
+  "timestamp": "2026-11-09T00:07:01.773Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,27 @@
           "RK": "",
           "RA": "",
           "pid": "3876604"
+        },
+        {
+          "Tid": "38,21",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "236",
+          "RA": "1436",
+          "pid": "4058195"
+        },
+        {
+          "Tid": "42,12",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4058523",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -33,6 +54,65 @@
           "RK": "",
           "RA": "",
           "pid": "3876601"
+        },
+        {
+          "Tid": "51,55",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "229",
+          "RA": "1322",
+          "pid": "4058118"
+        },
+        {
+          "Tid": "52,75",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4058426",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.26,39",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "221",
+          "RA": "1238",
+          "pid": "4058522",
+          "splits": [
+            "42,12",
+            "44,27"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,65",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "225",
+          "RA": "1296",
+          "pid": "4058425",
+          "splits": [
+            "52,75",
+            "1.04,90"
+          ]
         }
       ]
     }

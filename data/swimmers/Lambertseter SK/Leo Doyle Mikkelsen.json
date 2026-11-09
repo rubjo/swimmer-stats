@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-08T14:37:36.255Z",
+  "timestamp": "2026-11-08T23:22:33.952Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -91,8 +91,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "89",
-          "RA": "1739",
+          "RK": "92",
+          "RA": "1754",
           "pid": "3987092"
         },
         {
@@ -287,10 +287,21 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "D",
-          "RK": "52",
-          "RA": "1313",
+          "RK": "53",
+          "RA": "1325",
           "pid": "4042616",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "53,81",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053001",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -399,8 +410,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "48",
-          "RA": "1242",
+          "RK": "50",
+          "RA": "1254",
           "pid": "3986849"
         },
         {
@@ -413,6 +424,17 @@
           "RA": "",
           "pid": "4022551",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,93",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4054065",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -512,8 +534,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "59",
-          "RA": "1439",
+          "RK": "61",
+          "RA": "1444",
           "pid": "4022731",
           "splits": [
             "43,22",
@@ -823,13 +845,28 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "39",
-          "RA": "1024",
+          "RK": "40",
+          "RA": "1041",
           "pid": "4022550",
           "splits": [
             "52,95",
             "59,04"
           ]
+        },
+        {
+          "Tid": "1.57,66",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4054066",
+          "splits": [
+            "54,93",
+            "1.02,73"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -907,8 +944,8 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "D",
-          "RK": "45",
-          "RA": "1079",
+          "RK": "49",
+          "RA": "1099",
           "pid": "4042925",
           "splits": [
             "44,12",
@@ -977,8 +1014,8 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "22",
-          "RA": "769",
+          "RK": "24",
+          "RA": "779",
           "pid": "4042615",
           "splits": [
             "47,69",
@@ -998,8 +1035,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "27",
-          "RA": "758",
+          "RK": "30",
+          "RA": "776",
           "pid": "4022997",
           "splits": [
             "50,14",
@@ -1039,8 +1076,8 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "29",
-          "RA": "868",
+          "RK": "32",
+          "RA": "882",
           "pid": "4042922",
           "splits": [
             "44,12",
@@ -1051,6 +1088,46 @@
             "50,84",
             "51,00",
             "42,93"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.53,33",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "36",
+          "RA": "971",
+          "pid": "4053000",
+          "splits": [
+            "53,81",
+            "59,52"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.00,35",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "862",
+          "pid": "4054064",
+          "splits": [
+            "54,93",
+            "1.02,73",
+            "1.01,86",
+            "1.00,83"
           ]
         }
       ]

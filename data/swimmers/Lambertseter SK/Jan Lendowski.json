@@ -1,0 +1,103 @@
+{
+  "swimmerId": "54688",
+  "name": "Jan Lendowski",
+  "club": "Lambertseter SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-11-08T21:59:03.268Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "59,08",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "112",
+          "RA": "1505",
+          "pid": "4054052",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.08,36",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "108",
+          "RA": "1567",
+          "pid": "4052447"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,26",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "94",
+          "RA": "1255",
+          "pid": "4054053",
+          "splits": [
+            "59,08",
+            "1.08,18"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.14,15",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "930",
+          "pid": "4053856",
+          "splits": [
+            "1.01,59",
+            "1.06,96",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.25,86",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "962",
+          "pid": "4054051",
+          "splits": [
+            "59,08",
+            "1.08,18",
+            "1.13,09",
+            "1.05,51"
+          ]
+        }
+      ]
+    }
+  ]
+}

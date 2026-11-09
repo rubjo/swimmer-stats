@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-07T21:48:23.303Z",
+  "timestamp": "2026-11-08T22:02:52.573Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,54 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "293",
-          "RA": "2017",
+          "RK": "299",
+          "RA": "2046",
           "pid": "4040819"
+        },
+        {
+          "Tid": "48,67",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053669",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "57,86",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "220",
+          "RA": "1411",
+          "pid": "4052614"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.49,53",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "266",
+          "RA": "1785",
+          "pid": "4053668",
+          "splits": [
+            "48,67",
+            "1.00,86"
+          ]
         }
       ]
     }

@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-07T22:42:39.193Z",
+  "timestamp": "2026-11-08T23:05:32.910Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "134",
+          "RA": "1920",
           "pid": "4009138"
         }
       ]
@@ -30,8 +30,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "93",
+          "RA": "1434",
           "pid": "4008969"
         },
         {
@@ -56,8 +56,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "104",
+          "RA": "1230",
           "pid": "4008835"
         }
       ]
@@ -71,8 +71,8 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "D",
-          "RK": "103",
-          "RA": "1275",
+          "RK": "104",
+          "RA": "1287",
           "pid": "4027162",
           "splits": [
             "59,66",
@@ -91,14 +91,72 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "75",
+          "RA": "983",
           "pid": "4027160",
           "splits": [
             "59,66",
             "1.11,01",
             "1.13,66",
             "1.11,17"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.02,65",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "99",
+          "RA": "1539",
+          "pid": "4056406",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.21,85",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "957",
+          "pid": "4056405",
+          "splits": [
+            "1.02,65",
+            "1.11,08",
+            "1.10,16",
+            "57,96"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.38,80",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "74",
+          "RA": "949",
+          "pid": "4056091",
+          "splits": [
+            "1.04,18",
+            "1.12,83",
+            "1.11,89",
+            "1.09,90"
           ]
         }
       ]

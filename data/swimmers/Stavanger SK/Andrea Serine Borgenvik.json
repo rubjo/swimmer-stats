@@ -4,7 +4,7 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-07T21:53:54.219Z",
+  "timestamp": "2026-11-08T22:05:36.203Z",
   "disciplines": [
     {
       "distanse": "50m Rygg",
@@ -15,9 +15,19 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "107",
-          "RA": "1139",
+          "RK": "108",
+          "RA": "1168",
           "pid": "4025855"
+        },
+        {
+          "Tid": "51,53",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4055491"
         }
       ]
     },
@@ -30,10 +40,21 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "D",
-          "RK": "224",
-          "RA": "1731",
+          "RK": "",
+          "RA": "",
           "pid": "4026510",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "58,21",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "204",
+          "RA": "1696",
+          "pid": "4056191",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -46,12 +67,48 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "187",
-          "RA": "1460",
+          "RK": "",
+          "RA": "",
           "pid": "4026509",
           "splits": [
             "1.00,60",
             "1.08,24"
+          ]
+        },
+        {
+          "Tid": "2.07,04",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "178",
+          "RA": "1451",
+          "pid": "4056192",
+          "splits": [
+            "58,21",
+            "1.08,83"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.19,34",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1135",
+          "pid": "4056190",
+          "splits": [
+            "58,21",
+            "1.08,83",
+            "1.07,54",
+            "1.04,76"
           ]
         }
       ]

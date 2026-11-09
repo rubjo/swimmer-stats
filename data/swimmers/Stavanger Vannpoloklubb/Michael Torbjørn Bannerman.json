@@ -4,7 +4,7 @@
   "club": "Stavanger Vannpoloklubb",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-11-07T21:50:44.141Z",
+  "timestamp": "2026-11-08T22:11:23.115Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -740,8 +740,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "80",
+          "RA": "473",
           "pid": "4009149"
         }
       ]
@@ -1210,9 +1210,20 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
+          "RK": "37",
+          "RA": "242",
+          "pid": "4037168"
+        },
+        {
+          "Tid": "29,76",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4037168"
+          "pid": "4055789",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -1315,8 +1326,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "61",
+          "RA": "311",
           "pid": "4008843"
         }
       ]
@@ -2216,8 +2227,8 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "40",
+          "RA": "191",
           "pid": "4026257",
           "splits": [
             "30,15",
@@ -2238,6 +2249,20 @@
             "37,83"
           ],
           "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "1.04,93",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4055788",
+          "splits": [
+            "29,76",
+            "35,17"
+          ]
         }
       ]
     },
@@ -2381,8 +2406,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "57",
+          "RA": "280",
           "pid": "4009925",
           "splits": [
             "31,78",
@@ -3458,8 +3483,8 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "16",
-          "RA": "80",
+          "RK": "17",
+          "RA": "81",
           "pid": "4027012",
           "splits": [
             "31,84",

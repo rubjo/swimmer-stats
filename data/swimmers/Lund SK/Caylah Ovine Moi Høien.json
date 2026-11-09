@@ -4,7 +4,7 @@
   "club": "Lund SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-08T14:45:08.760Z",
+  "timestamp": "2026-11-08T23:44:15.813Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,19 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "202",
-          "RA": "1944",
+          "RK": "",
+          "RA": "",
           "pid": "4036376"
+        },
+        {
+          "Tid": "43,17",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1827",
+          "pid": "4055714"
         }
       ]
     },
@@ -30,9 +40,24 @@
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "164",
-          "RA": "1331",
+          "RK": "165",
+          "RA": "1358",
           "pid": "4036365"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,94",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "175",
+          "RA": "1588",
+          "pid": "4055595"
         }
       ]
     }

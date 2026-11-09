@@ -4,7 +4,7 @@
   "club": "Elverum Svømming",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-11-07T22:19:26.468Z",
+  "timestamp": "2026-11-08T22:45:28.712Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -345,8 +345,8 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "91",
+          "RA": "612",
           "pid": "3998944"
         },
         {
@@ -369,6 +369,27 @@
           "RK": "",
           "RA": "",
           "pid": "4041414",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "28,07",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4055326"
+        },
+        {
+          "Tid": "29,14",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4053546",
           "partOf": "100m Fri"
         }
       ]
@@ -755,9 +776,19 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
+          "RK": "47",
+          "RA": "286",
+          "pid": "4040329"
+        },
+        {
+          "Tid": "31,87",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4040329"
+          "pid": "4052573"
         }
       ]
     },
@@ -1025,12 +1056,26 @@
           "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "76",
+          "RA": "492",
           "pid": "4041413",
           "splits": [
             "29,41",
             "32,04"
+          ]
+        },
+        {
+          "Tid": "1.02,87",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4053545",
+          "splits": [
+            "29,14",
+            "33,73"
           ]
         }
       ]
@@ -1170,8 +1215,8 @@
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "36",
+          "RA": "241",
           "pid": "3998993",
           "splits": [
             "33,87",

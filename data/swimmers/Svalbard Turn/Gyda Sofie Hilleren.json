@@ -4,7 +4,7 @@
   "club": "Svalbard Turn",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-08-16T03:04:41.695Z",
+  "timestamp": "2026-11-08T22:40:57.833Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,71 @@
           "RK": "",
           "RA": "",
           "pid": "3823974"
+        },
+        {
+          "Tid": "47,83",
+          "Dato": "08.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "231",
+          "RA": "2065",
+          "pid": "4050900"
+        },
+        {
+          "Tid": "49,21",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4050530"
+        },
+        {
+          "Tid": "54,81",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4050694",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.04,68",
+          "Dato": "08.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1491",
+          "pid": "4050429"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,57",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "219",
+          "RA": "1856",
+          "pid": "4050693",
+          "splits": [
+            "54,81",
+            "1.01,76"
+          ]
         }
       ]
     }
