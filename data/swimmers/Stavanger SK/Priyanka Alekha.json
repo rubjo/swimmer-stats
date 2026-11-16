@@ -4,31 +4,11 @@
   "club": "Stavanger SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-15T22:59:13.836Z",
+  "timestamp": "2026-11-16T10:40:03.953Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "45,58",
-          "Dato": "25.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4009192"
-        },
-        {
-          "Tid": "44,50",
-          "Dato": "17.10.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4026128"
-        },
         {
           "Tid": "43,97",
           "Dato": "07.11.2026",
@@ -38,22 +18,32 @@
           "RK": "176",
           "RA": "1883",
           "pid": "4055694"
+        },
+        {
+          "Tid": "44,50",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4244276"
+        },
+        {
+          "Tid": "45,58",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4227336"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "55,38",
-          "Dato": "27.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4008748"
-        },
         {
           "Tid": "53,51",
           "Dato": "07.11.2026",
@@ -63,6 +53,16 @@
           "RK": "139",
           "RA": "1475",
           "pid": "4055438"
+        },
+        {
+          "Tid": "55,38",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4226891"
         }
       ]
     },

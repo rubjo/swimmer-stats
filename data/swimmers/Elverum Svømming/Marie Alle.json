@@ -4,7 +4,7 @@
   "club": "Elverum Svømming",
   "birthYear": 2003,
   "gender": "female",
-  "timestamp": "2026-11-09T11:32:10.592Z",
+  "timestamp": "2026-11-16T10:40:09.289Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -456,8 +456,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "106",
-          "RA": "598",
+          "RK": "107",
+          "RA": "600",
           "pid": "3900998",
           "splits": [
             ""
@@ -543,16 +543,6 @@
             ""
           ],
           "partOf": "1500m Fri"
-        },
-        {
-          "Tid": "31,96",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3902192"
         },
         {
           "Tid": "32,02",
@@ -1622,6 +1612,16 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "31,96",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4122638"
         }
       ]
     },
@@ -3077,20 +3077,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "39,73",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901368",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
           "Tid": "39,76",
           "Dato": "28.09.2019",
           "Sted": "Stavanger Svømmehall",
@@ -3749,6 +3735,20 @@
             ""
           ],
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "39,73",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121777",
+          "partOf": "200m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -5254,7 +5254,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "54",
-          "RA": "393",
+          "RA": "397",
           "pid": "3901130",
           "splits": [
             "36,15",
@@ -6273,27 +6273,12 @@
           "Basseng": "25m",
           "D": "",
           "RK": "42",
-          "RA": "271",
+          "RA": "272",
           "pid": "3900683",
           "splits": [
             "39,06",
             "48,13"
           ]
-        },
-        {
-          "Tid": "1.27,27",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901369",
-          "splits": [
-            "39,73",
-            "47,54"
-          ],
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "1.27,46",
@@ -6702,6 +6687,21 @@
             "56,73",
             "1.05,19"
           ]
+        },
+        {
+          "Tid": "1.27,27",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121778",
+          "splits": [
+            "39,73",
+            "47,54"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -9045,7 +9045,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "17",
-          "RA": "285",
+          "RA": "286",
           "pid": "3901367",
           "splits": [
             "39,73",

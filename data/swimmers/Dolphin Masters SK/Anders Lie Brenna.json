@@ -4,21 +4,11 @@
   "club": "Dolphin Masters SK",
   "birthYear": 1974,
   "gender": "male",
-  "timestamp": "2026-11-09T11:07:56.207Z",
+  "timestamp": "2026-11-16T11:16:54.310Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "27,69",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "206",
-          "RA": "561",
-          "pid": "3900177"
-        },
         {
           "Tid": "28,50",
           "Dato": "13.03.2010",
@@ -42,20 +32,6 @@
           "RK": "130",
           "RA": "601",
           "pid": "1277098",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "29,58",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900736",
           "splits": [
             ""
           ],
@@ -88,6 +64,30 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "27,69",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "206",
+          "RA": "562",
+          "pid": "4120566"
+        },
+        {
+          "Tid": "29,58",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121132",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -100,9 +100,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "174",
-          "RA": "502",
-          "pid": "3899829"
+          "RK": "178",
+          "RA": "508",
+          "pid": "4120212"
         }
       ]
     },
@@ -155,9 +155,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "F",
-          "RK": "99",
-          "RA": "359",
-          "pid": "3902247"
+          "RK": "100",
+          "RA": "363",
+          "pid": "4122695"
         }
       ]
     },
@@ -212,8 +212,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "170",
-          "RA": "552",
+          "RK": "173",
+          "RA": "",
           "pid": "3900735",
           "splits": [
             "29,58",

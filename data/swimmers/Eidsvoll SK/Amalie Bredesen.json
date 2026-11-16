@@ -4,35 +4,11 @@
   "club": "Eidsvoll SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-09T11:13:08.601Z",
+  "timestamp": "2026-11-16T11:23:40.141Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "52,97",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "171",
-          "RA": "1316",
-          "pid": "3966088"
-        },
-        {
-          "Tid": "54,34",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3966095",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "56,13",
           "Dato": "13.06.2025",
@@ -56,6 +32,30 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "52,97",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "171",
+          "RA": "1316",
+          "pid": "4181708"
+        },
+        {
+          "Tid": "54,34",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4182464",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -70,11 +70,11 @@
           "D": "D",
           "RK": "153",
           "RA": "1001",
-          "pid": "3966091",
+          "pid": "4182131",
+          "partOf": "100m Bryst",
           "splits": [
             ""
-          ],
-          "partOf": "100m Bryst"
+          ]
         }
       ]
     },
@@ -89,7 +89,7 @@
           "D": "",
           "RK": "113",
           "RA": "793",
-          "pid": "3966082"
+          "pid": "4181290"
         }
       ]
     },
@@ -103,7 +103,7 @@
           "Basseng": "50m",
           "D": "",
           "RK": "138",
-          "RA": "1111",
+          "RA": "",
           "pid": "3966094",
           "splits": [
             "54,34",
@@ -136,7 +136,7 @@
           "Basseng": "50m",
           "D": "",
           "RK": "131",
-          "RA": "796",
+          "RA": "",
           "pid": "3966090",
           "splits": [
             "1.08,14",

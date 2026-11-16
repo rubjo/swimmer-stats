@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 1958,
   "gender": "male",
-  "timestamp": "2026-11-09T12:29:53.595Z",
+  "timestamp": "2026-11-16T14:00:18.176Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -366,16 +366,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "44,63",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "190",
-          "RA": "926",
-          "pid": "3900071"
-        },
-        {
           "Tid": "45,50",
           "Dato": "14.10.2016",
           "Sted": "Asker",
@@ -519,17 +509,6 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "50,54",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900566",
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "51,71",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -585,6 +564,27 @@
           "partOf": "200m Bryst"
         },
         {
+          "Tid": "44,63",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "195",
+          "RA": "932",
+          "pid": "4120460"
+        },
+        {
+          "Tid": "50,54",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120962",
+          "partOf": "100m Bryst"
+        },
+        {
           "Tid": "54,48",
           "Dato": "21.03.2026",
           "Sted": "Stavanger",
@@ -592,7 +592,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3901275",
+          "pid": "4121684",
           "partOf": "200m Bryst"
         }
       ]
@@ -872,20 +872,6 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "1.44,98",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "130",
-          "RA": "913",
-          "pid": "3900565",
-          "splits": [
-            "50,54",
-            "54,44"
-          ]
-        },
-        {
           "Tid": "1.46,18",
           "Dato": "27.04.2024",
           "Sted": "Narvik",
@@ -930,21 +916,6 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "1.54,45",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901276",
-          "splits": [
-            "54,48",
-            "59,97"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
           "Tid": "1.54,55",
           "Dato": "27.04.2024",
           "Sted": "Narvik",
@@ -971,6 +942,35 @@
           "splits": [
             "54,31",
             "1.02,13"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.44,98",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "919",
+          "pid": "4120961",
+          "splits": [
+            "50,54",
+            "54,44"
+          ]
+        },
+        {
+          "Tid": "1.54,45",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121685",
+          "splits": [
+            "54,48",
+            "59,97"
           ],
           "partOf": "200m Bryst"
         }
@@ -1232,9 +1232,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "61",
-          "RA": "853",
-          "pid": "3901274",
+          "RK": "63",
+          "RA": "857",
+          "pid": "4121683",
           "splits": [
             "54,48",
             "59,97",

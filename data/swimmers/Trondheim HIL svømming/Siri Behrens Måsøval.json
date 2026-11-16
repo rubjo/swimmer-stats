@@ -4,7 +4,7 @@
   "club": "Trondheim HIL svømming",
   "birthYear": 1990,
   "gender": "female",
-  "timestamp": "2026-11-09T13:27:17.288Z",
+  "timestamp": "2026-11-16T12:12:59.183Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "231",
-          "RA": "1984",
+          "RK": "",
+          "RA": "",
           "pid": "3883293"
         },
         {
@@ -28,17 +28,6 @@
           "RK": "174",
           "RA": "2011",
           "pid": "3419722",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "47,05",
-          "Dato": "08.03.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3883413",
           "partOf": "100m Fri"
         },
         {
@@ -94,6 +83,17 @@
           "partOf": "100m Fri"
         },
         {
+          "Tid": "47,05",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4103900",
+          "partOf": "100m Fri"
+        },
+        {
           "Tid": "51,91",
           "Dato": "26.09.2026",
           "Sted": "Trondheim",
@@ -101,24 +101,13 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4016422"
+          "pid": "4234572"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "54,49",
-          "Dato": "07.03.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "112",
-          "RA": "1517",
-          "pid": "3883352",
-          "partOf": "100m Bryst"
-        },
         {
           "Tid": "55,48",
           "Dato": "09.03.2025",
@@ -151,16 +140,6 @@
           "pid": "3813547"
         },
         {
-          "Tid": "57,98",
-          "Dato": "08.03.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3883251"
-        },
-        {
           "Tid": "58,23",
           "Dato": "10.03.2024",
           "Sted": "Trondheim",
@@ -180,6 +159,27 @@
           "RA": "",
           "pid": "3419688",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "54,49",
+          "Dato": "07.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4103835",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,98",
+          "Dato": "08.03.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4103731"
         }
       ]
     },
@@ -192,8 +192,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "92",
-          "RA": "1387",
+          "RK": "",
+          "RA": "",
           "pid": "3883224"
         },
         {
@@ -251,8 +251,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "168",
-          "RA": "1808",
+          "RK": "",
+          "RA": "",
           "pid": "3883412",
           "splits": [
             "47,05",
@@ -298,8 +298,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "83",
-          "RA": "1355",
+          "RK": "",
+          "RA": "",
           "pid": "3883351",
           "splits": [
             "54,49",
@@ -345,8 +345,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "57",
-          "RA": "1084",
+          "RK": "",
+          "RA": "",
           "pid": "3883315",
           "splits": [
             "58,60",

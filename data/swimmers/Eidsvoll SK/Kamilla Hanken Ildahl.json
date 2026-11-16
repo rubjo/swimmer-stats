@@ -4,21 +4,11 @@
   "club": "Eidsvoll SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-11-09T11:58:26.769Z",
+  "timestamp": "2026-11-16T12:52:16.814Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "40,87",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "202",
-          "RA": "1100",
-          "pid": "3963430"
-        },
         {
           "Tid": "43,07",
           "Dato": "31.05.2025",
@@ -28,22 +18,22 @@
           "RK": "",
           "RA": "",
           "pid": "3712348"
+        },
+        {
+          "Tid": "40,87",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "202",
+          "RA": "1100",
+          "pid": "4183641"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "47,33",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "117",
-          "RA": "534",
-          "pid": "3961277"
-        },
         {
           "Tid": "47,62",
           "Dato": "08.11.2025",
@@ -66,17 +56,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "50,23",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3961937",
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "51,47",
           "Dato": "01.06.2025",
           "Sted": "Fredrikstad",
@@ -96,23 +75,33 @@
           "RK": "",
           "RA": "",
           "pid": "3712346"
+        },
+        {
+          "Tid": "47,33",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "117",
+          "RA": "534",
+          "pid": "4181460"
+        },
+        {
+          "Tid": "50,23",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4182129",
+          "partOf": "100m Bryst"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.27,96",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "F",
-          "RK": "171",
-          "RA": "874",
-          "pid": "3963431",
-          "splits": []
-        },
         {
           "Tid": "1.45,03",
           "Dato": "01.06.2025",
@@ -126,6 +115,17 @@
             "",
             ""
           ]
+        },
+        {
+          "Tid": "1.27,96",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "F",
+          "RK": "171",
+          "RA": "874",
+          "pid": "4183642",
+          "splits": []
         }
       ]
     },
@@ -147,20 +147,6 @@
           ]
         },
         {
-          "Tid": "1.45,06",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "105",
-          "RA": "442",
-          "pid": "3961936",
-          "splits": [
-            "50,23",
-            "54,83"
-          ]
-        },
-        {
           "Tid": "1.48,86",
           "Dato": "01.06.2025",
           "Sted": "Fredrikstad",
@@ -172,6 +158,20 @@
           "splits": [
             "51,47",
             "57,39"
+          ]
+        },
+        {
+          "Tid": "1.45,06",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "105",
+          "RA": "442",
+          "pid": "4182128",
+          "splits": [
+            "50,23",
+            "54,83"
           ]
         }
       ]

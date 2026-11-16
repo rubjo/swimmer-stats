@@ -4,35 +4,11 @@
   "club": "Sandnes SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-15T23:32:48.911Z",
+  "timestamp": "2026-11-16T11:59:13.898Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "35,65",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3933618"
-        },
-        {
-          "Tid": "36,85",
-          "Dato": "08.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3947551",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "36,96",
           "Dato": "26.09.2025",
@@ -62,30 +38,6 @@
           "RK": "",
           "RA": "",
           "pid": "3745290"
-        },
-        {
-          "Tid": "37,92",
-          "Dato": "11.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3921582",
-          "splits": [
-            ""
-          ],
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "37,96",
-          "Dato": "11.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3843633"
         },
         {
           "Tid": "38,02",
@@ -128,48 +80,6 @@
           "pid": "3830396"
         },
         {
-          "Tid": "38,94",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3948205",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "39,01",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3934807",
-          "splits": [
-            ""
-          ],
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "39,10",
-          "Dato": "06.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3866572",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "40,48",
           "Dato": "13.12.2025",
           "Sted": "Sandnes",
@@ -182,34 +92,6 @@
             ""
           ],
           "partOf": "200m Fri"
-        },
-        {
-          "Tid": "40,58",
-          "Dato": "10.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3843975",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "40,58",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3867718",
-          "splits": [
-            ""
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "40,76",
@@ -710,19 +592,8 @@
           "Basseng": "25m",
           "D": "",
           "RK": "75",
-          "RA": "1076",
-          "pid": "3979383"
-        },
-        {
-          "Tid": "39,14",
-          "Dato": "27.06.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3979655",
-          "partOf": "100m Fri"
+          "RA": "1078",
+          "pid": "4199471"
         },
         {
           "Tid": "34,85",
@@ -732,7 +603,52 @@
           "D": "",
           "RK": "75",
           "RA": "1078",
-          "pid": "3988094"
+          "pid": "4208148"
+        },
+        {
+          "Tid": "34,88",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4227356"
+        },
+        {
+          "Tid": "35,59",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4244965",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "35,65",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4153843"
+        },
+        {
+          "Tid": "36,85",
+          "Dato": "08.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4167720",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         },
         {
           "Tid": "36,94",
@@ -742,7 +658,18 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3988499",
+          "pid": "4208553",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "36,95",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4272101",
           "partOf": "200m Fri"
         },
         {
@@ -753,72 +680,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3988342",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "38,93",
-          "Dato": "13.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3998375",
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "38,94",
-          "Dato": "12.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3998690",
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "34,88",
-          "Dato": "25.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4009212"
-        },
-        {
-          "Tid": "37,95",
-          "Dato": "27.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4010915",
-          "partOf": "800m Fri"
-        },
-        {
-          "Tid": "38,31",
-          "Dato": "26.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4010814",
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "35,59",
-          "Dato": "16.10.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4026809",
+          "pid": "4208396",
           "partOf": "100m Fri"
         },
         {
@@ -829,63 +691,163 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4027684",
+          "pid": "4245840",
           "partOf": "400m Fri"
         },
         {
-          "Tid": "36,95",
-          "Dato": "08.11.2026",
-          "Sted": "Klepp",
+          "Tid": "37,92",
+          "Dato": "11.04.2026",
+          "Sted": "Karmøy",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4056344",
+          "pid": "4141925",
+          "partOf": "400m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "37,95",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4229059",
+          "partOf": "800m Fri"
+        },
+        {
+          "Tid": "37,96",
+          "Dato": "11.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4064290"
+        },
+        {
+          "Tid": "38,31",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4228958",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "38,93",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216545",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "38,94",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4168377",
+          "partOf": "200m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "38,94",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216860",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "39,01",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4155068",
+          "partOf": "400m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "39,10",
+          "Dato": "06.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4087553",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "39,14",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4199745",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,58",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4064641",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "40,58",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4088711",
+          "partOf": "400m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "40,06",
-          "Dato": "10.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3919894",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "41,30",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3933792",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "42,00",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3933181"
-        },
         {
           "Tid": "42,09",
           "Dato": "28.09.2025",
@@ -897,34 +859,6 @@
           "pid": "3754799"
         },
         {
-          "Tid": "42,22",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3933790",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "42,23",
-          "Dato": "12.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3920994",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Individuell medley"
-        },
-        {
           "Tid": "42,58",
           "Dato": "30.11.2025",
           "Sted": "Stavanger",
@@ -933,20 +867,6 @@
           "RK": "",
           "RA": "",
           "pid": "3829965"
-        },
-        {
-          "Tid": "42,64",
-          "Dato": "10.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3946911",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
         },
         {
           "Tid": "42,94",
@@ -963,16 +883,6 @@
           "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "43,05",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3865462"
-        },
-        {
           "Tid": "43,47",
           "Dato": "26.09.2025",
           "Sted": "Stavanger",
@@ -985,30 +895,6 @@
             ""
           ],
           "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "43,62",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3867407",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "43,72",
-          "Dato": "11.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3843473"
         },
         {
           "Tid": "43,95",
@@ -1067,20 +953,6 @@
           "RK": "",
           "RA": "",
           "pid": "3808943",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "45,95",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3866036",
           "splits": [
             ""
           ],
@@ -1277,38 +1149,6 @@
           "pid": "3246616"
         },
         {
-          "Tid": "40,70",
-          "Dato": "06.09.2026",
-          "Sted": "Haugesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3987944"
-        },
-        {
-          "Tid": "41,97",
-          "Dato": "12.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3998502",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "42,55",
-          "Dato": "13.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3997789",
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "37,94",
           "Dato": "27.09.2026",
           "Sted": "Stavanger",
@@ -1316,29 +1156,7 @@
           "D": "",
           "RK": "34",
           "RA": "705",
-          "pid": "4008760"
-        },
-        {
-          "Tid": "40,92",
-          "Dato": "25.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4010596",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "40,12",
-          "Dato": "17.10.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4026286",
-          "partOf": "100m Butterfly"
+          "pid": "4226903"
         },
         {
           "Tid": "38,27",
@@ -1348,7 +1166,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4055448"
+          "pid": "4271205"
         },
         {
           "Tid": "39,85",
@@ -1358,24 +1176,196 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4056432",
+          "pid": "4272189",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "40,06",
+          "Dato": "10.04.2026",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4140237",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "40,12",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4244439",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "40,70",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4207998"
+        },
+        {
+          "Tid": "40,92",
+          "Dato": "25.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4228740",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "41,30",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4154024",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "41,97",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216672",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "42,00",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4153396"
+        },
+        {
+          "Tid": "42,22",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4154022",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "42,23",
+          "Dato": "12.04.2026",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4141337",
+          "partOf": "200m Individuell medley",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "42,55",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4215959",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "42,64",
+          "Dato": "10.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4167078",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "43,05",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4086421"
+        },
+        {
+          "Tid": "43,62",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4088400",
+          "partOf": "200m Individuell medley",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "43,72",
+          "Dato": "11.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4064124"
+        },
+        {
+          "Tid": "45,95",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4087012",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "42,40",
-          "Dato": "10.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "83",
-          "RA": "822",
-          "pid": "3946423"
-        },
         {
           "Tid": "50,92",
           "Dato": "14.09.2024",
@@ -1427,6 +1417,16 @@
           "pid": "3355742"
         },
         {
+          "Tid": "42,40",
+          "Dato": "10.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "824",
+          "pid": "4166587"
+        },
+        {
           "Tid": "43,02",
           "Dato": "26.09.2026",
           "Sted": "Stavanger",
@@ -1434,7 +1434,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4008884"
+          "pid": "4227027"
         }
       ]
     },
@@ -1450,58 +1450,6 @@
           "RK": "",
           "RA": "",
           "pid": "3837512"
-        },
-        {
-          "Tid": "47,28",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3946590"
-        },
-        {
-          "Tid": "48,18",
-          "Dato": "11.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3920578",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "48,53",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3934109",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "49,15",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3934111",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
         },
         {
           "Tid": "49,50",
@@ -1526,30 +1474,6 @@
           "RK": "",
           "RA": "",
           "pid": "3745164"
-        },
-        {
-          "Tid": "50,11",
-          "Dato": "10.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3843563"
-        },
-        {
-          "Tid": "50,62",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3866974",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "50,67",
@@ -1630,20 +1554,6 @@
           "RK": "",
           "RA": "",
           "pid": "3653639",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "54,05",
-          "Dato": "10.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3843824",
           "splits": [
             ""
           ],
@@ -1858,6 +1768,16 @@
           "pid": "3246875"
         },
         {
+          "Tid": "45,13",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "51",
+          "RA": "766",
+          "pid": "4244147"
+        },
+        {
           "Tid": "45,85",
           "Dato": "05.09.2026",
           "Sted": "Haugesund",
@@ -1865,18 +1785,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3988034"
-        },
-        {
-          "Tid": "47,08",
-          "Dato": "12.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3998247",
-          "partOf": "200m Bryst"
+          "pid": "4208088"
         },
         {
           "Tid": "46,67",
@@ -1886,17 +1795,28 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4009030"
+          "pid": "4227173"
         },
         {
-          "Tid": "45,13",
-          "Dato": "16.10.2026",
-          "Sted": "Sandnes",
+          "Tid": "47,08",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216417",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "47,28",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "51",
-          "RA": "766",
-          "pid": "4026005"
+          "RK": "",
+          "RA": "",
+          "pid": "4166756"
         },
         {
           "Tid": "47,56",
@@ -1906,7 +1826,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4026522",
+          "pid": "4244675",
           "partOf": "100m Bryst"
         },
         {
@@ -1917,101 +1837,94 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4056211",
+          "pid": "4271968",
           "partOf": "200m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Fri",
-      "races": [
-        {
-          "Tid": "1.15,96",
-          "Dato": "08.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3947550",
-          "splits": [
-            "36,85",
-            "39,11"
-          ]
         },
         {
-          "Tid": "1.18,89",
+          "Tid": "48,18",
           "Dato": "11.04.2026",
           "Sted": "Karmøy",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3921583",
+          "pid": "4140921",
+          "partOf": "200m Bryst",
           "splits": [
-            "37,92",
-            "40,97"
-          ],
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "1.20,46",
-          "Dato": "06.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3866571",
-          "splits": [
-            "39,10",
-            "41,36"
+            ""
           ]
         },
         {
-          "Tid": "1.22,37",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3948206",
-          "splits": [
-            "38,94",
-            "43,43"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.22,44",
-          "Dato": "26.04.2026",
+          "Tid": "48,53",
+          "Dato": "25.04.2026",
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3934808",
+          "pid": "4154343",
+          "partOf": "100m Bryst",
           "splits": [
-            "39,01",
-            "43,43"
-          ],
-          "partOf": "400m Fri"
+            ""
+          ]
         },
         {
-          "Tid": "1.23,26",
+          "Tid": "49,15",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4154345",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "50,11",
           "Dato": "10.01.2026",
           "Sted": "Kopervik",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3843974",
+          "pid": "4064218"
+        },
+        {
+          "Tid": "50,62",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4087959",
+          "partOf": "200m Bryst",
           "splits": [
-            "40,58",
-            "42,68"
+            ""
           ]
         },
+        {
+          "Tid": "54,05",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4064488",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
         {
           "Tid": "1.24,38",
           "Dato": "28.06.2025",
@@ -2040,21 +1953,6 @@
             "44,41"
           ],
           "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.25,38",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3867719",
-          "splits": [
-            "40,58",
-            "44,80"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "1.25,41",
@@ -2454,18 +2352,47 @@
           ]
         },
         {
-          "Tid": "1.20,63",
-          "Dato": "27.06.2026",
+          "Tid": "1.14,06",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "",
+          "pid": "4026808",
+          "splits": [
+            "35,59",
+            "38,47"
+          ]
+        },
+        {
+          "Tid": "1.15,96",
+          "Dato": "08.05.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3979654",
+          "pid": "4167719",
           "splits": [
-            "39,14",
-            "41,49"
+            "36,85",
+            "39,11"
           ]
+        },
+        {
+          "Tid": "1.17,49",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4272102",
+          "splits": [
+            "36,95",
+            "40,54"
+          ],
+          "partOf": "200m Fri"
         },
         {
           "Tid": "1.18,46",
@@ -2475,7 +2402,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3988341",
+          "pid": "4208395",
           "splits": [
             "37,37",
             "41,09"
@@ -2489,7 +2416,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3988500",
+          "pid": "4208554",
           "splits": [
             "36,94",
             "41,85"
@@ -2497,78 +2424,19 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.22,30",
-          "Dato": "13.09.2026",
-          "Sted": "Egersund",
+          "Tid": "1.18,89",
+          "Dato": "11.04.2026",
+          "Sted": "Karmøy",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3998376",
+          "pid": "4141926",
           "splits": [
-            "38,93",
-            "43,37"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.22,74",
-          "Dato": "12.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3998691",
-          "splits": [
-            "38,94",
-            "43,80"
+            "37,92",
+            "40,97"
           ],
           "partOf": "400m Fri"
-        },
-        {
-          "Tid": "1.20,54",
-          "Dato": "27.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4010916",
-          "splits": [
-            "37,95",
-            "42,59"
-          ],
-          "partOf": "800m Fri"
-        },
-        {
-          "Tid": "1.21,07",
-          "Dato": "26.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4010815",
-          "splits": [
-            "38,31",
-            "42,76"
-          ],
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "1.14,06",
-          "Dato": "16.10.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "38",
-          "RA": "716",
-          "pid": "4026808",
-          "splits": [
-            "35,59",
-            "38,47"
-          ]
         },
         {
           "Tid": "1.19,68",
@@ -2578,7 +2446,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4027685",
+          "pid": "4245841",
           "splits": [
             "37,85",
             "41,83"
@@ -2586,53 +2454,157 @@
           "partOf": "400m Fri"
         },
         {
-          "Tid": "1.17,49",
-          "Dato": "08.11.2026",
-          "Sted": "Klepp",
+          "Tid": "1.20,46",
+          "Dato": "06.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4087552",
+          "splits": [
+            "39,10",
+            "41,36"
+          ]
+        },
+        {
+          "Tid": "1.20,54",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4056345",
+          "pid": "4229060",
           "splits": [
-            "36,95",
-            "40,54"
+            "37,95",
+            "42,59"
+          ],
+          "partOf": "800m Fri"
+        },
+        {
+          "Tid": "1.20,63",
+          "Dato": "27.06.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4199744",
+          "splits": [
+            "39,14",
+            "41,49"
+          ]
+        },
+        {
+          "Tid": "1.21,07",
+          "Dato": "26.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4228959",
+          "splits": [
+            "38,31",
+            "42,76"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.22,30",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216546",
+          "splits": [
+            "38,93",
+            "43,37"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.22,37",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4168378",
+          "splits": [
+            "38,94",
+            "43,43"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.22,44",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4155069",
+          "splits": [
+            "39,01",
+            "43,43"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.22,74",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216861",
+          "splits": [
+            "38,94",
+            "43,80"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.23,26",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4064640",
+          "splits": [
+            "40,58",
+            "42,68"
+          ]
+        },
+        {
+          "Tid": "1.25,38",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4088712",
+          "splits": [
+            "40,58",
+            "44,80"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
     {
       "distanse": "100m Individuell medley",
       "races": [
-        {
-          "Tid": "1.29,53",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3947695",
-          "splits": [
-            "43,17",
-            "46,36"
-          ]
-        },
-        {
-          "Tid": "1.29,64",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3934464",
-          "splits": [
-            "42,67",
-            "46,97"
-          ]
-        },
         {
           "Tid": "1.31,83",
           "Dato": "09.11.2025",
@@ -2687,20 +2659,6 @@
           "splits": [
             "45,89",
             "49,82"
-          ]
-        },
-        {
-          "Tid": "1.36,49",
-          "Dato": "11.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3844045",
-          "splits": [
-            "44,99",
-            "51,50"
           ]
         },
         {
@@ -2956,6 +2914,20 @@
           ]
         },
         {
+          "Tid": "1.25,25",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "28",
+          "RA": "",
+          "pid": "4056068",
+          "splits": [
+            "39,34",
+            "45,91"
+          ]
+        },
+        {
           "Tid": "1.28,32",
           "Dato": "27.06.2026",
           "Sted": "Stavanger",
@@ -2963,10 +2935,38 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3979713",
+          "pid": "4199803",
           "splits": [
             "42,38",
             "45,94"
+          ]
+        },
+        {
+          "Tid": "1.29,53",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4167864",
+          "splits": [
+            "43,17",
+            "46,36"
+          ]
+        },
+        {
+          "Tid": "1.29,64",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4154706",
+          "splits": [
+            "42,67",
+            "46,97"
           ]
         },
         {
@@ -2977,24 +2977,24 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3988367",
+          "pid": "4208421",
           "splits": [
             "42,77",
             "46,94"
           ]
         },
         {
-          "Tid": "1.25,25",
-          "Dato": "08.11.2026",
-          "Sted": "Klepp",
+          "Tid": "1.36,49",
+          "Dato": "11.01.2026",
+          "Sted": "Kopervik",
           "Basseng": "25m",
           "D": "",
-          "RK": "28",
-          "RA": "585",
-          "pid": "4056068",
+          "RK": "",
+          "RA": "",
+          "pid": "4064716",
           "splits": [
-            "39,34",
-            "45,91"
+            "44,99",
+            "51,50"
           ]
         }
       ]
@@ -3002,76 +3002,6 @@
     {
       "distanse": "100m Butterfly",
       "races": [
-        {
-          "Tid": "1.29,61",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3933791",
-          "splits": [
-            "41,30",
-            "48,31"
-          ]
-        },
-        {
-          "Tid": "1.29,68",
-          "Dato": "10.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3919893",
-          "splits": [
-            "40,06",
-            "49,62"
-          ]
-        },
-        {
-          "Tid": "1.29,86",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3933789",
-          "splits": [
-            "42,22",
-            "47,64"
-          ]
-        },
-        {
-          "Tid": "1.30,31",
-          "Dato": "10.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3946910",
-          "splits": [
-            "42,64",
-            "47,67"
-          ]
-        },
-        {
-          "Tid": "1.34,47",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3866035",
-          "splits": [
-            "45,95",
-            "48,52"
-          ]
-        },
         {
           "Tid": "1.38,51",
           "Dato": "27.09.2025",
@@ -3115,20 +3045,6 @@
           ]
         },
         {
-          "Tid": "1.33,23",
-          "Dato": "13.09.2026",
-          "Sted": "Egersund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3997788",
-          "splits": [
-            "42,55",
-            "50,68"
-          ]
-        },
-        {
           "Tid": "1.27,39",
           "Dato": "17.10.2026",
           "Sted": "Sandnes",
@@ -3136,10 +3052,94 @@
           "D": "",
           "RK": "19",
           "RA": "449",
-          "pid": "4026285",
+          "pid": "4244438",
           "splits": [
             "40,12",
             "47,27"
+          ]
+        },
+        {
+          "Tid": "1.29,61",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4154023",
+          "splits": [
+            "41,30",
+            "48,31"
+          ]
+        },
+        {
+          "Tid": "1.29,68",
+          "Dato": "10.04.2026",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4140236",
+          "splits": [
+            "40,06",
+            "49,62"
+          ]
+        },
+        {
+          "Tid": "1.29,86",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4154021",
+          "splits": [
+            "42,22",
+            "47,64"
+          ]
+        },
+        {
+          "Tid": "1.30,31",
+          "Dato": "10.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4167077",
+          "splits": [
+            "42,64",
+            "47,67"
+          ]
+        },
+        {
+          "Tid": "1.33,23",
+          "Dato": "13.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4215958",
+          "splits": [
+            "42,55",
+            "50,68"
+          ]
+        },
+        {
+          "Tid": "1.34,47",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4087011",
+          "splits": [
+            "45,95",
+            "48,52"
           ]
         }
       ]
@@ -3147,20 +3147,6 @@
     {
       "distanse": "100m Rygg",
       "races": [
-        {
-          "Tid": "1.35,74",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3933885",
-          "splits": [
-            "47,05",
-            "48,69"
-          ]
-        },
         {
           "Tid": "1.38,97",
           "Dato": "28.09.2025",
@@ -3336,11 +3322,25 @@
           "Basseng": "25m",
           "D": "",
           "RK": "63",
-          "RA": "577",
-          "pid": "4026361",
+          "RA": "578",
+          "pid": "4244514",
           "splits": [
             "45,17",
             "45,71"
+          ]
+        },
+        {
+          "Tid": "1.35,74",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4154117",
+          "splits": [
+            "47,05",
+            "48,69"
           ]
         }
       ]
@@ -3348,49 +3348,6 @@
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.41,18",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3934108",
-          "splits": [
-            "48,53",
-            "52,65"
-          ]
-        },
-        {
-          "Tid": "1.41,30",
-          "Dato": "11.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3920579",
-          "splits": [
-            "48,18",
-            "53,12"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.42,64",
-          "Dato": "25.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3934110",
-          "splits": [
-            "49,15",
-            "53,49"
-          ]
-        },
         {
           "Tid": "1.44,90",
           "Dato": "14.12.2025",
@@ -3435,21 +3392,6 @@
           ]
         },
         {
-          "Tid": "1.48,54",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3866975",
-          "splits": [
-            "50,62",
-            "57,92"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
           "Tid": "1.49,78",
           "Dato": "27.09.2025",
           "Sted": "Stavanger",
@@ -3490,20 +3432,6 @@
           "splits": [
             "53,55",
             "59,18"
-          ]
-        },
-        {
-          "Tid": "1.52,84",
-          "Dato": "10.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3843823",
-          "splits": [
-            "54,05",
-            "58,79"
           ]
         },
         {
@@ -3700,7 +3628,7 @@
           "D": "D",
           "RK": "60",
           "RA": "690",
-          "pid": "3998248",
+          "pid": "4216418",
           "splits": [
             "47,08",
             "52,59"
@@ -3715,7 +3643,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4026521",
+          "pid": "4244674",
           "splits": [
             "47,56",
             "52,52"
@@ -3729,68 +3657,90 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4056212",
+          "pid": "4271969",
           "splits": [
             "48,06",
             "52,03"
           ],
           "partOf": "200m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "200m Fri",
-      "races": [
+        },
         {
-          "Tid": "2.45,14",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
+          "Tid": "1.41,18",
+          "Dato": "25.04.2026",
+          "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3948204",
+          "pid": "4154342",
           "splits": [
-            "38,94",
-            "43,43",
-            "43,35",
-            "39,42"
+            "48,53",
+            "52,65"
           ]
         },
         {
-          "Tid": "2.45,61",
+          "Tid": "1.41,30",
           "Dato": "11.04.2026",
           "Sted": "Karmøy",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3921584",
+          "pid": "4140922",
           "splits": [
-            "37,92",
-            "40,97",
-            "42,48",
-            "44,24"
+            "48,18",
+            "53,12"
           ],
-          "partOf": "400m Fri"
+          "partOf": "200m Bryst"
         },
         {
-          "Tid": "2.50,99",
-          "Dato": "26.04.2026",
+          "Tid": "1.42,64",
+          "Dato": "25.04.2026",
           "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4154344",
+          "splits": [
+            "49,15",
+            "53,49"
+          ]
+        },
+        {
+          "Tid": "1.48,54",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3934809",
+          "pid": "4087960",
           "splits": [
-            "39,01",
-            "43,43",
-            "44,23",
-            "44,32"
+            "50,62",
+            "57,92"
           ],
-          "partOf": "400m Fri"
+          "partOf": "200m Bryst"
         },
+        {
+          "Tid": "1.52,84",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4064487",
+          "splits": [
+            "54,05",
+            "58,79"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
         {
           "Tid": "2.53,98",
           "Dato": "13.12.2025",
@@ -3822,23 +3772,6 @@
             "46,09",
             "44,07"
           ]
-        },
-        {
-          "Tid": "2.59,27",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3867720",
-          "splits": [
-            "40,58",
-            "44,80",
-            "46,66",
-            "47,23"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "2.59,80",
@@ -4137,19 +4070,19 @@
           ]
         },
         {
-          "Tid": "2.44,72",
-          "Dato": "06.09.2026",
-          "Sted": "Haugesund",
+          "Tid": "2.38,40",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
+          "RK": "18",
           "RA": "",
-          "pid": "3988498",
+          "pid": "4056343",
           "splits": [
-            "36,94",
-            "41,85",
-            "43,10",
-            "42,83"
+            "36,95",
+            "40,54",
+            "40,99",
+            "39,92"
           ]
         },
         {
@@ -4160,7 +4093,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3998374",
+          "pid": "4216544",
           "splits": [
             "38,93",
             "43,37",
@@ -4169,19 +4102,68 @@
           ]
         },
         {
-          "Tid": "2.51,45",
-          "Dato": "12.09.2026",
-          "Sted": "Egersund",
+          "Tid": "2.44,72",
+          "Dato": "06.09.2026",
+          "Sted": "Haugesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4208552",
+          "splits": [
+            "36,94",
+            "41,85",
+            "43,10",
+            "42,83"
+          ]
+        },
+        {
+          "Tid": "2.45,14",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4168376",
+          "splits": [
+            "38,94",
+            "43,43",
+            "43,35",
+            "39,42"
+          ]
+        },
+        {
+          "Tid": "2.45,34",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3998692",
+          "pid": "4245842",
           "splits": [
-            "38,94",
-            "43,80",
-            "44,48",
-            "44,23"
+            "37,85",
+            "41,83",
+            "42,63",
+            "43,03"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.45,61",
+          "Dato": "11.04.2026",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4141927",
+          "splits": [
+            "37,92",
+            "40,97",
+            "42,48",
+            "44,24"
           ],
           "partOf": "400m Fri"
         },
@@ -4193,7 +4175,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4010816",
+          "pid": "4228960",
           "splits": [
             "38,31",
             "42,76",
@@ -4210,7 +4192,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4010917",
+          "pid": "4229061",
           "splits": [
             "37,95",
             "42,59",
@@ -4220,75 +4202,61 @@
           "partOf": "800m Fri"
         },
         {
-          "Tid": "2.45,34",
-          "Dato": "17.10.2026",
+          "Tid": "2.50,99",
+          "Dato": "26.04.2026",
           "Sted": "Sandnes",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4027686",
+          "pid": "4155070",
           "splits": [
-            "37,85",
-            "41,83",
-            "42,63",
-            "43,03"
+            "39,01",
+            "43,43",
+            "44,23",
+            "44,32"
           ],
           "partOf": "400m Fri"
         },
         {
-          "Tid": "2.38,40",
-          "Dato": "08.11.2026",
-          "Sted": "Klepp",
+          "Tid": "2.51,45",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
           "Basseng": "25m",
-          "D": "",
-          "RK": "18",
-          "RA": "481",
-          "pid": "4056343",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4216862",
           "splits": [
-            "36,95",
-            "40,54",
-            "40,99",
-            "39,92"
-          ]
+            "38,94",
+            "43,80",
+            "44,48",
+            "44,23"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.59,27",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4088713",
+          "splits": [
+            "40,58",
+            "44,80",
+            "46,66",
+            "47,23"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
     {
       "distanse": "200m Individuell medley",
       "races": [
-        {
-          "Tid": "3.05,18",
-          "Dato": "12.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3920993",
-          "splits": [
-            "42,23",
-            "48,99",
-            "53,56",
-            "40,40"
-          ]
-        },
-        {
-          "Tid": "3.16,05",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3867406",
-          "splits": [
-            "43,62",
-            "51,75",
-            "56,32",
-            "44,36"
-          ]
-        },
         {
           "Tid": "3.17,74",
           "Dato": "26.09.2025",
@@ -4402,19 +4370,19 @@
           ]
         },
         {
-          "Tid": "3.05,48",
-          "Dato": "12.09.2026",
-          "Sted": "Egersund",
+          "Tid": "3.03,20",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
+          "RK": "28",
           "RA": "",
-          "pid": "3998501",
+          "pid": "4056431",
           "splits": [
-            "41,97",
-            "49,03",
-            "53,95",
-            "40,53"
+            "39,85",
+            "",
+            "",
+            "38,61"
           ]
         },
         {
@@ -4425,7 +4393,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4010595",
+          "pid": "4228739",
           "splits": [
             "40,92",
             "49,24",
@@ -4434,19 +4402,51 @@
           ]
         },
         {
-          "Tid": "3.03,20",
-          "Dato": "07.11.2026",
-          "Sted": "Klepp",
+          "Tid": "3.05,18",
+          "Dato": "12.04.2026",
+          "Sted": "Karmøy",
           "Basseng": "25m",
           "D": "",
-          "RK": "28",
-          "RA": "495",
-          "pid": "4056431",
+          "RK": "",
+          "RA": "",
+          "pid": "4141336",
           "splits": [
-            "39,85",
-            "",
-            "",
-            "38,61"
+            "42,23",
+            "48,99",
+            "53,56",
+            "40,40"
+          ]
+        },
+        {
+          "Tid": "3.05,48",
+          "Dato": "12.09.2026",
+          "Sted": "Egersund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4216671",
+          "splits": [
+            "41,97",
+            "49,03",
+            "53,95",
+            "40,53"
+          ]
+        },
+        {
+          "Tid": "3.16,05",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4088399",
+          "splits": [
+            "43,62",
+            "51,75",
+            "56,32",
+            "44,36"
           ]
         }
       ]
@@ -4454,54 +4454,6 @@
     {
       "distanse": "200m Rygg",
       "races": [
-        {
-          "Tid": "3.12,36",
-          "Dato": "12.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3920175",
-          "splits": [
-            "45,07",
-            "48,49",
-            "50,22",
-            "48,58"
-          ]
-        },
-        {
-          "Tid": "3.16,35",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3947754",
-          "splits": [
-            "46,67",
-            "50,58",
-            "50,95",
-            "48,15"
-          ]
-        },
-        {
-          "Tid": "3.23,65",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3866786",
-          "splits": [
-            "48,68",
-            "52,01",
-            "52,99",
-            "49,97"
-          ]
-        },
         {
           "Tid": "3.31,16",
           "Dato": "26.04.2025",
@@ -4519,6 +4471,38 @@
           ]
         },
         {
+          "Tid": "3.08,53",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "61",
+          "RA": "",
+          "pid": "4027081",
+          "splits": [
+            "44,32",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "Tid": "3.12,36",
+          "Dato": "12.04.2026",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4140518",
+          "splits": [
+            "45,07",
+            "48,49",
+            "50,22",
+            "48,58"
+          ]
+        },
+        {
           "Tid": "3.15,09",
           "Dato": "13.09.2026",
           "Sted": "Egersund",
@@ -4526,7 +4510,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3998185",
+          "pid": "4216355",
           "splits": [
             "45,55",
             "49,87",
@@ -4535,19 +4519,35 @@
           ]
         },
         {
-          "Tid": "3.08,53",
-          "Dato": "17.10.2026",
-          "Sted": "Sandnes",
+          "Tid": "3.16,35",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "61",
-          "RA": "573",
-          "pid": "4027081",
+          "RK": "",
+          "RA": "",
+          "pid": "4167923",
           "splits": [
-            "44,32",
-            "",
-            "",
-            ""
+            "46,67",
+            "50,58",
+            "50,95",
+            "48,15"
+          ]
+        },
+        {
+          "Tid": "3.23,65",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4087771",
+          "splits": [
+            "48,68",
+            "52,01",
+            "52,99",
+            "49,97"
           ]
         }
       ]
@@ -4555,22 +4555,6 @@
     {
       "distanse": "200m Bryst",
       "races": [
-        {
-          "Tid": "3.27,17",
-          "Dato": "11.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3920577",
-          "splits": [
-            "48,18",
-            "53,12",
-            "53,95",
-            "51,92"
-          ]
-        },
         {
           "Tid": "3.37,60",
           "Dato": "09.11.2025",
@@ -4601,22 +4585,6 @@
             "57,59",
             "57,50",
             "55,94"
-          ]
-        },
-        {
-          "Tid": "3.43,46",
-          "Dato": "08.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3866973",
-          "splits": [
-            "50,62",
-            "57,92",
-            "58,32",
-            "56,60"
           ]
         },
         {
@@ -4684,6 +4652,22 @@
           ]
         },
         {
+          "Tid": "3.24,16",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "34",
+          "RA": "",
+          "pid": "4056210",
+          "splits": [
+            "48,06",
+            "52,03",
+            "52,63",
+            "51,44"
+          ]
+        },
+        {
           "Tid": "3.25,48",
           "Dato": "12.09.2026",
           "Sted": "Egersund",
@@ -4691,7 +4675,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3998246",
+          "pid": "4216416",
           "splits": [
             "47,08",
             "52,59",
@@ -4700,19 +4684,35 @@
           ]
         },
         {
-          "Tid": "3.24,16",
-          "Dato": "08.11.2026",
-          "Sted": "Klepp",
+          "Tid": "3.27,17",
+          "Dato": "11.04.2026",
+          "Sted": "Karmøy",
           "Basseng": "25m",
           "D": "",
-          "RK": "34",
-          "RA": "461",
-          "pid": "4056210",
+          "RK": "",
+          "RA": "",
+          "pid": "4140920",
           "splits": [
-            "48,06",
-            "52,03",
-            "52,63",
-            "51,44"
+            "48,18",
+            "53,12",
+            "53,95",
+            "51,92"
+          ]
+        },
+        {
+          "Tid": "3.43,46",
+          "Dato": "08.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4087958",
+          "splits": [
+            "50,62",
+            "57,92",
+            "58,32",
+            "56,60"
           ]
         }
       ]
@@ -4720,46 +4720,6 @@
     {
       "distanse": "400m Fri",
       "races": [
-        {
-          "Tid": "5.43,43",
-          "Dato": "11.04.2026",
-          "Sted": "Karmøy",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3921581",
-          "splits": [
-            "37,92",
-            "40,97",
-            "42,48",
-            "44,24",
-            "44,95",
-            "45,36",
-            "45,11",
-            "42,40"
-          ]
-        },
-        {
-          "Tid": "5.48,52",
-          "Dato": "26.04.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3934806",
-          "splits": [
-            "39,01",
-            "43,43",
-            "44,23",
-            "44,32",
-            "43,94",
-            "45,57",
-            "45,11",
-            "42,91"
-          ]
-        },
         {
           "Tid": "6.02,52",
           "Dato": "27.09.2025",
@@ -4798,26 +4758,6 @@
             "48,37",
             "47,48",
             "43,12"
-          ]
-        },
-        {
-          "Tid": "6.07,68",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3867717",
-          "splits": [
-            "40,58",
-            "44,80",
-            "46,66",
-            "47,23",
-            "48,19",
-            "48,11",
-            "47,83",
-            "44,28"
           ]
         },
         {
@@ -4941,6 +4881,26 @@
           ]
         },
         {
+          "Tid": "5.39,33",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "32",
+          "RA": "",
+          "pid": "4027683",
+          "splits": [
+            "37,85",
+            "41,83",
+            "42,63",
+            "43,03",
+            "42,81",
+            "44,38",
+            "44,39",
+            "42,41"
+          ]
+        },
+        {
           "Tid": "5.42,61",
           "Dato": "12.09.2026",
           "Sted": "Egersund",
@@ -4948,7 +4908,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3998689",
+          "pid": "4216859",
           "splits": [
             "38,94",
             "43,80",
@@ -4961,6 +4921,26 @@
           ]
         },
         {
+          "Tid": "5.43,43",
+          "Dato": "11.04.2026",
+          "Sted": "Karmøy",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4141924",
+          "splits": [
+            "37,92",
+            "40,97",
+            "42,48",
+            "44,24",
+            "44,95",
+            "45,36",
+            "45,11",
+            "42,40"
+          ]
+        },
+        {
           "Tid": "5.46,15",
           "Dato": "26.09.2026",
           "Sted": "Stavanger",
@@ -4968,7 +4948,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4010813",
+          "pid": "4228957",
           "splits": [
             "38,31",
             "42,76",
@@ -4981,6 +4961,26 @@
           ]
         },
         {
+          "Tid": "5.48,52",
+          "Dato": "26.04.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4155067",
+          "splits": [
+            "39,01",
+            "43,43",
+            "44,23",
+            "44,32",
+            "43,94",
+            "45,57",
+            "45,11",
+            "42,91"
+          ]
+        },
+        {
           "Tid": "5.49,08",
           "Dato": "27.09.2026",
           "Sted": "Stavanger",
@@ -4988,7 +4988,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4010918",
+          "pid": "4229062",
           "splits": [
             "37,95",
             "42,59",
@@ -5002,23 +5002,23 @@
           "partOf": "800m Fri"
         },
         {
-          "Tid": "5.39,33",
-          "Dato": "17.10.2026",
-          "Sted": "Sandnes",
+          "Tid": "6.07,68",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "32",
-          "RA": "505",
-          "pid": "4027683",
+          "RK": "",
+          "RA": "",
+          "pid": "4088710",
           "splits": [
-            "37,85",
-            "41,83",
-            "42,63",
-            "43,03",
-            "42,81",
-            "44,38",
-            "44,39",
-            "42,41"
+            "40,58",
+            "44,80",
+            "46,66",
+            "47,23",
+            "48,19",
+            "48,11",
+            "47,83",
+            "44,28"
           ]
         }
       ]
@@ -5033,7 +5033,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "15",
-          "RA": "202",
+          "RA": "",
           "pid": "4010914",
           "splits": [
             "37,95",

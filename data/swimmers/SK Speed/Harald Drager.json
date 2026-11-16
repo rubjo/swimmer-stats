@@ -4,7 +4,7 @@
   "club": "SK Speed",
   "birthYear": 1973,
   "gender": "male",
-  "timestamp": "2026-11-09T11:59:39.274Z",
+  "timestamp": "2026-11-16T11:46:21.813Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,16 +18,6 @@
           "RK": "225",
           "RA": "956",
           "pid": "3664472"
-        },
-        {
-          "Tid": "31,01",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "303",
-          "RA": "995",
-          "pid": "3900258"
         },
         {
           "Tid": "31,99",
@@ -44,6 +34,16 @@
           "partOf": "100m Fri"
         },
         {
+          "Tid": "31,01",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "304",
+          "RA": "997",
+          "pid": "4120649"
+        },
+        {
           "Tid": "32,56",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
@@ -51,27 +51,17 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3900879",
+          "pid": "4121279",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "34,91",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "231",
-          "RA": "828",
-          "pid": "3899899"
-        },
         {
           "Tid": "35,17",
           "Dato": "29.03.2025",
@@ -81,6 +71,16 @@
           "RK": "176",
           "RA": "883",
           "pid": "3664121"
+        },
+        {
+          "Tid": "34,91",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "234",
+          "RA": "833",
+          "pid": "4120284"
         }
       ]
     },
@@ -107,8 +107,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "224",
-          "RA": "860",
+          "RK": "226",
+          "RA": "",
           "pid": "3900878",
           "splits": [
             "32,56",

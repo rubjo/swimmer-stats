@@ -4,7 +4,7 @@
   "club": "Hamar IL",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-09T12:26:29.540Z",
+  "timestamp": "2026-11-16T12:13:13.867Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Hamar",
           "Basseng": "50m",
           "D": "",
-          "RK": "143",
-          "RA": "987",
+          "RK": "",
+          "RA": "",
           "pid": "3864714"
         },
         {
@@ -28,48 +28,6 @@
           "RK": "",
           "RA": "",
           "pid": "3824981"
-        },
-        {
-          "Tid": "42,25",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "273",
-          "RA": "1766",
-          "pid": "3855757",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "44,69",
-          "Dato": "08.02.2026",
-          "Sted": "Hamar",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3864890",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "45,20",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856629",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Fri"
         },
         {
           "Tid": "48,71",
@@ -100,6 +58,48 @@
           "RK": "",
           "RA": "",
           "pid": "3394968"
+        },
+        {
+          "Tid": "42,25",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4077853",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "44,69",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4085728",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "45,20",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4078811",
+          "partOf": "200m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -112,8 +112,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "153",
-          "RA": "964",
+          "RK": "",
+          "RA": "",
           "pid": "3854393"
         },
         {
@@ -122,23 +122,9 @@
           "Sted": "Hamar",
           "Basseng": "50m",
           "D": "",
-          "RK": "79",
-          "RA": "561",
-          "pid": "3864636"
-        },
-        {
-          "Tid": "48,49",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3855336",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
+          "pid": "3864636"
         },
         {
           "Tid": "48,88",
@@ -149,34 +135,6 @@
           "RK": "",
           "RA": "",
           "pid": "3825094",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "49,24",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856293",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "49,88",
-          "Dato": "08.02.2026",
-          "Sted": "Hamar",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3864808",
           "splits": [
             ""
           ],
@@ -229,6 +187,48 @@
           "RK": "",
           "RA": "",
           "pid": "3394891"
+        },
+        {
+          "Tid": "48,49",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4077389",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "49,24",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4078448",
+          "partOf": "200m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "49,88",
+          "Dato": "08.02.2026",
+          "Sted": "Hamar",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4085646",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -241,8 +241,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "234",
-          "RA": "1392",
+          "RK": "",
+          "RA": "",
           "pid": "3855756",
           "splits": [
             "42,25",
@@ -255,8 +255,8 @@
           "Sted": "Hamar",
           "Basseng": "50m",
           "D": "",
-          "RK": "147",
-          "RA": "947",
+          "RK": "",
+          "RA": "",
           "pid": "3864889",
           "splits": [
             "44,69",
@@ -271,7 +271,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3856630",
+          "pid": "4078812",
           "splits": [
             "45,20",
             "52,65"
@@ -289,8 +289,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "811",
+          "RK": "",
+          "RA": "",
           "pid": "3855335",
           "splits": [
             "48,49",
@@ -317,28 +317,13 @@
           "Sted": "Hamar",
           "Basseng": "50m",
           "D": "",
-          "RK": "69",
-          "RA": "429",
+          "RK": "",
+          "RA": "",
           "pid": "3864807",
           "splits": [
             "49,88",
             "54,56"
           ]
-        },
-        {
-          "Tid": "1.45,24",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856294",
-          "splits": [
-            "49,24",
-            "56,00"
-          ],
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "1.59,54",
@@ -368,6 +353,21 @@
             "1.05,31"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.45,24",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4078449",
+          "splits": [
+            "49,24",
+            "56,00"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -380,8 +380,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "217",
-          "RA": "1223",
+          "RK": "",
+          "RA": "",
           "pid": "3856628",
           "splits": [
             "45,20",
@@ -401,8 +401,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "121",
-          "RA": "683",
+          "RK": "",
+          "RA": "",
           "pid": "3856292",
           "splits": [
             "49,24",

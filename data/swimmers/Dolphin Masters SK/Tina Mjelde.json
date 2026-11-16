@@ -4,7 +4,7 @@
   "club": "Dolphin Masters SK",
   "birthYear": 1962,
   "gender": "female",
-  "timestamp": "2026-11-09T12:38:16.987Z",
+  "timestamp": "2026-11-16T12:04:19.671Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -404,17 +404,6 @@
           "partOf": "800m Fri"
         },
         {
-          "Tid": "39,79",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "207",
-          "RA": "1578",
-          "pid": "3901912",
-          "partOf": "800m Fri"
-        },
-        {
           "Tid": "40,20",
           "Dato": "02.04.2011",
           "Sted": "Kristiansund",
@@ -424,6 +413,17 @@
           "RA": "1441",
           "pid": "880319",
           "partOf": "1500m Fri"
+        },
+        {
+          "Tid": "39,79",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "210",
+          "RA": "1582",
+          "pid": "4122337",
+          "partOf": "800m Fri"
         }
       ]
     },
@@ -1506,9 +1506,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "131",
-          "RA": "1177",
-          "pid": "3901913",
+          "RK": "132",
+          "RA": "",
+          "pid": "4122338",
           "splits": [
             "39,79",
             "44,99"
@@ -2676,23 +2676,6 @@
           "partOf": "1500m Fri"
         },
         {
-          "Tid": "2.58,10",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "73",
-          "RA": "867",
-          "pid": "3901914",
-          "splits": [
-            "39,79",
-            "44,99",
-            "46,59",
-            "46,73"
-          ],
-          "partOf": "800m Fri"
-        },
-        {
           "Tid": "2.58,68",
           "Dato": "02.04.2011",
           "Sted": "Kristiansund",
@@ -2708,6 +2691,23 @@
             "47,17"
           ],
           "partOf": "1500m Fri"
+        },
+        {
+          "Tid": "2.58,10",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "74",
+          "RA": "",
+          "pid": "4122339",
+          "splits": [
+            "39,79",
+            "44,99",
+            "46,59",
+            "46,73"
+          ],
+          "partOf": "800m Fri"
         }
       ]
     },
@@ -3321,9 +3321,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "39",
-          "RA": "762",
-          "pid": "3901915",
+          "RK": "41",
+          "RA": "",
+          "pid": "4122340",
           "splits": [
             "39,79",
             "44,99",
@@ -3604,8 +3604,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "25",
-          "RA": "267",
+          "RK": "27",
+          "RA": "",
           "pid": "3901911",
           "splits": [
             "39,79",

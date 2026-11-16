@@ -4,7 +4,7 @@
   "club": "Modum SK",
   "birthYear": 1971,
   "gender": "female",
-  "timestamp": "2026-11-09T11:09:44.581Z",
+  "timestamp": "2026-11-16T11:05:32.837Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,9 +39,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "191",
-          "RA": "1353",
-          "pid": "3900325"
+          "RK": "193",
+          "RA": "1355",
+          "pid": "4120717"
         },
         {
           "Tid": "37,70",
@@ -51,27 +51,17 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3900983",
+          "pid": "4121387",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "47,24",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "94",
-          "RA": "983",
-          "pid": "3900141"
-        },
         {
           "Tid": "49,12",
           "Dato": "28.03.2025",
@@ -81,6 +71,16 @@
           "RK": "",
           "RA": "",
           "pid": "3664364"
+        },
+        {
+          "Tid": "47,24",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "984",
+          "pid": "4120530"
         }
       ]
     },
@@ -107,8 +107,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "139",
-          "RA": "1246",
+          "RK": "141",
+          "RA": "",
           "pid": "3900982",
           "splits": [
             "37,70",

@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2007,
   "gender": "male",
-  "timestamp": "2026-11-09T12:37:26.292Z",
+  "timestamp": "2026-11-16T11:03:26.757Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -72,16 +72,6 @@
           "RK": "83",
           "RA": "541",
           "pid": "3613971"
-        },
-        {
-          "Tid": "29,76",
-          "Dato": "23.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3849852"
         },
         {
           "Tid": "29,85",
@@ -330,6 +320,16 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "29,76",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "159",
+          "RA": "568",
+          "pid": "4070796"
         }
       ]
     },
@@ -501,16 +501,6 @@
             ""
           ],
           "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "35,16",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3849479"
         },
         {
           "Tid": "35,31",
@@ -691,20 +681,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "37,61",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3850817",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "37,99",
           "Dato": "08.01.2023",
           "Sted": "Fredrikstad",
@@ -869,6 +845,30 @@
             ""
           ],
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "35,16",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "73",
+          "RA": "205",
+          "pid": "4070341"
+        },
+        {
+          "Tid": "37,61",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4071994",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -1294,20 +1294,6 @@
           ]
         },
         {
-          "Tid": "1.24,44",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3850816",
-          "splits": [
-            "37,61",
-            "46,83"
-          ]
-        },
-        {
           "Tid": "1.25,31",
           "Dato": "03.06.2023",
           "Sted": "Fredrikstad",
@@ -1420,6 +1406,20 @@
           "splits": [
             "45,63",
             "53,89"
+          ]
+        },
+        {
+          "Tid": "1.24,44",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "55",
+          "RA": "235",
+          "pid": "4071993",
+          "splits": [
+            "37,61",
+            "46,83"
           ]
         }
       ]

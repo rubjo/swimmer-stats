@@ -4,31 +4,11 @@
   "club": "Drag SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-09T12:18:37.923Z",
+  "timestamp": "2026-11-16T11:57:52.272Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "51,26",
-          "Dato": "22.02.2026",
-          "Sted": "Mo i Rana",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "311",
-          "RA": "2170",
-          "pid": "3878096"
-        },
-        {
-          "Tid": "53,80",
-          "Dato": "10.01.2026",
-          "Sted": "Tverlandet",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3845434"
-        },
         {
           "Tid": "56,16",
           "Dato": "01.11.2025",
@@ -48,20 +28,6 @@
           "RK": "",
           "RA": "",
           "pid": "3829069"
-        },
-        {
-          "Tid": "59,15",
-          "Dato": "11.01.2026",
-          "Sted": "Tverlandet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3845681",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
         },
         {
           "Tid": "59,25",
@@ -86,6 +52,40 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "51,26",
+          "Dato": "22.02.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "313",
+          "RA": "2176",
+          "pid": "4099019"
+        },
+        {
+          "Tid": "53,80",
+          "Dato": "10.01.2026",
+          "Sted": "Tverlandet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4066373"
+        },
+        {
+          "Tid": "59,15",
+          "Dato": "11.01.2026",
+          "Sted": "Tverlandet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4066653",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -98,9 +98,9 @@
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "",
-          "RK": "229",
-          "RA": "1515",
-          "pid": "3877971"
+          "RK": "230",
+          "RA": "1531",
+          "pid": "4098873"
         }
       ]
     },
@@ -152,8 +152,8 @@
           "Sted": "Tverlandet",
           "Basseng": "25m",
           "D": "",
-          "RK": "279",
-          "RA": "1924",
+          "RK": "281",
+          "RA": "",
           "pid": "3845680",
           "splits": [
             "59,15",

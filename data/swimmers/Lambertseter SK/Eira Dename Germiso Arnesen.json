@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-15T23:14:29.508Z",
+  "timestamp": "2026-11-16T10:45:29.311Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Rud",
           "Basseng": "50m",
           "D": "",
-          "RK": "16",
-          "RA": "567",
+          "RK": "",
+          "RA": "",
           "pid": "3975832"
         },
         {
@@ -25,8 +25,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "47",
-          "RA": "852",
+          "RK": "",
+          "RA": "",
           "pid": "3860296"
         },
         {
@@ -40,20 +40,6 @@
           "pid": "3799769"
         },
         {
-          "Tid": "35,71",
-          "Dato": "26.04.2026",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3936544",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "36,56",
           "Dato": "31.05.2025",
           "Sted": "Fredrikstad",
@@ -62,20 +48,6 @@
           "RK": "",
           "RA": "",
           "pid": "3709877"
-        },
-        {
-          "Tid": "38,74",
-          "Dato": "31.01.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3861273",
-          "splits": [
-            ""
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "40,71",
@@ -99,7 +71,35 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3987247"
+          "pid": "4207350"
+        },
+        {
+          "Tid": "35,71",
+          "Dato": "26.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4156876",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "38,74",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4082406",
+          "partOf": "400m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -112,33 +112,9 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "27",
-          "RA": "653",
+          "RK": "",
+          "RA": "",
           "pid": "3935824"
-        },
-        {
-          "Tid": "37,80",
-          "Dato": "12.04.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3918705",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "38,43",
-          "Dato": "08.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3884846"
         },
         {
           "Tid": "39,57",
@@ -149,44 +125,6 @@
           "RK": "",
           "RA": "874",
           "pid": "3799232"
-        },
-        {
-          "Tid": "39,78",
-          "Dato": "08.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3886890",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "40,61",
-          "Dato": "31.01.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3860163"
-        },
-        {
-          "Tid": "41,42",
-          "Dato": "10.04.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3917147",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
         },
         {
           "Tid": "42,22",
@@ -213,6 +151,20 @@
           "partOf": "100m Butterfly"
         },
         {
+          "Tid": "37,80",
+          "Dato": "12.04.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4139048",
+          "partOf": "200m Individuell medley",
+          "splits": [
+            ""
+          ]
+        },
+        {
           "Tid": "37,90",
           "Dato": "22.08.2026",
           "Sted": "Langhus",
@@ -220,7 +172,55 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3986580"
+          "pid": "4206655"
+        },
+        {
+          "Tid": "38,43",
+          "Dato": "08.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4105377"
+        },
+        {
+          "Tid": "39,78",
+          "Dato": "08.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4107531",
+          "partOf": "200m Individuell medley",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "40,61",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4081258"
+        },
+        {
+          "Tid": "41,42",
+          "Dato": "10.04.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4137490",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -243,8 +243,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "36",
-          "RA": "602",
+          "RK": "",
+          "RA": "",
           "pid": "3986759"
         }
       ]
@@ -252,34 +252,6 @@
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "50,24",
-          "Dato": "17.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "161",
-          "RA": "1227",
-          "pid": "3847396",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "52,56",
-          "Dato": "11.04.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3918107",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Bryst"
-        },
         {
           "Tid": "52,63",
           "Dato": "26.04.2025",
@@ -289,6 +261,34 @@
           "RK": "",
           "RA": "",
           "pid": "3685848"
+        },
+        {
+          "Tid": "50,24",
+          "Dato": "17.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4068198",
+          "partOf": "200m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "52,56",
+          "Dato": "11.04.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4138450",
+          "partOf": "200m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -301,28 +301,13 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "39",
-          "RA": "717",
+          "RK": "",
+          "RA": "",
           "pid": "3936543",
           "splits": [
             "35,71",
             "38,36"
           ]
-        },
-        {
-          "Tid": "1.23,01",
-          "Dato": "31.01.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3861274",
-          "splits": [
-            "38,74",
-            "44,27"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "1.27,61",
@@ -338,6 +323,21 @@
             "46,90"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.23,01",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4082407",
+          "splits": [
+            "38,74",
+            "44,27"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -350,26 +350,12 @@
           "Sted": "Nordbytun",
           "Basseng": "25m",
           "D": "",
-          "RK": "31",
-          "RA": "599",
+          "RK": "",
+          "RA": "",
           "pid": "3949429",
           "splits": [
             "36,59",
             "49,24"
-          ]
-        },
-        {
-          "Tid": "1.27,39",
-          "Dato": "07.03.2026",
-          "Sted": "Lørenskog",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3885652",
-          "splits": [
-            "37,75",
-            "49,64"
           ]
         },
         {
@@ -412,6 +398,20 @@
           "splits": [
             "41,52",
             "53,51"
+          ]
+        },
+        {
+          "Tid": "1.27,39",
+          "Dato": "07.03.2026",
+          "Sted": "Lørenskog",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4106222",
+          "splits": [
+            "37,75",
+            "49,64"
           ]
         }
       ]
@@ -458,8 +458,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "48",
-          "RA": "629",
+          "RK": "",
+          "RA": "",
           "pid": "3917146",
           "splits": [
             "41,42",
@@ -491,9 +491,9 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "D",
-          "RK": "125",
-          "RA": "959",
-          "pid": "3847397",
+          "RK": "",
+          "RA": "",
+          "pid": "4068199",
           "splits": [
             "50,24",
             "56,42"
@@ -508,7 +508,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3918108",
+          "pid": "4138451",
           "splits": [
             "52,56",
             "58,24"
@@ -520,23 +520,6 @@
     {
       "distanse": "200m Fri",
       "races": [
-        {
-          "Tid": "2.55,70",
-          "Dato": "31.01.2026",
-          "Sted": "Nordtvet",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "72",
-          "RA": "827",
-          "pid": "3861275",
-          "splits": [
-            "38,74",
-            "44,27",
-            "46,66",
-            "46,03"
-          ],
-          "partOf": "400m Fri"
-        },
         {
           "Tid": "3.01,69",
           "Dato": "08.11.2025",
@@ -552,6 +535,23 @@
             "48,70",
             "45,38"
           ]
+        },
+        {
+          "Tid": "2.55,70",
+          "Dato": "31.01.2026",
+          "Sted": "Nordtvet",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4082408",
+          "splits": [
+            "38,74",
+            "44,27",
+            "46,66",
+            "46,03"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -564,8 +564,8 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "54",
-          "RA": "611",
+          "RK": "",
+          "RA": "",
           "pid": "3886889",
           "splits": [
             "39,78",
@@ -582,7 +582,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3918704",
+          "pid": "4139047",
           "splits": [
             "37,80",
             "48,05",
@@ -601,8 +601,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "72",
-          "RA": "626",
+          "RK": "",
+          "RA": "",
           "pid": "3917498",
           "splits": [
             "44,51",
@@ -638,8 +638,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "92",
-          "RA": "696",
+          "RK": "",
+          "RA": "",
           "pid": "3847395",
           "splits": [
             "50,24",
@@ -656,7 +656,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3918106",
+          "pid": "4138449",
           "splits": [
             "52,56",
             "58,24",
@@ -675,8 +675,8 @@
           "Sted": "Nordtvet",
           "Basseng": "25m",
           "D": "",
-          "RK": "72",
-          "RA": "717",
+          "RK": "",
+          "RA": "",
           "pid": "3861272",
           "splits": [
             "38,74",

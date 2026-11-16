@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-11-15T22:57:57.956Z",
+  "timestamp": "2026-11-16T11:09:43.971Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,9 @@
           "Sted": "Jessheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "122",
-          "RA": "1187",
-          "pid": "3861572"
+          "RK": "124",
+          "RA": "1190",
+          "pid": "4082722"
         },
         {
           "Tid": "37,00",
@@ -27,17 +27,27 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3936476",
+          "pid": "4156806",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
+        {
+          "Tid": "34,34",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "806",
+          "pid": "4268209"
+        },
         {
           "Tid": "35,09",
           "Dato": "26.04.2026",
@@ -46,17 +56,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3935785"
-        },
-        {
-          "Tid": "34,34",
-          "Dato": "07.11.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4052472"
+          "pid": "4156066"
         }
       ]
     },
@@ -84,8 +84,8 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "106",
-          "RA": "1140",
+          "RK": "107",
+          "RA": "",
           "pid": "3936475",
           "splits": [
             "37,0",

@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 1975,
   "gender": "female",
-  "timestamp": "2026-11-09T11:34:49.342Z",
+  "timestamp": "2026-11-16T10:45:08.236Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -25,37 +25,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "199",
-          "RA": "1462",
+          "RK": "",
+          "RA": "",
           "pid": "3900335"
-        },
-        {
-          "Tid": "42,04",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900973",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "43,12",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901558",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Fri"
         },
         {
           "Tid": "43,77",
@@ -72,6 +44,34 @@
           "partOf": "200m Fri"
         },
         {
+          "Tid": "42,04",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121377",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "43,12",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121973",
+          "partOf": "200m Fri",
+          "splits": [
+            ""
+          ]
+        },
+        {
           "Tid": "44,13",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
@@ -79,11 +79,11 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3901952",
+          "pid": "4122382",
+          "partOf": "800m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "800m Fri"
+          ]
         }
       ]
     },
@@ -111,28 +111,13 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "138",
-          "RA": "1236",
+          "RK": "",
+          "RA": "",
           "pid": "3900972",
           "splits": [
             "42,04",
             "44,25"
           ]
-        },
-        {
-          "Tid": "1.29,50",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901559",
-          "splits": [
-            "43,12",
-            "46,38"
-          ],
-          "partOf": "200m Fri"
         },
         {
           "Tid": "1.30,55",
@@ -150,6 +135,21 @@
           "partOf": "200m Fri"
         },
         {
+          "Tid": "1.29,50",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121974",
+          "splits": [
+            "43,12",
+            "46,38"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
           "Tid": "1.30,88",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
@@ -157,7 +157,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3901953",
+          "pid": "4122383",
           "splits": [
             "44,13",
             "46,75"
@@ -175,8 +175,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "94",
-          "RA": "1106",
+          "RK": "",
+          "RA": "",
           "pid": "3901120",
           "splits": [
             "50,61",
@@ -194,8 +194,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "78",
-          "RA": "960",
+          "RK": "",
+          "RA": "",
           "pid": "3901557",
           "splits": [
             "43,12",
@@ -228,7 +228,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3901954",
+          "pid": "4122384",
           "splits": [
             "44,13",
             "46,75",
@@ -248,9 +248,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "43",
-          "RA": "859",
-          "pid": "3901955",
+          "RK": "",
+          "RA": "",
+          "pid": "4122385",
           "splits": [
             "44,13",
             "46,75",
@@ -274,8 +274,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "28",
-          "RA": "277",
+          "RK": "",
+          "RA": "",
           "pid": "3901951",
           "splits": [
             "44,13",

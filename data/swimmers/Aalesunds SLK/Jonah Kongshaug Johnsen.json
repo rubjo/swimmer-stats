@@ -4,31 +4,11 @@
   "club": "Aalesunds SLK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-15T23:48:58.116Z",
+  "timestamp": "2026-11-16T13:15:55.058Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "27,37",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "60",
-          "RA": "517",
-          "pid": "3882727"
-        },
-        {
-          "Tid": "27,72",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3857153"
-        },
         {
           "Tid": "28,24",
           "Dato": "07.12.2025",
@@ -70,28 +50,6 @@
           "pid": "3771225"
         },
         {
-          "Tid": "28,73",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3889666",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "29,06",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3882171",
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "29,47",
           "Dato": "27.04.2025",
           "Sted": "Volda",
@@ -113,28 +71,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "30,26",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856432",
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "30,43",
-          "Dato": "10.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3926306",
-          "partOf": "400m Fri"
-        },
-        {
           "Tid": "30,60",
           "Dato": "22.11.2025",
           "Sted": "Kristiansund",
@@ -154,17 +90,6 @@
           "RK": "",
           "RA": "",
           "pid": "3547336"
-        },
-        {
-          "Tid": "30,91",
-          "Dato": "29.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3955179",
-          "partOf": "400m Fri"
         },
         {
           "Tid": "31,01",
@@ -302,17 +227,6 @@
           "RK": "",
           "RA": "",
           "pid": "3518268"
-        },
-        {
-          "Tid": "32,65",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3907167",
-          "partOf": "800m Fri"
         },
         {
           "Tid": "32,79",
@@ -642,6 +556,70 @@
           "partOf": "100m Fri"
         },
         {
+          "Tid": "27,37",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "60",
+          "RA": "518",
+          "pid": "4103370"
+        },
+        {
+          "Tid": "27,72",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4079373"
+        },
+        {
+          "Tid": "28,73",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4110147",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "29,06",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4102807",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "30,26",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4078605",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "30,43",
+          "Dato": "10.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4146647",
+          "partOf": "400m Fri"
+        },
+        {
           "Tid": "30,73",
           "Dato": "26.09.2026",
           "Sted": "Molde",
@@ -649,44 +627,36 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4018160",
+          "pid": "4236314",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "30,91",
+          "Dato": "29.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4175324",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "32,65",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "124",
+          "RA": "782",
+          "pid": "4127692",
+          "partOf": "800m Fri"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "30,22",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "30",
-          "RA": "194",
-          "pid": "3881794"
-        },
-        {
-          "Tid": "30,45",
-          "Dato": "01.03.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3882740"
-        },
-        {
-          "Tid": "32,02",
-          "Dato": "22.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "24",
-          "RA": "156",
-          "pid": "3902727"
-        },
         {
           "Tid": "32,06",
           "Dato": "25.10.2025",
@@ -716,16 +686,6 @@
           "RK": "",
           "RA": "",
           "pid": "3795931"
-        },
-        {
-          "Tid": "32,77",
-          "Dato": "12.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3969071"
         },
         {
           "Tid": "33,90",
@@ -766,55 +726,52 @@
           "RK": "",
           "RA": "",
           "pid": "3074914"
+        },
+        {
+          "Tid": "30,22",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "199",
+          "pid": "4102417"
+        },
+        {
+          "Tid": "30,45",
+          "Dato": "01.03.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4103383"
+        },
+        {
+          "Tid": "32,02",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "24",
+          "RA": "156",
+          "pid": "4123186"
+        },
+        {
+          "Tid": "32,77",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4189180"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "30,63",
-          "Dato": "01.03.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "73",
-          "RA": "532",
-          "pid": "3881753"
-        },
-        {
-          "Tid": "31,60",
-          "Dato": "11.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3924597",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "31,76",
-          "Dato": "12.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3925832",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "32,07",
-          "Dato": "30.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3953016",
-          "partOf": "100m Butterfly"
-        },
         {
           "Tid": "32,08",
           "Dato": "06.12.2025",
@@ -824,39 +781,6 @@
           "RK": "70",
           "RA": "680",
           "pid": "3830788"
-        },
-        {
-          "Tid": "32,21",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3889407",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "32,57",
-          "Dato": "31.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3954465",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "32,86",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3890114",
-          "partOf": "200m Individuell medley"
         },
         {
           "Tid": "34,13",
@@ -901,17 +825,6 @@
           "RA": "",
           "pid": "3830937",
           "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "34,98",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856933",
-          "partOf": "400m Individuell medley"
         },
         {
           "Tid": "35,21",
@@ -1100,6 +1013,82 @@
           "partOf": "100m Butterfly"
         },
         {
+          "Tid": "30,63",
+          "Dato": "01.03.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "74",
+          "RA": "536",
+          "pid": "4102375"
+        },
+        {
+          "Tid": "31,60",
+          "Dato": "11.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4144930",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "31,76",
+          "Dato": "12.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4146171",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "32,07",
+          "Dato": "30.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4173161",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,21",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4109876",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,57",
+          "Dato": "31.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4174610",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "32,86",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4110603",
+          "partOf": "200m Individuell medley"
+        },
+        {
           "Tid": "34,15",
           "Dato": "27.09.2026",
           "Sted": "Molde",
@@ -1107,7 +1096,18 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4018227",
+          "pid": "4236381",
+          "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "34,98",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4079141",
           "partOf": "400m Individuell medley"
         }
       ]
@@ -1115,48 +1115,6 @@
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "32,00",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3854316"
-        },
-        {
-          "Tid": "32,07",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3855190",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "32,40",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3855188",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "32,41",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889221"
-        },
         {
           "Tid": "32,64",
           "Dato": "22.11.2025",
@@ -1166,16 +1124,6 @@
           "RK": "8",
           "RA": "210",
           "pid": "3822063"
-        },
-        {
-          "Tid": "32,93",
-          "Dato": "12.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3969279"
         },
         {
           "Tid": "32,94",
@@ -1207,81 +1155,6 @@
           "RK": "",
           "RA": "",
           "pid": "3822253",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "33,47",
-          "Dato": "19.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3928566"
-        },
-        {
-          "Tid": "33,86",
-          "Dato": "30.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3953866",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "33,88",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3903065"
-        },
-        {
-          "Tid": "33,88",
-          "Dato": "22.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3904243",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "34,17",
-          "Dato": "11.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3925285",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "34,28",
-          "Dato": "14.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3970429",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "34,30",
-          "Dato": "17.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3929575",
           "partOf": "100m Bryst"
         },
         {
@@ -1323,17 +1196,6 @@
           "RK": "10",
           "RA": "187",
           "pid": "3676614"
-        },
-        {
-          "Tid": "35,27",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3971954",
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "35,34",
@@ -1399,17 +1261,6 @@
           "RA": "",
           "pid": "3685588",
           "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "35,69",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3971951",
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "35,89",
@@ -1680,46 +1531,14 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "32,78",
-          "Dato": "02.07.2026",
-          "Sted": "Tøyen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3982772"
-        },
-        {
-          "Tid": "33,42",
-          "Dato": "04.07.2026",
-          "Sted": "Tøyen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3983533",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "36,06",
-          "Dato": "03.07.2026",
-          "Sted": "Tøyen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3984322",
-          "partOf": "200m Bryst"
-        },
-        {
           "Tid": "31,32",
           "Dato": "26.09.2026",
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4017475"
+          "RK": "6",
+          "RA": "109",
+          "pid": "4235627"
         },
         {
           "Tid": "31,35",
@@ -1729,7 +1548,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4037567"
+          "pid": "4255623"
         },
         {
           "Tid": "31,60",
@@ -1739,19 +1558,8 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4038233",
+          "pid": "4256291",
           "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "33,59",
-          "Dato": "24.10.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4039140",
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "31,99",
@@ -1761,8 +1569,70 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4060437",
+          "pid": "4274930",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "32,00",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4076292"
+        },
+        {
+          "Tid": "32,07",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4077239",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "32,40",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4077237",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "32,41",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4109681"
+        },
+        {
+          "Tid": "32,78",
+          "Dato": "02.07.2026",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "7",
+          "RA": "114",
+          "pid": "4202860"
+        },
+        {
+          "Tid": "32,93",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4189389"
         },
         {
           "Tid": "33,32",
@@ -1772,7 +1642,137 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4061224",
+          "pid": "4275717",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "33,42",
+          "Dato": "04.07.2026",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4203621",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "33,47",
+          "Dato": "19.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4148829"
+        },
+        {
+          "Tid": "33,59",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4257200",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "33,86",
+          "Dato": "30.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4174011",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "33,88",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4123529"
+        },
+        {
+          "Tid": "33,88",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4124728",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "34,17",
+          "Dato": "11.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4145621",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "34,28",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4190543",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "34,30",
+          "Dato": "17.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4149842",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "35,27",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4192072",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "35,69",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4192069",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "36,06",
+          "Dato": "03.07.2026",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4204410",
           "partOf": "200m Bryst"
         }
       ]
@@ -1780,34 +1780,6 @@
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "59,53",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "49",
-          "RA": "389",
-          "pid": "3889665",
-          "splits": [
-            "28,73",
-            "30,80"
-          ]
-        },
-        {
-          "Tid": "59,89",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3882170",
-          "splits": [
-            "29,06",
-            "30,83"
-          ]
-        },
         {
           "Tid": "1.01,65",
           "Dato": "06.12.2025",
@@ -1823,36 +1795,6 @@
           ]
         },
         {
-          "Tid": "1.02,69",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856433",
-          "splits": [
-            "30,26",
-            "32,43"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.03,48",
-          "Dato": "10.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3926307",
-          "splits": [
-            "30,43",
-            "33,05"
-          ],
-          "partOf": "400m Fri"
-        },
-        {
           "Tid": "1.03,56",
           "Dato": "22.11.2025",
           "Sted": "Kristiansund",
@@ -1866,21 +1808,6 @@
             "32,96"
           ],
           "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.04,61",
-          "Dato": "29.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3955180",
-          "splits": [
-            "30,91",
-            "33,70"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "1.05,11",
@@ -1996,21 +1923,6 @@
             "35,29"
           ],
           "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.07,94",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3907168",
-          "splits": [
-            "32,65",
-            "35,29"
-          ],
-          "partOf": "800m Fri"
         },
         {
           "Tid": "1.08,24",
@@ -2431,6 +2343,79 @@
           ]
         },
         {
+          "Tid": "59,53",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "49",
+          "RA": "392",
+          "pid": "4110146",
+          "splits": [
+            "28,73",
+            "30,80"
+          ]
+        },
+        {
+          "Tid": "59,89",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4102806",
+          "splits": [
+            "29,06",
+            "30,83"
+          ]
+        },
+        {
+          "Tid": "1.02,69",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4078606",
+          "splits": [
+            "30,26",
+            "32,43"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.03,48",
+          "Dato": "10.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4146648",
+          "splits": [
+            "30,43",
+            "33,05"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.04,61",
+          "Dato": "29.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4175325",
+          "splits": [
+            "30,91",
+            "33,70"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
           "Tid": "1.04,90",
           "Dato": "26.09.2026",
           "Sted": "Molde",
@@ -2438,32 +2423,33 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4018161",
+          "pid": "4236315",
           "splits": [
             "30,73",
             "34,17"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.07,94",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "96",
+          "RA": "572",
+          "pid": "4127693",
+          "splits": [
+            "32,65",
+            "35,29"
+          ],
+          "partOf": "800m Fri"
         }
       ]
     },
     {
       "distanse": "100m Rygg",
       "races": [
-        {
-          "Tid": "1.04,98",
-          "Dato": "01.03.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "19",
-          "RA": "111",
-          "pid": "3882036",
-          "splits": [
-            "31,14",
-            "33,84"
-          ]
-        },
         {
           "Tid": "1.10,64",
           "Dato": "25.10.2025",
@@ -2491,26 +2477,26 @@
             "34,0",
             "36,85"
           ]
+        },
+        {
+          "Tid": "1.04,98",
+          "Dato": "01.03.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "19",
+          "RA": "116",
+          "pid": "4102668",
+          "splits": [
+            "31,14",
+            "33,84"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Individuell medley",
       "races": [
-        {
-          "Tid": "1.06,73",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889766",
-          "splits": [
-            "31,84",
-            "34,89"
-          ]
-        },
         {
           "Tid": "1.09,92",
           "Dato": "26.10.2025",
@@ -2603,7 +2589,7 @@
           "D": "",
           "RK": "10",
           "RA": "137",
-          "pid": "4017865",
+          "pid": "4236019",
           "splits": [
             "31,29",
             "32,86"
@@ -2617,10 +2603,24 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4038730",
+          "pid": "4256788",
           "splits": [
             "30,17",
             "34,41"
+          ]
+        },
+        {
+          "Tid": "1.06,73",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4110249",
+          "splits": [
+            "31,84",
+            "34,89"
           ]
         }
       ]
@@ -2628,48 +2628,6 @@
     {
       "distanse": "100m Butterfly",
       "races": [
-        {
-          "Tid": "1.07,02",
-          "Dato": "11.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "38",
-          "RA": "261",
-          "pid": "3924596",
-          "splits": [
-            "31,60",
-            "35,42"
-          ]
-        },
-        {
-          "Tid": "1.09,68",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889406",
-          "splits": [
-            "32,21",
-            "37,47"
-          ]
-        },
-        {
-          "Tid": "1.10,08",
-          "Dato": "30.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3953015",
-          "splits": [
-            "32,07",
-            "38,01"
-          ]
-        },
         {
           "Tid": "1.15,67",
           "Dato": "07.12.2025",
@@ -2683,21 +2641,6 @@
             "34,97",
             "40,70"
           ]
-        },
-        {
-          "Tid": "1.15,96",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856934",
-          "splits": [
-            "34,98",
-            "40,98"
-          ],
-          "partOf": "400m Individuell medley"
         },
         {
           "Tid": "1.18,50",
@@ -2840,6 +2783,48 @@
           ]
         },
         {
+          "Tid": "1.07,02",
+          "Dato": "11.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "266",
+          "pid": "4144929",
+          "splits": [
+            "31,60",
+            "35,42"
+          ]
+        },
+        {
+          "Tid": "1.09,68",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4109875",
+          "splits": [
+            "32,21",
+            "37,47"
+          ]
+        },
+        {
+          "Tid": "1.10,08",
+          "Dato": "30.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4173160",
+          "splits": [
+            "32,07",
+            "38,01"
+          ]
+        },
+        {
           "Tid": "1.13,86",
           "Dato": "27.09.2026",
           "Sted": "Molde",
@@ -2847,10 +2832,25 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4018228",
+          "pid": "4236382",
           "splits": [
             "34,15",
             "39,71"
+          ],
+          "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "1.15,96",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4079142",
+          "splits": [
+            "34,98",
+            "40,98"
           ],
           "partOf": "400m Individuell medley"
         }
@@ -2859,64 +2859,6 @@
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.08,29",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "4",
-          "RA": "64",
-          "pid": "3855189",
-          "splits": [
-            "32,07",
-            "36,22"
-          ]
-        },
-        {
-          "Tid": "1.09,36",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3855187",
-          "splits": [
-            "32,40",
-            "36,96"
-          ]
-        },
-        {
-          "Tid": "1.10,64",
-          "Dato": "30.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3953867",
-          "splits": [
-            "33,86",
-            "36,78"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.11,01",
-          "Dato": "11.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3925286",
-          "splits": [
-            "34,17",
-            "36,84"
-          ],
-          "partOf": "200m Bryst"
-        },
         {
           "Tid": "1.11,09",
           "Dato": "24.10.2025",
@@ -2946,48 +2888,6 @@
           ]
         },
         {
-          "Tid": "1.13,04",
-          "Dato": "17.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3929574",
-          "splits": [
-            "34,30",
-            "38,74"
-          ]
-        },
-        {
-          "Tid": "1.13,19",
-          "Dato": "14.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3970428",
-          "splits": [
-            "34,28",
-            "38,91"
-          ]
-        },
-        {
-          "Tid": "1.13,86",
-          "Dato": "22.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3904242",
-          "splits": [
-            "33,88",
-            "39,98"
-          ]
-        },
-        {
           "Tid": "1.14,42",
           "Dato": "23.11.2025",
           "Sted": "Kristiansund",
@@ -2999,21 +2899,6 @@
           "splits": [
             "35,34",
             "39,08"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.14,73",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3971952",
-          "splits": [
-            "35,69",
-            "39,04"
           ],
           "partOf": "200m Bryst"
         },
@@ -3044,21 +2929,6 @@
           "splits": [
             "35,39",
             "39,46"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.15,31",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3971955",
-          "splits": [
-            "35,27",
-            "40,04"
           ],
           "partOf": "200m Bryst"
         },
@@ -3357,62 +3227,18 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "1.13,09",
-          "Dato": "04.07.2026",
-          "Sted": "Tøyen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3983532",
-          "splits": [
-            "33,42",
-            "39,67"
-          ]
-        },
-        {
-          "Tid": "1.15,88",
-          "Dato": "03.07.2026",
-          "Sted": "Tøyen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3984323",
-          "splits": [
-            "36,06",
-            "39,82"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.08,55",
-          "Dato": "23.10.2026",
-          "Sted": "Stavanger",
+          "Tid": "1.08,29",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4038232",
+          "RK": "5",
+          "RA": "73",
+          "pid": "4077238",
           "splits": [
-            "31,60",
-            "36,95"
+            "32,07",
+            "36,22"
           ]
-        },
-        {
-          "Tid": "1.10,60",
-          "Dato": "24.10.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4039141",
-          "splits": [
-            "33,59",
-            "37,01"
-          ],
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "1.08,42",
@@ -3422,10 +3248,38 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4060436",
+          "pid": "4274929",
           "splits": [
             "31,99",
             "36,43"
+          ]
+        },
+        {
+          "Tid": "1.08,55",
+          "Dato": "23.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4256290",
+          "splits": [
+            "31,60",
+            "36,95"
+          ]
+        },
+        {
+          "Tid": "1.09,36",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4077236",
+          "splits": [
+            "32,40",
+            "36,96"
           ]
         },
         {
@@ -3436,10 +3290,156 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4061225",
+          "pid": "4275718",
           "splits": [
             "33,32",
             "36,57"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.10,60",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4257201",
+          "splits": [
+            "33,59",
+            "37,01"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.10,64",
+          "Dato": "30.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4174012",
+          "splits": [
+            "33,86",
+            "36,78"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.11,01",
+          "Dato": "11.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4145622",
+          "splits": [
+            "34,17",
+            "36,84"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.13,04",
+          "Dato": "17.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "7",
+          "RA": "87",
+          "pid": "4149841",
+          "splits": [
+            "34,30",
+            "38,74"
+          ]
+        },
+        {
+          "Tid": "1.13,09",
+          "Dato": "04.07.2026",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4203620",
+          "splits": [
+            "33,42",
+            "39,67"
+          ]
+        },
+        {
+          "Tid": "1.13,19",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4190542",
+          "splits": [
+            "34,28",
+            "38,91"
+          ]
+        },
+        {
+          "Tid": "1.13,86",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4124727",
+          "splits": [
+            "33,88",
+            "39,98"
+          ]
+        },
+        {
+          "Tid": "1.14,73",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4192070",
+          "splits": [
+            "35,69",
+            "39,04"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.15,31",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4192073",
+          "splits": [
+            "35,27",
+            "40,04"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.15,88",
+          "Dato": "03.07.2026",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4204411",
+          "splits": [
+            "36,06",
+            "39,82"
           ],
           "partOf": "200m Bryst"
         }
@@ -3448,22 +3448,6 @@
     {
       "distanse": "200m Fri",
       "races": [
-        {
-          "Tid": "2.08,58",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "30",
-          "RA": "221",
-          "pid": "3856431",
-          "splits": [
-            "30,26",
-            "32,43",
-            "32,91",
-            "32,98"
-          ]
-        },
         {
           "Tid": "2.11,00",
           "Dato": "22.11.2025",
@@ -3479,40 +3463,6 @@
             "33,61",
             "33,83"
           ]
-        },
-        {
-          "Tid": "2.12,66",
-          "Dato": "10.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3926308",
-          "splits": [
-            "30,43",
-            "33,05",
-            "34,07",
-            "35,11"
-          ],
-          "partOf": "400m Fri"
-        },
-        {
-          "Tid": "2.14,23",
-          "Dato": "29.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3955181",
-          "splits": [
-            "30,91",
-            "33,70",
-            "34,67",
-            "34,95"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "2.15,05",
@@ -3629,23 +3579,6 @@
             "35,75",
             "35,63",
             "36,12"
-          ],
-          "partOf": "800m Fri"
-        },
-        {
-          "Tid": "2.21,47",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3907169",
-          "splits": [
-            "32,65",
-            "35,29",
-            "36,80",
-            "36,73"
           ],
           "partOf": "800m Fri"
         },
@@ -3933,6 +3866,39 @@
           "partOf": "400m Fri"
         },
         {
+          "Tid": "2.08,58",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "223",
+          "pid": "4078604",
+          "splits": [
+            "30,26",
+            "32,43",
+            "32,91",
+            "32,98"
+          ]
+        },
+        {
+          "Tid": "2.12,66",
+          "Dato": "10.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4146649",
+          "splits": [
+            "30,43",
+            "33,05",
+            "34,07",
+            "35,11"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
           "Tid": "2.13,79",
           "Dato": "26.09.2026",
           "Sted": "Molde",
@@ -3940,7 +3906,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4018162",
+          "pid": "4236316",
           "splits": [
             "30,73",
             "34,17",
@@ -3948,60 +3914,46 @@
             "34,71"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.14,23",
+          "Dato": "29.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4175326",
+          "splits": [
+            "30,91",
+            "33,70",
+            "34,67",
+            "34,95"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.21,47",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "45",
+          "RA": "275",
+          "pid": "4127694",
+          "splits": [
+            "32,65",
+            "35,29",
+            "36,80",
+            "36,73"
+          ],
+          "partOf": "800m Fri"
         }
       ]
     },
     {
       "distanse": "200m Rygg",
       "races": [
-        {
-          "Tid": "2.19,23",
-          "Dato": "12.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "16",
-          "RA": "76",
-          "pid": "3924995",
-          "splits": [
-            "33,39",
-            "35,08",
-            "35,09",
-            "35,67"
-          ]
-        },
-        {
-          "Tid": "2.20,10",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3882288",
-          "splits": [
-            "33,61",
-            "35,28",
-            "35,67",
-            "35,54"
-          ]
-        },
-        {
-          "Tid": "2.21,88",
-          "Dato": "29.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3953391",
-          "splits": [
-            "34,17",
-            "35,81",
-            "35,75",
-            "36,15"
-          ]
-        },
         {
           "Tid": "2.24,76",
           "Dato": "06.12.2025",
@@ -4019,38 +3971,6 @@
           ]
         },
         {
-          "Tid": "2.25,21",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3855977",
-          "splits": [
-            "33,93",
-            "36,38",
-            "37,19",
-            "37,71"
-          ]
-        },
-        {
-          "Tid": "2.29,96",
-          "Dato": "17.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "8",
-          "RA": "66",
-          "pid": "3930861",
-          "splits": [
-            "34,84",
-            "37,53",
-            "38,48",
-            "39,11"
-          ]
-        },
-        {
           "Tid": "2.30,46",
           "Dato": "16.03.2025",
           "Sted": "Ålesund",
@@ -4064,22 +3984,6 @@
             "38,28",
             "38,77",
             "37,76"
-          ]
-        },
-        {
-          "Tid": "2.30,64",
-          "Dato": "22.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3905281",
-          "splits": [
-            "36,04",
-            "38,41",
-            "38,79",
-            "37,40"
           ]
         },
         {
@@ -4193,60 +4097,108 @@
             "46,02",
             "43,24"
           ]
+        },
+        {
+          "Tid": "2.19,23",
+          "Dato": "12.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "16",
+          "RA": "77",
+          "pid": "4145330",
+          "splits": [
+            "33,39",
+            "35,08",
+            "35,09",
+            "35,67"
+          ]
+        },
+        {
+          "Tid": "2.20,10",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4102926",
+          "splits": [
+            "33,61",
+            "35,28",
+            "35,67",
+            "35,54"
+          ]
+        },
+        {
+          "Tid": "2.21,88",
+          "Dato": "29.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4173536",
+          "splits": [
+            "34,17",
+            "35,81",
+            "35,75",
+            "36,15"
+          ]
+        },
+        {
+          "Tid": "2.25,21",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4078092",
+          "splits": [
+            "33,93",
+            "36,38",
+            "37,19",
+            "37,71"
+          ]
+        },
+        {
+          "Tid": "2.29,96",
+          "Dato": "17.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "8",
+          "RA": "66",
+          "pid": "4151134",
+          "splits": [
+            "34,84",
+            "37,53",
+            "38,48",
+            "39,11"
+          ]
+        },
+        {
+          "Tid": "2.30,64",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4125792",
+          "splits": [
+            "36,04",
+            "38,41",
+            "38,79",
+            "37,40"
+          ]
         }
       ]
     },
     {
       "distanse": "200m Individuell medley",
       "races": [
-        {
-          "Tid": "2.19,60",
-          "Dato": "12.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "12",
-          "RA": "92",
-          "pid": "3925831",
-          "splits": [
-            "31,76",
-            "35,55",
-            "37,56",
-            "34,73"
-          ]
-        },
-        {
-          "Tid": "2.23,11",
-          "Dato": "31.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3954464",
-          "splits": [
-            "32,57",
-            "36,72",
-            "38,03",
-            "35,79"
-          ]
-        },
-        {
-          "Tid": "2.23,26",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3890113",
-          "splits": [
-            "32,86",
-            "36,28",
-            "39,18",
-            "34,94"
-          ]
-        },
         {
           "Tid": "2.26,32",
           "Dato": "22.11.2025",
@@ -4390,6 +4342,54 @@
             "48,19",
             "39,89"
           ]
+        },
+        {
+          "Tid": "2.19,60",
+          "Dato": "12.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "12",
+          "RA": "96",
+          "pid": "4146170",
+          "splits": [
+            "31,76",
+            "35,55",
+            "37,56",
+            "34,73"
+          ]
+        },
+        {
+          "Tid": "2.23,11",
+          "Dato": "31.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4174609",
+          "splits": [
+            "32,57",
+            "36,72",
+            "38,03",
+            "35,79"
+          ]
+        },
+        {
+          "Tid": "2.23,26",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4110602",
+          "splits": [
+            "32,86",
+            "36,28",
+            "39,18",
+            "34,94"
+          ]
         }
       ]
     },
@@ -4402,30 +4402,14 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "2",
-          "RA": "30",
+          "RK": "",
+          "RA": "",
           "pid": "3953865",
           "splits": [
             "33,86",
             "36,78",
             "37,94",
             "39,02"
-          ]
-        },
-        {
-          "Tid": "2.29,51",
-          "Dato": "11.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3925284",
-          "splits": [
-            "34,17",
-            "36,84",
-            "38,21",
-            "40,29"
           ]
         },
         {
@@ -4458,38 +4442,6 @@
             "39,41",
             "40,24",
             "41,84"
-          ]
-        },
-        {
-          "Tid": "2.37,48",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "4",
-          "RA": "38",
-          "pid": "3971953",
-          "splits": [
-            "35,27",
-            "40,04",
-            "40,66",
-            "41,51"
-          ]
-        },
-        {
-          "Tid": "2.37,76",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3971950",
-          "splits": [
-            "35,69",
-            "39,04",
-            "40,82",
-            "42,21"
           ]
         },
         {
@@ -4733,19 +4685,19 @@
           ]
         },
         {
-          "Tid": "2.37,62",
-          "Dato": "03.07.2026",
-          "Sted": "Tøyen",
-          "Basseng": "50m",
+          "Tid": "2.27,23",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3984321",
+          "RK": "4",
+          "RA": "32",
+          "pid": "4275716",
           "splits": [
-            "36,06",
-            "39,82",
-            "40,29",
-            "41,45"
+            "33,32",
+            "36,57",
+            "37,44",
+            "39,90"
           ]
         },
         {
@@ -4756,7 +4708,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4039139",
+          "pid": "4257199",
           "splits": [
             "33,59",
             "37,01",
@@ -4765,19 +4717,67 @@
           ]
         },
         {
-          "Tid": "2.27,23",
-          "Dato": "13.11.2026",
-          "Sted": "Sandnes",
+          "Tid": "2.29,51",
+          "Dato": "11.04.2026",
+          "Sted": "Stjørdal",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4061223",
+          "pid": "4145620",
           "splits": [
-            "33,32",
-            "36,57",
-            "37,44",
-            "39,90"
+            "34,17",
+            "36,84",
+            "38,21",
+            "40,29"
+          ]
+        },
+        {
+          "Tid": "2.37,48",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "4",
+          "RA": "38",
+          "pid": "4192071",
+          "splits": [
+            "35,27",
+            "40,04",
+            "40,66",
+            "41,51"
+          ]
+        },
+        {
+          "Tid": "2.37,62",
+          "Dato": "03.07.2026",
+          "Sted": "Tøyen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4204409",
+          "splits": [
+            "36,06",
+            "39,82",
+            "40,29",
+            "41,45"
+          ]
+        },
+        {
+          "Tid": "2.37,76",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4192068",
+          "splits": [
+            "35,69",
+            "39,04",
+            "40,82",
+            "42,21"
           ]
         }
       ]
@@ -4785,26 +4785,6 @@
     {
       "distanse": "400m Fri",
       "races": [
-        {
-          "Tid": "4.31,65",
-          "Dato": "10.04.2026",
-          "Sted": "Stjørdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3926305",
-          "splits": [
-            "30,43",
-            "33,05",
-            "34,07",
-            "35,11",
-            "34,60",
-            "35,13",
-            "34,98",
-            "34,28"
-          ]
-        },
         {
           "Tid": "4.37,30",
           "Dato": "23.11.2025",
@@ -4823,26 +4803,6 @@
             "35,64",
             "36,22",
             "35,65"
-          ]
-        },
-        {
-          "Tid": "4.40,33",
-          "Dato": "29.05.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3955178",
-          "splits": [
-            "30,91",
-            "33,70",
-            "34,67",
-            "34,95",
-            "36,16",
-            "36,37",
-            "37,02",
-            "36,55"
           ]
         },
         {
@@ -4965,27 +4925,6 @@
             "37,69",
             "36,79"
           ]
-        },
-        {
-          "Tid": "4.51,06",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "16",
-          "RA": "136",
-          "pid": "3907170",
-          "splits": [
-            "32,65",
-            "35,29",
-            "36,80",
-            "36,73",
-            "36,93",
-            "37,02",
-            "37,70",
-            "37,94"
-          ],
-          "partOf": "800m Fri"
         },
         {
           "Tid": "4.57,85",
@@ -5193,9 +5132,9 @@
           "Sted": "Molde",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4018159",
+          "RK": "19",
+          "RA": "137",
+          "pid": "4236313",
           "splits": [
             "30,73",
             "34,17",
@@ -5206,32 +5145,73 @@
             "32,72",
             "33,62"
           ]
+        },
+        {
+          "Tid": "4.31,65",
+          "Dato": "10.04.2026",
+          "Sted": "Stjørdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4146646",
+          "splits": [
+            "30,43",
+            "33,05",
+            "34,07",
+            "35,11",
+            "34,60",
+            "35,13",
+            "34,98",
+            "34,28"
+          ]
+        },
+        {
+          "Tid": "4.40,33",
+          "Dato": "29.05.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4175323",
+          "splits": [
+            "30,91",
+            "33,70",
+            "34,67",
+            "34,95",
+            "36,16",
+            "36,37",
+            "37,02",
+            "36,55"
+          ]
+        },
+        {
+          "Tid": "4.51,06",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "16",
+          "RA": "136",
+          "pid": "4127695",
+          "splits": [
+            "32,65",
+            "35,29",
+            "36,80",
+            "36,73",
+            "36,93",
+            "37,02",
+            "37,70",
+            "37,94"
+          ],
+          "partOf": "800m Fri"
         }
       ]
     },
     {
       "distanse": "400m Individuell medley",
       "races": [
-        {
-          "Tid": "5.04,04",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3856932",
-          "splits": [
-            "34,98",
-            "40,98",
-            "39,04",
-            "38,56",
-            "39,28",
-            "40,64",
-            "35,93",
-            "34,63"
-          ]
-        },
         {
           "Tid": "5.03,75",
           "Dato": "27.09.2026",
@@ -5240,7 +5220,7 @@
           "D": "",
           "RK": "5",
           "RA": "56",
-          "pid": "4018226",
+          "pid": "4236380",
           "splits": [
             "34,15",
             "39,71",
@@ -5250,6 +5230,26 @@
             "39,57",
             "36,82",
             "35,17"
+          ]
+        },
+        {
+          "Tid": "5.04,04",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4079140",
+          "splits": [
+            "34,98",
+            "40,98",
+            "39,04",
+            "38,56",
+            "39,28",
+            "40,64",
+            "35,93",
+            "34,63"
           ]
         }
       ]
@@ -5293,7 +5293,7 @@
           "D": "",
           "RK": "7",
           "RA": "72",
-          "pid": "3907166",
+          "pid": "4127691",
           "splits": [
             "32,65",
             "35,29",

@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 1954,
   "gender": "female",
-  "timestamp": "2026-11-09T11:15:18.496Z",
+  "timestamp": "2026-11-16T11:16:44.458Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -38,16 +38,6 @@
           "RK": "116",
           "RA": "1196",
           "pid": "962939"
-        },
-        {
-          "Tid": "36,54",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "182",
-          "RA": "1252",
-          "pid": "3900314"
         },
         {
           "Tid": "36,71",
@@ -90,6 +80,16 @@
           "pid": "592627"
         },
         {
+          "Tid": "36,54",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1254",
+          "pid": "4120706"
+        },
+        {
           "Tid": "40,96",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
@@ -97,11 +97,11 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3900958",
+          "pid": "4121362",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         }
       ]
     },
@@ -672,8 +672,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "128",
-          "RA": "1146",
+          "RK": "129",
+          "RA": "",
           "pid": "3900957",
           "splits": [
             "40,96",

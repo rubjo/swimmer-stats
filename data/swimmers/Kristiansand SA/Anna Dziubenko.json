@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2007,
   "gender": "female",
-  "timestamp": "2026-11-09T12:00:41.418Z",
+  "timestamp": "2026-11-16T11:47:38.263Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1136,50 +1136,6 @@
           "pid": "3823322"
         },
         {
-          "Tid": "37,78",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "41",
-          "RA": "188",
-          "pid": "3927659"
-        },
-        {
-          "Tid": "38,18",
-          "Dato": "14.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3896171"
-        },
-        {
-          "Tid": "38,32",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "29",
-          "RA": "138",
-          "pid": "3956411"
-        },
-        {
-          "Tid": "38,69",
-          "Dato": "06.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3957278",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "38,74",
           "Dato": "23.11.2025",
           "Sted": "Flekkefjord",
@@ -1192,16 +1148,6 @@
             ""
           ],
           "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "38,75",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3849664"
         },
         {
           "Tid": "38,86",
@@ -1218,20 +1164,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "39,49",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3851018",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "39,65",
           "Dato": "15.09.2024",
           "Sted": "Mandal",
@@ -1240,34 +1172,6 @@
           "RK": "41",
           "RA": "320",
           "pid": "3521476"
-        },
-        {
-          "Tid": "40,12",
-          "Dato": "14.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3896469",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "40,89",
-          "Dato": "05.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3957276",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
         },
         {
           "Tid": "41,55",
@@ -1378,6 +1282,16 @@
           "partOf": "200m Bryst"
         },
         {
+          "Tid": "37,78",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "41",
+          "RA": "189",
+          "pid": "4147916"
+        },
+        {
           "Tid": "37,84",
           "Dato": "13.09.2026",
           "Sted": "Mandal",
@@ -1385,7 +1299,93 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4006569"
+          "pid": "4224725"
+        },
+        {
+          "Tid": "38,18",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4116660"
+        },
+        {
+          "Tid": "38,32",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "29",
+          "RA": "138",
+          "pid": "4176542"
+        },
+        {
+          "Tid": "38,69",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4177420",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "38,75",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4070554"
+        },
+        {
+          "Tid": "39,49",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4072244",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "40,12",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4116966",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "40,89",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4177418",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -1835,7 +1835,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "42",
-          "RA": "253",
+          "RA": "",
           "pid": "3927968",
           "splits": [
             "37,23",
@@ -2239,59 +2239,17 @@
           ]
         },
         {
-          "Tid": "1.26,09",
-          "Dato": "14.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "38",
-          "RA": "228",
-          "pid": "3896468",
-          "splits": [
-            "40,12",
-            "45,97"
-          ]
-        },
-        {
           "Tid": "1.27,31",
           "Dato": "25.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
           "RK": "23",
-          "RA": "139",
+          "RA": "",
           "pid": "3851017",
           "splits": [
             "39,49",
             "47,82"
-          ]
-        },
-        {
-          "Tid": "1.27,45",
-          "Dato": "05.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3957275",
-          "splits": [
-            "40,89",
-            "46,56"
-          ]
-        },
-        {
-          "Tid": "1.29,61",
-          "Dato": "06.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3957277",
-          "splits": [
-            "38,69",
-            "50,92"
           ]
         },
         {
@@ -2394,6 +2352,48 @@
           "splits": [
             "46,68",
             "54,17"
+          ]
+        },
+        {
+          "Tid": "1.26,09",
+          "Dato": "14.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "38",
+          "RA": "229",
+          "pid": "4116965",
+          "splits": [
+            "40,12",
+            "45,97"
+          ]
+        },
+        {
+          "Tid": "1.27,45",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4177417",
+          "splits": [
+            "40,89",
+            "46,56"
+          ]
+        },
+        {
+          "Tid": "1.29,61",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4177419",
+          "splits": [
+            "38,69",
+            "50,92"
           ]
         }
       ]

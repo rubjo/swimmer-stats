@@ -4,22 +4,11 @@
   "club": "Lambertseter SK",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-11-09T12:10:44.323Z",
+  "timestamp": "2026-11-16T13:14:56.969Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "35,59",
-          "Dato": "28.02.2026",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "175",
-          "RA": "1369",
-          "pid": "3880770",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "36,05",
           "Dato": "06.12.2025",
@@ -39,6 +28,17 @@
           "RK": "",
           "RA": "",
           "pid": "3799616"
+        },
+        {
+          "Tid": "35,59",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "175",
+          "RA": "1370",
+          "pid": "4101381",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -52,8 +52,8 @@
           "Basseng": "25m",
           "D": "",
           "RK": "163",
-          "RA": "1151",
-          "pid": "3880769",
+          "RA": "1154",
+          "pid": "4101380",
           "splits": [
             "35,59",
             "43,10"

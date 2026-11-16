@@ -4,7 +4,7 @@
   "club": "Masters Sørlandet",
   "birthYear": 1976,
   "gender": "female",
-  "timestamp": "2026-11-09T12:22:42.373Z",
+  "timestamp": "2026-11-16T12:09:46.107Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -541,13 +541,13 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "152",
-          "RA": "990",
-          "pid": "3901797",
+          "RK": "",
+          "RA": "",
+          "pid": "4122222",
+          "partOf": "400m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "400m Fri"
+          ]
         }
       ]
     },
@@ -1036,8 +1036,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "43",
-          "RA": "210",
+          "RK": "",
+          "RA": "",
           "pid": "3899935"
         },
         {
@@ -1533,20 +1533,6 @@
           "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "32,96",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900432",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "32,97",
           "Dato": "14.07.2006",
           "Sted": "Trondheim",
@@ -1855,20 +1841,6 @@
           "partOf": "400m Individuell medley"
         },
         {
-          "Tid": "33,95",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901181",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Butterfly"
-        },
-        {
           "Tid": "34,08",
           "Dato": "03.06.2018",
           "Sted": "Kristiansand",
@@ -1923,6 +1895,34 @@
             ""
           ],
           "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "32,96",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120824",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "33,95",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121586",
+          "partOf": "200m Butterfly",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -2410,9 +2410,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "84",
-          "RA": "588",
-          "pid": "3901798",
+          "RK": "",
+          "RA": "",
+          "pid": "4122223",
           "splits": [
             "34,16",
             "37,45"
@@ -3089,8 +3089,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "24",
-          "RA": "95",
+          "RK": "",
+          "RA": "",
           "pid": "3900431",
           "splits": [
             "32,96",
@@ -3365,21 +3365,6 @@
           "partOf": "400m Individuell medley"
         },
         {
-          "Tid": "1.12,97",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901182",
-          "splits": [
-            "33,95",
-            "39,02"
-          ],
-          "partOf": "200m Butterfly"
-        },
-        {
           "Tid": "1.13,12",
           "Dato": "14.03.2015",
           "Sted": "Sognsvann",
@@ -3480,6 +3465,21 @@
           "splits": [
             "34,17",
             "39,83"
+          ],
+          "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "1.12,97",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121587",
+          "splits": [
+            "33,95",
+            "39,02"
           ],
           "partOf": "200m Butterfly"
         }
@@ -3592,8 +3592,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "36",
-          "RA": "202",
+          "RK": "",
+          "RA": "",
           "pid": "3901125",
           "splits": [
             "35,50",
@@ -4032,9 +4032,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "36",
-          "RA": "260",
-          "pid": "3901799",
+          "RK": "",
+          "RA": "",
+          "pid": "4122224",
           "splits": [
             "34,16",
             "37,45",
@@ -4364,8 +4364,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "9",
-          "RA": "25",
+          "RK": "",
+          "RA": "",
           "pid": "3901180",
           "splits": [
             "33,95",
@@ -4866,8 +4866,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "19",
-          "RA": "144",
+          "RK": "",
+          "RA": "",
           "pid": "3901796",
           "splits": [
             "34,16",
