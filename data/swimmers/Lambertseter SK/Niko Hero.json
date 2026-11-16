@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-09T11:51:22.246Z",
+  "timestamp": "2026-11-15T23:36:47.678Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -61,6 +61,28 @@
           "RK": "",
           "RA": "",
           "pid": "3982278",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "30,47",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060360",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "31,48",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4061159",
           "partOf": "200m Bryst"
         }
       ]
@@ -136,6 +158,35 @@
             "38,23"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.04,96",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060359",
+          "splits": [
+            "30,47",
+            "34,49"
+          ]
+        },
+        {
+          "Tid": "1.07,50",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4061160",
+          "splits": [
+            "31,48",
+            "36,02"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -183,6 +234,22 @@
             "38,23",
             "39,51",
             "39,55"
+          ]
+        },
+        {
+          "Tid": "2.20,91",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4061158",
+          "splits": [
+            "31,48",
+            "36,02",
+            "36,77",
+            "36,64"
           ]
         }
       ]

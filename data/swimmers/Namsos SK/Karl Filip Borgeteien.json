@@ -4,7 +4,7 @@
   "club": "Namsos SK",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-11-11T05:42:53.348Z",
+  "timestamp": "2026-11-15T22:57:35.209Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -2257,8 +2257,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "15",
-          "RA": "137",
+          "RK": "",
+          "RA": "",
           "pid": "4037136"
         }
       ]
@@ -2422,8 +2422,8 @@
           "Sted": "Verdal",
           "Basseng": "25m",
           "D": "",
-          "RK": "34",
-          "RA": "201",
+          "RK": "35",
+          "RA": "206",
           "pid": "4028144"
         },
         {
@@ -3101,8 +3101,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "7",
-          "RA": "83",
+          "RK": "",
+          "RA": "",
           "pid": "4037520"
         },
         {
@@ -3114,6 +3114,17 @@
           "RK": "",
           "RA": "",
           "pid": "4038183",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "31,36",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060368",
           "partOf": "100m Bryst"
         }
       ]
@@ -5122,12 +5133,26 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "7",
-          "RA": "63",
+          "RK": "",
+          "RA": "",
           "pid": "4038182",
           "splits": [
             "31,79",
             "36,49"
+          ]
+        },
+        {
+          "Tid": "1.08,46",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060367",
+          "splits": [
+            "31,36",
+            "37,10"
           ]
         }
       ]

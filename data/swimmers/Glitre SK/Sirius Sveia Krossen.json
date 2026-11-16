@@ -4,7 +4,7 @@
   "club": "Glitre SK",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-11-11T06:03:25.082Z",
+  "timestamp": "2026-11-15T23:58:58.424Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -777,9 +777,19 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "13",
-          "RA": "114",
+          "RK": "",
+          "RA": "",
           "pid": "4037683"
+        },
+        {
+          "Tid": "23,97",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "7",
+          "RA": "56",
+          "pid": "4062331"
         }
       ]
     },
@@ -1708,8 +1718,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "6",
-          "RA": "48",
+          "RK": "",
+          "RA": "",
           "pid": "4037506"
         },
         {
@@ -1721,6 +1731,27 @@
           "RK": "",
           "RA": "",
           "pid": "4038165",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "29,64",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4059712"
+        },
+        {
+          "Tid": "30,73",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060346",
           "partOf": "100m Bryst"
         }
       ]
@@ -2749,12 +2780,26 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "9",
-          "RA": "69",
+          "RK": "",
+          "RA": "",
           "pid": "4038164",
           "splits": [
             "32,18",
             "36,36"
+          ]
+        },
+        {
+          "Tid": "1.07,13",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060345",
+          "splits": [
+            "30,73",
+            "36,40"
           ]
         }
       ]

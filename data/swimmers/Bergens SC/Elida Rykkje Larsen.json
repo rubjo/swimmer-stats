@@ -4,7 +4,7 @@
   "club": "Bergens SC",
   "birthYear": 2007,
   "gender": "female",
-  "timestamp": "2026-11-11T07:12:07.109Z",
+  "timestamp": "2026-11-16T00:03:54.845Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -3411,8 +3411,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "9",
+          "RA": "19",
           "pid": "4037633"
         },
         {
@@ -3445,6 +3445,48 @@
           "RK": "",
           "RA": "",
           "pid": "4038345",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "33,41",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4059817"
+        },
+        {
+          "Tid": "33,63",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060519",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "33,70",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4059818"
+        },
+        {
+          "Tid": "34,08",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060521",
           "partOf": "100m Bryst"
         }
       ]
@@ -5836,8 +5878,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "5",
+          "RA": "10",
           "pid": "4038346",
           "splits": [
             "33,68",
@@ -5856,6 +5898,34 @@
           "splits": [
             "33,78",
             "38,70"
+          ]
+        },
+        {
+          "Tid": "1.12,17",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060518",
+          "splits": [
+            "33,63",
+            "38,54"
+          ]
+        },
+        {
+          "Tid": "1.12,99",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060520",
+          "splits": [
+            "34,08",
+            "38,91"
           ]
         }
       ]

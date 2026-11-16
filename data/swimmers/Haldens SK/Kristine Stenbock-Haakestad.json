@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2009,
   "gender": "female",
-  "timestamp": "2026-11-10T16:56:51.910Z",
+  "timestamp": "2026-11-16T00:43:45.205Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -819,9 +819,51 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "D",
-          "RK": "37",
-          "RA": "182",
+          "RK": "",
+          "RA": "",
           "pid": "4022896",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "26,52",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "16",
+          "pid": "4059960"
+        },
+        {
+          "Tid": "26,55",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4059959"
+        },
+        {
+          "Tid": "28,24",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060725",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "28,40",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060727",
           "partOf": "100m Fri"
         }
       ]
@@ -1326,6 +1368,16 @@
           "RA": "",
           "pid": "2916287",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "28,84",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "4",
+          "RA": "26",
+          "pid": "4059529"
         }
       ]
     },
@@ -2083,12 +2135,40 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "9",
-          "RA": "41",
+          "RK": "",
+          "RA": "",
           "pid": "4022895",
           "splits": [
             "28,85",
             "31,22"
+          ]
+        },
+        {
+          "Tid": "58,60",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "4",
+          "RA": "20",
+          "pid": "4060726",
+          "splits": [
+            "28,40",
+            "30,20"
+          ]
+        },
+        {
+          "Tid": "58,65",
+          "Dato": "15.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060724",
+          "splits": [
+            "28,24",
+            "30,41"
           ]
         }
       ]

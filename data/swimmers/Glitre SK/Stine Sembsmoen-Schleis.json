@@ -4,7 +4,7 @@
   "club": "Glitre SK",
   "birthYear": 2008,
   "gender": "female",
-  "timestamp": "2026-11-10T16:33:17.421Z",
+  "timestamp": "2026-11-15T22:48:37.513Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1002,6 +1002,16 @@
           "RK": "",
           "RA": "",
           "pid": "4037826"
+        },
+        {
+          "Tid": "28,01",
+          "Dato": "14.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4059961"
         }
       ]
     },
@@ -2241,8 +2251,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "4",
-          "RA": "22",
+          "RK": "",
+          "RA": "",
           "pid": "4037243"
         },
         {
@@ -2254,6 +2264,48 @@
           "RK": "",
           "RA": "",
           "pid": "4037989",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "28,25",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "3",
+          "RA": "16",
+          "pid": "4059531"
+        },
+        {
+          "Tid": "28,35",
+          "Dato": "13.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4059530"
+        },
+        {
+          "Tid": "29,33",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060135",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "30,62",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4060137",
           "partOf": "100m Butterfly"
         }
       ]
@@ -4193,12 +4245,40 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "5",
-          "RA": "28",
+          "RK": "",
+          "RA": "",
           "pid": "4037988",
           "splits": [
             "29,38",
             "36,32"
+          ]
+        },
+        {
+          "Tid": "1.05,23",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "5",
+          "RA": "27",
+          "pid": "4060134",
+          "splits": [
+            "29,33",
+            "35,90"
+          ]
+        },
+        {
+          "Tid": "1.05,93",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4060136",
+          "splits": [
+            "30,62",
+            "35,31"
           ]
         }
       ]
@@ -4422,8 +4502,8 @@
           "Sted": "Kongsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "18",
+          "RA": "84",
           "pid": "4020005",
           "splits": [
             "31,12",

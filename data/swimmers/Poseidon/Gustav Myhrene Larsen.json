@@ -4,7 +4,7 @@
   "club": "Poseidon",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-11T06:06:30.561Z",
+  "timestamp": "2026-11-16T00:02:10.871Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1459,8 +1459,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "25",
-          "RA": "300",
+          "RK": "",
+          "RA": "",
           "pid": "4037899",
           "partOf": "100m Butterfly"
         },
@@ -1473,6 +1473,17 @@
           "RK": "",
           "RA": "",
           "pid": "4039521",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "28,74",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4061586",
           "partOf": "200m Individuell medley"
         }
       ]
@@ -3001,7 +3012,7 @@
           "Basseng": "25m",
           "D": "D",
           "RK": "34",
-          "RA": "294",
+          "RA": "298",
           "pid": "4049630",
           "splits": [
             "28,02",
@@ -3524,8 +3535,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "6",
-          "RA": "77",
+          "RK": "",
+          "RA": "",
           "pid": "4037898",
           "splits": [
             "28,53",
@@ -3628,7 +3639,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "4",
-          "RA": "72",
+          "RA": "77",
           "pid": "4038705",
           "splits": [
             "29,01",
@@ -4932,8 +4943,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "5",
-          "RA": "71",
+          "RK": "",
+          "RA": "",
           "pid": "4049628",
           "splits": [
             "28,02",
@@ -5422,14 +5433,30 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "3",
-          "RA": "34",
+          "RK": "",
+          "RA": "",
           "pid": "4039520",
           "splits": [
             "29,19",
             "35,08",
             "38,01",
             "30,79"
+          ]
+        },
+        {
+          "Tid": "2.14,08",
+          "Dato": "12.11.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4061585",
+          "splits": [
+            "28,74",
+            "34,23",
+            "39,57",
+            "31,54"
           ]
         }
       ]
@@ -6484,7 +6511,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "3",
-          "RA": "34",
+          "RA": "36",
           "pid": "3996385",
           "splits": [
             "31,25",
