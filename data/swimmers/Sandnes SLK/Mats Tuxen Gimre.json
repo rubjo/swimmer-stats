@@ -4,7 +4,7 @@
   "club": "Sandnes SLK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-17T02:53:29.003Z",
+  "timestamp": "2026-11-17T16:10:26.368Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1079,16 +1079,6 @@
           "partOf": "1500m Fri"
         },
         {
-          "Tid": "28,02",
-          "Dato": "17.10.2026",
-          "Sted": "Sandnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4026078"
-        },
-        {
           "Tid": "28,86",
           "Dato": "24.10.2026",
           "Sted": "Stavanger",
@@ -1142,6 +1132,16 @@
           "RA": "",
           "pid": "4245934",
           "partOf": "800m Fri"
+        },
+        {
+          "Tid": "28,02",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4244224"
         }
       ]
     },
@@ -3353,20 +3353,6 @@
           "partOf": "1500m Fri"
         },
         {
-          "Tid": "1.00,05",
-          "Dato": "24.10.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4038452",
-          "splits": [
-            "28,86",
-            "31,19"
-          ]
-        },
-        {
           "Tid": "1.02,59",
           "Dato": "25.10.2026",
           "Sted": "Stavanger",
@@ -3425,6 +3411,20 @@
             "33,65"
           ],
           "partOf": "800m Fri"
+        },
+        {
+          "Tid": "1.00,05",
+          "Dato": "24.10.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4256510",
+          "splits": [
+            "28,86",
+            "31,19"
+          ]
         }
       ]
     },

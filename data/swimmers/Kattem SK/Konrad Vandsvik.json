@@ -4,7 +4,7 @@
   "club": "Kattem SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T02:14:29.110Z",
+  "timestamp": "2026-11-17T18:23:04.991Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -333,16 +333,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "32,24",
-          "Dato": "18.10.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4031842"
-        },
-        {
           "Tid": "32,61",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -393,6 +383,16 @@
           "RA": "",
           "pid": "4234814",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "32,24",
+          "Dato": "18.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4250073"
         }
       ]
     },
@@ -1120,20 +1120,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.14,81",
-          "Dato": "27.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4016663",
-          "splits": [
-            "36,51",
-            "38,30"
-          ]
-        },
-        {
           "Tid": "1.16,62",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -1147,6 +1133,20 @@
             "41,09"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.14,81",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4234813",
+          "splits": [
+            "36,51",
+            "38,30"
+          ]
         }
       ]
     },

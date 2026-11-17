@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2007,
   "gender": "female",
-  "timestamp": "2026-11-15T23:07:28.056Z",
+  "timestamp": "2026-11-17T18:31:25.620Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -953,38 +953,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "33,11",
-          "Dato": "12.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "134",
-          "RA": "836",
-          "pid": "3996898"
-        },
-        {
-          "Tid": "35,19",
-          "Dato": "27.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4016735",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "37,39",
-          "Dato": "27.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4017104",
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "36,97",
           "Dato": "07.11.2026",
           "Sted": "Trondheim",
@@ -996,6 +964,27 @@
           "partOf": "400m Fri"
         },
         {
+          "Tid": "33,11",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "836",
+          "pid": "4215048"
+        },
+        {
+          "Tid": "35,19",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4234885",
+          "partOf": "100m Fri"
+        },
+        {
           "Tid": "36,97",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -1003,8 +992,19 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4059016",
+          "pid": "4273530",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "37,39",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4235254",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -1480,16 +1480,6 @@
           "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "37,00",
-          "Dato": "12.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3996715"
-        },
-        {
           "Tid": "42,14",
           "Dato": "07.11.2026",
           "Sted": "Trondheim",
@@ -1501,6 +1491,16 @@
           "partOf": "100m Butterfly"
         },
         {
+          "Tid": "37,00",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4214845"
+        },
+        {
           "Tid": "42,14",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -1508,7 +1508,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4058271",
+          "pid": "4272785",
           "partOf": "100m Butterfly"
         }
       ]
@@ -2832,35 +2832,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.14,58",
-          "Dato": "27.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4016734",
-          "splits": [
-            "35,19",
-            "39,39"
-          ]
-        },
-        {
-          "Tid": "1.17,77",
-          "Dato": "27.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "4017105",
-          "splits": [
-            "37,39",
-            "40,38"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "1.18,28",
           "Dato": "07.11.2026",
           "Sted": "Trondheim",
@@ -2876,6 +2847,35 @@
           "partOf": "400m Fri"
         },
         {
+          "Tid": "1.14,58",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4234884",
+          "splits": [
+            "35,19",
+            "39,39"
+          ]
+        },
+        {
+          "Tid": "1.17,77",
+          "Dato": "27.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4235255",
+          "splits": [
+            "37,39",
+            "40,38"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
           "Tid": "1.18,28",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -2883,7 +2883,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4059017",
+          "pid": "4273531",
           "splits": [
             "36,97",
             "41,31"
@@ -3041,8 +3041,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "69",
-          "RA": "644",
+          "RK": "",
+          "RA": "",
           "pid": "3997194",
           "splits": [
             "40,11",
@@ -3217,7 +3217,7 @@
           "D": "",
           "RK": "46",
           "RA": "623",
-          "pid": "4058270",
+          "pid": "4272784",
           "splits": [
             "42,14",
             "52,43"
@@ -4338,8 +4338,8 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "47",
-          "RA": "466",
+          "RK": "",
+          "RA": "",
           "pid": "4017103",
           "splits": [
             "37,39",
@@ -4373,7 +4373,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4059018",
+          "pid": "4273532",
           "splits": [
             "36,97",
             "41,31",
@@ -5564,8 +5564,8 @@
           "Sted": "Hommelvik",
           "Basseng": "25m",
           "D": "",
-          "RK": "29",
-          "RA": "530",
+          "RK": "",
+          "RA": "",
           "pid": "4059015",
           "splits": [
             "36,97",

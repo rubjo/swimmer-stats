@@ -4,7 +4,7 @@
   "club": "Os SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T04:21:19.161Z",
+  "timestamp": "2026-11-17T16:31:24.655Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -293,20 +293,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.27,26",
-          "Dato": "27.09.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4012997",
-          "splits": [
-            "39,69",
-            "47,57"
-          ]
-        },
-        {
           "Tid": "1.32,18",
           "Dato": "18.10.2026",
           "Sted": "Stemmemyren",
@@ -438,6 +424,20 @@
             "1.02,96"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.27,26",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4231144",
+          "splits": [
+            "39,69",
+            "47,57"
+          ]
         }
       ]
     },

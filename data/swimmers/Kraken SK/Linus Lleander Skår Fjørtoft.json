@@ -4,7 +4,7 @@
   "club": "Kraken SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T02:15:41.626Z",
+  "timestamp": "2026-11-17T16:01:10.498Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -198,20 +198,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.43,11",
-          "Dato": "17.10.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4032094",
-          "splits": [
-            "49,63",
-            "53,48"
-          ]
-        },
-        {
           "Tid": "1.44,99",
           "Dato": "26.09.2026",
           "Sted": "Molde",
@@ -267,6 +253,20 @@
             "59,01"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.43,11",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4250327",
+          "splits": [
+            "49,63",
+            "53,48"
+          ]
         }
       ]
     },

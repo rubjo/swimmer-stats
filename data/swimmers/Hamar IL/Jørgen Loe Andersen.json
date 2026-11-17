@@ -4,21 +4,11 @@
   "club": "Hamar IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-17T02:07:00.445Z",
+  "timestamp": "2026-11-17T15:53:47.850Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "37,72",
-          "Dato": "13.09.2026",
-          "Sted": "Brumunddal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3998968"
-        },
         {
           "Tid": "40,69",
           "Dato": "08.11.2026",
@@ -97,26 +87,22 @@
           "splits": [
             ""
           ]
+        },
+        {
+          "Tid": "37,72",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4217142"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.27,99",
-          "Dato": "08.11.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4053551",
-          "splits": [
-            "40,69",
-            "47,30"
-          ]
-        },
         {
           "Tid": "1.29,72",
           "Dato": "13.09.2026",
@@ -188,6 +174,20 @@
           "splits": [
             "46,46",
             "53,29"
+          ]
+        },
+        {
+          "Tid": "1.27,99",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4269291",
+          "splits": [
+            "40,69",
+            "47,30"
           ]
         }
       ]

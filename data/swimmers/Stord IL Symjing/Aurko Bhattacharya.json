@@ -4,7 +4,7 @@
   "club": "Stord IL Symjing",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-11-17T02:36:18.858Z",
+  "timestamp": "2026-11-17T16:00:10.374Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -210,20 +210,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.24,73",
-          "Dato": "27.09.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4013009",
-          "splits": [
-            "38,97",
-            "45,76"
-          ]
-        },
-        {
           "Tid": "1.26,96",
           "Dato": "31.05.2026",
           "Sted": "Kopervik",
@@ -295,6 +281,20 @@
             "50,34"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.24,73",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4231156",
+          "splits": [
+            "38,97",
+            "45,76"
+          ]
         }
       ]
     },

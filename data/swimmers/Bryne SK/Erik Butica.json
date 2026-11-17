@@ -4,7 +4,7 @@
   "club": "Bryne SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T02:18:09.606Z",
+  "timestamp": "2026-11-17T16:02:07.119Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -167,20 +167,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.33,51",
-          "Dato": "27.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4009609",
-          "splits": [
-            "46,01",
-            "47,50"
-          ]
-        },
-        {
           "Tid": "1.38,49",
           "Dato": "26.04.2026",
           "Sted": "Sandnes",
@@ -208,6 +194,20 @@
             "59,83"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.33,51",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4227753",
+          "splits": [
+            "46,01",
+            "47,50"
+          ]
         }
       ]
     },

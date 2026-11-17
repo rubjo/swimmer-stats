@@ -4,21 +4,11 @@
   "club": "Svalbard Turn",
   "birthYear": 1996,
   "gender": "male",
-  "timestamp": "2026-11-17T02:21:30.480Z",
+  "timestamp": "2026-11-17T16:05:44.055Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "29,60",
-          "Dato": "07.11.2026",
-          "Sted": "Svalbard",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4050505"
-        },
         {
           "Tid": "30,72",
           "Dato": "07.11.2026",
@@ -29,22 +19,22 @@
           "RA": "",
           "pid": "4266376",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "29,60",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266239"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "37,92",
-          "Dato": "07.11.2026",
-          "Sted": "Svalbard",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "4050904"
-        },
         {
           "Tid": "38,13",
           "Dato": "08.11.2026",
@@ -54,26 +44,22 @@
           "RK": "",
           "RA": "",
           "pid": "4266140"
+        },
+        {
+          "Tid": "37,92",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4266641"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.04,60",
-          "Dato": "07.11.2026",
-          "Sted": "Svalbard",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4050638",
-          "splits": [
-            "30,72",
-            "33,88"
-          ]
-        },
         {
           "Tid": "1.05,83",
           "Dato": "08.11.2026",
@@ -86,6 +72,20 @@
           "splits": [
             "",
             ""
+          ]
+        },
+        {
+          "Tid": "1.04,60",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266375",
+          "splits": [
+            "30,72",
+            "33,88"
           ]
         }
       ]

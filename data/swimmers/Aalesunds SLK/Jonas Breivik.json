@@ -4,7 +4,7 @@
   "club": "Aalesunds SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T02:30:17.103Z",
+  "timestamp": "2026-11-17T15:57:47.524Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -105,20 +105,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.25,26",
-          "Dato": "12.09.2026",
-          "Sted": "Ålesund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4000368",
-          "splits": [
-            "38,78",
-            "46,48"
-          ]
-        },
-        {
           "Tid": "1.25,86",
           "Dato": "17.10.2026",
           "Sted": "Kristiansund",
@@ -161,6 +147,20 @@
             "51,25"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.25,26",
+          "Dato": "12.09.2026",
+          "Sted": "Ålesund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4218551",
+          "splits": [
+            "38,78",
+            "46,48"
+          ]
         }
       ]
     },

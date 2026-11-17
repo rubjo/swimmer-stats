@@ -4,7 +4,7 @@
   "club": "Arna SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T02:08:03.765Z",
+  "timestamp": "2026-11-17T15:54:45.142Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -175,20 +175,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.22,76",
-          "Dato": "27.09.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4012768",
-          "splits": [
-            "40,01",
-            "42,75"
-          ]
-        },
-        {
           "Tid": "1.23,04",
           "Dato": "08.11.2026",
           "Sted": "Bremnes",
@@ -245,6 +231,20 @@
             "52,25"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.22,76",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4230913",
+          "splits": [
+            "40,01",
+            "42,75"
+          ]
         }
       ]
     },

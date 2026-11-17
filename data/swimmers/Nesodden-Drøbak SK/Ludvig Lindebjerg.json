@@ -4,7 +4,7 @@
   "club": "Nesodden-Drøbak SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T04:54:03.595Z",
+  "timestamp": "2026-11-17T17:24:08.357Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -105,16 +105,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "32,82",
-          "Dato": "13.09.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4002944"
-        },
-        {
           "Tid": "34,25",
           "Dato": "10.10.2026",
           "Sted": "Sarpsborg",
@@ -135,6 +125,16 @@
           "RA": "",
           "pid": "4207660",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "32,82",
+          "Dato": "13.09.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4221138"
         }
       ]
     },
@@ -449,20 +449,6 @@
           ]
         },
         {
-          "Tid": "1.14,52",
-          "Dato": "10.10.2026",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4022747",
-          "splits": [
-            "34,25",
-            "40,27"
-          ]
-        },
-        {
           "Tid": "1.21,17",
           "Dato": "22.08.2026",
           "Sted": "Langhus",
@@ -490,6 +476,20 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.14,52",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4240970",
+          "splits": [
+            "34,25",
+            "40,27"
+          ]
         }
       ]
     },
@@ -1020,16 +1020,6 @@
       "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "37,38",
-          "Dato": "31.10.2026",
-          "Sted": "Langhus",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4049005"
-        },
-        {
           "Tid": "38,11",
           "Dato": "31.10.2026",
           "Sted": "Langhus",
@@ -1038,6 +1028,16 @@
           "RK": "",
           "RA": "",
           "pid": "4264943"
+        },
+        {
+          "Tid": "37,38",
+          "Dato": "31.10.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4264944"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2003,
   "gender": "male",
-  "timestamp": "2026-11-17T03:14:43.661Z",
+  "timestamp": "2026-11-17T18:41:15.000Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1512,16 +1512,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "25,74",
-          "Dato": "17.10.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "4032662"
-        },
-        {
           "Tid": "26,18",
           "Dato": "12.09.2026",
           "Sted": "Trondheim",
@@ -1562,6 +1552,16 @@
           "RA": "",
           "pid": "4250340",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "25,74",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4250899"
         }
       ]
     },
@@ -2677,7 +2677,7 @@
           "D": "F",
           "RK": "",
           "RA": "",
-          "pid": "4059202"
+          "pid": "4273716"
         }
       ]
     },
@@ -3880,20 +3880,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "57,62",
-          "Dato": "17.10.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4032106",
-          "splits": [
-            "27,46",
-            "30,16"
-          ]
-        },
-        {
           "Tid": "57,94",
           "Dato": "27.09.2026",
           "Sted": "Trondheim",
@@ -3905,6 +3891,20 @@
           "splits": [
             "27,38",
             "30,56"
+          ]
+        },
+        {
+          "Tid": "57,62",
+          "Dato": "17.10.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4250339",
+          "splits": [
+            "27,46",
+            "30,16"
           ]
         }
       ]

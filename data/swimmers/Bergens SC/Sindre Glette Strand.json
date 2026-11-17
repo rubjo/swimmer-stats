@@ -4,7 +4,7 @@
   "club": "Bergens SC",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T02:40:28.520Z",
+  "timestamp": "2026-11-17T18:16:00.984Z",
   "disciplines": [
     {
       "distanse": "100m Rygg",
@@ -85,20 +85,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.33,14",
-          "Dato": "18.10.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4030419",
-          "splits": [
-            "44,17",
-            "48,97"
-          ]
-        },
-        {
           "Tid": "1.37,59",
           "Dato": "18.10.2026",
           "Sted": "Stemmemyren",
@@ -112,6 +98,20 @@
             "53,11"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.33,14",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4248621",
+          "splits": [
+            "44,17",
+            "48,97"
+          ]
         }
       ]
     },

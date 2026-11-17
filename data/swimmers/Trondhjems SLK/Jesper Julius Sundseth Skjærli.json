@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-17T02:42:20.657Z",
+  "timestamp": "2026-11-17T18:17:33.180Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -371,16 +371,6 @@
           "partOf": "400m Fri"
         },
         {
-          "Tid": "34,64",
-          "Dato": "08.11.2026",
-          "Sted": "Hommelvik",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "4059184"
-        },
-        {
           "Tid": "35,21",
           "Dato": "12.09.2026",
           "Sted": "Trondheim",
@@ -432,6 +422,16 @@
           "RA": "",
           "pid": "4247127",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "34,64",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4273698"
         }
       ]
     },
@@ -846,16 +846,6 @@
           "pid": "3433756"
         },
         {
-          "Tid": "43,12",
-          "Dato": "12.09.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3996741"
-        },
-        {
           "Tid": "45,44",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -864,6 +854,16 @@
           "RK": "",
           "RA": "",
           "pid": "4273721"
+        },
+        {
+          "Tid": "43,12",
+          "Dato": "12.09.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4214874"
         }
       ]
     },
@@ -1503,20 +1503,6 @@
           "partOf": "400m Fri"
         },
         {
-          "Tid": "1.16,95",
-          "Dato": "08.11.2026",
-          "Sted": "Hommelvik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4058464",
-          "splits": [
-            "37,08",
-            "39,87"
-          ]
-        },
-        {
           "Tid": "1.22,78",
           "Dato": "07.11.2026",
           "Sted": "Hommelvik",
@@ -1545,6 +1531,20 @@
             "44,41"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.16,95",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272978",
+          "splits": [
+            "37,08",
+            "39,87"
+          ]
         }
       ]
     },

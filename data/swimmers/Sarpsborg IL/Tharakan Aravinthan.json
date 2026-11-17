@@ -4,7 +4,7 @@
   "club": "Sarpsborg IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-17T02:07:28.278Z",
+  "timestamp": "2026-11-17T15:54:12.952Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -242,20 +242,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.23,27",
-          "Dato": "10.10.2026",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4022757",
-          "splits": [
-            "40,40",
-            "42,87"
-          ]
-        },
-        {
           "Tid": "1.25,28",
           "Dato": "19.09.2026",
           "Sted": "Uddevalla",
@@ -459,6 +445,20 @@
             "55,20"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.23,27",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4240980",
+          "splits": [
+            "40,40",
+            "42,87"
+          ]
         }
       ]
     },

@@ -4,21 +4,11 @@
   "club": "Stjørdals-Blink IL",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-17T01:57:08.859Z",
+  "timestamp": "2026-11-17T17:19:45.140Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "43,67",
-          "Dato": "07.11.2026",
-          "Sted": "Hommelvik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4058147"
-        },
         {
           "Tid": "44,52",
           "Dato": "17.10.2026",
@@ -61,22 +51,22 @@
           "RA": "",
           "pid": "4273393",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "43,67",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272661"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "50,04",
-          "Dato": "17.10.2026",
-          "Sted": "Verdal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4036381"
-        },
         {
           "Tid": "50,62",
           "Dato": "08.11.2026",
@@ -86,6 +76,16 @@
           "RK": "",
           "RA": "",
           "pid": "4272551"
+        },
+        {
+          "Tid": "50,04",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4246307"
         }
       ]
     },
@@ -107,20 +107,6 @@
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.34,38",
-          "Dato": "08.11.2026",
-          "Sted": "Hommelvik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4058470",
-          "splits": [
-            "45,67",
-            "48,71"
-          ]
-        },
         {
           "Tid": "1.46,14",
           "Dato": "17.10.2026",
@@ -150,6 +136,20 @@
             "59,30"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.34,38",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272984",
+          "splits": [
+            "45,67",
+            "48,71"
+          ]
         }
       ]
     },

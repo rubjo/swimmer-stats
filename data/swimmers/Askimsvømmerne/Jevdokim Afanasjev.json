@@ -4,21 +4,11 @@
   "club": "Askimsvømmerne",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-17T02:24:18.119Z",
+  "timestamp": "2026-11-17T15:52:57.686Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "29,00",
-          "Dato": "31.10.2026",
-          "Sted": "Langhus",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4049142"
-        },
         {
           "Tid": "29,31",
           "Dato": "01.11.2026",
@@ -104,6 +94,16 @@
           "RA": "",
           "pid": "4214327",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "29,00",
+          "Dato": "31.10.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4265082"
         }
       ]
     },
@@ -218,20 +218,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.08,08",
-          "Dato": "06.09.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3995427",
-          "splits": [
-            "31,90",
-            "36,18"
-          ]
-        },
-        {
           "Tid": "1.21,10",
           "Dato": "01.02.2026",
           "Sted": "Nordtvet",
@@ -259,6 +245,20 @@
             "43,37"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.08,08",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4213540",
+          "splits": [
+            "31,90",
+            "36,18"
+          ]
         }
       ]
     },

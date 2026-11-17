@@ -4,21 +4,11 @@
   "club": "Mandal SK",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-11-17T02:31:07.722Z",
+  "timestamp": "2026-11-17T15:54:01.511Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "25,66",
-          "Dato": "11.10.2026",
-          "Sted": "Grimstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4024230"
-        },
         {
           "Tid": "25,71",
           "Dato": "13.09.2026",
@@ -157,6 +147,16 @@
           "splits": [
             ""
           ]
+        },
+        {
+          "Tid": "25,66",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4242461"
         }
       ]
     },
@@ -254,31 +254,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "57,67",
-          "Dato": "10.10.2026",
-          "Sted": "Grimstad",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "4025180",
-          "splits": []
-        },
-        {
-          "Tid": "57,67",
-          "Dato": "11.10.2026",
-          "Sted": "Grimstad",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4024483",
-          "splits": [
-            "26,76",
-            "30,91"
-          ]
-        },
-        {
           "Tid": "58,39",
           "Dato": "13.09.2026",
           "Sted": "Mandal",
@@ -364,6 +339,31 @@
             "37,20"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "57,67",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4243426",
+          "splits": []
+        },
+        {
+          "Tid": "57,67",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4242717",
+          "splits": [
+            "26,76",
+            "30,91"
+          ]
         }
       ]
     },

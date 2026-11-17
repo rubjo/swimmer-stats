@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-17T04:18:20.751Z",
+  "timestamp": "2026-11-17T16:28:05.387Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -77,20 +77,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.09,70",
-          "Dato": "24.10.2026",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4043686",
-          "splits": [
-            "31,87",
-            "37,83"
-          ]
-        },
-        {
           "Tid": "1.12,91",
           "Dato": "24.10.2026",
           "Sted": "Manglerud",
@@ -104,6 +90,20 @@
             "40,48"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.09,70",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4259488",
+          "splits": [
+            "31,87",
+            "37,83"
+          ]
         }
       ]
     },

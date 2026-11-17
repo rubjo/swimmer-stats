@@ -4,21 +4,11 @@
   "club": "Svalbard Turn",
   "birthYear": 1996,
   "gender": "male",
-  "timestamp": "2026-11-17T02:24:50.797Z",
+  "timestamp": "2026-11-17T18:34:08.177Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "28,47",
-          "Dato": "07.11.2026",
-          "Sted": "Svalbard",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4050511"
-        },
         {
           "Tid": "29,11",
           "Dato": "07.11.2026",
@@ -39,6 +29,16 @@
           "RK": "",
           "RA": "",
           "pid": "4266636"
+        },
+        {
+          "Tid": "28,47",
+          "Dato": "07.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266246"
         }
       ]
     },
@@ -71,20 +71,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.03,84",
-          "Dato": "08.11.2026",
-          "Sted": "Svalbard",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4050647",
-          "splits": [
-            "",
-            ""
-          ]
-        },
-        {
           "Tid": "1.07,37",
           "Dato": "07.11.2026",
           "Sted": "Svalbard",
@@ -96,6 +82,20 @@
           "splits": [
             "29,11",
             "38,26"
+          ]
+        },
+        {
+          "Tid": "1.03,84",
+          "Dato": "08.11.2026",
+          "Sted": "Svalbard",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266384",
+          "splits": [
+            "",
+            ""
           ]
         }
       ]

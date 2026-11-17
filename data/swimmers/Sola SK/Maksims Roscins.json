@@ -4,7 +4,7 @@
   "club": "Sola SK",
   "birthYear": 2007,
   "gender": "male",
-  "timestamp": "2026-11-17T02:00:22.261Z",
+  "timestamp": "2026-11-17T17:26:30.357Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1077,16 +1077,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "26,13",
-          "Dato": "07.11.2026",
-          "Sted": "Klepp",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4055657"
-        },
-        {
           "Tid": "26,14",
           "Dato": "25.09.2026",
           "Sted": "Stavanger",
@@ -1139,6 +1129,16 @@
           "RA": "",
           "pid": "4228410",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "26,13",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4271414"
         }
       ]
     },
@@ -3162,20 +3162,6 @@
           "partOf": "400m Fri"
         },
         {
-          "Tid": "57,50",
-          "Dato": "27.09.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4009701",
-          "splits": [
-            "28,01",
-            "29,49"
-          ]
-        },
-        {
           "Tid": "58,84",
           "Dato": "12.09.2026",
           "Sted": "Egersund",
@@ -3218,6 +3204,20 @@
             "32,83"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "57,50",
+          "Dato": "27.09.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4227845",
+          "splits": [
+            "28,01",
+            "29,49"
+          ]
         }
       ]
     },

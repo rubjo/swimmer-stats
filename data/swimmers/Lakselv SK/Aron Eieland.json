@@ -4,7 +4,7 @@
   "club": "Lakselv SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-17T02:55:13.229Z",
+  "timestamp": "2026-11-17T16:21:01.394Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -77,20 +77,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.10,83",
-          "Dato": "13.09.2026",
-          "Sted": "Vardø",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4018898",
-          "splits": [
-            "33,80",
-            "37,03"
-          ]
-        },
-        {
           "Tid": "1.17,70",
           "Dato": "17.10.2026",
           "Sted": "Hammerfest",
@@ -104,6 +90,20 @@
             "43,43"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.10,83",
+          "Dato": "13.09.2026",
+          "Sted": "Vardø",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4217770",
+          "splits": [
+            "33,80",
+            "37,03"
+          ]
         }
       ]
     },
