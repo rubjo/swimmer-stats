@@ -4,7 +4,7 @@
   "club": "Vennesla SK",
   "birthYear": 2009,
   "gender": "female",
-  "timestamp": "2026-11-16T12:11:27.887Z",
+  "timestamp": "2026-11-17T05:08:39.322Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1520,16 +1520,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "41,26",
-          "Dato": "13.09.2026",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4006552"
-        },
-        {
           "Tid": "42,16",
           "Dato": "18.04.2026",
           "Sted": "Vennesla",
@@ -1549,6 +1539,16 @@
           "RA": "",
           "pid": "4224950",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "41,26",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "61",
+          "RA": "450",
+          "pid": "4224707"
         }
       ]
     },
@@ -2681,13 +2681,10 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4006783",
-          "splits": [
-            "43,93",
-            "52,11"
-          ]
+          "RK": "47",
+          "RA": "550",
+          "pid": "4224949",
+          "splits": []
         }
       ]
     },

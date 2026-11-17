@@ -4,7 +4,7 @@
   "club": "Lørenskog/Rælingen",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-16T11:03:37.115Z",
+  "timestamp": "2026-11-17T02:28:01.856Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -16,7 +16,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "314",
-          "RA": "2141",
+          "RA": "2142",
           "pid": "4240559"
         },
         {
@@ -47,20 +47,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.55,99",
-          "Dato": "10.10.2026",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "291",
-          "RA": "",
-          "pid": "4022860",
-          "splits": [
-            "55,35",
-            "1.00,64"
-          ]
-        },
-        {
           "Tid": "1.59,59",
           "Dato": "19.09.2026",
           "Sted": "Skjetten",
@@ -74,6 +60,20 @@
             "1.05,74"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.55,99",
+          "Dato": "10.10.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "291",
+          "RA": "1854",
+          "pid": "4241083",
+          "splits": [
+            "55,35",
+            "1.00,64"
+          ]
         }
       ]
     },
@@ -86,7 +86,7 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "248",
+          "RK": "",
           "RA": "",
           "pid": "4005279",
           "splits": [
@@ -123,7 +123,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "294",
-          "RA": "1862",
+          "RA": "1863",
           "pid": "4240454"
         }
       ]

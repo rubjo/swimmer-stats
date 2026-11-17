@@ -4,7 +4,7 @@
   "club": "Karmøy SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-16T12:08:10.324Z",
+  "timestamp": "2026-11-17T02:16:08.153Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Bremnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "100",
-          "RA": "883",
+          "RK": "",
+          "RA": "",
           "pid": "4266883"
         },
         {
@@ -145,8 +145,8 @@
           "Sted": "Haugesund",
           "Basseng": "25m",
           "D": "",
-          "RK": "158",
-          "RA": "907",
+          "RK": "",
+          "RA": "",
           "pid": "4208077"
         },
         {
@@ -180,7 +180,7 @@
           "Sted": "Bremnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "57",
+          "RK": "",
           "RA": "",
           "pid": "4051437",
           "splits": [
@@ -233,20 +233,6 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
-          "Tid": "1.16,97",
-          "Dato": "08.11.2026",
-          "Sted": "Bremnes",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "69",
-          "RA": "",
-          "pid": "4051588",
-          "splits": [
-            "35,10",
-            "41,87"
-          ]
-        },
-        {
           "Tid": "1.19,46",
           "Dato": "05.09.2026",
           "Sted": "Haugesund",
@@ -272,6 +258,20 @@
           "splits": [
             "37,15",
             "44,52"
+          ]
+        },
+        {
+          "Tid": "1.16,97",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "515",
+          "pid": "4267325",
+          "splits": [
+            "35,10",
+            "41,87"
           ]
         }
       ]

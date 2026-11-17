@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-16T11:04:56.636Z",
+  "timestamp": "2026-11-17T02:09:15.481Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -313,7 +313,7 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "178",
+          "RK": "",
           "RA": "",
           "pid": "4006813",
           "splits": [
@@ -372,20 +372,6 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
-          "Tid": "1.33,45",
-          "Dato": "13.09.2026",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "135",
-          "RA": "",
-          "pid": "4006904",
-          "splits": [
-            "43,27",
-            "50,18"
-          ]
-        },
-        {
           "Tid": "1.44,39",
           "Dato": "15.03.2026",
           "Sted": "Lillesand",
@@ -397,6 +383,20 @@
           "splits": [
             "52,16",
             "52,23"
+          ]
+        },
+        {
+          "Tid": "1.33,45",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "135",
+          "RA": "857",
+          "pid": "4225078",
+          "splits": [
+            "43,27",
+            "50,18"
           ]
         }
       ]
