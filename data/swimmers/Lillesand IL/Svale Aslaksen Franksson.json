@@ -4,7 +4,7 @@
   "club": "Lillesand IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-17T18:09:15.942Z",
+  "timestamp": "2026-11-18T01:06:24.516Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -138,20 +138,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.35,87",
-          "Dato": "13.09.2026",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4006836",
-          "splits": [
-            "45,70",
-            "50,17"
-          ]
-        },
-        {
           "Tid": "1.45,23",
           "Dato": "05.06.2026",
           "Sted": "Kristiansand",
@@ -224,6 +210,20 @@
             "1.01,56"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.35,87",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4225007",
+          "splits": [
+            "45,70",
+            "50,17"
+          ]
         }
       ]
     },

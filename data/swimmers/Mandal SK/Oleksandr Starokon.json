@@ -4,21 +4,11 @@
   "club": "Mandal SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-17T18:03:05.088Z",
+  "timestamp": "2026-11-18T01:00:25.570Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "36,59",
-          "Dato": "13.09.2026",
-          "Sted": "Mandal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4036323"
-        },
         {
           "Tid": "45,73",
           "Dato": "13.09.2026",
@@ -29,6 +19,16 @@
           "RA": "",
           "pid": "4224998",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,59",
+          "Dato": "13.09.2026",
+          "Sted": "Mandal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4224753"
         }
       ]
     },
@@ -59,7 +59,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4036332",
+          "pid": "4224997",
           "splits": [
             "45,73",
             "52,98"

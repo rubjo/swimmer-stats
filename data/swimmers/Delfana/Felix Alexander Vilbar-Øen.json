@@ -4,21 +4,11 @@
   "club": "Delfana",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-17T17:48:52.752Z",
+  "timestamp": "2026-11-18T04:24:12.411Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "40,39",
-          "Dato": "31.10.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4047709"
-        },
         {
           "Tid": "47,17",
           "Dato": "05.09.2026",
@@ -50,22 +40,22 @@
           "RA": "",
           "pid": "4210665",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,39",
+          "Dato": "31.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4263596"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "51,66",
-          "Dato": "01.11.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4047364"
-        },
         {
           "Tid": "58,47",
           "Dato": "06.09.2026",
@@ -75,6 +65,16 @@
           "RK": "",
           "RA": "",
           "pid": "4209143"
+        },
+        {
+          "Tid": "51,66",
+          "Dato": "01.11.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4263250"
         }
       ]
     },
