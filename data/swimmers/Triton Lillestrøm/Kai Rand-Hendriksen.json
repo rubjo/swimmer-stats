@@ -4,21 +4,11 @@
   "club": "Triton Lillestrøm",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-17T16:52:26.146Z",
+  "timestamp": "2026-11-18T17:23:47.331Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "43,28",
-          "Dato": "24.10.2026",
-          "Sted": "Manglerud",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4040710"
-        },
         {
           "Tid": "44,44",
           "Dato": "05.09.2026",
@@ -60,6 +50,16 @@
           "RA": "",
           "pid": "4213634",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,28",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258792"
         }
       ]
     },
@@ -92,20 +92,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.36,43",
-          "Dato": "20.09.2026",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4005100",
-          "splits": [
-            "45,02",
-            "51,41"
-          ]
-        },
-        {
           "Tid": "1.37,25",
           "Dato": "06.09.2026",
           "Sted": "Porsgrunn",
@@ -117,6 +103,20 @@
           "splits": [
             "45,76",
             "51,49"
+          ]
+        },
+        {
+          "Tid": "1.36,43",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4223216",
+          "splits": [
+            "45,02",
+            "51,41"
           ]
         }
       ]
@@ -170,7 +170,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4040353"
+          "pid": "4258421"
         }
       ]
     }

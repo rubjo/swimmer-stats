@@ -4,21 +4,11 @@
   "club": "Hamar IL",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-17T03:19:46.812Z",
+  "timestamp": "2026-11-18T15:46:32.130Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "31,73",
-          "Dato": "25.10.2026",
-          "Sted": "Hagan",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4036546"
-        },
         {
           "Tid": "32,24",
           "Dato": "13.09.2026",
@@ -72,6 +62,16 @@
           "RA": "",
           "pid": "4270608",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "31,73",
+          "Dato": "25.10.2026",
+          "Sted": "Hagan",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4254598"
         }
       ]
     },
@@ -248,20 +248,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.12,03",
-          "Dato": "08.11.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "4053562",
-          "splits": [
-            "33,61",
-            "38,42"
-          ]
-        },
-        {
           "Tid": "1.16,54",
           "Dato": "24.10.2026",
           "Sted": "Hagan",
@@ -304,6 +290,20 @@
             "44,53"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.12,03",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4269302",
+          "splits": [
+            "33,61",
+            "38,42"
+          ]
         }
       ]
     },
