@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-21T07:03:24.805Z",
+  "timestamp": "2026-11-21T19:10:17.398Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -225,8 +225,8 @@
           "Sted": "Slåtthaug",
           "Basseng": "25m",
           "D": "",
-          "RK": "171",
-          "RA": "1530",
+          "RK": "",
+          "RA": "",
           "pid": "4263029"
         },
         {
@@ -281,6 +281,17 @@
           "RK": "",
           "RA": "",
           "pid": "4232780",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "1.00,81",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "170",
+          "RA": "1531",
+          "pid": "4277343",
           "partOf": "200m Individuell medley"
         }
       ]
@@ -786,14 +797,30 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "128",
-          "RA": "947",
+          "RK": "",
+          "RA": "",
           "pid": "4232779",
           "splits": [
             "1.10,06",
             "1.03,85",
             "59,08",
             "51,58"
+          ]
+        },
+        {
+          "Tid": "3.48,88",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "909",
+          "pid": "4277342",
+          "splits": [
+            "1.00,81",
+            "1.01,21",
+            "57,47",
+            "49,39"
           ]
         }
       ]

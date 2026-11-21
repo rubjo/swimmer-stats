@@ -4,7 +4,7 @@
   "club": "Åstveit SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-11-21T01:17:51.472Z",
+  "timestamp": "2026-11-21T21:24:13.638Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1001,6 +1001,17 @@
           "RK": "",
           "RA": "",
           "pid": "4249167",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "36,35",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4277369",
           "partOf": "200m Individuell medley"
         }
       ]
@@ -3660,14 +3671,30 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "28",
-          "RA": "411",
+          "RK": "",
+          "RA": "",
           "pid": "4249166",
           "splits": [
             "36,08",
             "43,20",
             "49,08",
             "37,03"
+          ]
+        },
+        {
+          "Tid": "2.43,25",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "20",
+          "RA": "378",
+          "pid": "4277368",
+          "splits": [
+            "36,35",
+            "42,59",
+            "48,57",
+            "35,74"
           ]
         }
       ]

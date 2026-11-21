@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-21T01:26:22.799Z",
+  "timestamp": "2026-11-21T21:31:13.867Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -306,8 +306,8 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "79",
-          "RA": "971",
+          "RK": "",
+          "RA": "",
           "pid": "4249079",
           "splits": [
             "",
@@ -315,6 +315,38 @@
             "",
             ""
           ]
+        },
+        {
+          "Tid": "4.06,23",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "73",
+          "RA": "949",
+          "pid": "4277351",
+          "splits": [
+            "58,33",
+            "1.02,05",
+            "1.07,24",
+            "58,61"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "58,33",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "97",
+          "RA": "1513",
+          "pid": "4277352",
+          "partOf": "200m Individuell medley"
         }
       ]
     }

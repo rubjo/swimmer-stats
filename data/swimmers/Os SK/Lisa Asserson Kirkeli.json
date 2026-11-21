@@ -4,7 +4,7 @@
   "club": "Os SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-21T06:34:52.540Z",
+  "timestamp": "2026-11-21T19:10:32.594Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -250,6 +250,17 @@
           "RA": "",
           "pid": "4209584",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "48,03",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "157",
+          "RA": "1295",
+          "pid": "4277379",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -828,14 +839,30 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "121",
-          "RA": "894",
+          "RK": "",
+          "RA": "",
           "pid": "4249204",
           "splits": [
             "49,80",
             "53,37",
             "1.00,48",
             "46,49"
+          ]
+        },
+        {
+          "Tid": "3.28,52",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "118",
+          "RA": "879",
+          "pid": "4277378",
+          "splits": [
+            "48,03",
+            "51,80",
+            "1.01,21",
+            "47,48"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Delfana",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-21T02:29:27.798Z",
+  "timestamp": "2026-11-21T22:38:39.885Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -237,6 +237,43 @@
           "splits": [
             "59,67",
             "59,71"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "56,84",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "92",
+          "RA": "1494",
+          "pid": "4277375",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.08,58",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "75",
+          "RA": "952",
+          "pid": "4277374",
+          "splits": [
+            "56,84",
+            "1.04,25",
+            "1.11,81",
+            "55,68"
           ]
         }
       ]

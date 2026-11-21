@@ -4,7 +4,7 @@
   "club": "Bergens SC",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-21T07:07:12.732Z",
+  "timestamp": "2026-11-21T19:32:06.942Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -636,6 +636,17 @@
           "RA": "",
           "pid": "4230157",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "42,09",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4277350",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -1558,14 +1569,30 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "69",
-          "RA": "774",
+          "RK": "",
+          "RA": "",
           "pid": "4249083",
           "splits": [
             "47,0",
             "49,77",
             "1.01,17",
             "43,98"
+          ]
+        },
+        {
+          "Tid": "3.19,04",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "755",
+          "pid": "4277349",
+          "splits": [
+            "42,09",
+            "50,03",
+            "1.01,91",
+            "45,01"
           ]
         }
       ]

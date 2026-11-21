@@ -4,7 +4,7 @@
   "club": "Bergen Vest SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-21T02:19:35.822Z",
+  "timestamp": "2026-11-21T22:45:38.882Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -767,6 +767,17 @@
           "RA": "",
           "pid": "4210998",
           "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "42,82",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4277412",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -2453,14 +2464,30 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "96",
-          "RA": "581",
+          "RK": "",
+          "RA": "",
           "pid": "4232979",
           "splits": [
             "42,68",
             "49,34",
             "54,09",
             "42,60"
+          ]
+        },
+        {
+          "Tid": "3.04,95",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "82",
+          "RA": "533",
+          "pid": "4277411",
+          "splits": [
+            "42,82",
+            "47,76",
+            "51,59",
+            "42,78"
           ]
         }
       ]

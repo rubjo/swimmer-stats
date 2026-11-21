@@ -4,7 +4,7 @@
   "club": "Delfana",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-21T01:24:47.114Z",
+  "timestamp": "2026-11-21T21:24:44.352Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -421,8 +421,8 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "D",
-          "RK": "160",
-          "RA": "1301",
+          "RK": "161",
+          "RA": "1305",
           "pid": "4230320",
           "partOf": "100m Butterfly"
         },
@@ -435,6 +435,17 @@
           "RK": "",
           "RA": "",
           "pid": "4249215",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "51,27",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4277388",
           "partOf": "200m Individuell medley"
         }
       ]
@@ -1086,14 +1097,30 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "923",
+          "RK": "",
+          "RA": "",
           "pid": "4249214",
           "splits": [
             "52,73",
             "51,14",
             "1.03,59",
             "45,82"
+          ]
+        },
+        {
+          "Tid": "3.29,73",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "122",
+          "RA": "893",
+          "pid": "4277387",
+          "splits": [
+            "51,27",
+            "48,97",
+            "1.01,42",
+            "48,07"
           ]
         }
       ]

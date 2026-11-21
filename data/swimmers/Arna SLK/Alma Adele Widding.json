@@ -4,7 +4,7 @@
   "club": "Arna SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-21T02:13:06.439Z",
+  "timestamp": "2026-11-21T21:59:57.541Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -586,7 +586,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "76",
-          "RA": "966",
+          "RA": "967",
           "pid": "4229462"
         },
         {
@@ -631,6 +631,17 @@
           "RA": "",
           "pid": "4209696",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "45,02",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4277450",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -1714,14 +1725,30 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "46",
-          "RA": "584",
+          "RK": "47",
+          "RA": "586",
           "pid": "4232995",
           "splits": [
             "43,84",
             "49,43",
             "53,79",
             "41,76"
+          ]
+        },
+        {
+          "Tid": "3.10,23",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4277449",
+          "splits": [
+            "45,02",
+            "49,62",
+            "54,44",
+            "41,15"
           ]
         }
       ]
