@@ -4,7 +4,7 @@
   "club": "Delfana",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-21T01:09:56.468Z",
+  "timestamp": "2026-11-22T07:06:16.236Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -402,6 +402,17 @@
           "RK": "",
           "RA": "",
           "pid": "4111356"
+        },
+        {
+          "Tid": "54,83",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4277416",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -1091,14 +1102,30 @@
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "",
-          "RK": "95",
-          "RA": "1068",
+          "RK": "",
+          "RA": "",
           "pid": "4249226",
           "splits": [
             "53,89",
             "1.01,40",
             "1.05,59",
             "51,15"
+          ]
+        },
+        {
+          "Tid": "3.48,84",
+          "Dato": "20.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "1054",
+          "pid": "4277415",
+          "splits": [
+            "54,83",
+            "58,98",
+            "1.04,43",
+            "50,60"
           ]
         }
       ]
