@@ -4,7 +4,7 @@
   "club": "Modum SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-16T13:56:34.762Z",
+  "timestamp": "2026-11-22T14:58:51.141Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -38,6 +38,16 @@
           "RK": "",
           "RA": "",
           "pid": "4118391"
+        },
+        {
+          "Tid": "36,27",
+          "Dato": "22.11.2026",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "1223",
+          "pid": "4277592"
         }
       ]
     },
@@ -68,6 +78,51 @@
           "RK": "190",
           "RA": "1413",
           "pid": "4117926"
+        },
+        {
+          "Tid": "50,54",
+          "Dato": "22.11.2026",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1263",
+          "pid": "4277546"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "50,41",
+          "Dato": "22.11.2026",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "178",
+          "RA": "1385",
+          "pid": "4277622",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.55,94",
+          "Dato": "22.11.2026",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "1006",
+          "pid": "4277621",
+          "splits": [
+            "50,41",
+            "1.05,53"
+          ]
         }
       ]
     }

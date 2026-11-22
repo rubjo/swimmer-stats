@@ -4,7 +4,7 @@
   "club": "Ringerike SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-09T13:35:56.397Z",
+  "timestamp": "2026-11-22T16:53:29.804Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -154,6 +154,41 @@
             "50,18",
             "53,71",
             "52,85"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "48,87",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "210",
+          "RA": "1357",
+          "pid": "4278187",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.54,86",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "997",
+          "pid": "4278186",
+          "splits": [
+            "48,87",
+            "1.05,99"
           ]
         }
       ]

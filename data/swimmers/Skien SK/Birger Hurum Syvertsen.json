@@ -4,7 +4,7 @@
   "club": "Skien SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-11-21T02:16:50.308Z",
+  "timestamp": "2026-11-22T16:46:21.866Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -56,9 +56,19 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "191",
-          "RA": "1634",
+          "RK": "",
+          "RA": "",
           "pid": "4213083"
+        },
+        {
+          "Tid": "36,92",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "160",
+          "RA": "1473",
+          "pid": "4278032"
         }
       ]
     },
@@ -106,8 +116,8 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "183",
-          "RA": "1492",
+          "RK": "184",
+          "RA": "1500",
           "pid": "4213611",
           "splits": [
             "42,56",
@@ -125,13 +135,28 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "103",
-          "RA": "808",
+          "RK": "105",
+          "RA": "816",
           "pid": "4213326",
           "splits": [
             "54,76",
             "59,64"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "49,94",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "1178",
+          "pid": "4277912"
         }
       ]
     }

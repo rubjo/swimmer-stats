@@ -4,7 +4,7 @@
   "club": "Tverlandet IL",
   "birthYear": 1989,
   "gender": "female",
-  "timestamp": "2026-11-21T07:44:55.345Z",
+  "timestamp": "2026-11-22T15:33:44.849Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -59,6 +59,27 @@
           "RA": "",
           "pid": "4222210",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,57",
+          "Dato": "22.11.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "1270",
+          "pid": "4281316"
+        },
+        {
+          "Tid": "41,93",
+          "Dato": "22.11.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4281583",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -109,6 +130,16 @@
           "RK": "",
           "RA": "",
           "pid": "64838"
+        },
+        {
+          "Tid": "46,37",
+          "Dato": "21.11.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "91",
+          "RA": "898",
+          "pid": "4281212"
         }
       ]
     },
@@ -165,12 +196,26 @@
           "Sted": "Mo i Rana",
           "Basseng": "25m",
           "D": "",
-          "RK": "149",
-          "RA": "1395",
+          "RK": "150",
+          "RA": "1399",
           "pid": "4222209",
           "splits": [
             "41,11",
             "49,47"
+          ]
+        },
+        {
+          "Tid": "1.31,47",
+          "Dato": "22.11.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4281582",
+          "splits": [
+            "41,93",
+            "49,54"
           ]
         }
       ]
@@ -242,6 +287,25 @@
           "RA": "358",
           "pid": "64839",
           "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.41,43",
+          "Dato": "22.11.2026",
+          "Sted": "Mo i Rana",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "96",
+          "RA": "1086",
+          "pid": "4281653",
+          "splits": [
+            "46,68",
+            "54,75"
+          ]
         }
       ]
     }

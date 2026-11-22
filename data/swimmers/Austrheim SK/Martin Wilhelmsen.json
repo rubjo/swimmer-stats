@@ -4,7 +4,7 @@
   "club": "Austrheim SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-21T02:25:35.627Z",
+  "timestamp": "2026-11-22T17:01:39.092Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -25,8 +25,8 @@
           "Sted": "Bremnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "132",
-          "RA": "1585",
+          "RK": "133",
+          "RA": "1598",
           "pid": "4266783"
         },
         {
@@ -49,6 +49,17 @@
           "RA": "",
           "pid": "4267082",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,46",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279796",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -61,9 +72,19 @@
           "Sted": "Bremnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "185",
-          "RA": "2118",
+          "RK": "",
+          "RA": "",
           "pid": "4266848"
+        },
+        {
+          "Tid": "50,89",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "2036",
+          "pid": "4279494"
         }
       ]
     },
@@ -76,12 +97,45 @@
           "Sted": "Bremnes",
           "Basseng": "25m",
           "D": "",
-          "RK": "123",
-          "RA": "1363",
+          "RK": "",
+          "RA": "",
           "pid": "4267081",
           "splits": [
             "1.12,86",
             "1.13,28"
+          ]
+        },
+        {
+          "Tid": "2.14,22",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "116",
+          "RA": "1335",
+          "pid": "4279795",
+          "splits": [
+            "1.05,46",
+            "1.08,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.06,93",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "1160",
+          "pid": "4279935",
+          "splits": [
+            "1.05,14",
+            "1.01,79"
           ]
         }
       ]

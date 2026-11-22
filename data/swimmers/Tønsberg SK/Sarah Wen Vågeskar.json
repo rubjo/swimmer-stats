@@ -4,7 +4,7 @@
   "club": "Tønsberg SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-21T22:26:35.970Z",
+  "timestamp": "2026-11-22T16:58:17.274Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -46,8 +46,8 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "94",
-          "RA": "1506",
+          "RK": "98",
+          "RA": "1518",
           "pid": "4262257"
         },
         {
@@ -101,6 +101,27 @@
           "RA": "",
           "pid": "4224107",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,27",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4278046"
+        },
+        {
+          "Tid": "42,19",
+          "Dato": "22.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4278479",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -123,8 +144,8 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "46",
-          "RA": "1096",
+          "RK": "",
+          "RA": "",
           "pid": "4261971"
         },
         {
@@ -146,6 +167,38 @@
           "RK": "",
           "RA": "",
           "pid": "4223597"
+        },
+        {
+          "Tid": "43,95",
+          "Dato": "22.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "47",
+          "RA": "1097",
+          "pid": "4277779"
+        },
+        {
+          "Tid": "46,16",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4278206",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "48,96",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279070",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -188,7 +241,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "68",
-          "RA": "1312",
+          "RA": "1315",
           "pid": "4262585",
           "splits": [
             "40,96",
@@ -208,6 +261,20 @@
             "44,84",
             "48,71"
           ]
+        },
+        {
+          "Tid": "1.29,38",
+          "Dato": "22.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4278478",
+          "splits": [
+            "42,19",
+            "47,19"
+          ]
         }
       ]
     },
@@ -221,7 +288,7 @@
           "Basseng": "25m",
           "D": "",
           "RK": "64",
-          "RA": "985",
+          "RA": "994",
           "pid": "4262057"
         },
         {
@@ -243,6 +310,56 @@
           "RK": "",
           "RA": "",
           "pid": "4223649"
+        },
+        {
+          "Tid": "46,74",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4277829"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.45,84",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "37",
+          "RA": "843",
+          "pid": "4278205",
+          "splits": [
+            "46,16",
+            "59,68"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.47,38",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "87",
+          "RA": "1049",
+          "pid": "4279069",
+          "splits": [
+            "48,96",
+            "56,65",
+            "1.10,03",
+            "51,74"
+          ]
         }
       ]
     }

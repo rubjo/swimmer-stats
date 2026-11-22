@@ -4,7 +4,7 @@
   "club": "Poseidon",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-16T11:25:51.875Z",
+  "timestamp": "2026-11-22T15:46:03.415Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -788,6 +788,17 @@
           "RA": "",
           "pid": "4063772",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "34,90",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279326",
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -1681,6 +1692,21 @@
             "34,94",
             "42,32"
           ]
+        },
+        {
+          "Tid": "1.23,66",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279327",
+          "splits": [
+            "34,90",
+            "48,76"
+          ],
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -2926,6 +2952,31 @@
             "45,99",
             "45,80",
             "42,91"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Individuell medley",
+      "races": [
+        {
+          "Tid": "6.40,95",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "24",
+          "RA": "127",
+          "pid": "4279325",
+          "splits": [
+            "34,90",
+            "48,76",
+            "50,04",
+            "52,31",
+            "56,53",
+            "58,94",
+            "52,54",
+            "46,93"
           ]
         }
       ]
