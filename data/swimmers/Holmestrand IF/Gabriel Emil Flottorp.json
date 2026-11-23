@@ -4,7 +4,7 @@
   "club": "Holmestrand IF",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-11-22T14:56:46.950Z",
+  "timestamp": "2026-11-22T23:49:53.582Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,8 +15,8 @@
           "Sted": "Kongsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "220",
-          "RA": "1853",
+          "RK": "221",
+          "RA": "1867",
           "pid": "4237675"
         },
         {
@@ -578,12 +578,57 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "113",
-          "RA": "899",
+          "RK": "115",
+          "RA": "908",
           "pid": "4262360",
           "splits": [
             "1.10,27",
             "1.16,38"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.23,50",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "209",
+          "RA": "1688",
+          "pid": "4277880"
+        },
+        {
+          "Tid": "1.32,72",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4278324",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "3.24,47",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "179",
+          "RA": "1402",
+          "pid": "4278323",
+          "splits": [
+            "1.32,72",
+            "1.51,75"
           ]
         }
       ]

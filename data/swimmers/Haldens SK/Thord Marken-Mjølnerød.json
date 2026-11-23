@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-11-16T13:58:09.783Z",
+  "timestamp": "2026-11-23T01:07:09.699Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,6 +39,16 @@
           "RA": "",
           "pid": "4104964",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,72",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1606",
+          "pid": "4277993"
         }
       ]
     },
@@ -64,6 +74,16 @@
           "RK": "88",
           "RA": "627",
           "pid": "4181169"
+        },
+        {
+          "Tid": "52,06",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "1138",
+          "pid": "4277808"
         }
       ]
     },
@@ -83,6 +103,21 @@
             "46,44",
             "51,01"
           ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,42",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1369",
+          "pid": "4277889"
         }
       ]
     }
