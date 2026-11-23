@@ -4,7 +4,7 @@
   "club": "Haldens SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-23T01:42:41.911Z",
+  "timestamp": "2026-11-23T12:09:55.638Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -145,8 +145,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "126",
-          "RA": "1227",
+          "RK": "",
+          "RA": "",
           "pid": "4089455"
         },
         {
@@ -180,8 +180,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "131",
-          "RA": "1450",
+          "RK": "132",
+          "RA": "1462",
           "pid": "4134370"
         },
         {
@@ -307,20 +307,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.34,54",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "48",
-          "RA": "",
-          "pid": "3962244",
-          "splits": [
-            "42,68",
-            "51,86"
-          ]
-        },
-        {
           "Tid": "1.35,24",
           "Dato": "10.10.2026",
           "Sted": "Sarpsborg",
@@ -393,26 +379,26 @@
             "49,51"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.34,54",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "48",
+          "RA": "972",
+          "pid": "4182443",
+          "splits": [
+            "42,68",
+            "51,86"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Individuell medley",
       "races": [
-        {
-          "Tid": "1.45,74",
-          "Dato": "12.04.2026",
-          "Sted": "Sarpsborg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "120",
-          "RA": "",
-          "pid": "3914550",
-          "splits": [
-            "50,79",
-            "54,95"
-          ]
-        },
         {
           "Tid": "1.52,98",
           "Dato": "15.03.2026",
@@ -426,6 +412,20 @@
             "57,99",
             "54,99"
           ]
+        },
+        {
+          "Tid": "1.45,74",
+          "Dato": "12.04.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "1195",
+          "pid": "4134893",
+          "splits": [
+            "50,79",
+            "54,95"
+          ]
         }
       ]
     },
@@ -438,8 +438,8 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "125",
-          "RA": "963",
+          "RK": "126",
+          "RA": "975",
           "pid": "4134812",
           "splits": [
             "54,78",
@@ -534,7 +534,7 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "107",
+          "RK": "",
           "RA": "",
           "pid": "3915433",
           "splits": [

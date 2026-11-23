@@ -4,45 +4,11 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-23T07:01:17.327Z",
+  "timestamp": "2026-11-23T12:13:11.659Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "46,35",
-          "Dato": "01.02.2026",
-          "Sted": "Jessheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3861612"
-        },
-        {
-          "Tid": "46,36",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "153",
-          "RA": "1249",
-          "pid": "3961516"
-        },
-        {
-          "Tid": "50,75",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3962265",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "53,00",
           "Dato": "14.06.2025",
@@ -141,6 +107,40 @@
           "RA": "",
           "pid": "4270299",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "46,35",
+          "Dato": "01.02.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4082765"
+        },
+        {
+          "Tid": "46,36",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "153",
+          "RA": "1249",
+          "pid": "4181705"
+        },
+        {
+          "Tid": "50,75",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4182470",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -153,9 +153,9 @@
           "Sted": "Jessheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "224",
-          "RA": "1485",
-          "pid": "3861492"
+          "RK": "230",
+          "RA": "1516",
+          "pid": "4082637"
         }
       ]
     },
@@ -245,20 +245,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.44,19",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "122",
-          "RA": "1062",
-          "pid": "3962264",
-          "splits": [
-            "50,75",
-            "53,44"
-          ]
-        },
-        {
           "Tid": "1.58,35",
           "Dato": "14.06.2025",
           "Sted": "Hamar",
@@ -346,6 +332,20 @@
             "52,13"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.44,19",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "122",
+          "RA": "1062",
+          "pid": "4182469",
+          "splits": [
+            "50,75",
+            "53,44"
+          ]
         }
       ]
     },

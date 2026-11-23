@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 1971,
   "gender": "male",
-  "timestamp": "2026-11-09T11:38:17.977Z",
+  "timestamp": "2026-11-23T12:59:03.063Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -58,16 +58,6 @@
           "RK": "191",
           "RA": "786",
           "pid": "3664454"
-        },
-        {
-          "Tid": "29,51",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "259",
-          "RA": "826",
-          "pid": "3900229"
         },
         {
           "Tid": "30,85",
@@ -204,22 +194,22 @@
             ""
           ],
           "partOf": "800m Fri"
+        },
+        {
+          "Tid": "29,51",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "260",
+          "RA": "831",
+          "pid": "4120619"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "32,30",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "200",
-          "RA": "649",
-          "pid": "3899868"
-        },
         {
           "Tid": "32,95",
           "Dato": "29.03.2025",
@@ -243,6 +233,16 @@
             ""
           ],
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,30",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "203",
+          "RA": "656",
+          "pid": "4120251"
         }
       ]
     },

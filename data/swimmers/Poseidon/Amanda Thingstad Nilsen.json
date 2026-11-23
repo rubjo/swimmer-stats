@@ -4,31 +4,11 @@
   "club": "Poseidon",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-11-23T01:08:25.630Z",
+  "timestamp": "2026-11-23T15:02:09.935Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "47,38",
-          "Dato": "15.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3894480"
-        },
-        {
-          "Tid": "48,80",
-          "Dato": "14.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3895935"
-        },
         {
           "Tid": "40,63",
           "Dato": "05.09.2026",
@@ -38,33 +18,32 @@
           "RK": "200",
           "RA": "1681",
           "pid": "4213150"
+        },
+        {
+          "Tid": "47,38",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4115016"
+        },
+        {
+          "Tid": "48,80",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4116484"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "48,69",
-          "Dato": "15.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3894734",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "49,27",
-          "Dato": "14.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3894388"
-        },
         {
           "Tid": "46,66",
           "Dato": "05.09.2026",
@@ -85,22 +64,33 @@
           "RA": "",
           "pid": "4213499",
           "partOf": "100m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
+        },
         {
-          "Tid": "1.00,95",
+          "Tid": "48,69",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4115271",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,27",
           "Dato": "14.03.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3894314"
-        },
+          "pid": "4114921"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
         {
           "Tid": "48,93",
           "Dato": "05.09.2026",
@@ -110,26 +100,22 @@
           "RK": "140",
           "RA": "1191",
           "pid": "4212905"
+        },
+        {
+          "Tid": "1.00,95",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4114846"
         }
       ]
     },
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.47,14",
-          "Dato": "15.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3894733",
-          "splits": [
-            "48,69",
-            "58,45"
-          ]
-        },
         {
           "Tid": "1.40,98",
           "Dato": "05.09.2026",
@@ -142,6 +128,20 @@
           "splits": [
             "47,31",
             "53,67"
+          ]
+        },
+        {
+          "Tid": "1.47,14",
+          "Dato": "15.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4115270",
+          "splits": [
+            "48,69",
+            "58,45"
           ]
         }
       ]

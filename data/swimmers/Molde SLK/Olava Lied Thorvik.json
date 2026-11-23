@@ -4,32 +4,11 @@
   "club": "Molde SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-11-23T02:06:01.269Z",
+  "timestamp": "2026-11-23T13:52:43.601Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "53,96",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3887706"
-        },
-        {
-          "Tid": "59,87",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3887721",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "53,32",
           "Dato": "17.10.2026",
@@ -51,26 +30,33 @@
           "RA": "",
           "pid": "4235963",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "53,96",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4076563"
+        },
+        {
+          "Tid": "59,87",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4102873",
+          "partOf": "100m Fri"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "2.07,73",
-          "Dato": "28.02.2026",
-          "Sted": "Molde",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3887720",
-          "splits": [
-            "59,87",
-            "1.07,86"
-          ]
-        },
         {
           "Tid": "1.51,51",
           "Dato": "17.10.2026",
@@ -97,6 +83,20 @@
           "splits": [
             "54,52",
             "1.01,83"
+          ]
+        },
+        {
+          "Tid": "2.07,73",
+          "Dato": "28.02.2026",
+          "Sted": "Molde",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4102872",
+          "splits": [
+            "59,87",
+            "1.07,86"
           ]
         }
       ]

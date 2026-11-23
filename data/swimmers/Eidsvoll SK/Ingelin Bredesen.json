@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 2011,
   "gender": "female",
-  "timestamp": "2026-11-16T11:17:32.940Z",
+  "timestamp": "2026-11-23T11:58:51.432Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -92,20 +92,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.35,91",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "130",
-          "RA": "",
-          "pid": "3966096",
-          "splits": [
-            "45,40",
-            "50,51"
-          ]
-        },
-        {
           "Tid": "1.36,52",
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
@@ -115,6 +101,20 @@
           "RA": "",
           "pid": "4183644",
           "splits": []
+        },
+        {
+          "Tid": "1.35,91",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "130",
+          "RA": "990",
+          "pid": "4182465",
+          "splits": [
+            "45,40",
+            "50,51"
+          ]
         }
       ]
     }

@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 1966,
   "gender": "female",
-  "timestamp": "2026-11-09T13:12:36.985Z",
+  "timestamp": "2026-11-23T13:23:33.872Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -90,16 +90,6 @@
           "pid": "1728172"
         },
         {
-          "Tid": "35,04",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "166",
-          "RA": "1106",
-          "pid": "3900353"
-        },
-        {
           "Tid": "35,30",
           "Dato": "08.04.2016",
           "Sted": "Trondheim",
@@ -149,6 +139,16 @@
           "RA": "",
           "pid": "2993869",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "35,04",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "170",
+          "RA": "1117",
+          "pid": "4120745"
         }
       ]
     },
@@ -332,16 +332,6 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "45,55",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "86",
-          "RA": "802",
-          "pid": "3900154"
-        },
-        {
           "Tid": "45,66",
           "Dato": "01.04.2022",
           "Sted": "Sognsvann",
@@ -415,17 +405,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "48,25",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900680",
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "49,01",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -457,6 +436,27 @@
           "RA": "",
           "pid": "3665479",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "45,55",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "88",
+          "RA": "812",
+          "pid": "4120543"
+        },
+        {
+          "Tid": "48,25",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121076",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -585,20 +585,6 @@
           ]
         },
         {
-          "Tid": "1.44,36",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "65",
-          "RA": "874",
-          "pid": "3900679",
-          "splits": [
-            "48,25",
-            "56,11"
-          ]
-        },
-        {
           "Tid": "1.45,46",
           "Dato": "06.05.2023",
           "Sted": "Sarpsborg",
@@ -654,6 +640,20 @@
             "58,73"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.44,36",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "66",
+          "RA": "878",
+          "pid": "4121075",
+          "splits": [
+            "48,25",
+            "56,11"
+          ]
         }
       ]
     },

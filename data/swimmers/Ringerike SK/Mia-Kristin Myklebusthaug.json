@@ -4,21 +4,11 @@
   "club": "Ringerike SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-16T12:10:51.438Z",
+  "timestamp": "2026-11-23T12:52:42.525Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "48,52",
-          "Dato": "08.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3868799"
-        },
         {
           "Tid": "49,68",
           "Dato": "01.11.2025",
@@ -49,6 +39,16 @@
           "RK": "",
           "RA": "",
           "pid": "3663474"
+        },
+        {
+          "Tid": "48,52",
+          "Dato": "08.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "306",
+          "RA": "2115",
+          "pid": "4089859"
         }
       ]
     },
@@ -91,8 +91,8 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "291",
+          "RA": "1837",
           "pid": "4090642",
           "partOf": "100m Bryst"
         }
@@ -126,9 +126,9 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3869513",
+          "RK": "249",
+          "RA": "1513",
+          "pid": "4090641",
           "splits": [
             "1.02,43",
             "1.08,32"

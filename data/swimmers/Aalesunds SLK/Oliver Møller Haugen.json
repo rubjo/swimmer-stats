@@ -4,35 +4,11 @@
   "club": "Aalesunds SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-23T02:22:11.688Z",
+  "timestamp": "2026-11-23T13:07:00.278Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "45,74",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889301"
-        },
-        {
-          "Tid": "50,60",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3889660",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "47,56",
           "Dato": "26.09.2026",
@@ -128,22 +104,36 @@
           "RK": "163",
           "RA": "1708",
           "pid": "4218395"
+        },
+        {
+          "Tid": "45,74",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4109768"
+        },
+        {
+          "Tid": "50,60",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4110141",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "1.02,27",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889156"
-        },
         {
           "Tid": "52,41",
           "Dato": "27.09.2026",
@@ -163,26 +153,22 @@
           "RK": "127",
           "RA": "1107",
           "pid": "4250921"
+        },
+        {
+          "Tid": "1.02,27",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4109612"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "1.20,87",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3889545",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
         {
           "Tid": "1.06,54",
           "Dato": "12.09.2026",
@@ -192,26 +178,26 @@
           "RK": "218",
           "RA": "1642",
           "pid": "4218340"
+        },
+        {
+          "Tid": "1.20,87",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4110014",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.48,79",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889659",
-          "splits": [
-            "50,60",
-            "58,19"
-          ]
-        },
         {
           "Tid": "1.41,54",
           "Dato": "12.09.2026",
@@ -299,6 +285,20 @@
             "43,73",
             "49,33"
           ]
+        },
+        {
+          "Tid": "1.48,79",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4110140",
+          "splits": [
+            "50,60",
+            "58,19"
+          ]
         }
       ]
     },
@@ -311,9 +311,9 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "D": "",
-          "RK": "194",
-          "RA": "1380",
-          "pid": "3889544",
+          "RK": "197",
+          "RA": "1400",
+          "pid": "4110013",
           "splits": [
             "1.20,87",
             "1.32,35"

@@ -4,21 +4,11 @@
   "club": "Poseidon",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-23T01:34:34.988Z",
+  "timestamp": "2026-11-23T11:57:01.036Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "42,71",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961434"
-        },
         {
           "Tid": "43,49",
           "Dato": "20.09.2025",
@@ -184,6 +174,16 @@
           "RA": "",
           "pid": "4279217",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "42,71",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "184",
+          "RA": "1169",
+          "pid": "4181622"
         }
       ]
     },
@@ -191,23 +191,13 @@
       "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "44,89",
-          "Dato": "14.03.2026",
-          "Sted": "Porsgrunn",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3894268"
-        },
-        {
           "Tid": "45,13",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "100",
+          "RA": "766",
           "pid": "4181100"
         },
         {
@@ -270,26 +260,22 @@
           "RA": "",
           "pid": "4278233",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "44,89",
+          "Dato": "14.03.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4114799"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.37,59",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3962153",
-          "splits": [
-            "44,35",
-            "53,24"
-          ]
-        },
         {
           "Tid": "1.32,70",
           "Dato": "19.09.2026",
@@ -360,6 +346,20 @@
             "51,21"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.37,59",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "161",
+          "RA": "1008",
+          "pid": "4182352",
+          "splits": [
+            "44,35",
+            "53,24"
+          ]
         }
       ]
     },

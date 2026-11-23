@@ -4,7 +4,7 @@
   "club": "Stavanger Vannpoloklubb",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-09T12:02:31.035Z",
+  "timestamp": "2026-11-23T14:19:08.076Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -227,16 +227,6 @@
           "pid": "3704573"
         },
         {
-          "Tid": "44,19",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3848936"
-        },
-        {
           "Tid": "45,71",
           "Dato": "14.03.2025",
           "Sted": "Stavanger",
@@ -307,22 +297,22 @@
             ""
           ],
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "44,19",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "48",
+          "RA": "739",
+          "pid": "4069642"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "45,22",
-          "Dato": "23.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "53",
-          "RA": "601",
-          "pid": "3849254"
-        },
         {
           "Tid": "47,53",
           "Dato": "30.05.2025",
@@ -352,6 +342,16 @@
           "RK": "",
           "RA": "1266",
           "pid": "3449521"
+        },
+        {
+          "Tid": "45,22",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "53",
+          "RA": "601",
+          "pid": "4070043"
         }
       ]
     },
@@ -387,16 +387,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "1.01,89",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "149",
-          "RA": "976",
-          "pid": "3849582"
-        },
-        {
           "Tid": "1.02,30",
           "Dato": "15.02.2025",
           "Sted": "Bryne",
@@ -419,6 +409,16 @@
             ""
           ],
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.01,89",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "149",
+          "RA": "976",
+          "pid": "4070450"
         }
       ]
     },

@@ -4,7 +4,7 @@
   "club": "Kolbotn IL",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-11-23T00:25:05.486Z",
+  "timestamp": "2026-11-23T12:53:37.820Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -443,16 +443,6 @@
       "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "45,96",
-          "Dato": "28.02.2026",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3880139"
-        },
-        {
           "Tid": "48,86",
           "Dato": "23.08.2025",
           "Sted": "Langhus",
@@ -548,9 +538,19 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
+          "RK": "99",
+          "RA": "845",
+          "pid": "4206714"
+        },
+        {
+          "Tid": "45,96",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4206714"
+          "pid": "4100746"
         }
       ]
     },
@@ -580,16 +580,6 @@
             ""
           ],
           "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "48,04",
-          "Dato": "28.02.2026",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3880049"
         },
         {
           "Tid": "48,12",
@@ -771,8 +761,8 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "114",
+          "RA": "1164",
           "pid": "4206496"
         },
         {
@@ -796,6 +786,16 @@
           "RA": "",
           "pid": "4219843",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "48,04",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4100655"
         }
       ]
     },
@@ -821,20 +821,6 @@
           "RK": "",
           "RA": "",
           "pid": "3794857",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "49,19",
-          "Dato": "28.02.2026",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3880637",
           "splits": [
             ""
           ],
@@ -1114,6 +1100,20 @@
           "RK": "",
           "RA": "",
           "pid": "4219525"
+        },
+        {
+          "Tid": "49,19",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4101248",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -1552,20 +1552,6 @@
           ]
         },
         {
-          "Tid": "1.47,81",
-          "Dato": "28.02.2026",
-          "Sted": "Sofiemyr",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3880636",
-          "splits": [
-            "49,19",
-            "58,62"
-          ]
-        },
-        {
           "Tid": "1.50,45",
           "Dato": "15.06.2025",
           "Sted": "Hamar",
@@ -1736,6 +1722,20 @@
             "51,19"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.47,81",
+          "Dato": "28.02.2026",
+          "Sted": "Sofiemyr",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4101247",
+          "splits": [
+            "49,19",
+            "58,62"
+          ]
         }
       ]
     },

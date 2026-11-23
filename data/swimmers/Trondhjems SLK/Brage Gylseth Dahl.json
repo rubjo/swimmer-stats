@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-09T12:51:19.389Z",
+  "timestamp": "2026-11-23T12:09:52.396Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -68,20 +68,6 @@
           "RK": "",
           "RA": "",
           "pid": "3729256"
-        },
-        {
-          "Tid": "33,73",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "182",
-          "RA": "1224",
-          "pid": "3855485",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
         },
         {
           "Tid": "33,99",
@@ -477,6 +463,20 @@
             ""
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "33,73",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "182",
+          "RA": "1232",
+          "pid": "4077540",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -839,16 +839,6 @@
       "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "37,16",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "115",
-          "RA": "600",
-          "pid": "3854167"
-        },
-        {
           "Tid": "38,18",
           "Dato": "21.06.2025",
           "Sted": "Trondheim",
@@ -987,6 +977,16 @@
           "RK": "",
           "RA": "",
           "pid": "3327178"
+        },
+        {
+          "Tid": "37,16",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "612",
+          "pid": "4076128"
         }
       ]
     },
@@ -1263,20 +1263,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.10,48",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "149",
-          "RA": "905",
-          "pid": "3855484",
-          "splits": [
-            "33,73",
-            "36,75"
-          ]
-        },
-        {
           "Tid": "1.12,72",
           "Dato": "18.01.2025",
           "Sted": "Trondheim",
@@ -1551,6 +1537,20 @@
             "1.04,35"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.10,48",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "149",
+          "RA": "910",
+          "pid": "4077539",
+          "splits": [
+            "33,73",
+            "36,75"
+          ]
         }
       ]
     },

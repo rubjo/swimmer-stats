@@ -4,7 +4,7 @@
   "club": "Kolbotn IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-11-23T06:53:48.796Z",
+  "timestamp": "2026-11-23T11:46:26.563Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -39,8 +39,8 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "93",
+          "RA": "1137",
           "pid": "4182187",
           "partOf": "100m Fri",
           "splits": [
@@ -77,16 +77,6 @@
       "distanse": "50m Bryst",
       "races": [
         {
-          "Tid": "56,33",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3948771"
-        },
-        {
           "Tid": "59,41",
           "Dato": "01.11.2026",
           "Sted": "Langhus",
@@ -109,6 +99,16 @@
           "splits": [
             ""
           ]
+        },
+        {
+          "Tid": "56,33",
+          "Dato": "10.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "181",
+          "RA": "1443",
+          "pid": "4168939"
         }
       ]
     },
@@ -121,8 +121,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "171",
+          "RA": "1537",
           "pid": "4068529",
           "partOf": "200m Individuell medley",
           "splits": [
@@ -135,27 +135,13 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.28,13",
-          "Dato": "10.05.2026",
-          "Sted": "Nordbytun",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "114",
-          "RA": "1400",
-          "pid": "3949182",
-          "splits": [
-            "41,82",
-            "46,31"
-          ]
-        },
-        {
           "Tid": "1.32,44",
           "Dato": "07.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
+          "RK": "71",
+          "RA": "956",
           "pid": "4182186",
           "splits": [
             "43,81",
@@ -176,6 +162,20 @@
             "52,40"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.28,13",
+          "Dato": "10.05.2026",
+          "Sted": "Nordbytun",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "116",
+          "RA": "1409",
+          "pid": "4169357",
+          "splits": [
+            "41,82",
+            "46,31"
+          ]
         }
       ]
     },
@@ -188,8 +188,8 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "179",
+          "RA": "1299",
           "pid": "4068141",
           "splits": [
             "59,75",
@@ -208,8 +208,8 @@
           "Sted": "Sofiemyr",
           "Basseng": "25m",
           "D": "D",
-          "RK": "",
-          "RA": "",
+          "RK": "144",
+          "RA": "1249",
           "pid": "4102060",
           "splits": [
             "44,05",
@@ -230,9 +230,9 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3848471",
+          "RK": "131",
+          "RA": "955",
+          "pid": "4068528",
           "splits": [
             "1.00,41",
             "1.01,62",
@@ -251,9 +251,9 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3848421",
+          "RK": "156",
+          "RA": "999",
+          "pid": "4068139",
           "splits": [
             "59,75",
             "1.09,95",
@@ -272,9 +272,9 @@
           "Sted": "Sofiemyr",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3881446",
+          "RK": "127",
+          "RA": "1008",
+          "pid": "4102057",
           "splits": [
             "44,05",
             "52,40",

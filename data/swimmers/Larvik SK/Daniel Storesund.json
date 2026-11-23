@@ -4,43 +4,11 @@
   "club": "Larvik SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-11-23T01:49:57.261Z",
+  "timestamp": "2026-11-23T13:19:01.427Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "28,98",
-          "Dato": "06.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3956495"
-        },
-        {
-          "Tid": "30,67",
-          "Dato": "05.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3957433",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "31,40",
-          "Dato": "30.05.2026",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3951022",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "39,61",
           "Dato": "10.10.2020",
@@ -144,32 +112,44 @@
           "RA": "",
           "pid": "4278867",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "28,98",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "70",
+          "RA": "488",
+          "pid": "4176627"
+        },
+        {
+          "Tid": "30,67",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4177577",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "31,40",
+          "Dato": "30.05.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4171117",
+          "partOf": "100m Fri"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "33,15",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "78",
-          "RA": "517",
-          "pid": "3956049"
-        },
-        {
-          "Tid": "36,32",
-          "Dato": "30.05.2026",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3950416"
-        },
         {
           "Tid": "50,39",
           "Dato": "25.10.2020",
@@ -273,6 +253,26 @@
           "RA": "",
           "pid": "4278164",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "33,15",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "78",
+          "RA": "517",
+          "pid": "4176175"
+        },
+        {
+          "Tid": "36,32",
+          "Dato": "30.05.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4170507"
         }
       ]
     },
@@ -285,35 +285,15 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "F",
-          "RK": "129",
-          "RA": "737",
-          "pid": "3951398"
+          "RK": "131",
+          "RA": "753",
+          "pid": "4171495"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "42,74",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3956331"
-        },
-        {
-          "Tid": "44,38",
-          "Dato": "30.05.2026",
-          "Sted": "Tønsberg",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3950608"
-        },
         {
           "Tid": "57,05",
           "Dato": "24.10.2020",
@@ -374,40 +354,32 @@
           "RK": "77",
           "RA": "479",
           "pid": "4277894"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Fri",
-      "races": [
+        },
         {
-          "Tid": "1.05,92",
-          "Dato": "05.06.2026",
+          "Tid": "42,74",
+          "Dato": "07.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3957432",
-          "splits": [
-            "30,67",
-            "35,25"
-          ]
+          "RK": "86",
+          "RA": "451",
+          "pid": "4176461"
         },
         {
-          "Tid": "1.08,34",
+          "Tid": "44,38",
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3951021",
-          "splits": [
-            "31,40",
-            "36,94"
-          ]
-        },
+          "pid": "4170700"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
         {
           "Tid": "1.04,13",
           "Dato": "19.09.2026",
@@ -465,6 +437,34 @@
             "34,37"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.05,92",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "81",
+          "RA": "501",
+          "pid": "4177576",
+          "splits": [
+            "30,67",
+            "35,25"
+          ]
+        },
+        {
+          "Tid": "1.08,34",
+          "Dato": "30.05.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4171116",
+          "splits": [
+            "31,40",
+            "36,94"
+          ]
         }
       ]
     },

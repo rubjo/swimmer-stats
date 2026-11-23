@@ -4,7 +4,7 @@
   "club": "Elverum Svømming",
   "birthYear": 2000,
   "gender": "female",
-  "timestamp": "2026-11-16T11:13:12.876Z",
+  "timestamp": "2026-11-23T12:14:40.276Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -239,8 +239,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "F",
-          "RK": "209",
-          "RA": "1564",
+          "RK": "211",
+          "RA": "1584",
           "pid": "4122632"
         }
       ]
@@ -539,8 +539,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "110",
-          "RA": "1379",
+          "RK": "113",
+          "RA": "1401",
           "pid": "4121084",
           "partOf": "100m Bryst",
           "splits": [
@@ -568,8 +568,8 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "76",
-          "RA": "896",
+          "RK": "77",
+          "RA": "909",
           "pid": "4120409"
         },
         {
@@ -876,20 +876,6 @@
           "partOf": "200m Bryst"
         },
         {
-          "Tid": "1.52,49",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "81",
-          "RA": "",
-          "pid": "3900687",
-          "splits": [
-            "52,32",
-            "1.00,17"
-          ]
-        },
-        {
           "Tid": "1.53,80",
           "Dato": "02.06.2013",
           "Sted": "Fredrikstad",
@@ -946,6 +932,20 @@
             "1.04,45"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.52,49",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "1165",
+          "pid": "4121083",
+          "splits": [
+            "52,32",
+            "1.00,17"
+          ]
         }
       ]
     },

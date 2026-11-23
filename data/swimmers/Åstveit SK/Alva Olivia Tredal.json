@@ -4,21 +4,11 @@
   "club": "Åstveit SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-23T02:07:57.414Z",
+  "timestamp": "2026-11-23T14:56:05.609Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "44,57",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "296",
-          "RA": "1915",
-          "pid": "3862660"
-        },
         {
           "Tid": "56,16",
           "Dato": "28.04.2024",
@@ -49,34 +39,22 @@
           "RK": "",
           "RA": "",
           "pid": "3327385"
+        },
+        {
+          "Tid": "44,57",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "296",
+          "RA": "1942",
+          "pid": "4083900"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "55,74",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3863127",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "56,44",
-          "Dato": "31.01.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3863685",
-          "partOf": "200m Bryst"
-        },
         {
           "Tid": "59,36",
           "Dato": "15.11.2025",
@@ -150,41 +128,34 @@
           "RA": "",
           "pid": "4265941",
           "partOf": "200m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Bryst",
-      "races": [
+        },
         {
-          "Tid": "2.00,83",
+          "Tid": "55,74",
           "Dato": "01.02.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
-          "D": "",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3863126",
-          "splits": [
-            "55,74",
-            "1.05,09"
-          ]
+          "pid": "4084387",
+          "partOf": "100m Bryst"
         },
         {
-          "Tid": "2.03,62",
+          "Tid": "56,44",
           "Dato": "31.01.2026",
           "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3863686",
-          "splits": [
-            "56,44",
-            "1.07,18"
-          ],
+          "pid": "4084964",
           "partOf": "200m Bryst"
-        },
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
         {
           "Tid": "2.04,38",
           "Dato": "15.11.2025",
@@ -226,6 +197,35 @@
           "splits": [
             "55,44",
             "1.06,26"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.00,83",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4084386",
+          "splits": [
+            "55,74",
+            "1.05,09"
+          ]
+        },
+        {
+          "Tid": "2.03,62",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4084965",
+          "splits": [
+            "56,44",
+            "1.07,18"
           ],
           "partOf": "200m Bryst"
         }
@@ -287,22 +287,6 @@
       "distanse": "200m Bryst",
       "races": [
         {
-          "Tid": "4.24,08",
-          "Dato": "31.01.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3863684",
-          "splits": [
-            "56,44",
-            "1.07,18",
-            "1.11,39",
-            "1.09,07"
-          ]
-        },
-        {
           "Tid": "4.31,49",
           "Dato": "05.09.2025",
           "Sted": "Åstveit",
@@ -348,6 +332,22 @@
             "1.06,26",
             "1.08,63",
             "1.05,63"
+          ]
+        },
+        {
+          "Tid": "4.24,08",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4084963",
+          "splits": [
+            "56,44",
+            "1.07,18",
+            "1.11,39",
+            "1.09,07"
           ]
         }
       ]

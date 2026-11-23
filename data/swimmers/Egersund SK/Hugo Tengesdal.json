@@ -4,21 +4,11 @@
   "club": "Egersund SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-23T01:41:50.228Z",
+  "timestamp": "2026-11-23T14:53:06.940Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "47,91",
-          "Dato": "14.03.2026",
-          "Sted": "Bryne",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3895988"
-        },
         {
           "Tid": "41,93",
           "Dato": "13.09.2026",
@@ -28,22 +18,22 @@
           "RK": "95",
           "RA": "1785",
           "pid": "4215831"
+        },
+        {
+          "Tid": "47,91",
+          "Dato": "14.03.2026",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4108804"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "52,47",
-          "Dato": "09.05.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "54",
-          "RA": "1265",
-          "pid": "3946458"
-        },
         {
           "Tid": "53,53",
           "Dato": "12.09.2026",
@@ -53,6 +43,16 @@
           "RK": "",
           "RA": "",
           "pid": "4215741"
+        },
+        {
+          "Tid": "52,47",
+          "Dato": "09.05.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "55",
+          "RA": "1283",
+          "pid": "4166622"
         }
       ]
     }

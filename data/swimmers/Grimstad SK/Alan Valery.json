@@ -4,22 +4,11 @@
   "club": "Grimstad SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-23T02:11:06.917Z",
+  "timestamp": "2026-11-23T15:03:06.155Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "39,47",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3958205",
-          "partOf": "200m Fri"
-        },
         {
           "Tid": "39,64",
           "Dato": "19.10.2025",
@@ -40,27 +29,23 @@
           "RA": "1639",
           "pid": "4225237",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "39,47",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "168",
+          "RA": "1038",
+          "pid": "4178355",
+          "partOf": "200m Fri"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.28,98",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3958206",
-          "splits": [
-            "39,47",
-            "49,51"
-          ],
-          "partOf": "200m Fri"
-        },
         {
           "Tid": "1.26,98",
           "Dato": "13.09.2026",
@@ -75,6 +60,21 @@
             "47,72"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.28,98",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "161",
+          "RA": "925",
+          "pid": "4178356",
+          "splits": [
+            "39,47",
+            "49,51"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -87,9 +87,9 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3958204",
+          "RK": "121",
+          "RA": "643",
+          "pid": "4178354",
           "splits": [
             "39,47",
             "49,51",

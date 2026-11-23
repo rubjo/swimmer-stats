@@ -4,7 +4,7 @@
   "club": "Ski SK",
   "birthYear": 1967,
   "gender": "male",
-  "timestamp": "2026-11-09T11:33:05.359Z",
+  "timestamp": "2026-11-23T12:18:21.930Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -20,16 +20,6 @@
           "pid": "3664313"
         },
         {
-          "Tid": "41,77",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "177",
-          "RA": "755",
-          "pid": "3900096"
-        },
-        {
           "Tid": "42,03",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -38,17 +28,6 @@
           "RK": "",
           "RA": "",
           "pid": "3664813",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "43,58",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900603",
           "partOf": "100m Bryst"
         },
         {
@@ -72,6 +51,27 @@
           "RA": "1083",
           "pid": "3235150",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "41,77",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "771",
+          "pid": "4120485"
+        },
+        {
+          "Tid": "43,58",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120999",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -90,20 +90,6 @@
           "splits": [
             "42,03",
             "51,80"
-          ]
-        },
-        {
-          "Tid": "1.36,41",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "118",
-          "RA": "723",
-          "pid": "3900602",
-          "splits": [
-            "43,58",
-            "52,83"
           ]
         },
         {
@@ -134,6 +120,20 @@
             "53,26"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.36,41",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "737",
+          "pid": "4120998",
+          "splits": [
+            "43,58",
+            "52,83"
+          ]
         }
       ]
     },

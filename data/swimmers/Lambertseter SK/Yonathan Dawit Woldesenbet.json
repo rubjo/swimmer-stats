@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2012,
   "gender": "male",
-  "timestamp": "2026-11-09T11:24:36.080Z",
+  "timestamp": "2026-11-23T15:28:03.330Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -36,17 +36,6 @@
           "pid": "3781587"
         },
         {
-          "Tid": "39,05",
-          "Dato": "17.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "157",
-          "RA": "1051",
-          "pid": "3846758",
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "42,78",
           "Dato": "11.10.2025",
           "Sted": "Sarpsborg",
@@ -66,6 +55,17 @@
           "RK": "",
           "RA": "",
           "pid": "3799830",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "39,05",
+          "Dato": "17.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "159",
+          "RA": "1060",
+          "pid": "4067402",
           "partOf": "100m Butterfly"
         }
       ]
@@ -134,20 +134,6 @@
       "distanse": "100m Butterfly",
       "races": [
         {
-          "Tid": "1.27,98",
-          "Dato": "17.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "123",
-          "RA": "703",
-          "pid": "3846757",
-          "splits": [
-            "39,05",
-            "48,93"
-          ]
-        },
-        {
           "Tid": "1.39,43",
           "Dato": "25.10.2025",
           "Sted": "Manglerud",
@@ -173,6 +159,20 @@
           "splits": [
             "42,78",
             "58,26"
+          ]
+        },
+        {
+          "Tid": "1.27,98",
+          "Dato": "17.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "715",
+          "pid": "4067401",
+          "splits": [
+            "39,05",
+            "48,93"
           ]
         }
       ]

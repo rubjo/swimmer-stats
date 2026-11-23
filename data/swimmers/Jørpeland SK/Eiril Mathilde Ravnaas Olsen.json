@@ -4,7 +4,7 @@
   "club": "Jørpeland SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-23T00:41:46.184Z",
+  "timestamp": "2026-11-23T14:28:55.741Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,16 +18,6 @@
           "RK": "",
           "RA": "",
           "pid": "3830417"
-        },
-        {
-          "Tid": "40,07",
-          "Dato": "06.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "165",
-          "RA": "1057",
-          "pid": "3956644"
         },
         {
           "Tid": "42,12",
@@ -98,6 +88,16 @@
           "RK": "",
           "RA": "",
           "pid": "4271487"
+        },
+        {
+          "Tid": "40,07",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "165",
+          "RA": "1057",
+          "pid": "4176778"
         }
       ]
     },
@@ -112,45 +112,13 @@
           "D": "F",
           "RK": "113",
           "RA": "668",
-          "pid": "3959335"
+          "pid": "4179489"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "51,21",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "226",
-          "RA": "1303",
-          "pid": "3866302",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "52,35",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "134",
-          "RA": "757",
-          "pid": "3956415"
-        },
-        {
-          "Tid": "53,10",
-          "Dato": "05.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3957297",
-          "partOf": "100m Bryst"
-        },
         {
           "Tid": "54,03",
           "Dato": "30.11.2025",
@@ -223,40 +191,44 @@
           "RA": "",
           "pid": "4271753",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "51,21",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "227",
+          "RA": "1323",
+          "pid": "4087279",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,35",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "134",
+          "RA": "757",
+          "pid": "4176546"
+        },
+        {
+          "Tid": "53,10",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4177439",
+          "partOf": "100m Bryst"
         }
       ]
     },
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.51,96",
-          "Dato": "05.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "114",
-          "RA": "573",
-          "pid": "3957296",
-          "splits": [
-            "53,10",
-            "58,86"
-          ]
-        },
-        {
-          "Tid": "1.53,59",
-          "Dato": "07.02.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3866301",
-          "splits": [
-            "51,21",
-            "1.02,38"
-          ]
-        },
         {
           "Tid": "2.06,29",
           "Dato": "30.05.2025",
@@ -297,6 +269,34 @@
           "splits": [
             "52,03",
             "59,60"
+          ]
+        },
+        {
+          "Tid": "1.51,96",
+          "Dato": "05.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "114",
+          "RA": "573",
+          "pid": "4177438",
+          "splits": [
+            "53,10",
+            "58,86"
+          ]
+        },
+        {
+          "Tid": "1.53,59",
+          "Dato": "07.02.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4087278",
+          "splits": [
+            "51,21",
+            "1.02,38"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Namsos SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-11-22T23:41:59.139Z",
+  "timestamp": "2026-11-23T12:15:42.211Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -138,20 +138,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.28,22",
-          "Dato": "25.04.2026",
-          "Sted": "Namsos",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "172",
-          "RA": "",
-          "pid": "3938833",
-          "splits": [
-            "",
-            ""
-          ]
-        },
-        {
           "Tid": "1.33,15",
           "Dato": "22.11.2026",
           "Sted": "Namsos",
@@ -165,6 +151,20 @@
             "50,04"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.28,22",
+          "Dato": "25.04.2026",
+          "Sted": "Namsos",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "172",
+          "RA": "881",
+          "pid": "4159185",
+          "splits": [
+            "",
+            ""
+          ]
         }
       ]
     },

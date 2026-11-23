@@ -4,7 +4,7 @@
   "club": "Lambertseter SK",
   "birthYear": 2008,
   "gender": "female",
-  "timestamp": "2026-11-09T13:42:43.617Z",
+  "timestamp": "2026-11-23T15:32:53.385Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -78,17 +78,6 @@
           "RK": "",
           "RA": "",
           "pid": "3360035"
-        },
-        {
-          "Tid": "30,67",
-          "Dato": "18.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "45",
-          "RA": "452",
-          "pid": "3847021",
-          "partOf": "100m Fri"
         },
         {
           "Tid": "30,80",
@@ -1031,6 +1020,17 @@
           "RK": "",
           "RA": "",
           "pid": "2218018"
+        },
+        {
+          "Tid": "30,67",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "45",
+          "RA": "459",
+          "pid": "4067746",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -3116,20 +3116,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.17,00",
-          "Dato": "18.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "46",
-          "RA": "849",
-          "pid": "3847020",
-          "splits": [
-            "30,67",
-            "46,33"
-          ]
-        },
-        {
           "Tid": "1.17,29",
           "Dato": "20.09.2020",
           "Sted": "Lambertseter",
@@ -3451,6 +3437,20 @@
           "splits": [
             "47,44",
             "55,78"
+          ]
+        },
+        {
+          "Tid": "1.17,00",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "46",
+          "RA": "858",
+          "pid": "4067745",
+          "splits": [
+            "30,67",
+            "46,33"
           ]
         }
       ]

@@ -4,22 +4,11 @@
   "club": "Bryne SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-09T11:15:45.375Z",
+  "timestamp": "2026-11-23T12:50:22.037Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "42,56",
-          "Dato": "15.03.2026",
-          "Sted": "Bryne",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "277",
-          "RA": "1792",
-          "pid": "3897283",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "45,08",
           "Dato": "08.11.2025",
@@ -30,6 +19,17 @@
           "RA": "",
           "pid": "3810324",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "42,56",
+          "Dato": "15.03.2026",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "278",
+          "RA": "1817",
+          "pid": "4109054",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -52,20 +52,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.29,60",
-          "Dato": "15.03.2026",
-          "Sted": "Bryne",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "225",
-          "RA": "1356",
-          "pid": "3897282",
-          "splits": [
-            "42,56",
-            "47,04"
-          ]
-        },
-        {
           "Tid": "1.37,41",
           "Dato": "08.11.2025",
           "Sted": "Kleppe",
@@ -79,6 +65,20 @@
             "52,33"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.29,60",
+          "Dato": "15.03.2026",
+          "Sted": "Bryne",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "225",
+          "RA": "1363",
+          "pid": "4109053",
+          "splits": [
+            "42,56",
+            "47,04"
+          ]
         }
       ]
     },

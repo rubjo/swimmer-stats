@@ -4,7 +4,7 @@
   "club": "Averøy SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-16T12:08:16.983Z",
+  "timestamp": "2026-11-23T12:21:16.890Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -49,8 +49,8 @@
           "Sted": "Kristiansund",
           "Basseng": "25m",
           "D": "",
-          "RK": "274",
-          "RA": "1777",
+          "RK": "275",
+          "RA": "1798",
           "pid": "4109831"
         }
       ]
@@ -84,8 +84,8 @@
           "Sted": "Sunndalsøra",
           "Basseng": "25m",
           "D": "D",
-          "RK": "268",
-          "RA": "1588",
+          "RK": "270",
+          "RA": "1605",
           "pid": "4081058",
           "partOf": "100m Bryst",
           "splits": [
@@ -141,20 +141,6 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
-          "Tid": "1.50,79",
-          "Dato": "31.01.2026",
-          "Sted": "Sunndalsøra",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "209",
-          "RA": "",
-          "pid": "3859947",
-          "splits": [
-            "54,59",
-            "56,20"
-          ]
-        },
-        {
           "Tid": "1.51,94",
           "Dato": "14.03.2026",
           "Sted": "Kristiansund",
@@ -167,26 +153,26 @@
             "53,46",
             "58,48"
           ]
+        },
+        {
+          "Tid": "1.50,79",
+          "Dato": "31.01.2026",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "216",
+          "RA": "1270",
+          "pid": "4081113",
+          "splits": [
+            "54,59",
+            "56,20"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.56,54",
-          "Dato": "31.01.2026",
-          "Sted": "Sunndalsøra",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "232",
-          "RA": "",
-          "pid": "3859900",
-          "splits": [
-            "55,82",
-            "1.00,72"
-          ]
-        },
         {
           "Tid": "1.59,81",
           "Dato": "28.02.2026",
@@ -199,6 +185,20 @@
           "splits": [
             "55,89",
             "1.03,92"
+          ]
+        },
+        {
+          "Tid": "1.56,54",
+          "Dato": "31.01.2026",
+          "Sted": "Sunndalsøra",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "237",
+          "RA": "1283",
+          "pid": "4081057",
+          "splits": [
+            "55,82",
+            "1.00,72"
           ]
         }
       ]

@@ -4,21 +4,11 @@
   "club": "Kristiansund SK",
   "birthYear": 2008,
   "gender": "male",
-  "timestamp": "2026-11-23T01:27:28.668Z",
+  "timestamp": "2026-11-23T14:25:10.020Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "27,25",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "62",
-          "RA": "500",
-          "pid": "3889285"
-        },
         {
           "Tid": "27,38",
           "Dato": "01.03.2025",
@@ -381,22 +371,22 @@
           "RA": "",
           "pid": "4235903",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "27,25",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "62",
+          "RA": "504",
+          "pid": "4109752"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "28,48",
-          "Dato": "15.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "39",
-          "RA": "292",
-          "pid": "3889084"
-        },
         {
           "Tid": "28,76",
           "Dato": "23.11.2025",
@@ -496,17 +486,6 @@
           "RK": "",
           "RA": "",
           "pid": "3414546"
-        },
-        {
-          "Tid": "30,98",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3889385",
-          "partOf": "100m Butterfly"
         },
         {
           "Tid": "31,05",
@@ -679,6 +658,27 @@
           "RK": "",
           "RA": "",
           "pid": "4235524"
+        },
+        {
+          "Tid": "28,48",
+          "Dato": "15.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "300",
+          "pid": "4109538"
+        },
+        {
+          "Tid": "30,98",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4109854",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -749,16 +749,6 @@
           "RK": "54",
           "RA": "380",
           "pid": "3622128"
-        },
-        {
-          "Tid": "35,21",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3889203"
         },
         {
           "Tid": "35,91",
@@ -895,6 +885,16 @@
           "RK": "46",
           "RA": "333",
           "pid": "4235616"
+        },
+        {
+          "Tid": "35,21",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4109663"
         }
       ]
     },
@@ -1105,20 +1105,6 @@
       "distanse": "100m Butterfly",
       "races": [
         {
-          "Tid": "1.07,74",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "29",
-          "RA": "282",
-          "pid": "3889384",
-          "splits": [
-            "30,98",
-            "36,76"
-          ]
-        },
-        {
           "Tid": "1.08,37",
           "Dato": "27.04.2024",
           "Sted": "Ålesund",
@@ -1229,26 +1215,26 @@
             "33,91",
             "45,50"
           ]
+        },
+        {
+          "Tid": "1.07,74",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "30",
+          "RA": "291",
+          "pid": "4109853",
+          "splits": [
+            "30,98",
+            "36,76"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Individuell medley",
       "races": [
-        {
-          "Tid": "1.10,19",
-          "Dato": "14.03.2026",
-          "Sted": "Kristiansund",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "39",
-          "RA": "316",
-          "pid": "3889742",
-          "splits": [
-            "31,75",
-            "38,44"
-          ]
-        },
         {
           "Tid": "1.11,58",
           "Dato": "22.11.2025",
@@ -1401,6 +1387,20 @@
           "splits": [
             "33,14",
             "38,35"
+          ]
+        },
+        {
+          "Tid": "1.10,19",
+          "Dato": "14.03.2026",
+          "Sted": "Kristiansund",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "326",
+          "pid": "4110225",
+          "splits": [
+            "31,75",
+            "38,44"
           ]
         }
       ]

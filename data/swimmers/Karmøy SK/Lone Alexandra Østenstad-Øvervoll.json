@@ -4,43 +4,11 @@
   "club": "Karmøy SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-23T02:23:05.330Z",
+  "timestamp": "2026-11-23T14:23:41.190Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "35,73",
-          "Dato": "11.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3843634"
-        },
-        {
-          "Tid": "37,47",
-          "Dato": "31.05.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3950091",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "37,50",
-          "Dato": "10.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3843973",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "33,53",
           "Dato": "07.11.2026",
@@ -61,43 +29,44 @@
           "RA": "",
           "pid": "4267275",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "35,73",
+          "Dato": "11.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4064291"
+        },
+        {
+          "Tid": "37,47",
+          "Dato": "31.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4170182",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,50",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4064639",
+          "partOf": "100m Fri"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "45,65",
-          "Dato": "31.05.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3949895"
-        },
-        {
-          "Tid": "47,92",
-          "Dato": "30.05.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3950016",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "49,90",
-          "Dato": "10.01.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3843565"
-        },
         {
           "Tid": "44,16",
           "Dato": "07.11.2026",
@@ -139,40 +108,43 @@
           "RA": "",
           "pid": "4208243",
           "partOf": "100m Bryst"
-        }
-      ]
-    },
-    {
-      "distanse": "100m Fri",
-      "races": [
+        },
         {
-          "Tid": "1.20,74",
+          "Tid": "45,65",
           "Dato": "31.05.2026",
           "Sted": "Kopervik",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3950090",
-          "splits": [
-            "37,47",
-            "43,27"
-          ]
+          "pid": "4169986"
         },
         {
-          "Tid": "1.21,74",
+          "Tid": "47,92",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4170107",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "49,90",
           "Dato": "10.01.2026",
           "Sted": "Kopervik",
           "Basseng": "25m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3843972",
-          "splits": [
-            "37,50",
-            "44,24"
-          ]
-        },
+          "pid": "4064220"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
         {
           "Tid": "1.17,87",
           "Dato": "08.11.2026",
@@ -186,26 +158,40 @@
             "35,91",
             "41,96"
           ]
+        },
+        {
+          "Tid": "1.20,74",
+          "Dato": "31.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4170181",
+          "splits": [
+            "37,47",
+            "43,27"
+          ]
+        },
+        {
+          "Tid": "1.21,74",
+          "Dato": "10.01.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4064638",
+          "splits": [
+            "37,50",
+            "44,24"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.43,26",
-          "Dato": "30.05.2026",
-          "Sted": "Kopervik",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3950015",
-          "splits": [
-            "47,92",
-            "55,34"
-          ]
-        },
         {
           "Tid": "1.37,33",
           "Dato": "07.11.2026",
@@ -232,6 +218,20 @@
           "splits": [
             "45,83",
             "55,68"
+          ]
+        },
+        {
+          "Tid": "1.43,26",
+          "Dato": "30.05.2026",
+          "Sted": "Kopervik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4170106",
+          "splits": [
+            "47,92",
+            "55,34"
           ]
         }
       ]

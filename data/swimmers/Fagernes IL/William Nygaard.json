@@ -4,31 +4,11 @@
   "club": "Fagernes IL",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-23T00:31:51.186Z",
+  "timestamp": "2026-11-23T14:08:41.371Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "53,53",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961308"
-        },
-        {
-          "Tid": "54,23",
-          "Dato": "21.03.2026",
-          "Sted": "Geithus",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3908019"
-        },
         {
           "Tid": "50,33",
           "Dato": "13.09.2026",
@@ -48,22 +28,32 @@
           "RK": "161",
           "RA": "2025",
           "pid": "4277561"
+        },
+        {
+          "Tid": "53,53",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "72",
+          "RA": "1209",
+          "pid": "4181492"
+        },
+        {
+          "Tid": "54,23",
+          "Dato": "21.03.2026",
+          "Sted": "Geithus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4117972"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "1.00,55",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "44",
-          "RA": "629",
-          "pid": "3960991"
-        },
         {
           "Tid": "59,29",
           "Dato": "13.09.2026",
@@ -83,6 +73,16 @@
           "RK": "97",
           "RA": "1206",
           "pid": "4277489"
+        },
+        {
+          "Tid": "1.00,55",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "44",
+          "RA": "629",
+          "pid": "4181166"
         }
       ]
     }
