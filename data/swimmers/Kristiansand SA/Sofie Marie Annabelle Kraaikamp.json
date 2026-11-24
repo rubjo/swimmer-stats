@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-11-23T00:56:27.961Z",
+  "timestamp": "2026-11-24T01:17:11.294Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,101 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "278",
-          "RA": "1919",
+          "RK": "",
+          "RA": "",
           "pid": "4224810"
+        },
+        {
+          "Tid": "41,71",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "231",
+          "RA": "1756",
+          "pid": "4283435"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,02",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "200",
+          "RA": "1453",
+          "pid": "4283533",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,95",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283756",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,06",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "1188",
+          "pid": "4283532",
+          "splits": [
+            "53,02",
+            "1.00,04"
+          ]
+        },
+        {
+          "Tid": "1.54,53",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283757",
+          "splits": [
+            "53,95",
+            "1.00,58"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.59,95",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "1002",
+          "pid": "4283755",
+          "splits": [
+            "53,95",
+            "1.00,58",
+            "1.05,33",
+            "1.00,09"
+          ]
         }
       ]
     }

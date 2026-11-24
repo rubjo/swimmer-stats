@@ -4,7 +4,7 @@
   "club": "Vågsbygd SLK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-11-23T14:24:52.682Z",
+  "timestamp": "2026-11-24T00:44:44.264Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,6 +18,61 @@
           "RK": "176",
           "RA": "2073",
           "pid": "4147956"
+        },
+        {
+          "Tid": "40,73",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "88",
+          "RA": "1741",
+          "pid": "4283407"
+        },
+        {
+          "Tid": "41,80",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283602",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.04,19",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4283338"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,63",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "79",
+          "RA": "1547",
+          "pid": "4283601",
+          "splits": [
+            "41,80",
+            "51,83"
+          ]
         }
       ]
     }
