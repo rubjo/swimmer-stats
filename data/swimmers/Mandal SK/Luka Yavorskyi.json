@@ -4,7 +4,7 @@
   "club": "Mandal SK",
   "birthYear": 2009,
   "gender": "male",
-  "timestamp": "2026-11-23T11:49:24.124Z",
+  "timestamp": "2026-11-24T09:25:35.393Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -157,6 +157,27 @@
           "RK": "36",
           "RA": "225",
           "pid": "4242461"
+        },
+        {
+          "Tid": "25,97",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4283391"
+        },
+        {
+          "Tid": "26,53",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283562",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -247,6 +268,17 @@
           "RK": "57",
           "RA": "334",
           "pid": "4176188"
+        },
+        {
+          "Tid": "29,97",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283464",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -346,8 +378,8 @@
           "Sted": "Grimstad",
           "Basseng": "25m",
           "D": "F",
-          "RK": "47",
-          "RA": "263",
+          "RK": "",
+          "RA": "",
           "pid": "4243426",
           "splits": []
         },
@@ -357,12 +389,26 @@
           "Sted": "Grimstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "47",
-          "RA": "263",
+          "RK": "",
+          "RA": "",
           "pid": "4242717",
           "splits": [
             "26,76",
             "30,91"
+          ]
+        },
+        {
+          "Tid": "56,97",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "39",
+          "RA": "226",
+          "pid": "4283561",
+          "splits": [
+            "26,53",
+            "30,44"
           ]
         }
       ]
@@ -564,12 +610,26 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "45",
-          "RA": "328",
+          "RK": "",
+          "RA": "",
           "pid": "4224841",
           "splits": [
             "30,81",
             "38,52"
+          ]
+        },
+        {
+          "Tid": "1.06,45",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "40",
+          "RA": "253",
+          "pid": "4283463",
+          "splits": [
+            "29,97",
+            "36,48"
           ]
         }
       ]

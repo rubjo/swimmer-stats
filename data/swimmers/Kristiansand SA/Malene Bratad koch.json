@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-23T14:11:11.024Z",
+  "timestamp": "2026-11-24T09:42:37.862Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -122,6 +122,16 @@
           "splits": [
             ""
           ]
+        },
+        {
+          "Tid": "32,93",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "84",
+          "RA": "812",
+          "pid": "4283439"
         }
       ]
     },
@@ -548,6 +558,17 @@
           "RA": "",
           "pid": "4225201",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "39,65",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283490",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -568,6 +589,25 @@
             "48,64",
             "55,61",
             "46,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.31,65",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "561",
+          "pid": "4283489",
+          "splits": [
+            "39,65",
+            "52,00"
           ]
         }
       ]
