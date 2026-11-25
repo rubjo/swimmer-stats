@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-11-22T23:38:45.787Z",
+  "timestamp": "2026-11-24T22:22:29.671Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -15,8 +15,8 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "268",
-          "RA": "1597",
+          "RK": "",
+          "RA": "",
           "pid": "4224727"
         },
         {
@@ -38,6 +38,17 @@
           "RK": "",
           "RA": "",
           "pid": "4176540"
+        },
+        {
+          "Tid": "54,84",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "261",
+          "RA": "1555",
+          "pid": "4283768",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -50,8 +61,8 @@
           "Sted": "Grimstad",
           "Basseng": "25m",
           "D": "D",
-          "RK": "273",
-          "RA": "1773",
+          "RK": "",
+          "RA": "",
           "pid": "4243136",
           "partOf": "200m Fri"
         },
@@ -77,8 +88,8 @@
           "Sted": "Grimstad",
           "Basseng": "25m",
           "D": "D",
-          "RK": "249",
-          "RA": "1492",
+          "RK": "",
+          "RA": "",
           "pid": "4243137",
           "splits": [
             "42,01",
@@ -148,8 +159,8 @@
           "Sted": "Grimstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "190",
-          "RA": "1118",
+          "RK": "191",
+          "RA": "1119",
           "pid": "4243135",
           "splits": [
             "42,01",
@@ -169,8 +180,8 @@
           "Sted": "Grimstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "183",
-          "RA": "979",
+          "RK": "184",
+          "RA": "981",
           "pid": "4243355",
           "splits": [
             "44,87",
@@ -181,6 +192,105 @@
             "52,23",
             "54,55",
             "45,23"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "46,00",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283848",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.58,06",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "242",
+          "RA": "1329",
+          "pid": "4283769",
+          "splits": [
+            "54,84",
+            "1.03,22"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.37,50",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "192",
+          "RA": "990",
+          "pid": "4283847",
+          "splits": [
+            "46,0",
+            "59,04",
+            "1.03,96",
+            "48,50"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.52,84",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "210",
+          "RA": "1049",
+          "pid": "4283669",
+          "splits": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.09,53",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "224",
+          "RA": "1101",
+          "pid": "4283767",
+          "splits": [
+            "54,84",
+            "1.03,22",
+            "1.04,12",
+            "1.07,35"
           ]
         }
       ]
