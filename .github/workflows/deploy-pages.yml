@@ -1,0 +1,48 @@
+name: Deploy Pages
+
+# The only job that deploys GitHub Pages. Scrape and LÅMØ / ÅM call it after
+# they push. It checks out main as it is when the job starts, not the commit
+# its caller started from, so a deploy always carries everything committed so
+# far: neither workflow can publish a tree that lacks the other's files.
+#
+# One deploy at a time (group "pages"). A deploy queued while another waits
+# replaces it, which loses nothing: the one that runs checks out main later.
+# The callers commit before calling, so a replaced deploy never drops data.
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Check the LÅMØ / ÅM files are there
+        run: |
+          if [ -d data/laamo ] && [ ! -s data/laamo/index.json ]; then
+            echo "data/laamo exists but has no index.json"
+            exit 1
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: data
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
