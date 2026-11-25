@@ -1,0 +1,115 @@
+name: LÅMØ / ÅM
+
+# The LÅMØ / ÅM lists (medley.no/sl.aspx) → data/laamo/<slid>.json, served
+# from Pages next to the swimmer files. See scripts/scrape-laamo.js.
+on:
+  schedule:
+    - cron: "30 4 * * *" # daily 04:30 UTC: the two newest lists
+  workflow_dispatch:
+    inputs:
+      slids:
+        description: 'Lists to scrape: "17 16", or "--all" for the backfill (empty = the two newest)'
+        type: string
+        default: ""
+
+# Its own queue: sharing scrape-queue with the 6-hourly scrape would let a
+# pending LÅMØ run replace a pending scrape run (one pending run per group).
+concurrency:
+  group: laamo
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  laamo:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: node scripts/test-laamo.js
+
+      # Same Chrome install as scrape.yml.
+      - name: Install Chrome
+        env:
+          PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
+        run: |
+          set -ex
+          rm -rf /tmp/puppeteer-cache
+          node -e "
+            const {install, computeExecutablePath, resolveBuildId, detectBrowserPlatform} = require('@puppeteer/browsers');
+            const {PUPPETEER_REVISIONS} = require('puppeteer-core/internal/revisions.js');
+            const platform = detectBrowserPlatform();
+            const buildId = PUPPETEER_REVISIONS.chrome;
+            console.log('Platform:', platform, 'BuildId:', buildId);
+            install({
+              browser: 'chrome',
+              buildId,
+              platform,
+              cacheDir: '/tmp/puppeteer-cache',
+              downloadProgressCallback: (d,l) => console.log('Downloaded', d, '/', l),
+            }).then(() => {
+              const p = computeExecutablePath({browser:'chrome', buildId, cacheDir:'/tmp/puppeteer-cache', platform});
+              console.log('Installed at:', p);
+            }).catch(e => { console.error('Install failed:', e); process.exit(1); });
+          "
+          echo "Verifying:"
+          find /tmp/puppeteer-cache -name chrome -type f
+
+      - name: Install browser dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk-bridge2.0-0 libxkbcommon0 \
+            libxdamage1 libgbm1 libasound2t64
+
+      # A failed list keeps its previous file; commit and deploy the rest,
+      # then fail the run below so it shows.
+      - name: Scrape
+        id: scrape
+        continue-on-error: true
+        env:
+          PUPPETEER_CACHE_DIR: /tmp/puppeteer-cache
+        run: node scripts/scrape-laamo.js ${{ github.event.inputs.slids }}
+
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name "medley-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git config merge.ours.driver true
+          git add data/laamo
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "laamo $(date -u +%F) [skip ci]"
+            # The 6-hourly scrape may have pushed meanwhile; it never touches
+            # data/laamo, so the rebase is clean.
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fail if a list failed
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1
+
+  # Deploys main as it is now (see deploy-pages.yml): the swimmer files too,
+  # so this deploy can't roll back a newer swimmer scrape. Runs even when a
+  # list failed, as long as the others were committed.
+  deploy:
+    needs: laamo
+    if: always() && needs.laamo.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy-pages.yml

@@ -166,19 +166,14 @@ jobs:
           if-no-files-found: ignore
           retention-days: 1
 
-  # ── Fan-in: collect all shards, rebuild index once, single commit + deploy ──
+  # ── Fan-in: collect all shards, rebuild index once, single commit ──
   merge:
     needs: scrape
     # Run even if some shards failed — commit the work of the ones that finished.
     if: always()
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    # The Pages deploy happens here, so the pages concurrency group belongs here.
-    concurrency:
-      group: pages
-      cancel-in-progress: false
+    outputs:
+      ran: ${{ steps.merge.outputs.ran }}
     steps:
       - uses: actions/checkout@v4
 
@@ -291,13 +286,9 @@ jobs:
             )
           fi
 
-      - name: Upload Pages artifact
-        if: steps.merge.outputs.ran == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: data
-
-      - name: Deploy to Pages
-        if: steps.merge.outputs.ran == 'true'
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # Deploys main as it is now, so it also carries data/laamo (see
+  # deploy-pages.yml). Skipped if merge failed: a failed push must not deploy.
+  deploy:
+    needs: merge
+    if: needs.merge.outputs.ran == 'true'
+    uses: ./.github/workflows/deploy-pages.yml
