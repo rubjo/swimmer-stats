@@ -4,21 +4,11 @@
   "club": "Dolphin Masters SK",
   "birthYear": 1978,
   "gender": "male",
-  "timestamp": "2026-06-20T18:04:43.011Z",
+  "timestamp": "2026-11-23T14:29:42.351Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "28,24",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "182",
-          "RA": "484",
-          "pid": "3902139"
-        },
         {
           "Tid": "28,76",
           "Dato": "29.03.2025",
@@ -62,6 +52,16 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "28,24",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "226",
+          "RA": "649",
+          "pid": "4122585"
         }
       ]
     },
@@ -74,9 +74,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3902310"
+          "RK": "109",
+          "RA": "421",
+          "pid": "4122758"
         }
       ]
     },
@@ -89,13 +89,13 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "217",
-          "RA": "871",
-          "pid": "3901829",
+          "RK": "259",
+          "RA": "1023",
+          "pid": "4122254",
+          "partOf": "400m Individuell medley",
           "splits": [
             ""
-          ],
-          "partOf": "400m Individuell medley"
+          ]
         }
       ]
     },
@@ -127,9 +127,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "49",
-          "RA": "237",
-          "pid": "3901050",
+          "RK": "94",
+          "RA": "410",
+          "pid": "4121454",
           "splits": [
             "32,40",
             "40,56"
@@ -146,9 +146,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900444",
+          "RK": "59",
+          "RA": "279",
+          "pid": "4120836",
           "splits": [
             "35,70",
             "38,32"
@@ -165,9 +165,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "89",
-          "RA": "556",
-          "pid": "3901830",
+          "RK": "119",
+          "RA": "660",
+          "pid": "4122255",
           "splits": [
             "38,33",
             "46,25"
@@ -185,9 +185,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "31",
-          "RA": "125",
-          "pid": "3901828",
+          "RK": "40",
+          "RA": "201",
+          "pid": "4122253",
           "splits": [
             "38,33",
             "46,25",

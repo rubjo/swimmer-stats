@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-30T00:45:46.060Z",
+  "timestamp": "2026-11-24T22:30:55.623Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -19,6 +19,16 @@
           "RA": "",
           "pid": "3667607",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "40,50",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258864"
         }
       ]
     },
@@ -37,6 +47,63 @@
           "splits": [
             "53,11",
             "1.04,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,20",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "170",
+          "RA": "1583",
+          "pid": "4260154",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,83",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "134",
+          "RA": "1293",
+          "pid": "4260155",
+          "splits": [
+            "55,20",
+            "1.01,63"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.08,25",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "1091",
+          "pid": "4260153",
+          "splits": [
+            "55,20",
+            "1.01,63",
+            "1.05,62",
+            "1.05,80"
           ]
         }
       ]

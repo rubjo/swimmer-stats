@@ -1,0 +1,136 @@
+{
+  "swimmerId": "54208",
+  "name": "Fridtjof Kaspersen Berg",
+  "club": "Lambertseter SK",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-11-24T22:37:19.390Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,08",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258735"
+        },
+        {
+          "Tid": "45,12",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "130",
+          "RA": "1923",
+          "pid": "4268532"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.57,54",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "831",
+          "pid": "4259179",
+          "splits": [
+            "57,54",
+            "1.00,00"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.05,99",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4269837",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.06,60",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4268989",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.24,17",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "127",
+          "RA": "1381",
+          "pid": "4269838",
+          "splits": [
+            "1.05,99",
+            "1.18,18"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.24,56",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4268988",
+          "splits": [
+            "1.06,60",
+            "1.17,96"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.52,73",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "88",
+          "RA": "1036",
+          "pid": "4269836",
+          "splits": [
+            "1.05,99",
+            "1.18,18",
+            "1.16,97",
+            "1.11,59"
+          ]
+        }
+      ]
+    }
+  ]
+}

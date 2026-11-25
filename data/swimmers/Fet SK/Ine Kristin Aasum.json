@@ -4,7 +4,7 @@
   "club": "Fet SK",
   "birthYear": 2002,
   "gender": "female",
-  "timestamp": "2026-07-03T09:40:10.430Z",
+  "timestamp": "2026-11-23T15:18:17.184Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -38,16 +38,6 @@
           "RK": "",
           "RA": "",
           "pid": "3690396"
-        },
-        {
-          "Tid": "27,49",
-          "Dato": "06.06.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "15",
-          "RA": "24",
-          "pid": "3966078"
         },
         {
           "Tid": "27,52",
@@ -317,17 +307,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "31,49",
-          "Dato": "06.06.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3966080",
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "31,60",
           "Dato": "13.10.2018",
           "Sted": "Sarpsborg",
@@ -369,6 +348,27 @@
           "RK": "160",
           "RA": "1010",
           "pid": "1785607"
+        },
+        {
+          "Tid": "27,49",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "22",
+          "RA": "57",
+          "pid": "4179959"
+        },
+        {
+          "Tid": "31,49",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4180954",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -724,21 +724,6 @@
           ]
         },
         {
-          "Tid": "1.06,90",
-          "Dato": "06.06.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "67",
-          "RA": "225",
-          "pid": "3966081",
-          "splits": [
-            "31,49",
-            "35,41"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "1.06,94",
           "Dato": "17.03.2018",
           "Sted": "Nordtvet",
@@ -765,6 +750,21 @@
             "32,09",
             "36,17"
           ]
+        },
+        {
+          "Tid": "1.06,90",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "52",
+          "RA": "332",
+          "pid": "4180955",
+          "splits": [
+            "31,49",
+            "35,41"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -927,9 +927,9 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "31",
-          "RA": "81",
-          "pid": "3966079",
+          "RK": "27",
+          "RA": "123",
+          "pid": "4180953",
           "splits": [
             "31,49",
             "35,41",

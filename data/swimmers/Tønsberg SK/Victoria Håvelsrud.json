@@ -4,20 +4,41 @@
   "club": "Tønsberg SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-29T23:39:10.145Z",
+  "timestamp": "2026-11-25T00:13:34.445Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "40,02",
+          "Dato": "31.10.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4262265"
+        },
         {
           "Tid": "44,67",
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "D",
-          "RK": "218",
-          "RA": "1641",
-          "pid": "3955810",
+          "RK": "",
+          "RA": "",
+          "pid": "4171242",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "45,53",
+          "Dato": "31.10.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4262625",
           "partOf": "100m Fri"
         }
       ]
@@ -26,14 +47,34 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "46,37",
+          "Dato": "01.11.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4261981"
+        },
+        {
+          "Tid": "47,40",
+          "Dato": "31.10.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4261980"
+        },
+        {
           "Tid": "51,54",
           "Dato": "30.05.2026",
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "147",
-          "RA": "1234",
-          "pid": "3955805"
+          "RK": "",
+          "RA": "",
+          "pid": "4170549"
         }
       ]
     },
@@ -46,13 +87,52 @@
           "Sted": "Tønsberg",
           "Basseng": "25m",
           "D": "",
-          "RK": "170",
-          "RA": "1347",
-          "pid": "3955809",
+          "RK": "207",
+          "RA": "1558",
+          "pid": "4171241",
           "splits": [
             "44,67",
             "51,37"
           ]
+        },
+        {
+          "Tid": "1.40,38",
+          "Dato": "31.10.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4262624",
+          "splits": [
+            "45,53",
+            "54,85"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,12",
+          "Dato": "31.10.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "221",
+          "RA": "1519",
+          "pid": "4262166"
+        },
+        {
+          "Tid": "55,09",
+          "Dato": "01.11.2026",
+          "Sted": "Tønsberg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4262156"
         }
       ]
     }

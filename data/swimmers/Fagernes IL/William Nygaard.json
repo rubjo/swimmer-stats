@@ -4,20 +4,40 @@
   "club": "Fagernes IL",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-11T23:17:19.980Z",
+  "timestamp": "2026-11-24T22:25:43.346Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "50,33",
+          "Dato": "13.09.2026",
+          "Sted": "Brumunddal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4217133"
+        },
+        {
+          "Tid": "49,93",
+          "Dato": "22.11.2026",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "163",
+          "RA": "2034",
+          "pid": "4277561"
+        },
         {
           "Tid": "53,53",
           "Dato": "06.06.2026",
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961308"
+          "RK": "72",
+          "RA": "1209",
+          "pid": "4181492"
         },
         {
           "Tid": "54,23",
@@ -25,19 +45,9 @@
           "Sted": "Geithus",
           "Basseng": "25m",
           "D": "",
-          "RK": "132",
-          "RA": "1769",
-          "pid": "3908019"
-        },
-        {
-          "Tid": "50,33",
-          "Dato": "13.09.2026",
-          "Sted": "Brumunddal",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "144",
-          "RA": "1914",
-          "pid": "3998959"
+          "RK": "",
+          "RA": "",
+          "pid": "4117972"
         }
       ]
     },
@@ -45,24 +55,34 @@
       "distanse": "50m Rygg",
       "races": [
         {
-          "Tid": "1.00,55",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "43",
-          "RA": "599",
-          "pid": "3960991"
-        },
-        {
           "Tid": "59,29",
           "Dato": "13.09.2026",
           "Sted": "Brumunddal",
           "Basseng": "25m",
           "D": "",
-          "RK": "84",
-          "RA": "1103",
-          "pid": "3998900"
+          "RK": "",
+          "RA": "",
+          "pid": "4217071"
+        },
+        {
+          "Tid": "55,67",
+          "Dato": "22.11.2026",
+          "Sted": "Gol",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "97",
+          "RA": "1207",
+          "pid": "4277489"
+        },
+        {
+          "Tid": "1.00,55",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "44",
+          "RA": "629",
+          "pid": "4181166"
         }
       ]
     }

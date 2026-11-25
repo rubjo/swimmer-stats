@@ -4,7 +4,7 @@
   "club": "Haugesund Triatlonklubb",
   "birthYear": 1965,
   "gender": "male",
-  "timestamp": "2026-09-08T17:38:26.643Z",
+  "timestamp": "2026-11-23T13:19:08.443Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -115,17 +115,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "31,15",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "259",
-          "RA": "815",
-          "pid": "3900752",
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "31,75",
           "Dato": "28.03.2025",
           "Sted": "Trondheim",
@@ -159,6 +148,17 @@
           "partOf": "200m Fri"
         },
         {
+          "Tid": "31,15",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "307",
+          "RA": "1019",
+          "pid": "4121148",
+          "partOf": "100m Fri"
+        },
+        {
           "Tid": "31,36",
           "Dato": "06.09.2026",
           "Sted": "Haugesund",
@@ -166,7 +166,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3988236",
+          "pid": "4208290",
           "partOf": "100m Fri"
         }
       ]
@@ -200,16 +200,6 @@
       "distanse": "50m Bryst",
       "races": [
         {
-          "Tid": "38,30",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "118",
-          "RA": "443",
-          "pid": "3900043"
-        },
-        {
           "Tid": "39,09",
           "Dato": "28.03.2025",
           "Sted": "Trondheim",
@@ -220,17 +210,6 @@
           "pid": "3664268"
         },
         {
-          "Tid": "39,74",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900523",
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "40,55",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -239,6 +218,27 @@
           "RK": "",
           "RA": "",
           "pid": "3664757",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "38,30",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "563",
+          "pid": "4120431"
+        },
+        {
+          "Tid": "39,74",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120917",
           "partOf": "100m Bryst"
         }
       ]
@@ -317,20 +317,6 @@
           ]
         },
         {
-          "Tid": "1.04,74",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "156",
-          "RA": "511",
-          "pid": "3900751",
-          "splits": [
-            "31,15",
-            "33,59"
-          ]
-        },
-        {
           "Tid": "1.06,53",
           "Dato": "28.03.2025",
           "Sted": "Trondheim",
@@ -375,6 +361,20 @@
           "partOf": "200m Fri"
         },
         {
+          "Tid": "1.04,74",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "197",
+          "RA": "669",
+          "pid": "4121147",
+          "splits": [
+            "31,15",
+            "33,59"
+          ]
+        },
+        {
           "Tid": "1.06,82",
           "Dato": "06.09.2026",
           "Sted": "Haugesund",
@@ -382,7 +382,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3988235",
+          "pid": "4208289",
           "splits": [
             "31,36",
             "35,46"
@@ -413,9 +413,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "81",
-          "RA": "369",
-          "pid": "3900522",
+          "RK": "106",
+          "RA": "469",
+          "pid": "4120916",
           "splits": [
             "39,74",
             "45,75"

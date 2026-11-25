@@ -4,7 +4,7 @@
   "club": "Hamar IL",
   "birthYear": 1961,
   "gender": "male",
-  "timestamp": "2026-06-28T02:15:10.309Z",
+  "timestamp": "2026-11-23T13:49:31.801Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -253,17 +253,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "34,16",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "294",
-          "RA": "1051",
-          "pid": "3900764",
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "34,86",
           "Dato": "06.05.2023",
           "Sted": "Sarpsborg",
@@ -284,6 +273,17 @@
           "RA": "",
           "pid": "3467324",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "34,16",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "343",
+          "RA": "1265",
+          "pid": "4121160",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -464,16 +464,6 @@
           "partOf": "100m Butterfly"
         },
         {
-          "Tid": "32,64",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "166",
-          "RA": "549",
-          "pid": "3899837"
-        },
-        {
           "Tid": "33,53",
           "Dato": "25.03.2017",
           "Sted": "Fredrikstad",
@@ -562,17 +552,6 @@
           "partOf": "100m Butterfly"
         },
         {
-          "Tid": "35,44",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900387",
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "35,99",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -581,17 +560,6 @@
           "RK": "",
           "RA": "",
           "pid": "3665725",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "36,24",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901595",
           "partOf": "200m Individuell medley"
         },
         {
@@ -604,6 +572,38 @@
           "RA": "",
           "pid": "3664598",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "32,64",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "206",
+          "RA": "686",
+          "pid": "4120220"
+        },
+        {
+          "Tid": "35,44",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120779",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "36,24",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4122010",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -819,20 +819,6 @@
           ]
         },
         {
-          "Tid": "1.10,61",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "192",
-          "RA": "736",
-          "pid": "3900763",
-          "splits": [
-            "34,16",
-            "36,45"
-          ]
-        },
-        {
           "Tid": "1.11,10",
           "Dato": "06.10.2017",
           "Sted": "København",
@@ -876,6 +862,20 @@
             "42,49"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.10,61",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "235",
+          "RA": "916",
+          "pid": "4121159",
+          "splits": [
+            "34,16",
+            "36,45"
+          ]
         }
       ]
     },
@@ -1009,20 +1009,6 @@
           ]
         },
         {
-          "Tid": "1.19,68",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "85",
-          "RA": "486",
-          "pid": "3900386",
-          "splits": [
-            "35,44",
-            "44,24"
-          ]
-        },
-        {
           "Tid": "1.20,53",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -1034,6 +1020,20 @@
           "splits": [
             "36,82",
             "43,71"
+          ]
+        },
+        {
+          "Tid": "1.19,68",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "113",
+          "RA": "569",
+          "pid": "4120778",
+          "splits": [
+            "35,44",
+            "44,24"
           ]
         }
       ]
@@ -1162,22 +1162,6 @@
           ]
         },
         {
-          "Tid": "3.02,93",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "38",
-          "RA": "521",
-          "pid": "3901594",
-          "splits": [
-            "36,24",
-            "49,27",
-            "55,69",
-            "41,73"
-          ]
-        },
-        {
           "Tid": "3.04,53",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -1191,6 +1175,22 @@
             "48,80",
             "57,91",
             "41,83"
+          ]
+        },
+        {
+          "Tid": "3.02,93",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "52",
+          "RA": "614",
+          "pid": "4122009",
+          "splits": [
+            "36,24",
+            "49,27",
+            "55,69",
+            "41,73"
           ]
         }
       ]

@@ -3,8 +3,8 @@
   "name": "Torbjørn Hiis Bergh",
   "club": "Bergen og Omegn Masters",
   "birthYear": 1959,
-  "gender": null,
-  "timestamp": "2026-06-20T10:50:34.322Z",
+  "gender": "male",
+  "timestamp": "2026-11-23T11:50:41.174Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -35,9 +35,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "F",
-          "RK": "286",
-          "RA": "1012",
-          "pid": "3902194"
+          "RK": "337",
+          "RA": "1221",
+          "pid": "4122640"
         }
       ]
     },
@@ -436,16 +436,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "41,97",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900027"
-        },
-        {
           "Tid": "42,06",
           "Dato": "27.09.2014",
           "Sted": "Bergen",
@@ -642,6 +632,16 @@
           "partOf": "200m Bryst"
         },
         {
+          "Tid": "41,97",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "787",
+          "pid": "4120415"
+        },
+        {
           "Tid": "46,60",
           "Dato": "21.03.2026",
           "Sted": "Stavanger",
@@ -649,11 +649,11 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3900499",
+          "pid": "4120893",
+          "partOf": "100m Bryst",
           "splits": [
             ""
-          ],
-          "partOf": "100m Bryst"
+          ]
         },
         {
           "Tid": "47,61",
@@ -663,11 +663,11 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3901227",
+          "pid": "4121636",
+          "partOf": "200m Bryst",
           "splits": [
             ""
-          ],
-          "partOf": "200m Bryst"
+          ]
         }
       ]
     },
@@ -1041,20 +1041,6 @@
           ]
         },
         {
-          "Tid": "1.37,87",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900498",
-          "splits": [
-            "46,60",
-            "51,27"
-          ]
-        },
-        {
           "Tid": "1.38,19",
           "Dato": "06.05.2023",
           "Sted": "Sarpsborg",
@@ -1085,6 +1071,20 @@
           "partOf": "200m Bryst"
         },
         {
+          "Tid": "1.37,87",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "127",
+          "RA": "774",
+          "pid": "4120892",
+          "splits": [
+            "46,60",
+            "51,27"
+          ]
+        },
+        {
           "Tid": "1.41,37",
           "Dato": "21.03.2026",
           "Sted": "Stavanger",
@@ -1092,7 +1092,7 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3901228",
+          "pid": "4121637",
           "splits": [
             "47,61",
             "53,76"
@@ -1306,9 +1306,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "43",
-          "RA": "539",
-          "pid": "3901226",
+          "RK": "56",
+          "RA": "631",
+          "pid": "4121635",
           "splits": [
             "47,61",
             "53,76",

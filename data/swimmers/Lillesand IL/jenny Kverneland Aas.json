@@ -4,7 +4,7 @@
   "club": "Lillesand IL",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T22:53:16.541Z",
+  "timestamp": "2026-11-24T01:18:44.463Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,9 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "197",
-          "RA": "1926",
-          "pid": "4006639"
+          "RK": "237",
+          "RA": "2086",
+          "pid": "4224801"
         },
         {
           "Tid": "47,84",
@@ -27,8 +27,19 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4006884",
+          "pid": "4225058",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "48,82",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243154",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -41,12 +52,93 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "167",
-          "RA": "1637",
-          "pid": "4006883",
+          "RK": "188",
+          "RA": "1753",
+          "pid": "4225057",
           "splits": [
             "47,84",
             "57,94"
+          ]
+        },
+        {
+          "Tid": "1.47,35",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243155",
+          "splits": [
+            "48,82",
+            "58,53"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "57,76",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "201",
+          "RA": "1693",
+          "pid": "4242440"
+        },
+        {
+          "Tid": "58,52",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242698",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.07,65",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1483",
+          "pid": "4242697",
+          "splits": [
+            "58,52",
+            "1.09,13"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.53,29",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "168",
+          "RA": "1475",
+          "pid": "4243153",
+          "splits": [
+            "48,82",
+            "58,53",
+            "1.02,32",
+            "1.03,62"
           ]
         }
       ]

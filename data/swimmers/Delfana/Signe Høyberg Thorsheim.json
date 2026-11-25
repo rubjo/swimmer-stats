@@ -4,20 +4,31 @@
   "club": "Delfana",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-25T05:12:19.826Z",
+  "timestamp": "2026-11-24T23:03:52.945Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "52,11",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4249688",
+          "partOf": "400m Fri"
+        },
         {
           "Tid": "53,91",
           "Dato": "14.02.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
-          "RK": "216",
-          "RA": "1880",
-          "pid": "3874942",
+          "RK": "",
+          "RA": "",
+          "pid": "4096172",
           "partOf": "100m Fri"
         }
       ]
@@ -26,14 +37,35 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "1.02,20",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "241",
+          "RA": "1835",
+          "pid": "4248413"
+        },
+        {
+          "Tid": "1.02,69",
+          "Dato": "30.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4266054",
+          "partOf": "200m Bryst"
+        },
+        {
           "Tid": "1.03,82",
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
           "D": "D",
-          "RK": "191",
-          "RA": "1585",
-          "pid": "3891587",
+          "RK": "",
+          "RA": "",
+          "pid": "4112105",
           "partOf": "100m Bryst"
         }
       ]
@@ -47,9 +79,20 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
+          "RK": "201",
+          "RA": "1696",
+          "pid": "4095621"
+        },
+        {
+          "Tid": "1.15,52",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3874429"
+          "pid": "4249244",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -62,13 +105,28 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "183",
-          "RA": "1608",
-          "pid": "3874941",
+          "RK": "221",
+          "RA": "1864",
+          "pid": "4096171",
           "splits": [
             "53,91",
             "1.02,03"
           ]
+        },
+        {
+          "Tid": "1.56,62",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4249689",
+          "splits": [
+            "52,11",
+            "1.04,51"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -81,12 +139,152 @@
           "Sted": "Slåtthaug",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3891586",
+          "RK": "205",
+          "RA": "1549",
+          "pid": "4112104",
           "splits": [
             "1.03,82",
             "1.10,46"
+          ]
+        },
+        {
+          "Tid": "2.16,76",
+          "Dato": "30.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4266055",
+          "splits": [
+            "1.02,69",
+            "1.14,07"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "54,68",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4249892"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.01,17",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "1071",
+          "pid": "4249025",
+          "splits": [
+            "56,53",
+            "1.01,50",
+            "1.02,14",
+            "1.01,00"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "4.08,22",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "183",
+          "RA": "1517",
+          "pid": "4249690",
+          "splits": [
+            "52,11",
+            "1.04,51",
+            "1.05,70",
+            "1.05,90"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "4.39,81",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "133",
+          "RA": "1159",
+          "pid": "4249243",
+          "splits": [
+            "1.15,52",
+            "",
+            "",
+            "1.01,80"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "8.22,80",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "141",
+          "RA": "1245",
+          "pid": "4249687",
+          "splits": [
+            "52,11",
+            "1.04,51",
+            "1.05,70",
+            "1.05,90",
+            "1.05,49",
+            "1.06,86",
+            "1.03,03",
+            "59,20"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.47,33",
+          "Dato": "30.10.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1230",
+          "pid": "4266053",
+          "splits": [
+            "1.02,69",
+            "1.14,07",
+            "1.16,47",
+            "1.14,10"
           ]
         }
       ]

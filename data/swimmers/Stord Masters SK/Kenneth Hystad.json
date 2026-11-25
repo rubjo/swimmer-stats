@@ -4,7 +4,7 @@
   "club": "Stord Masters SK",
   "birthYear": 1966,
   "gender": "male",
-  "timestamp": "2026-06-25T05:01:15.196Z",
+  "timestamp": "2026-11-23T13:13:51.165Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -217,16 +217,6 @@
           "pid": "3664480"
         },
         {
-          "Tid": "32,33",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "271",
-          "RA": "923",
-          "pid": "3908045"
-        },
-        {
           "Tid": "32,68",
           "Dato": "28.03.2014",
           "Sted": "Kristiansand",
@@ -282,17 +272,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "34,49",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3908049",
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "34,53",
           "Dato": "06.09.2011",
           "Sted": "Yalta",
@@ -335,6 +314,27 @@
           "RA": "",
           "pid": "1092092",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "32,33",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "321",
+          "RA": "1131",
+          "pid": "4120654"
+        },
+        {
+          "Tid": "34,49",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121283",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -564,20 +564,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.14,54",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "208",
-          "RA": "860",
-          "pid": "3908048",
-          "splits": [
-            "34,49",
-            "40,05"
-          ]
-        },
-        {
           "Tid": "1.14,87",
           "Dato": "06.09.2011",
           "Sted": "Yalta",
@@ -648,6 +634,20 @@
           "splits": [
             "33,19",
             "49,97"
+          ]
+        },
+        {
+          "Tid": "1.14,54",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "253",
+          "RA": "1044",
+          "pid": "4121282",
+          "splits": [
+            "34,49",
+            "40,05"
           ]
         }
       ]

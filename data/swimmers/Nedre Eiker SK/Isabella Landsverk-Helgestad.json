@@ -4,21 +4,11 @@
   "club": "Nedre Eiker SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-27T02:13:12.896Z",
+  "timestamp": "2026-11-23T12:11:10.074Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "36,64",
-          "Dato": "15.02.2026",
-          "Sted": "Krokstadelva",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "189",
-          "RA": "1059",
-          "pid": "3874013"
-        },
         {
           "Tid": "37,87",
           "Dato": "02.05.2025",
@@ -40,16 +30,6 @@
           "pid": "3663477"
         },
         {
-          "Tid": "38,44",
-          "Dato": "23.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "178",
-          "RA": "943",
-          "pid": "3858369"
-        },
-        {
           "Tid": "38,95",
           "Dato": "31.05.2025",
           "Sted": "Kristiansand",
@@ -58,17 +38,6 @@
           "RK": "",
           "RA": "",
           "pid": "3705127"
-        },
-        {
-          "Tid": "40,44",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3858446",
-          "partOf": "100m Fri"
         },
         {
           "Tid": "40,74",
@@ -102,6 +71,37 @@
           "RA": "",
           "pid": "3639738",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "36,64",
+          "Dato": "15.02.2026",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "215",
+          "RA": "1280",
+          "pid": "4095190"
+        },
+        {
+          "Tid": "38,44",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "184",
+          "RA": "977",
+          "pid": "4071063"
+        },
+        {
+          "Tid": "40,44",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4073019",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -114,25 +114,15 @@
           "Sted": "Krokstadelva",
           "Basseng": "25m",
           "D": "",
-          "RK": "133",
-          "RA": "678",
-          "pid": "3873905"
+          "RK": "186",
+          "RA": "948",
+          "pid": "4095080"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "54,97",
-          "Dato": "15.02.2026",
-          "Sted": "Krokstadelva",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "235",
-          "RA": "1318",
-          "pid": "3873952"
-        },
         {
           "Tid": "57,20",
           "Dato": "22.03.2025",
@@ -152,27 +142,6 @@
           "RK": "",
           "RA": "",
           "pid": "3704902"
-        },
-        {
-          "Tid": "58,41",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3858352"
-        },
-        {
-          "Tid": "59,67",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3858412",
-          "partOf": "100m Bryst"
         },
         {
           "Tid": "1.01,47",
@@ -205,26 +174,43 @@
           "RA": "",
           "pid": "3706656",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "54,97",
+          "Dato": "15.02.2026",
+          "Sted": "Krokstadelva",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "255",
+          "RA": "1560",
+          "pid": "4095128"
+        },
+        {
+          "Tid": "58,41",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "179",
+          "RA": "934",
+          "pid": "4070527"
+        },
+        {
+          "Tid": "59,67",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4072196",
+          "partOf": "100m Bryst"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.29,08",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "168",
-          "RA": "862",
-          "pid": "3858445",
-          "splits": [
-            "40,44",
-            "48,64"
-          ]
-        },
         {
           "Tid": "1.29,57",
           "Dato": "04.05.2025",
@@ -266,6 +252,20 @@
             "42,04",
             "50,21"
           ]
+        },
+        {
+          "Tid": "1.29,08",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "175",
+          "RA": "895",
+          "pid": "4073018",
+          "splits": [
+            "40,44",
+            "48,64"
+          ]
         }
       ]
     },
@@ -291,20 +291,6 @@
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "2.08,31",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3858411",
-          "splits": [
-            "59,67",
-            "1.08,64"
-          ]
-        },
         {
           "Tid": "2.09,72",
           "Dato": "04.05.2025",
@@ -333,6 +319,20 @@
             "1.15,36"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.08,31",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "146",
+          "RA": "753",
+          "pid": "4072195",
+          "splits": [
+            "59,67",
+            "1.08,64"
+          ]
         }
       ]
     },

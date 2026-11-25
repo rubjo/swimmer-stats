@@ -1,0 +1,82 @@
+{
+  "swimmerId": "56899",
+  "name": "Martine Elise Seldorsen",
+  "club": "Sandnessjøen IL",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-11-25T00:05:16.999Z",
+  "disciplines": [
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.13,43",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "270",
+          "RA": "1959",
+          "pid": "4282854",
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.15,11",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282308"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.37,41",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "224",
+          "RA": "1632",
+          "pid": "4282855",
+          "splits": [
+            "1.13,43",
+            "1.23,98"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "5.26,35",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "1246",
+          "pid": "4282853",
+          "splits": [
+            "1.13,43",
+            "1.23,98",
+            "1.24,24",
+            "1.24,70"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,20 +4,75 @@
   "club": "Lambertseter SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-10-11T23:42:07.577Z",
+  "timestamp": "2026-11-24T11:41:00.698Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "41,50",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4259519",
+          "partOf": "100m Fri"
+        },
         {
           "Tid": "46,04",
           "Dato": "20.09.2026",
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "216",
-          "RA": "1821",
-          "pid": "4004796"
+          "RK": "",
+          "RA": "",
+          "pid": "4222901"
+        },
+        {
+          "Tid": "40,07",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "198",
+          "RA": "1698",
+          "pid": "4258740"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "55,46",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258534"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.29,15",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1435",
+          "pid": "4259518",
+          "splits": [
+            "41,50",
+            "47,65"
+          ]
         }
       ]
     }

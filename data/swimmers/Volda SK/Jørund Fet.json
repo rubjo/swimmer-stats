@@ -4,7 +4,7 @@
   "club": "Volda SK",
   "birthYear": 1956,
   "gender": "male",
-  "timestamp": "2026-06-22T04:47:39.370Z",
+  "timestamp": "2026-11-23T12:43:54.945Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -160,16 +160,6 @@
           "pid": "3015770"
         },
         {
-          "Tid": "33,44",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "283",
-          "RA": "999",
-          "pid": "3900274"
-        },
-        {
           "Tid": "34,07",
           "Dato": "07.05.2023",
           "Sted": "Sarpsborg",
@@ -200,16 +190,6 @@
           "pid": "3466635"
         },
         {
-          "Tid": "35,04",
-          "Dato": "15.03.2026",
-          "Sted": "Nordfjordeid",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3890407"
-        },
-        {
           "Tid": "35,98",
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
@@ -238,6 +218,26 @@
           "partOf": "100m Fri"
         },
         {
+          "Tid": "33,44",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "334",
+          "RA": "1206",
+          "pid": "4120666"
+        },
+        {
+          "Tid": "35,04",
+          "Dato": "15.03.2026",
+          "Sted": "Nordfjordeid",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4110899"
+        },
+        {
           "Tid": "39,69",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
@@ -245,11 +245,11 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3900905",
+          "pid": "4121307",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         }
       ]
     },
@@ -287,9 +287,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900904",
+          "RK": "276",
+          "RA": "1257",
+          "pid": "4121306",
           "splits": [
             "39,69",
             "42,58"

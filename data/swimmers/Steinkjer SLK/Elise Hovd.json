@@ -4,7 +4,7 @@
   "club": "Steinkjer SLK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-06-24T06:45:20.404Z",
+  "timestamp": "2026-11-24T23:45:19.003Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,40 @@
           "Sted": "Namsos",
           "Basseng": "50m",
           "D": "",
-          "RK": "98",
-          "RA": "1234",
+          "RK": "104",
+          "RA": "1272",
           "pid": "3938619"
+        },
+        {
+          "Tid": "45,57",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4246461"
+        },
+        {
+          "Tid": "45,01",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282300"
+        },
+        {
+          "Tid": "49,12",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4282622",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,9 +61,31 @@
           "Sted": "Namsos",
           "Basseng": "50m",
           "D": "",
+          "RK": "47",
+          "RA": "826",
+          "pid": "3938525"
+        },
+        {
+          "Tid": "52,97",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3938525"
+          "pid": "4246613",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "52,09",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "108",
+          "RA": "1380",
+          "pid": "4282515",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -45,12 +98,59 @@
           "Sted": "Namsos",
           "Basseng": "50m",
           "D": "",
-          "RK": "71",
-          "RA": "1014",
+          "RK": "76",
+          "RA": "1049",
           "pid": "3938829",
           "splits": [
             "",
             ""
+          ]
+        },
+        {
+          "Tid": "1.41,46",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282621",
+          "splits": [
+            "49,12",
+            "52,34"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.53,06",
+          "Dato": "17.10.2026",
+          "Sted": "Verdal",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4246612",
+          "splits": [
+            "52,97",
+            "1.00,09"
+          ]
+        },
+        {
+          "Tid": "1.49,74",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "70",
+          "RA": "1079",
+          "pid": "4282514",
+          "splits": [
+            "52,09",
+            "57,65"
           ]
         }
       ]

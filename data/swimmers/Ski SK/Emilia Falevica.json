@@ -4,20 +4,41 @@
   "club": "Ski SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T22:26:25.106Z",
+  "timestamp": "2026-11-24T23:48:23.503Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "45,05",
+          "Dato": "31.10.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4265141"
+        },
+        {
+          "Tid": "47,22",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4265343",
+          "partOf": "100m Fri"
+        },
         {
           "Tid": "47,64",
           "Dato": "22.08.2026",
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "194",
-          "RA": "1923",
-          "pid": "3987157"
+          "RK": "",
+          "RA": "",
+          "pid": "4207256"
         }
       ]
     },
@@ -30,9 +51,38 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "143",
-          "RA": "1221",
-          "pid": "3986686"
+          "RK": "164",
+          "RA": "1374",
+          "pid": "4206766"
+        },
+        {
+          "Tid": "54,58",
+          "Dato": "31.10.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4264961"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.43,87",
+          "Dato": "01.11.2026",
+          "Sted": "Langhus",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4265342",
+          "splits": [
+            "47,22",
+            "56,65"
+          ]
         }
       ]
     }

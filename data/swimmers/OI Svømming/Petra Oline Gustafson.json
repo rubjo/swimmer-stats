@@ -4,20 +4,41 @@
   "club": "OI Svømming",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T22:25:37.114Z",
+  "timestamp": "2026-11-24T23:59:10.263Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "50,00",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "1223",
+          "pid": "4258629"
+        },
+        {
+          "Tid": "50,20",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4260265",
+          "partOf": "200m Bryst"
+        },
         {
           "Tid": "51,27",
           "Dato": "22.08.2026",
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "D",
-          "RK": "74",
-          "RA": "1228",
-          "pid": "3987459",
+          "RK": "",
+          "RA": "",
+          "pid": "4207566",
           "partOf": "100m Bryst"
         }
       ]
@@ -31,9 +52,9 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "38",
-          "RA": "585",
-          "pid": "3987371",
+          "RK": "41",
+          "RA": "685",
+          "pid": "4207476",
           "splits": [
             "46,85",
             "49,23"
@@ -50,9 +71,9 @@
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "62",
-          "RA": "905",
-          "pid": "3987757",
+          "RK": "71",
+          "RA": "1025",
+          "pid": "4207875",
           "splits": [
             "46,39",
             "52,62"
@@ -64,17 +85,109 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.47,49",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "55",
+          "RA": "997",
+          "pid": "4260266",
+          "splits": [
+            "50,20",
+            "57,29"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
           "Tid": "1.49,28",
           "Dato": "22.08.2026",
           "Sted": "Langhus",
           "Basseng": "25m",
           "D": "",
-          "RK": "58",
-          "RA": "1000",
-          "pid": "3987458",
+          "RK": "",
+          "RA": "",
+          "pid": "4207565",
           "splits": [
             "51,27",
             "58,01"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "45,95",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4259109",
+          "partOf": "100m Butterfly"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.43,49",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "32",
+          "RA": "809",
+          "pid": "4259108",
+          "splits": [
+            "45,95",
+            "57,54"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.21,08",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "759",
+          "pid": "4259892",
+          "splits": [
+            "48,41",
+            "51,52",
+            "51,62",
+            "49,53"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.45,60",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "42",
+          "RA": "821",
+          "pid": "4260264",
+          "splits": [
+            "50,20",
+            "57,29",
+            "59,76",
+            "58,35"
           ]
         }
       ]

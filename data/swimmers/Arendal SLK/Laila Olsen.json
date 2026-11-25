@@ -1,0 +1,170 @@
+{
+  "swimmerId": "54344",
+  "name": "Laila  Olsen",
+  "club": "Arendal SLK",
+  "birthYear": 2012,
+  "gender": "female",
+  "timestamp": "2026-11-25T00:11:14.192Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "36,61",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4242518"
+        },
+        {
+          "Tid": "38,64",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242826",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,13",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243118",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,94",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243348",
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.22,63",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4242825",
+          "splits": [
+            "38,64",
+            "43,99"
+          ]
+        },
+        {
+          "Tid": "1.24,90",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243119",
+          "splits": [
+            "39,13",
+            "45,77"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.28,36",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243349",
+          "splits": [
+            "40,94",
+            "47,42"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.10,64",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4243350",
+          "splits": [
+            "40,94",
+            "47,42",
+            "50,72",
+            "51,56"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "3.00,99",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "187",
+          "RA": "941",
+          "pid": "4243117",
+          "splits": [
+            "39,13",
+            "45,77",
+            "49,81",
+            "46,28"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.30,54",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "196",
+          "RA": "921",
+          "pid": "4243347",
+          "splits": [
+            "40,94",
+            "47,42",
+            "50,72",
+            "51,56",
+            "51,38",
+            "51,36",
+            "50,88",
+            "46,28"
+          ]
+        }
+      ]
+    }
+  ]
+}

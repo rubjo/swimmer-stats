@@ -4,24 +4,45 @@
   "club": "SK Speed",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T21:55:43.090Z",
+  "timestamp": "2026-11-24T23:20:23.658Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "41,01",
+          "Dato": "20.09.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4222935"
+        },
+        {
+          "Tid": "46,65",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4260558",
+          "partOf": "200m Fri"
+        },
         {
           "Tid": "48,60",
           "Dato": "06.06.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "D",
-          "RK": "182",
-          "RA": "1788",
-          "pid": "3960321",
+          "RK": "",
+          "RA": "",
+          "pid": "4180487",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         },
         {
           "Tid": "49,48",
@@ -31,17 +52,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3893130"
-        },
-        {
-          "Tid": "41,01",
-          "Dato": "20.09.2026",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "110",
-          "RA": "1583",
-          "pid": "4004828"
+          "pid": "4113656"
         }
       ]
     },
@@ -49,28 +60,14 @@
       "distanse": "50m Bryst",
       "races": [
         {
-          "Tid": "55,83",
-          "Dato": "06.06.2026",
-          "Sted": "Lambertseter",
+          "Tid": "52,96",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
           "Basseng": "25m",
           "D": "",
-          "RK": "119",
-          "RA": "1362",
-          "pid": "3959648"
-        },
-        {
-          "Tid": "59,79",
-          "Dato": "06.06.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3960055",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
+          "RK": "131",
+          "RA": "1448",
+          "pid": "4258620"
         },
         {
           "Tid": "52,98",
@@ -78,9 +75,30 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "103",
-          "RA": "1347",
-          "pid": "4004780"
+          "RK": "",
+          "RA": "",
+          "pid": "4222883"
+        },
+        {
+          "Tid": "55,83",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4179805"
+        },
+        {
+          "Tid": "56,16",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4260172",
+          "partOf": "200m Bryst"
         },
         {
           "Tid": "56,28",
@@ -90,8 +108,22 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4005003",
+          "pid": "4223118",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "59,79",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4180219",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -99,14 +131,29 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.41,76",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4260559",
+          "splits": [
+            "46,65",
+            "55,11"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
           "Tid": "1.44,23",
           "Dato": "06.06.2026",
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "137",
-          "RA": "1484",
-          "pid": "3960320",
+          "RK": "",
+          "RA": "",
+          "pid": "4180486",
           "splits": [
             "48,60",
             "55,63"
@@ -118,18 +165,19 @@
       "distanse": "100m Bryst",
       "races": [
         {
-          "Tid": "2.02,78",
-          "Dato": "06.06.2026",
-          "Sted": "Lambertseter",
+          "Tid": "1.59,09",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
           "Basseng": "25m",
-          "D": "",
-          "RK": "127",
-          "RA": "1232",
-          "pid": "3960054",
+          "D": "D",
+          "RK": "146",
+          "RA": "1342",
+          "pid": "4260173",
           "splits": [
-            "59,79",
-            "1.02,99"
-          ]
+            "56,16",
+            "1.02,93"
+          ],
+          "partOf": "200m Bryst"
         },
         {
           "Tid": "2.00,11",
@@ -137,12 +185,26 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "126",
-          "RA": "1278",
-          "pid": "4005002",
+          "RK": "",
+          "RA": "",
+          "pid": "4223117",
           "splits": [
             "56,28",
             "1.03,83"
+          ]
+        },
+        {
+          "Tid": "2.02,78",
+          "Dato": "06.06.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4180218",
+          "splits": [
+            "59,79",
+            "1.02,99"
           ]
         }
       ]
@@ -156,9 +218,85 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4223563"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.02,80",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258337"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.49,76",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "1255",
+          "pid": "4259725",
+          "splits": [
+            "52,43",
+            "57,33"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.26,49",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
           "RK": "113",
-          "RA": "1139",
-          "pid": "4005443"
+          "RA": "1295",
+          "pid": "4260557",
+          "splits": [
+            "46,65",
+            "55,11",
+            "56,03",
+            "48,70"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.03,06",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "95",
+          "RA": "1045",
+          "pid": "4260171",
+          "splits": [
+            "56,16",
+            "1.02,93",
+            "1.03,93",
+            "1.00,04"
+          ]
         }
       ]
     }

@@ -4,32 +4,11 @@
   "club": "Vennesla SK",
   "birthYear": 2010,
   "gender": "male",
-  "timestamp": "2026-06-25T18:59:12.718Z",
+  "timestamp": "2026-11-23T12:14:57.168Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "37,24",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "168",
-          "RA": "1267",
-          "pid": "3927704"
-        },
-        {
-          "Tid": "39,04",
-          "Dato": "18.04.2026",
-          "Sted": "Vennesla",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3927849",
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "43,00",
           "Dato": "05.04.2025",
@@ -39,6 +18,27 @@
           "RK": "226",
           "RA": "1826",
           "pid": "3933049"
+        },
+        {
+          "Tid": "37,24",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "177",
+          "RA": "1497",
+          "pid": "4147963"
+        },
+        {
+          "Tid": "39,04",
+          "Dato": "18.04.2026",
+          "Sted": "Vennesla",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4148108",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -51,9 +51,9 @@
           "Sted": "Vennesla",
           "Basseng": "25m",
           "D": "",
-          "RK": "165",
-          "RA": "1228",
-          "pid": "3927848",
+          "RK": "173",
+          "RA": "1445",
+          "pid": "4148107",
           "splits": [
             "39,04",
             "50,54"

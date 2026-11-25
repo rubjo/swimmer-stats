@@ -4,7 +4,7 @@
   "club": "Austrheim SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-07-03T01:13:04.825Z",
+  "timestamp": "2026-11-25T01:02:29.753Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
@@ -15,9 +15,128 @@
           "Sted": "Slåtthaug",
           "Basseng": "25m",
           "D": "",
-          "RK": "116",
-          "RA": "1417",
+          "RK": "",
+          "RA": "",
           "pid": "3951551"
+        },
+        {
+          "Tid": "1.02,93",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266783"
+        },
+        {
+          "Tid": "1.10,30",
+          "Dato": "01.11.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4263349"
+        },
+        {
+          "Tid": "1.12,86",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4267082",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.05,46",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279796",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "1.03,31",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266848"
+        },
+        {
+          "Tid": "50,89",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "171",
+          "RA": "2049",
+          "pid": "4279494"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.26,14",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4267081",
+          "splits": [
+            "1.12,86",
+            "1.13,28"
+          ]
+        },
+        {
+          "Tid": "2.14,22",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "116",
+          "RA": "1343",
+          "pid": "4279795",
+          "splits": [
+            "1.05,46",
+            "1.08,76"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.06,93",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "99",
+          "RA": "1163",
+          "pid": "4279935",
+          "splits": [
+            "1.05,14",
+            "1.01,79"
+          ]
         }
       ]
     }

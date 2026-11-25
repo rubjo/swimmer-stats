@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 1996,
   "gender": "female",
-  "timestamp": "2026-06-30T15:12:54.934Z",
+  "timestamp": "2026-11-23T14:30:09.930Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -18,17 +18,6 @@
           "RK": "71",
           "RA": "448",
           "pid": "1021634"
-        },
-        {
-          "Tid": "32,11",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "153",
-          "RA": "523",
-          "pid": "3901025",
-          "partOf": "100m Fri"
         },
         {
           "Tid": "33,03",
@@ -101,6 +90,17 @@
           "RK": "168",
           "RA": "1305",
           "pid": "391465"
+        },
+        {
+          "Tid": "32,11",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "122",
+          "RA": "686",
+          "pid": "4121429",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -231,20 +231,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.09,78",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "86",
-          "RA": "352",
-          "pid": "3901024",
-          "splits": [
-            "32,11",
-            "37,67"
-          ]
-        },
-        {
           "Tid": "1.18,18",
           "Dato": "19.09.2010",
           "Sted": "Fredrikstad",
@@ -272,6 +258,20 @@
             "43,87"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.09,78",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "69",
+          "RA": "477",
+          "pid": "4121428",
+          "splits": [
+            "32,11",
+            "37,67"
+          ]
         }
       ]
     },

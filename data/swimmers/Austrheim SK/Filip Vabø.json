@@ -4,7 +4,7 @@
   "club": "Austrheim SK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-12T00:05:32.637Z",
+  "timestamp": "2026-11-24T09:42:42.986Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -25,9 +25,40 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "120",
-          "RA": "1844",
-          "pid": "3989191"
+          "RK": "",
+          "RA": "",
+          "pid": "4209265"
+        },
+        {
+          "Tid": "52,94",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4267137",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,63",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "114",
+          "RA": "1862",
+          "pid": "4266844"
+        },
+        {
+          "Tid": "45,54",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4279493"
         }
       ]
     },
@@ -40,9 +71,29 @@
           "Sted": "Førde",
           "Basseng": "25m",
           "D": "",
-          "RK": "114",
-          "RA": "1407",
+          "RK": "",
+          "RA": "",
           "pid": "3963712"
+        },
+        {
+          "Tid": "1.01,44",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266779"
+        },
+        {
+          "Tid": "1.04,09",
+          "Dato": "01.11.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4263348"
         }
       ]
     },
@@ -61,6 +112,54 @@
           "splits": [
             "",
             ""
+          ]
+        },
+        {
+          "Tid": "1.47,92",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "134",
+          "RA": "1758",
+          "pid": "4267136",
+          "splits": [
+            "52,94",
+            "54,98"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "1.01,80",
+          "Dato": "01.11.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4263192"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "2.10,51",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "1176",
+          "pid": "4279939",
+          "splits": [
+            "1.09,60",
+            "1.00,91"
           ]
         }
       ]

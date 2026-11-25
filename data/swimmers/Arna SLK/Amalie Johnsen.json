@@ -4,41 +4,11 @@
   "club": "Arna SLK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-10-11T22:34:34.815Z",
+  "timestamp": "2026-11-24T23:10:46.064Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "34,89",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "150",
-          "RA": "890",
-          "pid": "3862742"
-        },
-        {
-          "Tid": "35,67",
-          "Dato": "14.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3891125"
-        },
-        {
-          "Tid": "36,26",
-          "Dato": "14.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "153",
-          "RA": "835",
-          "pid": "3969962"
-        },
         {
           "Tid": "36,46",
           "Dato": "02.11.2025",
@@ -50,27 +20,6 @@
           "pid": "3804496"
         },
         {
-          "Tid": "36,73",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3903632"
-        },
-        {
-          "Tid": "36,97",
-          "Dato": "31.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3952088",
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "37,15",
           "Dato": "02.11.2025",
           "Sted": "Slåtthaug",
@@ -79,17 +28,6 @@
           "RK": "",
           "RA": "",
           "pid": "3804701"
-        },
-        {
-          "Tid": "37,22",
-          "Dato": "12.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3971569",
-          "partOf": "100m Fri"
         },
         {
           "Tid": "37,73",
@@ -110,28 +48,6 @@
           "RK": "",
           "RA": "",
           "pid": "3739717"
-        },
-        {
-          "Tid": "39,25",
-          "Dato": "14.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3875017",
-          "partOf": "100m Fri"
-        },
-        {
-          "Tid": "39,68",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3973135",
-          "partOf": "200m Fri"
         },
         {
           "Tid": "39,91",
@@ -184,28 +100,6 @@
           "RA": "",
           "pid": "3703674",
           "partOf": "100m Fri"
-        },
-        {
-          "Tid": "41,32",
-          "Dato": "15.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3875433",
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "41,80",
-          "Dato": "10.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3913961",
-          "partOf": "400m Fri"
         },
         {
           "Tid": "41,82",
@@ -443,6 +337,36 @@
           "partOf": "200m Fri"
         },
         {
+          "Tid": "34,89",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "185",
+          "RA": "1091",
+          "pid": "4083984"
+        },
+        {
+          "Tid": "35,07",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266958"
+        },
+        {
+          "Tid": "35,67",
+          "Dato": "14.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4111635"
+        },
+        {
           "Tid": "35,83",
           "Dato": "06.09.2026",
           "Sted": "Åstveit",
@@ -450,7 +374,93 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3989379"
+          "pid": "4209459"
+        },
+        {
+          "Tid": "36,26",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "158",
+          "RA": "866",
+          "pid": "4190075"
+        },
+        {
+          "Tid": "36,73",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4124105"
+        },
+        {
+          "Tid": "36,97",
+          "Dato": "31.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4172216",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "37,22",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4191687",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,47",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4267306",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,25",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4096256",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,68",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4193252",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "41,32",
+          "Dato": "15.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4096698",
+          "partOf": "200m Fri"
         },
         {
           "Tid": "41,46",
@@ -460,8 +470,30 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3990789",
+          "pid": "4210885",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "41,80",
+          "Dato": "10.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4134304",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "41,93",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4249827",
+          "partOf": "400m Fri"
         },
         {
           "Tid": "42,54",
@@ -471,7 +503,39 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4015377",
+          "pid": "4233524",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "35,81",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4279608"
+        },
+        {
+          "Tid": "40,26",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4280565",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,82",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4280900",
           "partOf": "400m Fri"
         }
       ]
@@ -479,92 +543,6 @@
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "40,53",
-          "Dato": "30.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3951539"
-        },
-        {
-          "Tid": "43,07",
-          "Dato": "14.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3874472"
-        },
-        {
-          "Tid": "45,05",
-          "Dato": "31.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3952598",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "45,31",
-          "Dato": "14.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3891403",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "45,60",
-          "Dato": "12.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3913188",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "45,73",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3862990",
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "45,80",
-          "Dato": "20.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "146",
-          "RA": "752",
-          "pid": "3906989",
-          "partOf": "400m Individuell medley"
-        },
-        {
-          "Tid": "46,00",
-          "Dato": "14.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3875686",
-          "partOf": "200m Individuell medley"
-        },
         {
           "Tid": "46,03",
           "Dato": "14.12.2025",
@@ -574,28 +552,6 @@
           "RK": "",
           "RA": "1234",
           "pid": "3840838"
-        },
-        {
-          "Tid": "46,77",
-          "Dato": "22.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3906483",
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "48,06",
-          "Dato": "15.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3892315",
-          "partOf": "200m Individuell medley"
         },
         {
           "Tid": "48,56",
@@ -618,17 +574,6 @@
           "RA": "",
           "pid": "3837159",
           "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "49,77",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3973479",
-          "partOf": "200m Individuell medley"
         },
         {
           "Tid": "50,63",
@@ -723,15 +668,14 @@
           "pid": "3495738"
         },
         {
-          "Tid": "47,31",
-          "Dato": "06.09.2026",
-          "Sted": "Åstveit",
+          "Tid": "40,53",
+          "Dato": "30.05.2026",
+          "Sted": "Slåtthaug",
           "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3989608",
-          "partOf": "100m Butterfly"
+          "D": "",
+          "RK": "152",
+          "RA": "891",
+          "pid": "4171642"
         },
         {
           "Tid": "42,88",
@@ -741,7 +685,17 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4011324"
+          "pid": "4229468"
+        },
+        {
+          "Tid": "43,07",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4095668"
         },
         {
           "Tid": "43,65",
@@ -751,7 +705,84 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4014842",
+          "pid": "4232989",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "45,05",
+          "Dato": "31.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4172742",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "45,31",
+          "Dato": "14.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4111915",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "45,60",
+          "Dato": "12.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4133527",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "45,73",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4084238",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "45,80",
+          "Dato": "20.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "154",
+          "RA": "779",
+          "pid": "4127514",
+          "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "46,00",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4096955",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "46,13",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4249296",
           "partOf": "200m Individuell medley"
         },
         {
@@ -762,99 +793,58 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4012285",
+          "pid": "4230429",
           "partOf": "100m Butterfly"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Bryst",
-      "races": [
-        {
-          "Tid": "44,58",
-          "Dato": "15.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "119",
-          "RA": "603",
-          "pid": "3874629"
         },
         {
-          "Tid": "44,98",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
+          "Tid": "46,77",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4127008",
+          "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "47,31",
+          "Dato": "06.09.2026",
+          "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3863263",
-          "partOf": "100m Bryst"
+          "pid": "4209688",
+          "partOf": "100m Butterfly"
         },
         {
-          "Tid": "45,92",
-          "Dato": "31.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3951681"
-        },
-        {
-          "Tid": "46,69",
+          "Tid": "48,06",
           "Dato": "15.03.2026",
           "Sted": "Slåtthaug",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3891601",
-          "partOf": "100m Bryst"
+          "pid": "4112836",
+          "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "46,90",
-          "Dato": "31.01.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3863889",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "46,98",
-          "Dato": "12.06.2026",
+          "Tid": "49,77",
+          "Dato": "13.06.2026",
           "Sted": "Bergen",
           "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3969521"
-        },
-        {
-          "Tid": "47,24",
-          "Dato": "11.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3912725",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "47,57",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3904512",
-          "partOf": "100m Bryst"
-        },
+          "pid": "4193596",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
         {
           "Tid": "47,67",
           "Dato": "16.11.2025",
@@ -864,28 +854,6 @@
           "RK": "",
           "RA": "",
           "pid": "3815047"
-        },
-        {
-          "Tid": "48,22",
-          "Dato": "15.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3892088",
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "48,37",
-          "Dato": "30.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3952440",
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "48,38",
@@ -908,28 +876,6 @@
           "RA": "",
           "pid": "3841160",
           "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "48,78",
-          "Dato": "14.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3970937",
-          "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "48,98",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3972360",
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "49,25",
@@ -1230,15 +1176,120 @@
           "pid": "3232374"
         },
         {
-          "Tid": "48,23",
-          "Dato": "05.09.2026",
+          "Tid": "44,58",
+          "Dato": "15.02.2026",
           "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "138",
+          "RA": "730",
+          "pid": "4095838"
+        },
+        {
+          "Tid": "44,98",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3990401",
+          "pid": "4084525",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "45,64",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4248463"
+        },
+        {
+          "Tid": "45,92",
+          "Dato": "31.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4171791"
+        },
+        {
+          "Tid": "46,06",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266832"
+        },
+        {
+          "Tid": "46,16",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4267131",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,69",
+          "Dato": "15.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4112119",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,90",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4085172",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "46,98",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "114",
+          "RA": "519",
+          "pid": "4189633"
+        },
+        {
+          "Tid": "47,24",
+          "Dato": "11.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4133063",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "47,57",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4124999",
+          "partOf": "100m Bryst"
         },
         {
           "Tid": "47,74",
@@ -1248,24 +1299,80 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4014090",
+          "pid": "4232237",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "48,22",
+          "Dato": "15.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4112609",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "48,23",
+          "Dato": "05.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4210490",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "48,37",
+          "Dato": "30.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4172578",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "48,78",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4191053",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "48,98",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4192477",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "48,10",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279931",
+          "partOf": "100m Bryst"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "46,90",
-          "Dato": "31.01.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "144",
-          "RA": "756",
-          "pid": "3862578"
-        },
         {
           "Tid": "51,19",
           "Dato": "13.06.2025",
@@ -1312,57 +1419,45 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "162",
-          "RA": "824",
-          "pid": "3989169"
+          "RK": "",
+          "RA": "",
+          "pid": "4209243"
+        },
+        {
+          "Tid": "45,83",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4266773"
+        },
+        {
+          "Tid": "46,90",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4083811"
+        },
+        {
+          "Tid": "45,95",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4279485"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.18,44",
-          "Dato": "31.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "141",
-          "RA": "752",
-          "pid": "3952087",
-          "splits": [
-            "36,97",
-            "41,47"
-          ]
-        },
-        {
-          "Tid": "1.21,35",
-          "Dato": "12.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "132",
-          "RA": "692",
-          "pid": "3971568",
-          "splits": [
-            "37,22",
-            "44,13"
-          ]
-        },
-        {
-          "Tid": "1.23,15",
-          "Dato": "14.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3875016",
-          "splits": [
-            "39,25",
-            "43,90"
-          ]
-        },
         {
           "Tid": "1.24,53",
           "Dato": "29.11.2025",
@@ -1392,21 +1487,6 @@
           ]
         },
         {
-          "Tid": "1.25,29",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3973136",
-          "splits": [
-            "39,68",
-            "45,61"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "1.27,37",
           "Dato": "24.05.2025",
           "Sted": "Slåtthaug",
@@ -1433,36 +1513,6 @@
             "40,30",
             "48,16"
           ]
-        },
-        {
-          "Tid": "1.28,91",
-          "Dato": "15.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3875434",
-          "splits": [
-            "41,32",
-            "47,59"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
-          "Tid": "1.29,73",
-          "Dato": "10.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3913962",
-          "splits": [
-            "41,80",
-            "47,93"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "1.30,39",
@@ -1700,19 +1750,77 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.30,58",
-          "Dato": "05.09.2026",
+          "Tid": "1.20,62",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4267305",
+          "splits": [
+            "38,47",
+            "42,15"
+          ]
+        },
+        {
+          "Tid": "1.23,15",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4096255",
+          "splits": [
+            "39,25",
+            "43,90"
+          ]
+        },
+        {
+          "Tid": "1.25,29",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4193253",
+          "splits": [
+            "39,68",
+            "45,61"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.28,91",
+          "Dato": "15.02.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3990790",
+          "pid": "4096699",
           "splits": [
-            "41,46",
-            "49,12"
+            "41,32",
+            "47,59"
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.29,73",
+          "Dato": "10.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4134305",
+          "splits": [
+            "41,80",
+            "47,93"
+          ],
+          "partOf": "400m Fri"
         },
         {
           "Tid": "1.29,83",
@@ -1722,32 +1830,106 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4015378",
+          "pid": "4233525",
           "splits": [
             "42,54",
             "47,29"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.30,07",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4249828",
+          "splits": [
+            "41,93",
+            "48,14"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.30,58",
+          "Dato": "05.09.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4210886",
+          "splits": [
+            "41,46",
+            "49,12"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.26,96",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4280566",
+          "splits": [
+            "40,26",
+            "46,70"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.28,38",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4280901",
+          "splits": [
+            "40,82",
+            "47,56"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.18,44",
+          "Dato": "31.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "166",
+          "RA": "929",
+          "pid": "4172215",
+          "splits": [
+            "36,97",
+            "41,47"
+          ]
+        },
+        {
+          "Tid": "1.21,35",
+          "Dato": "12.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "139",
+          "RA": "724",
+          "pid": "4191686",
+          "splits": [
+            "37,22",
+            "44,13"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Individuell medley",
       "races": [
-        {
-          "Tid": "1.35,70",
-          "Dato": "15.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "118",
-          "RA": "604",
-          "pid": "3875142",
-          "splits": [
-            "44,78",
-            "50,92"
-          ]
-        },
         {
           "Tid": "1.36,76",
           "Dato": "15.11.2025",
@@ -1894,12 +2076,40 @@
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "140",
-          "RA": "734",
-          "pid": "4013497",
+          "RK": "",
+          "RA": "",
+          "pid": "4231644",
           "splits": [
             "44,04",
             "47,97"
+          ]
+        },
+        {
+          "Tid": "1.35,70",
+          "Dato": "15.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4096389",
+          "splits": [
+            "44,78",
+            "50,92"
+          ]
+        },
+        {
+          "Tid": "1.30,21",
+          "Dato": "08.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "147",
+          "RA": "766",
+          "pid": "4267371",
+          "splits": [
+            "42,40",
+            "47,81"
           ]
         }
       ]
@@ -1907,63 +2117,6 @@
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "1.37,81",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3863262",
-          "splits": [
-            "44,98",
-            "52,83"
-          ]
-        },
-        {
-          "Tid": "1.41,18",
-          "Dato": "15.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3891600",
-          "splits": [
-            "46,69",
-            "54,49"
-          ]
-        },
-        {
-          "Tid": "1.42,44",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3904511",
-          "splits": [
-            "47,57",
-            "54,87"
-          ]
-        },
-        {
-          "Tid": "1.42,49",
-          "Dato": "11.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3912726",
-          "splits": [
-            "47,24",
-            "55,25"
-          ],
-          "partOf": "200m Bryst"
-        },
         {
           "Tid": "1.42,74",
           "Dato": "13.12.2025",
@@ -1977,51 +2130,6 @@
             "48,65",
             "54,09"
           ]
-        },
-        {
-          "Tid": "1.43,57",
-          "Dato": "15.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3892089",
-          "splits": [
-            "48,22",
-            "55,35"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.44,34",
-          "Dato": "30.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3952441",
-          "splits": [
-            "48,37",
-            "55,97"
-          ],
-          "partOf": "200m Bryst"
-        },
-        {
-          "Tid": "1.45,17",
-          "Dato": "31.01.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3863890",
-          "splits": [
-            "46,90",
-            "58,27"
-          ],
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "1.45,65",
@@ -2050,35 +2158,6 @@
             "48,38",
             "57,77"
           ]
-        },
-        {
-          "Tid": "1.46,71",
-          "Dato": "14.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3970936",
-          "splits": [
-            "48,78",
-            "57,93"
-          ]
-        },
-        {
-          "Tid": "1.48,06",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3972361",
-          "splits": [
-            "48,98",
-            "59,08"
-          ],
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "1.48,45",
@@ -2342,6 +2421,63 @@
           "partOf": "200m Bryst"
         },
         {
+          "Tid": "1.37,81",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "125",
+          "RA": "625",
+          "pid": "4084524",
+          "splits": [
+            "44,98",
+            "52,83"
+          ]
+        },
+        {
+          "Tid": "1.38,84",
+          "Dato": "07.11.2026",
+          "Sted": "Bremnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4267130",
+          "splits": [
+            "46,16",
+            "52,68"
+          ]
+        },
+        {
+          "Tid": "1.41,18",
+          "Dato": "15.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4112118",
+          "splits": [
+            "46,69",
+            "54,49"
+          ]
+        },
+        {
+          "Tid": "1.42,49",
+          "Dato": "11.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4133064",
+          "splits": [
+            "47,24",
+            "55,25"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
           "Tid": "1.43,49",
           "Dato": "05.09.2026",
           "Sted": "Åstveit",
@@ -2349,10 +2485,25 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3990402",
+          "pid": "4210491",
           "splits": [
             "48,23",
             "55,26"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.43,57",
+          "Dato": "15.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4112610",
+          "splits": [
+            "48,22",
+            "55,35"
           ],
           "partOf": "200m Bryst"
         },
@@ -2364,12 +2515,99 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4014091",
+          "pid": "4232238",
           "splits": [
             "47,74",
             "55,98"
           ],
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.44,34",
+          "Dato": "30.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4172579",
+          "splits": [
+            "48,37",
+            "55,97"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.45,17",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4085173",
+          "splits": [
+            "46,90",
+            "58,27"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.46,71",
+          "Dato": "14.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4191052",
+          "splits": [
+            "48,78",
+            "57,93"
+          ]
+        },
+        {
+          "Tid": "1.48,06",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4192478",
+          "splits": [
+            "48,98",
+            "59,08"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.44,31",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4279930",
+          "splits": [
+            "48,10",
+            "56,21"
+          ]
+        },
+        {
+          "Tid": "1.42,44",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "97",
+          "RA": "396",
+          "pid": "4124998",
+          "splits": [
+            "47,57",
+            "54,87"
+          ]
         }
       ]
     },
@@ -2445,55 +2683,26 @@
             "",
             ""
           ]
+        },
+        {
+          "Tid": "1.39,09",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4248590",
+          "splits": [
+            "47,15",
+            "51,94"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Butterfly",
       "races": [
-        {
-          "Tid": "1.44,76",
-          "Dato": "01.02.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "168",
-          "RA": "719",
-          "pid": "3862989",
-          "splits": [
-            "45,73",
-            "59,03"
-          ]
-        },
-        {
-          "Tid": "1.46,49",
-          "Dato": "20.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "56",
-          "RA": "272",
-          "pid": "3906990",
-          "splits": [
-            "45,80",
-            "1.00,69"
-          ],
-          "partOf": "400m Individuell medley"
-        },
-        {
-          "Tid": "1.46,52",
-          "Dato": "14.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3891402",
-          "splits": [
-            "45,31",
-            "1.01,21"
-          ]
-        },
         {
           "Tid": "1.53,95",
           "Dato": "12.12.2025",
@@ -2548,6 +2757,63 @@
           "splits": []
         },
         {
+          "Tid": "1.41,26",
+          "Dato": "27.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "169",
+          "RA": "772",
+          "pid": "4230428",
+          "splits": [
+            "46,17",
+            "55,09"
+          ]
+        },
+        {
+          "Tid": "1.44,76",
+          "Dato": "01.02.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4084237",
+          "splits": [
+            "45,73",
+            "59,03"
+          ]
+        },
+        {
+          "Tid": "1.46,49",
+          "Dato": "20.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "59",
+          "RA": "290",
+          "pid": "4127515",
+          "splits": [
+            "45,80",
+            "1.00,69"
+          ],
+          "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "1.46,52",
+          "Dato": "14.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4111914",
+          "splits": [
+            "45,31",
+            "1.01,21"
+          ]
+        },
+        {
           "Tid": "1.47,67",
           "Dato": "06.09.2026",
           "Sted": "Åstveit",
@@ -2555,24 +2821,10 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3989607",
+          "pid": "4209687",
           "splits": [
             "47,31",
             "1.00,36"
-          ]
-        },
-        {
-          "Tid": "1.41,26",
-          "Dato": "27.09.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "161",
-          "RA": "707",
-          "pid": "4012284",
-          "splits": [
-            "46,17",
-            "55,09"
           ]
         }
       ]
@@ -2581,29 +2833,13 @@
       "distanse": "200m Fri",
       "races": [
         {
-          "Tid": "2.55,73",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "99",
-          "RA": "465",
-          "pid": "3973134",
-          "splits": [
-            "39,68",
-            "45,61",
-            "45,69",
-            "44,75"
-          ]
-        },
-        {
           "Tid": "3.05,56",
           "Dato": "15.02.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "175",
-          "RA": "868",
+          "RK": "",
+          "RA": "",
           "pid": "3875432",
           "splits": [
             "41,32",
@@ -2611,23 +2847,6 @@
             "50,13",
             "46,52"
           ]
-        },
-        {
-          "Tid": "3.12,31",
-          "Dato": "10.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3913963",
-          "splits": [
-            "41,80",
-            "47,93",
-            "50,97",
-            "51,61"
-          ],
-          "partOf": "400m Fri"
         },
         {
           "Tid": "3.13,52",
@@ -2809,6 +3028,23 @@
           ]
         },
         {
+          "Tid": "3.06,05",
+          "Dato": "25.09.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4233526",
+          "splits": [
+            "42,54",
+            "47,29",
+            "48,50",
+            "47,72"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
           "Tid": "3.06,80",
           "Dato": "05.09.2026",
           "Sted": "Åstveit",
@@ -2816,7 +3052,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3990788",
+          "pid": "4210884",
           "splits": [
             "41,46",
             "49,12",
@@ -2825,123 +3061,93 @@
           ]
         },
         {
-          "Tid": "3.06,05",
-          "Dato": "25.09.2026",
+          "Tid": "3.12,31",
+          "Dato": "10.04.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4015379",
+          "pid": "4134306",
           "splits": [
-            "42,54",
-            "47,29",
-            "48,50",
-            "47,72"
+            "41,80",
+            "47,93",
+            "50,97",
+            "51,61"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "3.13,44",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4249829",
+          "splits": [
+            "41,93",
+            "48,14",
+            "50,83",
+            "52,54"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "3.02,00",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "189",
+          "RA": "957",
+          "pid": "4280564",
+          "splits": [
+            "40,26",
+            "46,70",
+            "48,50",
+            "46,54"
+          ]
+        },
+        {
+          "Tid": "3.08,50",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4280902",
+          "splits": [
+            "40,82",
+            "47,56",
+            "49,01",
+            "51,11"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "2.55,73",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "101",
+          "RA": "484",
+          "pid": "4193251",
+          "splits": [
+            "39,68",
+            "45,61",
+            "45,69",
+            "44,75"
+          ]
         }
       ]
     },
     {
       "distanse": "200m Individuell medley",
       "races": [
-        {
-          "Tid": "3.21,49",
-          "Dato": "12.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "157",
-          "RA": "672",
-          "pid": "3913187",
-          "splits": [
-            "45,60",
-            "56,27",
-            "53,40",
-            "46,22"
-          ]
-        },
-        {
-          "Tid": "3.22,97",
-          "Dato": "31.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3952597",
-          "splits": [
-            "45,05",
-            "54,98",
-            "56,92",
-            "46,02"
-          ]
-        },
-        {
-          "Tid": "3.27,33",
-          "Dato": "14.02.2026",
-          "Sted": "Åstveit",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3875685",
-          "splits": [
-            "46,0",
-            "56,61",
-            "57,99",
-            "46,73"
-          ]
-        },
-        {
-          "Tid": "3.28,94",
-          "Dato": "22.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "73",
-          "RA": "329",
-          "pid": "3906482",
-          "splits": [
-            "46,77",
-            "56,55",
-            "55,87",
-            "49,75"
-          ]
-        },
-        {
-          "Tid": "3.30,38",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3973478",
-          "splits": [
-            "49,77",
-            "56,03",
-            "56,95",
-            "47,63"
-          ]
-        },
-        {
-          "Tid": "3.32,95",
-          "Dato": "15.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3892314",
-          "splits": [
-            "48,06",
-            "1.00,54",
-            "56,81",
-            "47,54"
-          ]
-        },
         {
           "Tid": "3.35,82",
           "Dato": "28.11.2025",
@@ -2975,14 +3181,126 @@
           ]
         },
         {
+          "Tid": "3.21,49",
+          "Dato": "12.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4133526",
+          "splits": [
+            "45,60",
+            "56,27",
+            "53,40",
+            "46,22"
+          ]
+        },
+        {
+          "Tid": "3.22,97",
+          "Dato": "31.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4172741",
+          "splits": [
+            "45,05",
+            "54,98",
+            "56,92",
+            "46,02"
+          ]
+        },
+        {
+          "Tid": "3.25,24",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4249295",
+          "splits": [
+            "46,13",
+            "55,52",
+            "56,88",
+            "46,71"
+          ]
+        },
+        {
+          "Tid": "3.27,33",
+          "Dato": "14.02.2026",
+          "Sted": "Åstveit",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4096954",
+          "splits": [
+            "46,0",
+            "56,61",
+            "57,99",
+            "46,73"
+          ]
+        },
+        {
+          "Tid": "3.28,94",
+          "Dato": "22.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "77",
+          "RA": "343",
+          "pid": "4127007",
+          "splits": [
+            "46,77",
+            "56,55",
+            "55,87",
+            "49,75"
+          ]
+        },
+        {
+          "Tid": "3.30,38",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4193595",
+          "splits": [
+            "49,77",
+            "56,03",
+            "56,95",
+            "47,63"
+          ]
+        },
+        {
+          "Tid": "3.32,95",
+          "Dato": "15.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4112835",
+          "splits": [
+            "48,06",
+            "1.00,54",
+            "56,81",
+            "47,54"
+          ]
+        },
+        {
           "Tid": "3.20,84",
           "Dato": "25.09.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "163",
-          "RA": "713",
-          "pid": "4014841",
+          "RK": "171",
+          "RA": "777",
+          "pid": "4232988",
           "splits": [
             "43,65",
             "53,41",
@@ -2995,70 +3313,6 @@
     {
       "distanse": "200m Bryst",
       "races": [
-        {
-          "Tid": "3.32,66",
-          "Dato": "30.05.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "130",
-          "RA": "530",
-          "pid": "3952439",
-          "splits": [
-            "48,37",
-            "55,97",
-            "54,88",
-            "53,44"
-          ]
-        },
-        {
-          "Tid": "3.33,96",
-          "Dato": "11.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3912724",
-          "splits": [
-            "47,24",
-            "55,25",
-            "55,34",
-            "56,13"
-          ]
-        },
-        {
-          "Tid": "3.37,14",
-          "Dato": "31.01.2026",
-          "Sted": "Stemmemyren",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3863888",
-          "splits": [
-            "46,90",
-            "58,27",
-            "56,44",
-            "55,53"
-          ]
-        },
-        {
-          "Tid": "3.39,17",
-          "Dato": "15.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3892087",
-          "splits": [
-            "48,22",
-            "55,35",
-            "56,39",
-            "59,21"
-          ]
-        },
         {
           "Tid": "3.47,71",
           "Dato": "05.09.2025",
@@ -3073,22 +3327,6 @@
             "59,17",
             "59,82",
             "58,15"
-          ]
-        },
-        {
-          "Tid": "3.48,40",
-          "Dato": "13.06.2026",
-          "Sted": "Bergen",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3972359",
-          "splits": [
-            "48,98",
-            "59,08",
-            "59,68",
-            "1.00,66"
           ]
         },
         {
@@ -3236,6 +3474,22 @@
           ]
         },
         {
+          "Tid": "3.33,96",
+          "Dato": "11.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4133062",
+          "splits": [
+            "47,24",
+            "55,25",
+            "55,34",
+            "56,13"
+          ]
+        },
+        {
           "Tid": "3.34,36",
           "Dato": "05.09.2026",
           "Sted": "Åstveit",
@@ -3243,7 +3497,7 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3990400",
+          "pid": "4210489",
           "splits": [
             "48,23",
             "55,26",
@@ -3259,12 +3513,76 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "4014089",
+          "pid": "4232236",
           "splits": [
             "47,74",
             "55,98",
             "55,55",
             "55,77"
+          ]
+        },
+        {
+          "Tid": "3.37,14",
+          "Dato": "31.01.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4085171",
+          "splits": [
+            "46,90",
+            "58,27",
+            "56,44",
+            "55,53"
+          ]
+        },
+        {
+          "Tid": "3.39,17",
+          "Dato": "15.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4112608",
+          "splits": [
+            "48,22",
+            "55,35",
+            "56,39",
+            "59,21"
+          ]
+        },
+        {
+          "Tid": "3.48,40",
+          "Dato": "13.06.2026",
+          "Sted": "Bergen",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "51",
+          "RA": "249",
+          "pid": "4192476",
+          "splits": [
+            "48,98",
+            "59,08",
+            "59,68",
+            "1.00,66"
+          ]
+        },
+        {
+          "Tid": "3.32,66",
+          "Dato": "30.05.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "139",
+          "RA": "607",
+          "pid": "4172577",
+          "splits": [
+            "48,37",
+            "55,97",
+            "54,88",
+            "53,44"
           ]
         }
       ]
@@ -3272,38 +3590,6 @@
     {
       "distanse": "200m Rygg",
       "races": [
-        {
-          "Tid": "3.44,83",
-          "Dato": "21.03.2026",
-          "Sted": "Oslo",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "72",
-          "RA": "310",
-          "pid": "3905346",
-          "splits": [
-            "51,39",
-            "",
-            "",
-            "54,32"
-          ]
-        },
-        {
-          "Tid": "3.45,13",
-          "Dato": "14.03.2026",
-          "Sted": "Slåtthaug",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "191",
-          "RA": "823",
-          "pid": "3891863",
-          "splits": [
-            "52,18",
-            "59,32",
-            "57,71",
-            "55,92"
-          ]
-        },
         {
           "Tid": "3.53,41",
           "Dato": "23.05.2025",
@@ -3353,14 +3639,46 @@
           ]
         },
         {
+          "Tid": "3.44,83",
+          "Dato": "21.03.2026",
+          "Sted": "Oslo",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "73",
+          "RA": "315",
+          "pid": "4125857",
+          "splits": [
+            "51,39",
+            "",
+            "",
+            "54,32"
+          ]
+        },
+        {
+          "Tid": "3.45,13",
+          "Dato": "14.03.2026",
+          "Sted": "Slåtthaug",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4112384",
+          "splits": [
+            "52,18",
+            "59,32",
+            "57,71",
+            "55,92"
+          ]
+        },
+        {
           "Tid": "3.34,04",
           "Dato": "26.09.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "187",
-          "RA": "829",
-          "pid": "4013715",
+          "RK": "192",
+          "RA": "899",
+          "pid": "4231862",
           "splits": [
             "47,60",
             "55,08",
@@ -3373,26 +3691,6 @@
     {
       "distanse": "400m Fri",
       "races": [
-        {
-          "Tid": "6.31,76",
-          "Dato": "10.04.2026",
-          "Sted": "Bergen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "173",
-          "RA": "786",
-          "pid": "3913960",
-          "splits": [
-            "41,80",
-            "47,93",
-            "50,97",
-            "51,61",
-            "52,18",
-            "51,70",
-            "50,24",
-            "45,33"
-          ]
-        },
         {
           "Tid": "6.37,41",
           "Dato": "26.09.2025",
@@ -3454,14 +3752,54 @@
           ]
         },
         {
+          "Tid": "6.30,86",
+          "Dato": "17.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4249826",
+          "splits": [
+            "41,93",
+            "48,14",
+            "50,83",
+            "52,54",
+            "50,49",
+            "50,41",
+            "50,25",
+            "46,27"
+          ]
+        },
+        {
+          "Tid": "6.31,76",
+          "Dato": "10.04.2026",
+          "Sted": "Bergen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4134303",
+          "splits": [
+            "41,80",
+            "47,93",
+            "50,97",
+            "51,61",
+            "52,18",
+            "51,70",
+            "50,24",
+            "45,33"
+          ]
+        },
+        {
           "Tid": "6.09,43",
           "Dato": "25.09.2026",
           "Sted": "Bergen",
           "Basseng": "25m",
           "D": "",
-          "RK": "163",
-          "RA": "725",
-          "pid": "4015376",
+          "RK": "172",
+          "RA": "770",
+          "pid": "4233523",
           "splits": [
             "42,54",
             "47,29",
@@ -3471,6 +3809,26 @@
             "46,38",
             "46,49",
             "43,70"
+          ]
+        },
+        {
+          "Tid": "6.30,41",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4280899",
+          "splits": [
+            "40,82",
+            "47,56",
+            "49,01",
+            "51,11",
+            "50,04",
+            "52,26",
+            "50,69",
+            "48,92"
           ]
         }
       ]
@@ -3484,9 +3842,9 @@
           "Sted": "Oslo",
           "Basseng": "50m",
           "D": "",
-          "RK": "18",
-          "RA": "85",
-          "pid": "3906988",
+          "RK": "19",
+          "RA": "90",
+          "pid": "4127513",
           "splits": [
             "45,80",
             "1.00,69",

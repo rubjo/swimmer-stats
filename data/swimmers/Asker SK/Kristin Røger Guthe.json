@@ -4,7 +4,7 @@
   "club": "Asker SK",
   "birthYear": 1960,
   "gender": "female",
-  "timestamp": "2026-06-23T07:05:37.087Z",
+  "timestamp": "2026-11-23T13:00:16.507Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -232,16 +232,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "36,16",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "215",
-          "RA": "1023",
-          "pid": "3902185"
-        },
-        {
           "Tid": "36,19",
           "Dato": "13.03.2010",
           "Sted": "Stavanger",
@@ -326,16 +316,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "36,73",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900367"
-        },
-        {
           "Tid": "36,80",
           "Dato": "09.01.2010",
           "Sted": "Asker",
@@ -390,20 +370,6 @@
             ""
           ],
           "partOf": "200m Fri"
-        },
-        {
-          "Tid": "38,23",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901029",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
         },
         {
           "Tid": "38,63",
@@ -474,6 +440,40 @@
             ""
           ],
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "36,16",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "181",
+          "RA": "1223",
+          "pid": "4122631"
+        },
+        {
+          "Tid": "36,73",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4120759"
+        },
+        {
+          "Tid": "38,23",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121433",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -1048,20 +1048,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "1.20,66",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "142",
-          "RA": "855",
-          "pid": "3901028",
-          "splits": [
-            "38,23",
-            "42,43"
-          ]
-        },
-        {
           "Tid": "1.20,67",
           "Dato": "14.03.2015",
           "Sted": "Sognsvann",
@@ -1149,6 +1135,20 @@
             "45,58"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.20,66",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "118",
+          "RA": "1020",
+          "pid": "4121432",
+          "splits": [
+            "38,23",
+            "42,43"
+          ]
         }
       ]
     },
@@ -1329,9 +1329,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "91",
-          "RA": "637",
-          "pid": "3901143",
+          "RK": "88",
+          "RA": "993",
+          "pid": "4121548",
           "splits": [
             "46,62",
             "50,80"

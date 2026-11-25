@@ -4,21 +4,11 @@
   "club": "Eidsvoll SK",
   "birthYear": 2008,
   "gender": "male",
-  "timestamp": "2026-06-26T15:03:13.263Z",
+  "timestamp": "2026-11-23T12:06:37.715Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "26,13",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961288"
-        },
         {
           "Tid": "27,59",
           "Dato": "03.12.2022",
@@ -28,17 +18,6 @@
           "RK": "",
           "RA": "",
           "pid": "3134416"
-        },
-        {
-          "Tid": "28,17",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3961948",
-          "partOf": "100m Fri"
         },
         {
           "Tid": "28,18",
@@ -232,33 +211,33 @@
           "RA": "",
           "pid": "2937832",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "26,13",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "26",
+          "RA": "162",
+          "pid": "4181472"
+        },
+        {
+          "Tid": "28,17",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4182142",
+          "partOf": "100m Fri"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "29,13",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3960810"
-        },
-        {
-          "Tid": "29,90",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3961528",
-          "partOf": "100m Butterfly"
-        },
         {
           "Tid": "31,17",
           "Dato": "05.11.2022",
@@ -409,6 +388,27 @@
           "RA": "",
           "pid": "2937590",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "29,13",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "36",
+          "RA": "268",
+          "pid": "4180983"
+        },
+        {
+          "Tid": "29,90",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4181720",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -519,20 +519,6 @@
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "59,55",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961947",
-          "splits": [
-            "28,17",
-            "31,38"
-          ]
-        },
         {
           "Tid": "1.01,82",
           "Dato": "09.10.2022",
@@ -722,6 +708,20 @@
             "40,00"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "59,55",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "35",
+          "RA": "260",
+          "pid": "4182141",
+          "splits": [
+            "28,17",
+            "31,38"
+          ]
         }
       ]
     },
@@ -773,20 +773,6 @@
           "splits": [
             "32,41",
             "40,59"
-          ]
-        },
-        {
-          "Tid": "1.15,45",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961527",
-          "splits": [
-            "29,90",
-            "45,55"
           ]
         },
         {
@@ -857,6 +843,20 @@
           "splits": [
             "40,05",
             "52,54"
+          ]
+        },
+        {
+          "Tid": "1.15,45",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "31",
+          "RA": "266",
+          "pid": "4181719",
+          "splits": [
+            "29,90",
+            "45,55"
           ]
         }
       ]

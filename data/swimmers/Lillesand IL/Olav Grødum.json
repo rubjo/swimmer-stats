@@ -1,0 +1,55 @@
+{
+  "swimmerId": "53520",
+  "name": "Olav Grødum",
+  "club": "Lillesand IL",
+  "birthYear": 2015,
+  "gender": "male",
+  "timestamp": "2026-11-24T23:37:23.736Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "49,57",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "2026",
+          "pid": "4242456"
+        },
+        {
+          "Tid": "52,24",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242704",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.57,87",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1815",
+          "pid": "4242703",
+          "splits": [
+            "52,24",
+            "1.05,63"
+          ]
+        }
+      ]
+    }
+  ]
+}

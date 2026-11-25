@@ -4,7 +4,7 @@
   "club": "Masters Sørlandet",
   "birthYear": 1976,
   "gender": "female",
-  "timestamp": "2026-06-22T19:12:33.838Z",
+  "timestamp": "2026-11-23T12:50:05.709Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -541,13 +541,13 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "188",
-          "RA": "794",
-          "pid": "3901797",
+          "RK": "157",
+          "RA": "998",
+          "pid": "4122222",
+          "partOf": "400m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "400m Fri"
+          ]
         }
       ]
     },
@@ -1029,16 +1029,6 @@
             ""
           ],
           "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "31,96",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3899935"
         },
         {
           "Tid": "31,97",
@@ -1533,20 +1523,6 @@
           "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "32,96",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900432",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "32,97",
           "Dato": "14.07.2006",
           "Sted": "Trondheim",
@@ -1855,20 +1831,6 @@
           "partOf": "400m Individuell medley"
         },
         {
-          "Tid": "33,95",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901181",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Butterfly"
-        },
-        {
           "Tid": "34,08",
           "Dato": "03.06.2018",
           "Sted": "Kristiansand",
@@ -1923,6 +1885,44 @@
             ""
           ],
           "partOf": "400m Individuell medley"
+        },
+        {
+          "Tid": "32,96",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120824",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "33,95",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121586",
+          "partOf": "200m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "31,96",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "44",
+          "RA": "215",
+          "pid": "4120320"
         }
       ]
     },
@@ -2410,9 +2410,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "106",
-          "RA": "449",
-          "pid": "3901798",
+          "RK": "85",
+          "RA": "592",
+          "pid": "4122223",
           "splits": [
             "34,16",
             "37,45"
@@ -3084,20 +3084,6 @@
           ]
         },
         {
-          "Tid": "1.10,83",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "25",
-          "RA": "69",
-          "pid": "3900431",
-          "splits": [
-            "32,96",
-            "37,87"
-          ]
-        },
-        {
           "Tid": "1.10,87",
           "Dato": "02.03.2018",
           "Sted": "Alta",
@@ -3365,21 +3351,6 @@
           "partOf": "400m Individuell medley"
         },
         {
-          "Tid": "1.12,97",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901182",
-          "splits": [
-            "33,95",
-            "39,02"
-          ],
-          "partOf": "200m Butterfly"
-        },
-        {
           "Tid": "1.13,12",
           "Dato": "14.03.2015",
           "Sted": "Sognsvann",
@@ -3482,6 +3453,35 @@
             "39,83"
           ],
           "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "1.12,97",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121587",
+          "splits": [
+            "33,95",
+            "39,02"
+          ],
+          "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "1.10,83",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "26",
+          "RA": "97",
+          "pid": "4120823",
+          "splits": [
+            "32,96",
+            "37,87"
+          ]
         }
       ]
     },
@@ -3592,9 +3592,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "38",
-          "RA": "112",
-          "pid": "3901125",
+          "RK": "36",
+          "RA": "208",
+          "pid": "4121530",
           "splits": [
             "35,50",
             "39,55"
@@ -4032,9 +4032,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "45",
-          "RA": "201",
-          "pid": "3901799",
+          "RK": "36",
+          "RA": "267",
+          "pid": "4122224",
           "splits": [
             "34,16",
             "37,45",
@@ -4359,22 +4359,6 @@
           ]
         },
         {
-          "Tid": "2.37,50",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "8",
-          "RA": "11",
-          "pid": "3901180",
-          "splits": [
-            "33,95",
-            "39,02",
-            "40,89",
-            "43,64"
-          ]
-        },
-        {
           "Tid": "2.39,16",
           "Dato": "05.05.2023",
           "Sted": "Sarpsborg",
@@ -4404,6 +4388,22 @@
             "39,20",
             "42,58",
             "44,56"
+          ]
+        },
+        {
+          "Tid": "2.37,50",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "10",
+          "RA": "26",
+          "pid": "4121585",
+          "splits": [
+            "33,95",
+            "39,02",
+            "40,89",
+            "43,64"
           ]
         }
       ]
@@ -4866,9 +4866,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "26",
-          "RA": "124",
-          "pid": "3901796",
+          "RK": "20",
+          "RA": "146",
+          "pid": "4122221",
           "splits": [
             "34,16",
             "37,45",

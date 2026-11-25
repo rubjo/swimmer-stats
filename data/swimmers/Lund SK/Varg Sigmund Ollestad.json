@@ -1,0 +1,55 @@
+{
+  "swimmerId": "56969",
+  "name": "Varg Sigmund Ollestad",
+  "club": "Lund SK",
+  "birthYear": 2013,
+  "gender": "male",
+  "timestamp": "2026-11-25T00:01:03.327Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "39,55",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1659",
+          "pid": "4283383"
+        },
+        {
+          "Tid": "42,21",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283557",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.33,31",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "194",
+          "RA": "1533",
+          "pid": "4283556",
+          "splits": [
+            "42,21",
+            "51,10"
+          ]
+        }
+      ]
+    }
+  ]
+}

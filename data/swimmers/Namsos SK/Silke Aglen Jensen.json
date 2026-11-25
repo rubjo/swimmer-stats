@@ -4,21 +4,11 @@
   "club": "Namsos SK",
   "birthYear": 2012,
   "gender": "female",
-  "timestamp": "2026-06-25T20:52:25.302Z",
+  "timestamp": "2026-11-23T12:55:07.409Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "38,05",
-          "Dato": "25.04.2026",
-          "Sted": "Namsos",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "172",
-          "RA": "921",
-          "pid": "3938618"
-        },
         {
           "Tid": "38,65",
           "Dato": "19.01.2025",
@@ -103,22 +93,22 @@
           "RA": "",
           "pid": "3078371",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "38,05",
+          "Dato": "25.04.2026",
+          "Sted": "Namsos",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "178",
+          "RA": "952",
+          "pid": "4158967"
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "46,18",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "138",
-          "RA": "721",
-          "pid": "3854371"
-        },
         {
           "Tid": "46,72",
           "Dato": "15.02.2025",
@@ -266,6 +256,16 @@
           "RA": "",
           "pid": "3034392",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "46,18",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "162",
+          "RA": "885",
+          "pid": "4076354"
         }
       ]
     },

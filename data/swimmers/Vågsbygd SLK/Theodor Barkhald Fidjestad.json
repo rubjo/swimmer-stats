@@ -4,7 +4,7 @@
   "club": "Vågsbygd SLK",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-11T21:51:47.781Z",
+  "timestamp": "2026-11-24T22:19:18.909Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -42,41 +42,43 @@
           "partOf": "200m Fri"
         },
         {
+          "Tid": "41,92",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "183",
+          "RA": "1795",
+          "pid": "4242763",
+          "partOf": "100m Fri"
+        },
+        {
           "Tid": "44,70",
           "Dato": "05.09.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "D",
-          "RK": "190",
-          "RA": "1786",
-          "pid": "3996260",
+          "RK": "",
+          "RA": "",
+          "pid": "4214387",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "43,39",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283576",
+          "partOf": "100m Fri"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "51,10",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3956094"
-        },
-        {
-          "Tid": "1.00,20",
-          "Dato": "24.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3848884"
-        },
         {
           "Tid": "1.03,84",
           "Dato": "19.10.2025",
@@ -93,47 +95,57 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "99",
-          "RA": "1286",
-          "pid": "3994651"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Bryst",
-      "races": [
+          "RK": "111",
+          "RA": "1357",
+          "pid": "4212755"
+        },
         {
-          "Tid": "56,50",
+          "Tid": "51,10",
           "Dato": "07.06.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
-          "D": "D",
-          "RK": "58",
-          "RA": "703",
-          "pid": "3957972",
-          "partOf": "200m Bryst"
+          "D": "",
+          "RK": "56",
+          "RA": "884",
+          "pid": "4176220"
         },
         {
-          "Tid": "1.02,82",
+          "Tid": "53,47",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242558",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "1.00,20",
           "Dato": "24.01.2026",
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3849538"
+          "pid": "4069590"
         },
         {
-          "Tid": "1.03,72",
-          "Dato": "25.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
+          "Tid": "50,61",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3850864",
-          "partOf": "100m Bryst"
-        },
+          "pid": "4283801",
+          "partOf": "200m Individuell medley"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
         {
           "Tid": "1.03,98",
           "Dato": "23.11.2025",
@@ -145,15 +157,69 @@
           "pid": "3823303"
         },
         {
+          "Tid": "56,26",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242976",
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "56,50",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "63",
+          "RA": "736",
+          "pid": "4178119",
+          "partOf": "200m Bryst"
+        },
+        {
           "Tid": "58,77",
           "Dato": "06.09.2026",
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "D",
-          "RK": "176",
-          "RA": "1415",
-          "pid": "3995873",
+          "RK": "",
+          "RA": "",
+          "pid": "4213997",
           "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "1.02,82",
+          "Dato": "24.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4070406"
+        },
+        {
+          "Tid": "1.03,72",
+          "Dato": "25.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4072051",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,80",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283512",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -195,14 +261,42 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "D",
-          "RK": "163",
-          "RA": "1528",
-          "pid": "3996261",
+          "RK": "",
+          "RA": "",
+          "pid": "4214388",
           "splits": [
             "44,70",
             "52,88"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.29,36",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "1443",
+          "pid": "4242762",
+          "splits": [
+            "41,92",
+            "47,44"
+          ]
+        },
+        {
+          "Tid": "1.32,34",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4283575",
+          "splits": [
+            "43,39",
+            "48,95"
+          ]
         }
       ]
     },
@@ -215,12 +309,42 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "D",
-          "RK": "49",
-          "RA": "531",
-          "pid": "3957973",
+          "RK": "54",
+          "RA": "561",
+          "pid": "4178120",
           "splits": [
             "56,50",
             "1.03,27"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.00,09",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242977",
+          "splits": [
+            "56,26",
+            "1.03,83"
+          ],
+          "partOf": "200m Bryst"
+        },
+        {
+          "Tid": "2.06,37",
+          "Dato": "06.09.2026",
+          "Sted": "Porsgrunn",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4213998",
+          "splits": [
+            "58,77",
+            "1.07,60"
           ],
           "partOf": "200m Bryst"
         },
@@ -232,26 +356,25 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3850863",
+          "pid": "4072050",
           "splits": [
             "1.03,72",
             "1.12,87"
           ]
         },
         {
-          "Tid": "2.06,37",
-          "Dato": "06.09.2026",
-          "Sted": "Porsgrunn",
+          "Tid": "1.57,65",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
           "Basseng": "25m",
-          "D": "D",
-          "RK": "149",
-          "RA": "1174",
-          "pid": "3995874",
+          "D": "",
+          "RK": "142",
+          "RA": "1157",
+          "pid": "4283511",
           "splits": [
-            "58,77",
-            "1.07,60"
-          ],
-          "partOf": "200m Bryst"
+            "55,80",
+            "1.01,85"
+          ]
         }
       ]
     },
@@ -292,19 +415,19 @@
       "distanse": "200m Bryst",
       "races": [
         {
-          "Tid": "4.12,29",
-          "Dato": "07.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
+          "Tid": "4.06,04",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
           "D": "",
-          "RK": "22",
-          "RA": "271",
-          "pid": "3957971",
+          "RK": "129",
+          "RA": "922",
+          "pid": "4242975",
           "splits": [
-            "56,50",
-            "1.03,27",
-            "1.05,38",
-            "1.07,14"
+            "56,26",
+            "1.03,83",
+            "1.01,89",
+            "1.04,06"
           ]
         },
         {
@@ -313,14 +436,30 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "112",
-          "RA": "863",
-          "pid": "3995872",
+          "RK": "",
+          "RA": "",
+          "pid": "4213996",
           "splits": [
             "58,77",
             "1.07,60",
             "1.07,51",
             "1.07,06"
+          ]
+        },
+        {
+          "Tid": "4.12,29",
+          "Dato": "07.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "22",
+          "RA": "279",
+          "pid": "4178118",
+          "splits": [
+            "56,50",
+            "1.03,27",
+            "1.05,38",
+            "1.07,14"
           ]
         }
       ]
@@ -350,9 +489,9 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "D",
-          "RK": "134",
-          "RA": "1192",
-          "pid": "3996262",
+          "RK": "",
+          "RA": "",
+          "pid": "4214389",
           "splits": [
             "44,70",
             "52,88",
@@ -372,9 +511,9 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "121",
-          "RA": "853",
-          "pid": "3995803",
+          "RK": "142",
+          "RA": "940",
+          "pid": "4213924",
           "splits": [
             "57,59",
             "1.05,26",
@@ -393,9 +532,9 @@
           "Sted": "Porsgrunn",
           "Basseng": "25m",
           "D": "",
-          "RK": "120",
-          "RA": "963",
-          "pid": "3996259",
+          "RK": "144",
+          "RA": "1051",
+          "pid": "4214386",
           "splits": [
             "44,70",
             "52,88",
@@ -405,6 +544,46 @@
             "58,64",
             "59,12",
             "53,84"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Butterfly",
+      "races": [
+        {
+          "Tid": "1.57,47",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "102",
+          "RA": "1018",
+          "pid": "4242557",
+          "splits": [
+            "53,47",
+            "1.04,00"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.43,54",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "111",
+          "RA": "900",
+          "pid": "4283800",
+          "splits": [
+            "50,61",
+            "1.01,20",
+            "1.01,87",
+            "49,86"
           ]
         }
       ]

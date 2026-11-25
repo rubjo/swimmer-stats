@@ -4,20 +4,41 @@
   "club": "Lillesand IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-12T00:04:39.333Z",
+  "timestamp": "2026-11-24T22:43:44.689Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "1.00,52",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4242401"
+        },
         {
           "Tid": "1.01,85",
           "Dato": "13.09.2026",
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "187",
-          "RA": "1472",
-          "pid": "4006533"
+          "RK": "",
+          "RA": "",
+          "pid": "4224684"
+        },
+        {
+          "Tid": "1.02,82",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242616",
+          "partOf": "100m Bryst"
         }
       ]
     },
@@ -30,12 +51,46 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "210",
-          "RA": "1730",
-          "pid": "4006825",
+          "RK": "228",
+          "RA": "1848",
+          "pid": "4224991",
           "splits": [
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.25,49",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1600",
+          "pid": "4242314"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.12,72",
+          "Dato": "10.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "186",
+          "RA": "1332",
+          "pid": "4242615",
+          "splits": [
+            "1.02,82",
+            "1.09,90"
           ]
         }
       ]

@@ -4,34 +4,30 @@
   "club": "Sarpsborg IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-11T22:10:21.057Z",
+  "timestamp": "2026-11-24T23:18:42.567Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "48,66",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "103",
-          "RA": "1161",
-          "pid": "3962034",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "43,48",
           "Dato": "13.09.2026",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "180",
-          "RA": "1744",
-          "pid": "4002953"
+          "RK": "201",
+          "RA": "1853",
+          "pid": "4221147"
+        },
+        {
+          "Tid": "45,25",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4267851"
         },
         {
           "Tid": "48,04",
@@ -41,8 +37,22 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4003134",
+          "pid": "4221332",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "48,66",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "109",
+          "RA": "1190",
+          "pid": "4182231",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -50,18 +60,14 @@
       "distanse": "50m Bryst",
       "races": [
         {
-          "Tid": "55,46",
-          "Dato": "07.06.2026",
+          "Tid": "51,95",
+          "Dato": "08.11.2026",
           "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "56",
-          "RA": "690",
-          "pid": "3961794",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Bryst"
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4267817"
         },
         {
           "Tid": "52,65",
@@ -69,9 +75,9 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "110",
-          "RA": "1205",
-          "pid": "4002909"
+          "RK": "",
+          "RA": "",
+          "pid": "4221102"
         },
         {
           "Tid": "53,90",
@@ -81,8 +87,22 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4003059",
+          "pid": "4221254",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,46",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "60",
+          "RA": "723",
+          "pid": "4181986",
+          "partOf": "100m Bryst",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -95,9 +115,9 @@
           "Sted": "Fredrikstad",
           "Basseng": "50m",
           "D": "",
-          "RK": "91",
-          "RA": "1007",
-          "pid": "3962033",
+          "RK": "97",
+          "RA": "1038",
+          "pid": "4182230",
           "splits": [
             "48,66",
             "57,02"
@@ -109,9 +129,9 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "182",
-          "RA": "1609",
-          "pid": "4003133",
+          "RK": "200",
+          "RA": "1708",
+          "pid": "4221331",
           "splits": [
             "48,04",
             "55,05"
@@ -123,31 +143,31 @@
       "distanse": "100m Bryst",
       "races": [
         {
-          "Tid": "2.00,55",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "52",
-          "RA": "538",
-          "pid": "3961793",
-          "splits": [
-            "55,46",
-            "1.05,09"
-          ]
-        },
-        {
           "Tid": "1.58,50",
           "Dato": "13.09.2026",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "124",
-          "RA": "1082",
-          "pid": "4003058",
+          "RK": "144",
+          "RA": "1164",
+          "pid": "4221253",
           "splits": [
             "53,90",
             "1.04,60"
+          ]
+        },
+        {
+          "Tid": "2.00,55",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "57",
+          "RA": "568",
+          "pid": "4181985",
+          "splits": [
+            "55,46",
+            "1.05,09"
           ]
         }
       ]

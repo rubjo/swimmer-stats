@@ -4,21 +4,11 @@
   "club": "Kristiansand SA",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-06-28T04:11:18.666Z",
+  "timestamp": "2026-11-24T22:44:25.687Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "39,49",
-          "Dato": "23.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3849811"
-        },
         {
           "Tid": "42,66",
           "Dato": "20.12.2025",
@@ -28,6 +18,37 @@
           "RK": "176",
           "RA": "1802",
           "pid": "3842140"
+        },
+        {
+          "Tid": "33,83",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "1244",
+          "pid": "4242457"
+        },
+        {
+          "Tid": "38,04",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4242706",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,49",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "117",
+          "RA": "1039",
+          "pid": "4070731"
         }
       ]
     },
@@ -40,9 +61,9 @@
           "Sted": "Lillesand",
           "Basseng": "25m",
           "D": "",
-          "RK": "94",
-          "RA": "918",
-          "pid": "3896131"
+          "RK": "130",
+          "RA": "1088",
+          "pid": "4116620"
         },
         {
           "Tid": "50,14",
@@ -50,9 +71,28 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "72",
-          "RA": "603",
-          "pid": "3849440"
+          "RK": "77",
+          "RA": "633",
+          "pid": "4070280"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.19,00",
+          "Dato": "11.10.2026",
+          "Sted": "Grimstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "117",
+          "RA": "1171",
+          "pid": "4242705",
+          "splits": [
+            "38,04",
+            "40,96"
+          ]
         }
       ]
     }

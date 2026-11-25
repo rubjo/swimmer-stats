@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 2009,
   "gender": "female",
-  "timestamp": "2026-06-27T07:10:09.963Z",
+  "timestamp": "2026-11-23T12:37:05.365Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -772,16 +772,6 @@
       "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "33,85",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3868294"
-        },
-        {
           "Tid": "34,45",
           "Dato": "12.10.2025",
           "Sted": "Holmen",
@@ -1192,32 +1182,22 @@
           "RA": "",
           "pid": "2646581",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "33,85",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "64",
+          "RA": "376",
+          "pid": "4089304"
         }
       ]
     },
     {
       "distanse": "50m Rygg",
       "races": [
-        {
-          "Tid": "34,62",
-          "Dato": "18.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "26",
-          "RA": "155",
-          "pid": "3858745"
-        },
-        {
-          "Tid": "35,47",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3868456"
-        },
         {
           "Tid": "35,62",
           "Dato": "10.02.2024",
@@ -1337,6 +1317,26 @@
           "RK": "",
           "RA": "",
           "pid": "2467818"
+        },
+        {
+          "Tid": "34,62",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "35",
+          "RA": "235",
+          "pid": "4067324"
+        },
+        {
+          "Tid": "35,47",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4089483"
         }
       ]
     },
@@ -1372,16 +1372,6 @@
           "RK": "",
           "RA": "",
           "pid": "3784434"
-        },
-        {
-          "Tid": "36,92",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "19",
-          "RA": "103",
-          "pid": "3868652"
         },
         {
           "Tid": "37,24",
@@ -2064,6 +2054,16 @@
           "RA": "",
           "pid": "2513698",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "36,92",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "26",
+          "RA": "144",
+          "pid": "4089693"
         }
       ]
     },
@@ -2626,20 +2626,6 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
-          "Tid": "1.15,49",
-          "Dato": "18.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "22",
-          "RA": "119",
-          "pid": "3858750",
-          "splits": [
-            "36,84",
-            "38,65"
-          ]
-        },
-        {
           "Tid": "1.15,64",
           "Dato": "30.11.2024",
           "Sted": "Nadderud",
@@ -2763,6 +2749,20 @@
           "splits": [
             "54,51",
             "53,74"
+          ]
+        },
+        {
+          "Tid": "1.15,49",
+          "Dato": "18.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "39",
+          "RA": "225",
+          "pid": "4067869",
+          "splits": [
+            "36,84",
+            "38,65"
           ]
         }
       ]

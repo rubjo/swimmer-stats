@@ -4,20 +4,30 @@
   "club": "Kongstensvømmerne",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-11T23:14:28.322Z",
+  "timestamp": "2026-11-25T00:05:03.370Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "38,42",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "131",
+          "RA": "1590",
+          "pid": "4268137"
+        },
         {
           "Tid": "40,85",
           "Dato": "13.09.2026",
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "148",
-          "RA": "1617",
-          "pid": "4002948"
+          "RK": "",
+          "RA": "",
+          "pid": "4221142"
         },
         {
           "Tid": "43,25",
@@ -27,8 +37,61 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4022706",
+          "pid": "4240929",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,53",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4104820"
+        },
+        {
+          "Tid": "46,51",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4268092",
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "49,97",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4063277",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,17",
+          "Dato": "22.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4277999"
+        },
+        {
+          "Tid": "45,66",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279112",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -41,9 +104,19 @@
           "Sted": "Fredrikstad",
           "Basseng": "25m",
           "D": "",
-          "RK": "137",
-          "RA": "1269",
-          "pid": "4002908"
+          "RK": "",
+          "RA": "",
+          "pid": "4221101"
+        },
+        {
+          "Tid": "57,33",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4104774"
         }
       ]
     },
@@ -51,14 +124,35 @@
       "distanse": "50m Butterfly",
       "races": [
         {
+          "Tid": "42,76",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "72",
+          "RA": "1194",
+          "pid": "4267764"
+        },
+        {
           "Tid": "45,75",
           "Dato": "10.10.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "78",
-          "RA": "1210",
-          "pid": "4022002"
+          "RK": "",
+          "RA": "",
+          "pid": "4240218"
+        },
+        {
+          "Tid": "51,40",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279015",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -71,13 +165,57 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "145",
-          "RA": "1476",
-          "pid": "4022705",
+          "RK": "163",
+          "RA": "1569",
+          "pid": "4240928",
           "splits": [
             "43,25",
             "51,14"
           ]
+        },
+        {
+          "Tid": "1.38,56",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4268093",
+          "splits": [
+            "46,51",
+            "52,05"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.45,59",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4063276",
+          "splits": [
+            "49,97",
+            "55,62"
+          ]
+        },
+        {
+          "Tid": "1.39,52",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279113",
+          "splits": [
+            "45,66",
+            "53,86"
+          ],
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -90,12 +228,206 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "68",
-          "RA": "608",
-          "pid": "4022473",
+          "RK": "79",
+          "RA": "705",
+          "pid": "4240693",
           "splits": [
             "49,91",
             "53,26"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "43,71",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "68",
+          "RA": "880",
+          "pid": "4104740"
+        },
+        {
+          "Tid": "46,05",
+          "Dato": "08.03.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4104739"
+        },
+        {
+          "Tid": "51,03",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4062908"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Individuell medley",
+      "races": [
+        {
+          "Tid": "1.43,97",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "100",
+          "RA": "1011",
+          "pid": "4268012",
+          "splits": [
+            "46,48",
+            "57,49"
+          ]
+        },
+        {
+          "Tid": "1.53,51",
+          "Dato": "10.01.2026",
+          "Sted": "Sarpsborg",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4063353",
+          "splits": [
+            "53,85",
+            "59,66"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.27,31",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4268094",
+          "splits": [
+            "46,51",
+            "52,05",
+            "53,27",
+            "55,48"
+          ],
+          "partOf": "400m Fri"
+        },
+        {
+          "Tid": "3.31,12",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4279114",
+          "splits": [
+            "45,66",
+            "53,86",
+            "56,57",
+            "55,03"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "6.57,64",
+          "Dato": "08.11.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "123",
+          "RA": "995",
+          "pid": "4268091",
+          "splits": [
+            "46,51",
+            "52,05",
+            "53,27",
+            "55,48",
+            "53,83",
+            "53,90",
+            "53,09",
+            "49,51"
+          ]
+        },
+        {
+          "Tid": "7.11,25",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4279111",
+          "splits": [
+            "45,66",
+            "53,86",
+            "56,57",
+            "55,03",
+            "56,38",
+            "55,85",
+            "56,40",
+            "51,50"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "3.35,29",
+          "Dato": "22.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "104",
+          "RA": "844",
+          "pid": "4278621",
+          "splits": [
+            "50,87",
+            "55,31",
+            "55,76",
+            "53,35"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Individuell medley",
+      "races": [
+        {
+          "Tid": "3.49,71",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "121",
+          "RA": "926",
+          "pid": "4279014",
+          "splits": [
+            "51,40",
+            "55,42",
+            "1.09,96",
+            "52,93"
           ]
         }
       ]

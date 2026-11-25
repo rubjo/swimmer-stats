@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-12T00:20:34.264Z",
+  "timestamp": "2026-11-24T23:16:09.110Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,40 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "249",
-          "RA": "1763",
-          "pid": "4003554"
+          "RK": "",
+          "RA": "",
+          "pid": "4215030"
+        },
+        {
+          "Tid": "47,24",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272685"
+        },
+        {
+          "Tid": "51,12",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4273007",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "43,93",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282277"
         }
       ]
     },
@@ -25,14 +56,24 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "49,39",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "151",
+          "RA": "1181",
+          "pid": "4272616"
+        },
+        {
           "Tid": "50,34",
           "Dato": "12.09.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "138",
-          "RA": "1161",
-          "pid": "4003547"
+          "RK": "",
+          "RA": "",
+          "pid": "4214940"
         },
         {
           "Tid": "52,50",
@@ -42,8 +83,51 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4003560",
+          "pid": "4215162",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "53,12",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4272904",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "50,26",
+          "Dato": "21.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282222"
+        },
+        {
+          "Tid": "54,00",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4282480",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "57,29",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4282801",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -51,17 +135,149 @@
       "distanse": "100m Bryst",
       "races": [
         {
+          "Tid": "1.54,42",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "184",
+          "RA": "1233",
+          "pid": "4272903",
+          "splits": [
+            "53,12",
+            "1.01,30"
+          ]
+        },
+        {
           "Tid": "1.55,69",
           "Dato": "12.09.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "172",
-          "RA": "1191",
-          "pid": "4003559",
+          "RK": "",
+          "RA": "",
+          "pid": "4215161",
           "splits": [
             "52,50",
             "1.03,19"
+          ]
+        },
+        {
+          "Tid": "1.54,61",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282479",
+          "splits": [
+            "54,0",
+            "1.00,61"
+          ]
+        },
+        {
+          "Tid": "2.02,10",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4282802",
+          "splits": [
+            "57,29",
+            "1.04,81"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "57,36",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272557"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.47,09",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4273006",
+          "splits": [
+            "51,12",
+            "55,97"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.11,57",
+          "Dato": "21.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282134"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.02,26",
+          "Dato": "21.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4282410",
+          "splits": [
+            "58,90",
+            "1.03,36"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.09,59",
+          "Dato": "22.11.2026",
+          "Sted": "Namsos",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "192",
+          "RA": "1102",
+          "pid": "4282800",
+          "splits": [
+            "57,29",
+            "1.04,81",
+            "1.04,88",
+            "1.02,61"
           ]
         }
       ]

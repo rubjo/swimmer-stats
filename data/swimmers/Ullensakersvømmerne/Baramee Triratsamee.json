@@ -4,7 +4,7 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-10-11T23:54:12.242Z",
+  "timestamp": "2026-11-25T00:27:18.129Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,9 @@
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "137",
-          "RA": "1354",
-          "pid": "4018267"
+          "RK": "",
+          "RA": "",
+          "pid": "4211383"
         },
         {
           "Tid": "38,66",
@@ -27,8 +27,29 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4018269",
+          "pid": "4211784",
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "39,49",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4269337",
+          "partOf": "100m Fri"
+        },
+        {
+          "Tid": "35,04",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "131",
+          "RA": "1336",
+          "pid": "4268571"
         }
       ]
     },
@@ -36,14 +57,28 @@
       "distanse": "100m Fri",
       "races": [
         {
+          "Tid": "1.27,03",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4269336",
+          "splits": [
+            "39,49",
+            "47,54"
+          ]
+        },
+        {
           "Tid": "1.24,54",
           "Dato": "05.09.2026",
           "Sted": "Lørenskog",
           "Basseng": "25m",
           "D": "",
-          "RK": "140",
-          "RA": "1251",
-          "pid": "4018268",
+          "RK": "151",
+          "RA": "1330",
+          "pid": "4211783",
           "splits": [
             "38,66",
             "45,88"

@@ -4,7 +4,7 @@
   "club": "Vestbyen Trondheim",
   "birthYear": 2003,
   "gender": "female",
-  "timestamp": "2026-06-27T15:49:59.964Z",
+  "timestamp": "2026-11-16T14:04:44.917Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -3336,17 +3336,6 @@
           "pid": "1563948"
         },
         {
-          "Tid": "39,96",
-          "Dato": "07.03.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "134",
-          "RA": "723",
-          "pid": "3883743",
-          "partOf": "200m Butterfly"
-        },
-        {
           "Tid": "40,11",
           "Dato": "08.02.2015",
           "Sted": "Ålesund",
@@ -3566,6 +3555,17 @@
           "RA": "",
           "pid": "1497656",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "39,96",
+          "Dato": "07.03.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "112",
+          "RA": "856",
+          "pid": "4104233",
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -8079,21 +8079,6 @@
           ]
         },
         {
-          "Tid": "1.29,41",
-          "Dato": "07.03.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "48",
-          "RA": "444",
-          "pid": "3883744",
-          "splits": [
-            "39,96",
-            "49,45"
-          ],
-          "partOf": "200m Butterfly"
-        },
-        {
           "Tid": "1.30,25",
           "Dato": "17.01.2015",
           "Sted": "Trondheim",
@@ -8229,6 +8214,21 @@
           "RA": "",
           "pid": "1287587",
           "splits": []
+        },
+        {
+          "Tid": "1.29,41",
+          "Dato": "07.03.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "42",
+          "RA": "502",
+          "pid": "4104234",
+          "splits": [
+            "39,96",
+            "49,45"
+          ],
+          "partOf": "200m Butterfly"
         }
       ]
     },
@@ -11227,9 +11227,9 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "14",
-          "RA": "40",
-          "pid": "3883742",
+          "RK": "15",
+          "RA": "83",
+          "pid": "4104232",
           "splits": [
             "39,96",
             "49,45",

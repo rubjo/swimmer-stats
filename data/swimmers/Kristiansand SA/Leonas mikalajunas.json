@@ -4,7 +4,7 @@
   "club": "Kristiansand SA",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-11T23:13:03.766Z",
+  "timestamp": "2026-11-25T00:53:07.631Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -15,9 +15,30 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
+          "RK": "108",
+          "RA": "1184",
+          "pid": "4070730"
+        },
+        {
+          "Tid": "44,40",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "211",
+          "RA": "1893",
+          "pid": "4283375"
+        },
+        {
+          "Tid": "52,66",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3849810"
+          "pid": "4283854",
+          "partOf": "400m Fri"
         }
       ]
     },
@@ -25,25 +46,14 @@
       "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "1.11,28",
-          "Dato": "06.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3958496",
-          "partOf": "200m Individuell medley"
-        },
-        {
           "Tid": "1.03,43",
           "Dato": "13.09.2026",
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "D",
-          "RK": "156",
-          "RA": "1473",
-          "pid": "4006981",
+          "RK": "180",
+          "RA": "1564",
+          "pid": "4225160",
           "partOf": "200m Individuell medley"
         },
         {
@@ -54,8 +64,19 @@
           "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "4006667",
+          "pid": "4224830",
           "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "1.11,28",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "75",
+          "RA": "949",
+          "pid": "4178646",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -68,10 +89,21 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "D",
-          "RK": "86",
-          "RA": "792",
-          "pid": "3957074",
+          "RK": "91",
+          "RA": "826",
+          "pid": "4177216",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "1.01,48",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283673",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -84,13 +116,28 @@
           "Sted": "Kristiansand",
           "Basseng": "50m",
           "D": "",
-          "RK": "72",
-          "RA": "610",
-          "pid": "3957073",
+          "RK": "77",
+          "RA": "641",
+          "pid": "4177215",
           "splits": [
             "1.13,42",
             "1.22,88"
           ]
+        },
+        {
+          "Tid": "2.10,88",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "182",
+          "RA": "1312",
+          "pid": "4283674",
+          "splits": [
+            "1.01,48",
+            "1.09,40"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -98,35 +145,35 @@
       "distanse": "200m Individuell medley",
       "races": [
         {
-          "Tid": "4.41,55",
-          "Dato": "06.06.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3958495",
-          "splits": [
-            "1.11,28",
-            "1.09,59",
-            "1.21,95",
-            "58,73"
-          ]
-        },
-        {
           "Tid": "4.16,86",
           "Dato": "13.09.2026",
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "122",
-          "RA": "888",
-          "pid": "4006980",
+          "RK": "144",
+          "RA": "980",
+          "pid": "4225159",
           "splits": [
             "1.03,43",
             "1.04,89",
             "1.12,34",
             "56,20"
+          ]
+        },
+        {
+          "Tid": "4.41,55",
+          "Dato": "06.06.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "32",
+          "RA": "406",
+          "pid": "4178645",
+          "splits": [
+            "1.11,28",
+            "1.09,59",
+            "1.21,95",
+            "58,73"
           ]
         }
       ]
@@ -140,12 +187,121 @@
           "Sted": "Mandal",
           "Basseng": "25m",
           "D": "",
-          "RK": "114",
-          "RA": "993",
-          "pid": "4006666",
+          "RK": "130",
+          "RA": "1080",
+          "pid": "4224829",
           "splits": [
             "1.06,05",
             "1.13,90"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.54,22",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "220",
+          "RA": "1799",
+          "pid": "4283855",
+          "splits": [
+            "52,66",
+            "1.01,56"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.55,64",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4283856",
+          "splits": [
+            "52,66",
+            "1.01,56",
+            "1.00,32",
+            "1.01,10"
+          ],
+          "partOf": "400m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Rygg",
+      "races": [
+        {
+          "Tid": "4.04,28",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "929",
+          "pid": "4283644",
+          "splits": [
+            "58,15",
+            "1.02,19",
+            "1.02,59",
+            "1.01,35"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "4.33,39",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1010",
+          "pid": "4283672",
+          "splits": [
+            "1.01,48",
+            "1.09,40",
+            "1.10,95",
+            "1.11,56"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "400m Fri",
+      "races": [
+        {
+          "Tid": "7.58,50",
+          "Dato": "22.11.2026",
+          "Sted": "Flekkefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "159",
+          "RA": "1089",
+          "pid": "4283853",
+          "splits": [
+            "52,66",
+            "1.01,56",
+            "1.00,32",
+            "1.01,10",
+            "1.02,67",
+            "1.01,35",
+            "59,27",
+            "59,57"
           ]
         }
       ]

@@ -4,7 +4,7 @@
   "club": "Ålgård SK",
   "birthYear": 1992,
   "gender": "male",
-  "timestamp": "2026-07-01T02:13:33.870Z",
+  "timestamp": "2026-11-23T13:05:39.705Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -308,16 +308,6 @@
           "RK": "",
           "RA": "",
           "pid": "2265331"
-        },
-        {
-          "Tid": "26,18",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "102",
-          "RA": "199",
-          "pid": "3900277"
         },
         {
           "Tid": "26,21",
@@ -1108,17 +1098,6 @@
           "partOf": "100m Fri"
         },
         {
-          "Tid": "29,59",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901517",
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "29,71",
           "Dato": "03.02.2007",
           "Sted": "Kristiansand",
@@ -1527,6 +1506,27 @@
           "RK": "",
           "RA": "",
           "pid": "33056"
+        },
+        {
+          "Tid": "26,18",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "145",
+          "RA": "330",
+          "pid": "4120669"
+        },
+        {
+          "Tid": "29,59",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121926",
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -1929,17 +1929,6 @@
           "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "32,03",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "159",
-          "RA": "504",
-          "pid": "3901876",
-          "partOf": "400m Individuell medley"
-        },
-        {
           "Tid": "32,58",
           "Dato": "27.09.2008",
           "Sted": "Bryne",
@@ -2141,6 +2130,17 @@
           "RK": "",
           "RA": "",
           "pid": "48735"
+        },
+        {
+          "Tid": "32,03",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "199",
+          "RA": "636",
+          "pid": "4122301",
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -5022,21 +5022,6 @@
           ]
         },
         {
-          "Tid": "1.03,50",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "145",
-          "RA": "454",
-          "pid": "3901518",
-          "splits": [
-            "29,59",
-            "33,91"
-          ],
-          "partOf": "200m Fri"
-        },
-        {
           "Tid": "1.03,72",
           "Dato": "06.10.2007",
           "Sted": "Bryne",
@@ -5398,6 +5383,21 @@
           "RA": "",
           "pid": "32221",
           "splits": []
+        },
+        {
+          "Tid": "1.03,50",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "181",
+          "RA": "596",
+          "pid": "4121927",
+          "splits": [
+            "29,59",
+            "33,91"
+          ],
+          "partOf": "200m Fri"
         }
       ]
     },
@@ -6574,21 +6574,6 @@
           "partOf": "200m Butterfly"
         },
         {
-          "Tid": "1.14,03",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "71",
-          "RA": "365",
-          "pid": "3901877",
-          "splits": [
-            "32,03",
-            "42,00"
-          ],
-          "partOf": "400m Individuell medley"
-        },
-        {
           "Tid": "1.24,21",
           "Dato": "14.04.2007",
           "Sted": "Sandnes",
@@ -6598,6 +6583,21 @@
           "RA": "367",
           "pid": "262853",
           "splits": []
+        },
+        {
+          "Tid": "1.14,03",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "99",
+          "RA": "442",
+          "pid": "4122302",
+          "splits": [
+            "32,03",
+            "42,00"
+          ],
+          "partOf": "400m Individuell medley"
         }
       ]
     },
@@ -7903,22 +7903,6 @@
           "partOf": "400m Fri"
         },
         {
-          "Tid": "2.15,34",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "74",
-          "RA": "257",
-          "pid": "3901516",
-          "splits": [
-            "29,59",
-            "33,91",
-            "35,35",
-            "36,49"
-          ]
-        },
-        {
           "Tid": "2.18,67",
           "Dato": "08.06.2008",
           "Sted": "Stavanger",
@@ -8111,6 +8095,22 @@
           "RA": "",
           "pid": "40700",
           "splits": []
+        },
+        {
+          "Tid": "2.15,34",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "341",
+          "pid": "4121925",
+          "splits": [
+            "29,59",
+            "33,91",
+            "35,35",
+            "36,49"
+          ]
         }
       ]
     },
@@ -8996,9 +8996,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "19",
-          "RA": "69",
-          "pid": "3901875",
+          "RK": "26",
+          "RA": "115",
+          "pid": "4122300",
           "splits": [
             "32,03",
             "42,00",

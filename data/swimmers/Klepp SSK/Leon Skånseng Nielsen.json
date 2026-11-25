@@ -4,20 +4,30 @@
   "club": "Klepp SSK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-11T23:14:55.104Z",
+  "timestamp": "2026-11-25T00:05:30.453Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "42,90",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "106",
+          "RA": "1832",
+          "pid": "4271390"
+        },
         {
           "Tid": "43,51",
           "Dato": "25.09.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "98",
-          "RA": "1745",
-          "pid": "4009090"
+          "RK": "",
+          "RA": "",
+          "pid": "4227233"
         }
       ]
     },
@@ -30,9 +40,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "56",
-          "RA": "989",
-          "pid": "4008807"
+          "RK": "76",
+          "RA": "1119",
+          "pid": "4226950"
         }
       ]
     }

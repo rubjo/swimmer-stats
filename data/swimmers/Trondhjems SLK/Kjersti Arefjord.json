@@ -4,7 +4,7 @@
   "club": "Trondhjems SLK",
   "birthYear": 1979,
   "gender": "female",
-  "timestamp": "2026-06-23T01:57:43.935Z",
+  "timestamp": "2026-11-23T11:56:28.313Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -69,13 +69,13 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "D",
-          "RK": "176",
-          "RA": "731",
-          "pid": "3900922",
+          "RK": "144",
+          "RA": "926",
+          "pid": "4121326",
+          "partOf": "100m Fri",
           "splits": [
             ""
-          ],
-          "partOf": "100m Fri"
+          ]
         }
       ]
     },
@@ -177,16 +177,6 @@
           "pid": "2720069"
         },
         {
-          "Tid": "34,05",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3854083"
-        },
-        {
           "Tid": "34,07",
           "Dato": "09.03.2019",
           "Sted": "Bergen",
@@ -219,16 +209,6 @@
             ""
           ],
           "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "34,36",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3899911"
         },
         {
           "Tid": "34,52",
@@ -317,48 +297,6 @@
           "partOf": "100m Butterfly"
         },
         {
-          "Tid": "36,70",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3854809",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
-          "Tid": "36,78",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3856815",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Individuell medley"
-        },
-        {
-          "Tid": "36,85",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3901623",
-          "splits": [
-            ""
-          ],
-          "partOf": "200m Individuell medley"
-        },
-        {
           "Tid": "37,38",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -387,20 +325,6 @@
           "partOf": "200m Individuell medley"
         },
         {
-          "Tid": "37,47",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900418",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "37,88",
           "Dato": "17.01.2025",
           "Sted": "Trondheim",
@@ -427,6 +351,82 @@
             ""
           ],
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "34,36",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4120296"
+        },
+        {
+          "Tid": "36,70",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4076835",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "36,78",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4079019",
+          "partOf": "200m Individuell medley",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "36,85",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4122038",
+          "partOf": "200m Individuell medley",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "37,47",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4120810",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
+        },
+        {
+          "Tid": "34,05",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "71",
+          "RA": "403",
+          "pid": "4076041"
         }
       ]
     },
@@ -464,9 +464,9 @@
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "94",
-          "RA": "370",
-          "pid": "3900921",
+          "RK": "75",
+          "RA": "503",
+          "pid": "4121325",
           "splits": [
             "33,67",
             "36,51"
@@ -531,34 +531,6 @@
           ]
         },
         {
-          "Tid": "1.17,19",
-          "Dato": "24.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "37",
-          "RA": "184",
-          "pid": "3854808",
-          "splits": [
-            "36,70",
-            "40,49"
-          ]
-        },
-        {
-          "Tid": "1.19,06",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900417",
-          "splits": [
-            "37,47",
-            "41,59"
-          ]
-        },
-        {
           "Tid": "1.19,41",
           "Dato": "29.03.2025",
           "Sted": "Trondheim",
@@ -584,6 +556,34 @@
           "splits": [
             "37,88",
             "41,84"
+          ]
+        },
+        {
+          "Tid": "1.19,06",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4120809",
+          "splits": [
+            "37,47",
+            "41,59"
+          ]
+        },
+        {
+          "Tid": "1.17,19",
+          "Dato": "24.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "34",
+          "RA": "224",
+          "pid": "4076834",
+          "splits": [
+            "36,70",
+            "40,49"
           ]
         }
       ]
@@ -729,22 +729,6 @@
           ]
         },
         {
-          "Tid": "2.51,86",
-          "Dato": "23.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "24",
-          "RA": "273",
-          "pid": "3856814",
-          "splits": [
-            "36,78",
-            "45,72",
-            "49,93",
-            "39,43"
-          ]
-        },
-        {
           "Tid": "2.52,23",
           "Dato": "18.01.2025",
           "Sted": "Trondheim",
@@ -784,11 +768,27 @@
           "D": "",
           "RK": "",
           "RA": "",
-          "pid": "3901622",
+          "pid": "4122037",
           "splits": [
             "36,85",
             "46,21",
             "50,43",
+            "39,43"
+          ]
+        },
+        {
+          "Tid": "2.51,86",
+          "Dato": "23.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "18",
+          "RA": "318",
+          "pid": "4079018",
+          "splits": [
+            "36,78",
+            "45,72",
+            "49,93",
             "39,43"
           ]
         }

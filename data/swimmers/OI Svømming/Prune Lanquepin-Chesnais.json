@@ -4,7 +4,7 @@
   "club": "OI Svømming",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-06-27T02:13:32.668Z",
+  "timestamp": "2026-11-23T12:11:41.912Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -109,27 +109,6 @@
       "distanse": "50m Butterfly",
       "races": [
         {
-          "Tid": "48,17",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3868214"
-        },
-        {
-          "Tid": "49,50",
-          "Dato": "26.04.2026",
-          "Sted": "Skjetten",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3936149",
-          "partOf": "100m Butterfly"
-        },
-        {
           "Tid": "51,03",
           "Dato": "07.09.2025",
           "Sted": "Porsgrunn",
@@ -138,17 +117,6 @@
           "RK": "",
           "RA": "1439",
           "pid": "3742011"
-        },
-        {
-          "Tid": "53,67",
-          "Dato": "17.01.2026",
-          "Sted": "Lambertseter",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3848482",
-          "partOf": "200m Individuell medley"
         },
         {
           "Tid": "56,07",
@@ -179,6 +147,38 @@
           "RK": "",
           "RA": "",
           "pid": "3610007"
+        },
+        {
+          "Tid": "48,17",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "161",
+          "RA": "1308",
+          "pid": "4089218"
+        },
+        {
+          "Tid": "49,50",
+          "Dato": "26.04.2026",
+          "Sted": "Skjetten",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4156464",
+          "partOf": "100m Butterfly"
+        },
+        {
+          "Tid": "53,67",
+          "Dato": "17.01.2026",
+          "Sted": "Lambertseter",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4068639",
+          "partOf": "200m Individuell medley"
         }
       ]
     },
@@ -210,17 +210,6 @@
           "RA": "",
           "pid": "3742652",
           "partOf": "100m Bryst"
-        },
-        {
-          "Tid": "59,04",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "234",
-          "RA": "1498",
-          "pid": "3870177",
-          "partOf": "200m Bryst"
         },
         {
           "Tid": "1.01,42",
@@ -263,6 +252,17 @@
           "RK": "",
           "RA": "",
           "pid": "3507425"
+        },
+        {
+          "Tid": "59,04",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "280",
+          "RA": "1742",
+          "pid": "4091351",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -404,9 +404,9 @@
           "Sted": "Skjetten",
           "Basseng": "25m",
           "D": "",
-          "RK": "126",
-          "RA": "880",
-          "pid": "3936148",
+          "RK": "157",
+          "RA": "1033",
+          "pid": "4156463",
           "splits": [
             "49,50",
             "1.07,17"
@@ -417,21 +417,6 @@
     {
       "distanse": "100m Bryst",
       "races": [
-        {
-          "Tid": "2.02,36",
-          "Dato": "07.02.2026",
-          "Sted": "Holmen",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3870178",
-          "splits": [
-            "59,04",
-            "1.03,32"
-          ],
-          "partOf": "200m Bryst"
-        },
         {
           "Tid": "2.05,98",
           "Dato": "06.09.2025",
@@ -487,6 +472,21 @@
             "",
             ""
           ]
+        },
+        {
+          "Tid": "2.02,36",
+          "Dato": "07.02.2026",
+          "Sted": "Holmen",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "225",
+          "RA": "1406",
+          "pid": "4091352",
+          "splits": [
+            "59,04",
+            "1.03,32"
+          ],
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -536,9 +536,9 @@
           "Sted": "Lambertseter",
           "Basseng": "25m",
           "D": "",
-          "RK": "155",
-          "RA": "919",
-          "pid": "3848481",
+          "RK": "192",
+          "RA": "1101",
+          "pid": "4068638",
           "splits": [
             "53,67",
             "1.01,51",
@@ -557,9 +557,9 @@
           "Sted": "Holmen",
           "Basseng": "25m",
           "D": "",
-          "RK": "156",
-          "RA": "928",
-          "pid": "3870176",
+          "RK": "200",
+          "RA": "1122",
+          "pid": "4091350",
           "splits": [
             "59,04",
             "1.03,32",

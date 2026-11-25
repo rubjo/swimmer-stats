@@ -4,7 +4,7 @@
   "club": "Dolphin Masters SK",
   "birthYear": 1974,
   "gender": "female",
-  "timestamp": "2026-06-30T20:03:48.736Z",
+  "timestamp": "2026-11-23T14:32:12.317Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -290,17 +290,6 @@
           "partOf": "200m Fri"
         },
         {
-          "Tid": "34,63",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "196",
-          "RA": "858",
-          "pid": "3901015",
-          "partOf": "100m Fri"
-        },
-        {
           "Tid": "35,72",
           "Dato": "01.04.2006",
           "Sted": "Lambertseter",
@@ -310,6 +299,17 @@
           "RA": "",
           "pid": "180263",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "34,63",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "164",
+          "RA": "1056",
+          "pid": "4121419",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -418,16 +418,6 @@
           "partOf": "100m Butterfly"
         },
         {
-          "Tid": "36,35",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "111",
-          "RA": "488",
-          "pid": "3899949"
-        },
-        {
           "Tid": "37,77",
           "Dato": "13.03.2009",
           "Sted": "Kirkenes",
@@ -459,6 +449,16 @@
           "RA": "",
           "pid": "1934619",
           "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "36,35",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "90",
+          "RA": "598",
+          "pid": "4120334"
         }
       ]
     },
@@ -600,20 +600,6 @@
           ]
         },
         {
-          "Tid": "1.11,24",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "101",
-          "RA": "420",
-          "pid": "3901014",
-          "splits": [
-            "34,63",
-            "36,61"
-          ]
-        },
-        {
           "Tid": "1.12,75",
           "Dato": "02.04.2011",
           "Sted": "Kristiansund",
@@ -642,6 +628,20 @@
             "39,21"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.11,24",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "561",
+          "pid": "4121418",
+          "splits": [
+            "34,63",
+            "36,61"
+          ]
         }
       ]
     },

@@ -4,20 +4,30 @@
   "club": "Asker SK",
   "birthYear": 2014,
   "gender": "female",
-  "timestamp": "2026-10-11T23:32:00.418Z",
+  "timestamp": "2026-11-24T22:53:38.954Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "37,18",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258945"
+        },
         {
           "Tid": "38,24",
           "Dato": "19.09.2026",
           "Sted": "Horten",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "1348",
-          "pid": "4018276"
+          "RK": "",
+          "RA": "",
+          "pid": "4223865"
         }
       ]
     },
@@ -25,14 +35,97 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "41,98",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "19",
+          "RA": "515",
+          "pid": "4258669"
+        },
+        {
           "Tid": "43,30",
           "Dato": "19.09.2026",
           "Sted": "Horten",
           "Basseng": "25m",
           "D": "",
-          "RK": "29",
-          "RA": "585",
-          "pid": "4018275"
+          "RK": "",
+          "RA": "",
+          "pid": "4223754"
+        },
+        {
+          "Tid": "45,36",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4259486",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "42,76",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258377"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "46,80",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258499"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.39,47",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "59",
+          "RA": "691",
+          "pid": "4259485",
+          "splits": []
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "1.45,39",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4259275",
+          "splits": []
         }
       ]
     }

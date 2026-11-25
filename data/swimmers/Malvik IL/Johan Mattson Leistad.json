@@ -4,7 +4,7 @@
   "club": "Malvik IL",
   "birthYear": 2014,
   "gender": "male",
-  "timestamp": "2026-10-11T23:05:12.352Z",
+  "timestamp": "2026-11-24T22:31:19.009Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -55,9 +55,30 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "96",
-          "RA": "1440",
-          "pid": "3996831"
+          "RK": "113",
+          "RA": "1532",
+          "pid": "4214976"
+        },
+        {
+          "Tid": "38,67",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272665"
+        },
+        {
+          "Tid": "39,14",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4272973",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -75,14 +96,24 @@
           "pid": "3791384"
         },
         {
+          "Tid": "44,84",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "77",
+          "RA": "916",
+          "pid": "4272546"
+        },
+        {
           "Tid": "48,00",
           "Dato": "12.09.2026",
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "92",
-          "RA": "911",
-          "pid": "3996728"
+          "RK": "",
+          "RA": "",
+          "pid": "4214860"
         }
       ]
     },
@@ -95,12 +126,60 @@
           "Sted": "Trondheim",
           "Basseng": "25m",
           "D": "",
-          "RK": "67",
-          "RA": "607",
-          "pid": "3996923",
+          "RK": "78",
+          "RA": "703",
+          "pid": "4215077",
           "splits": [
             "48,67",
             "54,37"
+          ]
+        },
+        {
+          "Tid": "1.43,97",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272834",
+          "splits": [
+            "51,15",
+            "52,82"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "53,33",
+          "Dato": "07.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4272599"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.28,19",
+          "Dato": "08.11.2026",
+          "Sted": "Hommelvik",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "119",
+          "RA": "1419",
+          "pid": "4272972",
+          "splits": [
+            "39,14",
+            "49,05"
           ]
         }
       ]

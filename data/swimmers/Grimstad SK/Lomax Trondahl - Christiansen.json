@@ -4,41 +4,11 @@
   "club": "Grimstad SK",
   "birthYear": 2013,
   "gender": "male",
-  "timestamp": "2026-07-02T08:31:05.172Z",
+  "timestamp": "2026-11-23T14:59:11.006Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "32,54",
-          "Dato": "15.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3896184"
-        },
-        {
-          "Tid": "33,64",
-          "Dato": "23.01.2026",
-          "Sted": "Kristiansand",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "61",
-          "RA": "818",
-          "pid": "3849780"
-        },
-        {
-          "Tid": "34,05",
-          "Dato": "15.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3897206"
-        },
         {
           "Tid": "35,61",
           "Dato": "05.04.2025",
@@ -69,6 +39,36 @@
           "RA": "",
           "pid": "3585078",
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "32,54",
+          "Dato": "15.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "83",
+          "RA": "1149",
+          "pid": "4116674"
+        },
+        {
+          "Tid": "33,64",
+          "Dato": "23.01.2026",
+          "Sted": "Kristiansand",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "61",
+          "RA": "830",
+          "pid": "4070698"
+        },
+        {
+          "Tid": "34,05",
+          "Dato": "15.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4117735"
         }
       ]
     },
@@ -82,8 +82,8 @@
           "Basseng": "50m",
           "D": "",
           "RK": "41",
-          "RA": "402",
-          "pid": "3849114"
+          "RA": "409",
+          "pid": "4069870"
         }
       ]
     },
@@ -133,17 +133,6 @@
       "distanse": "100m Fri",
       "races": [
         {
-          "Tid": "1.12,87",
-          "Dato": "15.03.2026",
-          "Sted": "Lillesand",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3897207",
-          "splits": []
-        },
-        {
           "Tid": "1.32,71",
           "Dato": "24.11.2024",
           "Sted": "Farsund",
@@ -157,6 +146,17 @@
             "50,65"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "1.12,87",
+          "Dato": "15.03.2026",
+          "Sted": "Lillesand",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "75",
+          "RA": "991",
+          "pid": "4117736",
+          "splits": []
         }
       ]
     },

@@ -4,7 +4,7 @@
   "club": "Eidsvoll SK",
   "birthYear": 2013,
   "gender": "female",
-  "timestamp": "2026-06-21T04:18:35.959Z",
+  "timestamp": "2026-11-24T22:49:13.651Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -20,16 +20,6 @@
           "pid": "3747516"
         },
         {
-          "Tid": "41,48",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "172",
-          "RA": "1092",
-          "pid": "3961517"
-        },
-        {
           "Tid": "42,58",
           "Dato": "31.05.2025",
           "Sted": "Fredrikstad",
@@ -38,20 +28,6 @@
           "RK": "",
           "RA": "",
           "pid": "3709927"
-        },
-        {
-          "Tid": "43,37",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3962263",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
         },
         {
           "Tid": "43,45",
@@ -124,22 +100,46 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "41,04",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4268664"
+        },
+        {
+          "Tid": "41,48",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "177",
+          "RA": "1124",
+          "pid": "4181706"
+        },
+        {
+          "Tid": "43,37",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4182468",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
     {
       "distanse": "50m Bryst",
       "races": [
-        {
-          "Tid": "56,93",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3961274"
-        },
         {
           "Tid": "1.00,74",
           "Dato": "30.11.2024",
@@ -169,26 +169,32 @@
           "RK": "92",
           "RA": "948",
           "pid": "3500113"
+        },
+        {
+          "Tid": "53,56",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "254",
+          "RA": "1485",
+          "pid": "4268501"
+        },
+        {
+          "Tid": "56,93",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "165",
+          "RA": "898",
+          "pid": "4181457"
         }
       ]
     },
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.33,17",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "141",
-          "RA": "925",
-          "pid": "3962262",
-          "splits": [
-            "43,37",
-            "49,80"
-          ]
-        },
         {
           "Tid": "1.34,77",
           "Dato": "14.09.2025",
@@ -230,6 +236,35 @@
             "48,92",
             "57,87"
           ]
+        },
+        {
+          "Tid": "1.33,17",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "150",
+          "RA": "958",
+          "pid": "4182467",
+          "splits": [
+            "43,37",
+            "49,80"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "49,32",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4268293"
         }
       ]
     }

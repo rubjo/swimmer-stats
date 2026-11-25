@@ -4,21 +4,11 @@
   "club": "Kongsvinger SK",
   "birthYear": 2011,
   "gender": "male",
-  "timestamp": "2026-06-22T03:40:00.532Z",
+  "timestamp": "2026-11-24T00:12:34.973Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "30,01",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "88",
-          "RA": "567",
-          "pid": "3961345"
-        },
         {
           "Tid": "31,62",
           "Dato": "13.06.2025",
@@ -28,20 +18,6 @@
           "RK": "85",
           "RA": "686",
           "pid": "3718467"
-        },
-        {
-          "Tid": "32,00",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3962024",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
         },
         {
           "Tid": "33,49",
@@ -342,36 +318,46 @@
             ""
           ],
           "partOf": "100m Fri"
+        },
+        {
+          "Tid": "29,60",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "126",
+          "RA": "844",
+          "pid": "4268527"
+        },
+        {
+          "Tid": "30,01",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "88",
+          "RA": "585",
+          "pid": "4181530"
+        },
+        {
+          "Tid": "32,00",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4182221",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "31,80",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "61",
-          "RA": "431",
-          "pid": "3960843"
-        },
-        {
-          "Tid": "36,10",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3961564",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Butterfly"
-        },
         {
           "Tid": "36,23",
           "Dato": "12.10.2025",
@@ -533,6 +519,40 @@
             ""
           ],
           "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "30,85",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "77",
+          "RA": "553",
+          "pid": "4268174"
+        },
+        {
+          "Tid": "31,80",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "62",
+          "RA": "449",
+          "pid": "4181017"
+        },
+        {
+          "Tid": "36,10",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4181756",
+          "partOf": "100m Butterfly",
+          "splits": [
+            ""
+          ]
         }
       ]
     },
@@ -629,20 +649,6 @@
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "1.06,01",
-          "Dato": "07.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "81",
-          "RA": "474",
-          "pid": "3962023",
-          "splits": [
-            "32,0",
-            "34,01"
-          ]
-        },
         {
           "Tid": "1.11,87",
           "Dato": "14.06.2025",
@@ -859,26 +865,26 @@
             "42,58",
             "46,45"
           ]
+        },
+        {
+          "Tid": "1.06,01",
+          "Dato": "07.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "84",
+          "RA": "507",
+          "pid": "4182220",
+          "splits": [
+            "32,0",
+            "34,01"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Butterfly",
       "races": [
-        {
-          "Tid": "1.18,94",
-          "Dato": "06.06.2026",
-          "Sted": "Fredrikstad",
-          "Basseng": "50m",
-          "D": "",
-          "RK": "46",
-          "RA": "285",
-          "pid": "3961563",
-          "splits": [
-            "36,10",
-            "42,84"
-          ]
-        },
         {
           "Tid": "1.22,12",
           "Dato": "12.10.2025",
@@ -992,6 +998,20 @@
             "59,07"
           ],
           "partOf": "200m Butterfly"
+        },
+        {
+          "Tid": "1.18,94",
+          "Dato": "06.06.2026",
+          "Sted": "Fredrikstad",
+          "Basseng": "50m",
+          "D": "",
+          "RK": "50",
+          "RA": "300",
+          "pid": "4181755",
+          "splits": [
+            "36,10",
+            "42,84"
+          ]
         }
       ]
     },

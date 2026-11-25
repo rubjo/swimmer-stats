@@ -4,20 +4,53 @@
   "club": "Sandnes SLK",
   "birthYear": 2015,
   "gender": "male",
-  "timestamp": "2026-10-11T23:21:52.786Z",
+  "timestamp": "2026-11-24T22:25:11.251Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "40,31",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4245401",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,63",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4271999",
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "40,94",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4244808",
+          "partOf": "100m Fri"
+        },
         {
           "Tid": "38,40",
           "Dato": "25.09.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
-          "RK": "44",
-          "RA": "1483",
-          "pid": "4009116"
+          "RK": "52",
+          "RA": "1585",
+          "pid": "4227260"
         }
       ]
     },
@@ -25,14 +58,155 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "50,74",
+          "Dato": "07.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4271293"
+        },
+        {
           "Tid": "53,60",
           "Dato": "26.09.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4227096"
+        },
+        {
+          "Tid": "57,04",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4244575",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.27,90",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "D",
           "RK": "52",
-          "RA": "1250",
-          "pid": "4008953"
+          "RA": "1406",
+          "pid": "4272000",
+          "splits": [
+            "40,63",
+            "47,27"
+          ],
+          "partOf": "200m Fri"
+        },
+        {
+          "Tid": "1.28,78",
+          "Dato": "16.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4244807",
+          "splits": [
+            "40,94",
+            "47,84"
+          ]
+        },
+        {
+          "Tid": "1.31,12",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4245402",
+          "splits": [
+            "40,31",
+            "50,81"
+          ],
+          "partOf": "200m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.56,32",
+          "Dato": "18.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "60",
+          "RA": "1134",
+          "pid": "4244574",
+          "splits": [
+            "57,04",
+            "59,28"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "200m Fri",
+      "races": [
+        {
+          "Tid": "3.03,79",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4271998",
+          "splits": [
+            "40,63",
+            "47,27",
+            "49,06",
+            "46,83"
+          ]
+        },
+        {
+          "Tid": "3.12,75",
+          "Dato": "17.10.2026",
+          "Sted": "Sandnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4245400",
+          "splits": [
+            "40,31",
+            "50,81",
+            "51,48",
+            "50,15"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "50,72",
+          "Dato": "08.11.2026",
+          "Sted": "Klepp",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "74",
+          "RA": "1111",
+          "pid": "4271227"
         }
       ]
     }

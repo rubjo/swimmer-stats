@@ -1,0 +1,70 @@
+{
+  "swimmerId": "56383",
+  "name": "Zoe Bachamp",
+  "club": "Lambertseter SK",
+  "birthYear": 2014,
+  "gender": "female",
+  "timestamp": "2026-11-24T09:32:22.716Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "47,43",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "302",
+          "RA": "2074",
+          "pid": "4258904"
+        },
+        {
+          "Tid": "48,67",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4269409",
+          "partOf": "100m Fri"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
+        {
+          "Tid": "57,86",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "228",
+          "RA": "1446",
+          "pid": "4268351"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.49,53",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "269",
+          "RA": "1805",
+          "pid": "4269408",
+          "splits": [
+            "48,67",
+            "1.00,86"
+          ]
+        }
+      ]
+    }
+  ]
+}

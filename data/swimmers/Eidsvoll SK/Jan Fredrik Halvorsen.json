@@ -4,55 +4,11 @@
   "club": "Eidsvoll SK",
   "birthYear": 1998,
   "gender": "male",
-  "timestamp": "2026-06-23T08:44:02.426Z",
+  "timestamp": "2026-11-23T12:05:34.457Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "26,08",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "97",
-          "RA": "188",
-          "pid": "3900187"
-        },
-        {
-          "Tid": "26,16",
-          "Dato": "22.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3902193"
-        },
-        {
-          "Tid": "26,22",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "F",
-          "RK": "",
-          "RA": "",
-          "pid": "3902132"
-        },
-        {
-          "Tid": "27,99",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900786",
-          "splits": [
-            ""
-          ],
-          "partOf": "100m Fri"
-        },
         {
           "Tid": "29,10",
           "Dato": "05.03.2016",
@@ -1674,32 +1630,56 @@
             ""
           ],
           "partOf": "400m Fri"
-        }
-      ]
-    },
-    {
-      "distanse": "50m Rygg",
-      "races": [
+        },
         {
-          "Tid": "29,99",
+          "Tid": "26,08",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "312",
+          "pid": "4120576"
+        },
+        {
+          "Tid": "26,16",
+          "Dato": "22.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4122639"
+        },
+        {
+          "Tid": "26,22",
           "Dato": "21.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
           "D": "F",
           "RK": "",
           "RA": "",
-          "pid": "3902319"
+          "pid": "4122578"
         },
         {
-          "Tid": "30,43",
+          "Tid": "27,99",
           "Dato": "20.03.2026",
           "Sted": "Stavanger",
           "Basseng": "25m",
-          "D": "F",
+          "D": "D",
           "RK": "",
           "RA": "",
-          "pid": "3902252"
-        },
+          "pid": "4121182",
+          "partOf": "100m Fri",
+          "splits": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Rygg",
+      "races": [
         {
           "Tid": "31,65",
           "Dato": "25.10.2014",
@@ -1899,6 +1879,26 @@
           "RK": "",
           "RA": "768",
           "pid": "392119"
+        },
+        {
+          "Tid": "29,99",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "70",
+          "RA": "186",
+          "pid": "4122767"
+        },
+        {
+          "Tid": "30,43",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4122700"
         }
       ]
     },
@@ -3495,20 +3495,6 @@
     {
       "distanse": "100m Fri",
       "races": [
-        {
-          "Tid": "58,25",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3900785",
-          "splits": [
-            "27,99",
-            "30,26"
-          ]
-        },
         {
           "Tid": "59,56",
           "Dato": "26.10.2014",
@@ -5180,6 +5166,20 @@
             "54,98"
           ],
           "partOf": "400m Fri"
+        },
+        {
+          "Tid": "58,25",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "115",
+          "RA": "302",
+          "pid": "4121181",
+          "splits": [
+            "27,99",
+            "30,26"
+          ]
         }
       ]
     },

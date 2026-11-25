@@ -4,20 +4,61 @@
   "club": "Ullensakersvømmerne",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T21:50:37.235Z",
+  "timestamp": "2026-11-24T22:35:54.005Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
+        {
+          "Tid": "46,30",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4268574"
+        },
+        {
+          "Tid": "46,85",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "F",
+          "RK": "",
+          "RA": "",
+          "pid": "4271099"
+        },
+        {
+          "Tid": "48,39",
+          "Dato": "24.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4258808"
+        },
         {
           "Tid": "49,04",
           "Dato": "11.10.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "214",
-          "RA": "1975",
-          "pid": "4022370"
+          "RK": "",
+          "RA": "",
+          "pid": "4240590"
+        },
+        {
+          "Tid": "56,87",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4269347",
+          "partOf": "100m Fri"
         }
       ]
     },
@@ -30,9 +71,9 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "170",
-          "RA": "1353",
-          "pid": "4022169"
+          "RK": "",
+          "RA": "",
+          "pid": "4240387"
         }
       ]
     },
@@ -40,14 +81,34 @@
       "distanse": "50m Bryst",
       "races": [
         {
+          "Tid": "1.11,15",
+          "Dato": "25.10.2026",
+          "Sted": "Manglerud",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "266",
+          "RA": "1942",
+          "pid": "4258584"
+        },
+        {
+          "Tid": "1.14,33",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4268423"
+        },
+        {
           "Tid": "1.17,41",
           "Dato": "10.10.2026",
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "233",
-          "RA": "1808",
-          "pid": "4022272"
+          "RK": "",
+          "RA": "",
+          "pid": "4240491"
         }
       ]
     },
@@ -60,12 +121,31 @@
           "Sted": "Sarpsborg",
           "Basseng": "25m",
           "D": "",
-          "RK": "180",
-          "RA": "1274",
-          "pid": "4022983",
+          "RK": "198",
+          "RA": "1441",
+          "pid": "4241211",
           "splits": [
             "1.10,56",
             "1.18,35"
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "100m Fri",
+      "races": [
+        {
+          "Tid": "1.56,54",
+          "Dato": "08.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4269346",
+          "splits": [
+            "56,87",
+            "59,67"
           ]
         }
       ]

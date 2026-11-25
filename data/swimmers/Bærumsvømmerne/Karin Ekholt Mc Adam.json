@@ -4,7 +4,7 @@
   "club": "Bærumsvømmerne",
   "birthYear": 1989,
   "gender": "female",
-  "timestamp": "2026-06-28T02:29:37.571Z",
+  "timestamp": "2026-11-23T11:56:52.848Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
@@ -1517,16 +1517,6 @@
           "partOf": "100m Bryst"
         },
         {
-          "Tid": "36,76",
-          "Dato": "20.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "45",
-          "RA": "101",
-          "pid": "3900160"
-        },
-        {
           "Tid": "36,81",
           "Dato": "13.07.2008",
           "Sted": "Hamar",
@@ -1791,17 +1781,6 @@
           "pid": "3664379"
         },
         {
-          "Tid": "37,95",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3900700",
-          "partOf": "100m Bryst"
-        },
-        {
           "Tid": "38,10",
           "Dato": "09.03.2008",
           "Sted": "Berlin",
@@ -1874,6 +1853,27 @@
           "RK": "",
           "RA": "",
           "pid": "2993318",
+          "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "36,76",
+          "Dato": "20.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "31",
+          "RA": "140",
+          "pid": "4120549"
+        },
+        {
+          "Tid": "37,95",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4121096",
           "partOf": "100m Bryst"
         }
       ]
@@ -3746,20 +3746,6 @@
           ]
         },
         {
-          "Tid": "1.21,70",
-          "Dato": "21.03.2026",
-          "Sted": "Stavanger",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "35",
-          "RA": "89",
-          "pid": "3900699",
-          "splits": [
-            "37,95",
-            "43,75"
-          ]
-        },
-        {
           "Tid": "1.21,87",
           "Dato": "14.10.2016",
           "Sted": "Asker",
@@ -3857,6 +3843,20 @@
           "splits": [
             "1.25,80",
             "1.33,41"
+          ]
+        },
+        {
+          "Tid": "1.21,70",
+          "Dato": "21.03.2026",
+          "Sted": "Stavanger",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "27",
+          "RA": "128",
+          "pid": "4121095",
+          "splits": [
+            "37,95",
+            "43,75"
           ]
         }
       ]

@@ -4,21 +4,42 @@
   "club": "Bergen Vest SK",
   "birthYear": 2015,
   "gender": "female",
-  "timestamp": "2026-10-11T22:53:21.993Z",
+  "timestamp": "2026-11-24T23:14:36.502Z",
   "disciplines": [
     {
       "distanse": "50m Bryst",
       "races": [
+        {
+          "Tid": "57,37",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4248453"
+        },
         {
           "Tid": "58,65",
           "Dato": "06.09.2026",
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "D",
-          "RK": "177",
-          "RA": "1610",
-          "pid": "4004602",
+          "RK": "",
+          "RA": "",
+          "pid": "4209995",
           "partOf": "100m Bryst"
+        },
+        {
+          "Tid": "55,89",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "178",
+          "RA": "1609",
+          "pid": "4280342",
+          "partOf": "200m Bryst"
         }
       ]
     },
@@ -31,12 +52,82 @@
           "Sted": "Åstveit",
           "Basseng": "25m",
           "D": "",
-          "RK": "135",
-          "RA": "1302",
-          "pid": "4004601",
+          "RK": "",
+          "RA": "",
+          "pid": "4209994",
           "splits": [
             "58,65",
             "1.02,66"
+          ]
+        },
+        {
+          "Tid": "1.56,31",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "128",
+          "RA": "1279",
+          "pid": "4280343",
+          "splits": [
+            "55,89",
+            "1.00,42"
+          ],
+          "partOf": "200m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Rygg",
+      "races": [
+        {
+          "Tid": "2.10,00",
+          "Dato": "18.10.2026",
+          "Sted": "Stemmemyren",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4248585",
+          "splits": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "54,38",
+          "Dato": "21.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4279597"
+        }
+      ]
+    },
+    {
+      "distanse": "200m Bryst",
+      "races": [
+        {
+          "Tid": "3.59,53",
+          "Dato": "22.11.2026",
+          "Sted": "Ågotnes",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "81",
+          "RA": "998",
+          "pid": "4280341",
+          "splits": [
+            "55,89",
+            "1.00,42",
+            "1.01,66",
+            "1.01,56"
           ]
         }
       ]

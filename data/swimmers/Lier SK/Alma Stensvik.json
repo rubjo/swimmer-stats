@@ -1,0 +1,70 @@
+{
+  "swimmerId": "56355",
+  "name": "Alma Stensvik",
+  "club": "Lier SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-11-24T22:31:45.108Z",
+  "disciplines": [
+    {
+      "distanse": "50m Fri",
+      "races": [
+        {
+          "Tid": "43,73",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4278075"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "54,15",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "155",
+          "RA": "1522",
+          "pid": "4277941"
+        },
+        {
+          "Tid": "54,90",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4278386",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "1.57,35",
+          "Dato": "21.11.2026",
+          "Sted": "Sandefjord",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "137",
+          "RA": "1305",
+          "pid": "4278385",
+          "splits": [
+            "54,90",
+            "1.02,45"
+          ]
+        }
+      ]
+    }
+  ]
+}

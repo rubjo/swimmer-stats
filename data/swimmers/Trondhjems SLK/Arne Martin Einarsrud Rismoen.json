@@ -4,31 +4,11 @@
   "club": "Trondhjems SLK",
   "birthYear": 2006,
   "gender": "male",
-  "timestamp": "2026-06-30T03:44:04.131Z",
+  "timestamp": "2026-11-23T13:57:14.071Z",
   "disciplines": [
     {
       "distanse": "50m Fri",
       "races": [
-        {
-          "Tid": "30,05",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "222",
-          "RA": "699",
-          "pid": "3859294"
-        },
-        {
-          "Tid": "30,22",
-          "Dato": "13.06.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "",
-          "RA": "",
-          "pid": "3966413"
-        },
         {
           "Tid": "30,92",
           "Dato": "02.03.2024",
@@ -369,22 +349,32 @@
           "RA": "",
           "pid": "2364214",
           "partOf": "200m Fri"
+        },
+        {
+          "Tid": "30,05",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "273",
+          "RA": "897",
+          "pid": "4076447"
+        },
+        {
+          "Tid": "30,22",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4186494"
         }
       ]
     },
     {
       "distanse": "50m Butterfly",
       "races": [
-        {
-          "Tid": "32,69",
-          "Dato": "13.06.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "168",
-          "RA": "556",
-          "pid": "3966215"
-        },
         {
           "Tid": "33,17",
           "Dato": "21.06.2025",
@@ -455,17 +445,6 @@
           "RK": "",
           "RA": "",
           "pid": "3345169"
-        },
-        {
-          "Tid": "36,49",
-          "Dato": "13.06.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "D",
-          "RK": "",
-          "RA": "",
-          "pid": "3966522",
-          "partOf": "100m Butterfly"
         },
         {
           "Tid": "38,06",
@@ -657,6 +636,27 @@
           "RA": "",
           "pid": "2364394",
           "partOf": "200m Individuell medley"
+        },
+        {
+          "Tid": "32,69",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "208",
+          "RA": "695",
+          "pid": "4186296"
+        },
+        {
+          "Tid": "36,49",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "",
+          "RA": "",
+          "pid": "4186604",
+          "partOf": "100m Butterfly"
         }
       ]
     },
@@ -1231,20 +1231,6 @@
       "distanse": "100m Individuell medley",
       "races": [
         {
-          "Tid": "1.17,67",
-          "Dato": "25.01.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "68",
-          "RA": "325",
-          "pid": "3859307",
-          "splits": [
-            "34,44",
-            "43,23"
-          ]
-        },
-        {
           "Tid": "1.20,98",
           "Dato": "08.06.2024",
           "Sted": "Trondheim",
@@ -1313,26 +1299,26 @@
             "56,47",
             "59,52"
           ]
+        },
+        {
+          "Tid": "1.17,67",
+          "Dato": "25.01.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "110",
+          "RA": "542",
+          "pid": "4077945",
+          "splits": [
+            "34,44",
+            "43,23"
+          ]
         }
       ]
     },
     {
       "distanse": "100m Butterfly",
       "races": [
-        {
-          "Tid": "1.18,85",
-          "Dato": "13.06.2026",
-          "Sted": "Trondheim",
-          "Basseng": "25m",
-          "D": "",
-          "RK": "83",
-          "RA": "461",
-          "pid": "3966521",
-          "splits": [
-            "36,49",
-            "42,36"
-          ]
-        },
         {
           "Tid": "1.41,70",
           "Dato": "19.09.2020",
@@ -1387,6 +1373,20 @@
           "splits": [
             "1.07,68",
             "1.20,96"
+          ]
+        },
+        {
+          "Tid": "1.18,85",
+          "Dato": "13.06.2026",
+          "Sted": "Trondheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "111",
+          "RA": "542",
+          "pid": "4186603",
+          "splits": [
+            "36,49",
+            "42,36"
           ]
         }
       ]

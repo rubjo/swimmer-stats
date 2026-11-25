@@ -1,0 +1,60 @@
+{
+  "swimmerId": "52952",
+  "name": "Thea Amalie Gravli Tuv",
+  "club": "Lambertseter SK",
+  "birthYear": 2015,
+  "gender": "female",
+  "timestamp": "2026-11-25T00:28:15.594Z",
+  "disciplines": [
+    {
+      "distanse": "50m Butterfly",
+      "races": [
+        {
+          "Tid": "1.16,28",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "",
+          "RA": "",
+          "pid": "4268262"
+        }
+      ]
+    },
+    {
+      "distanse": "50m Bryst",
+      "races": [
+        {
+          "Tid": "1.18,51",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "D",
+          "RK": "276",
+          "RA": "1978",
+          "pid": "4269144",
+          "partOf": "100m Bryst"
+        }
+      ]
+    },
+    {
+      "distanse": "100m Bryst",
+      "races": [
+        {
+          "Tid": "2.49,35",
+          "Dato": "07.11.2026",
+          "Sted": "Jessheim",
+          "Basseng": "25m",
+          "D": "",
+          "RK": "227",
+          "RA": "1646",
+          "pid": "4269143",
+          "splits": [
+            "1.18,51",
+            "1.30,84"
+          ]
+        }
+      ]
+    }
+  ]
+}
