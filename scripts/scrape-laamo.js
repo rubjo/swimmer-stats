@@ -7,6 +7,7 @@
  *   node scripts/scrape-laamo.js            the two newest lists (daily run)
  *   node scripts/scrape-laamo.js 17 16      these lists
  *   node scripts/scrape-laamo.js --all      every list in medley's menu (backfill)
+ *   node scripts/scrape-laamo.js --index    rebuild <slid>/<born>.json + index.json only
  *
  * The page is DevExpress: the filters are combos and radios whose change
  * handlers call grdAam.PerformCallback() (a partial-page POST), and clicking
@@ -413,14 +414,43 @@ async function scrapeList(page, slid) {
   };
 }
 
+/**
+ * The list split by birth year: data/laamo/<slid>/<born>.json, the list's
+ * metadata with only that year's classes and rows (both genders, Para too).
+ * The app loads these, not the whole list (up to ~0.9 MB): a swimmer needs
+ * one per list, and the ranking modal one per class it shows.
+ */
+function writeParts(data) {
+  const dir = path.join(OUT_DIR, String(data.slid));
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+  const { rows, classes, ...meta } = data;
+  for (const born of bornYears(data)) {
+    fs.writeFileSync(
+      path.join(dir, `${born}.json`),
+      JSON.stringify({
+        ...meta,
+        born,
+        classes: classes.filter((c) => c.born === born),
+        rows: rows.filter((r) => r.born === born),
+      }),
+    );
+  }
+}
+
+const bornYears = (data) => [...new Set(data.classes.map((c) => c.born))].sort((a, b) => a - b);
+
 function writeIndex() {
   const lists = fs
     .readdirSync(OUT_DIR)
     .filter((f) => /^\d+\.json$/.test(f))
     .map((f) => JSON.parse(fs.readFileSync(path.join(OUT_DIR, f), "utf-8")))
-    .map(({ slid, kind, year, title, period, scrapedAt, rows }) => ({
-      slid, kind, year, title, period, scrapedAt, rows: rows.length,
-    }))
+    .map((data) => {
+      const { slid, kind, year, title, period, scrapedAt, rows } = data;
+      // Lists scraped before the parts existed get them here.
+      if (!fs.existsSync(path.join(OUT_DIR, String(slid)))) writeParts(data);
+      return { slid, kind, year, title, period, scrapedAt, rows: rows.length, born: bornYears(data) };
+    })
     .sort((a, b) => b.slid - a.slid);
   fs.writeFileSync(
     path.join(OUT_DIR, "index.json"),
@@ -430,6 +460,17 @@ function writeIndex() {
 
 const args = process.argv.slice(2);
 fs.mkdirSync(OUT_DIR, { recursive: true });
+
+// Rebuild the per-birth-year parts and index.json from the lists on disk,
+// without touching medley.
+if (args.includes("--index")) {
+  for (const f of fs.readdirSync(OUT_DIR).filter((f) => /^\d+\.json$/.test(f))) {
+    writeParts(JSON.parse(fs.readFileSync(path.join(OUT_DIR, f), "utf-8")));
+  }
+  writeIndex();
+  log("rebuilt parts and index.json");
+  process.exit(0);
+}
 
 const browser = await puppeteer.launch({ headless: true });
 const page = await browser.newPage();
@@ -469,6 +510,7 @@ try {
         if (serverErrors) throw new Error(`${serverErrors} server error(s) from medley`);
         if (!data.rows.length) throw new Error("no rows");
         fs.writeFileSync(path.join(OUT_DIR, `${slid}.json`), JSON.stringify(data));
+        writeParts(data);
         log(`  wrote ${slid}.json: ${data.rows.length} rows, ${problems.length} problem(s)`);
         break;
       } catch (e) {
