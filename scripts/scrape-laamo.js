@@ -47,7 +47,10 @@ async function settle(page) {
   await page.waitForFunction(
     () =>
       ["grdAam", "cmbKlubb"].every(
-        (n) => !ASPxClientControl.GetControlCollection().GetByName(n)?.InCallback?.(),
+        (n) =>
+          !ASPxClientControl.GetControlCollection()
+            .GetByName(n)
+            ?.InCallback?.(),
       ),
     { polling: 100, timeout: 90_000 },
   );
@@ -102,14 +105,24 @@ async function comboItems(page, name) {
  */
 async function readGrid(page) {
   const first = await readGridPage(page);
-  if (first.footer == null || linkedRows(first.rows) >= first.footer) return first;
+  if (first.footer == null || linkedRows(first.rows) >= first.footer)
+    return first;
 
   const pages = await page.evaluate(
-    () => ASPxClientControl.GetControlCollection().GetByName("grdAam").GetPageCount?.() || 1,
+    () =>
+      ASPxClientControl.GetControlCollection()
+        .GetByName("grdAam")
+        .GetPageCount?.() || 1,
   );
   const rows = [...first.rows];
   for (let p = 1; p < pages && linkedRows(rows) < first.footer; p++) {
-    await page.evaluate((p) => ASPxClientControl.GetControlCollection().GetByName("grdAam").GotoPage(p), p);
+    await page.evaluate(
+      (p) =>
+        ASPxClientControl.GetControlCollection()
+          .GetByName("grdAam")
+          .GotoPage(p),
+      p,
+    );
     await settle(page);
     rows.push(...(await readGridPage(page)).rows);
   }
@@ -122,7 +135,9 @@ async function readGrid(page) {
  * ones made a 279-row grid look short and sent it paging (server errors).
  */
 function linkedRows(rows) {
-  return rows.filter((r) => r.hrefs.some((h) => /svommer\.aspx\?id=\d+/.test(h || ""))).length;
+  return rows.filter((r) =>
+    r.hrefs.some((h) => /svommer\.aspx\?id=\d+/.test(h || "")),
+  ).length;
 }
 
 async function readGridPage(page) {
@@ -138,13 +153,20 @@ async function readGridPage(page) {
       const t = cells(tr).map((td) => td.innerText.trim());
       return tr.cells.length < 30 && t.includes("Navn") && t.includes("Poeng");
     };
-    const head = trs.find(isHead) || [...document.querySelectorAll("tr")].find(isHead);
+    const head =
+      trs.find(isHead) || [...document.querySelectorAll("tr")].find(isHead);
     const header = head ? cells(head).map((td) => td.innerText.trim()) : null;
     const rows = trs
-      .filter((tr) => /DXDataRow/.test(tr.id) || (header && tr.cells.length === header.length && tr !== head))
+      .filter(
+        (tr) =>
+          /DXDataRow/.test(tr.id) ||
+          (header && tr.cells.length === header.length && tr !== head),
+      )
       .map((tr) => ({
         texts: cells(tr).map((td) => td.innerText.trim()),
-        hrefs: cells(tr).map((td) => td.querySelector("a[href]")?.getAttribute("href") || null),
+        hrefs: cells(tr).map(
+          (td) => td.querySelector("a[href]")?.getAttribute("href") || null,
+        ),
         // What a cell shows besides text (ÅM's "Påmeldt" is not text): a
         // checkbox's state or class, an image's title / alt / file name.
         marks: cells(tr).map((td) => {
@@ -152,9 +174,16 @@ async function readGridPage(page) {
           if (box) return box.checked ? "checked" : "unchecked";
           const icon = td.querySelector("[class*=heck], img, svg");
           if (!icon) return null;
-          return [icon.getAttribute("class"), icon.getAttribute("title"), icon.getAttribute("alt"), icon.getAttribute("src")]
-            .filter(Boolean)
-            .join(" ") || "icon";
+          return (
+            [
+              icon.getAttribute("class"),
+              icon.getAttribute("title"),
+              icon.getAttribute("alt"),
+              icon.getAttribute("src"),
+            ]
+              .filter(Boolean)
+              .join(" ") || "icon"
+          );
         }),
       }));
     const footer = grid.innerText.match(/Antall\s*=\s*(\d+)/)?.[1];
@@ -168,9 +197,9 @@ async function readGridPage(page) {
 async function readMeta(page) {
   return page.evaluate(() => {
     // Not the menu: it names every list ("ÅM 2026", "LÅMØ 2025", …).
-    const els = [...document.querySelectorAll("td, div, span, h1, h2, h3")].filter(
-      (el) => !el.closest("a, li, nav, ul"),
-    );
+    const els = [
+      ...document.querySelectorAll("td, div, span, h1, h2, h3"),
+    ].filter((el) => !el.closest("a, li, nav, ul"));
     const title = els
       .map((el) => el.innerText?.trim())
       .find((t) => /^(LÅMØ|ÅMØ|ÅM)\s+\d{4}$/i.test(t || ""));
@@ -178,7 +207,9 @@ async function readMeta(page) {
     // starts with "Listen inneholder" is only its first line. Take the
     // DevExpress info panel's text, else the largest such element that is
     // still above the filters ("Landsdel:").
-    const panel = ASPxClientControl.GetControlCollection().GetByName("panInfo")?.GetMainElement?.();
+    const panel = ASPxClientControl.GetControlCollection()
+      .GetByName("panInfo")
+      ?.GetMainElement?.();
     const fromPanel = panel?.innerText.trim().replace(/^Info\s*/, "");
     const info =
       (/Listen inneholder/i.test(fromPanel || "") && fromPanel) ||
@@ -220,7 +251,8 @@ function laamoLists() {
  */
 function laamoListFor(year) {
   const lists = laamoLists().sort(
-    (a, b) => Math.abs(a.year - year) - Math.abs(b.year - year) || a.year - b.year,
+    (a, b) =>
+      Math.abs(a.year - year) - Math.abs(b.year - year) || a.year - b.year,
   );
   return lists[0] || null;
 }
@@ -255,7 +287,8 @@ function clubDistrictsFromOtherLists(districts, slid) {
   const map = new Map();
   for (const l of laamoLists()) {
     if (l.slid === slid || districtKey(l.districts) !== key) continue;
-    for (const r of l.rows) if (r.district != null && !map.has(r.club)) map.set(r.club, r.district);
+    for (const r of l.rows)
+      if (r.district != null && !map.has(r.club)) map.set(r.club, r.district);
   }
   for (const [club, name] of Object.entries(CLOSED_CLUBS)) {
     const d = districts.find((d) => d.name === name);
@@ -276,22 +309,35 @@ async function chooseAll(page) {
     ASPxClientControl.GetControlCollection().ForEachControl((c) => {
       if (typeof c.SetChecked !== "function" || known.has(c.name)) return;
       const el = c.GetMainElement?.();
-      const text = (c.GetText?.() || el?.innerText || el?.closest("td")?.innerText || "").trim();
+      const text = (
+        c.GetText?.() ||
+        el?.innerText ||
+        el?.closest("td")?.innerText ||
+        ""
+      ).trim();
       out.push({ name: c.name, text, checked: c.GetChecked() });
     });
     return out;
   });
   if (!radios.length) return;
-  log(`  other radios: ${radios.map((r) => `${r.name} "${r.text}"${r.checked ? " ✓" : ""}`).join(", ")}`);
-  const all = radios.find((r) => /^alle$/i.test(r.text)) || radios.find((r) => /alle/i.test(r.text));
+  log(
+    `  other radios: ${radios.map((r) => `${r.name} "${r.text}"${r.checked ? " ✓" : ""}`).join(", ")}`,
+  );
+  const all =
+    radios.find((r) => /^alle$/i.test(r.text)) ||
+    radios.find((r) => /alle/i.test(r.text));
   if (all && !all.checked) await setRadio(page, all.name);
 }
 
 async function scrapeList(page, slid) {
-  await page.goto(`${BASE}?slid=${slid}`, { waitUntil: "networkidle2", timeout: 90_000 });
+  await page.goto(`${BASE}?slid=${slid}`, {
+    waitUntil: "networkidle2",
+    timeout: 90_000,
+  });
   const meta = await readMeta(page);
   const parsed = parseTitle(meta.title);
-  if (!parsed) throw new Error(`slid ${slid}: no LÅMØ/ÅM title (got ${meta.title})`);
+  if (!parsed)
+    throw new Error(`slid ${slid}: no LÅMØ/ÅM title (got ${meta.title})`);
   log(`slid ${slid}: ${meta.title}`);
 
   // Districts and their clubs. ÅM is national and its page has no district
@@ -319,7 +365,8 @@ async function scrapeList(page, slid) {
     const source = laamoListFor(parsed.year);
     if (source) {
       districts = source.districts;
-      for (const r of source.rows) if (r.district != null) clubDistrict.set(r.club, r.district);
+      for (const r of source.rows)
+        if (r.district != null) clubDistrict.set(r.club, r.district);
       log(`  districts from ${source.title}`);
     } else {
       log("  no LÅMØ list on disk to take districts from; scrape one first");
@@ -330,7 +377,11 @@ async function scrapeList(page, slid) {
   await chooseAll(page);
 
   const classItems = (await comboItems(page, "cmbKlasse"))
-    .map((c) => ({ id: Number(c.value), label: c.text, ...parseClassLabel(c.text) }))
+    .map((c) => ({
+      id: Number(c.value),
+      label: c.text,
+      ...parseClassLabel(c.text),
+    }))
     .filter((c) => c.born);
 
   const classes = [];
@@ -367,10 +418,14 @@ async function scrapeList(page, slid) {
         // better-ranked one; the repeat is reported.
         const linked = linkedRows(grid.rows);
         if (grid.footer != null && grid.footer !== linked) {
-          throw new Error(`${c.label} ${gender} ${view}: ${linked} rows, footer says ${grid.footer}`);
+          throw new Error(
+            `${c.label} ${gender} ${view}: ${linked} rows, footer says ${grid.footer}`,
+          );
         }
         if (view === "Tid" && linked > g.rows.length) {
-          problems.push(`${c.label} ${gender}: ${linked - g.rows.length} swimmer(s) listed twice, first row kept`);
+          problems.push(
+            `${c.label} ${gender}: ${linked - g.rows.length} swimmer(s) listed twice, first row kept`,
+          );
         }
         views[view].set(c.id, g);
       }
@@ -383,22 +438,34 @@ async function scrapeList(page, slid) {
         para: c.para,
         districtOf,
       });
-      classes.push({ id: c.id, label: c.label, born: c.born, para: c.para, gender, events: m.events });
+      classes.push({
+        id: c.id,
+        label: c.label,
+        born: c.born,
+        para: c.para,
+        gender,
+        events: m.events,
+      });
       rows.push(...m.rows);
       problems.push(...m.problems.map((p) => `${c.label} ${gender}: ${p}`));
       log(`  ${c.label} ${gender}: ${m.rows.length}`);
     }
   }
 
-  if (unmapped.size) problems.push(`clubs with no district: ${[...unmapped].join(", ")}`);
+  if (unmapped.size)
+    problems.push(`clubs with no district: ${[...unmapped].join(", ")}`);
   // A held ÅM has ~30 entered per class; none means "Påmeldt" wasn't read.
   if (enteredSamples.length && !rows.some((r) => r.entered)) {
-    problems.push(`nobody marked "Påmeldt"; first cells: ${JSON.stringify(enteredSamples)}`);
+    problems.push(
+      `nobody marked "Påmeldt"; first cells: ${JSON.stringify(enteredSamples)}`,
+    );
   }
   const period = parsePeriod(meta.info);
   // LÅMØ lists state their period; the app's score chart needs both ends.
   if (parsed.kind === "LÅMØ" && !period?.to) {
-    problems.push(`no complete period in the info text: ${JSON.stringify(meta.info.slice(0, 200))}`);
+    problems.push(
+      `no complete period in the info text: ${JSON.stringify(meta.info.slice(0, 200))}`,
+    );
   }
   return {
     slid,
@@ -438,7 +505,8 @@ function writeParts(data) {
   }
 }
 
-const bornYears = (data) => [...new Set(data.classes.map((c) => c.born))].sort((a, b) => a - b);
+const bornYears = (data) =>
+  [...new Set(data.classes.map((c) => c.born))].sort((a, b) => a - b);
 
 function writeIndex() {
   const lists = fs
@@ -449,7 +517,16 @@ function writeIndex() {
       const { slid, kind, year, title, period, scrapedAt, rows } = data;
       // Lists scraped before the parts existed get them here.
       if (!fs.existsSync(path.join(OUT_DIR, String(slid)))) writeParts(data);
-      return { slid, kind, year, title, period, scrapedAt, rows: rows.length, born: bornYears(data) };
+      return {
+        slid,
+        kind,
+        year,
+        title,
+        period,
+        scrapedAt,
+        rows: rows.length,
+        born: bornYears(data),
+      };
     })
     .sort((a, b) => b.slid - a.slid);
   fs.writeFileSync(
@@ -464,7 +541,9 @@ fs.mkdirSync(OUT_DIR, { recursive: true });
 // Rebuild the per-birth-year parts and index.json from the lists on disk,
 // without touching medley.
 if (args.includes("--index")) {
-  for (const f of fs.readdirSync(OUT_DIR).filter((f) => /^\d+\.json$/.test(f))) {
+  for (const f of fs
+    .readdirSync(OUT_DIR)
+    .filter((f) => /^\d+\.json$/.test(f))) {
     writeParts(JSON.parse(fs.readFileSync(path.join(OUT_DIR, f), "utf-8")));
   }
   writeIndex();
@@ -472,7 +551,10 @@ if (args.includes("--index")) {
   process.exit(0);
 }
 
-const browser = await puppeteer.launch({ headless: true });
+const browser = await puppeteer.launch({
+  headless: true,
+  args: ["--no-sandbox", "--disable-setuid-sandbox"],
+});
 const page = await browser.newPage();
 await page.setExtraHTTPHeaders({ "Accept-Language": "nb-NO,nb;q=0.9" });
 // Medley reports failed callbacks in an alert ("Callback mislyktes pga intern
@@ -487,7 +569,10 @@ page.on("dialog", (d) => {
 
 let failed = 0;
 try {
-  await page.goto(`${BASE}?slid=1`, { waitUntil: "networkidle2", timeout: 90_000 });
+  await page.goto(`${BASE}?slid=1`, {
+    waitUntil: "networkidle2",
+    timeout: 90_000,
+  });
   const menu = await listSlids(page);
   const wanted = args.includes("--all")
     ? menu.map((m) => m.slid)
@@ -507,11 +592,17 @@ try {
         const list = await scrapeList(page, slid);
         const { problems, ...data } = list;
         problems.forEach((p) => log(`  ! ${p}`));
-        if (serverErrors) throw new Error(`${serverErrors} server error(s) from medley`);
+        if (serverErrors)
+          throw new Error(`${serverErrors} server error(s) from medley`);
         if (!data.rows.length) throw new Error("no rows");
-        fs.writeFileSync(path.join(OUT_DIR, `${slid}.json`), JSON.stringify(data));
+        fs.writeFileSync(
+          path.join(OUT_DIR, `${slid}.json`),
+          JSON.stringify(data),
+        );
         writeParts(data);
-        log(`  wrote ${slid}.json: ${data.rows.length} rows, ${problems.length} problem(s)`);
+        log(
+          `  wrote ${slid}.json: ${data.rows.length} rows, ${problems.length} problem(s)`,
+        );
         break;
       } catch (e) {
         if (attempt < 2) {
